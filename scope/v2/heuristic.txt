@@ -1,0 +1,14 @@
+Scope review, version 2
+
+Read the official announcement title and body. State the customer action before and after the change. Identify where the customer could already perform it and what changed in the named service. Retain a verbatim source excerpt. If the earlier state is inferred, say so. Never infer that this is a first integration from the word “supports” alone.
+
+Apply the first applicable distinction to the main change in the opening description. Use incidental performance benefits and introductory words such as “launch” only as supporting context.
+
+1. A distinct offering customers can adopt is a new product. Independent provisioning or pricing supports that reading when AWS identifies the offering.
+2. A pricing, support, retirement or maintenance change is operational.
+3. The same operation reaches an additional target, runtime, protocol, region or catalog item: extended. Supporting a new instance type in a managed service usually fits here. An IPv6 facet can coexist with this scope.
+4. Within the same operation and target, a quota, speed, quality, control or number of manual steps changes: improved. Preserve the service_limit and performance facets separately.
+5. Customers gain an operation, workflow or first cross-service data flow: new capability. A new metric stream into another service can fit here. Additional settings on an established stream generally fit improved.
+6. If the announcement establishes only a stage transition or gives insufficient evidence to distinguish the alternatives, use unclear. Record stage separately where available. For multiple independent changes, identify the principal customer action or retain unclear.
+
+Output one label (new_product, operational, extended, improved, new_capability, unclear), before, after and an exact evidence excerpt per record. Readers working independently should reconcile disagreements against the original text before a disputed label is published.

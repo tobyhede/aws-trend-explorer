@@ -1,0 +1,452 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-s3-metadata-generally-available/": {
+    "level": "U",
+    "reason": "S3 Metadata GA describes metadata tables but does not establish a functional change from its prior stage.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-q-developer-cli-agent-command-line/": {
+    "level": "3",
+    "reason": "CLI agent adds local file and code execution operations; source does not establish a new service or substantial independent subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-codebuild-non-container-builds-on-demand-fleets/": {
+    "level": "4",
+    "reason": "Build execution can run directly on host operating systems instead of containers, introducing a materially different execution model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-aurora-dsql-generally-available/": {
+    "level": "3",
+    "reason": "GA explicitly adds backup and audit integrations and an MCP interface; distributed SQL functionality is previously previewed baseline.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-fsx-lustre-new-storage-class/": {
+    "level": "4",
+    "reason": "Elastic Lustre storage automatically changes capacity and tiers data, replacing provisioned storage operation with a managed elastic storage model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-transform-vmware-generally-available/": {
+    "level": "U",
+    "reason": "VMware transformation moves from Q preview to renamed GA service without an explicit functional delta in this source.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/agentic-capabilities-amazon-q-developer-chat-aws-management-console-chat-applications/": {
+    "level": "3",
+    "reason": "Console assistant performs multi-step resource inspection and troubleshooting through AWS tools; agent behavior is a new operation rather than a separate subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-inspector-code-security-shift-security-development/": {
+    "level": "4",
+    "reason": "Inspector adds source-code SAST SCA and IaC scanning across repository workflows, a substantial new code-security subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-public-preview-amazon-elastic-vmware-service-evs/": {
+    "level": "NA",
+    "reason": "The post explicitly expands EVS from private to public preview and promises unchanged functionality; this is an access-stage change.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/ga-accelerate-troubleshooting-amazon-cloudwatch-investigations/": {
+    "level": "U",
+    "reason": "CloudWatch investigations was previously Q operational investigations preview; no distinct GA functional delta is identified.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-relational-database-service-custom-az-deployments/": {
+    "level": "4",
+    "reason": "RDS Custom adds synchronous standby replication and automatic failover, introducing a managed high-availability operating model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-neuron-2-24-pytorch-2-7-inference-enhancements/": {
+    "level": "4",
+    "reason": "Neuron adds disaggregated inference that separates prefill and decode plus context parallelism, changing model execution distribution.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/oracle-database-aws-general-expands-networking-capabilities/": {
+    "level": "3",
+    "reason": "New Transit Gateway Cloud WAN Lattice and RAM integrations are the GA product changes; the underlying Oracle offering is not newly introduced here.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ses-tenant-isolation-automated-reputation-policies/": {
+    "level": "4",
+    "reason": "SES introduces tenant resources with isolated configuration reputation monitoring and automated suspension, a substantial tenant-management subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-directory-service-aws-microsoft-ad-hybrid-edition/": {
+    "level": "4",
+    "reason": "Hybrid AD extends existing domains through managed replicated domain infrastructure rather than creating separate cloud directories.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-general-availability-amazon-elastic-evs/": {
+    "level": "U",
+    "reason": "EVS GA restates VCF hosting already offered in public preview, without an established functional GA delta.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-enhances-agent-assistance-capabilities/": {
+    "level": "3",
+    "reason": "Connect assistance executes tasks for representatives; this is a distinct assistance operation rather than evidence of a new execution platform.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-data-agent-analytics-ai-ml-development/": {
+    "level": "3",
+    "reason": "Data Agent generates notebook plans and SQL/Python code from prompts, adding an interactive development operation.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-network-firewall-proxy-preview/": {
+    "level": "4",
+    "reason": "Explicit forward proxy with TLS inspection and HTTP filtering introduces a distinct network security subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/elemental-mediaconnect-router/": {
+    "level": "4",
+    "reason": "MediaConnect Router is an independent dynamic live-video routing subsystem across sources destinations and regions.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/opensearch-service-agentic-search/": {
+    "level": "3",
+    "reason": "Agentic Search adds natural-language query planning and execution with tool access; scope is the search interface and operation.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/preview-aws-interconnect-multicloud/": {
+    "level": "5",
+    "reason": "Interconnect multicloud is introduced as a purpose-built managed private connectivity product.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-agentcore-policy-evaluations-preview/": {
+    "level": "4",
+    "reason": "AgentCore adds policy enforcement and evaluation subsystems alongside memory and streaming capabilities.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-cloudwatch-unified-management-analytics/": {
+    "level": "4",
+    "reason": "CloudWatch adds managed mult-source ingestion transformation and unified analytics storage, a substantial data-management subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-nova-forge-frontier-models-nova/": {
+    "level": "5",
+    "reason": "Nova Forge is explicitly a new service for training proprietary frontier models from Nova checkpoints.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-vectors-generally-available/": {
+    "level": "2",
+    "reason": "GA increases scale and adds per-index encryption keys and tag authorization; the vector-storage subsystem already existed in preview.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-ai-factories/": {
+    "level": "5",
+    "reason": "AI Factories is a new dedicated AWS-operated AI infrastructure offering installed in customer data centers.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-security-agent-preview/": {
+    "level": "5",
+    "reason": "Security Agent is a new standalone application security review and penetration-testing offering.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/devops-agent-preview-frontier-agent-operational-excellence/": {
+    "level": "5",
+    "reason": "DevOps Agent is introduced as a standalone managed incident investigation and prevention offering.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-training-amazon-sagemaker-hyperpod/": {
+    "level": "4",
+    "reason": "Training jobs dynamically expand and contract accelerator membership without restarting, changing distributed training execution.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows/": {
+    "level": "4",
+    "reason": "Durable functions add checkpoint replay and suspend/resume programming primitives for long-running Lambda execution.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elemental-inference-generally-avail/": {
+    "level": "5",
+    "reason": "Elemental Inference is explicitly a new managed video inference service, not merely a model value or encoding option.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/": {
+    "level": "U",
+    "reason": "Evaluations GA describes online and on-demand evaluation but does not identify which capabilities are new relative to preview.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-partner-central-agents-accelerate-co-sell/": {
+    "level": "3",
+    "reason": "Partner agents generate sales recommendations and funding requests through console and MCP operations, not a separate operating platform.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/": {
+    "level": "NA",
+    "reason": "Policy GA restates previously previewed natural-language Cedar policies and gateway enforcement without a functional addition.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview/": {
+    "level": "4",
+    "reason": "AgentCore introduces payment orchestration with wallets settlement spending governance and transaction telemetry, a substantial new subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-decisions-april/": {
+    "level": "5",
+    "reason": "Connect Decisions is a new supply-chain planning and intelligence offering with its own specialized tools and trial.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-last-mile/": {
+    "level": "NA",
+    "reason": "Last-mile GA repeats the gated preview connectivity provisioning bandwidth scaling and MACsec capabilities; only availability stage changes.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/": {
+    "level": "4",
+    "reason": "Resilience Hub adds a new hierarchical application model and dependency/failure assessment framework alongside organization policy reporting.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/": {
+    "level": "4",
+    "reason": "ExtendDB implements DynamoDB control and data plane APIs on pluggable backends, a substantial database adapter implementation rather than a thin SDK.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/": {
+    "level": "5",
+    "reason": "Claude Platform on AWS is explicitly a new native-provider access service with its own console and integration boundary.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available/": {
+    "level": "U",
+    "reason": "Managed harness GA restates the orchestration runtime from preview without an explicit GA functional delta.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/": {
+    "level": "4",
+    "reason": "Cognito adds replicated identity credentials and standby authentication pools across regions, a new replication subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/": {
+    "level": "4",
+    "reason": "Quick introduces continuously operating agents with granular autonomy, changing execution from interactive tasks to persistent autonomous work.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/": {
+    "level": "5",
+    "reason": "FinOps Agent is a named standalone cost investigation and recurring workflow service with its own console entry point.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/": {
+    "level": "4",
+    "reason": "Lambda MicroVMs exposes isolated stateful VM environments with suspend/resume, a new compute execution primitive.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache/": {
+    "level": "4",
+    "reason": "ElastiCache adds a durable multi-AZ transactional log and selectable consistency semantics, changing the underlying persistence model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-optimized-log-analytics/": {
+    "level": "4",
+    "reason": "OpenSearch introduces a selectable columnar analytical engine, a new storage and query execution subsystem rather than a speed-only improvement.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-talent/": {
+    "level": "NA",
+    "reason": "Talent GA repeats preview assessment interview and portal capabilities; no substantive new capability is identified.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-gamelift-streams/": {
+    "level": "4",
+    "reason": "GameLift Streams introduces managed application rendering and interactive browser streaming, a substantial new delivery subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/managed-integrations-aws-iot-device-management/": {
+    "level": "4",
+    "reason": "Managed IoT integrations introduces unified multi-protocol device onboarding control and cloud connector infrastructure.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/pyspark-aws-clean-rooms/": {
+    "level": "4",
+    "reason": "Clean Rooms adds arbitrary PySpark code and libraries as a collaborative computation execution model beyond SQL analysis.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-vpc-route-server/": {
+    "level": "4",
+    "reason": "VPC Route Server is a managed BGP control-plane subsystem that dynamically propagates appliance routes.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/general-availability-quarterly-update-amazon-linux-2023-al2023-7/": {
+    "level": "4",
+    "reason": "Amazon Linux adds an integrated graphical desktop environment and remote desktop operation; kernel and package updates are smaller accompanying changes.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-workspaces-core-managed-instances-vdi-migrations/": {
+    "level": "4",
+    "reason": "WorkSpaces provisions and operates flexible EC2 resources in customer accounts through a new managed-instances model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-s3-vectors-preview-native-support-storing-querying-vectors/": {
+    "level": "4",
+    "reason": "S3 Vectors introduces vector buckets indexes and similarity-query APIs, a substantial new storage subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/oracle-database-at-aws-now-generally-available/": {
+    "level": "U",
+    "reason": "Oracle Database GA enumerates product capabilities but does not establish which were absent from its previous stage.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ecs-managed-instances/": {
+    "level": "4",
+    "reason": "ECS assumes EC2 provisioning scaling placement and patching through a new managed compute operating model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-quick-suite-agentic-ai-powered-workspace/": {
+    "level": "5",
+    "reason": "Quick Suite is introduced as a distinct agentic business workspace offering with research automation and a dedicated trial.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-rtb-fabric-generally-available/": {
+    "level": "5",
+    "reason": "RTB Fabric is a new managed AdTech connectivity and inline-processing service.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-eks-capabilities/": {
+    "level": "4",
+    "reason": "EKS introduces AWS-hosted deployment and resource orchestration components outside customer clusters, a managed platform subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-managed-instances/": {
+    "level": "4",
+    "reason": "Lambda executes functions on customer-account EC2 capacity with managed lifecycle and concurrent requests, a new compute operating model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-tenant-isolation-mode/": {
+    "level": "4",
+    "reason": "Lambda changes execution-environment isolation and routing from function-level to tenant-level boundaries.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/gated-preview-interconnect-last-mile/": {
+    "level": "5",
+    "reason": "Last-mile Interconnect is introduced as a distinct managed on-premises connectivity offering.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/notebooks-built-in-ai-agent-amazon-sagemaker/": {
+    "level": "4",
+    "reason": "SageMaker introduces serverless Spark-backed notebook computation spanning SQL Python and ML without provisioning infrastructure.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-hyperpod-checkpointless-training/": {
+    "level": "4",
+    "reason": "HyperPod replaces checkpoint restart with peer-state transfer and live node replacement, changing distributed fault-recovery execution.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/new-serverless-model-customization-capability-amazon-sagemaker-ai/": {
+    "level": "4",
+    "reason": "SageMaker introduces fully serverless customization training with managed data preparation evaluation and deployment workflow.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/sagemaker-ai-serverless-mlflow-ai-development/": {
+    "level": "4",
+    "reason": "MLflow becomes dynamically scaled serverless tracking infrastructure instead of customer-managed tracking server capacity.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/": {
+    "level": "4",
+    "reason": "AgentCore introduces a managed orchestration harness with isolated persistent execution sessions and configurable agent loops.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/": {
+    "level": "5",
+    "reason": "Connect Talent is a distinct hiring product with assessments interviews candidate portal and recruiter workflow.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/": {
+    "level": "4",
+    "reason": "Agent Registry introduces governed catalog discovery and approval infrastructure for agents and tools, beyond a simple search UI.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/": {
+    "level": "4",
+    "reason": "The new managed agent harness and identity-scoped execution offering is substantive; model catalog additions are smaller components.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/custom-applications/": {
+    "level": "3",
+    "reason": "Quick adds natural-language application generation and publishing; source supports a new creation operation but not a separately defined execution platform.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/": {
+    "level": "U",
+    "reason": "Managed Knowledge Base GA lists managed ingestion retrieval and storage but does not establish a prior-stage functional delta.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-continuum/": {
+    "level": "5",
+    "reason": "Continuum introduces a distinct vulnerability validation and remediation offering alongside renamed existing Security Agent components.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-continuous-modernization/": {
+    "level": "4",
+    "reason": "Continuous modernization adds organization-wide recurring analysis prioritization and remediation orchestration across repository portfolios.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/": {
+    "level": "4",
+    "reason": "Oracle adds serverless independent compute/storage scaling and managed database operations without dedicated Exadata clusters.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/": {
+    "level": "4",
+    "reason": "Oracle upgrade adds in-database vector search graph analytics and dual relational/document representation, substantive new engine subsystems.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/": {
+    "level": "4",
+    "reason": "AgentCore adds managed customer-account EC2 capacity and specialized hardware execution distinct from default microVM runtime.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/": {
+    "level": "NA",
+    "reason": "Application-builder GA explicitly references preview users and repeats the same generation connection and publishing capabilities without a new delta.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/live-sync-touchpoint/": {
+    "level": "3",
+    "reason": "Touchpoint introduces an embeddable voice/chat/visual interaction surface; Live Sync was already previewed with CX designer.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/": {
+    "level": "3",
+    "reason": "HyperPod adds a managed inference routing gateway using model and cache signals; this is a bounded routing operation, not a replacement execution model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0/": {
+    "level": "4",
+    "reason": "TorchNeuron adds native eager and compiled PyTorch execution on Trainium, a substantial backend programming model alongside diagnostics.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/": {
+    "level": "4",
+    "reason": "Lambda Web Functions introduces direct HTTP-server programming with concurrent requests active-CPU billing and multi-region routing, matching the agreed anchor.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/": {
+    "level": "5",
+    "reason": "Well-Architected Agent is introduced as a distinct managed recommendation and remediation service evolving prior tools.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/": {
+    "level": "4",
+    "reason": "HyperPod splits prefill and decode onto independently scaled GPU pools with cache transport, changing distributed inference execution.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/": {
+    "level": "4",
+    "reason": "AWS introduces project-scoped onboarding membership automatic role management and spend-enforced resource operation, a new account interaction model.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/": {
+    "level": "4",
+    "reason": "Omni adds a team-space observability workspace with cross-cloud discovery and local agent evaluation workflow, a substantial new product subsystem.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/": {
+    "level": "4",
+    "reason": "Beanstalk changes from per-app dedicated environments to pooled EKS multi-application infrastructure with managed lifecycle.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/": {
+    "level": "3",
+    "reason": "ECS Gateway adds a managed ingress resource that provisions and shares load balancers; it is a bounded deployment/networking capability.",
+    "review": "cross-reader high-level audit by batch1 reader"
+  }
+}

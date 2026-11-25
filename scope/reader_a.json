@@ -1,0 +1,194 @@
+{
+  "001957bf6977951a": {
+    "label": "new_capability",
+    "reason": "Organizations now emits two membership event types that administrators can subscribe to."
+  },
+  "001bfa410402165c": {
+    "label": "new_capability",
+    "reason": "New case APIs let agents link cases, attach custom items and search across them."
+  },
+  "003fa5cdfa91c0ef": {
+    "label": "extended",
+    "reason": "Alerts and scheduled reports are available to registered users in embedded dashboards."
+  },
+  "003fb8fb8d006492": {
+    "label": "extended",
+    "reason": "Federation now works for web apps in Regions beyond the identity instance's original Region."
+  },
+  "007e2d54b53ff2e4": {
+    "label": "improved",
+    "reason": "Customers can set the order in which an existing automatic credit application process pays invoices."
+  },
+  "0085f9731e9753cd": {
+    "label": "new_capability",
+    "reason": "Resource matching identifies and links duplicate FHIR records in a datastore."
+  },
+  "00892f5b25b248ef": {
+    "label": "extended",
+    "reason": "TLS 1.3 support already existed on other proxy connections and now covers PostgreSQL backends."
+  },
+  "00a98d1a12ae638b": {
+    "label": "new_capability",
+    "reason": "The remote connection integrates a developer's local VS Code environment with managed SageMaker compute."
+  },
+  "00af426fa49ea9a1": {
+    "label": "new_capability",
+    "reason": "Replicator now produces and forwards diagnostic logs, supplementing the earlier metrics-only monitoring."
+  },
+  "0100e79f6a0323de": {
+    "label": "improved",
+    "reason": "Cross-account and cross-Region snapshot copying required two steps and now completes in one."
+  },
+  "01063010d299cb15": {
+    "label": "new_capability",
+    "reason": "Customers can write and drive custom training loops through stateful session APIs."
+  },
+  "010f70a4e9e5973e": {
+    "label": "extended",
+    "reason": "The existing EBS initialization-rate setting can now be applied in DRS recovery templates."
+  },
+  "01275f540df29baf": {
+    "label": "improved",
+    "reason": "Additional field, aggregation and formatting controls expand the existing dashboard table customization workflow."
+  },
+  "012955e98c54bd12": {
+    "label": "improved",
+    "reason": "The programmatic IAM reference gains metadata fields and a machine-readable condition-key inventory."
+  },
+  "013fe44945ac375c": {
+    "label": "improved",
+    "reason": "Listing multiple jobs now returns status data that previously required additional describe calls."
+  },
+  "01529009e79c37d7": {
+    "label": "new_capability",
+    "reason": "Firewall rules can now fingerprint traffic using JA4 and emit alerts on pass actions."
+  },
+  "016bf88f106775c0": {
+    "label": "new_capability",
+    "reason": "Callers can request a reasoning summary as a separate model output alongside the answer."
+  },
+  "019a9b7df298cfb5": {
+    "label": "improved",
+    "reason": "Administrators can configure the listening ports and communication mode of existing public SFTP servers."
+  },
+  "01ccddf998c98d6b": {
+    "label": "improved",
+    "reason": "The previous six-Region replication quota is lifted for an existing replication operation."
+  },
+  "01d2ce4c3c50a236": {
+    "label": "improved",
+    "reason": "Administrators gain destination controls over execution logs already delivered to CloudWatch."
+  },
+  "01dffe346ad4f0bd": {
+    "label": "new_capability",
+    "reason": "AgentCore Policy provides an external rule engine for controlling agent tool access at the gateway."
+  },
+  "0200746a3d4843c1": {
+    "label": "new_capability",
+    "reason": "Application map automatically builds and visualizes cross-account service groups and their dependencies."
+  },
+  "0204c0d55fd30e07": {
+    "label": "improved",
+    "reason": "A visual refresh changes the appearance and consistency of the existing agent interface."
+  },
+  "020fa594e0c76059": {
+    "label": "improved",
+    "reason": "A more detailed logging level exposes traffic policy evaluations during troubleshooting."
+  },
+  "023b15329f27bfa2": {
+    "label": "new_capability",
+    "reason": "ECS capacity providers can use EC2 Capacity Reservations through a newly introduced integration."
+  },
+  "023bd4a096167685": {
+    "label": "improved",
+    "reason": "EventBridge raises the allowed event payload from 256 KB to 1 MB."
+  },
+  "023c61a97b83c28a": {
+    "label": "extended",
+    "reason": "Existing SMB transfers can now authenticate through the Kerberos protocol."
+  },
+  "027a10d8ec87c041": {
+    "label": "new_capability",
+    "reason": "Fourteen built-in visual transforms add operations that previously required custom ETL code."
+  },
+  "033b70c0bed52633": {
+    "label": "extended",
+    "reason": "The JumpStart deployment catalog gains two additional third-party model targets."
+  },
+  "0346597181311299": {
+    "label": "new_capability",
+    "reason": "A new Terraform provider integration allows declarative PCS cluster management from Terraform."
+  },
+  "04ea58b4bcbb76e7": {
+    "label": "extended",
+    "reason": "HyperPod now supports training on the EC2 P6-B200 hardware family."
+  },
+  "0513d5f391f2a528": {
+    "label": "new_capability",
+    "reason": "SageMaker Projects introduces provisioning of custom project templates directly from S3."
+  },
+  "06384a1da5f72fa0": {
+    "label": "extended",
+    "reason": "WorkSpaces Applications expands its supported fleet hardware to G7 GPU instances."
+  },
+  "0686455dc760b695": {
+    "label": "extended",
+    "reason": "New and existing messaging endpoints can now operate over IPv6."
+  },
+  "06fce3ab2777b1b5": {
+    "label": "extended",
+    "reason": "The authorization API accepts the Cedar SDK JSON representation in addition to the prior format."
+  },
+  "09d1c53bd97893f6": {
+    "label": "new_capability",
+    "reason": "Teams can create independently persistent workspaces for parallel workstreams within one project."
+  },
+  "0a898384cbb6f465": {
+    "label": "improved",
+    "reason": "Runtime V2 reduces cold starts and reclaims unused memory for the existing agent execution service."
+  },
+  "0b51f1950c6025bf": {
+    "label": "improved",
+    "reason": "The minimum interval for refreshing an existing campaign segment falls from 24 hours to one."
+  },
+  "0d736119dcc46de0": {
+    "label": "extended",
+    "reason": "RDS for Oracle now runs on M6id and R6id hardware, including local NVMe."
+  },
+  "0e513bde4c23880f": {
+    "label": "improved",
+    "reason": "The size limit for an asynchronous Lambda invocation rises to 1 MB."
+  },
+  "0eb8714bf057ff3c": {
+    "label": "extended",
+    "reason": "SageMaker notebooks can now run on P6-B200 hardware."
+  },
+  "119393cfc6588eec": {
+    "label": "improved",
+    "reason": "An EBS-optimized EC2 instance variant offers more bandwidth for the existing compute workload."
+  },
+  "12b7a6390619829d": {
+    "label": "improved",
+    "reason": "A successor to existing EC2 Mac hardware runs the same build workflows faster."
+  },
+  "1593befb19fb3435": {
+    "label": "extended",
+    "reason": "OpenSearch now supports deployment on additional existing Graviton4 instance families."
+  },
+  "1671318fb5a4df82": {
+    "label": "improved",
+    "reason": "The successor R9g families improve memory-intensive workload performance over their R8g predecessors."
+  },
+  "1837efaef9a837ab": {
+    "label": "improved",
+    "reason": "Athena lowers the minimum time and capacity increments of its existing reservations."
+  },
+  "1ce1e5377d7d97fa": {
+    "label": "new_capability",
+    "reason": "Administrators can retain a persistent agent channel across successive calls."
+  },
+  "1d6391a19c14a526": {
+    "label": "new_capability",
+    "reason": "Users can connect concurrently to multiple VPN profiles, a workflow previously precluded."
+  }
+}

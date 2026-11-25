@@ -1,0 +1,386 @@
+{
+  "005ea9a5c4aa1d64": {
+    "label": "new_capability",
+    "before": "Local development tools handled debugging separately from cloud execution.",
+    "after": "Attach the local VS Code debugger to deployed Lambda functions.",
+    "evidence": "AWS Lambda now supports remote debugging in Visual Studio Code (VS Code), enabling developers to debug their Lambda functions running in the cloud directly from their local IDE."
+  },
+  "0070550f56cfe075": {
+    "label": "improved",
+    "before": "IAM policies governed host creation.",
+    "after": "Require a particular VPC in policies for host creation and updates.",
+    "evidence": "With today\u2019s release, AWS CodeConnections has added a condition key that allows you to enforce policies related to creating or updating hosts to use a specified VPC ID."
+  },
+  "00d99c9874f44144": {
+    "label": "improved",
+    "before": "Users got a default metrics dashboard.",
+    "after": "Users can select which database metrics appear.",
+    "evidence": "CloudWatch Database Insights announces support for customization of its metrics dashboard, allowing users to add or remove any database metric to the default dashboard provided."
+  },
+  "00f545a6fe7377f1": {
+    "label": "new_capability",
+    "before": "Managers evaluated work recorded in Connect.",
+    "after": "Ingest completed third-party activities as Tasks for joint evaluation.",
+    "evidence": "You can programmatically ingest activities from third-party applications (such as application processing, social media posts, etc.) as completed Tasks within Connect, capturing details relevant for performance evaluation as Task attributes."
+  },
+  "00fb3d9ba6995191": {
+    "label": "improved",
+    "before": "Lifecycle hooks invoked Lambda via an intermediary.",
+    "after": "Trigger the same Lambda action directly.",
+    "evidence": "Previously, to invoke Lambda functions with lifecycle hooks, customers needed to use intermediary services like Amazon EventBridge, Amazon Simple Notification Service (Amazon SNS) topics, or Amazon Simple Queue Service (Amazon SQS) queues."
+  },
+  "00ff70284da3b23b": {
+    "label": "new_capability",
+    "before": "Customers adjusted self-designed Memcached capacity manually.",
+    "after": "Define scheduled or target-tracking policies to resize automatically.",
+    "evidence": "Amazon ElastiCache for Memcached now supports horizontal autoscaling enabling you to automatically adjust capacity of your self-designed Memcached caches without the need for manual intervention."
+  },
+  "010454c3c4835eb8": {
+    "label": "extended",
+    "before": "Customers managed the service via existing endpoints.",
+    "after": "Manage it from IPv6 addresses over dual-stack endpoints.",
+    "evidence": "Amazon Security Lake customers can now use Internet Protocol version 6 (IPv6) addresses via new dual-stack endpoints to configure and manage the service."
+  },
+  "0116b4ead9a79f07": {
+    "label": "new_product",
+    "before": "Cross-modal applications relied on multiple specialized models.",
+    "after": "Adopt the named Nova model for unified embeddings across media.",
+    "evidence": "It is the first unified embedding model that supports text, documents, images, video, and audio through a single model, to enable cross-modal retrieval with leading accuracy."
+  },
+  "01f46b9c64402ff7": {
+    "label": "extended",
+    "before": "ACM public certificates worked on integrated AWS services.",
+    "after": "Use ACM-issued certificates on hybrid or external workloads via export.",
+    "evidence": "Previously, ACM-issued public certificates could only be used with integrated AWS services, such as Amazon CloudFront."
+  },
+  "0250b1b1a0fbb065": {
+    "label": "extended",
+    "before": "Push ingestion pipelines needed extra networking to share across accounts.",
+    "after": "Push to a shared pipeline from additional AWS accounts.",
+    "evidence": "Amazon OpenSearch Ingestion now supports cross-account ingestion for push-based sources such as HTTP and OpenTelemetry (OTel)."
+  },
+  "026095dff77038e5": {
+    "label": "new_capability",
+    "before": "Collaborators could run private models; distribution of redacted diagnostic messages was not described.",
+    "after": "Send a redacted error summary to selected collaborators.",
+    "evidence": "With today\u2019s launch, collaborators can configure a new privacy control that sends redacted error log summaries to specified collaboration members."
+  },
+  "02766157e6080a8e": {
+    "label": "improved",
+    "before": "Amplify already used cookies on server-rendered sites.",
+    "after": "Protect existing cookies from client-side script access.",
+    "evidence": "This enhancement builds upon existing cookie functionality in server-rendered sites, opting in to the HttpOnly attribute strengthens your application's security posture by blocking client-side JavaScript from accessing cookie contents."
+  },
+  "02939832b3253972": {
+    "label": "improved",
+    "before": "Textract detected and analyzed document text.",
+    "after": "Existing APIs recognize difficult text styles and improve detection accuracy.",
+    "evidence": "Today, we are pleased to announce feature and accuracy updates to the text detection model used in Textract DetectDocumentText and AnalyzeDocument APIs."
+  },
+  "02986cf94765cb6a": {
+    "label": "extended",
+    "before": "The tag-based grouping workflow covered fewer resource types.",
+    "after": "Use the same groups with 160 additional types.",
+    "evidence": "Today, AWS Resource Groups is adding support for an additional 160 resource types for tag-based Resource Groups."
+  },
+  "02be69ccd502d8c1": {
+    "label": "extended",
+    "before": "Document workflows processed English.",
+    "after": "Use the same workflow in five additional languages.",
+    "evidence": "Amazon Bedrock Data Automation (BDA) now supports five additional languages for document workloads in addition to English: Portuguese, French, Italian, Spanish, and German."
+  },
+  "0374f0e6b7c6deea": {
+    "label": "improved",
+    "before": "Users explicitly enabled model access.",
+    "after": "Use the existing OpenAI models without an enablement step.",
+    "evidence": "Today, we're simplifying access to these foundation models by making them automatically available to all Amazon Bedrock users, eliminating the need to explicitly enable model access."
+  },
+  "0444d1f455c85db7": {
+    "label": "improved",
+    "before": "Outbound campaigns connected answered calls to agents.",
+    "after": "Configure sub-two-second connections while keeping call classification.",
+    "evidence": "Amazon Connect outbound campaigns can now be configured to connect a customer who has picked up a campaign call to an available agent in under two seconds while also supporting automatic call classification."
+  },
+  "049ce5f25f7d428f": {
+    "label": "improved",
+    "before": "Planners edited forecasts.",
+    "after": "Adjust values and preview changes within a streamlined editing UI.",
+    "evidence": "Amazon Connect now simplifies forecast editing with a new UI experience, enabling planners to make adjustments quickly and better respond to changing contact patterns."
+  },
+  "04b76dcbb709bef2": {
+    "label": "new_capability",
+    "before": "Buyers managed listings and agreements in Marketplace.",
+    "after": "Export offers as PDFs and access agreement history in the console.",
+    "evidence": "Customers can now download private offers and agreements to PDF documents."
+  },
+  "056b08c9eaf027d1": {
+    "label": "new_capability",
+    "before": "Companies collaborated in a shared private community.",
+    "after": "Create restricted team- or topic-specific collaboration spaces.",
+    "evidence": "Channels allow companies to create secure, dedicated private spaces within their re:Post Private environment, tailored to specific teams, projects, or topics."
+  },
+  "057595fb7b7d7bb1": {
+    "label": "extended",
+    "before": "Customers ran customized Oracle databases in RDS Custom.",
+    "after": "Run that database in a Multi-AZ topology with automated failover.",
+    "evidence": "Amazon RDS Custom for Oracle now supports Multi-AZ deployments, providing high availability for business critical workloads."
+  },
+  "05dd893e896d6c4f": {
+    "label": "new_capability",
+    "before": "Redshift supplied an existing H3 indexing function set.",
+    "after": "Compute new H3 results with two additional functions.",
+    "evidence": "Amazon Redshift extends support for Hexagonal Hierarchical Geospatial Indexing System, H3 for short, by adding two new H3 functions to Amazon Redshift\u2019s previously announced H3 Indexing support in February 2024."
+  },
+  "05e7c8c1fd0f6796": {
+    "label": "extended",
+    "before": "Transfer Family provided SFTP file transfers.",
+    "after": "Negotiate SFTP keys using an additional post-quantum algorithm.",
+    "evidence": "AWS Transfer Family now supports ML- KEM (FIPS-203), a post-quantum algorithm standardized by the National Institute of Standards and Technology (NIST), for SFTP file transfers."
+  },
+  "064388cd73a2bd8b": {
+    "label": "new_capability",
+    "before": "A failed primary payment required customers to update payment details.",
+    "after": "Configure an automatic alternate charge when primary payment fails.",
+    "evidence": "This feature enables customers to set up alternate payment methods that will be automatically charged for their invoices if the primary payment method fails."
+  },
+  "067f87de27e725af": {
+    "label": "improved",
+    "before": "Users queried tables with SQL to inspect data.",
+    "after": "View sample rows and schema directly from the console.",
+    "evidence": "You can now preview your Amazon S3 Tables directly in the S3 console without having to write a SQL query."
+  },
+  "0691ea1ade2648f6": {
+    "label": "improved",
+    "before": "Builders deployed Storage Browser and connected identity and storage.",
+    "after": "Deploy preconfigured sample apps to carry out that setup.",
+    "evidence": "You can now easily deploy pre-configured sample applications to connect your users to data in Amazon S3 using Storage Browser for S3."
+  },
+  "0692fbbc25026604": {
+    "label": "new_capability",
+    "before": "Reports provided market-based emissions estimates.",
+    "after": "Read a location-based emissions measure alongside the existing measure.",
+    "evidence": "The Customer Carbon Footprint Tool (CCFT) and Data Exports now show emissions calculated using the location-based method (LBM), alongside emissions calculated using the market-based method (MBM) which were already present."
+  },
+  "06ab7ea8aca983c7": {
+    "label": "extended",
+    "before": "Customers maintained one directory per account for license management.",
+    "after": "Use a shared directory across accounts.",
+    "evidence": "With this launch, customers are no longer required to setup a Managed Active Directory instance for each AWS Account, reducing duplicate directories and IT overhead."
+  },
+  "06c332f2dcae3fc4": {
+    "label": "extended",
+    "before": "Bedrock customers selected other available models.",
+    "after": "Deploy or invoke TwelveLabs models from the managed catalog.",
+    "evidence": "TwelveLabs' Marengo 2.7 and Pegasus 1.2 multimodal foundation models are now available in Amazon Bedrock."
+  },
+  "06e1db8c9032d555": {
+    "label": "new_capability",
+    "before": "Stage conditions already gated pipeline execution.",
+    "after": "Run CodeBuild or shell commands as pipeline stage conditions.",
+    "evidence": "You can use CodeBuild rule to start a CodeBuild build or Commands rule to run simple shell commands before exiting a stage, when all actions in the stage have completed successfully, or when any action in the stage has failed."
+  },
+  "072037fd42aee8d5": {
+    "label": "new_capability",
+    "before": "Developers built custom backends to preserve workflow state.",
+    "after": "Use Bedrock session APIs to manage conversation context and state.",
+    "evidence": "Session Management APIs provide an out-of-the-box solution that enables developers to securely manage state and conversation context across multi-step GenAI workflows, eliminating the need to build, maintain, or scale custom backend solutions."
+  },
+  "079a8aaccd5acde3": {
+    "label": "improved",
+    "before": "Customers selected a compute type for build fleets.",
+    "after": "Choose a named instance and configure attached storage.",
+    "evidence": "This enhancement also allows you to configure the amount of storage attached to each instance."
+  },
+  "00060e19547f8226": {
+    "label": "improved",
+    "before": "Customers deployed and maintained their own collectors.",
+    "after": "Use a managed collector for the same metric collection.",
+    "evidence": "Previously, getting Prometheus metrics into CloudWatch required deploying, scaling, and maintaining a self-managed OpenTelemetry Collector."
+  },
+  "009d62686d650064": {
+    "label": "extended",
+    "before": "Transform offered migration and modernization capabilities.",
+    "after": "Access the existing agents from additional IDEs or through MCP.",
+    "evidence": "Developers can now consume all of AWS Transform's capabilities directly from their preferred development environment, whether working interactively in an agentic IDE, managing jobs through the web console, or integrating programmatically via MCP."
+  },
+  "00a5876d6855427b": {
+    "label": "improved",
+    "before": "Isolating permissions for each run required separate roles.",
+    "after": "Restrict the same run using a temporary policy on its role.",
+    "evidence": "Until now, there was no way to dynamically scope down permissions for a single run, requiring you to create a separate IAM role for each tenant or run."
+  },
+  "00b4ae056f4acdf6": {
+    "label": "new_capability",
+    "before": "Prechecks were performed during an upgrade.",
+    "after": "Run a precheck independently before upgrade and subscribe to a connection-readiness event.",
+    "evidence": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window."
+  },
+  "00c7e8cc6362b1ed": {
+    "label": "extended",
+    "before": "Tagging covered all ElastiCache resources other than Global Datastore.",
+    "after": "Apply existing tagging and tag-based access control to Global Datastore.",
+    "evidence": "Previously, ElastiCache supported tagging on all resources except Global Datastore, which prevented customers from applying a single, consistent permission and cost-allocation model across their ElastiCache fleet."
+  },
+  "00ffd54fffc409ab": {
+    "label": "improved",
+    "before": "Concurrent writes to an identity could overwrite each other.",
+    "after": "Condition existing updates and deletes on unchanged revisions.",
+    "evidence": "This helps when multiple administrators or automated workflows modify the same user or group at nearly the same time, where previously one write could silently overwrite another."
+  },
+  "00fff6345909cc14": {
+    "label": "new_capability",
+    "before": "Developers worked on Aurora-backed applications.",
+    "after": "Connect Aurora MySQL to Kiro Powers for database-aware assistance.",
+    "evidence": "This integration bundles direct database connectivity with Aurora MySQL best practices, providing developers with instant expertise in Aurora MySQL operations and schema design through natural language interactions."
+  },
+  "016bf9988eac35f7": {
+    "label": "extended",
+    "before": "HealthOmics workflows accessed VPC resources.",
+    "after": "Reach VPCs shared from other accounts.",
+    "evidence": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM)."
+  },
+  "018afc802dbdeee1": {
+    "label": "new_capability",
+    "before": "Managers manually analyzed performance dashboards.",
+    "after": "Ask questions in ordinary language and receive explanations and recommendations.",
+    "evidence": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds."
+  },
+  "01e124a54a71c936": {
+    "label": "extended",
+    "before": "Domains had to be deployed with the identity service in the same region.",
+    "after": "Place a Studio domain in a different region from its identity instance.",
+    "evidence": "Amazon SageMaker now supports multi-region replication from IAM Identity Center (IdC), enabling you to deploy SageMaker Unified Studio domains in different regions from your IdC instance."
+  },
+  "0230af99ecd8cf88": {
+    "label": "extended",
+    "before": "Customers managed plans through the console.",
+    "after": "Use API, SDK or infrastructure as code to perform the same plan changes.",
+    "evidence": "Previously, customers could only subscribe to flat-rate pricing plans using the console, which required manual steps when using the API or infrastructure as code (IaC) like CloudFormation to create and manage distributions."
+  },
+  "0238b868f3992af0": {
+    "label": "new_capability",
+    "before": "Applications used shader caches; no service-managed capture workflow is described previously.",
+    "after": "Capture a cache from a stream session and have GameLift distribute it.",
+    "evidence": "You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations."
+  },
+  "023bdb219dc408dc": {
+    "label": "extended",
+    "before": "JumpStart offered a catalog of foundation models.",
+    "after": "Deploy two additional models through the same catalog.",
+    "evidence": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers."
+  },
+  "0259a7ab260cc3be": {
+    "label": "improved",
+    "before": "Customers cancelled and terminated batch jobs individually.",
+    "after": "Apply existing job controls to up to 50 jobs in one request.",
+    "evidence": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call."
+  },
+  "0292797531de361f": {
+    "label": "extended",
+    "before": "Customers provisioned and managed Neptune global databases.",
+    "after": "Manage those resources using the CloudFormation IaC interface.",
+    "evidence": "Amazon Neptune now supports AWS CloudFormation for provisioning and managing Neptune global databases."
+  },
+  "02ef71206dbf1a5a": {
+    "label": "new_capability",
+    "before": "Transform supported specific migration and modernization projects.",
+    "after": "Set up continuous portfolio-wide detection and remediation of technical debt.",
+    "evidence": "Today, AWS Transform announces a new continuous modernization capability (Preview) that autonomously detects, prioritizes, and remediates tech debt across enterprise software portfolios."
+  },
+  "0307af77203727cb": {
+    "label": "new_capability",
+    "before": "Agents handled incoming email contacts in the workspace.",
+    "after": "Forward a contact externally while retaining ownership and its trail.",
+    "evidence": "Amazon Connect now enables agents to forward email contacts to external email addresses and distribution lists directly from the Agent workspace and Contact Center Panel."
+  },
+  "034d38a183e97685": {
+    "label": "new_capability",
+    "before": "Connections already consolidated revenue attribution.",
+    "after": "Share qualifications and consolidate credentials across linked accounts.",
+    "evidence": "Partners connecting newly acquired partner's accounts or regional subsidiary accounts they own can now consolidate their AWS partnership standing across those accounts beyond revenue attribution."
+  },
+  "03a3abab4dcfa6ec": {
+    "label": "improved",
+    "before": "Role-level restrictions covered a shared metric library.",
+    "after": "Set access rules for individual metrics using tags.",
+    "evidence": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric."
+  },
+  "03ccf23d0ad3014b": {
+    "label": "extended",
+    "before": "Serverless customization covered a smaller model catalog.",
+    "after": "Fine-tune twelve additional models through that workflow.",
+    "evidence": "Amazon SageMaker AI now supports serverless model customization and reinforcement fine-tuning for 12 additional open-weight models, enabling you to fine-tune and evaluate them without provisioning or managing infrastructure."
+  },
+  "03ed6b5e144359c6": {
+    "label": "improved",
+    "before": "Account-access management was part of initial instance configuration.",
+    "after": "Disable that component to configure application-only access.",
+    "evidence": "AWS IAM Identity Center now lets you decide whether to enable management of AWS account access when you create a new organization instance."
+  },
+  "0412ffdaa50a2725": {
+    "label": "new_capability",
+    "before": "Step Functions orchestrated workflows with conventional steps.",
+    "after": "Add an agent reasoning step via the AgentCore integration.",
+    "evidence": "AWS Step Functions now enables you to add AI agent reasoning steps to your workflow through an optimized integration with the managed harness (currently in preview) in Amazon Bedrock AgentCore."
+  },
+  "044323ebe747a355": {
+    "label": "improved",
+    "before": "API Gateway presented its generated self-signed certificate.",
+    "after": "Choose a trusted CA-signed certificate for backend handshakes.",
+    "evidence": "Previously, API Gateway could present only a self-signed certificate that it generated; now you can use a certificate signed by a certificate authority you trust."
+  },
+  "04c1c9f0fe0aa6b5": {
+    "label": "improved",
+    "before": "Indexes stored a separate copy of document source.",
+    "after": "Configure indexes to reconstruct source on demand and reduce storage.",
+    "evidence": "With Derived Source, OpenSearch Serverless reconstructs the _source field on the fly using the values already stored in the index, eliminating the need to maintain a separate copy of the original document."
+  },
+  "04ceca3748f5a554": {
+    "label": "improved",
+    "before": "The management console showed its available services and Regions.",
+    "after": "Account owners customize which entries authorized users see.",
+    "evidence": "These settings allow you to customize which services and regions appear in the Management Console for authorized users in your account, helping your users easily identify what is available to them and simplifying navigation."
+  },
+  "04e39adf569e36b3": {
+    "label": "new_capability",
+    "before": "Transform migrated applications to AWS.",
+    "after": "Automate code containerization as part of migration.",
+    "evidence": "This release extends AWS Transform's agentic AI capabilities to automate the containerization of your source code, enabling you to migrate and modernize in parallel, reducing the time and complexity of moving from on-premises to cloud-native architectures."
+  },
+  "050968ffdeddd457": {
+    "label": "improved",
+    "before": "AWS-owned keys encrypted workspace data at rest by default.",
+    "after": "Select a customer-managed key for the same encryption.",
+    "evidence": "Amazon Managed Grafana provides encryption at rest using AWS owned keys by default."
+  },
+  "0520be195b2efc6c": {
+    "label": "new_capability",
+    "before": "Partners sold solutions through Marketplace.",
+    "after": "Create a branded catalog on a partner domain using existing Marketplace billing.",
+    "evidence": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours."
+  },
+  "05250415724bf97d": {
+    "label": "new_capability",
+    "before": "Valkey administrators monitored clusters.",
+    "after": "Use a prebuilt Insights dashboard with automatically published telemetry.",
+    "evidence": "Amazon ElastiCache for Valkey now features ElastiCache Insights, a pre-built dashboard in Amazon CloudWatch for your node-based clusters."
+  },
+  "05285637f4e34444": {
+    "label": "operational",
+    "before": "Independent vendors provided software licenses to Brazilian customers.",
+    "after": "Authorize AWS Brazil to distribute licenses as local seller of record handling billing and taxes.",
+    "evidence": "AWS Brazil is the seller of record, invoicing Brazilian customers in Brazilian Reais (BRL) with applicable Brazilian taxes."
+  },
+  "05366ecf5a162a8e": {
+    "label": "improved",
+    "before": "Managers viewed aggregate performance metrics.",
+    "after": "Segment the same metrics by lifetime value and repeat-caller status.",
+    "evidence": "See how any metric differs for repeat callers versus the rest of your contacts, or how results hold up among your highest-LTV customers; so you can spot the groups trending the wrong way before it shows up in the aggregate."
+  },
+  "05f952a844e43b51": {
+    "label": "new_capability",
+    "before": "SageMaker supported other reinforcement fine-tuning techniques.",
+    "after": "Train agents on full sequences of decisions in custom environments.",
+    "evidence": "Amazon SageMaker AI now offers multi-turn reinforcement learning (RL), a new serverless model customization technique for fine-tuning models on multi-step, agentic tasks."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "method": "Root adjudicator reread source text for reader disagreements, considered the independent third reading and retained an evidence-based decision before inspecting initial classification labels. Twenty agreement checks were also retained. All source judgments remain AI judgments.",
+  "decisions": [
+    {
+      "index": 15,
+      "reader_a": "NA",
+      "reader_b": "1",
+      "final": "NA",
+      "rationale": "A contractual SLA change does not establish a changed product capability or actual performance."
+    },
+    {
+      "index": 19,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "2",
+      "rationale": "The managed Quick Start entry adds supported webhook deployment templates to existing ingestion, rather than a new event processing operation."
+    },
+    {
+      "index": 23,
+      "reader_a": "U",
+      "reader_b": "3",
+      "final": "U",
+      "rationale": "The GA text alone does not establish a functional delta."
+    },
+    {
+      "index": 35,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "3",
+      "rationale": "Queue-front ordering snapshots expose a distinct scheduling observation operation, not merely an added response field."
+    },
+    {
+      "index": 77,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "2",
+      "rationale": "Linking existing resources is an environment creation option, with deployment behavior explicitly unchanged."
+    },
+    {
+      "index": 87,
+      "reader_a": "NA",
+      "reader_b": "1",
+      "final": "1",
+      "rationale": "The body explicitly adds a default choice alongside the geographical rollout."
+    },
+    {
+      "index": 96,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "3",
+      "rationale": "Automatic native contact-history capture is explicitly contrasted with prior custom profile construction."
+    },
+    {
+      "index": 105,
+      "reader_a": "2",
+      "reader_b": "NA",
+      "final": "NA",
+      "rationale": "These are open-source sample templates, not a changed managed product operation."
+    },
+    {
+      "index": 117,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "3",
+      "rationale": "Generation of acknowledgement artifacts and their events is a distinct processing operation."
+    },
+    {
+      "index": 126,
+      "reader_a": "4",
+      "reader_b": "3",
+      "final": "4",
+      "rationale": "A deployable caching gateway type is a substantial subsystem, not merely another configuration field."
+    },
+    {
+      "index": 141,
+      "reader_a": "1",
+      "reader_b": "NA",
+      "final": "NA",
+      "rationale": "Earlier official AWS text confirms this is geographic rollout; preserve the additional source evidence."
+    },
+    {
+      "index": 148,
+      "reader_a": "2",
+      "reader_b": "3",
+      "final": "3",
+      "rationale": "MERGE and multidimensional aggregation introduce distinct SQL operations; the simultaneous size limit is lower magnitude."
+    },
+    {
+      "index": 152,
+      "reader_a": "2",
+      "reader_b": "3",
+      "final": "3",
+      "rationale": "Managed unplanned failover is distinct from planned switchover, including maintaining the cluster configuration."
+    },
+    {
+      "index": 188,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "2",
+      "rationale": "CloudFormation support exposes existing PCS resource lifecycle operations through established provisioning tooling."
+    },
+    {
+      "index": 190,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "3",
+      "rationale": "A general SDK invocation interface broadens workflow composition beyond curated service integrations; magnitude is based on the interface, not the number of services."
+    },
+    {
+      "index": 196,
+      "reader_a": "3",
+      "reader_b": "2",
+      "final": "2",
+      "rationale": "The source explicitly describes bulk whole-graph variants of existing fetch/insert/delete operations."
+    }
+  ]
+}

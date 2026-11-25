@@ -1,0 +1,58 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/": {
+    "label": "new_capability",
+    "reason": "Previously the administrator manually recreated the share. The new copy operation clones configuration onto another gateway."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/": {
+    "label": "new_capability",
+    "reason": "Workflows can execute user-supplied Python or shell code directly. Before, the user had to offload that computation to Lambda or ECS."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-cloudwatch-metrics-network-engine-diagnostics/": {
+    "label": "improved",
+    "reason": "The existing CloudWatch monitoring workflow gains thirteen more diagnostic measures and eliminates manual baseline calculations."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/": {
+    "label": "extended",
+    "reason": "AWS already offered managed intercloud connections with Google Cloud. This release brings the existing connection workflow to OCI in general availability."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/stability-ai-image-services-generally-available-amazon-bedrock/": {
+    "label": "new_capability",
+    "reason": "The Bedrock API gains nine dedicated image manipulation operations, including removing a background, replacing an object and transferring style."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/": {
+    "label": "new_capability",
+    "reason": "Users could choose durability when creating a cluster but could not modify it in place. They now can change the durability of a running cluster."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/": {
+    "label": "new_capability",
+    "reason": "Previous protection monitored login anomalies. A separately enabled data-activity detector now inspects database queries to detect exfiltration and destruction after login."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/split-cost-allocation-data-amazon-eks-kubernetes-labels/": {
+    "label": "improved",
+    "reason": "EKS customers already allocated shared pod costs. Importing Kubernetes labels gives the existing allocation workflow finer attribution dimensions."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-storage-lens-performance-metrics-prefixes-export-tables/": {
+    "label": "new_capability",
+    "reason": "The announcement combines broader prefix coverage and richer metrics with a new direct export workflow into managed S3 Tables for querying and joins."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-elemental-mediatailor-recurring-ad-prefetch-streaming/": {
+    "label": "improved",
+    "reason": "Broadcasters already scheduled ad prefetches. A single recurring schedule now automates subsequent breaks and reduces repeated configuration during the same event."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-redshift-multidimensional-data-layouts/": {
+    "label": "improved",
+    "reason": "Redshift automatically chooses a different physical sort layout for existing AUTO tables to accelerate the same SQL queries."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-enhancements-for-sql-server-developer-edition/": {
+    "label": "extended",
+    "reason": "Developer Edition now supports additional storage volumes, Resource Governor and a SQL Server 2019 engine option, bringing existing SQL Server capabilities to this edition."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-api-gateway-tls-security-rest-apis/": {
+    "label": "improved",
+    "reason": "Customers already configured TLS policies on REST endpoints. Additional policy profiles provide finer controls over permitted encryption and endpoint access."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-rds-custom-sql-server-supports-new-gdr-microsoft-sql-server-2019-2022/": {
+    "label": "operational",
+    "reason": "The announced general distribution releases address three named vulnerabilities in the existing SQL Server 2019 and 2022 versions."
+  }
+}

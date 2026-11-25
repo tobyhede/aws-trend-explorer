@@ -1,0 +1,10 @@
+[
+  {
+    "index": 2838,
+    "date": "2024-10-30",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2024/10/aws-appsync-websocket-apis-web-mobile-experiences/",
+    "title": "AWS AppSync launches new serverless WebSocket APIs to power real-time web and mobile experiences at any scale",
+    "text": "We are excited to announce the launch of AWS AppSync Events, a new solution for building secure and performant serverless WebSocket APIs to power real-time web and mobile experiences at any scale. AWS AppSync Events lets you easily broadcast real-time event data to a few or millions of subscribers using secure and performant serverless WebSocket APIs, without needing to manage connections or resource scaling. Typical solutions for building real-time web and mobile applications at scale, such as periodic polling or self-managed WebSockets, result in high operational overhead, inefficiency, latency, and high costs. Developers want a simple way to publish events and subscribe to real-time updates without the complexities of deploying and managing WebSockets infrastructure. Now, with AppSync Events, you can build apps for receiving live sports score and stats, exchanging group chat messages, or getting notifications on prices and inventory levels by simply deploying an AWS AppSync Event API. You pay only for what you use, and you can use standard Web APIs to interact with your WebSocket. With AppSync Events there is no API code required to get started, so you can create production-ready real-time web and mobile experiences in minutes. AppSync Events is available in all AWS regions supported by AWS AppSync. Developers can get started with the new Amplify Events client to publish and subscribe to events. To learn more about this announcement, see our introduction blog and visit our documentation .",
+    "initial_level": "4"
+  }
+]

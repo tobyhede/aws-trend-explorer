@@ -1,0 +1,232 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2021/03/announcing-new-operations-plan-aws-managed-services-accelerate/": {
+    "level": "2",
+    "reason": "AMS Accelerate introduces an operations support plan and selectable assistance tiers within existing AMS; the source does not establish a distinct product or execution subsystem.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/06/announcing-global-clusters-for-amazon-documentdb-with-mongodb-compatibility/": {
+    "level": "3",
+    "reason": "DocumentDB Global Clusters adds cross-region storage replication and promotion of secondary clusters, a distinct disaster-recovery operation rather than a new database execution model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-managed-service-prometheus-alert-manager-rules/": {
+    "level": "3",
+    "reason": "The explicit GA delta introduces alert management and recording/alerting rules plus provisioning controls, rather than a new monitoring product or execution model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-fraud-detector-event-datasets/": {
+    "level": "3",
+    "reason": "Native event storage, streaming ingestion and label updates add a distinct dataset-management capability within Fraud Detector.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/multi-az-deployment-amazon-rds-postgre-sql/": {
+    "level": "2",
+    "reason": "RDS adds an alternative Multi-AZ topology with two readable standbys and read endpoints; reads, replication and automatic failover already exist, so this is a deployment option.",
+    "confidence": "high"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-eventbridge-launches-new-scheduler/": {
+    "level": "3",
+    "reason": "EventBridge introduces a managed Scheduler capability for creating and executing one-time and recurring tasks; the source does not establish a new execution model for EventBridge itself.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-memorydb-redis-data-tiering/": {
+    "level": "2",
+    "reason": "MemoryDB data tiering adds a memory-plus-SSD storage option with transparent item movement selected through R6gd nodes; it retains existing database operations and execution semantics.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-opensearch-service-opensearch-version-2-9/": {
+    "level": "3",
+    "reason": "OpenSearch 2.9 adds distinct search pipelines, ML integration and correlation capabilities; multiple new features alone do not establish a new product execution model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/aws-search-pipelines-opensearch/": {
+    "level": "3",
+    "reason": "Search Pipelines adds configurable query and result processing operations within the existing search engine.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-aurora-postgresql-optimized-reads/": {
+    "level": "1",
+    "reason": "Aurora Optimized Reads changes temporary storage and caching internally to improve existing query performance, selected via new instance types without a distinct user operation.",
+    "confidence": "high"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-fsx-netapp-ontap-scale-out-file-systems/": {
+    "level": "2",
+    "reason": "FSx ONTAP adds a scale-out deployment configuration using multiple HA pairs for existing file-system operations; increased throughput and internal distribution alone do not establish a new product subsystem.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-managed-service-prometheus-agentless-collector-metrics-eks/": {
+    "level": "3",
+    "reason": "Managed Prometheus gains agentless metric discovery and collection as a new managed ingestion capability.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-rds-oracle-supports-oracle-multitenant/": {
+    "level": "2",
+    "reason": "RDS already supported container databases with one PDB in 2021; the 2023 change adds multiple PDBs as a consolidation configuration. Prior: https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-rds-oracle-supports-multitenant-container-database/",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-s3-access-grants-data-lake-permissions/": {
+    "level": "3",
+    "reason": "S3 Access Grants introduces identity-to-dataset permission mapping and identity-aware access management within S3.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/08/announcing-amazon-transcribe-call-analytics-api-conversation-insights/": {
+    "level": "3",
+    "reason": "Transcribe adds call-analysis operations for sentiment, categorization, conversation characteristics and redaction; these extend its speech-processing capability rather than establishing a new execution model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/data-tiering-amazon-elasticache-redis/": {
+    "level": "2",
+    "reason": "ElastiCache adds a transparent memory-plus-SSD data-tiering configuration to existing Redis operations.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/03/amazon-rds-multi-az-transaction-commit-latency/": {
+    "level": "U",
+    "reason": "The same readable-standby model was announced in preview on 2021-11-23; this availability post does not identify a substantive launch delta.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/twinmaker-knowledge-graph-generally-available-aws-iot-twinmaker/": {
+    "level": "3",
+    "reason": "Introduces graph-query operations over digital-twin entities and relationships, without establishing a broader operating model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-data-exchange-for-apis/": {
+    "level": "3",
+    "reason": "Adds subscription-based third-party API access with invocation, entitlement and billing integration.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-msk-offers-low-cost-storage-tier-scales-virtually-unlimited-storage/": {
+    "level": "2",
+    "reason": "MSK adds an automatic low-cost storage-tier option for existing topics and Kafka APIs; independent scaling is a benefit of that option.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/new-ml-governance-tools-amazon-sagemaker/": {
+    "level": "3",
+    "reason": "Adds role generation, model documentation and monitoring capabilities; their combined release does not alone establish a major subsystem.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/or1-amazon-opensearch-service/": {
+    "level": "1",
+    "reason": "OR1 adds an optimized instance family with higher performance and durability; an internal storage redesign does not itself establish a larger user-facing product change.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-emr-backup-restore-apache-hbase-tables/": {
+    "level": "3",
+    "reason": "EMR adds managed HBase backup and recovery operations using durable WAL storage; the recovery benefit does not itself establish a new execution model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-step-functions-variables-jsonata-transformations/": {
+    "level": "3",
+    "reason": "Step Functions adds workflow variables and a JSONata transformation interface within its existing state-machine execution model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-bedrock-guardrails-automated-reasoning-checks-preview/": {
+    "level": "3",
+    "reason": "Bedrock Guardrails adds policy-based logical validation and explanation of model responses; the underlying reasoning technique does not by itself establish a major product expansion.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/quantum-embark-advisory-program-customers-new-quantum-computing/": {
+    "level": "NA",
+    "reason": "Quantum Embark is an expert-led advisory and technical-enablement program, not a changed AWS product operation.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/multi-region-replication-amazon-keyspaces-apache-cassandra/": {
+    "level": "3",
+    "reason": "Keyspaces Multi-Region Replication adds active-active regional replication with automated conflict and divergence handling, a distinct replication capability without evidence of a new query engine or broader subsystem.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-appstream-2-0-session-fleets-windows-server-os/": {
+    "level": "2",
+    "reason": "Multi-session fleets add a configurable shared-instance session arrangement to existing AlwaysOn and OnDemand fleets.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-s3-express-one-zone-storage-class/": {
+    "level": "2",
+    "reason": "Express One Zone introduces a directory-bucket and Availability Zone placement option for existing object storage; performance and a new bucket variant do not alone establish a new operation or subsystem.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-elasticsearch-service-adds-trace-analysis-new-feature-distributed-tracing/": {
+    "level": "3",
+    "reason": "Trace Analytics adds distributed-trace analysis to Elasticsearch log analytics through OpenTelemetry-compatible ingestion.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-s3-multi-region-access-points-replicated-data-sets/": {
+    "level": "3",
+    "reason": "S3 Multi-Region Access Points introduce a global request-routing endpoint that selects replicated copies dynamically.",
+    "confidence": "high"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/aws-announces-cloud-control-api/": {
+    "level": "3",
+    "reason": "Cloud Control API introduces a common cross-service CRUDL interface; the described change is unified resource management access rather than new underlying operations.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-sagemaker-launches-fully-managed-rstudio-workbench/": {
+    "level": "3",
+    "reason": "Managed RStudio adds a distinct IDE interface and integration to SageMaker while retaining its existing managed development environment role.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/04/aws-glue-notebook-based-job-authoring/": {
+    "level": "NA",
+    "reason": "GA describes the same notebook authoring and Interactive Sessions already introduced in preview, with no explicit functional delta; prior source: https://aws.amazon.com/about-aws/whats-new/2022/01/aws-glue-interactive-sessions-job-notebooks/",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-neptune-global-database/": {
+    "level": "3",
+    "reason": "Neptune Global Database adds cross-region storage replication and promotion of a secondary region to read/write service, a distinct recovery capability rather than a new graph execution model.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-rds-blue-green-deployments-safer-simpler-faster-updates/": {
+    "level": "3",
+    "reason": "RDS Blue/Green Deployments add a managed staging-and-switchover operation for database updates.",
+    "confidence": "high"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-redshift-multi-az-preview-ra3-clusters/": {
+    "level": "2",
+    "reason": "Redshift Multi-AZ adds a warehouse deployment option that distributes work across AZs with automatic recovery behind the same endpoint; the source establishes topology and resilience changes, not a new programming model.",
+    "confidence": "high"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-chime-sdk-call-analytics/": {
+    "level": "3",
+    "reason": "Chime SDK adds call-analysis operations including speaker search and voice-tone analysis with transcription integrations.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/05/aws-multi-az-standby-amazon-opensearch-service/": {
+    "level": "2",
+    "reason": "Multi-AZ with Standby adds a standby/failover deployment option to existing managed OpenSearch clusters.",
+    "confidence": "high"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-kinesis-video-streams-edge-agent/": {
+    "level": "NA",
+    "reason": "GA repeats the edge recording, agent deployment and scheduled uploading already offered in preview; stated changes are availability and stage, not functionality; prior source: https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-kinesis-video-streams-edge-recording-scheduled-cloud-streaming-preview/",
+    "confidence": "high"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/data-ml-features-sagemaker-feature-store-processing/": {
+    "level": "3",
+    "reason": "Feature Store adds a managed data-to-feature transformation operation that builds and schedules the supporting pipelines.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/pgactive-active-active-replication-extension-postgre-sql-amazon-rds/": {
+    "level": "3",
+    "reason": "The pgactive integration enables a distinct active-active replication capability with writer synchronization and conflict resolution.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-rds-mysql-group-replication-plugin-active-active-replication/": {
+    "level": "3",
+    "reason": "The Group Replication integration newly enables active-active RDS MySQL clusters with conflict handling.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-support-countdown-premium-tier/": {
+    "level": "2",
+    "reason": "Countdown replaces existing IEM and adds a premium support tier with designated engineers and continuity; the text supports an expanded support option rather than a genuinely new product.",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-gamelift-containers-dev-iteration-management/": {
+    "level": "U",
+    "reason": "Containerized game-server execution, on-premises/cloud deployment and isolated packing were already described in the preview; Graviton, Spot and five-minute updates are not clearly identified as new GA deltas. Prior: https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-gamelift-containers-support-preview/",
+    "confidence": "medium"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/general-availability-amazon-memory-db-multi-region/": {
+    "level": "3",
+    "reason": "MemoryDB Multi-Region introduces managed active-active cross-region replication with conflict reconciliation and regional-cluster membership; the described delta is a distinct replication capability rather than a new execution model.",
+    "confidence": "medium"
+  }
+}

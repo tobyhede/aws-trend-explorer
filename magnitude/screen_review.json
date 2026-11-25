@@ -1,0 +1,197 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2025/02/update-running-emr-cluster-reconfiguration-instance-fleets/": {
+    "rating": "2",
+    "workload": "Running EMR instance fleets",
+    "reason": "Rolling configuration updates replace terminating and relaunching the same cluster."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-api-gateway-routing-rules-rest-apis/": {
+    "rating": "3",
+    "workload": "Routing REST APIs behind a custom domain",
+    "reason": "Native header and path routing can replace an intermediary proxy layer."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/qwen3-models-fully-managed-amazon-bedrock/": {
+    "rating": "1",
+    "workload": "Bedrock inference using Qwen3",
+    "reason": "Four Qwen models become selectable through the existing managed inference service."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ecs-service-connect-envoy-access-logs/": {
+    "rating": "2",
+    "workload": "Diagnosing ECS service-to-service traffic",
+    "reason": "Operators can inspect new per-request Envoy access logs delivered over the existing logging pipeline."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances/": {
+    "rating": "1",
+    "workload": "Fault-tolerant ECS workloads",
+    "reason": "Capacity providers gain a Spot setting within the existing managed infrastructure."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-vectors-generally-available/": {
+    "rating": "1",
+    "workload": "S3 vector indexes that outgrew preview limits",
+    "reason": "The existing storage model supports larger indexes, more indexes and a per-index encryption key."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/": {
+    "rating": "3",
+    "workload": "Filtering CloudWatch logs by resource ownership",
+    "reason": "Automatic enrichment at ingestion can replace a custom tag-enrichment pipeline."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-managed-instances-neuron/": {
+    "rating": "1",
+    "workload": "Containerized Trainium and Inferentia workloads",
+    "reason": "Capacity providers and task definitions can select new accelerator types."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/": {
+    "rating": "3",
+    "workload": "Pipelines processing mixed log formats",
+    "reason": "A single pipeline can parse nested fields and fan events out to different destination groups by content."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-appsync-cdk-l2-simplify-websocket-apis/": {
+    "rating": "2",
+    "workload": "Provisioning AppSync WebSocket APIs",
+    "reason": "Higher-level CDK constructs automate API setup and access grants."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-codepipeline-native-amazon-eks-deployment-support/": {
+    "rating": "3",
+    "workload": "Deploying to private EKS clusters",
+    "reason": "A native pipeline action replaces the compute environment previously needed inside the private network."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-redshift-data-api-sso-iam-identity-center/": {
+    "rating": "2",
+    "workload": "Workforce access to the Redshift Data API",
+    "reason": "SSO removes the task of managing separate database credentials while using the same cluster and Data API."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/database-insights-customization-metrics-dashboard/": {
+    "rating": "1",
+    "workload": "Customizing database monitoring dashboards",
+    "reason": "Operators choose which metrics appear in existing dashboard widgets."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-ec2-i7i-high-performance-storage-optimized-instances/": {
+    "rating": "1",
+    "workload": "Storage-intensive EC2 workloads",
+    "reason": "A newer instance family provides more IOPS and lower latency for the same compute deployment."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-q-developer-ide-plugins-mcp-tools/": {
+    "rating": "3",
+    "workload": "IDE agents using external development tools",
+    "reason": "The IDE agent can orchestrate calls to external MCP servers alongside its built-in tools."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-keyspaces-apache-cassandra-cdc-streams/": {
+    "rating": "3",
+    "workload": "Downstream consumers of Keyspaces changes",
+    "reason": "A new managed CDC stream feeds deduplicated row changes to event-driven consumers."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-app-runner-expands-support-ipv6/": {
+    "rating": "3",
+    "workload": "App Runner services communicating over IPv6",
+    "reason": "Private and outbound traffic can use IPv6 natively and dispense with IPv4/IPv6 address translation."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-eagle-decoding/": {
+    "rating": "2",
+    "workload": "Serving language models with speculative decoding",
+    "reason": "Built-in jobs train prediction heads and select the decoding protocol for deployment using the existing inference workflow."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-32-gb-memory-16-vcpus/": {
+    "rating": "1",
+    "workload": "CPU- or memory-intensive Lambda functions",
+    "reason": "Functions can be configured with more memory and cores and a different ratio on the same managed instances."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks/": {
+    "rating": "3",
+    "workload": "Developers submitting interactive Spark jobs",
+    "reason": "A thin client now runs separately from the Glue-hosted Spark execution environment."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-durable-custom-sdk/": {
+    "rating": "2",
+    "workload": "Authoring durable workflows for a custom Lambda runtime",
+    "reason": "Teams can implement and validate a language-specific SDK with a provided conformance test suite."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/": {
+    "rating": "3",
+    "workload": "MWAA Serverless workflows executing Python or shell code",
+    "reason": "Custom code runs inside the workflow runtime without provisioning separate execution infrastructure."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-toolkit-visual-studio-code-documentdb-mongodb/": {
+    "rating": "2",
+    "workload": "DocumentDB developers working in VS Code",
+    "reason": "Cluster creation and management are available directly in the IDE."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-bedrock-custom-model-import-qwen-models/": {
+    "rating": "1",
+    "workload": "Importing customized Qwen model weights",
+    "reason": "The existing serverless import path accepts another model architecture."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-documentdb-mongodb-ccompatibility-support-secondary-region-clusters/": {
+    "rating": "1",
+    "workload": "Global DocumentDB clusters",
+    "reason": "The maximum number of secondary regions doubles while the existing replication design stays the same."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-documentdb-ipv6-support/": {
+    "rating": "1",
+    "workload": "DocumentDB clients on dual-stack networks",
+    "reason": "New and existing clusters accept IPv6 addresses in dual-stack mode."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-emr-aws-glue-write-operations-aws-lake-formation/": {
+    "rating": "3",
+    "workload": "Spark jobs reading and writing governed tables",
+    "reason": "Fine-grained access control for writes allows one Spark job to replace separate applications or clusters."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/deadline-cloud-6th-7th-8th-generation-instances/": {
+    "rating": "1",
+    "workload": "Rendering on Deadline Cloud",
+    "reason": "More EC2 instance generations can be selected within the same rendering workflow."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/manage-amazon-sagemaker-hyperpod-clusters-mcp-server/": {
+    "rating": "2",
+    "workload": "HyperPod administrators using coding agents",
+    "reason": "Agent tools automate provisioning, patching and scaling of existing cluster architectures."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/ecs-weekly-windows-scheduling-task-retirements-fargate/": {
+    "rating": "2",
+    "workload": "Fargate retirements during scheduled maintenance windows",
+    "reason": "A weekly event window takes over scheduling previously handled by customer automation."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-ec2-capacity-reservations/": {
+    "rating": "1",
+    "workload": "ECS customers with capacity reservations",
+    "reason": "Capacity providers can select reserved capacity and set a fallback preference."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-local-storage/": {
+    "rating": "3",
+    "workload": "Containers on host types with local instance storage",
+    "reason": "The workload can use the host's local instance store in place of a separately provisioned EBS volume."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/": {
+    "rating": "2",
+    "workload": "Consumers polling a Keyspaces CDC stream",
+    "reason": "The returned iterator position lets a consumer vary polling instead of polling at a fixed cadence."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/": {
+    "rating": "2",
+    "workload": "CloudWatch users ingesting XML, RDS logs or IP addresses",
+    "reason": "Built-in processors parse or enrich incoming records in the existing ingestion pipeline."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/": {
+    "rating": "2",
+    "workload": "Developers building search applications in Vercel v0",
+    "reason": "A prompt automates collection provisioning, indexing and application setup."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-functions-ad-response-hooks/": {
+    "rating": "3",
+    "workload": "Streaming publishers customizing ad decisions after the ADS responds",
+    "reason": "New response hooks can run secondary-source selection and final insertion logic in MediaTailor instead of middleware."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/": {
+    "rating": "3",
+    "workload": "Async and event-mapped Lambda jobs lasting over 15 and up to 90 minutes",
+    "reason": "One continuous invocation can now execute the job instead of an architectural workaround for the former timeout."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/": {
+    "rating": "1",
+    "workload": "Lambda Managed Instances choosing Graviton5 hardware",
+    "reason": "Existing capacity providers can select new instance families for better compute performance."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-recursive-loops-eventbridge-custom/": {
+    "rating": "2",
+    "workload": "Lambda functions invoked by custom EventBridge buses",
+    "reason": "Runaway loops can be detected and stopped automatically for this event source."
+  }
+}

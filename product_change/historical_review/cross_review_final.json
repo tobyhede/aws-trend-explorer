@@ -1,0 +1,2114 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2021/03/amazon-and-red-hat-announce-general-availability-rosa/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "ROSA is explicitly a new managed OpenShift service with its own adoption and licensing model.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/03/announcing-new-operations-plan-aws-managed-services-accelerate/": {
+    "initial_level": "5",
+    "level": "2",
+    "reason": "AMS Accelerate introduces an operations support plan and selectable assistance tiers within existing AMS; the source does not establish a distinct product or execution subsystem.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/03/introducing-amazon-route-53-resolver-dns-firewall/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "DNS Firewall adds a managed DNS security subsystem with rule lists, enforcement, alerts and centralized administration.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/aws-amplify-hosting-announces-server-side-rendering-support-for-next-js-web-apps/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Amplify Hosting adds dynamic server-side execution and API routes alongside its existing frontend deployment model.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-amazon-finspace-a-fully-managed-service-to-store-prepare-and-analyze-data-for-the-financial-services-industry-fsi/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "FinSpace is explicitly a new managed financial-data management and analytics service.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/06/announcing-global-clusters-for-amazon-documentdb-with-mongodb-compatibility/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "DocumentDB Global Clusters adds cross-region storage replication and promotion of secondary clusters, a distinct disaster-recovery operation rather than a new database execution model.",
+    "confidence": "medium",
+    "readers": [
+      "root",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-route-53-announces-route-53-application-recovery-controller/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Route 53 gains an application-recovery control subsystem with readiness monitoring and coordinated failover.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-fsx-netapp-ontap/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "FSx for NetApp ONTAP is introduced as a distinct managed storage service offering.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-managed-service-prometheus-alert-manager-rules/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "The explicit GA delta introduces alert management and recording/alerting rules plus provisioning controls, rather than a new monitoring product or execution model.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-fraud-detector-event-datasets/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Native event storage, streaming ingestion and label updates add a distinct dataset-management capability within Fraud Detector.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/10/freertos-symmetric-multiprocessing/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "The FreeRTOS kernel gains symmetric multiprocessing scheduling across shared-memory cores.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-athena-acid-apache-iceberg/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Athena gains transactional row-level writes and time travel through an ACID table subsystem.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-cloudwatch-evidently-feature-experimentation-safer-launches/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CloudWatch Evidently adds a feature-experimentation and controlled-rollout subsystem with statistical analysis and rollback controls.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-emr-serverless-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "EMR Serverless introduces automatically provisioned and scaled application execution without managed clusters.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-fsx-openzfs/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "FSx for OpenZFS is a distinct fully managed file-system offering within the FSx family.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-kinesis-data-streams-on-demand/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Kinesis gains an on-demand capacity operating mode with automatic scaling and consumption billing.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-microservice-extractor-net/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Microservice Extractor is a standalone downloadable AWS application-analysis and code-extraction tool.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/introducing-aws-mainframe-modernization/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Mainframe Modernization is introduced as a distinct managed migration and runtime platform.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/multi-az-deployment-amazon-rds-postgre-sql/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "RDS adds an alternative Multi-AZ topology with two readable standbys and read endpoints; reads, replication and automatic failover already exist, so this is a deployment option.",
+    "confidence": "high",
+    "readers": [
+      "root",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-lookout-vision-visual-inspection-product-defects-edge/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Lookout for Vision adds on-device model execution and deployment beyond its cloud inference API.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-sagemaker-ground-truth-plus/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Ground Truth Plus is explicitly a new turnkey labeling service offering with managed workflow and workforce.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-sagemaker-serverless-inference/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "SageMaker gains an automatically provisioned, scaled and stopped serverless inference execution model.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/12/aws-amplify-studio/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Amplify Studio adds a visual UI-generation and data-binding development subsystem alongside backend management.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/03/amazon-gamesparks-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "GameSparks is explicitly a new managed game-backend service.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/07/malware-protection-feature-amazon-guardduty/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "GuardDuty gains a malware-file scanning subsystem for EBS-backed compute workloads.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/09/aws-announces-amazon-workspaces-core/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "WorkSpaces Core is explicitly a new managed VDI infrastructure service integrated with external VDI management.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-ecs-service-connect/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "ECS gains a service-connectivity subsystem combining endpoint discovery, traffic routing, telemetry and draining.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-eventbridge-launches-new-scheduler/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "EventBridge introduces a managed Scheduler capability for creating and executing one-time and recurring tasks; the source does not establish a new execution model for EventBridge itself.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-memorydb-redis-data-tiering/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "MemoryDB data tiering adds a memory-plus-SSD storage option with transparent item movement selected through R6gd nodes; it retains existing database operations and execution semantics.",
+    "confidence": "medium",
+    "readers": [
+      "root",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-omics-generally-available/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Omics is explicitly a new managed omics data storage, workflow and analytics service.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-sagemaker-geospatial-ml-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "SageMaker gains an integrated geospatial data-processing, modeling and map-analysis subsystem.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/announcing-amazon-opensearch-serverless-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "OpenSearch gains a serverless operating model with independently scaled indexing and query compute.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-glue-ray-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Glue gains the Ray distributed Python execution engine and programming model.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-supply-chain-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "AWS Supply Chain is a distinct cloud application combining supply-chain data, insights and collaboration.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/12/aws-application-composer-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Application Composer is introduced as a standalone visual serverless application authoring tool.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/12/aws-step-functions-large-scale-parallel-workflows-data-processing-serverless-applications/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Step Functions gains distributed Map execution coordinating thousands of parallel child workflows.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-guardduty-monitors-runtime-activity-containers-eks/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "GuardDuty gains an on-host runtime-monitoring agent and detection subsystem beyond audit-log analysis.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-lightsail-research/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Lightsail for Research is explicitly positioned as a new research-computing offering with bundled applications and pricing.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-opensearch-service-security-analytics/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "OpenSearch gains a security analytics subsystem with detectors, rules, findings and investigation workflows.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/aws-amazon-datazone-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "DataZone is explicitly a new data catalog, sharing and governance service.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-opensearch-service-ingestion/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "OpenSearch gains an independently managed serverless ingestion and transformation tier.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/07/enable-generative-ai-applications-complete-tasks/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Bedrock agents add managed task planning, orchestration and action execution beyond model inference.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/07/vector-engine-amazon-opensearch-serverless-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "OpenSearch Serverless gains a vector engine for embedding indexing, mutation and hybrid retrieval.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/08/aws-dedicated-local-zones/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Dedicated Local Zones is a distinct customer-exclusive infrastructure offering with location and governance configuration.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/09/knowledge-base-amazon-bedrock-models-data-sources/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Bedrock Knowledge Bases adds a managed RAG ingestion and runtime retrieval subsystem.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-msk-replicator-cross-same-region-data-replication/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "MSK gains a managed cross-cluster replication subsystem that scales replication resources and preserves Kafka metadata for failover.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-opensearch-service-opensearch-version-2-9/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "OpenSearch 2.9 adds distinct search pipelines, ML integration and correlation capabilities; multiple new features alone do not establish a new product execution model.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/aws-search-pipelines-opensearch/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Search Pipelines adds configurable query and result processing operations within the existing search engine.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-aurora-postgresql-optimized-reads/": {
+    "initial_level": "4",
+    "level": "1",
+    "reason": "Aurora Optimized Reads changes temporary storage and caching internally to improve existing query performance, selected via new instance types without a distinct user operation.",
+    "confidence": "high",
+    "readers": [
+      "root",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-bedrock-safeguard-ai-applications-guardrails/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Bedrock gains a reusable safety-policy subsystem applying topic and harmful-content controls across models and agents.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-cloudfront-keyvaluestore-globally-managed-key-value-datastore/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CloudFront gains a globally distributed key-value storage subsystem with independently managed data resources usable by functions.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-cloudwatch-applications-signals-observe-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Application Signals adds an integrated instrumentation, application-observation and SLO-management subsystem.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-elasticache-serverless/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "ElastiCache gains a serverless capacity and management model with automatic scaling and a single endpoint.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-fsx-netapp-ontap-scale-out-file-systems/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "FSx ONTAP adds a scale-out deployment configuration using multiple HA pairs for existing file-system operations; increased throughput and internal distribution alone do not establish a new product subsystem.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ],
+    "adjudication": "Root considered the complete source and secondary-reading boundary evidence."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-managed-service-prometheus-agentless-collector-metrics-eks/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Managed Prometheus gains agentless metric discovery and collection as a new managed ingestion capability.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-one-enterprise-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Amazon One Enterprise is introduced as a distinct biometric enterprise-access service and device offering.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-rds-oracle-supports-oracle-multitenant/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "RDS already supported container databases with one PDB in 2021; the 2023 change adds multiple PDBs as a consolidation configuration. Prior: https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-rds-oracle-supports-multitenant-container-database/",
+    "confidence": "medium",
+    "readers": [
+      "root",
+      "e"
+    ],
+    "adjudication": "Root considered the complete source and secondary-reading boundary evidence."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-s3-access-grants-data-lake-permissions/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "S3 Access Grants introduces identity-to-dataset permission mapping and identity-aware access management within S3.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-sagemaker-hyperpod/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "HyperPod adds managed distributed-training infrastructure with automatic checkpoint-based failure recovery.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/08/announcing-amazon-transcribe-call-analytics-api-conversation-insights/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Transcribe adds call-analysis operations for sentiment, categorization, conversation characteristics and redaction; these extend its speech-processing capability rather than establishing a new execution model.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/aws-transfer-family-managed-workflows/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Adds orchestrated post-upload workflow execution with custom Lambda steps and monitoring.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/10/babelfish-postgresql-open-source-project/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Adds a SQL Server protocol and T-SQL execution compatibility layer to PostgreSQL, including stored procedures and transaction semantics.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/data-tiering-amazon-elasticache-redis/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "ElastiCache adds a transparent memory-plus-SSD data-tiering configuration to existing Redis operations.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ],
+    "adjudication": "Root considered the complete source and secondary-reading boundary evidence."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/03/amazon-rds-multi-az-transaction-commit-latency/": {
+    "initial_level": "4",
+    "level": "U",
+    "reason": "The same readable-standby model was announced in preview on 2021-11-23; this availability post does not identify a substantive launch delta.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/09/introducing-seekable-oci-lazy-loading-container-images/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Introduces indexed lazy-loading container startup and a supporting containerd snapshotter.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/twinmaker-knowledge-graph-generally-available-aws-iot-twinmaker/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Introduces graph-query operations over digital-twin entities and relationships, without establishing a broader operating model.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-data-exchange-for-apis/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Adds subscription-based third-party API access with invocation, entitlement and billing integration.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-braket-supports-pulse-level-access-study-performance-todays-quantum-computers/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Adds pulse-level quantum programming and execution alongside gate-based programs.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-msk-offers-low-cost-storage-tier-scales-virtually-unlimited-storage/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "MSK adds an automatic low-cost storage-tier option for existing topics and Kafka APIs; independent scaling is a benefit of that option.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ],
+    "adjudication": "Root considered the complete source and secondary-reading boundary evidence."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/10/aws-neuron-amazon-ec2-trn1-instances-high-performance-cost-effective-deep-learning-training-scale/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Adds a deep-learning training execution stack with compilation, debugging and distributed training beyond prior inference use.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/new-ml-governance-tools-amazon-sagemaker/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Adds role generation, model documentation and monitoring capabilities; their combined release does not alone establish a major subsystem.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/run-long-sql-queries-trino-amazon-emr-checkpointing-amazon-s3-hdfs/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Adds checkpoint-based fault-tolerant query execution with intermediate-data retries.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-ivs-multiple-hosts-live-streams/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Adds a real-time multi-participant stage subsystem alongside broadcast channels.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-opensearch-service-opensearch-version-2-5/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Introduces a security-analytics subsystem with attack detection, findings and threat investigation beyond a routine version update.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-athena-provisioned-capacity/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Adds a dedicated provisioned-compute operating mode with workload allocation and isolation.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-amplify-next-generation-backend-capabilities/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Amplify Gen 2 introduces a code-first backend programming and deployment model with per-developer sandboxes.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-codebuild-lambda-compute/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CodeBuild gains Lambda as a distinct build execution mode.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-mainframe-modernization-application-testing-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Mainframe Modernization gains a functional-equivalence testing subsystem with capture, replay, comparison and regression workflows.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-research-engineering-studio/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Research and Engineering Studio is a standalone open-source research-environment management portal, not a sample template.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/or1-amazon-opensearch-service/": {
+    "initial_level": "4",
+    "level": "1",
+    "reason": "OR1 adds an optimized instance family with higher performance and durability; an internal storage redesign does not itself establish a larger user-facing product change.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/vector-search-amazon-memorydb-redis-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "MemoryDB gains a vector indexing and search subsystem beyond its existing key-value operations.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-finspace-managed-kdb-insights-tickerplants/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Managed kdb gains tickerplant clusters for real-time feed distribution, logging and recovery, a new processing subsystem.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-emr-backup-restore-apache-hbase-tables/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "EMR adds managed HBase backup and recovery operations using durable WAL storage; the recovery benefit does not itself establish a new execution model.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/01/aws-supply-chain-supply-planning/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Supply Chain gains a supply-planning module for material and inventory purchase/placement recommendations.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-cloudfront-availability-embedded-pops/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CloudFront gains an ISP-embedded infrastructure deployment model and associated lifecycle-management portal.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-emr-serverless-streaming-jobs-continuous-processing/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "EMR Serverless gains a continuous streaming-job execution mode with resilient long-running lifecycle management.",
+    "confidence": "high",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/10/aws-appsync-websocket-apis-web-mobile-experiences/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "AppSync Events introduces a serverless event publish/subscribe API subsystem with managed WebSocket connections and scaling.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-step-functions-variables-jsonata-transformations/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Step Functions adds workflow variables and a JSONata transformation interface within its existing state-machine execution model.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-bedrock-guardrails-automated-reasoning-checks-preview/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Bedrock Guardrails adds policy-based logical validation and explanation of model responses; the underlying reasoning technique does not by itself establish a major product expansion.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-bedrock-marketplace-100-models-bedrock/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Bedrock Marketplace adds a provisioned model deployment and access subsystem using configurable SageMaker endpoints, beyond simply adding model catalog entries.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-eks-hybrid-nodes/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "EKS Hybrid Nodes introduces a hybrid operating model combining AWS-managed control planes with customer on-premises and edge nodes.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-s3-tables-apache-iceberg-tables-analytics-workloads/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "S3 Tables introduces table buckets and a managed transactional Iceberg table subsystem with maintenance policies.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-sagemaker-data-ai-governance/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "SageMaker gains a broad DataZone-based governance subsystem for data and AI discovery, permissions, sharing and trust.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/scenario-analysis-capability-amazon-q-quicksight-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "QuickSight gains an agent-assisted scenario-analysis workspace with iterative multi-step analysis and reusable execution paths.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-opensearch-service-custom-plugins/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "OpenSearch gains customer-supplied search and analysis plugin execution with package validation and domain lifecycle management.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/quantum-embark-advisory-program-customers-new-quantum-computing/": {
+    "initial_level": "5",
+    "level": "NA",
+    "reason": "Quantum Embark is an expert-led advisory and technical-enablement program, not a changed AWS product operation.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-bedrock-data-automation-available-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Bedrock Data Automation introduces a configurable multimodal content-processing subsystem with unified inference and knowledge-base integration.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-q-developer-transformation-mainframe-modernization/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Q Developer gains an end-to-end mainframe transformation subsystem covering discovery, planning, decomposition and autonomous COBOL refactoring.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-sagemaker-partner-ai-apps/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "SageMaker gains a managed partner-application deployment and execution subsystem inside its private environment.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/aws-security-incident-response/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Security Incident Response is explicitly a new service combining automated investigation, incident collaboration and dedicated response expertise.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/next-generation-amazon-sagemaker/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "The next SageMaker generation integrates major unified development, lakehouse and governance subsystems into a broader data-and-AI platform.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/oracle-database-aws-limited-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Oracle Database at AWS is a distinct jointly positioned managed database offering with its own purchase and resource-management experience.",
+    "confidence": "medium",
+    "readers": [
+      "root"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/03/s3-object-lambda-allows-you-to-add-your-own-code-to-s3-get-requests-to-modify-and-process-data-as-it-is-returned-to-an-application/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Object Lambda inserts customer Lambda execution into S3 GET responses, introducing programmable read-time data transformation.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/04/aws-announces-general-availability-amazon-nimble-studio/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Nimble Studio launches a distinct managed creative-production service with workstations, storage and rendering.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/announcing-general-availability-of-aws-application-migration-service/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Application Migration Service is explicitly a new AWS migration offering, replacing earlier CloudEndure/SMS choices with an integrated service.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/cloudfront-functions/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CloudFront Functions introduces a native lightweight JavaScript edge execution environment alongside Lambda@Edge.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-incident-manager-aws-systems-manager/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Incident Manager adds an incident-response subsystem with response plans, responder engagement, incident tracking and post-incident actions.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/06/announcing-a-new-public-registry-for-aws-cloudformation/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "The public extension registry adds publishing, discovery and activation infrastructure for third-party CloudFormation resources and modules.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-memorydb-redis/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "MemoryDB is a distinct durable Redis-compatible primary database service, rather than another ElastiCache instance option.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-msk-connect-run-serverless-scalable-kafka-connect-clusters-amazon-msk/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "MSK Connect adds managed, automatically scaling Kafka Connect cluster execution and connector lifecycle management.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-appstream-2-0-launches-elastic-fleets-serverless-fleet-type/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Elastic fleets replace image and fleet-capacity management with on-demand application streaming from virtual hard disks.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-cloudwatch-rum-applications-client-side-performance/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CloudWatch RUM adds a client-side real-user monitoring subsystem with sessions, browser errors, dashboards and backend trace correlation.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-redshift-serverless/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Redshift Serverless introduces automatic warehouse capacity provisioning and scaling without customer-managed clusters.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-sagemaker-canvas-machine-learning-models/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Canvas introduces an end-to-end visual no-code model-building and prediction environment within SageMaker.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-elastic-disaster-recovery-available/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Elastic Disaster Recovery is explicitly a distinct AWS service with replication, recovery drills, point-in-time recovery and failback.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-iot-expresslink-development/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "IoT ExpressLink is a distinct AWS connectivity-software offering delivered through partner modules, not a routine hardware refresh.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-iot-roborunner-available-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "RoboRunner introduces a separately positioned robotics service with a shared robot-data repository and orchestration APIs.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-iot-twinmaker-build-digital-twins/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "TwinMaker launches a distinct digital-twin service for connecting data, modeling relationships and composing interactive 3D scenes.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-migration-hub-refactor-spaces/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Refactor Spaces adds managed multi-account refactoring environments and routing between existing applications and extracted microservices.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-resilience-hub-general-availability/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Resilience Hub launches a distinct service for resilience targets, assessments, testing and portfolio tracking.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-virtual-private-cloud-vpc-announces-ip-address-manager-ipam/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "VPC IPAM adds an address-management subsystem with address pools, allocation policies, tracking, utilization monitoring and history.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/01/aws-cloudtrail-lake-audit-security/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CloudTrail Lake adds integrated immutable storage and SQL querying of audit events as a substantial CloudTrail subsystem.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/01/aws-glue-interactive-sessions-job-notebooks/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Interactive Sessions add interactive serverless execution for Glue development, with notebook authoring and conversion to scheduled jobs.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/03/amazon-connect-forecasting-capacity-planning-scheduling-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Connect adds a workforce-planning subsystem linking demand forecasts, staffing capacity and individual agent schedules.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-connect-cases-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Connect Cases introduces case lifecycle management, shared timelines, templates, tasks and case-aware self-service interactions.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/06/aws-announces-amazon-codewhisperer-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "CodeWhisperer introduces a distinct developer-assistance service generating code recommendations and checking security and references.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/07/aws-announces-aws-wickr-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "AWS Wickr launches a distinct encrypted enterprise communication service with administrative networks and retention controls.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/09/amazon-file-cache-generally-available/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Amazon File Cache is a distinct managed cache service spanning on-premises and cloud file datasets in a unified namespace.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-neptune-serverless-generally-available/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Neptune Serverless adds automatic compute and memory provisioning and scaling as a new database operating mode.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-cloudwatch-internet-monitor-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Internet Monitor adds continuous end-user network monitoring, health events, geographic views and routing recommendations to CloudWatch.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-documentdb-mongodb-elastic-clusters-available/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "DocumentDB Elastic Clusters introduce customer-visible sharded collections and shard-based scaling, rather than only increasing throughput limits.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-healthlake-imaging-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "HealthLake Imaging adds a medical-image storage and retrieval subsystem with cloud-native image APIs, positioned here as a HealthLake capability.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-verified-permissions-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Verified Permissions introduces a distinct application authorization service with Cedar policies, evaluation and permission management.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/announcing-aws-resource-explorer/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Resource Explorer launches a separately positioned AWS resource-discovery offering with its own console and APIs.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-announces-amazon-vpc-lattice-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "VPC Lattice is positioned as a distinct managed application-networking service covering discovery, routing, authorization and monitoring.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-simspace-weaver-available/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "SimSpace Weaver introduces a distinct managed spatial-simulation compute service coordinating distributed simulation worlds.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-verified-access-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Verified Access launches a distinct policy-based remote application-access service without VPNs.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-kinesis-video-streams-edge-recording-scheduled-cloud-streaming-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "KVS adds an edge execution and recording subsystem with a deployable agent, local video storage and configured cloud uploads.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/12/announcing-amazon-codecatalyst-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "CodeCatalyst introduces a distinct integrated software-development service spanning projects, repositories, environments and CI/CD.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/01/aws-clean-rooms-now-available-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Clean Rooms introduces a distinct privacy-preserving collaborative analytics service with participant controls and protected queries.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/05/aws-user-notifications-available/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "User Notifications is explicitly a new centralized notification service with configurable event selection and delivery channels.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/multi-region-replication-amazon-keyspaces-apache-cassandra/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Keyspaces Multi-Region Replication adds active-active regional replication with automated conflict and divergence handling, a distinct replication capability without evidence of a new query engine or broader subsystem.",
+    "confidence": "medium",
+    "readers": [
+      "d",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/07/aws-entity-resolution-generally-available/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Entity Resolution introduces a distinct service for matching and linking records across sources using configurable workflows.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/07/aws-healthscribe-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "HealthScribe introduces a distinct clinical-documentation service turning consultation audio into referenced preliminary notes.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-appstream-2-0-session-fleets-windows-server-os/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "Multi-session fleets add a configurable shared-instance session arrangement to existing AlwaysOn and OnDemand fleets.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-aurora-limitless-database/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Aurora Limitless introduces distributed relational transactions and queries through an automatically scaled serverless endpoint.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-connect-zero-etl-data-lake-center-data-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Connect adds a managed analytics data-lake subsystem exposing deduplicated contact-center data for external analytics.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-neptune-analytics/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Neptune Analytics adds a separate analytics database engine and graph lifecycle with graph algorithms and vector similarity queries.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-s3-express-one-zone-storage-class/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "Express One Zone introduces a directory-bucket and Availability Zone placement option for existing object storage; performance and a new bucket variant do not alone establish a new operation or subsystem.",
+    "confidence": "medium",
+    "readers": [
+      "d",
+      "e"
+    ],
+    "adjudication": "Root considered the complete source and secondary-reading boundary evidence."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-sagemaker-inference-costs-latency/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "InferenceComponents introduce independently resourced and scaled model deployments with automatic placement within shared inference endpoints.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-workspaces-thin-client/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "WorkSpaces Thin Client introduces a distinct end-user device offering paired with remote device-management service capabilities.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-b2b-data-interchange/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "B2B Data Interchange launches a distinct EDI transformation service with partner relationships, mappings and workflow integration.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/feature-development-capability-amazon-q-preview-codecatalyst/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CodeCatalyst adds an autonomous issue-to-pull-request execution workflow that plans, changes code, monitors builds and repairs failures.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-timestream-influxdb-available/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Timestream adds a managed InfluxDB database-engine subsystem with instance lifecycle, native APIs and high-availability deployments.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/04/announcing-aws-deadline-cloud/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Deadline Cloud launches a distinct managed render-farm service with rendering integrations and project cost management.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/04/general-availability-amazon-q-business-apps-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "The substantive addition is Q Apps: natural-language app creation, sharing and an administered app library; Q Business GA alone is not treated as a fresh service launch. Prior Q preview: https://aws.amazon.com/about-aws/whats-new/2023/11/aws-amazon-q-preview/",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-elasticsearch-service-adds-trace-analysis-new-feature-distributed-tracing/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Trace Analytics adds distributed-trace analysis to Elasticsearch log analytics through OpenTelemetry-compatible ingestion.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/03/aws-elemental-mediatailor-introduces-channel-assembly-for-creating-virtual-linear-ott-channels/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "MediaTailor adds channel assembly as a new content-scheduling and virtual-linear-stream subsystem beyond ad insertion.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-kinesis-data-analytics-studio-query-data-streams-develop-stream-processing-applications/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Kinesis Data Analytics Studio adds interactive serverless notebook execution and deployment of notebook code as stateful streaming applications.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/aws-announces-aws-app-runner/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "App Runner launches a distinct fully managed container-web-application service building, deploying, scaling and monitoring applications.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/05/aws-application-cost-profiler/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Application Cost Profiler launches a separately positioned service apportioning shared application resource costs by tenant.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/06/amazon-lightsail-now-offers-object-storage-for-storing-static-content/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Lightsail adds an object-storage resource subsystem with buckets, access permissions, programmatic credentials and CDN association.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-sagemaker-asynchronous-new-inference-option/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Asynchronous Inference adds queued request execution with S3 inputs and outputs, asynchronous completion and scale-to-zero endpoints.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-s3-multi-region-access-points-replicated-data-sets/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "S3 Multi-Region Access Points introduce a global request-routing endpoint that selects replicated copies dynamically.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/09/aws-announces-cloud-control-api/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Cloud Control API introduces a common cross-service CRUDL interface; the described change is unified resource management access rather than new underlying operations.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-rds-custom-oracle/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "RDS Custom introduces a managed-database operating model allowing customer access to and customization of the underlying OS and database environment.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-braket-hybrid-jobs-quantum-classical-workloads/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Braket Hybrid Jobs introduce coordinated classical/quantum job execution with resource provisioning, QPU priority and managed job lifecycle.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Inspector changes to continuous automatic workload discovery and vulnerability assessment, a new operating model beyond its internal rearchitecture.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-msk-serverless-public-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "MSK Serverless introduces automatically provisioned and scaled Kafka capacity without customer-managed brokers.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-sagemaker-launches-fully-managed-rstudio-workbench/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Managed RStudio adds a distinct IDE interface and integration to SageMaker while retaining its existing managed development environment role.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-workspaces-introduces-amazon-workspaces-web/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "WorkSpaces Web is a distinct managed secure-browser offering with its own portal provisioning, browser isolation and service positioning.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-iot-fleetwise-transferring-vehicle-data-cloud/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "IoT FleetWise introduces a distinct vehicle-data collection service with vehicle modeling, edge decoding and collection campaigns.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/11/preview-aws-private-5g/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Private 5G introduces a distinct managed private-mobile-network service including delivered hardware, software and network operation.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-sagemaker-studio-lab-no-configuration-ml-service/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Studio Lab is a separately accessible no-configuration notebook service with its own account registration, not merely educational material.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2021/12/introducing-aws-cloud-wan/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Cloud WAN introduces a distinct managed global-network service driven by centralized network policies.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/04/amazon-interactive-video-service-adds-stream-chat-feature/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "IVS Chat adds a chat-room and messaging subsystem with resource lifecycle and moderation, alongside video streaming.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/04/aws-glue-notebook-based-job-authoring/": {
+    "initial_level": "4",
+    "level": "NA",
+    "reason": "GA describes the same notebook authoring and Interactive Sessions already introduced in preview, with no explicit functional delta; prior source: https://aws.amazon.com/about-aws/whats-new/2022/01/aws-glue-interactive-sessions-job-notebooks/",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/04/aws-migration-hub-orchestrator/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Migration Hub Orchestrator adds customizable executable migration workflows, dependency handling and progress tracking.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-neptune-global-database/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Neptune Global Database adds cross-region storage replication and promotion of a secondary region to read/write service, a distinct recovery capability rather than a new graph execution model.",
+    "confidence": "medium",
+    "readers": [
+      "d",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/09/aws-enterprise-support-aws-incident-detection-response/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Incident Detection and Response is a separately positioned managed monitoring and incident-response offering delivered by AWS engineers.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-athena-now-supports-apache-spark/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Athena adds interactive serverless Spark application execution and PySpark notebooks alongside its SQL query model.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-rds-blue-green-deployments-safer-simpler-faster-updates/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "RDS Blue/Green Deployments add a managed staging-and-switchover operation for database updates.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-redshift-multi-az-preview-ra3-clusters/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "Redshift Multi-AZ adds a warehouse deployment option that distributes work across AZs with automatic recovery behind the same endpoint; the source establishes topology and resilience changes, not a new programming model.",
+    "confidence": "high",
+    "readers": [
+      "d",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-security-lake-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Security Lake introduces a distinct security-data service collecting, normalizing and managing customer-owned security lakes.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-glue-data-quality-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Glue Data Quality adds a rules-based quality subsystem spanning recommendations, evaluation, monitoring and ETL quality gates.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-kms-external-key-store/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "External Key Store introduces externally controlled key custody and authorization into KMS cryptographic operations.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-eventbridge-pipes-generally-available/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "EventBridge Pipes adds a point-to-point event-processing subsystem with source consumption, filtering, enrichment and delivery beyond event buses.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/02/aws-modular-data-center-mdc-us-department-defense-customers/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Modular Data Center is a distinct managed physical-deployment offering for infrastructure-limited locations, not a routine server configuration.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-chime-sdk-call-analytics/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Chime SDK adds call-analysis operations including speaker search and voice-tone analysis with transcription integrations.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/05/aws-multi-az-standby-amazon-opensearch-service/": {
+    "initial_level": "4",
+    "level": "2",
+    "reason": "Multi-AZ with Standby adds a standby/failover deployment option to existing managed OpenSearch clusters.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-finspace-managed-kdb-insights/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "FinSpace adds managed kdb application execution and lifecycle management as a substantial analytics-engine subsystem.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-kinesis-video-streams-edge-agent/": {
+    "initial_level": "4",
+    "level": "NA",
+    "reason": "GA repeats the edge recording, agent deployment and scheduled uploading already offered in preview; stated changes are availability and stage, not functionality; prior source: https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-kinesis-video-streams-edge-recording-scheduled-cloud-streaming-preview/",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/announcing-aws-appfabric/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "AppFabric launches a distinct SaaS-application integration and audit-log normalization service; future generative AI promises are not counted.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/aws-database-migration-service-homogeneous-migration/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "DMS adds serverless homogeneous migration execution using native tools without replication-instance management.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/aws-payment-cryptography/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Payment Cryptography introduces a distinct payments-specific cryptographic and key-management service replacing customer-operated payment HSMs.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/data-ml-features-sagemaker-feature-store-processing/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "Feature Store adds a managed data-to-feature transformation operation that builds and schedules the supporting pipelines.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/06/general-availability-aws-database-migration-service-serverless/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "DMS Serverless introduces automatic migration-capacity provisioning and scaling rather than customer-managed replication resources.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-interactive-video-service-real-time-streaming/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "IVS Real-Time Streaming introduces interactive stage-based host/viewer participation and role promotion, beyond a latency improvement alone.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-emr-eks-apache-flink-public-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "EMR on EKS gains the Flink stream-processing engine and operator-mediated application lifecycle, a new execution model rather than a routine runtime version or extra target.",
+    "confidence": "high",
+    "readers": [
+      "d",
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/10/pgactive-active-active-replication-extension-postgre-sql-amazon-rds/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "The pgactive integration enables a distinct active-active replication capability with writer synchronization and conflict resolution.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-q-expert-capabilities-aws-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Amazon Q expert capabilities form the inaugural developer-assistant offering, including IDE assistance, code transformation and AWS operational guidance.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-rds-mysql-group-replication-plugin-active-active-replication/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "The Group Replication integration newly enables active-active RDS MySQL clusters with conflict handling.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-amazon-q-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Amazon Q introduces a distinct enterprise assistant offering spanning company knowledge, actions and developer assistance.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-appfabrics-generative-ai-feature-cross-app-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "AppFabric for productivity adds a cross-application generative-AI subsystem exposing contextual insights and actions to embedded application experiences.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-clean-rooms-ml-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Clean Rooms ML adds collaborative model training and inference with protected partner data, extending the product into a new ML execution model.",
+    "confidence": "high",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-support-countdown-premium-tier/": {
+    "initial_level": "5",
+    "level": "2",
+    "reason": "Countdown replaces existing IEM and adds a premium support tier with designated engineers and continuity; the text supports an expanded support option rather than a genuinely new product.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/11/partyrock-amazon-bedrock-playground/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "PartyRock launches a distinct standalone generative-AI app-building playground with its own web interface, sharing and account experience.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2023/12/managed-package-repository-support-amazon-codecatalyst/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "CodeCatalyst adds a managed package-repository subsystem for storage, publication, upstream access and package-origin controls.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/01/aws-codebuild-reserved-capacity/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Reserved capacity introduces persistent customer-provisioned build-host fleets, a new operating mode beyond ephemeral build allocation.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/01/aws-supply-chain-n-tier-visibility/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Supply Chain N-Tier Visibility adds a partner-collaboration subsystem for onboarding, sharing orders and forecasts, and tracking supplier responses.",
+    "confidence": "medium",
+    "readers": [
+      "d"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-ses-mail-manager-inbound-outbound-email/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Mail Manager introduces a coherent SES email gateway subsystem with ingress endpoints, traffic policies, a routing rules engine and archiving; this is more than another email delivery option.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/07/amazon-bedrock-prompt-management-flows-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Prompt Flows introduces visual composition, testing and deployment of workflows connecting prompts, knowledge bases and Lambda, a new workflow programming model within Bedrock.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/08/aws-parallel-computing-service/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "AWS PCS is explicitly a new managed HPC service with its own cluster provisioning interfaces and managed Slurm scheduler, establishing a distinct AWS offering.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/09/aws-elemental-medialive-anywhere-video-encoding-hardware/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "MediaLive Anywhere moves the encoding engine onto customer-managed hardware while retaining AWS configuration and control, establishing a hybrid operating model rather than just another input target.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-gamelift-containers-dev-iteration-management/": {
+    "initial_level": "4",
+    "level": "U",
+    "reason": "Containerized game-server execution, on-premises/cloud deployment and isolated packing were already described in the preview; Graviton, Spot and five-minute updates are not clearly identified as new GA deltas. Prior: https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-gamelift-containers-support-preview/",
+    "confidence": "medium",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-clean-rooms-ml-privacy-enhanced-model-training-inferencing/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Custom modeling lets collaborators bring proprietary models for both training and inference with jointly approved datasets, introducing a programmable ML execution subsystem beyond AWS-authored lookalike modeling.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-aurora-dsql-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Aurora DSQL is positioned as a new distributed SQL database with its own console/API and serverless active-active operation, a distinct database offering despite the Aurora brand.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-bedrock-multi-agent-collaboration/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Multi-agent collaboration introduces coordinated execution of specialized agents, including parallel roles, as a new agent orchestration model within Bedrock.",
+    "confidence": "medium",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-eks-auto-mode/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "EKS Auto Mode changes who operates worker infrastructure: AWS provisions, secures, patches, upgrades and scales compute with integrated networking and storage management.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-elastic-vmware-service-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Amazon EVS is explicitly a new native AWS service for deploying VMware Cloud Foundation inside a VPC, with its own product positioning.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-fsx-intelligent-tiering-storage-class-fsx/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "FSx Intelligent-Tiering introduces automatically elastic NAS storage that no longer requires storage provisioning plus automatic tier management, a substantive storage operating model beyond price reduction.",
+    "confidence": "medium",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-q-developer-transformation-capabilities-vmware-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "VMware transformation adds a migration subsystem spanning discovery, wave planning, network translation/deployment and overall orchestration with human checkpoints.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-s3-metadata-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "S3 Metadata introduces continuously maintained queryable object-metadata tables, with automatic capture and refresh as objects change, constituting a managed metadata subsystem.",
+    "confidence": "medium",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/aws-announces-amazon-sagemaker-lakehouse/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "SageMaker Lakehouse provides a unified data access and governance subsystem across S3 and Redshift using Iceberg, including RMS-backed lakes and consistently applied permissions.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/aws-data-transfer-terminal-high-speed-data-uploads/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "Data Transfer Terminal launches a distinct reservable physical-facility service for direct high-throughput AWS uploads, with its own product and reservation experience.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/general-availability-amazon-memory-db-multi-region/": {
+    "initial_level": "4",
+    "level": "3",
+    "reason": "MemoryDB Multi-Region introduces managed active-active cross-region replication with conflict reconciliation and regional-cluster membership; the described delta is a distinct replication capability rather than a new execution model.",
+    "confidence": "medium",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/12/preview-amazon-sagemaker-unified-studio/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Unified Studio establishes a shared development environment with projects, cross-compute notebooks, SQL editing and integrated data/AI authoring, a substantial SageMaker development subsystem.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-gamelift-containers-support-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "GameLift container preview introduces packaged runtime execution and multiple isolated servers per host with container deployment and scaling, a new game-server execution model.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-sagemaker-mlflow-capability/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Managed MLflow adds hosted tracking-server lifecycle, IAM access and experiment/model governance integration, a managed ML experiment subsystem within SageMaker.",
+    "confidence": "medium",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-workspaces-pools-amazon-workspaces/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "WorkSpaces Pools changes desktops from per-user persistent assignments to autoscaled shared pools with fresh desktops per login, a new desktop operating model.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/07/agents-amazon-bedrock-code-interpretation-preview/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Agent code interpretation supplies a secure runtime for dynamically generated code and iterative execution, introducing a code-execution model to Bedrock agents.",
+    "confidence": "medium",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/07/aws-app-studio-preview/": {
+    "initial_level": "5",
+    "level": "5",
+    "reason": "App Studio is introduced as a separately positioned AI application-building service that generates, deploys and operates business applications, with its own usage pricing.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2024/09/aws-neuron-nki-nxd-training-jax/": {
+    "initial_level": "4",
+    "level": "4",
+    "reason": "Neuron Kernel Interface exposes custom compute-kernel programming on Trainium and Inferentia, a new low-level programming model; bundled model and framework additions do not drive the rating.",
+    "confidence": "high",
+    "readers": [
+      "e"
+    ]
+  }
+}

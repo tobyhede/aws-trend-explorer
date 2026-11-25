@@ -1,0 +1,1640 @@
+0	2	Adds VPC egress targets and credential providers to Gateway and Identity.
+1	2	Adds PostgreSQL compatibility and GIN operator support to Limitless Database.
+2	2	Extends existing embedding models to image inputs.
+3	2	Adds IPv6 canary requests and API endpoints.
+4	2	Adds custom-field filters and configurable case-list columns.
+5	NA	Introduces promotional trials for existing Contact Lens features.
+6	2	Adds campaign connection timing configuration with call classification.
+7	NA	Delivers Corretto security and critical patches.
+8	2	Adds resource-level IAM restrictions to volume creation.
+9	NA	Expands C8g instance regional availability.
+10	NA	Expands I7ie instance regional availability.
+11	NA	Expands M8g instance regional availability.
+12	NA	Expands EFS regional availability.
+13	2	Simplifies existing cache connectivity setup through console and CloudShell.
+14	2	Extends event delivery to cross-account service targets.
+15	NA	Expands FSx ONTAP regional availability.
+16	NA	Expands GuardDuty regional availability.
+17	2	Extends metric scraping to cross-account clusters.
+18	3	Introduces in-place connector update operation and API.
+19	NA	Expands OpenSearch Serverless regional availability.
+20	3	Introduces CloudZero cost-data integration into Q Developer.
+21	1	Raises storage and IOPS ceilings for RDS Custom volumes.
+22	NA	Expands concurrency scaling regional availability.
+23	3	Introduces automatic historical version-table construction for zero-ETL.
+24	2	Adds SQL controls for existing zero-ETL ingestion and queries.
+25	NA	Expands S3 Tables regional availability.
+26	3	Introduces allocated-storage and storage-tier scaling operations.
+27	2	Adds IPv6 discovery-service API endpoints.
+28	NA	Expands existing organization-wide backup reports to GovCloud.
+29	2	Adds project and build ARN IAM condition keys.
+30	2	Extends recommendations to additional Auto Scaling configurations.
+31	NA	Adds Direct Connect geographic presence.
+32	1	Adds .NET 9 runtime catalog support.
+33	1	Enables faster Windows instance startup by default.
+34	2	Adds pre-transcoded ad manifests as supported VAST inputs.
+35	NA	Expands sender registration country coverage.
+36	2	Adds NULL and NaN handling to industrial data ingestion.
+37	1	Increases usage-rate decimal precision.
+38	2	Extends existing self-service listing to CloudFormation AMI products.
+39	1	Adds currencies to the existing payment catalog.
+40	3	Introduces DNS Firewall findings integration with Security Hub.
+41	NA	Expands Transfer web-app regional availability.
+42	NA	Adds a Wavelength geographic zone.
+43	3	Introduces collection and historical inspection of query execution plans.
+44	NA	Adds a Local Zone geographic location.
+45	1	Adds larger WorkSpaces desktop bundle sizes.
+46	3	Introduces partner discovery and collaboration operations in Partner Central.
+47	2	Adds address-list management and matching controls to mail rules.
+48	1	Raises default Guardrails service quotas.
+49	3	Introduces lock-contention diagnostic capability.
+50	2	Adds conditional mandatory fields to case templates.
+51	2	Adds hold-time and interaction-duration rule conditions.
+52	2	Adds interactive content to chat welcome messages.
+53	NA	Expands Firehose regional availability.
+54	2	Simplifies DocumentDB console connection through CloudShell.
+55	3	Adds automated point-in-time SQL Server snapshot recovery runbook.
+56	NA	Expands C7g regional availability.
+57	1	Adds a smaller F2 instance size.
+58	NA	Expands G6 regional availability.
+59	NA	Expands U7i regional availability.
+60	NA	Expands M7g regional availability.
+61	2	Adds completion-time controls to AMI copying.
+62	NA	Expands Service Connect regional availability.
+63	1	Adds Windows Server 2025 runtime images.
+64	NA	Reduces S3 malware-scanning prices.
+65	2	Adds private endpoint connectivity to Location APIs.
+66	NA	Expands Nova creative-model regional availability.
+67	2	Adds IPv6 Personalize API connectivity.
+68	NA	Expands console-error troubleshooting regional availability.
+69	2	Extends Java transformation to Java 21 target.
+70	1	Adds M7i and R7i database instance choices.
+71	NA	Provides MySQL extended-support security patches.
+72	NA	Provides Oracle Spatial patch fixes.
+73	NA	Provides SQL Server maintenance update.
+74	1	Reduces subnet IP-address requirement.
+75	3	Adds read-replica provisioning and read distribution.
+76	1	Adds Claude 3.7 Sonnet to the model catalog.
+77	2	Adds whole-operation caching granularity to GraphQL APIs.
+78	2	Adds namespaces and volume configuration for existing EKS jobs.
+79	NA	Renames existing Chatbot offering.
+80	3	Introduces Buildkite pipeline execution integration.
+81	2	Extends managed webhooks to GitHub Enterprise.
+82	2	Redesigns existing pipeline monitoring console.
+83	2	Extends Config assessment to four resource types.
+84	2	Extends premigration assessment to Serverless replications.
+85	2	Adds S3 and Firehose destinations for existing logs.
+86	2	Improves provisioning error detail and logging.
+87	3	Introduces traffic-derived domain insights and automatic domain lists.
+88	2	Adds private connectivity to Price List APIs.
+89	2	Adds Distributed Map input formats and output choices.
+90	2	Extends Verified Access to TCP and other non-HTTP protocols.
+91	2	Extends quota-monitoring integration for WAF.
+92	2	Adds UnionPay support to account creation payments.
+93	2	Extends cost recommendations to additional Auto Scaling configurations.
+94	2	Extends Lake Formation fine-grained controls to EMR on EKS.
+95	3	Introduces Q Business interaction through Word and Outlook.
+96	3	Introduces moving resources between CloudFormation stacks.
+97	3	Adds fleet visualization portal alongside access and deployment controls.
+98	NA	Expands Athena provisioned-capacity regional availability.
+99	NA	Expands custom-model import regional availability.
+100	NA	Expands Bedrock regional availability.
+101	2	Extends existing harmful-content filters to image content.
+102	2	Adds managed OpenSearch as a knowledge-base vector-store target.
+103	2	Extends RAG evaluation to custom pipelines and citation metrics.
+104	NA	Expands CloudWatch RUM regional availability.
+105	2	Adds token customization for machine-to-machine authorization.
+106	NA	Expands Managed Login to GovCloud.
+107	NA	Expands contact-summary regional availability.
+108	NA	Expands semantic contact categorization regional availability.
+109	2	Adds OR combinations to proficiency-routing rules.
+110	NA	Reports Chrome Enterprise certification.
+111	NA	Expands DataZone regional availability.
+112	2	Updates JavaScript SDK access to existing DAX operations.
+113	NA	Expands DynamoDB zero-ETL regional availability.
+114	3	Introduces Config evaluation integration for Allowed AMIs.
+115	NA	Expands EC2 Flex regional availability.
+116	NA	Expands G6e regional availability.
+117	NA	Expands M7g regional availability.
+118	NA	Expands P5en regional availability.
+119	NA	Expands R8g regional availability.
+120	1	Adds GPU-optimized Amazon Linux 2023 image option.
+121	2	Adds community add-on catalog to existing EKS management.
+122	NA	Reports FedRAMP authorization.
+123	2	Extends event-bus execution roles to additional targets.
+124	NA	Removes SnapLock license charges.
+125	4	Introduces managed browser game-streaming subsystem within GameLift.
+126	2	Extends image scanning to minimal container distributions.
+127	NA	Expands Keyspaces replication regional availability.
+128	NA	Expands Neptune regional availability.
+129	2	Adds tool-choice controls to Converse requests.
+130	NA	Expands OpenSearch Serverless regional availability.
+131	NA	Expands Q Business regional availability.
+132	2	Adds administration UI for existing Q Connect configuration.
+133	NA	Expands QuickSight regional availability.
+134	NA	Provides SQL Server maintenance update.
+135	2	Makes PostgreSQL TLS cipher selection configurable.
+136	NA	Provides SQL Server maintenance update.
+137	NA	Rolls out existing larger query-result limit to GovCloud.
+138	2	Adds IPv6 Route 53 Profiles API connectivity.
+139	NA	Reduces object-tagging prices.
+140	2	Exposes existing table creation and querying in S3 console.
+141	NA	Expands SageMaker AI regional availability.
+142	3	Introduces S3 Tables discovery and access integration with Lakehouse.
+143	3	Introduces Vade security-filter integration for Mail Manager.
+144	2	Adds shared authentication state via Swift keychain groups.
+145	2	Adds IPAM pool choice to load-balancer address assignment.
+146	2	Adds version-consistent request routing during deployments.
+147	NA	Expands OpenZFS backup regional availability.
+148	NA	Expands existing CloudFormation hook capabilities to GovCloud.
+149	1	Adds Node Python and Go runtime versions.
+150	2	Adds IAM condition key controlling connection host creation.
+151	2	Adds per-provider currency selection in payment profiles.
+152	NA	Adds Direct Connect geographic location.
+153	3	Introduces secret and parameter retrieval integration for environment variables.
+154	NA	Expands Firewall Manager regional availability.
+155	NA	Expands existing Glue transforms and version control to GovCloud.
+156	2	Extends live-log viewing to VS Code toolkit.
+157	2	Adds MFA verification to card registration.
+158	NA	Expands Network Firewall regional availability.
+159	1	Adds high-throughput Outposts hardware configuration.
+160	1	Raises Secrets Manager API request-rate ceilings.
+161	NA	Expands Storage Gateway regional availability.
+162	NA	Expands Transfer web apps to GovCloud.
+163	2	Adds JA4 inspection and fingerprint aggregation options.
+164	2	Adds URI-fragment matching field to WAF rules.
+165	2	Provides standard bootstrap image for existing setup operations.
+166	1	Adds managed DeepSeek-R1 model choice.
+167	2	Adds IPv6 Access Analyzer endpoints.
+168	4	Introduces managed cross-protocol device-control subsystem and connector catalog.
+169	2	Adds redundant Slurm head-node configuration.
+170	1	Adds Korean neural voice to Polly catalog.
+171	4	Introduces custom PySpark code execution model for clean-room analytics.
+172	2	Adds immediate starts and multiple offers to training reservations.
+173	3	Introduces sharing connection resources across accounts.
+174	2	Extends existing Q chat integrations with multiple-instance support.
+175	2	Adds modality routing and hyperlink extraction controls.
+176	2	Adds model-pair and routing-criteria configuration to prompt routing.
+177	2	Adds user-defined evaluation metrics.
+178	2	Extends CloudWatch agent monitoring to ROSA.
+179	1	Raises maximum log-event size to one megabyte.
+180	2	Adds administrator permission scope for schedules.
+181	2	Adds bulk scheduling removal to existing schedule management.
+182	2	Adds configurable inter-keypress timeout.
+183	NA	Provides quarterly Corretto security patches.
+184	NA	Expands C6id regional availability.
+185	NA	Expands C8g regional availability.
+186	NA	Expands I4g regional availability.
+187	1	Adds I7ie bare-metal sizes.
+188	NA	Expands M7i-flex regional availability.
+189	NA	Expands M8g regional availability.
+190	NA	Expands R7gd regional availability.
+191	1	Adds FIPS Bottlerocket image choice for node groups.
+192	2	Adds customer-managed encryption keys for archived events.
+193	2	Adds customer-managed encryption keys for connection credentials.
+194	3	Introduces autonomous ransomware detection and protection for ONTAP storage.
+195	2	Adds consumer tagging and attribute-based permissions.
+196	NA	Expands managed Flink regional availability.
+197	2	Adds IPv6 client connectivity to MemoryDB.
+198	NA	Expands M7g broker regional availability.
+199	2	Extends Bedrock fine-tuning to Nova Canvas.
+200	1	Adds Nova Sonic speech model to Bedrock catalog.
+201	2	Adds SAML authentication choice to OpenSearch UI.
+202	2	Adds hallucination mitigation to existing chat responses.
+203	2	Expands supported natural languages in Q Developer.
+204	3	Introduces dashboard version history and restoration operations.
+205	NA	Expands cross-region backup replication coverage.
+206	1	Adds R6id and M6id database instance choices.
+207	NA	Expands RDS Proxy to GovCloud.
+208	NA	Expands concurrency scaling regional availability.
+209	NA	Expands existing public DNS hosting to GovCloud.
+210	NA	Expands S3 Tables regional availability.
+211	2	Adds exact and partial technical-identifier search matching.
+212	3	Introduces application recovery mode for broken startup configurations.
+213	2	Adds attachment payloads to existing email APIs.
+214	2	Adds IPv6 SNS API connectivity.
+215	2	Adds IPv6 VPC Lattice management connectivity.
+216	4	Introduces managed BGP routing subsystem for VPC route tables.
+217	2	Adds queue and buffer signals to ingestion autoscaling.
+218	3	Introduces programmatic test-data seeding APIs and command.
+219	NA	Reports DoD authorization.
+220	2	Extends existing backup operations to Redshift Serverless.
+221	2	Adds budget cost metrics and filtering controls.
+222	2	Adds multiple query-result recipients to collaborations.
+223	NA	Expands Cloud Map regional availability.
+224	1	Adds Lambda Compute runtime versions.
+225	2	Extends Config assessment to additional resources.
+226	3	Introduces automatic replication-storage scaling.
+227	2	Adds SMPTE 2110 input protocol to MediaLive Anywhere.
+228	2	Adds IPv6 messaging endpoints.
+229	NA	Expands G4 and G8 worker regional availability.
+230	3	Introduces workflow version management in HealthOmics.
+231	2	Adds IPv6 private Lambda API connectivity.
+232	2	Refines existing Marketplace container deployment experience.
+233	NA	Expands Resource Explorer regional availability.
+234	2	Extends tag-based grouping to additional resource types.
+235	2	Adds Backup Search and other API targets to workflow integrations.
+236	NA	Expands Transfer Family regional availability.
+237	2	Adds Terraform deployment wrapper for existing SFTP servers.
+238	2	Extends reservation recommendations to DynamoDB and MemoryDB.
+239	4	Adds graphical desktop subsystem to Amazon Linux.
+240	2	Adds guided UI for existing ingestion-pipeline creation.
+241	2	Extends sessions and identity propagation controls for AD users.
+242	1	Adds Llama 4 models to JumpStart catalog.
+243	NA	Changes MediaTailor pricing and discounts.
+244	1	Updates pgvector extension version.
+245	2	Adds resilient rack networking and self-service local-gateway configuration.
+246	2	Adds private network connections to Mail Manager ingress.
+247	2	Adds anonymous authentication mode to Q Business apps.
+248	1	Adds Writer model choices to Bedrock catalog.
+249	1	Improves global-database switchover duration.
+250	1	Improves Aurora write throughput and database resilience.
+251	NA	Expands R7g database regional availability.
+252	2	Adds reserved purchasing option to existing R8g and M8g instances.
+253	2	Extends custom insight blueprints to video inputs.
+254	2	Extends distillation to function-calling data augmentation.
+255	2	Adds INP metric to existing web monitoring.
+256	2	Adds log-delivery destinations alongside pricing changes.
+257	2	Adds predefined adherence reporting widget.
+258	2	Adds campaign metrics and reporting drilldowns.
+259	NA	Expands WhatsApp and SMS regional availability.
+260	NA	Updates contractual DocumentDB availability commitment.
+261	NA	Expands larger Flex instance regional availability.
+262	2	Removes launch-template and default-VPC prerequisites for Fast Launch.
+263	1	Adds P6-B200 GPU instance family.
+264	NA	Expands X2idn regional availability.
+265	NA	Expands registry-policy v2 to GovCloud.
+266	1	Raises container-exit message length ceiling.
+267	1	Adds Kubernetes 1.33 runtime support.
+268	NA	Expands Lustre regional availability.
+269	NA	Expands ONTAP regional availability.
+270	NA	Expands OpenZFS regional availability.
+271	NA	Expands Windows File Server regional availability.
+272	3	Introduces mapping image findings to running containers.
+273	2	Adds IPv6 private Lightsail endpoints.
+274	NA	Expands managed Prometheus regional availability.
+275	2	Makes existing broker certificate renewal seamless.
+276	NA	Expands Neptune regional availability.
+277	1	Increases memory allocation per ingestion compute unit.
+278	3	Introduces chat-based Systems Manager access-approval integration.
+279	NA	Provides MariaDB maintenance versions.
+280	NA	Provides Oracle release-update patches.
+281	1	Adds APEX 24.2 version support.
+282	NA	Expands M8g and R8g regional availability.
+283	3	Introduces retrieval of database engine lifecycle dates.
+284	NA	Expands Route 53 Profiles regional availability.
+285	2	Extends S3 access-point permissions to Express One Zone.
+286	2	Adds CloudFormation coverage for domain features.
+287	3	Introduces HyperPod state-event delivery integration with EventBridge.
+288	2	Adds custom container image selection to Unified Studio.
+289	2	Adds FIPS-compatible SQS private endpoints.
+290	2	Adds organization member-account allocation of IPAM costs.
+291	2	Adds always-running configuration for pooled desktops.
+292	2	Adds build-instance resource selection controls.
+293	2	Adds storage settings to EC2 restoration.
+294	2	Adds safe-update checks and retries to canaries.
+295	3	Introduces provisioning persistent remote Docker build servers.
+296	3	Introduces Secrets Manager credential injection into Commands actions.
+297	2	Adds consolidated enabled-control management view.
+298	3	Introduces automated month-to-month cost comparison.
+299	NA	Expands DataSync regional availability.
+300	2	Adds worker configuration scripts to managed fleets.
+301	3	Introduces automatic correction of validated migration discrepancies.
+302	NA	Expands Entity Resolution regional availability.
+303	3	Introduces hierarchical DICOM search interface.
+304	2	Extends deployment automation to multi-node ASE applications.
+305	2	Adds multiple endpoints per firewall configuration.
+306	3	Introduces managed Slurm usage accounting.
+307	2	Adds secret cost-allocation tagging.
+308	NA	Announces service-support lifecycle changes.
+309	2	Adds onboarding configuration customization.
+310	U	Announces GA and rebranding of previewed .NET transformation without explicit delta.
+311	NA	Adds Wavelength geographic zone.
+312	2	Extends database monitoring to Aurora Limitless.
+313	2	Adds migration behavior to scheduled instance reboots.
+314	3	Introduces cross-account and cross-region Kubernetes fleet dashboard.
+315	3	Introduces infrastructure migration assessment and business-case generation.
+316	NA	Expands SageMaker regional availability.
+317	1	Adds AWS-optimized RHEL operating-system offering to runtime catalog.
+318	2	Adds debug verbosity to mail traffic-policy logging.
+319	NA	Expands Athena regional availability.
+320	3	Introduces inline Python workflow execution and persistent execution tracking.
+321	2	Simplifies CloudFront setup with guided defaults and automation.
+322	2	Allows Contributor Insights rules on transformed logs.
+323	2	Adds instance-wide outbound communication-limit controls.
+324	2	Adds per-agent hold-duration field.
+325	3	Introduces unified customer-profile exploration interface.
+326	2	Adds KCL 3 compatibility for stream processing.
+327	2	Adds instance-detail suppression parameter to group descriptions.
+328	NA	Expands C7gd regional availability.
+329	1	Adds C8gn instance family.
+330	NA	Expands I4i regional availability.
+331	NA	Expands I8g regional availability.
+332	NA	Expands M7i-flex size regional availability.
+333	NA	Expands R7g regional availability.
+334	2	Adds task identifier to unhealthy-service events.
+335	3	Introduces Private CA certificate issuance connector for Kubernetes.
+336	NA	Expands ElastiCache PrivateLink regional availability.
+337	2	Adds S3 protocol access to existing OpenZFS file data.
+338	2	Extends multi-stage threat analysis to EKS.
+339	2	Extends CloudFormation coverage of Lex features.
+340	2	Adds IPv6 Flink endpoints.
+341	NA	Expands MWAA regional availability.
+342	NA	Expands OpenSearch Serverless regional availability.
+343	2	Adds explicit model selection to Q CLI.
+344	2	Adds selective Java-upgrade transformation controls.
+345	2	Adds Builder ID upgrade path to Pro subscriptions.
+346	NA	Provides MariaDB maintenance releases.
+347	NA	Provides PostgreSQL extended-support patches.
+348	2	Adds resolver-capacity utilization metric.
+349	3	Introduces atomic object rename API.
+350	NA	Expands S3 Tables regional availability.
+351	3	Introduces automatic project Git-to-S3 synchronization.
+352	3	Introduces Kubernetes training operator with selective fault recovery.
+353	3	Introduces hardware packet timestamp access.
+354	NA	Expands IPAM regional availability.
+355	4	Introduces customer-account managed-instance operating model for WorkSpaces Core.
+356	NA	Expands Claude 3.7 regional availability.
+357	NA	Expands Direct Connect bandwidth availability geographically.
+358	2	Adds generated EDI formatting and field controls.
+359	NA	Expands Backup Audit Manager regional availability.
+360	3	Introduces backup-index notifications through SNS and EventBridge.
+361	2	Adds detail to bulk object-deletion logging.
+362	2	Adds compliance classifications to Config rules.
+363	2	Adds framework mappings to Control Tower catalog.
+364	NA	Expands directory service regional availability.
+365	2	Extends firewall policies to L7 DDoS rule groups.
+366	NA	Expands Glue regional availability.
+367	2	Automatically derives WDL workflow parameters.
+368	3	Introduces programmatic invoice-summary retrieval.
+369	3	Introduces schema-registry integration for native Kafka deserialization.
+370	2	Adds Marketplace interface languages.
+371	3	Introduces active threat-intelligence defense capability.
+372	NA	Expands PCS regional availability.
+373	2	Extends AD certificate connector to child domains.
+374	2	Adds private Resource Groups API connectivity.
+375	3	Introduces incident event integration with EventBridge.
+376	2	Adds configuration choices for VPN security.
+377	3	Introduces automatic application-layer DDoS detection and mitigation.
+378	2	Adds file-preview access controls in Wickr.
+379	2	Adds location-based carbon reporting method.
+380	1	Adds Kafka 3.8 runtime support for Express brokers.
+381	2	Extends Finch compatibility to Ubuntu.
+382	2	Adds Jira and Confluence sources to ingestion pipelines.
+383	3	Introduces customer-authored connector creation and listing operations.
+384	3	Publishes machine-readable AWS API definition interface.
+385	NA	Reduces SageMaker GPU-instance prices.
+386	2	Refines bootstrap configuration and logging in RES.
+387	3	Introduces resource-preserving migration to Unified Studio.
+388	1	Adds G6 instance choices for streaming applications.
+389	1	Doubles Aurora MySQL storage ceiling.
+390	NA	Expands R7g database regional availability.
+391	3	Introduces MySQL zero-ETL integration with SageMaker.
+392	2	Adds API-key authentication option to Bedrock.
+393	NA	Expands Bedrock regional availability.
+394	2	Adds HTTPS DNS-record support to CloudFront.
+395	3	Introduces AI-agent observability and end-to-end prompt tracing.
+396	NA	Expands CloudWatch RUM regional availability.
+397	2	Adds agent-facing performance dashboard.
+398	2	Adds CloudFormation support for template attachments.
+399	2	Adds inline email content to case activity views.
+400	2	Adds custom work labels to schedules.
+401	2	Adds UI for existing forecast adjustment.
+402	2	Adds CSV import input to customer-segment creation.
+403	1	Raises secondary-region cluster ceiling to ten.
+404	NA	Updates DynamoDB Local SDK dependency for maintenance.
+405	2	Exposes EBS initialization status.
+406	NA	Expands C7gd regional availability.
+407	NA	Expands Graviton4 instance regional availability.
+408	NA	Expands I8g regional availability.
+409	NA	Expands P6-B200 regional availability.
+410	2	Adds skip-OS-shutdown option to stopping instances.
+411	3	Introduces native blue-green deployment and validation hooks.
+412	1	Adds Valkey 8.1 engine version.
+413	2	Adds IPv6 EventBridge endpoints.
+414	NA	Expands ONTAP regional availability.
+415	NA	Expands Inspector regional availability.
+416	NA	Expands managed Flink regional availability.
+417	NA	Expands MQ regional availability.
+418	NA	Expands MSK Connect regional availability.
+419	2	Adds native query entry to existing Graph Explorer UI.
+420	2	Adds Aurora database sources to existing OpenSearch ingestion.
+421	2	Adds Q response customization settings.
+422	2	Adds task-specific configuration for CLI agents.
+423	2	Adds content-type granular export permissions.
+424	NA	Expands RDS Custom regional availability.
+425	2	Adds AD group authorization for Db2.
+426	3	Introduces Oracle-to-Redshift zero-ETL integration.
+427	NA	Expands M7i database regional availability.
+428	NA	Provides SQL Server cumulative maintenance update.
+429	2	Adds cascading nested materialized-view refresh.
+430	2	Adds liveness challenge settings alongside accuracy gains.
+431	NA	Expands existing batch-object selection support to GovCloud.
+432	2	Adds tagging and attribute-based access to directory buckets.
+433	NA	Expands Multi-Region Access Points regional availability.
+434	4	Introduces vector bucket storage and similarity-query subsystem in S3.
+435	2	Adds general-purpose S3 buckets as catalog resources.
+436	2	Extends model deployment sources and workflow in HyperPod.
+437	3	Introduces SageMaker-to-QuickSight dashboard data integration.
+438	2	Adds visual authoring interface to existing workflows.
+439	2	Adds IPv6 SNS private endpoints.
+440	NA	Expands SMS sending regional availability.
+441	1	Adds 24xlarge InfluxDB instance size.
+442	NA	Expands VPC Route Server regional availability.
+443	NA	Expands Direct Connect bandwidth availability geographically.
+444	3	Introduces MCP interface to existing AWS API operations.
+445	2	Simplifies multi-region DSQL restoration workflow.
+446	2	Adds incremental and distributed training options to custom models.
+447	NA	Expands Client VPN regional availability.
+448	1	Improves cost anomaly detection accuracy.
+449	2	Adds IPv6 storage-resource connectivity to DataSync.
+450	2	Extends MACsec encryption to partner interconnects.
+451	2	Adds SOCI manifest v2 compatibility.
+452	2	Extends quality monitoring to S3 and Iceberg tables.
+453	2	Adds S3 Tables destination to existing zero-ETL ingestion.
+454	3	Introduces Git repository integration for workflow creation.
+455	NA	Expands IoT services regional availability.
+456	3	Introduces MCP interface for AWS knowledge retrieval.
+457	1	Reduces provisioned Kafka event processing latency.
+458	2	Adds PDF exports and subscription-management refinements.
+459	3	Introduces native Transit Gateway firewall integration.
+460	2	Adds external-array boot-volume source for Outposts EC2.
+461	3	Introduces private collaboration channels in re:Post.
+462	2	Adds IPv6 outer tunnel addresses.
+463	2	Adds EBS cost and .NET complexity assessment dimensions.
+464	3	Introduces SDK interface for browser automation with Nova Act.
+465	2	Adds custom instruction controls to topic responses.
+466	2	Extends fleet monitoring to Limitless databases.
+467	NA	Expands existing Access Analyzer features to GovCloud.
+468	3	Introduces natural-language MCP interface for MSK.
+469	5	Introduces joint Oracle database infrastructure offering within AWS.
+470	2	Adds application-level authentication to content search API.
+471	3	Introduces orchestrated multi-region application recovery switching.
+472	1	Improves Aurora Serverless performance.
+473	1	Adds models to batch-inference catalog.
+474	3	Introduces local device-specific quantum-circuit emulation.
+475	2	Adds organization-wide automatic flow-log enablement rules.
+476	NA	Expands RUM to GovCloud.
+477	2	Adds task and email forms to existing communication widget.
+478	2	Adds recurrence settings to scheduled activities.
+479	2	Extends Console-to-Code resource generation to DynamoDB.
+480	2	Adds detailed throttle errors and corresponding metrics.
+481	NA	Expands C7i regional availability.
+482	2	Adds forced termination option for stuck instances.
+483	NA	Expands I7i regional availability.
+484	NA	Expands M6id regional availability.
+485	NA	Expands M7i regional availability.
+486	1	Adds M8i and M8i-flex instance families.
+487	NA	Expands R7gd regional availability.
+488	3	Introduces embedded CloudWatch Live Tail integration in ECS console.
+489	2	Adds fine-grained Spark permissions and catalog-view compatibility.
+490	2	Adds IPv6 OpenZFS access.
+491	NA	Expands Kinesis Video Streams regional availability.
+492	2	Adds customer-managed Flink encryption keys.
+493	NA	Expands M7g broker regional availability.
+494	3	Introduces pause and resume operations for graph workloads.
+495	2	Adds attribute-based permissions to data APIs.
+496	3	Introduces automatic semantic enrichment of indexed content.
+497	2	Adds SAML-attribute granular permissions to OpenSearch UI.
+498	2	Exposes progress events for existing chat response generation.
+499	2	Adds Impala connector to existing data-source support.
+500	NA	Expands QuickSight regional availability.
+501	3	Introduces Db2 read-replica provisioning.
+502	3	Introduces vector storage and similarity search in MariaDB.
+503	2	Adds certificate authority and cipher choices.
+504	NA	Provides Oracle Spatial maintenance patches.
+505	2	Adds self-managed AD Kerberos authentication option.
+506	2	Extends fault injection to S3 Express One Zone.
+507	2	Adds reusable account-independent project templates.
+508	2	Adds catalog-wide automatic Iceberg optimization settings.
+509	2	Adds project S3 file sharing options.
+510	NA	Expands U7i regional availability.
+511	2	Adds policy-language operators through Cedar 4.5.
+512	1	Adds Claude Opus 4.1 model choice.
+513	U	Announces GA for Automated Reasoning checks without explicit preview delta.
+514	NA	Expands Backup regional availability.
+515	2	Adds recommended billing actions to existing widget.
+516	2	Adds billing-view scope selection to budgets.
+517	2	Adds IPv6-resource access through Client VPN.
+518	2	Extends Config assessment to additional resource types.
+519	2	Extends Linux rendering compatibility to Cinema 4D and Redshift.
+520	NA	Adds Direct Connect geographic location.
+521	NA	Expands Elastic Beanstalk regional availability.
+522	2	Extends traffic mirroring compatibility to more instances.
+523	2	Adds external container registries and URI remapping.
+524	2	Adds customer-managed IoT Core encryption keys.
+525	3	Introduces reusable asset-model interface abstraction.
+526	2	Refines Marketplace AMI fulfillment workflow.
+527	2	Adds received-byte monitoring metrics.
+528	2	Adds static service-link and DNS configuration.
+529	2	Extends private connectivity to FIPS endpoints.
+530	NA	Reports HITRUST certification.
+531	2	Adds runbook execution controls alongside pricing changes.
+532	2	Adds Azure repository and package-source support to transformation.
+533	2	Adds custom metric support to Application Signals.
+534	2	Adds large public-address pool ingress routing.
+535	1	Adds OpenAI models to inference catalogs.
+536	3	Introduces agentic multi-step retrieval and response validation.
+537	2	Adds EBS CSI persistent-storage compatibility to HyperPod.
+538	2	Adds network-topology-aware task placement.
+539	2	Adds environment-variable interpolation for command parameters.
+540	1	Adds fractional GPU instance sizes.
+541	2	Adds hstore and automatic execution-plan logging extensions.
+542	NA	Expands Bedrock regional availability.
+543	NA	Expands Bedrock regional availability.
+544	2	Adds ECDSA signing option for URLs and cookies.
+545	3	Introduces centralized cross-account and region log copying.
+546	NA	Expands integrated analytics regional availability.
+547	2	Adds agent self-selection of queued contacts.
+548	2	Extends redaction to seven languages.
+549	2	Adds flow analytics display in designer.
+550	NA	Expands DataZone regional availability.
+551	3	Introduces cross-account AMI usage and dependency tracking.
+552	2	Adds FIPS private Auto Scaling endpoints.
+553	NA	Expands C8gn regional availability.
+554	NA	Expands I7i regional availability.
+555	1	Adds M4 and M4 Pro Mac instance choices.
+556	NA	Expands R8i regional availability.
+557	4	Introduces managed EC2 infrastructure operating model for ECS.
+558	NA	Expands existing community add-on catalog to GovCloud.
+559	2	Extends customer-managed keys to event rule patterns and transforms.
+560	2	Adds IPv6 ONTAP file-system access.
+561	NA	Adds GameLift geographic location.
+562	NA	Expands IPv6 Kinesis endpoints to GovCloud.
+563	NA	Expands managed Prometheus to GovCloud.
+564	3	Introduces quota and utilization integration with monitoring services.
+565	NA	Expands Express broker regional availability.
+566	2	Adds derived-source storage configuration to indexes.
+567	3	Introduces search-quality experimentation workbench alongside engine enhancements.
+568	2	Extends MCP connectivity to remote servers.
+569	2	Adds reserved purchasing option for Db2 instances.
+570	1	Adds MySQL 9.4 preview engine choice.
+571	NA	Provides PostgreSQL extended-support patches.
+572	NA	Expands concurrency scaling regional availability.
+573	NA	Expands Redshift Serverless regional availability.
+574	2	Adds restricted classification permissions to catalog terms.
+575	1	Adds P6-B200 notebook instance option.
+576	NA	Expands IPv6 SNS endpoints to GovCloud.
+577	NA	Expands Region switch regional availability.
+578	NA	Expands Backup regional availability.
+579	2	Adds configurable budget start and end dates.
+580	2	Adds incremental mode to existing ID-mapping workflows.
+581	3	Introduces MCP interface for CloudTrail analysis.
+582	2	Extends Config assessment to additional resources.
+583	2	Automates existing job-output attachment downloads.
+584	2	Adds four-byte ASN compatibility to virtual interfaces.
+585	NA	Adds Direct Connect geographic location.
+586	2	Adds CloudFormation coverage for SMS resources.
+587	2	Adds OIDC authentication choice to DICOMweb APIs.
+588	2	Adds customer-managed keys for identity data.
+589	NA	Expands cross-account Lambda image support to GovCloud.
+590	3	Introduces NetworkX integration with Neptune graph storage.
+591	2	Refines TLS traffic-handling rules.
+592	2	Adds framework compatibility and expert-parallelism controls.
+593	2	Adds Dell and HPE external-storage targets.
+594	NA	Expands Resource Explorer regional availability.
+595	2	Adds Distributed Map source choices and monitoring metrics.
+596	2	Adds IPv6 gateway and endpoint connectivity.
+597	2	Adds four IAM condition keys for Transfer policies.
+598	2	Adds Terraform output format to VMware network conversion.
+599	NA	Introduces free logging allowance tied to WAF usage.
+600	2	Adds transformation status reporting to console.
+601	2	Adds prebuilt proactive controls and hook-activity summaries.
+602	1	Adds DeepSeek-V3.1 model choice.
+603	2	Adds organization-wide notification configuration.
+604	2	Extends local-file redirection to multi-session fleets.
+605	2	Adds centralized region and zone access management.
+606	NA	Expands MSK Connect regional availability.
+607	NA	Publishes example CLI scripts for developer education.
+608	1	Adds PostgreSQL 18 preview engine choice.
+609	2	Adds deployment and AMI management configuration refinements.
+610	3	Introduces remote VS Code connection to Unified Studio.
+611	NA	Expands second-generation Outposts regional availability.
+612	2	Extends custom threat lists to additional entity types.
+613	NA	Publishes AI development context documentation package.
+614	2	Adds FIPS-compatible DSQL endpoints.
+615	2	Adds networking authentication protocol and configuration options to existing AgentCore services.
+616	2	Adds video file and codec compatibility alongside image speed improvements.
+617	3	Introduces interactive incident-report generation.
+618	2	Adds OAuth resource-indicator parameter.
+619	2	Extends agent screen recording to ChromeOS.
+620	3	Introduces case-linking and related-item APIs.
+621	2	Extends input flow blocks to outbound whisper flows.
+622	2	Adds granular recording and transcript permissions.
+623	2	Adds threaded email views and reply history.
+624	1	Adds R8g DocumentDB instance choice.
+625	2	Adds WebAuthn compatibility and keyboard-handling refinements.
+626	NA	Expands DynamoDB zero-ETL regional availability.
+627	3	Introduces instant volume cloning operation.
+628	NA	Expands C7gd regional availability.
+629	NA	Expands C8gd regional availability.
+630	3	Introduces cross-account EC2 capacity analysis and management interface.
+631	NA	Expands I7i regional availability.
+632	NA	Expands I7ie regional availability.
+633	NA	Expands Im4gn regional availability.
+634	NA	Expands M7i regional availability.
+635	2	Adds CPU customization for license-included instances.
+636	NA	Expands R8i regional availability.
+637	NA	Expands ECS Managed Instances regional availability.
+638	2	Adds request-level Envoy access logs.
+639	2	Adds IPv6 ElastiCache service endpoints.
+640	2	Adds console instance inspection and connection shortcuts.
+641	1	Raises stream-record size ceiling tenfold.
+642	1	Updates geographic boundary data values.
+643	NA	Expands MQ regional availability.
+644	NA	Expands Neptune Analytics regional availability.
+645	1	Adds Nova Multimodal Embeddings model.
+646	1	Adds Graviton4 OpenSearch instance choices.
+647	5	Introduces Quick Suite agentic research and automation workspace offering.
+648	2	Extends IPv6 to publicly accessible databases.
+649	2	Adds KMS server-side encryption option for native backups.
+650	NA	Expands Redshift auto-copy regional availability.
+651	2	Adds private Route 53 Resolver API connectivity.
+652	2	Adds table-maintenance audit events.
+653	2	Adds S3 source for project template provisioning.
+654	2	Adds corporate SSO authentication to Spark sessions.
+655	NA	Expands U7i regional availability.
+656	2	Adds configurable gateway address counts.
+657	2	Adds USB-device redirection to DCV desktops.
+658	3	Introduces automatic application discovery and dependency mapping.
+659	3	Introduces execution-plan tool alongside MCP configuration refinements.
+660	2	Combines region and account snapshot copy into one action.
+661	2	Extends collaborations to cross-region data sources.
+662	NA	Expands cross-account discovery to GovCloud.
+663	2	Extends Config assessment to three resource types.
+664	2	Adds endpoint policies for DataSync access control.
+665	3	Introduces programmatic directory-edition upgrade API.
+666	1	Adds Corretto 25 runtime choice.
+667	NA	Expands Global Accelerator endpoint regional availability.
+668	NA	Expands incident-response service to GovCloud.
+669	2	Adds map styling and terrain display choices.
+670	2	Adds purchase-order line-number billing field.
+671	NA	Expands Nitro Enclaves regional availability.
+672	1	Adds Slurm 25.05 runtime choice.
+673	2	Exposes additional Slurm configuration controls.
+674	5	Introduces managed RTB networking and inline bidding service.
+675	2	Adds PrivateLink for Secrets Manager FIPS endpoints.
+676	NA	Announces service lifecycle availability changes.
+677	3	Introduces notifications for unapproved Windows security updates.
+678	3	Introduces capacity-reservation topology retrieval API.
+679	1	Adds Cohere Embed v4 model choice.
+680	2	Adds failed-pipeline disabling and custom log-group controls.
+681	1	Adds larger Lightsail instance bundles.
+682	3	Introduces AgentCore MCP development interface.
+683	3	Introduces self-service invoice correction operation.
+684	1	Adds Marengo Embed 3.0 model choice.
+685	1	Enables active threat defense by default.
+686	2	Adds TLS security-policy choices for REST APIs.
+687	3	Introduces automatic Athena reserved-capacity adjustment solution.
+688	2	Adds browser interface for existing SQL execution.
+689	3	Introduces dynamic column masking capability.
+690	NA	Expands Bedrock regional availability.
+691	NA	Expands Bedrock to Secret region.
+692	1	Adds AQT quantum processor to device catalog.
+693	2	Adds metadata query-string and origin override controls.
+694	2	Adds mutual TLS authentication choice.
+695	2	Adds shared-memory utilization metrics.
+696	NA	Expands Application Signals to GovCloud.
+697	2	Adds log-group deletion-protection setting.
+698	2	Adds NLB access logs to vended-log ingestion.
+699	2	Adds private Cognito user-pool connectivity.
+700	2	Extends AI assistance to Salesforce contact-center integration.
+701	2	Adds keyword conditions for email response automation.
+702	3	Introduces agent-initiated chat workflows and forms.
+703	3	Introduces custom operational configuration UI creation.
+704	2	Adds follow-up replies within email contacts.
+705	2	Adds evaluation-form granular access controls.
+706	2	Adds user-defined contact-center metrics.
+707	2	Adds multi-skill constraints to agent scheduling.
+708	2	Adds unanswered-call ring-duration control.
+709	2	Adds incremental streaming of AI chat responses.
+710	2	Adds multi-attribute composition to secondary-index keys.
+711	NA	Expands C6id and R6id regional availability.
+712	NA	Expands Graviton4 local-storage instance regional availability.
+713	2	Adds encryption requirement to instance-selection attributes.
+714	NA	Expands high-memory instance regional availability.
+715	NA	Expands I7i regional availability.
+716	NA	Expands I8g regional availability.
+717	NA	Expands M8a regional availability.
+718	1	Adds P6-B300 GPU instance family.
+719	2	Adds private ECR FIPS endpoints.
+720	2	Adds non-root permission support for mounted EBS volumes.
+721	4	Introduces managed Kubernetes deployment and orchestration platform subsystems.
+722	2	Adds selectable provisioned control-plane capacity tiers.
+723	2	Adds audit context to catalog and credential API calls.
+724	2	Adds fair queues as event delivery targets.
+725	3	Adds file-resource management capability to Windows file storage.
+726	2	Adds organization policy controls for Inspector scanning.
+727	NA	Expands Keyspaces regional availability.
+728	2	Adds on-demand stream prewarming controls alongside pricing changes.
+729	2	Extends wait-and-continue dialogue to more languages.
+730	2	Adds LDAP authentication for RabbitMQ.
+731	NA	Expands MSK Replicator regional availability.
+732	3	Introduces data-plane request audit logging through CloudTrail.
+733	2	Adds private OpenSearch management-console connectivity.
+734	NA	Expands optimized OpenSearch instance regional availability.
+735	2	Adds table and pivot-table reader customization.
+736	2	Adds scheduled triggers to existing Quick Flows.
+737	NA	Provides MySQL maintenance versions.
+738	1	Adds high-memory R7i database configurations.
+739	2	Adds PostgreSQL UUID generation and expanded observability features.
+740	2	Adds federated permission management across warehouses.
+741	2	Extends SUPER datatype compatibility to case-insensitive databases.
+742	2	Adds private authoritative DNS API connectivity.
+743	2	Adds resolver query-log settings to Profiles.
+744	2	Adds bucket encryption-type enforcement setting.
+745	3	Introduces S3 Tables monitoring integration with CloudWatch.
+746	2	Extends metadata forms and rich descriptions to columns.
+747	2	Adds custom tagging to project-created resources.
+748	2	Adds EMR on EKS compute target and SSO sessions.
+749	3	Introduces node reboot and replacement APIs.
+750	2	Extends corporate-identity sessions to long-running workloads.
+751	NA	Expands SQS IPv6 endpoints to GovCloud.
+752	NA	Expands U7i regional availability.
+753	3	Introduces automatic Infoblox address-allocation integration.
+754	2	Adds configurable storage and image choices alongside instance options.
+755	3	Introduces custom AMI distribution workflows and retries.
+756	3	Introduces managed API developer portals.
+757	3	Introduces ALB health-check log export.
+758	2	Adds database-driver wrappers automating existing IAM authorization.
+759	3	Introduces natural-language test question generation.
+760	2	Adds Iceberg v3 deletion-vector and row-lineage compatibility.
+761	NA	Expands B2B Interchange regional availability.
+762	2	Allows air-gapped vaults as primary backup targets.
+763	2	Extends managed backup to EKS cluster state and data.
+764	3	Introduces synthetic dataset generation for clean-room training.
+765	2	Adds detailed hook evaluation output.
+766	3	Introduces automatic execution of optimization recommendations.
+767	1	Adds managed rules to Config catalog.
+768	2	Adds direct controls-only access to Control Tower.
+769	2	Extends managed cost-anomaly monitoring scopes.
+770	3	Introduces managed interactive Appium endpoint alongside test configuration controls.
+771	2	Extends HLS interstitial ads to live streams.
+772	2	Adds Iceberg capabilities and Lake Formation write compatibility.
+773	3	Introduces remote Iceberg catalog federation.
+774	2	Adds redundant and consolidated Health event delivery choices.
+775	2	Extends device-location resolution to Sidewalk devices.
+776	3	Introduces system-log forwarding component with TPM support.
+777	2	Adds topic-scoped knowledge search.
+778	4	Introduces EC2-backed managed Lambda execution model.
+779	2	Adds provisioned event-poller capacity controls for SQS.
+780	4	Introduces per-tenant execution-environment isolation model.
+781	2	Adds estimated tax and invoicing-entity purchase details.
+782	3	Introduces unified managed MCP interface and task workflows.
+783	2	Adds .NET database-driver access and connection handling.
+784	3	Introduces direct organization-to-organization account transfer.
+785	3	Introduces REST interface to Slurm operations.
+786	2	Adds CLI filter plugin customization to Slurm.
+787	3	Introduces Iceberg table-writing operations in Redshift.
+788	3	Introduces agentic security investigation capability.
+789	3	Introduces VPN concentrator for multi-site connectivity.
+790	2	Adds IPv6 STS endpoints.
+791	2	Adds configurable Transit Gateway cost distribution.
+792	NA	Expands cross-account backup management regionally.
+793	3	Introduces cross-organization billing transfer and consolidation.
+794	2	Adds IPv6 Anycast static-IP configurations.
+795	2	Extends container monitoring to Neuron UltraServers.
+796	2	Adds console automation for existing agent installation.
+797	3	Introduces multi-step multichannel campaign journey construction.
+798	1	Adds instance families to rendering compute catalog.
+799	3	Introduces complete AMI ancestry tracing.
+800	2	Extends warm pools to mixed-instance groups.
+801	2	Adds reservation cost-reporting columns and granularity.
+802	NA	Expands ECS Managed Instances to GovCloud.
+803	2	Extends Q cost analysis domains and controls.
+804	5	Introduces managed last-mile AWS connectivity offering.
+805	2	Adds Spark DataFrame compatibility to DynamoDB connector.
+806	2	Adds actionability and persona fields to Health events.
+807	3	Introduces multi-product solution procurement capability.
+808	2	Extends MCP tools to HyperPod cluster management.
+809	1	Adds R8a instance family.
+810	3	Introduces Mountpoint operations metrics emission.
+811	2	Adds cross-account firewall cost-allocation controls.
+812	2	Adds weighted target-group routing.
+813	4	Introduces serverless notebook execution environment with built-in AI agent.
+814	3	Introduces AWS KMS integration for Oracle TDE keys.
+815	2	Extends recycle-bin recovery to EBS volumes.
+816	2	Extends reserved training capacity plans to inference endpoints.
+817	2	Adds GPU partitioning support to HyperPod tasks.
+818	NA	Changes incident-response pricing model.
+819	2	Adds eero endpoint integration for existing VPN connectivity.
+820	NA	Adds Marketplace distribution channel for existing MCP server.
+821	3	Introduces proactive required-tag validation across IaC tools.
+822	1	Adds 176 controls to Control Tower catalog.
+823	1	Reduces DSQL cluster provisioning time.
+824	3	Introduces Aurora integration with Kiro powers.
+825	1	Adds eighteen inference model choices.
+826	2	Adds JSON and CBOR protocol support to SDK.
+827	2	Adds triggering-resource details to metric alerts.
+828	2	Adds custom business-dimension dashboard filters.
+829	NA	Expands C8a regional availability.
+830	NA	Expands C8gn regional availability.
+831	NA	Expands M8i regional availability.
+832	NA	Expands X8g regional availability.
+833	2	Adds automatic repository creation during image push.
+834	2	Adds Spot purchasing choice to managed ECS compute.
+835	2	Adds WATCH transaction command compatibility.
+836	NA	Expands EVS regional availability.
+837	NA	Expands managed Flink regional availability.
+838	NA	Expands MSK Replicator regional availability.
+839	1	Adds Nova 2 Sonic model choice.
+840	1	Adds OI2 OpenSearch instance family.
+841	3	Introduces persistent conversational memory for chat agents.
+842	2	Adds snapshot-export progress and failure telemetry.
+843	2	Extends materialized-view operations on shared data.
+844	2	Adds performance metrics and export options to Storage Lens.
+845	4	Introduces checkpointless distributed-training recovery mechanism.
+846	3	Introduces email-address validation operation.
+847	1	Adds Windows Server 2025 image choice.
+848	3	Introduces browser web-content filtering capability.
+849	3	Introduces Neuron Explorer tooling and new compiler interfaces.
+850	2	Adds IPv6 migration and service communication.
+851	2	Adds segment and individual rollout targeting controls.
+852	3	Introduces Vercel Marketplace database provisioning integration.
+853	2	Adds job submission interface to existing desktop monitor.
+854	2	Adds autoscaling warm-buffer controls alongside compute classes.
+855	2	Adds batching to existing HTTP rule actions.
+856	2	Adds mandatory purchase orders and custom purchase messaging.
+857	NA	Expands Payment Cryptography regional availability.
+858	1	Adds C8ine instance configuration in preview.
+859	2	Adds secret sorting keys to console and API.
+860	2	Extends network security analysis across accounts.
+861	3	Introduces contextual AI support integration alongside support-plan restructuring.
+862	NA	Expands WAF regional availability.
+863	3	Introduces example-driven blueprint instruction optimization.
+864	2	Adds modification requests for existing collaborations.
+865	2	Extends configuration compliance assessment to SAP ABAP.
+866	2	Adds account tags as cost-allocation dimensions.
+867	2	Adds Terraform coverage for Enhanced DataSync mode.
+868	3	Introduces synchronous Auto Scaling instance-launch API.
+869	NA	Expands U7i regional availability.
+870	NA	Expands M8i-flex regional availability.
+871	NA	Expands R8i regional availability.
+872	2	Adds weekly task-retirement scheduling windows.
+873	1	Adds Python 3.14 runtime support.
+874	2	Adds service-specific custom billing line-item controls.
+875	1	Adds M8gn and M8gb instance families.
+876	NA	Expands durable functions regional availability.
+877	1	Adds MiniMax-M2 model choice.
+878	4	Introduces serverless model-customization execution workflow.
+879	2	Extends semantic enrichment to managed clusters.
+880	2	Adds browser execution surface for existing Quick Flows.
+881	2	Extends Redshift ODBC compatibility to macOS.
+882	1	Improves batch-operation throughput.
+883	4	Introduces serverless autoscaling MLflow operating model.
+884	NA	Expands incident-response regional availability.
+885	3	Introduces support-case screen sharing.
+886	3	Introduces mainframe data and activity analysis for application reimagining.
+887	2	Extends VMware migration automation with agent capabilities.
+888	3	Introduces write-capable warm storage tier.
+889	2	Adds policy ARN detail to access errors.
+890	1	Adds one-hour prompt-cache lifetime value.
+891	3	Introduces server-side custom-tool execution via Responses API.
+892	3	Introduces federation transformation Lambda trigger hooks.
+893	2	Adds random contact sampling for evaluations.
+894	2	Adds conditional UI and real-time guide updates.
+895	2	Adds recurring hours overrides and calendar controls.
+896	NA	Expands DocumentDB regional availability.
+897	NA	Expands U7i regional availability.
+898	NA	Expands C8i regional availability.
+899	NA	Expands I7ie regional availability.
+900	NA	Expands R8a regional availability.
+901	3	Introduces cross-repository image-layer mounting.
+902	1	Adds Kubernetes 1.35 runtime support.
+903	1	Raises EventBridge payload ceiling.
+904	1	Adds G7e GPU instance family.
+905	2	Adds table throughput-prewarming control.
+906	1	Updates application blueprint catalog and metadata defaults.
+907	2	Adds HTTP authentication backend for RabbitMQ.
+908	NA	Expands MSK Replicator regional availability.
+909	NA	Expands Neptune instance regional availability.
+910	1	Reduces Blue-Green switchover downtime.
+911	2	Extends Oracle replicas to multi-tenant configurations.
+912	NA	Expands cross-region SQL Server replicas geographically.
+913	3	Introduces query queues and workload-specific resource management.
+914	2	Adds pre-provisioning quota validation to console.
+915	NA	Expands VPC Route Server regional availability.
+916	1	Adds Airflow 2.11 runtime version.
+917	2	Adds Kafka poller processing logs and metrics.
+918	2	Adds SQL join and partition optimization hints.
+919	1	Adds managed Config rule catalog entries.
+920	2	Adds post-submission job metadata editing.
+921	NA	Expands flexible firewall cost allocation to GovCloud.
+922	3	Introduces Kiro workflow-development integration for HealthOmics.
+923	1	Adds .NET 10 runtime option.
+924	2	Adds web-category and GenAI traffic filtering controls.
+925	NA	Expands Resource Explorer regional availability.
+926	2	Adds ONTAP file-system target to managed transfers.
+927	2	Adds private connectivity to Transform custom.
+928	2	Adds detailed query monitoring metrics.
+929	2	Adds force-delete IAM condition for group protection.
+930	1	Adds FLUX and Gemma model catalog entries.
+931	1	Adds GLM and Nemotron model catalog entries.
+932	1	Adds larger EBS-optimized instance sizes.
+933	1	Adds embedding coding and OCR model choices.
+934	NA	Expands managed IoT integrations regionally.
+935	1	Adds Muse and Qwen model choices.
+936	3	Introduces partner-attributed AWS consumption measurement.
+937	1	Adds P5.4xl notebook instance choice.
+938	NA	Expands R7gd regional availability.
+939	NA	Expands Storage Lens to GovCloud.
+940	NA	Expands Lake Formation regional availability.
+941	1	Reduces minimum reservation duration and DPU count.
+942	2	Adds NUMERIC index-key compatibility.
+943	2	Automates minor upgrades across global topology.
+944	1	Adds six inference model choices.
+945	2	Extends private connectivity to mantle inference endpoint.
+946	3	Introduces AgentCore Gateway integration for server-side tools.
+947	2	Adds temporary alarm-muting rule controls.
+948	2	Adds noisy-environment audio processing controls.
+949	2	Adds multiline case text-field input.
+950	2	Adds after-contact timeout controls for additional channels.
+951	NA	Expands DocumentDB regional availability.
+952	NA	Expands C8a regional availability.
+953	NA	Expands C8i regional availability.
+954	1	Adds C8i M8i and R8i compute choices on Outposts.
+955	NA	Expands G7e regional availability.
+956	NA	Expands I7ie regional availability.
+957	NA	Expands M8a regional availability.
+958	NA	Expands M8i regional availability.
+959	NA	Expands R7a regional availability.
+960	NA	Expands R8i regional availability.
+961	NA	Expands X8i regional availability.
+962	NA	Expands X8i regional availability.
+963	2	Adds configurable vended-log delivery for managed EKS components.
+964	2	Adds schedule resource-count metrics.
+965	2	Adds customer-managed Grafana encryption keys.
+966	NA	Expands Neptune Analytics regional availability.
+967	NA	Expands existing Graviton4 OpenSearch instance coverage geographically.
+968	NA	Provides SQL Server GDR maintenance updates.
+969	2	Consolidates database connection instructions in console.
+970	2	Extends automatic optimization to multi-cluster deployments.
+971	2	Adds source-region field to access logs.
+972	2	Adds Slurm topology settings to cluster APIs.
+973	2	Extends 4K compatibility across instance and client modes.
+974	NA	Introduces DocumentDB long-term maintenance support policy.
+975	1	Enables application monitoring by default in EKS add-on.
+976	2	Adds ORM and schema-migration compatibility adapters.
+977	3	Introduces New Relic-triggered rollback integration.
+978	NA	Expands Neptune backup regional availability.
+979	2	Adds Apple login provider.
+980	2	Adds automatic provenance tags to created snapshots.
+981	2	Adds related-resource view for security groups.
+982	3	Introduces GitHub Actions deployment integration.
+983	NA	Expands Glue 5.1 regional availability.
+984	NA	Expands Identity Center regional availability.
+985	2	Packages existing policy-analysis tool as Kiro power.
+986	2	Adds localized invoicing for Marketplace services.
+987	2	Extends dual-stack connectivity to existing Kafka clusters.
+988	NA	Reduces firewall-related network prices.
+989	2	Adds resource-share continuity option during organization transfers.
+990	2	Adds browser proxy configuration.
+991	1	Adds Claude Sonnet 4.6 model choice.
+992	2	Adds live switching of campaign dialing mode.
+993	2	Extends global-table replication across accounts.
+994	2	Adds capacity-reservation choice for managed ECS compute.
+995	3	Introduces firewall state notifications through EventBridge.
+996	NA	Expands Kiro to GovCloud.
+997	NA	Expands Oracle Database@AWS regionally.
+998	1	Adds P5en.48xl notebook instance choice.
+999	2	Adds backup-policy settings during snapshot restoration.
+1000	NA	Provides PostgreSQL regression-fix maintenance versions.
+1001	2	Adds JSON-schema-constrained model response formatting.
+1002	2	Adds console and event access to existing Cluster Insights.
+1003	2	Adds browser enterprise policy and root-certificate controls.
+1004	NA	Expands Athena reservations regionally.
+1005	2	Adds AG-UI protocol compatibility to agent runtime.
+1006	1	Adds MiniMax and GLM inference models.
+1007	3	Introduces project isolation and management API.
+1008	2	Extends query and protection features to infrequent-access logs.
+1009	3	Introduces Security Hub findings ingestion into CloudWatch.
+1010	3	Introduces natural-language operational assistant for managers.
+1011	2	Extends testing and simulation to chat experiences.
+1012	3	Introduces integrated manager-to-agent coaching workflows.
+1013	2	Adds voice-agent language compatibility.
+1014	NA	Expands C8gd and M8gd regionally.
+1015	NA	Expands C8id regional availability.
+1016	NA	Expands U7i regional availability.
+1017	NA	Expands M6in and M6idn regionally.
+1018	NA	Expands M8azn regional availability.
+1019	NA	Expands R7gd regional availability.
+1020	NA	Expands R8g regional availability.
+1021	NA	Expands X2idn to Secret region.
+1022	2	Adds instance-store volume option for ECS workloads.
+1023	3	Introduces managed DDoS protection for game servers.
+1024	1	Adds OpenClaw deployment image to Lightsail catalog.
+1025	NA	Expands Express broker regional availability.
+1026	3	Introduces spatial data types and spatial query operations.
+1027	2	Consolidates telemetry signal ingestion into one endpoint.
+1028	1	Removes three-terabyte limit for in-place volume increases.
+1029	NA	Expands Quick regional availability.
+1030	2	Adds OS-update visibility and scheduling controls.
+1031	2	Extends managed Oracle deployment to Outposts target.
+1032	2	Adds array-processing functions for existing SUPER data.
+1033	2	Adds dictionary-DGA filtering to existing resolver at GA.
+1034	2	Adds account-regional bucket naming scope.
+1035	2	Extends continuous provisioning to Slurm clusters.
+1036	2	Adds reservation commitment extension operation.
+1037	1	Adds Glue 5.1 execution version.
+1038	3	Introduces interactive chart generation and materialized-view management in agent.
+1039	1	Raises supported InfluxDB node-count ceiling.
+1040	1	Adds Windows Server 2025 desktop bundles.
+1041	2	Adds .NET and Rust database-driver connectors.
+1042	NA	Expands RDS Multi-AZ backup regional availability.
+1043	3	Introduces lifecycle-event integration alongside AMI status visibility.
+1044	2	Adds GitHub and Amazon login providers.
+1045	2	Extends Config assessment to thirty resource types.
+1046	2	Extends existing agent to Azure custom skills and reporting at GA.
+1047	NA	Adds Direct Connect geographic location.
+1048	3	Introduces managed OTP sending using AWS-owned sender identities.
+1049	NA	Expands HealthImaging regional availability.
+1050	2	Adds bulk workflow submission operation.
+1051	3	Introduces automatic Valkey-backed JDBC query caching.
+1052	3	Introduces seller self-service refunds and cancellation operations.
+1053	2	Adds expedited job requeue alongside hardware and runtime choices.
+1054	2	Adds private SCEP connector connectivity.
+1055	2	Extends workflow integration action catalog.
+1056	U	Announces GA of previewed penetration testing without explicit feature delta.
+1057	2	Embeds role-permission configuration within service workflows.
+1058	2	Adds asynchronous receipt handling to AS2 transfers.
+1059	3	Introduces persistent agent-session filesystem storage.
+1060	3	Introduces SLO recommendations and performance reporting.
+1061	2	Adds parameters to reusable log-query templates.
+1062	NA	Expands Cognito regional availability.
+1063	2	Adds render-worker scaling configuration options.
+1064	NA	Expands U7i regional availability.
+1065	NA	Expands G6 notebook regional availability.
+1066	2	Adds IAM authorization option for tables and materialized views.
+1067	3	Introduces Lambda availability-zone metadata endpoint.
+1068	3	Introduces approval-team test and baselining operation.
+1069	3	Introduces Shield finding integration with Security Hub.
+1070	3	Introduces conversational agentic log-analysis interface.
+1071	1	Adds Palmyra Vision model choice.
+1072	2	Extends federated permissions to multi-region identities.
+1073	2	Adds Express One Zone request metrics.
+1074	2	Adds geographic inference profile choices.
+1075	2	Adds light appearance setting for IAM domains.
+1076	1	Adds Amazon Linux 2023 deployment image support.
+1077	2	Adds chat personalization preference controls.
+1078	4	Introduces managed agent-loop harness with isolated execution sessions.
+1079	NA	Provides PostgreSQL minor maintenance versions.
+1080	3	Introduces delegated on-behalf-of token exchange.
+1081	1	Adds Rigetti quantum processor choice.
+1082	2	Extends automatic logging enablement to additional sources.
+1083	3	Introduces natural-language processor configuration generation.
+1084	2	Adds fleet health SLO and trace overview.
+1085	1	Reduces minimum campaign-segment refresh interval.
+1086	2	Adds custom attachment type controls alongside size increase.
+1087	5	Introduces Connect Talent hiring assessment and interview offering.
+1088	NA	Expands Firehose to Secret West.
+1089	NA	Expands existing EBS modification enhancement regionally.
+1090	NA	Expands U7i regional availability.
+1091	NA	Expands X8g regional availability.
+1092	3	Introduces automated GPU fault monitoring and repair.
+1093	3	Introduces managed hybrid pod-networking gateway.
+1094	2	Adds console shortcut to CloudShell cluster access.
+1095	2	Packages existing Spark agents as Kiro powers.
+1096	NA	Expands cross-region backup copy geographic coverage.
+1097	NA	Expands OpenZFS HA regional availability.
+1098	3	Introduces server-side ad insertion for live video.
+1099	NA	Expands Lightsail regional availability.
+1100	3	Adds queryless telemetry drilldown applications alongside dashboard enhancements.
+1101	2	Adds external Kafka replication sources.
+1102	1	Adds Airflow 3.2 runtime choice.
+1103	2	Adds Zstandard compression codec selection.
+1104	3	Introduces automation start and monitoring APIs.
+1105	2	Adds source-document permissions for Google Drive knowledge bases.
+1106	3	Introduces native desktop interface and local file automation access.
+1107	2	Adds knowledge-base co-owner controls.
+1108	NA	Provides SQL Server GDR maintenance updates.
+1109	1	Updates Oracle management-agent version.
+1110	NA	Expands Redshift Serverless regional availability.
+1111	2	Adds prioritized instance fallback for inference endpoints.
+1112	1	Adds HyperPod instance choices.
+1113	2	Extends serverless workflows to Identity Center domains.
+1114	3	Introduces multi-service application deployment CLI.
+1115	NA	Expands WorkSpaces regional availability.
+1116	3	Introduces local CPU simulation for Neuron kernels.
+1117	2	Adds PHP database-driver connector.
+1118	4	Introduces governed agent registry discovery and approval subsystem.
+1119	NA	Expands Transform custom regional availability.
+1120	2	Adds passthrough pricing-plan configuration.
+1121	1	Adds instance types to optimization recommendation catalog.
+1122	2	Adds CSV export to recommendation console.
+1123	2	Adds IPv6 replication and control connectivity.
+1124	NA	Expands Glue Schema Registry regional availability.
+1125	2	Adds non-root runtime installation and lightweight components.
+1126	1	Adds Ruby 4 runtime choice.
+1127	1	Updates directory functional-level version.
+1128	3	Introduces seller self-service bank-account deletion.
+1129	NA	Expands Payment Cryptography regional availability.
+1130	3	Introduces instance health checks for bidding routing.
+1131	3	Introduces SQL Server HA health notifications.
+1132	3	Introduces migration-integrated landing-zone creation.
+1133	NA	Expands WickrGov to Secret region.
+1134	2	Adds custom vocabulary for transcription.
+1135	4	Introduces managed OpenAI agent execution harness alongside model choices.
+1136	2	Adds joins and subqueries to log query language.
+1137	4	Introduces natural-language web-application creation and publishing subsystem.
+1138	2	Adds multi-region monitor creation using one identity setup.
+1139	1	Adds C8ine and M8ine instance families.
+1140	NA	Expands U7i regional availability.
+1141	NA	Expands P6-B300 to GovCloud East.
+1142	2	Extends environment AI analysis to Windows.
+1143	NA	Expands G6e notebook regional availability.
+1144	2	Adds Java SDK compatibility for existing durable functions.
+1145	1	Raises managed-rule domain indicator capacity.
+1146	NA	Expands existing model catalog availability to GovCloud.
+1147	1	Reduces Oracle networking latency.
+1148	2	Adds user-agent attribution to revenue measurement.
+1149	2	Adds custom filter-value sorting.
+1150	2	Adds inline sparkline table visualization.
+1151	2	Adds RDS Proxy compatibility to Blue-Green deployments.
+1152	1	Changes default bucket encryption security setting.
+1153	3	Introduces optimized inference recommendations and benchmarking results.
+1154	2	Adds multiple instance and subnet choices within groups.
+1155	2	Adds VPC placement for notebook kernels.
+1156	2	Adds MongoDB and Confluent targets to managed external secrets.
+1157	2	Adds customer-defined maintenance windows.
+1158	3	Introduces integrated agent toolkit with managed execution and skills interfaces.
+1159	NA	Expands AgentCore regional availability.
+1160	NA	Expands DSQL regional availability.
+1161	3	Introduces evaluation-driven multi-model prompt optimization tool.
+1162	2	Adds OCSP certificate-revocation checking to mTLS.
+1163	2	Adds tag-based log-group query selection.
+1164	2	Extends timezone detection to all profile contacts.
+1165	2	Extends generative evaluation to self-service interactions.
+1166	2	Adds tag-based login-report permissions.
+1167	3	Introduces natural-language UI authoring integration.
+1168	NA	Expands Intel instance regional availability.
+1169	NA	Expands G7e regional availability.
+1170	NA	Expands M8gn and M8gb regionally.
+1171	NA	Expands P6-B200 to GovCloud West.
+1172	NA	Expands R8i to GovCloud East.
+1173	NA	Expands existing registry cache sources geographically.
+1174	3	Introduces cache aggregation query operations.
+1175	3	Introduces combined full-text and vector search operation.
+1176	3	Introduces interactive Spark Connect sessions for EMR Serverless.
+1177	1	Doubles host-count ceiling per VMware environment.
+1178	2	Extends malware scanning to continuous S3 backups.
+1179	NA	Expands Keyspaces regional availability.
+1180	2	Adds in-place upgrade path to Grafana 12.4.
+1181	2	Adds console shortcut for CloudShell database connections.
+1182	2	Adds private VPC egress connectivity.
+1183	3	Introduces natural-language dashboard generation.
+1184	2	Adds customer-managed research encryption keys.
+1185	NA	Provides MariaDB maintenance releases.
+1186	NA	Provides PostgreSQL extended-support maintenance releases.
+1187	1	Adds Graviton RG warehouse instance family.
+1188	2	Adds threat and content category filters.
+1189	NA	Expands S3 Tables regional availability.
+1190	2	Extends Data Agent to Identity Center domains.
+1191	1	Adds Qwen3.6 model customization choice.
+1192	2	Adds minimum-capacity provisioning constraint.
+1193	3	Introduces inbox placement and blocklist monitoring.
+1194	2	Adds host-to-client URL redirection.
+1195	2	Adds JSON datatype compatibility and compression option.
+1196	2	Extends existing multicloud interconnect to OCI provider.
+1197	2	Adds OTP verification to approval voting.
+1198	1	Adds Ubuntu 26.04 client operating-system version.
+1199	3	Adds AI log summarization and natural-language search in mobile app.
+1200	2	Adds incremental execution mode to ML matching.
+1201	NA	Expands larger Glue worker availability regionally.
+1202	2	Extends task-output cache reuse to cancelled runs.
+1203	3	Introduces MQTT connection and subscription inspection APIs.
+1204	2	Adds session data to connectivity status responses.
+1205	2	Adds Local Zones to console region selector.
+1206	3	Introduces sandboxed multi-step Python execution in MCP server.
+1207	2	Extends Partner agents to conversational opportunity creation.
+1208	3	Introduces physical paper-based key exchange operation.
+1209	NA	Expands Resource Explorer to GovCloud.
+1210	2	Adds language-extension template compatibility to SAM CLI.
+1211	3	Introduces full-repository security review operation.
+1212	3	Introduces unused-access identity risk detection in Security Hub.
+1213	2	Adds in-place tunnel bandwidth modification.
+1214	3	Introduces custom transformation-agent build and registration toolkit.
+1215	2	Adds customer-owned artifact storage option.
+1216	NA	Expands AgentCore to GovCloud West.
+1217	1	Adds Claude Opus 4.8 model choice.
+1218	1	Raises log-query result ceiling.
+1219	2	Adds managed add-on installation for existing instance-store driver.
+1220	3	Introduces automated live subtitle generation.
+1221	2	Adds endpoint policy enforcement to CreateSession.
+1222	2	Adds dynamic allocation support for EFA resources.
+1223	2	Adds budget widgets to billing dashboards.
+1224	NA	Expands P5 notebook regional availability.
+1225	2	Adds S3 table-bucket analytics source.
+1226	1	Adds AMD M8a and R8a database instance choices.
+1227	2	Adds Lambda event-source action to failover workflows.
+1228	2	Adds secret prefetch and role-assumption controls.
+1229	3	Introduces data profiling and anomaly detection in Studio.
+1230	2	Adds identity and user administration controls.
+1231	3	Introduces full-text and hybrid search alongside engine refinements.
+1232	NA	Expands GPT-5.4 model availability to GovCloud.
+1233	2	Adds existing secret ARN references to credential providers.
+1234	1	Adds MiniLM embedding model choice.
+1235	NA	Expands AgentCore regional availability.
+1236	3	Introduces Guardrails integration into agent policies.
+1237	3	Introduces resourceless individual-safeguard invocation API.
+1238	4	Introduces fully managed retrieval storage and agentic RAG subsystem.
+1239	2	Adds metrics for compatible inference APIs.
+1240	2	Adds log-query transformation commands and functions.
+1241	3	Introduces OTel-native collection and PromQL endpoint for container monitoring.
+1242	2	Adds multi-region execution configuration to canaries.
+1243	2	Adds customer-managed user-pool encryption keys.
+1244	1	Raises agents-per-schedule ceiling.
+1245	3	Introduces automatic schedule-change notifications.
+1246	2	Extends audio optimization to Microsoft virtual desktops.
+1247	NA	Expands C7a regional availability.
+1248	NA	Expands C8in regional availability.
+1249	3	Introduces future capacity-reservation cancellation operation.
+1250	NA	Expands M8a regional availability.
+1251	1	Adds bare-metal network and EBS instance sizes.
+1252	NA	Expands R8g regional availability.
+1253	NA	Expands ECS Express to GovCloud.
+1254	1	Adds Trainium and Inferentia managed-compute choices.
+1255	2	Adds customer-routed control-plane egress configuration.
+1256	2	Adds database permissions and combined hash commands alongside performance gains.
+1257	NA	Expands Lustre Intelligent-Tiering regionally.
+1258	2	Adds C# and Unity SDK compatibility for DDoS protection.
+1259	NA	Expands Lightsail regional availability.
+1260	NA	Expands RabbitMQ regional availability.
+1261	2	Adds mTLS replication authentication choice.
+1262	2	Adds CloudFormation global-database management coverage.
+1263	2	Adds connectors to existing Quick integration catalog.
+1264	2	Adds private MCP server connectivity.
+1265	1	Adds Db2 v12.1 and Community Edition choices.
+1266	1	Adds M8i and R8i Oracle instance choices.
+1267	NA	Provides SQL Server GDR maintenance updates.
+1268	2	Adds upfront reserved-instance payment options.
+1269	NA	Expands Access Grants regional availability.
+1270	1	Adds Gemma model customization choices.
+1271	3	Introduces persistent Data Agent conversation history.
+1272	2	Adds EMR Serverless notebook compute choice.
+1273	NA	Expands SNS SMS regional availability.
+1274	3	Introduces AI cost-anomaly root-cause investigation.
+1275	NA	Expands EKS backup to Sovereign Cloud.
+1276	3	Introduces intermediate table creation for collaborative SQL.
+1277	2	Extends pre-deployment validation to all stack operations.
+1278	2	Extends idle recommendations to six resource types.
+1279	5	Introduces Continuum vulnerability validation remediation and threat-modeling offering.
+1280	2	Adds cost-report table-configuration editing.
+1281	3	Introduces custom SRE agents and headless MCP invocation.
+1282	2	Extends RCS sending to rich cards and interactive media.
+1283	2	Adds Spark Connect protocol access to interactive sessions.
+1284	2	Adds run-time Nextflow version selection.
+1285	1	Separates account and application quota ceilings.
+1286	3	Introduces IDE scan integrations and simulated validation capabilities.
+1287	2	Adds automatic propagation of managed-resource tags.
+1288	2	Extends private routing to all console traffic.
+1289	2	Adds automatic Kafka Streams topic creation.
+1290	1	Adds AMD accelerated-networking Outposts instance choice.
+1291	1	Adds P6 UltraServer compute choices to PCS.
+1292	2	Extends Partner agent assistance to onboarding.
+1293	2	Adds target-coverage input to purchase analysis.
+1294	2	Extends security monitoring operations to Azure resources.
+1295	3	Introduces managed agent-reasoning workflow integration.
+1296	4	Introduces continuous portfolio-wide technical-debt detection and remediation subsystem.
+1297	NA	Expands migration target regional coverage.
+1298	3	Introduces agent payment verification metering and scoped paid-access operations.
+1299	2	Adds ordered and prioritized instance allocation strategies.
+1300	1	Adds Claude Sonnet 5 model choice.
+1301	3	Introduces live application runtime instrumentation.
+1302	1	Raises granular security-profile assignment ceiling.
+1303	NA	Changes default support staffing policy for GovCloud.
+1304	1	Adds C9g and C9gd instance families.
+1305	2	Extends precise time compatibility to additional instance types.
+1306	NA	Expands simplified table permissions to GovCloud.
+1307	2	Adds ephemeral scratch-storage option to workflows.
+1308	NA	Reports Kiro compliance authorization.
+1309	1	Adds Ministral model choice.
+1310	1	Adds VisionHeight managed rule-group catalog entries.
+1311	3	Introduces interactive MCP observability apps in IDEs.
+1312	4	Introduces serverless Oracle database provisioning and scaling model.
+1313	1	Adds PostgreSQL 19 beta engine choice.
+1314	2	Adds customer-supplied SQL Server installation media option.
+1315	2	Adds Aurora scaling and Neptune actions to failover orchestration.
+1316	NA	Publishes secret-handling guidance skill.
+1317	NA	Expands Ubuntu desktop bundle availability to China.
+1318	3	Introduces DSQL change-data streaming to Kinesis.
+1319	2	Consolidates agent traces and logs in one group.
+1320	2	Adds ALB logs to vended-log ingestion.
+1321	2	Adds speech controls and supported languages.
+1322	2	Adds agent-queue dashboard metrics.
+1323	2	Adds MongoDB operator and cursor compatibility.
+1324	NA	Expands C7a regional availability.
+1325	NA	Expands local-storage Intel instances regionally.
+1326	NA	Expands U7in regional availability.
+1327	NA	Expands I8g to GovCloud.
+1328	NA	Expands M8a regional availability.
+1329	NA	Expands M8id regional availability.
+1330	NA	Expands network and EBS instance regional availability.
+1331	3	Introduces orchestration action-log stream.
+1332	2	Adds custom task definitions to Express mode.
+1333	NA	Reduces GPU management prices.
+1334	1	Increases autoscaler synchronization concurrency.
+1335	1	Adds larger serverless worker resource sizes.
+1336	NA	Expands G7e regional availability.
+1337	2	Adds custom aspect ratio and dynamic resolution controls.
+1338	2	Adds address formatting and search options.
+1339	2	Adds adaptive partition-selection behavior in Flink update.
+1340	NA	Reports Prometheus compliance authorization.
+1341	2	Extends external Kafka replication to Standard brokers.
+1342	2	Adds agent-toolkit access to existing OpenSearch operations.
+1343	3	Introduces dashboard migration operation.
+1344	NA	Expands Db2 regional availability.
+1345	4	Adds vector graph and natural-language SQL subsystems through Oracle 26ai.
+1346	1	Raises daily storage modification ceiling.
+1347	2	Extends RG instance compatibility to trailing release track.
+1348	2	Adds system tags to object event payloads.
+1349	2	Extends lineage support to IAM domains.
+1350	2	Adds existing MWAA environment attachment to projects.
+1351	2	Adds Teradata data-source connector.
+1352	2	Simplifies SMTP sending setup in console.
+1353	2	Adds service operators to existing workflows.
+1354	3	Introduces citation-backed compliance inquiry assistant.
+1355	3	Introduces agent benchmarking and scoring CLI.
+1356	1	Adds larger SQL worker resource sizes.
+1357	2	Adds host-kernel selection with Amazon Linux 2023.
+1358	1	Adds managed Config rule catalog entries.
+1359	2	Automatically reapplies account customization after OU moves.
+1360	2	Extends Enhanced transfers to more source types and Hyper-V.
+1361	3	Introduces AI-agent MCP interface to schema conversion.
+1362	2	Adds recovery volume initialization-rate controls.
+1363	2	Extends anomaly detection and result output to catalog evaluations.
+1364	NA	Expands existing Glue integrations to GovCloud.
+1365	2	Extends multi-region replication to native identity directory.
+1366	1	Adds AL2023-based Java runtime images.
+1367	2	Extends SnapStart compatibility to container-image functions.
+1368	3	Introduces self-service seller signature management.
+1369	3	Introduces continuous Kafka-to-Iceberg materialization.
+1370	1	Applies account-departure security controls by default.
+1371	2	Extends agent funding guidance to all programs.
+1372	3	Introduces organization-wide AI asset inventory.
+1373	2	Adds console interface for existing file-share copying.
+1374	1	Adds Miggo managed WAF rule-group choices.
+1375	NA	Expands Claude Opus 5 to GovCloud.
+1376	2	Adds custom function data fields to access logs.
+1377	3	Introduces managed Prometheus metric collectors in CloudWatch.
+1378	2	Adds abandonment-target campaign pacing controls.
+1379	2	Extends deep health checks to continuous Slurm clusters.
+1380	2	Adds CloudFormation coverage for instance refresh.
+1381	NA	Expands advanced deployments to Sovereign Cloud.
+1382	NA	Expands G6 inference availability regionally.
+1383	1	Adds Gemma embedding model choice.
+1384	2	Adds custom AMI selection to Slurm clusters.
+1385	3	Introduces exposure exploitation impact analysis.
+1386	3	Introduces deployable NFS caching solution using existing infrastructure.
+1387	NA	Expands network and EBS instances regionally.
+1388	2	Adds OAuth authentication to MCP server.
+1389	1	Adds PostgreSQL 19 beta version choice.
+1390	NA	Expands SQL Server BYOM regionally.
+1391	3	Introduces SQL audit log publishing integration with CloudWatch.
+1392	2	Preserves integrations during namespace restoration.
+1393	NA	Expands S3 Vectors to GovCloud.
+1394	2	Adds Paddle and GitLab external-secret targets.
+1395	2	Extends cloud-drive storage options to multi-session fleets.
+1396	3	Introduces customer-controlled InfluxDB backup and restore.
+1397	2	Adds organization-wide declarative VPC encryption controls.
+1398	2	Adds structured JSON inputs to memory extraction.
+1399	2	Adds configurable memory namespace dimensions.
+1400	NA	Expands existing serverless improvements regionally.
+1401	1	Adds Grok 4.6 inference model choice.
+1402	3	Introduces server-side web search for model responses.
+1403	2	Adds alarm evaluation warm-up interval setting.
+1404	3	Introduces administrative TOTP reset API.
+1405	2	Adds post-creation case customer-profile editing.
+1406	2	Adds interval-granularity capacity planning.
+1407	2	Adds unplanned shrinkage input to scheduling.
+1408	2	Extends contact routing across linked active regions.
+1409	2	Adds tag-based stream access control.
+1410	2	Adds bulk instance termination to existing API.
+1411	NA	Expands C8gn regional availability.
+1412	NA	Expands U7i regional availability.
+1413	NA	Expands I8g regional availability.
+1414	NA	Expands P6-B300 regional availability.
+1415	NA	Expands R8i regional availability.
+1416	NA	Expands R8id regional availability.
+1417	1	Raises image-layer size ceiling.
+1418	2	Adds fractional GPU scheduling support.
+1419	2	Exposes Kubernetes control-plane configuration parameters.
+1420	2	Adds Spark Connect interface for existing EMR interactive workloads.
+1421	2	Extends game-server protection to additional network attacks.
+1422	3	Introduces Kafka authorization log delivery.
+1423	1	Raises collections-per-group ceiling.
+1424	2	Adds approval requirements to asset sharing.
+1425	3	Introduces Microsoft Purview DLP integration.
+1426	2	Adds multiple related datasets to analytical topics.
+1427	NA	Provides MySQL minor maintenance release.
+1428	NA	Provides PostgreSQL minor maintenance releases.
+1429	NA	Provides SQL Server cumulative updates.
+1430	2	Extends Identity Center authentication to enhanced-routing warehouses.
+1431	2	Adds full fine-tuning option to serverless customization.
+1432	2	Adds per-request email tracking overrides.
+1433	2	Adds customer-managed InfluxDB encryption keys.
+1434	2	Embeds existing monitoring in service console.
+1435	2	Adds desktop performance and session-health metrics.
+1436	1	Improves serverless scale-up speed.
+1437	1	Raises provisioned poller ceiling fivefold.
+1438	2	Adds kernel instructions and variable-size collective operations.
+1439	2	Adds agent-toolkit access to Cognito configuration.
+1440	NA	Expands DocumentDB backup capabilities regionally.
+1441	4	Introduces EC2-backed managed agent runtime operating model.
+1442	2	Adds minimum aggregation threshold to custom rules.
+1443	2	Extends Config assessment to fifteen resource types.
+1444	2	Adds container packaging compatibility to managed render fleets.
+1445	2	Adds EBS storage costs to Usage Explorer.
+1446	2	Adds infrastructure map display to Global View.
+1447	NA	Expands Iceberg catalog federation to GovCloud.
+1448	NA	Expands Schema Registry regional availability.
+1449	NA	Expands external identity federation to Sovereign Cloud.
+1450	3	Introduces automatic IAM role setup manager.
+1451	2	Extends function resource-policy expressiveness.
+1452	1	Adds Node 26 and Python 3.15 preview runtimes.
+1453	2	Adds Lightsail deployment target for Marketplace AMIs.
+1454	2	Adds category and delivery-channel notification controls.
+1455	2	Integrates existing proxy deployment with shared firewall policies and features.
+1456	2	Exposes account quota and usage in Service Quotas.
+1457	3	Introduces recommended resilience-test generation.
+1458	1	Adds supply-chain security category and partner offerings to plan catalog.
+1459	NA	Expands UXC regional availability.
+1460	NA	Expands AgentCore regional availability.
+1461	2	Adds GeoIP XML and RDS log-processing operators.
+1462	2	Extends Database Insights to self-managed PostgreSQL.
+1463	2	Adds local snapshot source for Outposts AMI creation.
+1464	3	Introduces sequential multi-server recovery orchestration.
+1465	2	Adds Studio UI for existing inference recommendations.
+1466	2	Adds Java SDK credential-provider plugin.
+1467	NA	Expands recursive-loop detection regionally.
+1468	2	Adds automatic and explicit memory-use limits.
+1469	1	Adds Daybreak model choices with eligibility restrictions.
+1470	NA	Expands OpenSearch Ingestion to GovCloud.
+1471	1	Adds PostgreSQL 19 beta version choice.
+1472	3	Introduces system-table retention integration with S3 Tables.
+1473	2	Adds denying-policy identifiers to S3 errors.
+1474	2	Adds Cisco and Netskope managed-secret targets.
+1475	2	Adds console navigation shortcut to Unified Studio.
+1476	2	Adds private FIPS Tape and Volume Gateway connectivity.
+1477	2	Simplifies credential-provider installation workflow.
+1478	4	Introduces simplified project-based AWS setup collaboration and spending-control model.
+1479	2	Adds log-destination controls alongside larger log events.
+1480	2	Adds multiple-source and delayed replication options.
+1481	1	Adds Grok 4.7 model choice.
+1482	2	Adds Confluence Data Center knowledge source.
+1483	2	Adds ServiceNow knowledge source.
+1484	4	Introduces unified AI observability workspace with agent evaluation subsystem.
+1485	2	Adds PDF import and AI conversion to evaluation-form creation.
+1486	2	Adds routing-step dataset to analytics lake.
+1487	NA	Provides Corretto security patch update.
+1488	2	Adds retryable write behavior for transient failures.
+1489	NA	Expands I7ie regional availability.
+1490	NA	Expands P6-B300 regional availability.
+1491	2	Adds deployment early-success criteria.
+1492	2	Extends S3 Files compatibility to EC2 tasks.
+1493	2	Adds Spark Connect and IPv6 compatibility alongside storage increase.
+1494	NA	Expands EVS regional availability.
+1495	NA	Expands Keyspaces regional availability.
+1496	NA	Expands MemoryDB PrivateLink to GovCloud.
+1497	1	Adds Airflow 3.3.1 runtime choice.
+1498	3	Introduces v0 application-builder integration with OpenSearch.
+1499	3	Introduces cloud-running persistent monitoring agents alongside governance refinements.
+1500	1	Adds higher-usage and storage subscription tier.
+1501	NA	Provides MariaDB maintenance versions.
+1502	NA	Provides PostgreSQL extended-support maintenance versions.
+1503	NA	Expands RG regional availability.
+1504	2	Adds Iceberg v3 datatype and column-default compatibility.
+1505	3	Introduces S/MIME email signing capability.
+1506	2	Adds customer-managed encryption keys to custom speech resources.
+1507	1	Adds Blackwell GPU desktop compute choice.
+1508	3	Introduces querying Iceberg and Parquet data from Aurora SQL.
+1509	3	Introduces primary contact phone-number verification.
+1510	2	Adds bulk job cancellation and termination APIs.
+1511	2	Adds mobile access surface for existing Builder Center.
+1512	1	Adds macOS 27 client compatibility version.
+1513	2	Extends Config assessment to sixty resource types.
+1514	2	Adds shared-VPC subnet compatibility for DataSync.
+1515	3	Introduces server-side multiview video composition.
+1516	2	Adds automatic sender failover within phone pools.
+1517	2	Adds dynamic interactive WhatsApp flow support.
+1518	2	Adds ordered accelerator and CPU fallback selection.
+1519	3	Introduces Pydantic AI durable-execution integration.
+1520	1	Reduces Marketplace lead-delivery delay.
+1521	2	Adds messaging service skills to existing MCP interface.
+1522	3	Introduces compute scaling log stream.
+1523	NA	Announces service lifecycle changes.
+1524	2	Adds automatic quota-increase approval workflow.
+1525	NA	Expands Transform to GovCloud.
+1526	NA	Expands C8i to Sovereign Cloud.
+1527	NA	Expands Claude Opus 5.5 to GovCloud.
+1528	NA	Expands in-region Claude processing coverage.
+1529	3	Introduces pricing-plan management API and IaC access.
+1530	3	Introduces pre-execution log-query scan estimation.
+1531	2	Adds tag-based custom metric permissions.
+1532	NA	Expands outbound campaigns to GovCloud.
+1533	NA	Expands durable functions to Sovereign Cloud.
+1534	NA	Expands C9g and C9gd regionally.
+1535	NA	Expands M9g and M9gd regionally.
+1536	NA	Expands X2idn regional availability.
+1537	4	Introduces pooled Kubernetes cluster deployment model for Beanstalk.
+1538	1	Improves upgrade speed and latency.
+1539	NA	Extends maintenance support for migrating customers.
+1540	2	Adds sheet-scoped and image-input dashboard generation.
+1541	2	Adds zero-ETL table ownership and property-conflict detection.
+1542	2	Adds private video-stream endpoints.
+1543	2	Adds live dataset binding to Quick apps.
+1544	3	Introduces forensic watermarking of live video.
+1545	2	Adds anomaly widget to billing dashboards.
+1546	2	Adds elastic memory reclamation and snapshot-based startup to existing runtime.
+1547	1	Adds GPT-6.1 Sol model choice.
+1548	1	Adds GPT-6 Sol and Luna model choices.
+1549	2	Adds post-quantum TLS key-exchange option.
+1550	1	Adds MySQL 26.7 preview engine choice.
+1551	2	Adds granular DEBUG permission for protected query logs.
+1552	1	Improves root sign-in regional resilience.
+1553	NA	Expands Express One Zone regional availability.
+1554	3	Introduces notebook promotion and AI deployment-manifest generation.
+1555	2	Adds ODBC-compatible governed data connections.
+1556	2	Adds model and image preloading cache for inference.
+1557	2	Adds six diagnostic issue categories.
+1558	2	Preserves active transfers during credential rotation.
+1559	NA	Provides PostgreSQL extended-support patches.
+1560	2	Adds private-network ACME certificate issuance.
+1561	NA	Changes short-term memory pricing basis.
+1562	3	Introduces database compute capacity reservations.
+1563	1	Adds GLM 5.3 model choice.
+1564	NA	Expands log centralization regionally.
+1565	3	Introduces automated evaluation-form quality checks.
+1566	NA	Provides Corretto patch updates.
+1567	2	Adds export data-filter predicates.
+1568	NA	Expands Hpc8a regional availability.
+1569	2	Adds NVIDIA MPS GPU-sharing support.
+1570	2	Adds fleet certificate-rotation status visibility.
+1571	3	Introduces zero-downtime online migration to serverless Valkey.
+1572	3	Introduces inline Spark data-quality validation.
+1573	2	Adds runtime CPU bursting for game containers.
+1574	NA	Expands Kafka integrations to Sovereign Cloud.
+1575	NA	Expands provisioned MWAA regional availability.
+1576	1	Reduces default collection refresh interval.
+1577	NA	Expands Quick regional availability.
+1578	NA	Provides Oracle monthly patch updates.
+1579	NA	Expands S3 log delivery regional availability.
+1580	1	Adds model customization catalog choices.
+1581	4	Introduces managed ECS ingress provisioning and networking subsystem.
+1582	2	Adds OAuth Kafka authentication option.
+1583	2	Adds native PyTorch backend compatibility for Trainium.
+1584	2	Extends restore testing to Redshift.
+1585	3	Introduces native batch-job metric publishing to CloudWatch.
+1586	2	Adds email subscriber verification to budgets.
+1587	2	Simplifies failed-resource handling during stack rollback.
+1588	3	Introduces CI/CD integration for continuous penetration testing.
+1589	NA	Expands Direct Connect bandwidth availability geographically.
+1590	2	Improves registration guidance and field validation.
+1591	3	Introduces centralized software-version lifecycle catalog.
+1592	2	Extends trusted identity propagation across regions.
+1593	2	Adds network access restrictions to Identity Store.
+1594	2	Adds SOCI lazy image loading for managed Lambda instances.
+1595	NA	Expands MCP Server regional availability.
+1596	2	Adds detailed certificate issuance audit events.
+1597	3	Introduces root-cause-grouped security remediation plans.
+1598	2	Adds ACH debit signup and payment method.
+1599	2	Extends migration support to existing landing-zone configurations.
+1600	3	Introduces managed one-to-one NAT on gateway attachments.
+1601	2	Adds contextual grounding tier for reasoning and conversational content.
+1602	1	Publishes pre-synced blockchain data snapshots.
+1603	NA	Expands Haiku 5.5 availability to GovCloud.
+1604	2	Extends structured responses across Claude models and endpoints.
+1605	2	Adds conditional log routing and chained parser configuration.
+1606	3	Introduces interaction outcome scoring for retention and revenue.
+1607	2	Adds agent workspace layout choices.
+1608	2	Adds transfer target protocol and metadata controls.
+1609	3	Introduces replica detachment without table deletion.
+1610	NA	Expands C8gd and M8gd regionally.
+1611	NA	Expands M8id regional availability.
+1612	2	Adds live-task metric alongside pricing change.
+1613	NA	Reduces EMR on EKS charges.
+1614	2	Adds organization-wide declarative threat-detection controls.
+1615	2	Preserves identities during directory source migration.
+1616	3	Introduces durable-execution live telemetry export plugin.
+1617	3	Introduces integrated WAF protection for Lightsail CDN.
+1618	1	Adds higher bitrate tier values.
+1619	2	Extends domain filtering with DNS-resolved IP validation.
+1620	1	Adds faster inference performance mode.
+1621	2	Adds aggregate and default route advertisement options.
+1622	1	Adds PostgreSQL 19 release-candidate version.
+1623	2	Extends snapshot creation to read replicas.
+1624	NA	Expands system-table retention regionally.
+1625	3	Introduces DNS analytics integration with CloudWatch.
+1626	NA	Expands variable retention to GovCloud.
+1627	2	Adds customer-authored project tooling templates.
+1628	2	Adds CRI-aligned automated compliance checks.
+1629	2	Adds light appearance option to identity domains.
+1630	3	Introduces warm storage alerting and anomaly detection for time-series collections.
+1631	2	Adds custom workflow log-group selection.
+1632	2	Adds SVG and ICO branding asset compatibility.
+1633	3	Introduces managed agent connection lifecycle and application catalog MCP operations.
+1634	1	Raises default schedule-creation request quota.
+1635	1	Adds DocumentDB 8.0 serverless engine choice.
+1636	NA	Expands R8g and M8g database availability regionally.
+1637	2	Adds offline SQL schema transformation mode.
+1638	2	Adds OAuth authentication to Partner agent MCP access.
+1639	2	Adds Bacs debit payment method.

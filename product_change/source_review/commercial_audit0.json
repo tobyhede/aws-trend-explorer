@@ -1,0 +1,117 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-ses-tiered-pricing-virtual-deliverability-manager/": {
+    "level": "NA",
+    "reason": "VDM rates decrease automatically at usage thresholds; no new billing controls or operations.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-marketplace-japan-marketplace-facilitator-rule/": {
+    "level": "2",
+    "reason": "Marketplace automates Japanese tax-qualified invoice issuance and consumption-tax collection or remittance.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-appsync-security-encryption-graphql-api-caching/": {
+    "level": "1",
+    "reason": "AppSync changes encryption defaults for new API caches; no distinct new operation.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/extending-aws-financing-program-marketplace-purchases-us-customers/": {
+    "level": "NA",
+    "reason": "Existing Marketplace financing program extends customer eligibility; application and management operations already exist.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-free-tier-credits-month-free-plan/": {
+    "level": "2",
+    "reason": "Signup introduces a free account plan with controlled upgrade to paid usage, beyond changing credit amounts.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-eagle-decoding/": {
+    "level": "3",
+    "reason": "SageMaker introduces optimization jobs that train specialized EAGLE prediction heads, beyond a throughput increase.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-flat-rate-pricing-plans/": {
+    "level": "2",
+    "reason": "CloudFront distributions gain selectable flat-rate plan tiers and bundled security configuration.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/": {
+    "level": "NA",
+    "reason": "API and key rates change automatically without new controls or operations.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace/": {
+    "level": "NA",
+    "reason": "Professional-service listing fee reduction applies automatically; other purchase capabilities are background.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time/": {
+    "level": "1",
+    "reason": "Automatic container precaching improves scale-out speed without new controls or user operations.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/": {
+    "level": "2",
+    "reason": "SES console adds selectable bundled capability plans instead of separate add-on purchases.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/": {
+    "level": "2",
+    "reason": "Reservation purchasing gains an All Upfront payment choice for three-year terms.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/": {
+    "level": "2",
+    "reason": "Connections gain selectable billing modes, geographic tiers, and optional redundant port-pair configuration.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/": {
+    "level": "2",
+    "reason": "New WorkSpaces API billing configuration selects monthly or hourly payment per managed instance.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-s3-reduces-pricing-object-tagging/": {
+    "level": "NA",
+    "reason": "S3 object-tagging rates decrease automatically; tagging operations unchanged.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/new-aws-elemental-mediatailor-pricing-model/": {
+    "level": "NA",
+    "reason": "MediaTailor ad-insertion rates and tiers change automatically; no new configuration operation.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/security-incident-response-metered-pricing-free-tier/": {
+    "level": "NA",
+    "reason": "Incident Response moves automatically to findings-based metering and free tier; no explicit new user control.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/the-aws-api-mcp-server-aws-marketplace/": {
+    "level": "2",
+    "reason": "Marketplace adds guided managed AgentCore deployment with authentication and network configuration.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-available-in-hyderabad-paris/": {
+    "level": "NA",
+    "reason": "Payment Cryptography expands to Hyderabad and Paris.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/": {
+    "level": "2",
+    "reason": "Prompt caching changes from fixed five-minute TTL to a selectable one-hour persistence option.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/": {
+    "level": "NA",
+    "reason": "Existing flexible cost-allocation capability expands to GovCloud.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/": {
+    "level": "NA",
+    "reason": "Payment Cryptography expands to Sao Paulo.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-extended-support-migration/": {
+    "level": "NA",
+    "reason": "EMR extends support lifecycle for migrating customers; no changed product operation.",
+    "review": "cross-reader billing and performance audit by batch0 reader"
+  }
+}

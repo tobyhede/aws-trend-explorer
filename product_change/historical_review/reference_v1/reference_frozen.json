@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-25",
+  "sample_size": 200,
+  "reference_sha256": "84525963a3db6ff4a653bc6bd5fafdec19673be30585c5343f145980c775524f",
+  "reference_tsv_sha256": "f06a07ba9318d9cace332edea76355e2e0b84c8f1b1930cce1f682c7ea9e7bc5",
+  "reader_c_sha256": "9a7d2259915594516d184b95d1a4e30fffc102812bef42d1b4c0435d5f283ee1",
+  "protocol_sha256": "259659192a7224c5ec4dbe8a247a4b78de08e370743f367723e3c1384df0f470",
+  "context_sha256": "c10466a8e3ad07126ee0ec15ebcfedaa1ea713ad65f698efc3479e5fb956e18f",
+  "adjudication_sha256": "2f5a4fa267e21944b41b6f9b53f97b4422669c5a496a73c688ac864cd8758c9b",
+  "reference_type": "AI source-based reference, adjudicated before initial labels were compared; not human ground truth."
+}

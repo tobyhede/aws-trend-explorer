@@ -1,0 +1,200 @@
+0	2	Adds water-withdrawal measurements to existing sustainability reporting.	high
+1	2	Adds account-level control over the default blocking log-driver mode.	high
+2	2	Adds authentication and platform compatibility plus keyboard options.	high
+3	3	Introduces an AI assistance interface for GameLift configuration and troubleshooting.	high
+4	2	Adds immediate-force option to existing instance-refresh cancellation.	high
+5	2	Extends existing Multi-AZ deployment capability to Developer Edition.	high
+6	2	Exposes node tuning controls through the existing NodeClass resource.	high
+7	NA	Existing Capacity Blocks expand to GovCloud regions.	high
+8	2	Adds ML-DSA algorithm compatibility to existing CA and certificate operations.	high
+9	NA	Existing SNS SMS capability expands geographically.	high
+10	3	Adds a programmable interface for configuring and executing simulated voice tests.	high
+11	2	Adds network-based sign-in policy controls.	high
+12	NA	Existing WorkSpaces Core Managed Instances expand to five regions.	high
+13	3	Explicit GA delta includes documentation-query chat and file import/export operations.	medium
+14	2	Extends existing AI metadata recommendations to custom assets.	high
+15	2	Adds S3 and Firehose destinations to existing log delivery.	high
+16	1	Adds Voxtral model to the existing JumpStart catalog.	high
+17	2	Adds IPv6 protocol and private endpoint connectivity options.	high
+18	2	Extends existing cost anomaly monitoring to third-party Bedrock model spend.	high
+19	1	Adds X2m hardware choices to RDS SQL Server.	high
+20	NA	Announces open sourcing of pgactive without establishing a new functional delta.	medium
+21	2	Adds automatic storage scaling behavior to existing DMS replication.	medium
+22	3	Introduces local visual workflow authoring and debugging interface in VS Code.	medium
+23	NA	Existing Backup service expands to Thailand.	high
+24	2	Adds CodeBuild and shell-command rule options to existing stage gates.	high
+25	NA	Existing C8gn instance family expands geographically.	high
+26	2	Adds abandonment-target controls and associated predictive-dialing metrics.	high
+27	2	Adds bulk series-level variant of existing DICOM metadata retrieval.	high
+28	2	Extends IPv6 networking options to private and outbound traffic.	high
+29	1	Adds routine MySQL Extended Support minor runtime versions.	high
+30	2	Allows customer-owned Secrets Manager secrets in existing credential providers.	high
+31	NA	Existing M7g instances expand geographically.	high
+32	2	Adds automatic topic creation option for existing Kafka Streams deployments.	high
+33	2	Adds expert-parallel distribution and profiler grouping options alongside version support.	medium
+34	NA	Existing M7i instances expand to Secret Region.	high
+35	NA	Existing I7i instances expand to GovCloud.	high
+36	2	Adds per-statement performance measurements consumable by existing monitoring tools.	medium
+37	NA	Existing R7g instances expand geographically.	high
+38	NA	Existing M8g instances expand geographically.	high
+39	1	Adds routine SQL Server security update versions.	high
+40	3	Introduces automated Iceberg table replication and replica synchronization.	medium
+41	NA	Existing I8g instances expand to GovCloud.	high
+42	1	Adds routine MySQL minor runtime versions.	high
+43	2	Adds deployment compatibility and private activation configuration to Terraform modules.	high
+44	2	Adds IPv6 and dual-stack network choices for existing EMR jobs.	high
+45	1	Raises result and export limits from 5MB or 100000 rows to 100MB without row limit.	high
+46	3	Introduces network-flow monitoring and troubleshooting visualizations within EKS.	medium
+47	2	Adds Kiro as a remote IDE connection option for existing Studio compute.	medium
+48	NA	Existing U7i instance variants expand geographically.	high
+49	2	Adds private ECR registries as upstream targets for existing pull-through caching.	high
+50	2	Extends certificate-based authentication to multi-session fleets.	high
+51	2	Adds IPv6 endpoint connectivity choices for S3.	high
+52	2	Adds WebAuthn authentication protocol compatibility to remote browser sessions.	high
+53	NA	Existing Athena service expands to Taipei.	high
+54	1	Adds P6-B200 hardware to existing notebook environments.	high
+55	2	Adds private network access to existing Resource Groups APIs.	high
+56	2	Adds approval policy controls governing existing asset sharing.	medium
+57	1	Adds X8aedz hardware family to the EC2 catalog.	high
+58	2	Extends CloudFormation resource coverage to quick responses.	high
+59	NA	Existing R8i and R8i-flex instances expand to GovCloud East.	high
+60	NA	Existing EVS service expands to three regions.	high
+61	1	Accelerates existing S3 Batch Operations jobs up to tenfold.	high
+62	2	Adds email notification actions and conditions for existing evaluations.	medium
+63	2	Extends existing Enhanced transfer mode to on-premises NFS and SMB sources.	high
+64	NA	Announces maintenance, sunset, and end-of-support lifecycle changes.	high
+65	3	Introduces consolidated cluster troubleshooting dashboard with remediation guidance.	medium
+66	NA	Existing inventory ACL metadata expands to GovCloud.	high
+67	1	Adds five Qwen models to the JumpStart catalog.	high
+68	NA	Existing C8i instances expand to London.	high
+69	NA	Existing Glue 5.1 release expands to additional regions.	high
+70	NA	Existing Firehose service expands geographically.	high
+71	3	Introduces key encapsulation and decapsulation operations for shared-secret establishment.	medium
+72	1	Adds routine SQL Server CU and GDR runtime updates.	high
+73	2	Adds namespace, volume, subpath, and annotation controls for Batch EKS jobs.	high
+74	NA	Existing C8g instances expand geographically.	high
+75	3	Introduces an MCP interface exposing LZA configuration and troubleshooting tools.	high
+76	NA	Existing Quick capabilities expand to Frankfurt.	high
+77	1	Changes default lifecycle behavior to pause on failed replication.	high
+78	1	Adds PostgreSQL 19 Beta 3 to the existing database preview runtime catalog.	high
+79	NA	Existing WAF service expands geographically.	high
+80	2	Adds forced-shutdown variant of existing EC2 termination.	high
+81	1	Adds Valkey 9.1 runtime version to existing managed clusters.	medium
+82	3	Announces new automatic quota monitoring and proactive notification capability without citing prior preview.	medium
+83	3	Introduces conversational MCP interface to SiteWise modeling operations.	high
+84	NA	Existing connection speeds and encryption expand at Bogota location.	high
+85	2	Extends persistent conversation continuity across linked resiliency regions.	medium
+86	2	Adds Teradata as a target for existing linked-server queries.	high
+87	NA	Existing Quick service expands to London.	high
+88	1	Improves root sign-in resiliency through automatic multiregion routing.	medium
+89	2	Extends existing encrypted restore operation to Multi-AZ and replica configurations.	high
+90	2	Adds five resource targets to existing Config monitoring.	high
+91	1	Adds Opus 4.5 model and its model-specific tool and effort features.	medium
+92	U	GA announcement does not identify substantive changes from any pre-GA construct.	low
+93	2	Adds nine resource targets to existing Config monitoring.	high
+94	2	Changes supported Java SDK integration and namespaces for DynamoDB local.	medium
+95	1	Adds Palmyra X5 and X4 models to existing Bedrock catalog.	high
+96	2	Adds synchronous placement and retry variant of existing ASG instance provisioning.	medium
+97	2	Adds Java as an authoring language for existing canary monitoring.	medium
+98	2	Adds private networking option for existing RabbitMQ broker connections.	high
+99	2	Adds interval-granularity inputs and outputs for existing capacity plans.	high
+100	1	Adds Apache Airflow 3.2 runtime version to MWAA.	medium
+101	2	Adds private access option to existing SCEP certificate requests.	high
+102	NA	HIPAA eligibility certification only.	high
+103	1	Adds Haiku 5.5 model to existing AWS access offerings.	high
+104	3	Introduces MCP natural-language interface for S3 table operations.	high
+105	NA	Provides architecture guidance through a new Well-Architected lens.	high
+106	2	Extends existing index creation to NUMERIC columns.	high
+107	NA	Existing U7i hardware expands to Zurich.	high
+108	NA	Existing Aurora R8g hardware expands to GovCloud West.	high
+109	NA	Existing Network Firewall service expands geographically.	high
+110	NA	Changes Network Firewall and chained NAT pricing only.	high
+111	U	GA text describes Query Studio but does not establish a substantive GA delta.	low
+112	NA	Existing X2idn hardware expands to Hong Kong.	high
+113	NA	Existing Redshift RG hardware expands to GovCloud.	high
+114	2	Adds Cassandra-compatible data type and query-function contexts.	high
+115	2	Adds operation-level detail to existing Bedrock cost reports.	high
+116	NA	Launches educational and community engagement portal rather than AWS workload capability.	medium
+117	2	Adds IP visibility and reputation metrics to existing managed sending pools.	high
+118	NA	Existing RUM capability expands geographically.	high
+119	NA	Existing 4-RPU configuration expands to seven additional regions.	high
+120	1	Raises EKS cluster worker-node scale limit to 100000.	high
+121	3	Adds agent-facing MCP and curated skill interface for OpenSearch management.	medium
+122	2	Extends existing concurrency scaling to auto-copy operations.	high
+123	NA	Existing Gemma 4 models expand to GovCloud West.	medium
+124	NA	Existing P6-B200 hardware expands to Virginia.	high
+125	2	Extends existing resolver-test mocks to all context properties.	high
+126	2	Adds managed Health notifications to existing mobile notification channels.	high
+127	3	Introduces AI compliance-question answering and questionnaire processing operations.	high
+128	2	Extends existing security discovery, assessment, and response to Azure resources.	medium
+129	1	Adds routine build runtime versions and bundled tools.	high
+130	2	Adds Lambda event mappings as targets of existing failover orchestration.	high
+131	2	Adds customer-managed encryption key choice to Quick Research.	high
+132	3	Introduces automatic data-event aggregation into analytical summaries.	medium
+133	3	Introduces explicit server-side MQTT client disconnection operation.	medium
+134	3	Adds shared channel-based Claude interaction and delegated tasks through Slack.	medium
+135	NA	Existing SageMaker AI service expands to Taipei.	high
+136	2	Extends existing attack-sequence detection to EC2 and ECS.	high
+137	2	Extends existing malware scanning to backups with automatic and incremental scan options.	medium
+138	2	Adds Lightsail resources to existing mobile management interface.	high
+139	2	Extends UDT schema support to existing multiregion deployments.	high
+140	NA	Existing Aurora DSQL service expands to Frankfurt.	high
+141	4	Introduces replicated recovery plans, readiness evaluation, and multiregion failover orchestration subsystem.	medium
+142	2	Adds Distributed Map input formats and observability metrics.	high
+143	3	Introduces document and visual generation and export operations within chat.	high
+144	2	Adds shared-directory configuration for cross-account license subscriptions.	high
+145	NA	Existing Bedrock and Nova capability expands geographically.	high
+146	2	Adds OpenAI SDK compatibility alongside routine model catalog additions.	medium
+147	NA	Existing geography-scoped inference expands to Japan and Australia.	medium
+148	NA	Existing RDS instance families expand geographically.	high
+149	2	Extends existing cost-allocation tagging from applications to job runs.	high
+150	NA	Existing I8ge hardware expands to Ireland.	high
+151	NA	Existing M7i hardware expands to Cape Town.	high
+152	1	Adds Kafka 4.1 runtime release to existing managed Kafka clusters.	medium
+153	2	Adds speaker and channel controls and extends blueprint creation to audio.	high
+154	2	Adds TLS security policy options to existing REST endpoints.	high
+155	NA	Existing OpenAI models and geographic inference expand to India.	medium
+156	NA	Existing penetration-testing service expands to six regions.	high
+157	1	Doubles maximum DSQL cluster storage from 128 to 256 TiB.	high
+158	2	Adds incremental and distributed variants of existing custom model training.	medium
+159	NA	Existing Hpc8a hardware expands geographically.	high
+160	2	Extends existing report retrieval to historical versions.	high
+161	NA	Existing Graviton4 hardware expands to Secret East.	high
+162	2	Extends existing central IP allocation policies to RDS and ALB.	high
+163	1	Adds larger hardware bundles for existing WorkSpaces desktops.	high
+164	2	Adds WebSocket API resource compatibility to existing SAM provisioning.	high
+165	2	Extends existing CloudTrail logging coverage to EventBridge PutEvents.	high
+166	NA	Existing RDS hardware expands geographically.	high
+167	1	Adds improved English speech-recognition model within existing Lex capability.	high
+168	4	Introduces image-to-application deployment mode managing networking, domains, scaling, and shared load balancers.	high
+169	NA	Existing F2 hardware expands to four regions.	high
+170	2	Adds single-node deployment configuration for existing rg.large instances.	high
+171	1	Adds routine SQL Server cumulative runtime update.	high
+172	3	Introduces EventBridge event delivery for firewall state and configuration changes.	medium
+173	NA	Existing I7i hardware expands geographically.	high
+174	2	Adds storage costs to existing per-table cost visibility.	high
+175	NA	Existing SAP Cloud ERP offering expands to Frankfurt.	high
+176	2	Adds AWS-specific integration and configuration to RHEL images.	medium
+177	1	Adds routine MySQL minor runtime versions.	high
+178	2	Adds existing Blu Insights capabilities to Transform console with existing AWS credentials.	medium
+179	3	Introduces notebook import and export operations alongside editing improvements.	high
+180	NA	Updates partner competency validation program.	high
+181	2	Adds customer-owned S3 code-storage option alongside increased managed limit.	high
+182	3	Introduces automatic image signing on push through Signer integration.	medium
+183	1	Changes default MFA enforcement to include member-account root users.	medium
+184	2	Extends existing alerts and report scheduling to embedded dashboards.	high
+185	2	Extends existing execution-role controls to Lambda, SNS, and SQS targets.	high
+186	NA	Existing P6-B300 hardware expands to Virginia.	high
+187	NA	Existing I8g hardware expands geographically.	high
+188	NA	Existing Nova creative models expand to Europe.	high
+189	NA	Existing OpenAI and Nemotron model serving expands to GovCloud.	medium
+190	2	Adds project-profile controls for resource tag propagation.	high
+191	NA	Existing Network Firewall service expands to European Sovereign Cloud.	high
+192	2	Adds one-click setup convenience for existing serverless agent tools.	medium
+193	3	Introduces interactive modernization assistant interface within Visual Studio.	high
+194	2	Adds Spot capacity option to existing HyperPod clusters.	high
+195	4	Introduces managed collection subsystem replacing customer-operated Prometheus collectors.	medium
+196	1	Improves existing development agent accuracy through internal solution generation and selection.	medium
+197	1	Adds MySQL 9.4 runtime to existing database preview catalog.	high
+198	NA	Existing S3 Access Grants expand geographically.	high
+199	1	Adds C8id, M8id, and R8id hardware catalog entries.	high

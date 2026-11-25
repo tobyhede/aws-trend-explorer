@@ -1,0 +1,1640 @@
+0	NA	R8g regional availability in Jakarta
+1	2	Admin consent control for OneDrive linking
+2	3	Flow agents can pause for user input and resume
+3	2	One-click EKS observability onboarding
+4	2	Redirect agent audio from virtual desktops
+5	2	Configurable dashboard widget filters and groupings
+6	2	Daily granularity for capacity projections
+7	NA	Screen recording expands to GovCloud
+8	NA	Warm throughput expands to GovCloud
+9	NA	C7i regional expansion
+10	1	Larger Flex instance sizes
+11	NA	M7g regional expansion
+12	NA	R8g regional expansion
+13	2	Managed node update strategy options
+14	2	Serverless jobs support public subnets
+15	NA	Lustre regional expansion
+16	NA	Windows file server regional expansion
+17	2	Replication supports existing aliases and CloudFormation
+18	2	Private endpoints for existing Connect APIs
+19	3	GraphRAG toolkit constructs and queries knowledge graphs
+20	3	Agent executes builds and tests on generated code
+21	2	Q assistant extends to Code Editor
+22	NA	Oracle license option regional expansion
+23	2	Query monitoring adds history and profiler views
+24	2	Additional H3 indexing functions
+25	1	Table bucket table quota increases
+26	NA	Unified Studio preview regional expansion
+27	3	Agent SOPs automate application deployment through MCP
+28	NA	Backup regional expansion
+29	2	Batch builds support additional compute options
+30	2	Dedicated pipeline debugging interface
+31	2	Configurable render resource concurrency controls
+32	1	Launch templates become new-environment default
+33	1	Python runtime catalog version
+34	2	Stream diagnostics add quality metrics
+35	2	Encryption SDK supports Go language
+36	2	Health API IPv6 support
+37	3	Simultaneous console account sessions
+38	3	Disbursement notifications and EventBridge events
+39	2	Swiss VAT and tax profile support
+40	2	Resource Groups supports more resource types
+41	2	Custom AS2 storage directories
+42	2	WAF console traffic visualizations
+43	3	Inspect historical database operating-system process snapshots
+44	3	Direct Windows ISO to AMI conversion
+45	1	FIFO throughput capacity increase
+46	2	Deadline rendering supports Maxon applications
+47	2	Existing Q&A supports dashboard semantics
+48	NA	Aurora zero-ETL regional expansion
+49	3	Session APIs persist and resume workflow state
+50	3	Agents exchange shifts
+51	NA	Contact categorization regional expansion
+52	3	Aggregate agent evaluation dashboard
+53	2	Draft schedules display time-off requests
+54	2	Lifecycle Manager IPv6 endpoints
+55	2	Snapshot size exposed in existing API
+56	NA	C6in Local Zone availability
+57	2	Capacity Blocks supports additional instance types
+58	2	Fleet overrides block-device mappings
+59	NA	High Memory regional expansion
+60	NA	M6in and M6idn regional expansion
+61	NA	R6a regional expansion
+62	1	ECS CPU quota increases
+63	1	EFS access-point quota increases
+64	2	FSx API IPv6 support
+65	NA	Keyspaces regional expansion
+66	NA	Express brokers regional expansion
+67	1	Time-series collection size limit increases
+68	2	Automatic routing among existing Q plugins and sources
+69	2	Canvas assistant supports time-series models and training controls
+70	NA	Data API regional expansion
+71	1	PostgreSQL minor version catalog
+72	1	Oracle release update catalog
+73	1	SQL Server minor version catalog
+74	NA	Query Editor regional expansion
+75	NA	VDM pricing tiers
+76	2	IAM roles for hosted SSR applications
+77	2	CDK constructs for existing WebSocket APIs
+78	2	Fallback invoice payment methods
+79	2	CDK constructs for Firehose delivery streams
+80	3	CloudTrail records VPC endpoint network activity
+81	2	Managed runners support GitLab Self-Managed
+82	3	Pipeline metrics integration with CloudWatch
+83	3	Native pipeline EC2 deployment action
+84	2	Render fleets support After Effects
+85	1	Ruby runtime version catalog
+86	2	Encrypted SAML assertion support
+87	2	Application Signals supports Java and .NET Lambda
+88	3	Remove availability zones from existing load balancers
+89	1	State-machine and activity quota increases
+90	2	VS Code toolkit supports DocumentDB
+91	2	Sensitive-log data protection controls
+92	2	Certificate authentication on multi-session fleets
+93	2	Database Insights supports RDS databases
+94	2	Existing analysis supports MySQL and MariaDB
+95	NA	Kubernetes extended support lifecycle
+96	NA	S3 CSI driver GovCloud expansion
+97	3	Reconfigure running instance fleets without restart
+98	3	FIS recovery action triggers zonal autoshift
+99	NA	Aurora R8g regional expansion
+100	2	Data Automation adds logo detection and governance controls
+101	NA	Flows and Prompt Management regional expansion
+102	U	GraphRAG GA restates preview capabilities
+103	3	Inline agents permit dynamic runtime role definitions
+104	NA	Database Insights GovCloud expansion
+105	2	Resource-based RUM ingestion access policies
+106	NA	Cognito regional expansion
+107	3	Capture agent evaluation acknowledgements
+108	2	Sentiment analysis enable-disable control
+109	NA	Telephony country coverage expansion
+110	1	Task expiration limit increases
+111	2	Firehose delivery supports S3 Tables destination
+112	2	DAX SDK compatible with Go SDK v2
+113	2	Private endpoints for Streams APIs
+114	NA	M8g regional expansion
+115	NA	C7g regional expansion
+116	NA	C8g regional expansion
+117	NA	M7a regional expansion
+118	NA	M7gd regional expansion
+119	NA	R7i regional expansion
+120	2	Pull-through caching supports ECR registries
+121	2	Envelope encryption extends to all Kubernetes API data
+122	2	EMR jobs support EKS Pod Identity
+123	NA	Event discovery GovCloud expansion
+124	2	Private endpoints for Scheduler
+125	3	Game server wrapper automates server integration
+126	NA	S3 malware protection GovCloud expansion
+127	1	Replication region-count quota removed
+128	2	Existing Lex slot types support Korean
+129	NA	Nova creative models regional expansion
+130	NA	OpenSearch Serverless regional expansion
+131	NA	OpenSearch connectivity GovCloud expansion
+132	2	Q ingestion supports audio and video
+133	3	Q adds chat and natural-language visualization generation
+134	2	Alerts and scheduling supported in embedded dashboards
+135	1	MySQL version catalog
+136	2	Linked servers support Teradata target
+137	NA	Query Editor regional expansion
+138	2	Selectable Redshift Serverless update tracks
+139	2	Access Grants unions IAM and IdP permissions
+140	2	Table management uses Iceberg REST standard
+141	NA	S3 Tables regional expansion
+142	2	Rolling updates for inference components
+143	2	Unified Studio GA adds simplified resource permissions
+144	2	FIPS streaming endpoint option
+145	2	API Gateway dual-stack connectivity
+146	2	Capacity controls per Outpost asset
+147	2	HttpOnly authentication cookies for Next.js
+148	1	VPN route and authorization quotas increase
+149	2	Custom S3 cache keys
+150	2	Runners register at organization or enterprise scope
+151	3	Pipeline action invokes another pipeline
+152	NA	Direct Connect location expansion
+153	2	Schema conversion supports Db2 z/OS source
+154	2	Mobile console supports additional services
+155	2	Spark jobs support catalog views
+156	2	IAM dual-stack endpoints
+157	2	ML product seller management refinements
+158	2	Pass-rule alerts and JA4 filtering
+159	1	OpenSearch instance catalog expansion
+160	2	RAM IPv6 endpoints
+161	2	Workflow Studio extends to VS Code
+162	1	SFTP login latency improves
+163	NA	WAF regional expansion
+164	NA	Bot Control GovCloud expansion
+165	2	Bottlerocket supports GPU partitioning
+166	2	Customizable database metric dashboard
+167	2	IoT device SDK supports Swift
+168	1	Nova Pro inference latency improvement
+169	3	Edge gateway includes MQTT broker for component messaging
+170	NA	Cognito feature tiers GovCloud expansion
+171	NA	SageMaker regional expansion
+172	3	RES adds project cost dashboard
+173	U	Scenarios GA without clear delta from prior stage
+174	2	Browser assistant supports more inputs and context controls
+175	1	PostgreSQL version catalog
+176	2	Guardrail detect mode and policy application controls
+177	1	Pixtral model catalog addition
+178	2	Origin modification supports VPC origins
+179	NA	Cross-account observability GovCloud expansion
+180	2	Refresh-token rotation control
+181	2	Calendar view of schedule adherence
+182	2	Agent hierarchy dashboard access controls
+183	3	Supervisors terminate or reassign active chats
+184	2	Snapshot copy resource permissions
+185	NA	C7gd regional expansion
+186	NA	High Memory regional expansion
+187	1	I7i instance catalog and performance generation
+188	NA	M6id regional expansion
+189	NA	M8g regional expansion
+190	NA	R6id regional expansion
+191	2	Account-level log blocking mode setting
+192	NA	Global Datastore regional expansion
+193	NA	Cross-account events GovCloud expansion
+194	NA	FSx Secret Region expansion
+195	NA	Kendra index regional expansion
+196	2	Control automatic intent switching
+197	2	Label-based active series limit controls
+198	2	Kafka upgrade retains tiered data when storage disabled
+199	NA	Neptune Secret Region expansion
+200	1	Nova Reel model version and output limits
+201	2	Search ranking controls and query insight dashboards
+202	NA	Existing browser extension broadens subscriber eligibility
+203	3	CLI connects external tools through MCP
+204	2	Coding agent uses candidate selection and planning tools
+205	2	Q functionality extends to embedded dashboards
+206	1	MariaDB version catalog
+207	NA	RDS Proxy regional expansion
+208	1	SQL Server minor version catalog
+209	2	Profiles manages VPC endpoint hosted zones
+210	NA	S3 Express price reduction
+211	2	Additional visual ETL transformations
+212	3	Schedule queries and ETL from authoring interface
+213	2	Security Lake IPv6 endpoints
+214	3	Mail rule publishes to SNS
+215	2	Policy store deletion protection
+216	NA	VPC analyzers regional expansion
+217	2	Automated HTTP certificate validation for CloudFront
+218	2	Deployment output and notice presentation
+219	2	AppConfig IPv6 endpoints
+220	2	Marketplace supports KRW and automated VAT handling
+221	2	Batch supports ECS Exec and FireLens
+222	2	CDK construct for existing identity pools
+223	2	VPN route enforcement control
+224	3	Interactive persistent build debugging environments
+225	2	Optimizer supports additional instance types
+226	2	macOS installer for render submitters
+227	NA	Link HD end of sale and UHD pricing
+228	2	SMS risk filtering and per-country detection controls
+229	NA	Existing Advance Pay expands to Europe
+230	1	Dynamic run storage throughput improvement
+231	2	Edge function log capture controls
+232	NA	Marketplace tax facilitator compliance
+233	2	Key exchange supports ECDH
+234	2	Resource Explorer private endpoints
+235	2	Incident Response private endpoints
+236	3	Time-bound node access request and approval workflow
+237	3	SFTP connectors delete rename and move remote files
+238	NA	Wavelength location expansion
+239	3	Image Builder reads Parameter Store image references
+240	3	Q agents operate through GitLab workflows
+241	2	SDK plugin simplifies existing token exchange
+242	NA	Migration incentive program changes
+243	1	Control catalog adds managed rule values
+244	2	Dedicated playground for existing image generation
+245	4	Multi-tenant CDN management with reusable configuration subsystem
+246	2	SLO calculations support dependency metrics
+247	2	Existing Word and Outlook integration refinements
+248	NA	Generative AI guidance document
+249	NA	AppStream regional expansion
+250	1	Secondary region-count limit increases
+251	1	PostgreSQL major version catalog
+252	NA	Aurora instance regional expansion
+253	3	Bedrock agent metrics published to CloudWatch
+254	2	Guardrail cross-region inference routing
+255	2	Flow monitoring supports multiple accounts
+256	2	Canary authoring supports Java
+257	2	Audio optimization supports Omnissa desktops
+258	2	Contact API returns additional fields
+259	2	Existing event stream adds completion event
+260	NA	DocumentDB regional expansion
+261	NA	EC2 instance regional expansion
+262	NA	Inf2 regional expansion
+263	NA	P5en regional expansion
+264	NA	R7g regional expansion
+265	NA	ECR replication GovCloud expansion
+266	2	One-click service rollback interface
+267	2	Cluster insights checks hybrid configuration
+268	2	Lake Formation tables support more Spark operations
+269	NA	Lustre regional expansion
+270	2	FlexCache write-back option
+271	NA	Windows file server regional expansion
+272	NA	EC2 malware protection GovCloud expansion
+273	2	Private Kinesis endpoint IPv6 support
+274	1	Prometheus query time-range limit increases
+275	2	Kafka version adds consumer rebalancing protocol
+276	2	Environment update preserves running tasks
+277	3	Neptune tools accessible through MCP
+278	3	IDE agent modifies files and runs commands conversationally
+279	1	RDS instance catalog additions
+280	1	MySQL minor version catalog
+281	2	Secrets management supports multitenant Oracle
+282	NA	RDS instance regional expansion
+283	1	PostgreSQL minor version catalog
+284	NA	Redshift Serverless regional expansion
+285	NA	Resolver logging regional expansion
+286	2	Q code suggestions use private repositories and workspace
+287	2	Catalog governance supports S3 Tables
+288	2	SageMaker connectors support additional sources
+289	2	SES sending endpoint IPv6 support
+290	2	CloudTrail includes default-created VPC resources
+291	NA	WorkSpaces regional expansion
+292	2	PostgreSQL ODBC driver compatibility interface
+293	2	Backup supports Aurora DSQL resource type
+294	3	Programmatic CDK operations library
+295	NA	CodeBuild Secret Region expansion
+296	3	Pipeline Lambda deployment action with traffic shifting
+297	2	Baseline APIs expose account statuses
+298	3	Cost anomaly alerts integrate User Notifications
+299	2	Existing transfer service supports agentless cloud transfers
+300	2	Monitor interface localization
+301	NA	Direct Connect location expansion
+302	NA	Messaging regional expansion
+303	2	Imaging supports video and JPEG2000 transcoding
+304	2	CWL output mapping generation
+305	2	Disburse partially paid invoices
+306	2	Organizations IPv6 endpoints
+307	2	Resource Explorer supports more resource types
+308	NA	Incident Response regional expansion
+309	NA	VPN lifecycle control regional expansion
+310	3	Mainframe modernization adds documentation chat and analysis operations
+311	NA	WAF rule regional expansion
+312	2	CloudTrail events gain enrichment and larger size
+313	2	Savings-plan preference configuration
+314	2	Configurable volume initialization rate
+315	5	Managed operational support offering for Energy Data Insights
+316	3	MCP interfaces for serverless and container operations
+317	1	PostgreSQL beta version catalog
+318	NA	Training plans regional expansion
+319	2	Custom-domain request routing rules
+320	2	Custom model import supports Qwen architecture
+321	3	Quantum circuits support conditional operations and mid-circuit measurements
+322	3	Natural-language query result summarization
+323	2	Agent evaluation supports third-party activities
+324	2	Calculated attribute time and backfill controls
+325	NA	Outbound campaigns regional expansion
+326	4	Strongly consistent multi-region replication model
+327	NA	C8g regional expansion
+328	NA	C7g regional expansion
+329	NA	C7i regional expansion
+330	NA	U7i regional expansion
+331	NA	I7ie regional expansion
+332	NA	M7g regional expansion
+333	NA	M8g regional expansion
+334	3	Update capacity providers on existing services
+335	NA	EFS regional expansion
+336	3	EVS integrates FSx ONTAP storage
+337	2	EventBridge adds CodeBuild batch target
+338	3	UDP beacons measure game client latency
+339	2	Video ingest supports E-RTMP multitrack
+340	2	Custom vocabulary supports more languages
+341	NA	Express broker regional expansion
+342	2	Nova Sonic supports Spanish
+343	2	Agentic coding extends to additional IDEs
+344	3	IDE assistant connects MCP tools
+345	3	Q provides personalized cost optimization recommendations
+346	3	Db2 cross-region standby replicas
+347	NA	Reserved instance purchasing option
+348	1	Minimum Redshift compute size reduced
+349	2	Access-denied errors include organization context
+350	2	Per-table storage cost reporting
+351	1	Training instance catalog addition
+352	1	HyperPod instance catalog addition
+353	2	Text extraction supports rotated and superscript text
+354	NA	Authorization price reduction
+355	2	Route Server monitoring metrics
+356	2	AMI-based Slurm node configuration
+357	2	WAF rule matches ASNs
+358	1	API cache encryption default
+359	NA	Backup regional expansion
+360	3	Multi-party recovery approval workflow
+361	2	Cross-VPC security-group references and DNS support
+362	2	Idle detection supports GPU scaling groups
+363	2	Control Tower private endpoints
+364	3	Worker performance monitoring dashboard
+365	3	Messaging integrates Service Quotas
+366	2	Glue supports more Spark operations on governed tables
+367	NA	HealthLake regional expansion
+368	1	Root MFA required by default
+369	2	KMS signatures support ML-DSA algorithm
+370	2	License conversion supports Marketplace products
+371	2	Seller authorization management refinements
+372	3	Network Firewall native Transit Gateway integration
+373	2	Private CA IPv6 endpoints
+374	2	Resource policies support additional services
+375	4	Security Hub adds correlated risk and response subsystem
+376	4	Shield adds network discovery and security posture subsystem
+377	2	Transfer endpoints support IPv6
+378	2	Simplified WAF configuration interface
+379	2	Cost recommendations support Aurora
+380	2	ENA Express supports more instance types
+381	NA	Financing eligibility expansion
+382	3	Analyzer identifies organization-internal resource access
+383	3	PCS exports job completion metadata logs
+384	NA	Savings Plans purchasing option
+385	3	Bedrock agent function integration utility
+386	NA	Partner competency program update
+387	NA	Government competency program update
+388	2	Marketplace supports AI agent products and deployment options
+389	1	Aurora MySQL version catalog
+390	NA	Limitless Database regional expansion
+391	NA	Aurora instance regional expansion
+392	4	AgentCore runtime memory gateway and agent tooling subsystem
+393	2	Data Automation supports additional file formats
+394	2	Chime API IPv6 endpoints
+395	3	CloudWatch troubleshooting tools exposed through MCP
+396	2	CloudTrail logging supports additional metric APIs
+397	NA	Cognito regional expansion
+398	3	Case deletion and relationship removal APIs
+399	NA	Connect Cases regional expansion
+400	NA	Contact Lens GovCloud expansion
+401	2	Flow logic executes while queue audio continues
+402	2	Flows execute Lambda calls concurrently
+403	1	Corretto security patch versions
+404	4	DocumentDB automatically scales serverless compute capacity
+405	NA	io2 Block Express regional expansion
+406	NA	C6in regional expansion
+407	NA	C7i regional expansion
+408	1	U7i EBS performance increase
+409	NA	M8g and R8g regional expansion
+410	NA	R8g regional expansion
+411	2	Tag immutability exceptions
+412	NA	Redis version extended support
+413	3	EventBridge exports delivery logs to logging destinations
+414	NA	Lustre regional expansion
+415	NA	Windows file server regional expansion
+416	2	Migration SDK supports more location functions
+417	3	Fault injection pauses MemoryDB replication
+418	NA	MSK regional expansion
+419	3	Neptune integration with Mem0 memory framework
+420	2	Nova Sonic supports more languages
+421	1	EC2 GPU instance catalog addition
+422	2	Connect recommendations support more languages
+423	1	SPICE row limit increases
+424	2	Oracle databases support bare-metal instance deployment
+425	NA	Data API regional expansion
+426	1	Oracle instance catalog additions
+427	NA	RDS instance regional expansion
+428	1	Linked-server driver version update
+429	2	Zero-ETL adds multiple integrations and per-table filters
+430	2	Serverless supports two-AZ subnet configuration
+431	NA	Resolver logging regional expansion
+432	2	Console summarizes external bucket access
+433	2	Metadata indexing supports existing objects
+434	NA	S3 table compaction price reduction
+435	2	Description generation supports custom assets
+436	3	Unified Studio authors and manages data-processing jobs
+437	3	HyperPod task observability and policy-driven remediation
+438	3	VS Code remotely connects Studio development environments
+439	NA	SNS Firehose delivery regional expansion
+440	2	SNS messages carry group IDs for fair queues
+441	2	SQS private endpoint IPv6 support
+442	2	Lattice supports Oracle Database network target
+443	NA	Direct Connect bandwidth location expansion
+444	NA	Savings Plans Secret Region expansion
+445	1	Windows Server AMI version catalog
+446	NA	Builder community and learning portal
+447	3	Clean Rooms emits EventBridge collaboration events
+448	NA	Control Tower regional expansion
+449	1	DMS instance catalog addition
+450	2	Managed render fleets support Unreal Engine
+451	2	Entity matching supports additional fuzzy algorithms
+452	NA	Free Tier commercial program changes
+453	1	Glue worker size catalog additions
+454	2	Image import supports DICOMweb STOW-RS protocol
+455	3	Nucleus lite manages Docker containers
+456	3	SiteWise detects multivariate equipment anomalies
+457	3	Remote Lambda function debugging in VS Code
+458	2	Console application discovery and navigation
+459	NA	Network Firewall regional expansion
+460	2	Tag policy wildcard resource selector
+461	1	Certificates per authority quota increases
+462	NA	VPN capabilities regional expansion
+463	NA	Transfer web apps regional expansion
+464	3	ElastiCache introduces Bloom filter data type
+465	2	Optimization reports show account names
+466	2	Database analysis supports Oracle
+467	3	Managed MLflow adds application tracing and observability
+468	NA	AI learning competition program
+469	2	Custom Nova models support on-demand deployment
+470	2	Q assistant supports more languages
+471	1	TwelveLabs model catalog addition
+472	NA	Aurora MySQL long-term support designation
+473	1	Models automatically accessible by default
+474	NA	Data Automation GovCloud expansion
+475	2	Natural-language generation supports PPL and SQL
+476	NA	RUM regional expansion
+477	NA	External voice regional expansion
+478	2	Existing calling supports multiple participants
+479	NA	DocumentDB version extended support
+480	1	Capacity-mode switching frequency limit increases
+481	NA	C7g regional expansion
+482	NA	C8gn regional expansion
+483	NA	G6 regional expansion
+484	1	I8ge storage instance catalog addition
+485	NA	M7i instance regional expansion
+486	NA	M8g regional expansion
+487	NA	R7g regional expansion
+488	1	ECR image quota increases
+489	3	Refresh cluster insights on demand
+490	3	Decrease provisioned SSD storage capacity
+491	1	Proton runtime version and service limits
+492	2	Geofences support multipolygons and exclusions
+493	2	Prometheus resource-based access policies
+494	3	Neptune integration with Cognee memory framework
+495	NA	OpenSearch UI regional expansion
+496	3	Serverless collection backup and restore
+497	1	OpenSearch instance catalog addition
+498	1	Polly voice catalog additions
+499	2	Customizable empty visual messages
+500	2	QuickSight connector supports Google Sheets
+501	2	Cross-region Db2 backups support encrypted databases
+502	NA	RDS io2 GovCloud expansion
+503	1	MySQL minor version catalog
+504	1	Oracle release update catalog
+505	1	PostgreSQL minor version catalog
+506	2	Access point tags support attribute authorization
+507	3	Batch operation computes stored-object checksums
+508	2	Unified HyperPod resource setup experience
+509	2	Studio propagates trusted user identity
+510	1	SQS message size limit increases
+511	NA	Verified Permissions regional expansion
+512	NA	VPC analyzers regional expansion
+513	3	Aurora DSQL integrates fault injection testing
+514	2	Custom EDI validation rules
+515	2	Batch supports Graviton Fargate Spot compute
+516	3	Billing and cost operations exposed through MCP
+517	2	PySpark error message configuration
+518	2	Service discovery supports cross-account namespaces
+519	2	Deadline supports VRED rendering
+520	NA	Direct Connect location bandwidth expansion
+521	1	Directory account-sharing limit increases
+522	2	Toll-free numbers support international sends
+523	2	Nextflow task timeout controls
+524	2	IAM VPC endpoint policy conditions
+525	3	ExpressLink exposes hardware I/O control commands
+526	2	Configurable account identification color
+527	NA	Firewall Secret Region expansion
+528	2	Outposts adds network status metrics
+529	2	PCS supports Slurm plugin hooks
+530	2	Multi-value resource search filters
+531	2	OU-scoped incident response membership
+532	2	Terraform deployment support for SFTP connectors
+533	3	Token counting API
+534	2	Hybrid Nodes supports additional Cilium features
+535	2	S3 mount driver supports SELinux and caching improvements
+536	1	PostgreSQL beta version catalog
+537	2	HyperPod EBS customer-managed encryption keys
+538	2	HyperPod custom image configuration
+539	2	Capacity reservation sharing and grouped targeting
+540	2	Streamlined Windows image import workflow
+541	NA	Limitless Database GovCloud expansion
+542	2	AgentCore networking encryption and resource controls
+543	NA	Bedrock regional expansion
+544	2	CloudFront post-quantum TLS negotiation
+545	2	Query alarm tracks individual metrics
+546	2	Observability manager private endpoints
+547	2	Canary testing supports Firefox
+548	2	Case list date range filter
+549	2	Detailed outbound call disconnect reasons
+550	1	Corretto runtime version catalog
+551	2	AMI allow-list governance parameters
+552	2	Auto Scaling IPv6 endpoints
+553	NA	Flex instances Secret Region expansion
+554	NA	I7i regional expansion
+555	NA	I8ge regional expansion
+556	1	R8gb instance catalog addition
+557	2	ECS tasks support IPv6-only networking
+558	2	Task definition editor gains Q assistance
+559	NA	API destinations regional expansion
+560	NA	EVS regional expansion
+561	NA	Lustre Local Zone expansion
+562	2	Additional Cassandra query and duration compatibility
+563	2	Lex language understanding supports more languages
+564	3	Prometheus collector emits CloudWatch logs
+565	NA	MSK Connect regional expansion
+566	3	Nova Act IDE authoring and browser-testing interface
+567	3	Generate time-series forecasts in OpenSearch
+568	2	UI model-selection controls
+569	1	SQL Server security version update
+570	1	MySQL extended support patch version
+571	NA	Oracle licensing regional expansion
+572	2	RDS Proxy IPv6 support
+573	NA	Lower-capacity configuration regional expansion
+574	2	Delete operations support object preconditions
+575	NA	Managed MLflow GovCloud expansion
+576	2	SNS FIPS endpoint support
+577	1	Claude model catalog addition
+578	2	Bedrock API key policy conditions
+579	2	Selective object ACL and tag backup controls
+580	3	Add providers to existing collaboration
+581	2	Redacted model error summaries
+582	2	Optimizer supports additional instance types
+583	2	Control Tower IPv6 endpoints
+584	NA	Direct Connect bandwidth location expansion
+585	NA	Direct Connect location expansion
+586	2	Beanstalk load balancer dual-stack configuration
+587	3	Fault action injects EBS I/O latency
+588	NA	Identity Center regional expansion
+589	NA	Lambda code signing GovCloud expansion
+590	3	AD certificate auto-enrollment through Private CA
+591	3	Neptune integration with Zep memory framework
+592	2	Domain rules add Reject and Alert actions
+593	2	Organizations APIs expose account state
+594	2	Cluster allocation and platform support refinements
+595	3	SiteWise modeling tools exposed through MCP
+596	3	Step Functions integrates Service Quotas
+597	NA	Transfer regional expansion
+598	2	Migration assessments include detached storage
+599	NA	WAF regional expansion
+600	2	Tracing adaptively adjusts sampling rates
+601	2	Simplified prompt cache management
+602	NA	Deadline regional expansion
+603	NA	FIS regional expansion
+604	2	Studio assistant gains project context and CLI access
+605	1	Malware scan size and archive limits increase
+606	3	MediaConvert integrates time-addressable media store
+607	NA	OpenAI model regional expansion
+608	1	PostgreSQL release-candidate version catalog
+609	1	Qwen model catalog addition
+610	3	HyperPod managed node autoscaling with Karpenter
+611	NA	Outposts country availability expansion
+612	3	Bedrock exposes image editing operation suite
+613	2	Configuration checks support SAP HANA
+614	NA	Aurora DSQL regional expansion
+615	2	Zero-ETL replication supports SageMaker destination
+616	1	Serverless models enabled by default
+617	2	Windows event collection filters
+618	2	Bundled declarative multi-check canary blueprints
+619	3	Agent schedule adherence notifications
+620	2	Evaluation results trigger follow-up evaluations
+621	2	Bulk scheduling configuration editing
+622	2	Agent email assistance adds summaries and suggestions
+623	2	Scheduling targets individual agents
+624	2	Detective private endpoints
+625	NA	DocumentDB regional expansion
+626	2	DynamoDB IPv6 support
+627	2	EBS average IOPS and throughput metrics
+628	NA	C6in regional expansion
+629	NA	C8g regional expansion
+630	1	Compute instance catalog generation
+631	NA	U7i regional expansion
+632	NA	I7ie regional expansion
+633	NA	Im4gn regional expansion
+634	NA	M6in regional expansion
+635	NA	M8gd regional expansion
+636	NA	R8g regional expansion
+637	2	Linear and canary deployment strategy options
+638	2	FireLens non-root user execution
+639	2	Kubernetes upgrade adds pod resource and credential controls
+640	2	Server SDKs collect telemetry metrics
+641	2	Keyspaces IPv6 endpoints
+642	2	Video Streams IPv6 support
+643	3	Prometheus anomaly detection
+644	NA	MSK Connect regional expansion
+645	2	Model moderation configuration
+646	2	Ingestion inference supports batch mode
+647	3	Visual multi-step data transformation interface
+648	3	Native Db2 database backup operation
+649	NA	Oracle zero-ETL regional expansion
+650	1	SQL Server security version catalog
+651	2	Route 53 Profiles private endpoints
+652	2	Copy operations support write preconditions
+653	2	Search results include match context
+654	2	Studio queries use existing Athena workgroups
+655	4	InfluxDB 3 introduces object-storage engine and cluster model
+656	3	IPAM automatically resolves and updates prefix lists
+657	NA	WorkSpaces Managed Instances regional expansion
+658	3	Load balancer rewrites URLs and host headers
+659	3	Service Quotas proactively monitors usage and notifies
+660	2	Backup schedule preview
+661	2	Spark SQL performance configuration controls
+662	2	VPN client supports macOS Tahoe
+663	NA	Config regional expansion
+664	2	Carbon reporting adds emissions scopes
+665	NA	Direct Connect bandwidth location expansion
+666	1	Corretto and Tomcat runtime catalog
+667	2	Fluent Bit supports native OTLP and TLS controls
+668	2	Resource discovery simplifies activation and regional setup
+669	1	Asynchronous invocation payload limit increases
+670	2	Marketplace tax handling supports partner offers
+671	1	Pricing dimension and update limits increase
+672	3	Rotate cluster secret keys
+673	3	Update cluster Slurm settings in place
+674	2	Resource Explorer supports more resource types
+675	NA	Secret Region launch
+676	2	MCP server supports Lambda event mappings
+677	2	Workflow metrics dashboard
+678	2	SFTP connectors support private VPC connectivity
+679	2	Database analysis supports SQL Server
+680	2	Tag-based database metric access controls
+681	2	AI observability expands to more AgentCore components
+682	2	Query planner adds operator index support
+683	NA	Outposts regional expansion
+684	2	Image service adds editing tool options
+685	3	Nova web retrieval grounding tool
+686	NA	AI competition program
+687	2	SageMaker notebooks support Athena Spark engine
+688	1	DSQL storage limit doubles
+689	1	Aurora MySQL version catalog
+690	2	AgentCore direct code deployment option
+691	2	Guardrail filters support code content and prompt leakage
+692	2	Reserved inference performance tier
+693	2	Quantum processor spending caps
+694	2	CloudFront origins support cross-account resources
+695	2	Agent collects local NVMe metrics
+696	3	GitHub Action integrates application observability
+697	2	Database anomaly analysis supports more metrics
+698	3	Schedule recurring Logs Insights queries
+699	NA	Cognito pricing simplification
+700	4	Self-service agents reason and execute customer-service tasks
+701	3	Customer-profile product recommendation algorithms
+702	2	Conditional case fields and dependent options
+703	2	Conversation analytics covers self-service bots
+704	2	Email address alias configuration
+705	2	Flow modules add interfaces and versioning controls
+706	3	Connect agents invoke tools through MCP
+707	3	Monitor queued callback contacts
+708	3	Simulate and test contact-center interactions
+709	2	Flows link related contacts to cases
+710	2	Remote desktop supports EC2 Mac
+711	2	Instance refresh replaces root volumes
+712	NA	C7i regional expansion
+713	NA	F2 regional expansion
+714	NA	U7i regional expansion
+715	NA	I7i regional expansion
+716	NA	I8g regional expansion
+717	NA	M7i regional expansion
+718	1	macOS image version catalog
+719	3	Managed container image signing
+720	2	Managed instance scale-in delay control
+721	2	Secrets CSI driver managed add-on
+722	3	EKS network metrics and flow observability integration
+723	2	EMR supports Iceberg v3 format
+724	2	Spark upgrade adds data-type and streaming controls
+725	3	FSx integrates Secrets Manager for AD credentials
+726	2	Malware scanning supports Backup recovery points
+727	3	Atomic logged batch writes
+728	1	Enhanced fan-out consumer limit increases
+729	2	Kinesis Video warm storage tier
+730	2	Prometheus collector supports Kafka source
+731	3	Public APIs inspect Kafka topics
+732	NA	MSK Serverless regional expansion
+733	2	Serverless search FIPS endpoints
+734	3	OpenSearch adds agentic natural-language search
+735	2	Research supports third-party intelligence sources
+736	3	Embeddable Quick conversational interface
+737	1	MariaDB minor version catalog
+738	1	Oracle patch version catalog
+739	1	PostgreSQL minor version catalog
+740	2	SQL Server workload resource governance controls
+741	NA	Lower-capacity option regional expansion
+742	2	DNS threat detection adds dictionary DGA patterns
+743	4	Internet-reachable anycast DNS resolver subsystem
+744	2	Organization-wide public access enforcement
+745	NA	S3 Metadata regional expansion
+746	3	AI-driven catalog data classification
+747	2	Catalog governs S3 read and write access
+748	1	Speculative decoding inference performance optimization
+749	2	Custom HyperPod scheduling labels and taints
+750	2	One-click dataset onboarding
+751	NA	SES regional expansion
+752	NA	U7i regional expansion
+753	NA	U7i regional expansion
+754	2	Resource configuration custom domains
+755	3	Express interface automates container application deployment
+756	NA	Claude GovCloud expansion
+757	2	REST private integrations support ALB
+758	2	APM troubleshooting includes synthetic canaries
+759	3	Marketplace automates CrowdStrike SIEM integration
+760	NA	Partner competency categories
+761	1	SQL Server AMI version catalog
+762	NA	Backup delegated administration regional expansion
+763	2	S3 backup warm storage tier
+764	2	Billing Transfer supports channel partner resale
+765	NA	Cloud WAN regional expansion
+766	2	StackSet deployment ordering control
+767	NA	Config conformance packs regional expansion
+768	2	OU movement automatically enrolls accounts
+769	1	Cost anomaly detection latency improvement
+770	2	Cost exports support FOCUS 1.2 format
+771	2	Schema conversion supports Sybase to PostgreSQL
+772	NA	Flat-rate commercial pricing plans
+773	4	Managed Iceberg materialized-view refresh subsystem
+774	2	Data quality preprocessing query option
+775	3	Outbound AWS identity federation using JWTs
+776	3	Rules retrieve thing registry data
+777	2	KMS supports EdDSA signing algorithm
+778	1	Java runtime version catalog
+779	2	Kafka mapping grouping and provisioned capacity controls
+780	U	Rust moves from experimental to supported GA
+781	3	Conversational Marketplace procurement agent
+782	2	Marketplace supports INR local transactions
+783	4	Regional NAT automatically manages multi-AZ gateway capacity
+784	2	Load balancer supports QUIC passthrough
+785	NA	HIPAA eligibility
+786	2	Payment cryptography supports post-quantum TLS
+787	2	PrivateLink supports cross-region service connectivity
+788	3	Managed SaaS secret rotation without Lambda maintenance
+789	1	VPN tunnel bandwidth increase
+790	2	TestState supports more local workflow tests
+791	2	VMware transformation exports LZA network configurations
+792	2	WAF supports standardized bot authentication
+793	2	Custom model import supports GPT OSS architecture
+794	3	Pre-provisioning validation and operation inspection API
+795	2	CloudTrail anomaly detection supports data events
+796	2	Database monitoring supports cross-account and cross-region fleets
+797	3	Drift-aware deployment compares and restores actual infrastructure state
+798	3	AI explains cost forecast methodology
+799	3	Electronic invoice delivery to procurement portals
+800	3	Synchronous instance launch API for scaling groups
+801	3	Image workflows invoke Lambda and Step Functions
+802	2	ECR dual-stack private endpoints
+803	3	Lookup carrier metadata for phone numbers
+804	1	Lustre directory listing performance improvement
+805	2	Data quality rule labels
+806	3	Policy Autopilot generates IAM policies from application code
+807	2	MSK console configures Lambda event mappings
+808	2	LLMs become selectable primary intent recognition engine
+809	2	Variable billing for professional services
+810	2	S3 mount packaged with Amazon Linux
+811	4	Serverless per-workflow Airflow execution model
+812	NA	Network Firewall regional expansion
+813	NA	Well-Architected guidance updates
+814	2	PPL query interface and analysis command enhancements
+815	2	RUM supports native mobile applications
+816	2	S3 post-quantum TLS negotiation
+817	3	Managed shared KV cache and cache-aware inference routing
+818	NA	Outposts regional expansion
+819	2	VPN emits BGP logs to CloudWatch
+820	2	Supplementary prebuilt Amazon Linux package repository
+821	2	Transfer web app private endpoints
+822	NA	Workshop learning catalog access
+823	3	Region switch generates execution reports
+824	1	PostgreSQL preview version catalog
+825	NA	Bedrock API keys GovCloud expansion
+826	2	Braket supports Qiskit 2 compatibility
+827	2	Cognito identity pools private endpoints
+828	3	SQL and AI-assisted customer segmentation
+829	2	EC2 APIs accept stable AZ identifiers
+830	NA	Graviton instance regional expansion
+831	NA	M8g regional expansion
+832	1	Trainium instance catalog generation
+833	1	X8i instance catalog addition
+834	2	Custom container termination signals
+835	2	Cluster-wide and DNS-based network policies
+836	4	Managed shuffle storage decoupled from Spark workers
+837	2	WebRTC IPv6 support
+838	2	MSK connector dual-stack networking
+839	1	Nova model catalog addition
+840	3	Automated vector index optimization jobs
+841	2	Q assistant analyzes SES sending data
+842	1	MySQL preview version catalog
+843	2	Concurrency scaling supports auto-copy
+844	1	S3 object size limit increases
+845	NA	SageMaker regional expansion
+846	3	Update notebook platform version in place
+847	2	Fleet health and performance metrics
+848	2	Browser branding customization
+849	1	Ubuntu fleet runtime version catalog
+850	3	Gateway exposes REST APIs through MCP proxy
+851	1	M8azn instance catalog addition
+852	3	Export billing dashboards to PDF and CSV
+853	2	Terraform supports enhanced transfer mode
+854	NA	Directory Service regional expansion
+855	NA	Identity Center regional expansion
+856	2	Event-level IoT logging controls
+857	3	Partner opportunity deal-size estimation
+858	NA	Cryptography price reduction
+859	1	Carbon data publication latency reduction
+860	3	Incident Response integrates Slack
+861	2	Gateway supports Nutanix hypervisor
+862	2	Network conversion supports hybrid data centers
+863	3	AgentCore supports bidirectional streaming sessions
+864	5	Nova Act managed UI-automation agent service
+865	3	CloudWatch integrates AgentCore quality evaluations
+866	2	Outbound campaigns support WhatsApp channel
+867	NA	Database commitment discount pricing plan
+868	3	Direct Connect integrates fault injection testing
+869	NA	C8i regional expansion
+870	NA	M7a regional expansion
+871	NA	R8g regional expansion
+872	NA	X2iedn regional expansion
+873	1	Node runtime version catalog
+874	3	AI reviews phone registration submissions
+875	1	C8gb instance catalog addition
+876	2	Simplified CloudTrail enablement in CloudWatch
+877	1	X8aedz instance catalog addition
+878	1	X8aedz instance catalog addition
+879	1	Nemotron model catalog addition
+880	2	Oracle marketplace entitlement sharing
+881	3	Attach and remove additional database storage volumes
+882	2	Resolver detailed performance metrics
+883	2	S3 Tables supports Intelligent-Tiering storage
+884	2	Security Hub adds risk trends and unified administration
+885	5	Spatial Data Management solution with repository and APIs
+886	4	Custom programmable application transformation framework
+887	2	Transformation supports more .NET targets and plan controls
+888	2	Strands adds language runtime and agent steering support
+889	2	Quick integrates more agents and action targets
+890	2	Bedrock cost reports expose operation granularity
+891	NA	Reserved tier model and GovCloud availability
+892	NA	Database analysis regional expansion
+893	3	Agent evaluation appeal workflow
+894	2	Tag-based case access controls
+895	2	Flow data structures and array iteration support
+896	1	Corretto security patch versions
+897	1	Daily volume modification quota increases
+898	NA	C8i regional expansion
+899	NA	G5 regional expansion
+900	NA	M8i regional expansion
+901	NA	X8aedz regional expansion
+902	2	Fargate and managed tasks support tmpfs mounts
+903	2	Local disk customer-managed encryption keys
+904	2	VMware software version selection
+905	2	Inspector supports Gradle and additional package ecosystems
+906	1	English speech recognition accuracy improvement
+907	2	RabbitMQ mutual TLS authentication
+908	NA	MSK Connect regional expansion
+909	NA	Neptune Analytics regional expansion
+910	2	Dashboard table field customization
+911	1	SQL Server security version catalog
+912	2	Bare-metal deployment supports Oracle SE2
+913	NA	Redshift Serverless regional expansion
+914	2	Lifecycle script errors link directly to logs
+915	2	IPAM policies support RDS and load balancers
+916	NA	WorkSpaces Applications Secret Region expansion
+917	NA	Outposts country expansion
+918	2	Array job summaries in existing listing API
+919	2	Quickstart VPN setup
+920	3	AWS database provisioning integrates Vercel v0
+921	2	Resource policies support more services
+922	2	HealthImaging supports JPEG XL format
+923	2	Lambda mappings support cross-account DynamoDB streams
+924	2	Seller reports show payment collection status
+925	NA	RDS instance regional expansion
+926	2	Token validation supports provider-specific claims
+927	2	Terraform supports Transfer web apps
+928	3	Change object encryption without rewriting data
+929	1	Cosmos model catalog additions
+930	2	Billing transaction view refinements
+931	1	Gemma model catalog additions
+932	1	Speech and biology model catalog additions
+933	2	Scheduler adds capacity retries and event-driven orchestration
+934	1	Vision and agent model catalog additions
+935	1	Ministral model catalog additions
+936	1	OCR and language model catalog additions
+937	1	Nemotron model catalog addition
+938	1	Qwen and Wan model catalog additions
+939	1	Beam model catalog addition
+940	NA	Outposts regional expansion
+941	2	Support assistant adds languages
+942	2	DSQL supports sequences and identity columns
+943	3	Browser playground for interactive DSQL exploration
+944	1	Database encryption enabled by default
+945	2	Batch inference accepts Converse format
+946	1	Claude default quotas increase
+947	2	Capacity Blocks cross-account sharing
+948	2	Client secret rotation and custom values
+949	2	Case field dependency CSV configuration
+950	2	Tagged analytics dashboard permissions
+951	3	Programmatic voice simulation testing APIs
+952	NA	C7i regional expansion
+953	NA	C8i regional expansion
+954	NA	C8i regional expansion
+955	NA	G6e regional expansion
+956	NA	U7i regional expansion
+957	NA	M7i regional expansion
+958	NA	M8i-flex regional expansion
+959	4	Nested hypervisors supported inside virtual EC2 instances
+960	NA	R8i regional expansion
+961	NA	U7i GovCloud expansion
+962	NA	X8i regional expansion
+963	2	Canary deployments support Network Load Balancers
+964	NA	EKS Pod Identity integration GovCloud expansion
+965	2	Curated Location context for AI coding tools
+966	3	Public APIs create update and delete Kafka topics
+967	2	Cluster insights detect overload and sharding issues
+968	1	Oracle patch version catalog
+969	1	MySQL minor version catalog
+970	2	Dedicated optimization compute allocation
+971	NA	Access Grants regional expansion
+972	2	Console exposes existing cluster node operations
+973	NA	SNS SMS regional expansion
+974	2	Secure Browser custom domain support
+975	2	Spark lineage supports Identity Center domains
+976	2	DSQL connectors support additional language clients
+977	2	Reasoning policies include source references
+978	2	SAP backup private connectivity
+979	2	Batch queue and fair-share utilization visibility
+980	2	Clean Rooms supports remote Iceberg catalogs
+981	2	Config supports additional resource types
+982	2	Render task chunking control
+983	2	Resource policies support DynamoDB
+984	2	Imaging storage metrics
+985	4	Identity Center replicates identity and entitlements across regions
+986	1	M8azn instance catalog generation
+987	2	MediaLive supports SRT listener mode
+988	2	Approval votes require OTP verification
+989	NA	Outposts metrics GovCloud expansion
+990	2	WAF dashboard visualizes expanded AI bot detection
+991	1	Cartesia speech model catalog addition
+992	2	Concurrent purchase agreements for one product
+993	2	Console navigation displays account name
+994	2	Image lifecycle wildcards and simplified permissions
+995	NA	Elemental services regional expansion
+996	3	Q renders resource and cost artifacts
+997	1	Devstral model catalog addition
+998	NA	SageMaker P4de regional expansion
+999	2	Map location ambiguity correction
+1000	1	PostgreSQL minor version catalog
+1001	2	Security Hub plan unifies partner billing and findings
+1002	1	WordPress blueprint catalog addition
+1003	3	Serverless agent plugin packages development tools
+1004	3	Memory service streams change notifications
+1005	3	Express Aurora setup includes internet access gateway
+1006	NA	Bedrock regional expansion
+1007	2	Bedrock latency and quota consumption metrics
+1008	NA	Database analysis GovCloud expansion
+1009	NA	RUM sovereign cloud expansion
+1010	2	Selectable outgoing email address
+1011	2	Conversational analytics supports email
+1012	5	Connect Health purpose-built healthcare agent offering
+1013	2	Predictive insights integrates triggered message campaigns
+1014	NA	I8ge regional expansion
+1015	NA	C8i regional expansion
+1016	NA	G7e regional expansion
+1017	NA	I7ie regional expansion
+1018	NA	M8a GovCloud expansion
+1019	NA	M8i regional expansion
+1020	NA	R8a regional expansion
+1021	1	R8idn and R8idb instance catalog additions
+1022	2	Pull-through cache supports Chainguard registry
+1023	1	Larger control-plane tier and availability commitment
+1024	2	Inspector Windows agentless coverage and consolidated patch findings
+1025	1	Flink runtime version catalog
+1026	NA	MSK instance regional expansion
+1027	2	Ingestion supports Prometheus destination
+1028	2	Capacity-optimized blue-green deployment strategy
+1029	3	Bidirectional streaming speech synthesis API
+1030	NA	Quick regional expansion
+1031	2	SQL Developer Edition supports storage and governor features
+1032	1	New-query execution performance improvement
+1033	2	Restore preserves data-share permissions
+1034	NA	Access Grants regional expansion
+1035	2	Data Agent extends to query editor
+1036	2	Remote Studio access supports Kiro and Cursor
+1037	2	Aggregated data lineage view
+1038	2	Unified Studio remote access supports Kiro
+1039	2	Custom metadata search filters
+1040	NA	Timestream regional expansion
+1041	2	DSQL connector supports Ruby client
+1042	NA	DocumentDB backup regional expansion
+1043	NA	Redshift backup regional expansion
+1044	3	Batch training quota shares and job preemption
+1045	2	Console certificate search
+1046	2	Secrets Manager credential support across transfer sources
+1047	2	Direct Connect CloudFormation provisioning support
+1048	NA	MediaTailor regional expansion
+1049	2	Configurable CDC intervals and on-demand ingestion
+1050	3	Agent converts clinical documents to FHIR resources
+1051	NA	Identity Center sovereign cloud expansion
+1052	5	Standalone Sustainability service with emissions API and console
+1053	2	Organization APIs return hierarchy paths
+1054	2	Additional Slurm database and cgroup settings
+1055	2	SAM development context packaged for Kiro
+1056	3	Download penetration testing reports
+1057	NA	Service lifecycle availability changes
+1058	2	EFA supports NIXL transfer library
+1059	NA	VPC encryption controls GovCloud expansion
+1060	2	CloudFront BYOIP supports IPv6
+1061	2	Log ingestion supports HTTP protocols and formats
+1062	2	Organization-wide detailed monitoring configuration
+1063	NA	Savings Plans expands eligible services
+1064	NA	I8ge regional expansion
+1065	2	Deployment dashboard shows live logs
+1066	1	Notebook instance catalog addition
+1067	1	Managed Lambda memory and CPU limits increase
+1068	2	MediaConnect supports NDI input protocol
+1069	NA	Network Firewall sovereign cloud expansion
+1070	3	LZA configuration operations exposed through MCP
+1071	1	Notebook instance catalog addition
+1072	2	Messaging supports RCS protocol
+1073	2	RES filesystem session and administrator controls
+1074	NA	S3 Vectors regional expansion
+1075	2	Unified Studio remote access supports Cursor
+1076	3	Smithy Java client generation and dynamic client framework
+1077	2	Transform adds managed transformation targets
+1078	3	Browser agents control OS mouse keyboard and dialogs
+1079	2	Athena manages connector resources automatically
+1080	2	Direct agent deployment supports Node.js language
+1081	NA	Structured outputs GovCloud expansion
+1082	2	Visual CloudWatch agent configuration
+1083	2	CloudWatch accepts native OpenTelemetry metrics
+1084	3	Query Studio exposes PromQL query interface
+1085	2	Speech-to-speech supports more locales
+1086	2	Flow modules support nesting and all flow types
+1087	2	Outbound contact priority ordering
+1088	1	Corretto patch version catalog
+1089	2	In-place upgrade supports DocumentDB 8 target
+1090	1	C8in and C8ib instance catalog additions
+1091	1	R8in and R8ib instance catalog additions
+1092	2	Image cache synchronizes OCI referrers
+1093	2	Managed ECS GPU metrics
+1094	2	Managed node groups support warm pools
+1095	1	EMR runtime version catalog
+1096	NA	Windows licensing purchase option
+1097	NA	OpenZFS regional expansion
+1098	1	Proton runtime version catalog
+1099	NA	WebRTC GovCloud expansion
+1100	2	Address validation supports bulk requests
+1101	2	Replication synchronizes consumer offsets bidirectionally
+1102	NA	MSK Serverless regional expansion
+1103	2	Derived-source storage optimization option
+1104	3	Verify specific user knowledge-base permissions
+1105	2	S3 knowledge-base document access controls
+1106	2	Additional action connectors
+1107	3	Simultaneous Quick account sessions
+1108	3	Create editable documents and visuals in chat
+1109	1	MySQL preview version catalog
+1110	1	AI scaling becomes default
+1111	4	S3 exposes shared filesystem semantics over objects
+1112	2	Automatic Slurm topology configuration maintenance
+1113	2	Serverless notebooks support Identity Center domains
+1114	3	Import and export notebooks
+1115	2	Drain sessions before stopping fleet instances
+1116	2	Unique DNS names for private endpoints
+1117	3	Partner attributed revenue dashboard
+1118	NA	Kafka provisioned mappings regional expansion
+1119	5	Managed multicloud private interconnect offering
+1120	3	Scheduled email delivery of billing reports
+1121	3	Client VPN native Transit Gateway integration
+1122	3	Natural-language cost query interface
+1123	NA	Direct Connect bandwidth location expansion
+1124	2	Snowflake connector OAuth authentication
+1125	NA	IoT custom domains GovCloud expansion
+1126	3	Inspect last cryptographic usage of keys
+1127	NA	Lambda streaming regional expansion
+1128	3	Marketplace catalog discovery API
+1129	2	Outposts link aggregation status metric
+1130	2	Custom cross-account CA sharing permissions
+1131	2	Secrets client post-quantum TLS support
+1132	NA	Terraform identity integration examples
+1133	2	Transform integrates additional developer IDEs
+1134	2	Organization backup policies support DSQL and Redshift
+1135	2	Inference cost attribution by IAM principal
+1136	2	Cache invalidation supports tag selectors
+1137	2	Pipeline original-log preservation and governance controls
+1138	2	Configurable render queue scheduling modes
+1139	1	EC2 EBS performance increase
+1140	NA	G7e Local Zone expansion
+1141	2	Control managed-resource visibility
+1142	NA	X8aedz regional expansion
+1143	2	FreeRTOS adds MQTT5 and memory protection controls
+1144	2	Lightweight Greengrass SDK language bindings
+1145	1	Lightsail compute size catalog additions
+1146	1	Nemotron and Qwen model catalog additions
+1147	NA	Oracle Database regional expansion
+1148	1	Language and table model catalog additions
+1149	3	Import and export automations across accounts
+1150	2	Dashboard sheet tooltips
+1151	2	Snapshot sharing supports additional volumes
+1152	NA	DNS delegation GovCloud expansion
+1153	2	Checksum computation supports more algorithms
+1154	2	Interactive Feature Store management interface
+1155	2	Preconfigured optimized model deployment settings
+1156	NA	Outposts regional expansion
+1157	2	Studio supports replicated Identity Center regions
+1158	2	Managed AD security configuration controls
+1159	2	Memory metadata preserves exact supplied values
+1160	3	DSQL change data capture stream
+1161	2	MySQL upgrade adds security controls and upgrade checks
+1162	2	Request-level inference usage attribution
+1163	2	VPC origins support WebSocket protocol
+1164	2	Default after-contact guide launch
+1165	2	Agent workspace exposes case editing and deletion
+1166	1	Task scheduling horizon increases
+1167	2	Contact summaries support more languages
+1168	2	Minor-version controls and aggregation operators
+1169	NA	G6 sovereign cloud expansion
+1170	1	Mac instance catalog generation
+1171	1	M8idn and M8idb instance catalog additions
+1172	NA	P6-B300 regional expansion
+1173	NA	X8aedz regional expansion
+1174	NA	EFS Secret Region expansion
+1175	3	Cache supports full-text and range search operations
+1176	NA	EMR Serverless regional expansion
+1177	2	Scheduler supports additional API targets
+1178	2	Multi-AZ filesystems support shared VPCs
+1179	NA	Inspector regional expansion
+1180	2	Grafana dual-stack networking
+1181	2	RabbitMQ private outbound connectivity
+1182	4	Serverless search decoupled storage and scale-to-zero model
+1183	2	Conversational analytics queries datasets directly
+1184	2	Quick supports New Relic agent integration
+1185	1	MariaDB preview version catalog
+1186	1	Oracle patch version catalog
+1187	3	Redshift alters and writes Iceberg tables through catalog mount
+1188	1	Domain suffix catalog additions
+1189	3	Change Global Resolver participating regions
+1190	2	Inference supports OpenAI API compatibility
+1191	2	Serverless customization supports Nemotron models
+1192	3	HyperPod captures inference request and response payloads
+1193	2	Studio supports GPU capacity reservations
+1194	2	Resource targets support private domain names
+1195	2	Migration assessment scenarios and configurable assumptions
+1196	2	Neuron adds kernels instructions and model-porting tools
+1197	1	EKS backup performance improvement
+1198	2	Change collaboration payment allocation
+1199	2	Config supports additional resource types
+1200	3	Custom monetization hooks call APIs and transform ad requests
+1201	2	Catalog client supports Hive3 and multiple catalogs
+1202	3	HealthLake adds standardized patient payer and authorization APIs
+1203	NA	Free interconnect pricing tier
+1204	3	Direct device messaging with delivery visibility
+1205	NA	Local Zone launch
+1206	3	Seller tax document management portal
+1207	1	Service control policy quotas increase
+1208	3	Root certificate import integrates multi-party approval
+1209	3	Subscribe to regional capability availability notifications
+1210	2	Container builds support BuildKit backend
+1211	3	SAP business operations exposed through MCP server
+1212	2	Security Hub partner solution coverage expands
+1213	3	Packet-level DDoS attack flow logs
+1214	2	Web apps federate permissions across regions
+1215	3	Migration converts applications to container deployments
+1216	2	Dynamic WAF label interpolation in requests and responses
+1217	NA	Claude model GovCloud availability
+1218	2	Configurable CDN plan usage allowances
+1219	2	Unified Studio domain administration interface
+1220	NA	ECS EBS integration GovCloud expansion
+1221	2	Policy generation supports Java and Terraform context
+1222	2	Zonal shift supports Karpenter provisioned nodes
+1223	2	Automatic Google ad-platform authentication
+1224	NA	Oracle Database regional expansion
+1225	2	Cross-account payment key sharing
+1226	2	Snapshot sharing supports additional storage volumes
+1227	2	Read replicas support additional storage volumes
+1228	2	Automatic cross-subnet retry connector provisioning
+1229	NA	Mail Manager GovCloud expansion
+1230	2	Studio onboarding and appearance refinements
+1231	1	Speech model catalog additions
+1232	2	WorkSpace migration supports Linux
+1233	NA	Model compliance approvals
+1234	3	AI-assisted Marketplace listing creation
+1235	1	PostgreSQL major version catalog
+1236	3	Agent trace investigation and improvement recommendations
+1237	3	Managed AgentCore web search tool
+1238	2	Automated reasoning policy refinement workflows
+1239	2	Bedrock console API-oriented redesign
+1240	2	Additional log query commands and functions
+1241	1	Metric query historical window increases
+1242	U	Query Studio GA does not identify prior-stage functional delta
+1243	2	Dashboard tags and access controls
+1244	3	Inspect self-service voice agent execution traces
+1245	4	No-code agentic CX design with synchronized live UI interactions
+1246	3	Urgent contacts interrupt agent routing
+1247	2	GovCloud FIPS streams private endpoint connectivity
+1248	NA	C8i regional expansion
+1249	NA	Capacity Blocks GovCloud expansion
+1250	NA	I7i regional expansion
+1251	NA	M8i regional expansion
+1252	NA	P6-B200 regional expansion
+1253	NA	U7in regional expansion
+1254	1	Higher-resolution autoscaling detection speed
+1255	3	EKS capabilities publish vended logs
+1256	NA	T4g node regional expansion
+1257	2	Flow logs add tags and next-hop metadata
+1258	2	Container fleet communication and deployment controls
+1259	3	AI investigates threat findings and recommends response
+1260	2	Prometheus accepts out-of-order samples
+1261	2	Intelligent rebalancing applies to existing clusters
+1262	2	Serverless Airflow supports shared VPCs
+1263	2	Migration assistant gains AI-guided workflow
+1264	2	Quick integrates Snowflake Cortex agent
+1265	1	SQL Server patch version catalog
+1266	1	MySQL extended support patch version
+1267	2	Migration assessment supports SQL Server RDS target
+1268	NA	Redshift instance regional expansion
+1269	3	DNS firewall integrates Palo Alto threat intelligence
+1270	2	S3 access logs support additional delivery destinations
+1271	2	Data Agent uses catalog business context
+1272	2	HyperPod diagnostic knowledge packaged for coding assistants
+1273	2	Tenant-scoped email suppression lists
+1274	1	WorkSpaces OS image catalog additions
+1275	NA	Partner competency launch
+1276	4	Blocks application programming framework with local AWS-compatible backend
+1277	2	Express deployment relaxes stabilization waiting
+1278	2	Volume recommendations include performance spikes
+1279	2	Internal service-linked Config rule support
+1280	2	Cost history preserved across billing groups
+1281	NA	Vercel database integration regional expansion
+1282	2	Virtual interface bandwidth rate controls
+1283	3	Catalog semantic search API and business metadata
+1284	1	Nextflow runtime version catalog
+1285	3	Applications access accounts on behalf of workforce identities
+1286	U	Swift SDK GA does not identify changes from preview
+1287	NA	Lambda Managed Instances regional expansion
+1288	NA	Local Zone launch
+1289	2	MCP server cross-account and cross-role access
+1290	1	Default firewall drop action changes
+1291	3	Managed in-place major Slurm upgrade
+1292	NA	Partner review evidence acceptance policy
+1293	1	PCS deep-learning AMI catalog addition
+1294	1	AI security control catalog additions
+1295	2	Console sign-in resource and organization policies
+1296	3	Cloud Connector automatically onboards Azure VMs
+1297	NA	Migration service renamed
+1298	2	Storage migration supports FSx ONTAP destination
+1299	3	Client provider distributes certificates and caches secrets
+1300	1	Claude model catalog addition
+1301	2	Application map health ranking and correlated context
+1302	3	Automatic service event and exception snapshots
+1303	2	Managed render workers synchronize plugins
+1304	2	Reservation-first AZ allocation strategy
+1305	1	Graviton5 instance catalog generation
+1306	2	Beanstalk console integrates existing CloudWatch logs
+1307	1	Grok model catalog addition
+1308	1	Kiro model catalog additions
+1309	3	Partner lead enrichment and propensity insights
+1310	2	Nested virtualization supports additional instance platforms
+1311	NA	OpenAI model regional expansion
+1312	NA	OpenSearch UI GovCloud expansion
+1313	NA	Notebook P6-B200 regional expansion
+1314	1	Database volume size and performance limits increase
+1315	NA	Marketplace listing fee reduction
+1316	1	Vector search result limit increases
+1317	1	Inference scale-out latency improves through caching
+1318	NA	Aurora DSQL regional expansion
+1319	1	Agent runtime default quotas increase
+1320	3	Create alarms directly from log queries
+1321	2	User import preserves password hashes
+1322	2	Coaching surfaces relevant evaluation examples
+1323	2	DocumentDB expertise packaged as agent skill
+1324	NA	C6in regional expansion
+1325	NA	C7i regional expansion
+1326	NA	G7 regional expansion
+1327	NA	I7ie regional expansion
+1328	NA	M6in regional expansion
+1329	NA	M8gd and R8gd GovCloud expansion
+1330	NA	R8i regional expansion
+1331	NA	U7i regional expansion
+1332	2	Deployment circuit-breaker configuration
+1333	NA	Cross-account EFS replication GovCloud expansion
+1334	2	Cluster OIDC private endpoints
+1335	2	Spark troubleshooting assistant supports EMR on EKS
+1336	1	VMware runtime version catalog
+1337	3	Secure live stream-session terminal access
+1338	2	Runtime monitoring detects sensitive file changes
+1339	NA	Grafana compliance authorization
+1340	1	Prometheus series and rule quotas increase
+1341	2	RabbitMQ storage independently configurable
+1342	2	Neptune tag-based access controls
+1343	3	Query Insights exports data and recommends query changes
+1344	NA	Cross-region backup regional expansion
+1345	1	MySQL preview version catalog
+1346	1	SQL Server patch version catalog
+1347	3	Data API lists active sessions
+1348	2	Instance types supported on trailing release track
+1349	1	Inference instance catalog addition
+1350	2	Studio Git integration gains file-level controls
+1351	3	Define and share custom visual ETL transforms
+1352	NA	SES commercial pricing plans
+1353	3	Feature Store batch writes and record enumeration APIs
+1354	2	Multicloud interconnect supports Oracle target
+1355	NA	Restore testing regional expansion
+1356	3	Managed ACME certificate issuance endpoint
+1357	2	Network event logging filters by identity
+1358	NA	CodePipeline regional expansion
+1359	3	Ontology accelerator generates editable knowledge graphs
+1360	2	Enhanced transfer mode supports EFS and Lustre
+1361	3	Inspect exchanged BGP routes
+1362	NA	Disaster Recovery regional expansion
+1363	2	Advanced entity matching supports real-time requests
+1364	2	REST connector networking filtering and partition controls
+1365	NA	I8ge regional expansion
+1366	2	Durable functions accept custom SDK and runtime implementations
+1367	2	One-click coding agent setup guidance
+1368	2	Partner co-selling associates Marketplace listings
+1369	2	Kafka upgrade adds leader and rebalance protocol refinements
+1370	1	Resource policy quota doubles
+1371	3	Generate tailored prospecting content from leads
+1372	NA	Security Agent regional expansion
+1373	3	Active internet probing detects exposed resources
+1374	2	Transit routing supports packet-attribute policies
+1375	3	Managed conversation retention service
+1376	NA	Claude model GovCloud availability
+1377	3	Coding-agent telemetry and productivity insights
+1378	NA	Outbound campaigns regional expansion
+1379	2	Credit memo application preferences
+1380	2	Dedicated Hosts support SEV-SNP security
+1381	2	AMI metadata exposes parameter references
+1382	2	Auto Mode supports zonal shift
+1383	NA	Gemma model GovCloud availability
+1384	NA	HealthOmics regional expansion
+1385	2	Policy simulator supports SCPs and richer scenarios
+1386	3	Kiro organizational usage monitoring dashboard
+1387	2	Durable execution SDK supports .NET language
+1388	2	Billing dashboard cost efficiency widget
+1389	NA	GPT inference price reduction
+1390	1	Qwen retrieval model catalog additions
+1391	2	Restore encrypted SQL databases on Multi-AZ instances
+1392	NA	Upfront reservation payment option
+1393	1	Minimum lifecycle transition age removed
+1394	2	Screen recording rule-based redaction
+1395	2	IAM catalogs support custom asset types
+1396	2	Canary customer-managed encryption keys
+1397	1	Voxtral model catalog addition
+1398	3	Capture and distribute managed shader caches
+1399	2	Memory per-user and per-tenant authorization
+1400	1	PostgreSQL patch version catalog
+1401	2	Principal cost attribution covers mantle endpoint
+1402	2	Web search optionally retrieves live external content
+1403	2	Agent collects journald logs
+1404	3	Token API removes user-pool domain requirement
+1405	3	Cases performance dashboard
+1406	3	Extract structured information from agent conversations
+1407	2	Scheduling metrics refresh automatically
+1408	3	Export cases from agent workspace
+1409	1	Corretto security patch versions
+1410	3	EC2 performs application endpoint health checks
+1411	NA	Graviton instance regional expansion
+1412	NA	G7 regional expansion
+1413	NA	I7i regional expansion
+1414	NA	P6-B300 regional expansion
+1415	NA	R8a regional expansion
+1416	NA	R8i regional expansion
+1417	NA	X8i regional expansion
+1418	3	Detect and recover disconnected ECS agents
+1419	3	Rotate cluster certificate authorities
+1420	1	ElastiCache node catalog additions
+1421	1	EVS instance catalog addition
+1422	3	Restart connectors and tasks
+1423	NA	Nova embeddings GovCloud availability
+1424	2	Semantic enrichment supports VPC domains
+1425	2	Deny-by-default future capability permissions
+1426	2	Per-user storage and runtime controls
+1427	1	MariaDB major version catalog
+1428	1	Oracle patch version catalog
+1429	1	SQL Server patch version catalog
+1430	2	Iceberg v3 table compatibility
+1431	NA	S3 Vectors sovereign cloud expansion
+1432	2	Notebook trusted identity propagation
+1433	2	Email click tracking preserves custom URL paths
+1434	3	IPAM monitors BGP protection and manages delegated ROAs
+1435	NA	WorkSpaces Applications regional expansion
+1436	2	DSQL supports foreign-key constraints
+1437	3	AI toolkit generates custom security remediations
+1438	3	Registry GA adds automatic discovery and Quick integration
+1439	2	RFC9151 TLS policy options
+1440	3	Read backup objects directly through S3 access points
+1441	2	Batch supports ECS Managed Instances compute
+1442	3	Export privacy-enhanced SQL analysis logs
+1443	3	CloudShell built-in visual file editor
+1444	2	Monitor shows download status and health
+1445	2	Monitor spans multiple regional farms
+1446	2	Linux recovery preserves UEFI boot mode
+1447	3	Glue adds declarative Spark pipelines
+1448	2	Data quality observation-mode detection control
+1449	3	Account access manager assigns existing roles to workforce users
+1450	1	Managed policies per role quota increases
+1451	3	IoT rule routes data to InfluxDB
+1452	1	Lambda network bandwidth increase
+1453	3	AI explains Marketplace product pricing
+1454	2	Configurable private-offer payment terms
+1455	3	In-place ZooKeeper to KRaft migration
+1456	NA	Availability Zone expansion
+1457	NA	PCS compliance authorizations
+1458	3	Revalidate individual penetration test findings
+1459	2	Migration automates post-launch actions
+1460	2	Payments GA adds protocol and credential provisioning support
+1461	2	Reservation groups support additional reservation types
+1462	2	Console recording supports more services and regions
+1463	3	Image transformation interactive playground
+1464	2	Windows environments automatically join AD domains
+1465	1	GameLift instance catalog additions
+1466	2	IAM generation accepts Terraform plan input
+1467	2	MicroVM private endpoints
+1468	3	MediaTailor ad monetization analytics dashboard
+1469	4	WorkSpaces supports nested hypervisor execution
+1470	2	Cluster insights adds diagnostic coverage
+1471	2	Partner revenue attribution covers more services
+1472	2	Concurrency scaling supports stream ingestion refreshes
+1473	2	Region switch supports RDS replica switchover action
+1474	2	Dashboard includes schedule adherence metrics
+1475	2	Feature Store supports partial feature writes
+1476	2	Placement scoring covers Local Zones
+1477	2	Web search domain and publication-date filters
+1478	4	Connect coordinates collaborating agents through A2A sessions
+1479	U	CX designer GA restates preview design and deployment capability
+1480	3	Aurora adds multi-source replication
+1481	3	Managed OAuth consent portal
+1482	2	Automatic knowledge-base source sync scheduling
+1483	2	Knowledge-base connectors support Salesforce and Zendesk
+1484	NA	Web Search GovCloud expansion
+1485	2	Agent evaluations support Malay
+1486	3	Export and move contact configuration tables
+1487	1	Corretto runtime version catalog
+1488	2	DocumentDB adds aggregation and change-stream compatibility
+1489	NA	C8g regional expansion
+1490	NA	P6-B200 regional expansion
+1491	2	Managed daemon deployment visibility
+1492	2	Express Mode supports ARM architecture
+1493	2	Serverless caches support public endpoints
+1494	2	EMR adds format catalog and authorization compatibility
+1495	NA	GameLift regional expansion
+1496	3	Grafana integrates dashboard Git synchronization
+1497	2	Migration assessments support Kafka workloads
+1498	NA	Serverless Airflow GovCloud expansion
+1499	2	Connector tool permissions and MCP synchronization
+1500	3	Desktop app adds continuously running background agents
+1501	2	Snapshot size exposed in console and API
+1502	1	Oracle patch version catalog
+1503	1	SQL Server patch version catalog
+1504	2	Private connectivity for S3 FIPS endpoints
+1505	2	Training instance preference lists
+1506	1	SNS message size limit increases
+1507	2	Unified image supports all graphics instance families
+1508	2	Linux release adds enforcing security and accelerator compatibility
+1509	1	Database instance catalog additions
+1510	1	S3 backup bucket quota increases
+1511	2	Automatic nested billing group creation
+1512	2	Agent skill bulk update and version checks
+1513	3	CloudTrail event logging coverage dashboard
+1514	2	Preview-only Terraform customization runs
+1515	NA	Direct Connect flat-rate pricing
+1516	2	Ad insertion supports low-latency HLS
+1517	3	Messaging supports WhatsApp voice calls
+1518	3	HealthOmics publishes real-time workflow metrics
+1519	2	Lambda S3 Files read-source configuration
+1520	2	Private offer automatic renewals
+1521	2	MCP server adds correlated Lambda troubleshooting tools
+1522	2	Slurm resource topology and GPU partition settings
+1523	2	Penetration testing validates credentials and suggests scope
+1524	2	Unified token limit and token size monitoring
+1525	U	FSx migration GA restates previously previewed target support
+1526	4	Managed stateful OpenAI agent execution subsystem
+1527	1	Claude model catalog addition
+1528	NA	Claude model regional expansion
+1529	1	Claude model catalog addition
+1530	2	Automatic indexing of frequently queried log fields
+1531	3	APIs manage custom contact metrics
+1532	2	Compact analytics dashboard layout
+1533	3	Share render job bundles
+1534	2	Volume cloning supports cross-account copies
+1535	2	AMI metadata restricts compatible instance types
+1536	1	T8i instance catalog addition
+1537	2	Managed daemon criticality configuration
+1538	NA	ElastiCache tiering regional availability
+1539	3	Interactive Spark sessions through Spark Connect
+1540	4	Event bus adds retained ordered subscriber-based broker model
+1541	2	Salesforce replication includes archived records
+1542	2	Identity Store APIs accept ARNs
+1543	NA	Loop detection sovereign cloud expansion
+1544	2	Marketplace metering expertise packaged as agent skill
+1545	3	Unused ad inventory filled through Amazon Ads
+1546	5	Network Security Manager centralized managed protection offering
+1547	2	Run-specific IAM session policies
+1548	1	GPT inference speed tier
+1549	1	PostgreSQL beta version catalog
+1550	2	Hierarchical dashboard filter
+1551	2	RG instances support single-node topology
+1552	3	Generate application dependency insights
+1553	2	Resolver supports second-generation Outposts hardware
+1554	1	Batch inference instance catalog addition
+1555	2	External Iceberg catalogs and DocumentDB IAM connectivity
+1556	2	AI inventory includes Azure self-hosted assets
+1557	2	FIPS private gateway connectivity
+1558	3	Run custom Python plugins inside managed database
+1559	2	Web downloads support multiple files and folders
+1560	NA	WorkSpaces monthly pricing option
+1561	2	Gateway accepts private CA certificates
+1562	2	CX designer invokes existing flow modules
+1563	NA	AgentCore web search regional expansion
+1564	2	Responses API exposes reasoning summaries
+1565	2	Alarm payloads include resource tags
+1566	2	Global resiliency readiness administration view
+1567	2	DCV supports additional platforms and clients
+1568	NA	C8gb regional expansion
+1569	NA	R8gd sovereign cloud expansion
+1570	2	Auto Mode supports Kubernetes Gateway API
+1571	NA	Cache public endpoints GovCloud expansion
+1572	2	Valkey monitoring supports OpenTelemetry metrics
+1573	NA	G7 regional expansion
+1574	3	Interactive Location API playground
+1575	2	Airflow operations expertise packaged as agent skills
+1576	3	Managed S3 document parsing and vector ingestion
+1577	2	Brand templates for generated documents
+1578	3	Run database upgrade prechecks on demand
+1579	NA	S3 Metadata regional expansion
+1580	3	S3 provisioning integrates Vercel tools
+1581	NA	Prometheus collector regional expansion
+1582	1	Aurora serverless capacity limit increases
+1583	NA	Agent Registry regional expansion
+1584	5	Managed last-mile connectivity offering with Megaport
+1585	2	Batch supports EKS access-entry authentication
+1586	2	Automated Brazilian software license distribution workflow
+1587	3	VPN evaluates connecting device posture
+1588	4	Continuum code vulnerability exploit validation and remediation subsystem
+1589	NA	Direct Connect bandwidth location expansion
+1590	2	Guided RCS registration video capture
+1591	2	Catalog optimization supports Iceberg v3
+1592	2	Workflow resource fallback preference order
+1593	3	Identity Store emits change events to EventBridge
+1594	2	Durable execution SDK supports Go language
+1595	2	License conversion supports Ubuntu Pro
+1596	NA	Outposts regional expansion
+1597	3	Secrets console surfaces actionable security recommendations
+1598	2	Service reference exposes additional IAM metadata
+1599	NA	Transformation cross-region deployment coverage expands
+1600	NA	Transform migration regional expansion
+1601	2	Capability notifications gain feature granularity and filters
+1602	2	Web search domain and location controls
+1603	2	SageMaker expertise packaged as coding-agent skill
+1604	NA	Claude Canada inference regional availability
+1605	2	CloudFront VPC origins dual-stack connectivity
+1606	2	Inline agent attachment previews
+1607	2	Customer profile workspace customization
+1608	2	Simulation validates flow action outcomes
+1609	NA	Durable functions GovCloud expansion
+1610	2	Account-wide instance replacement defaults
+1611	2	Image builds reuse scaling group instances
+1612	2	Managed fleet consolidation spans instances and Spot capacity
+1613	3	Change durability on existing cache clusters
+1614	2	Iceberg catalog OAuth authentication
+1615	2	Optional runtime threat detection rules
+1616	3	KMS encapsulate and decapsulate post-quantum shared secrets
+1617	2	Loop detection covers EventBridge custom buses
+1618	3	Router endpoint registry and cross-account connection management
+1619	3	Online database index rebuilding
+1620	1	GPT model catalog addition
+1621	2	Domain configuration validation advisory
+1622	2	Speech engine adds language coverage and voices
+1623	2	RDS Proxy supports SQL Server engine
+1624	2	Materialized views support Iceberg storage format
+1625	2	Replication includes existing image backfill
+1626	NA	S3 Express regional expansion
+1627	2	Configurable customization sequence lengths
+1628	2	Managed secret rotation supports more SaaS providers
+1629	2	Security prioritization uses resource criticality
+1630	2	System-managed materialized-view write protection
+1631	4	Stateful training-session API exposes custom training loop execution
+1632	3	SFTP host keys stored in customer Secrets Manager
+1633	1	Pegasus model catalog addition
+1634	1	Claude model catalog addition
+1635	2	Bedrock Service Quotas coverage expands
+1636	2	Additional log query commands and functions
+1637	3	Web interface manages scheduled code analyses and remediation
+1638	2	Logged batches support prepared statements
+1639	1	Oracle database instance catalog additions

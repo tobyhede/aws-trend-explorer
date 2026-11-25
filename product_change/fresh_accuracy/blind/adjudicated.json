@@ -1,0 +1,157 @@
+{
+  "38": {
+    "level": "NA",
+    "reason": "Only expands availability of existing M8g instances to four regions; processor and size descriptions are background.",
+    "confidence": "high"
+  },
+  "50": {
+    "level": "2",
+    "reason": "Extends existing certificate-based authentication to Windows multi-session fleets as an authentication compatibility option.",
+    "confidence": "high"
+  },
+  "54": {
+    "level": "1",
+    "reason": "Adds P6-B200 hardware to existing SageMaker notebook environments, with increased GPU memory and performance.",
+    "confidence": "high"
+  },
+  "56": {
+    "level": "2",
+    "reason": "Approval requests, approver groups and approve/deny steps implement a policy gate on existing asset sharing. The source presents governance controls, so level 2 is better supported than treating each approval step as a distinct product operation.",
+    "confidence": "medium"
+  },
+  "71": {
+    "level": "3",
+    "reason": "Adds key encapsulation and decapsulation to establish a shared secret using ML-KEM, distinct cryptographic operations beyond an algorithm parameter.",
+    "confidence": "high"
+  },
+  "81": {
+    "level": "2",
+    "reason": "The release explicitly adds database-scoped ACLs and atomic or cluster-wide command variants. These are substantive controls and operation variants beyond the runtime-version catalog addition; internal I/O redesign does not establish a new customer execution model.",
+    "confidence": "high"
+  },
+  "82": {
+    "level": "U",
+    "reason": "The source calls quota monitoring and notifications a new capability but announces GA without establishing a pre-GA baseline or substantive GA delta. Level 3 could describe the full capability, but the supplied evidence cannot support that as the GA change.",
+    "confidence": "low"
+  },
+  "91": {
+    "level": "2",
+    "reason": "The model launch explicitly adds tool search, tool-use examples and an effort control through existing Bedrock model access. These justify more than a routine model addition, but the text does not establish a separately invocable discovery operation or distinct interface; level 2 is better supported than level 3.",
+    "confidence": "medium"
+  },
+  "92": {
+    "level": "U",
+    "reason": "The text describes the GA Identity Pools L2 construct and its configuration features without identifying a substantive change from prior availability. No GA delta can be established from this source.",
+    "confidence": "low"
+  },
+  "97": {
+    "level": "1",
+    "reason": "The concrete addition is the Java 21 canary runtime in the existing synthetic-monitoring service. Language compatibility is a plausible level-2 reading, but the rubric explicitly places runtime additions within an existing capability at level 1, and the text establishes no separate operation.",
+    "confidence": "medium"
+  },
+  "100": {
+    "level": "2",
+    "reason": "Beyond adding Airflow 3.2, the source expressly adds partition-level scheduling controls and extends existing HITL, callback and PythonOperator options. Mixed-change rules therefore favor level 2 over a blanket runtime-addition level 1.",
+    "confidence": "high"
+  },
+  "101": {
+    "level": "2",
+    "reason": "Adds private endpoint connectivity to the existing SCEP certificate-request operation.",
+    "confidence": "high"
+  },
+  "102": {
+    "level": "NA",
+    "reason": "HIPAA eligibility changes compliance status without an announced product capability change.",
+    "confidence": "high"
+  },
+  "111": {
+    "level": "U",
+    "reason": "The source lists Query Studio querying, visualization and import capabilities at GA but does not identify what changed from pre-GA availability. The whole workspace cannot establish the substantive GA delta.",
+    "confidence": "low"
+  },
+  "116": {
+    "level": "NA",
+    "reason": "Launches a community and learning portal with articles, courses, events and feedback rather than a cloud product capability.",
+    "confidence": "medium"
+  },
+  "117": {
+    "level": "2",
+    "reason": "Adds visibility of managed dedicated IPs and SNDS metrics through existing SES and CloudWatch interfaces.",
+    "confidence": "medium"
+  },
+  "122": {
+    "level": "2",
+    "reason": "Extends existing concurrency scaling to auto-copy ingestion, a new target for an existing scaling capability.",
+    "confidence": "high"
+  },
+  "134": {
+    "level": "4",
+    "reason": "The source describes a shared, persistent channel agent with its own identity, retained channel context and future task planning. Those combined features support a new operating model within Claude Enterprise, beyond merely a new Slack interaction interface; it is not positioned as a distinct AWS offering.",
+    "confidence": "medium"
+  },
+  "137": {
+    "level": "2",
+    "reason": "The source expressly extends malware detection to backup copies and adds automatic, on-demand, pre-restoration and incremental scan options. These remain variants and targets of malware scanning; integration with Backup alone does not establish a distinct operation or capability for level 3.",
+    "confidence": "medium"
+  },
+  "144": {
+    "level": "2",
+    "reason": "Supports shared Managed Active Directory across accounts for existing license subscriptions and management.",
+    "confidence": "high"
+  },
+  "150": {
+    "level": "NA",
+    "reason": "Makes existing I8ge instances available in Ireland; performance descriptions do not announce another product change.",
+    "confidence": "high"
+  },
+  "152": {
+    "level": "4",
+    "reason": "Queues explicitly allow multiple consumers to process the same topic partitions for point-to-point delivery. This changes the message-consumption model, so the highest substantive change exceeds the routine Kafka-version addition; rebalance and default changes alone would score lower.",
+    "confidence": "medium"
+  },
+  "155": {
+    "level": "NA",
+    "reason": "Adds India geography availability and India-confined cross-region profiles for existing OpenAI models and inference APIs.",
+    "confidence": "high"
+  },
+  "157": {
+    "level": "1",
+    "reason": "Raises the maximum Aurora DSQL storage limit from 128 TiB to 256 TiB.",
+    "confidence": "high"
+  },
+  "159": {
+    "level": "NA",
+    "reason": "Expands existing Hpc8a instance availability to Tokyo and GovCloud US-West.",
+    "confidence": "high"
+  },
+  "163": {
+    "level": "1",
+    "reason": "Adds larger WorkSpaces hardware bundles with 16 or 32 vCPUs and corresponding memory.",
+    "confidence": "high"
+  },
+  "166": {
+    "level": "NA",
+    "reason": "Expands availability of existing RDS database instance families to additional regions.",
+    "confidence": "high"
+  },
+  "174": {
+    "level": "2",
+    "reason": "Adds per-table storage-cost detail to existing S3 Tables reporting in Cost Explorer and CUR.",
+    "confidence": "high"
+  },
+  "176": {
+    "level": "U",
+    "reason": "The GA description lists AWS-tuned RHEL images, telemetry, CLI and image mode without establishing which are new at GA. Level 2 may characterize integration options, but the substantive GA delta cannot be determined from the supplied source.",
+    "confidence": "low"
+  },
+  "177": {
+    "level": "1",
+    "reason": "Adds MySQL minor runtime versions with unspecified fixes and improvements to existing RDS database operation.",
+    "confidence": "high"
+  },
+  "198": {
+    "level": "NA",
+    "reason": "Expands existing S3 Access Grants to Thailand and Mexico regions.",
+    "confidence": "high"
+  }
+}

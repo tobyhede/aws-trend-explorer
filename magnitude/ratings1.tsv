@@ -1,0 +1,1110 @@
+0	3	AgentCore tools in a VPC	AgentCore Gateway can route outbound requests through the VPC directly to private resources.
+1	2	Multi-turn Bedrock flows	Amazon Bedrock Flows announces preview of multi-turn conversation support
+2	2	New EKS clusters	You can now enable Amazon CloudWatch Observability add-on on your EKS cluster with 1-click when provisioning.
+3	3	Connect agents on virtual desktops	The local device exchanges audio with Connect directly, bypassing the remote desktop hop.
+4	1	Contact Lens dashboard users	Amazon Connect Contact Lens dashboards now provide configurable groupings and filters
+5	1	Agent-led outbound calls	Amazon Connect outbound campaigns can connect a call with an agent in under 2 seconds
+6	1	Snapshot-based EBS provisioning	Amazon Elastic Block Store (Amazon EBS) now supports additional resource-level permissions for creating EBS volumes from snapshots .
+7	2	EC2 clients of ElastiCache	Amazon ElastiCache now supports 1-click connectivity setup between EC2 and your cache
+8	3	Cross-account event routing	One event bus delivers directly to service targets in another account.
+9	2	Replicated Lex bots	Amazon Lex Global Resiliency now supports CloudFormation and existing alias replication
+10	3	Kafka Connect API callers	PrivateLink routes Kafka Connect API calls through a VPC endpoint instead of public internet egress.
+11	2	Graph-augmented retrieval	Previously, customers faced challenges in conducting exhaustive, multi-step searches across disparate content.
+12	2	Developers investigating cloud costs	Amazon Q Developer plugin for CloudZero is now generally available
+13	1	SQL Server storage-intensive deployments	Amazon RDS Custom for SQL Server now offers enhanced storage and performance capabilities, supporting up to 64TiB of storage and 256,000 I/O operations per second (IOPS) with io2 Block Express volumes.
+14	2	Replicated analytics tables	Amazon Redshift announces support for History Mode for zero-ETL integrations
+15	2	Teams finding S3 objects	S3 Metadata provides automated and easily queried metadata that updates in near real time, simplifying business analytics, real-time inference applications, and more.
+16	2	InfluxDB storage operators	Amazon Timestream for InfluxDb now supports Storage Scaling
+17	1	Discovery Service API clients	AWS Application Discovery Services now supports IPv6 endpoints
+18	1	CodeBuild IAM policies	AWS CodeBuild announces support for project ARN and build ARN IAM condition keys
+19	1	Auto Scaling rightsizing	AWS Compute Optimizer now expands idle and rightsizing recommendations to Amazon EC2 Auto Scaling groups with scaling policies and multiple instance types.
+20	1	New Beanstalk environments	AWS Elastic Beanstalk adds default support of EC2 Launch Template when creating new environments
+21	2	Live video monitoring	AWS Elemental MediaConnect introduces content quality metrics
+22	2	Data integration from SaaS sources	AWS Glue expands connectivity to 14 native connectors for applications
+23	1	Mobile AWS administrators	Announcing AWS Managed Notifications in the AWS Console Mobile App
+24	2	Marketplace sellers awaiting payouts	AWS Marketplace launches disbursement pause notifications
+25	2	Swiss Marketplace transactions	AWS Marketplace now supports Tax Collection and Multiple Tax Profiles for Switzerland
+26	2	DNS security monitoring	You can now receive security findings for queries blocked or alerted on for domains associated with AWS Managed Domain Lists, customer domain lists, and threats identified by Route 53 Resolver DNS Firewall Advanced.
+27	2	Notification infrastructure as code	Announcing AWS User Notifications GA on AWS CloudFormation
+28	2	Historical database diagnostics	CloudWatch Database Insights now supports historical OS process snapshots
+29	2	Windows image pipelines	EC2 Image Builder now enables you to seamlessly import your Windows ISO files.
+30	1	Large virtual desktop workloads	Announcing larger General Purpose bundles for WorkSpaces Personal and Core
+31	2	Co-selling AWS partners	Start collaborating on multi-partner opportunities with Partner Connections
+32	1	High-volume guardrail requests	Amazon Bedrock Guardrails announces an increase in default service quota limits enabling you to scale your generative AI applications for higher traffic.
+33	2	Contact center shift scheduling	Amazon Connect now allows agents to exchange shifts with each other, providing greater schedule flexibility without compromising service levels.
+34	2	Contact center quality monitoring	Amazon Connect Contact Lens now enables managers to create rules based on patterns of customer hold time and agent interaction duration, to take automated actions such as categorizing contacts, evaluating agent performance and notifying supervisors.
+35	2	New chat sessions	Amazon Connect Chat now enables you to greet customers with interactive messages when starting chats, delivering contextual and personalized experiences that improve engagement and self-service resolution rates.
+36	1	Snapshot lifecycle API clients	Amazon Data Lifecycle Manager now offers customers the option to use Internet Protocol version 6 (IPv6) addresses for their new and existing endpoints.
+37	1	Snapshot storage inventory	Amazon Elastic Block Store (EBS) now adds full snapshot size information in Console and API
+38	1	EC2 Fleet provisioning	Amazon EC2 Fleet added support for Block Device Mapping overrides
+39	1	CPU-intensive ECS tasks	Amazon Elastic Container Service (Amazon ECS) now supports CPU limits of up to 192 vCPU for ECS tasks deployed on Amazon Elastic Compute Cloud (Amazon EC2) instances, an increase from the previous 10 vCPU limit.
+40	2	Lustre administrators planning upgrades	Amazon FSx for Lustre , a service that provides high-performance, cost-effective, and scalable file storage for compute workloads, now enables you to upgrade the Lustre version of your FSx for Lustre file systems.
+41	3	Location API users in VPCs	Location requests can take a private VPC endpoint path instead of the public network.
+42	1	Singapore English speech synthesis	Amazon Polly launches a new voice in Singaporean English
+43	2	Canvas data analysts	Amazon Q Developer is now generally available in Amazon SageMaker Canvas
+44	2	IAM-authenticated database clients	A mazon Relational Database Service (RDS) IAM Database Authentication (IAM DB Auth) now provides enhanced observability through metrics and logs.
+45	2	Cedar authorization developers	Amazon Verified Permissions now supports the Cedar JSON entity format
+46	2	CDK WebSocket applications	AWS AppSync releases CDK L2 constructs to simplify creating WebSocket APIs
+47	2	AWS invoice payers	AWS announces Backup Payment Methods for invoices
+48	2	Firehose infrastructure developers	AWS CDK releases L2 construct support for Amazon Data Firehose delivery streams
+49	3	Buildkite pipeline operators	CodeBuild can host and scale the Buildkite runner compute previously provisioned by the customer.
+50	2	Parallel test builds	You can now automatically merge your tests reports into a consolidated report when you execute test cases in parallel .
+51	2	Pipelines deploying onto EKS	Previously, if you wanted to deploy to a EKS cluster within a private network, you had to initialize and maintain a compute environment within the private network.
+52	3	DMS homogeneous migrations	A migration gets its own interface address and can reach databases over peering, VPN or Direct Connect.
+53	3	Ad insertion log pipelines	MediaTailor can send its logs directly to S3 or a Firehose stream instead of only CloudWatch Logs.
+54	1	Identity provisioning operators	AWS IAM Identity Center now provides improved error messages to simplify troubleshooting when syncing users and groups.
+55	2	Domain-filtered network traffic	AWS Network Firewall now offers automated domain lists and insights, a feature that enhances visibility into network traffic and simplifies firewall rule configuration.
+56	3	Private network pricing queries	PrivateLink removes the internet gateway requirement for private Price List API access.
+57	2	Distributed Step Functions maps	AWS Step Functions expands data source and output options for Distributed Map
+58	1	Security teams logging requests	AWS WAF expands its Data Protection capabilities with new controls for sensitive data in logs.
+59	2	Multi-session AppStream users	Certificate-Based Authentication is now available on Amazon AppStream 2.0 multi-session fleets
+60	1	Cost optimization analysts	Cost Optimization Hub now supports idle EC2 Auto Scaling group recommendations and rightsizing recommendations for EC2 Auto Scaling groups with scaling policies and multiple instance types.
+61	1	Serverless S3 data migration	The existing DMS migration workflow accepts CSV and Parquet files from S3.
+62	2	Infrastructure stack reorganization	Previously, refactoring a stack required multiple manual steps, such as updating templates to retain targeted resources, removing them from current stacks, and then importing them into new stacks.
+63	3	Multi-account connected vehicle systems	Connected Mobility components can be deployed across multiple accounts and Regions.
+64	2	Custom model inference spend	Amazon Bedrock Custom Model Import introduces real-time cost transparency
+65	2	Organizations governing AI use	Amazon Bedrock Guardrails announces policy based enforcement for responsible AI
+66	2	Teams evaluating model responses	Amazon Bedrock Model Evaluation LLM-as-a-judge is now generally available
+67	2	Studio generative AI projects	Amazon Bedrock’s capabilities now generally available within Amazon SageMaker Unified Studio
+68	1	Machine identity token issuers	Amazon Cognito now supports access token customization for machine-to-machine (M2M) authorization flows
+69	1	Contact Lens privacy controls	Amazon Connect Contact Lens now lets you enable or disable sentiment analysis
+70	1	Long-running agent tasks	Amazon Connect Tasks now support durations up to 90 days
+71	1	DynamoDB latency monitoring	Amazon DynamoDB now supports percentile statistics for the SuccessfulRequestLatency Amazon CloudWatch metric.
+72	1	High-throughput network traffic	Amazon EC2 now supports up to the full EC2 instance bandwidth for inter-region VPC peering traffic and to AWS Direct Connect.
+73	1	ECS GPU workers	Amazon ECS now offers GPU-Optimized AMI for Amazon Linux 2023
+74	2	Teams installing EKS add-ons	Amazon EKS introduces a new catalog of community add-ons
+75	1	Event bus target authorization	Amazon EventBridge expands execution role support to AWS Lambda, Amazon SNS, and Amazon SQS event bus targets, making this feature available for all target types.
+76	3	Developers distributing streamed games	Games execute in the cloud and stream to a browser instead of executing on the player's machine.
+77	1	Global Cassandra-compatible tables	Existing replication can target more than the prior limit of six Regions.
+78	1	Neptune database operators	Amazon Neptune Database now supports R7i database instances powered by custom 4th Generation Intel Xeon Scalable processors.
+79	2	Connect administrators	Configure Amazon Q in Connect directly from Connect Admin Website
+80	2	Embedded BI dashboards	Amazon QuickSight launches scheduling and alerts in embedded dashboards
+81	2	Federated Redshift Data API users	You can now use AWS IAM Identity Center with your preferred identity provider, including Microsoft Entra Id, Okta, and Ping, to connect to Amazon Redshift clusters through Amazon Redshift Data API.
+82	1	DNS policy editors	Amazon Route 53 Traffic Flow now offers an enhanced user interface for improved DNS traffic policy editing.
+83	2	S3 table analysts	With this new feature, you can now create a table, populate it with data, and query it with just a few steps in the S3 console.
+84	2	Catalog asset owners	Amazon SageMaker introduces metadata rules to enforce standards and improve data governance
+85	2	Related Swift apps sharing sign-in	Amplify Swift launches Shared Keychain support
+86	2	Public load balancer IP planning	AWS Application Load Balancer (ALB) now allows customers to provide a pool of public IPv4 addresses for IP address assignment to load balancer nodes.
+87	1	Multi-version web deployments	AWS Amplify Hosting announces deployment skew protection support
+88	3	FSx recovery teams	A separate account can restore directly from a shared air-gapped recovery vault.
+89	1	S3-cached builds	AWS CodeBuild now supports an enhanced S3 caching experience.
+90	1	CodeConnections administrators	AWS CodeConnections now provides greater control to manage the creation of hosts with a new IAM condition key for self-managed GitLab/GitHub Enterprise Server hosts.
+91	1	Render pipeline API clients	AWS Deadline Cloud now supports Internet Protocol Version 6 (IPv6)
+92	2	NDI broadcast distribution	AWS Elemental MediaConnect adds support for NDI® outputs
+93	1	Genomics GPU workflows	AWS HealthOmics now supports the latest NVIDIA L4 and L40S graphical processing units (GPUs) and larger compute options of up to 192 vCPUs for workflows.
+94	2	Marketplace ML sellers	To help improve operational efficiency, sellers can now utilize AWS Marketplace Catalog APIs to automate creating and updating ML product listings and private offers.
+95	2	Stateful firewall monitoring	AWS Network Firewall adds pass action rule alerts and JA4 filtering
+96	1	Network-intensive on-premises workloads	Announcing AWS Outposts racks for high throughput, network-intensive workloads (Preview)
+97	1	IAM permissions tooling	AWS Service Reference Information now supports resources and condition keys
+98	1	SFTP clients establishing sessions	AWS Transfer Family announces reduced login latency for SFTP servers
+99	2	WAF compliance teams	AWS WAF now supports PCI DSS4.0 compliance protection with partner solutions
+100	2	Kubernetes shared GPU jobs	Bottlerocket now supports NVIDIA Multi-Instance GPU (MIG) for Kubernetes workloads
+101	1	Database performance dashboards	Database Insights adds support for customization of its metrics dashboard
+102	1	Access Analyzer API clients	AWS Identity and Access Manager (IAM) Access Analyzer now supports Internet Protocol version 6 (IPv6) addresses via our new dual-stack endpoints.
+103	3	Multi-vendor IoT fleets	A single application can manage devices across manufacturers through a unified API and managed connectors.
+104	3	Slurm training cluster operators	A standby Slurm head node can take over the primary controller in the same cluster.
+105	2	Contact center AI teams	This comprehensive approach spans self-service, agent assistance, analytics, post-contact evaluation, and automated follow-up boosts sales and delights customers, while learning from every touchpoint.
+106	1	Training capacity planners	As of February 14, 2025, SageMaker Flexible Training Plans now supports instant start times that allow customers to book a plan starting as soon as the next 30 minutes.
+107	3	Source connections shared across accounts	One shared connection replaces a separate source provider connection per AWS account.
+108	2	Teams using chat integrations	AWS announces new upgrades to the Amazon Q Business Slack and Teams Integrations
+109	2	Teams applying model safeguards	Amazon Bedrock Guardrails announces new capabilities to safely build generative AI applications
+110	1	Bedrock multimodal inference	Amazon Bedrock now offers Pixtral Large 25.02, a multimodal model from Mistral AI
+111	2	Edge request routing	Starting today, you can now use this capability with VPC Origins and origin groups, enabling you to create even more sophisticated routing policies for your applications delivered from CloudFront.
+112	2	Large application log events	Log events up to 1 MB can be ingested without truncating or splitting entries.
+113	2	Agent schedule administrators	A single permission removes separate supervisor assignments for every staff group.
+114	2	Bulk schedule cleanup	Amazon Connect now provides bulk removal of agent schedules, making day-to-day management of agent schedules more efficient.
+115	1	Touchtone call flows	Amazon Connect now supports additional Dual-Tone Multi-Frequency (DTMF) configuration settings
+116	1	DynamoDB cache operators	Amazon DynamoDB Accelerator (DAX) now supports R7i instances, powered by custom 4th Generation Intel Xeon Scalable processors.
+117	1	Storage-intensive EC2 workloads	Introducing Amazon EC2 I7i high performance Storage Optimized instances
+118	1	FIPS-controlled Kubernetes workers	Amazon EKS Adds Support for Bottlerocket FIPS AMIs in Managed Node Groups
+119	1	EventBridge connection owners	Amazon EventBridge now supports Customer Managed Keys (CMK) in API destinations connections
+120	1	Provisioned Kinesis streams	Amazon Kinesis Data Streams now offers significantly higher default shard limits for data streams in Provisioned capacity mode, increasing from 500 to 20,000 shards per AWS account in the US East (N.
+121	1	MemoryDB network clients	Amazon MemoryDB clusters now support the IPv6 protocol, allowing clients to connect to MemoryDB clusters using IPv6.
+122	2	Multi-shot video generation	Multi-shot videos in Amazon Nova Reel 1.1 offers two modes: automated mode and manual mode.
+123	1	Q Business chat applications	Amazon Q Business launches support for hallucination mitigation in chat responses
+124	1	Feature development teams	Amazon Q Developer releases state of the art agent for feature development
+125	2	Embedded QuickSight users	Amazon QuickSight launches Amazon Q in embedded QuickSight
+126	2	SaaS historical analytics	Amazon Redshift adds history mode support to 8 third-party SaaS applications
+127	2	Visual data transformation jobs	With these new transforms, ETL developers can quickly build more sophisticated data pipelines without having to write custom code for common transform tasks.
+128	2	Scheduled data preparation	With unified scheduling you can now schedule your workloads with Amazon EventBridge Scheduler from the same visual interface you use to author your query or visual ETL flow.
+129	1	Security Lake clients	Amazon Security Lake now supports Internet Protocol Version 6 (IPv6)
+130	3	Inbound email event routing	A Mail Manager rule publishes complete messages directly to SNS for subscriber fan-out.
+131	1	Authorization store administrators	Amazon Verified Permissions now supports policy store deletion protection
+132	2	CloudFront certificate operators	AWS Certificate Manager (ACM) announces automated public TLS certificates for Amazon CloudFront .
+133	1	Amplify deployment developers	AWS Amplify enhances developer tooling with refined output and CDK-style notices
+134	1	AppConfig API clients	AWS AppConfig now supports dual-stack endpoints, facilitating connectivity through Internet Protocol Version 6.
+135	2	Redshift Serverless backup teams	You can now use AWS Backup to automate backup and restore of both Amazon Redshift Serverless and Amazon Redshift provisioned cluster snapshots, along with other AWS services for compute, storage, and database.
+136	3	Multi-party data collaboration	Spark query output can reach multiple collaborators' result destinations directly.
+137	1	Reserved build fleets	AWS CodeBuild now supports selecting an EC2 instance by name when using reserved capacity fleets.
+138	1	Config-managed resources	AWS Config now supports 12 additional AWS resource types.
+139	2	Growing migration datasets	You can now use AWS DMS Serverless for replicating even the highest of transaction volumes since there is no longer any storage capacity limits.
+140	2	Live ad prefetch schedules	AWS Elemental MediaTailor introduces recurring ad prefetch for live streaming
+141	1	Genomic workflow storage	AWS HealthOmics now supports Elastic Throughput for dynamic run storage
+142	1	Lambda private endpoint clients	AWS Lambda now supports inbound IPv6 connectivity over AWS PrivateLink
+143	2	Payment key exchanges	AWS Payment Cryptography launches support for exchanging cryptographic keys using ECDH
+144	1	Tag-based inventory	AWS Resource Groups now supports 160 more resource types
+145	2	State machine SDK callers	You can now orchestrate backup discovery and management actions directly in your workflows without writing additional integration code.
+146	1	SFTP connector operators	AWS Transfer Family introduces additional configuration options for SFTP connectors
+147	2	Cloud emissions reporting	You can now export your monthly data through AWS's Billing and Cost Management Data Exports service.
+148	2	Self-managed GitLab teams	GitLab Duo with Amazon Q is now generally available
+149	1	Directory-backed workforce sessions	IAM Identity Center extends sessions and TIP management capabilities for customers with Microsoft AD
+150	1	Llama inference workloads	Meta’s Llama 4 now available fully managed in Amazon Bedrock
+151	2	Prompt engineers	With Prompt Optimization in Amazon Bedrock, you can now automatically rewrite prompts for better performance and more concise responses on Anthropic, Llama, Nova, DeepSeek, Mistral and Titan models.
+152	2	Service dependency monitoring	You can now monitor the performance of your services' dependencies, and proactively resolve problems through SLO goal setting, thanks to this new ability.
+153	2	Public Q Business applications	Anonymous user access for Q Business
+154	2	OpenSearch AI search developers	Previously, you had develop custom code to integrate AI into advanced workflows and manage them on custom middleware.
+155	2	Bedrock agent monitoring	Announcing Amazon Bedrock Agents Metrics in CloudWatch
+156	3	Guardrails under traffic bursts	Guardrails can route requests to compute in another Region when local capacity is constrained.
+157	2	Multi-account network operations	A unified onboarding workflow enables flow monitors across the accounts involved.
+158	1	Java synthetic monitoring	Amazon CloudWatch Synthetics now supports the Java programming language for authoring canaries, enabling developers to write monitoring scripts using the Java 21 runtime environment.
+159	3	Omnissa contact center desktops	Connect directs audio from the local desktop to the service rather than through the Omnissa desktop.
+160	2	Outbound campaign supervisors	Amazon Connect adds five new metrics and dashboard drill downs for outbound campaigns
+161	1	Developers on EC2 Mac	Amazon EC2 Mac instances now support configurable System Integrity Protection (SIP) settings
+162	1	Container registry clients	Amazon ECR adds support for Internet Protocol version 6 (IPv6)
+163	1	ECS persistent storage initialization	Amazon ECS adds support for Amazon EBS Provisioned Rate for Volume Initialization
+164	2	Elastic Lustre storage customers	Amazon FSx for Lustre adds new storage class that delivers the lowest-cost and only fully elastic Lustre file storage
+165	2	Container vulnerability triage	Amazon Inspector enhances container security by mapping ECR images to running containers
+166	1	Lightsail private API clients	Amazon Lightsail now supports IPv6-only and dual-stack PrivateLink interface VPC endpoints.
+167	2	Kafka cluster maintenance	Amazon Managed Streaming for Apache Kafka (Amazon MSK) now provides seamless certificate renewal for all MSK Provisioned clusters, allowing the brokers in your cluster to receive the most up-to-date encryption certificates without going through a restart.
+168	1	OpenSearch ingestion operators	We are pleased to announce that the memory allocation per OpenSearch Compute Unit (OCU) for Amazon OpenSearch Ingestion has been increased from 8GB to 15GB.
+169	2	Chat-based node access reviewers	Amazon Q Developer in chat applications now supports AWS Systems Manager node access approvals
+170	2	Oracle multitenant administrators	Amazon RDS for Oracle now supports credential management with AWS Secrets Manager for databases using Oracle multitenant architecture
+171	1	S3 directory bucket owners	Amazon S3 Express One Zone, a high-performance S3 storage class for latency-sensitive applications, now supports granular access controls using S3 Access Points.
+172	1	Managed catalog administrators	Amazon SageMaker Catalog introduces authorization policy for asset type usage
+173	2	Organizations restructuring domains	As an Amazon SageMaker or Amazon DataZone administrator, you can now create domain units (e.g Sales, Marketing) under the top-level domain and organize the catalog by moving existing projects to new owning domain units.
+174	2	ETL pipeline authors	With these transforms, ETL developers can quickly build more sophisticated data pipelines without having to write custom code for common transform tasks.
+175	1	Authorization policy inventory	Amazon Verified Permissions now supports policy store tagging
+176	1	Persistent pooled desktop capacity	Amazon WorkSpaces Pools now supports AlwaysOn running mode
+177	1	B2B Data Interchange API callers	AWS B2B Data Interchange now offers customers the option to use Internet Protocol version 6 (IPv6) while accessing the AWS B2B Data Interchange Service APIs .
+178	2	Indexed backup administrators	You can now use your Organization management account to set a backup indexing policy across your AWS accounts.
+179	3	Docker image build pipelines	Parallel build jobs can use a shared remote Docker build server and persistent layer cache.
+180	2	Pipeline commands using secrets	AWS CodePipeline now enables you to use AWS Secrets Manager credentials in your Commands actions by specifying the secrets as environment variables in the action declaration.
+181	2	Billing anomaly recipients	AWS Cost Anomaly Detection enables advanced alerting through AWS User Notifications
+182	1	Multilingual render teams	AWS Deadline Cloud Monitor now supports multiple languages, allowing you to view critical job information using an expanded selection of languages.
+183	1	EC2 network operators	AWS EC2 instances now support ENA queue allocation for your network interfaces
+184	2	DICOM medical imaging clients	AWS HealthImaging launches DICOMweb QIDO-RS search and enhanced data management
+185	2	SAP ASE application deployments	This launch expands on existing Launch Wizard capability that allows you to automate deployment of SAP systems on SAP ASE database in single-node pattern.
+186	2	Neuron model developers	AWS Neuron introduces NxD Inference GA, new features, and improved tools
+187	1	Cloud asset inventory	AWS Resource Explorer now supports 41 more resource types across all AWS commercial Regions from services including AWS CloudTrail, Amazon Connect, Amazon Sagemaker, and more.
+188	1	Systems Manager onboarding	AWS Systems Manager adds customization options for onboarding configuration
+189	1	Aurora Limitless performance monitoring	CloudWatch Database Insights adds support for Aurora Limitless PostgreSQL
+190	2	EC2 scheduled maintenance	AWS now enables automatic instance migration when you reboot after receiving EC2 scheduled reboot event notifications.
+191	2	Multi-cluster Kubernetes teams	You can now visualize your entire Kubernetes infrastructure without switching between AWS Regions or accounts, gaining aggregated insights into clusters, managed node groups, and EKS add-ons.
+192	2	Migration planning teams	Announcing migration assessment capabilities of AWS Transform
+193	1	Mail routing diagnostics	SES Mail Manager adds Debug Logging for traffic policies
+194	3	Athena query result consumers	Athena-managed results remove the requirement for a customer-managed query results bucket.
+195	1	Content filtering workloads	Amazon Bedrock Guardrails announces tiers for content filters and denied topics
+196	2	EBS device performance monitoring	Amazon CloudWatch agent adds support for EBS detailed performance statistics
+197	2	Cognito sign-in security	With AWS WAF support, you can now define rules that enforce rate limits, gain visibility into web traffic to your applications, and allow or block traffic to Cognito Managed Login based on your specific business or security requirements.
+198	2	Travel customer profile imports	Amazon Connect Customer Profiles for Travel and Hospitality
+199	3	Japan contact center recovery	A synchronized secondary Connect instance provides a recovery target in another Japanese Region.
+200	3	Multi-region transactional databases	Strongly consistent regional replicas support zero-RPO failover and local reads of the latest writes.
+201	1	Network-intensive EC2 jobs	Now generally available: Amazon EC2 C8gn instance
+202	2	ECS capacity migration	Previously, customers could choose the underlying compute configuration during service creation by specifying capacity providers for AWS Fargate or EC2 Auto Scaling groups, or the EC2 launch type for self-managed EC2 instances.
+203	2	Kubernetes certificate provisioning	Previously, this process could take hours or even days and involved numerous manual steps.
+204	2	EMR quota administrators	Previously, to request an increase for EMR on EKS quotas, such as maximum number of StartJobRun API calls per second, customers had to open a support ticket and wait for the support team to process the increase.
+205	2	Game server matchmaking	With UDP ping beacons, you can now accurately measure latency for UDP (User Datagram Protocol) packet payloads across all AWS Regions and Local Zones where Amazon GameLift Servers is available.
+206	2	Multi-quality streaming publishers	Amazon IVS Real-Time Streaming now supports E-RTMP multitrack video ingest
+207	1	Multilingual Lex bots	Amazon Lex extends custom vocabulary feature to additional languages
+208	1	Spanish voice agents	Amazon Nova Sonic, a state-of-the-art speech-to-speech foundation model, now supports Spanish language, bringing natural, real-time voice conversations to more users and developers worldwide.
+209	2	Developers using Q IDE plugins	You can now augment the list of built-in tools with any MCP server that supports the stdio transport layer.
+210	3	Db2 regional disaster recovery	A standby in another Region can serve as a recovery target for Db2.
+211	1	Resolver capacity planning	Amazon Route 53 launches capacity utilization metric for Resolver endpoints
+212	2	S3 directory object renaming	You can now rename objects in S3 Express One Zone by specifying an existing object’s name as the source and the new name of the object as the destination within the same S3 directory bucket.
+213	1	SageMaker training operators	Amazon SageMaker AI now supports M7i, C7i, and R7i for SageMaker Model Training and SageMaker Processing
+214	2	Data lineage exporters	AWS announces that Amazon SageMaker has contributed a custom transport ‘ AmazonDataZoneTransport ’ to the OpenLineage community and enhanced automated lineage capabilities.
+215	1	Precision network measurement	The Amazon Time Sync Service now supports nanosecond-precision hardware packet timestamping on supported Amazon EC2 instances.
+216	3	Virtual desktop infrastructure operators	WorkSpaces can deploy and manage customized EC2 instances in the customer's account.
+217	2	Zonal recovery exercises	For both automated and on-demand practice, pre-checks for balanced capacity will validate your resource’s capacity and ensure it's safe to start the practice.
+218	1	B2B EDI file generation	AWS B2B Data Interchange now offers enhanced configurability for outbound X12 EDI documents.
+219	2	Backup index consumers	You can now subscribe to Amazon SNS notifications and Amazon EventBridge events for backup indexing, allowing you to proactively monitor the status of your backup indexes.
+220	1	S3 delete audit teams	AWS CloudTrail enhances logging for Amazon S3 DeleteObjects API
+221	1	Config compliance analysts	AWS Config rules add classifications from AWS Control Tower Control Catalog
+222	1	Control Tower compliance teams	AWS Control Tower now supports seven new compliance frameworks
+223	2	Messaging quota administrators	This integration enables automated limit increase approvals for eligible requests, improving response times and reducing the number of support tickets.
+224	2	Catalog API monitoring	AWS Glue Data Catalog usage metrics now available with Amazon CloudWatch
+225	2	AWS account root users	AWS IAM now enforces MFA for root users across all account types
+226	1	Post-quantum code signers	AWS KMS adds support for post-quantum ML-DSA digital signatures
+227	1	Multilingual marketplace users	AWS Marketplace now supports a localized experience in four additional languages
+228	2	VPC threat protection	AWS Network Firewall with active threat defense provides automated, intelligence-driven protection against dynamic, ongoing threat activities observed across AWS infrastructure.
+229	1	Certificate authority API clients	AWS Private Certificate Authority (AWS Private CA) now supports Internet Protocol version 6 (IPv6) through new dual-stack endpoints.
+230	3	Private resource group queries	Resource Groups API calls can stay on a private VPC endpoint with no internet transit.
+231	2	Security response automation	AWS Security Incident Response adds integration with Amazon EventBridge
+232	1	Site-to-site network operators	AWS Site-to-Site VPN introduces three new capabilities for enhanced security
+233	2	Public application load balancers	AWS WAF announces general availability of Resource-level DDoS protection for Application Load Balancers (ALB)
+234	2	Document-aware Claude workloads	Citations API and PDF support for Claude models now in Amazon Bedrock
+235	1	Low-latency EC2 networking	120 EC2 instances now support ENA Express, including network optimized, storage, high-memory, and accelerated computing.
+236	2	IAM access auditors	It uses automated reasoning to evaluate all identity policies, resource policies, service control policies (SCPs), and resource control policies (RCPs) to surface all IAM users and roles that have access to your selected critical resources.
+237	2	HPC job auditing	Announcing Job Completion Metadata Logging for AWS Parallel Computing Service (PCS)
+238	2	Lambda agent developers	Powertools for AWS Lambda introduces Bedrock Agents Function utility
+239	1	Graphics-intensive streamed apps	Amazon AppStream 2.0 expands support for GPU based instances
+240	3	MySQL lakehouse analytics	A managed integration replicates MySQL data into the lakehouse without a customer ETL pipeline.
+241	1	Quantum circuit developers	Amazon Braket, the quantum computing service by Amazon Web Services, now offers access to Emerald, the latest quantum processing unit (QPU) by IQM.
+242	1	CloudWatch API clients	Amazon CloudWatch adds IPv6 support
+243	2	CloudWatch audit teams	Amazon CloudWatch PutMetricData API now supports AWS CloudTrail data event logging
+244	2	Agents using external apps	Amazon Connect now allows businesses to introduce new actions and workflows into the agent workspace, powered by third-party applications running in the background.
+245	2	Connect response provisioning	Amazon Connect now supports AWS CloudFormation for quick responses
+246	1	Workforce planning teams	Amazon Connect now supports custom work labels for agent schedules, making it easier for you to identify the type of work an agent is scheduled for.
+247	2	Contact volume forecasters	Amazon Connect launches forecast editing UI
+248	1	Guided agent workflow authors	Amazon Connect’s UI builder launches an improved UX/UI
+249	2	DynamoDB Stream consumers	Amazon DynamoDB Streams introduces a new API feature for faster and more efficient stream shard discovery
+250	1	Fractional GPU workloads	Announcing general availability of Amazon EC2 G6f instances with fractional GPUs
+251	1	Container image release teams	You can now provide a list of tag filters to exempt certain tags from the tag immutability setting, allowing you to enforce immutability for most tags while retaining flexibility for others.
+252	3	Multi-tenant EMR jobs	Per-job inline permissions remove the need for a separate IAM role for each tenant.
+253	2	Keyspaces change consumers	Amazon Keyspaces (for Apache Cassandra) now supports Change Data Capture (CDC) Streams
+254	2	MemoryDB resilience testers	Amazon MemoryDB now supports an AWS FIS action to pause multi-Region cluster replication
+255	2	Memory-enabled AI agents	Amazon Neptune Analytics now integrates with Mem0 for graph-native memory in GenAI applications
+256	1	Multilingual speech applications	Amazon Nova Sonic—a speech-to-speech foundation model—now supports French, Italian, and German, expanding on its existing coverage of English and Spanish.
+257	1	Large-scale GPU training	Amazon P6e-GB200 UltraServers now available for the highest GPU performance in EC2
+258	1	Multilingual service agents	Amazon Q in Connect now supports 7 languages for proactive recommendations
+259	1	BI export administrators	Amazon QuickSight introduces granular access customization for exports and reports
+260	2	SQL Server change consumers	Amazon RDS Custom for SQL Server now supports change data capture
+261	3	Oracle analytics pipelines	Oracle transactions replicate to Redshift through a managed path replacing custom ETL pipelines.
+262	2	Materialized lakehouse views	Amazon Redshift announces support for automatic refresh of materialized views on Apache Iceberg tables
+263	3	Highly available Oracle databases	A standby in a second Availability Zone can take over after primary database failure.
+264	1	S3 Express access administrators	Amazon S3 Express One Zone, a high performance S3 storage class, now supports tags for cost allocation and attribute-based access control (ABAC).
+265	2	Catalog metadata curators	Learn more about how to generate automated metadata for custom assets in our product documentation .
+266	2	Studio data processing teams	With this launch, you can now build Apache Spark jobs to process large volumes of data.
+267	2	SageMaker and BI users	You can now launch Amazon QuickSight directly from within Amazon SageMaker Unified Studio, visualize your project’s data without manual setup, and publish dashboards to the Amazon SageMaker Catalog for broader discovery and sharing.
+268	2	Studio workflow developers	Amazon SageMaker introduces a visual workflows builder
+269	1	SNS subscriber filters	Amazon Simple Notification Service (Amazon SNS) now supports three additional message filtering operators: wildcard matching, anything-but wildcard matching, and anything-but prefix matching.
+270	1	Private queue clients	Amazon SQS expands IPv6 support to VPC endpoints in AWS commercial Regions
+271	3	Applications accessing Oracle Database@AWS	VPC Lattice provides a network path between application networks and Oracle Database@AWS resources.
+272	2	Batch-scheduled training jobs	AWS Batch now supports scheduling SageMaker Training jobs
+273	2	Data collaboration operators	This enables you to build automated workflows that respond immediately to collaboration events without additional monitoring infrastructure.
+274	1	DMS migration fleets	AWS Database Migration Service (AWS DMS) now supports Amazon EC2 C7i and R7i instances, powered by 4th Generation Intel Xeon Scalable processors.
+275	2	Unreal rendering teams	AWS Deadline Cloud now supports Unreal Engine in Service-Managed Fleets
+276	1	Entity matching workflows	AWS Entity Resolution launches advanced matching using Levenshtein, Cosine, and Soundex
+277	1	Lakehouse quality checks	AWS Glue Data Quality now supports data quality monitoring across Amazon S3 Tables and AWS Lake Formation managed Iceberg tables.
+278	3	S3 Tables ingestion pipelines	Glue-managed ingestion replaces independently operated extraction and loading into S3 Tables.
+279	2	Genomic workflow developers	AWS HealthOmics introduces third-party Git repository support for workflow creation
+280	2	Industrial anomaly monitoring	AWS IoT SiteWise Introduces Multivariate Anomaly Detection
+281	1	Kafka-triggered functions	AWS Lambda now supports low latency (sub 100ms) event processing for Amazon Managed Streaming for Apache Kafka (Amazon MSK) and self-managed Apache Kafka event sources in Provisioned mode for Kafka ESM.
+282	2	Marketplace procurement teams	AWS Marketplace enhances offer and subscription management
+283	3	Outposts using local storage arrays	Outposts instances can boot from volumes on external on-premises storage arrays.
+284	2	Internal knowledge communities	AWS re:Post Private launches channels for targeted and secure organizational collaboration
+285	2	Migration assessment teams	AWS Transform now analyzes EBS costs, .NET complexity and expands chat guidance
+286	2	V-Ray render farms	With AWS Deadline Cloud, you can submit and run standalone V-Ray job bundles as well as submit V-Ray jobs from within Autodesk Maya without having to manage your own render farm infrastructure.
+287	2	Nova customization developers	Customize Amazon Nova in Amazon SageMaker AI
+288	2	Ray2 video generation users	Image-to-video generation support for Luma AI's Ray2 now in Amazon Bedrock
+289	2	Q-Index application developers	Q-Index now supports seamless application-level authentication
+290	3	Cross-region recovery operators	ARC coordinates application failover across Regions under a managed recovery plan.
+291	2	OpenAI model consumers	Amazon Bedrock now provides simplified access to OpenAI open weight models
+292	2	Quantum circuit testers	Amazon Braket introduces local device emulator for verbatim circuits
+293	2	Central VPC logging teams	Amazon CloudWatch now allows customers to automatically enable Amazon Virtual Private Cloud (VPC) flow logs to CloudWatch logs across their AWS Organization.
+294	1	Voice contact centers	Amazon Connect now offers new generative text-to-speech voices enabling you to deliver natural, human-like, and expressive conversations with your customers.
+295	2	Contact case managers	Amazon Connect Cases now supports rules to automatically update cases upon creation
+296	1	Variable throughput databases	Amazon DynamoDB now supports more frequent throughput mode updates from provisioned to on-demand capacity
+297	2	Stuck EC2 instances	Amazon EC2 now supports force terminate for EC2 instances
+298	3	Mac host recovery teams	Host Recovery can detect a failing Mac host and migrate the instance to replacement hardware.
+299	1	Kubernetes namespace administrators	Amazon EKS enables namespace configuration for AWS and Community add-ons
+300	1	Hadoop and Spark data jobs	Amazon EMR announces S3A as the default connector
+301	1	Game stream group administrators	Amazon GameLift Streams now offers enhanced flexibility with default applications
+302	3	Incident response paging	Prometheus can route its alerts directly to PagerDuty.
+303	2	AI agents using Cognee	Amazon Neptune now integrates with Cognee for graph-native memory in GenAI Applications
+304	1	OpenSearch IAM administrators	Amazon OpenSearch Serverless now supports Attribute Based Access Control
+305	2	Semantic search ingestion	You can now boost your search relevance with minimal effort, eliminating complex manual configurations through an automated setup process.
+306	1	Federated OpenSearch users	Amazon OpenSearch Service now supports Fine Grained Access Control (FGAC) for OpenSearch UI when accessed through SAML via IAM federated.
+307	2	Q chat developers	Previously, users had no visibility into how Amazon Q Business processed their queries and generated responses, making it challenging to understand the reasoning behind answers.
+308	2	BI users querying Impala	Amazon QuickSight now supports connectivity to Apache Impala
+309	3	Encrypted Db2 backup workloads	Encrypted Db2 backups can reside in a second Region for recovery following a regional outage.
+310	1	Oracle standby replication	Amazon RDS now supports Redo Transport Compression, a feature that compresses redo data before it is transmitted to a standby database.
+311	1	S3 access point owners	Amazon S3 Access Points now support tags for Attribute-Based Access Control (ABAC).
+312	2	Bulk object integrity checks	Amazon S3 introduces a new way to verify the content of stored datasets
+313	2	Large training cluster provisioners	SageMaker HyperPod now provides a new cluster creation experience that sets up all the resources needed for large-scale AI/ML workloads—including networking, storage, compute, and IAM permissions in just a few clicks.
+314	2	Federated Studio data access	Amazon SageMaker Studio now supports trusted identity propagation
+315	3	SQS events 256 KiB–1 MiB	An SQS message can carry up to 1 MiB directly, removing external storage for qualifying payloads.
+316	1	Long-context Claude requests	The context window has been increased from 200,000 to 1 million tokens, representing a 5x expansion.
+317	1	App Runner network clients	AWS App Runner now supports IPv6-based inbound and outbound traffic on both public and private App Runner service endpoints.
+318	1	Spot-based batch processing	AWS Batch for ECS Fargate now supports AWS Graviton-based compute with AWS Fargate Spot.
+319	2	Consolidated cost planning	AWS Budgets now supports Billing View for cross-account cost monitoring
+320	1	Remote IPv6 VPN clients	AWS Client VPN now supports connectivity to IPv6 resources
+321	1	Config-managed resources	AWS Config now supports 10 additional AWS resource types.
+322	2	Linux render workers	Previously available only on Windows fleets, you can now run Cinema 4D and Redshift jobs on Linux service-managed fleets reducing the compute costs for workers.
+323	1	Shared AD directories	AWS has increased the account sharing limits for AWS Managed Microsoft AD directory sharing, allowing customers to share their directories with significantly more AWS accounts.
+324	1	Long-running Nextflow tasks	AWS HealthOmics now supports task level timeout controls for Nextflow workflows
+325	1	IAM perimeter administrators	AWS Identity and Access Management (IAM) now offers three new global condition keys that will make it easier for you to establish a network perimeter.
+326	2	Embedded IoT device developers	AWS IoT ExpressLink technical specification v1.3
+327	1	Multi-account console users	AWS Management Console now supports assigning a color to an AWS account for easier identification
+328	1	Outpost network monitoring	AWS Outposts racks now support new Amazon CloudWatch metrics
+329	2	Slurm plugin developers	Using SPANK plugins, you can now integrate AWS PCS with container technologies, implement custom monitoring of memory and I/O patterns, and dynamically modify job launches to enhance resource management.
+330	2	Multi-value resource inventory	AWS Resource Explorer now Supports Filtering for Multiple Values
+331	1	OU-specific security response coverage	AWS Security Incident Response now supports membership coverage for individual AWS organizational units
+332	1	Azure-hosted .NET migrations	AWS Transform for .NET now supports Azure DevOps repos alongside GitHub, GitLab, and BitBucket.
+333	1	Kubernetes cluster operators	Amazon Elastic Kubernetes Service (EKS) now supports deletion protection, helping you prevent accidental termination of your EKS clusters.
+334	1	Memory-intensive EC2 applications	New Memory-Optimized Amazon EC2 R8i and R8i-flex Instances
+335	1	Q Business retrieval applications	Amazon Q Business launches Agentic RAG to enhance accuracy and explainability
+336	2	Persistent HyperPod workloads	Kubernetes volume claims replace manual provisioning of EBS volumes.
+337	1	Large model training schedules	SageMaker HyperPod now supports Topology Aware Scheduling of LLM tasks
+338	1	Systems Manager command authors	Systems Manager Run Command now supports interpolating parameters into environment variables
+339	2	Athena driver users	Amazon Athena launches single sign-on support for drivers
+340	1	Cross-region Sonnet inference	An existing cross-region inference profile gains wider geographic coverage.
+341	1	IPv6 origin servers	Amazon CloudFront expands its IPv6 capabilities by introducing support for IPv6 connectivity to origin servers, allowing customers to implement end-to-end IPv6 content delivery for their web applications.
+342	2	Inter-region network monitoring	With flow monitors in Amazon CloudWatch Network Monitoring, you can now monitor network performance of traffic flowing between AWS Regions across the AWS global network.
+343	1	Cross-browser synthetic testing	Amazon CloudWatch Synthetics adds multi-browser support for application testing
+344	1	Contact case supervisors	Amazon Connect Cases now supports filtering by date ranges in the case list view, enabling contact center managers and agents to efficiently manage their case workloads.
+345	1	Outbound call troubleshooting	Amazon Connect now offers expanded disconnect reasons to help you better understand why outbound calls failed to connect in your contact center.
+346	1	High-capacity gp3 storage	Amazon Elastic Block Store (Amazon EBS) now supports higher volume-level limits for its General Purpose (gp3) volumes.
+347	2	EC2 refresh operators	Amazon EC2 Auto Scaling now enables customers to force cancel instance refreshes immediately, without waiting for in-progress instance launches or terminations to complete.
+348	1	NVMe diagnostic monitoring	Amazon EC2 supports detailed performance stats on all NVMe local volumes
+349	3	IPv6-only ECS tasks	Tasks can run on IPv6-only subnets without IPv4 addressing.
+350	2	ECS task definition editors	Amazon ECS enhances task definition editing in the AWS Console with Amazon Q Developer
+351	1	ONTAP network clients	Amazon FSx now offers customers the option to use Internet Protocol version 6 (IPv6) for access to Amazon FSx for NetApp ONTAP file systems.
+352	1	Cassandra-compatible queries	Amazon Keyspaces (for Apache Cassandra) now supports now(), uuid() functions in SELECT and Duration data type
+353	2	Prometheus collector diagnostics	Amazon Managed Service for Prometheus collector logs now available in Amazon CloudWatch Logs
+354	1	OpenSearch document storage	Amazon OpenSearch Service announces Derived Source for storage optimization
+355	1	Append-only analytics indexes	Amazon OpenSearch Service announces Star-Tree Index
+356	2	Cross-account database snapshot copies	Previously, customers that copied snapshots cross-Region and cross-account did so in a two step process that involved first copying the snapshot to a different Region and then to a different account or vice versa.
+357	1	RDS proxy clients	Amazon Relational Database Service (RDS) Proxy now offers customers the option to use Internet Protocol version 6 (IPv6) addresses to pool and share database connections coming from an application.
+358	1	Governed catalog metadata	Amazon SageMaker Catalog adds support for governed classification with restricted terms
+359	2	Studio project administrators	Amazon SageMaker Unified Studio announces the general availability of custom blueprints
+360	2	EC2 trusted launch validation	AWS announces EC2 instance attestation
+361	1	Non-calendar budgets	AWS Budgets now supports custom time periods
+362	2	Collaborative identity matching	AWS Clean Rooms supports incremental ID mapping with AWS Entity Resolution
+363	1	Metrics inventory teams	Amazon CloudWatch now supports resource tags when monitoring vended metrics
+364	1	IAM tag auditing	AWS Config now supports resource tags for IAM Policies
+365	1	Direct Connect BGP customers	AWS Direct Connect now supports 4-byte Autonomous System (AS) numbers for virtual interfaces.
+366	2	SMS infrastructure developers	AWS End User Messaging now supports CloudFormation for SMS
+367	1	Workforce data encryption	IAM Identity Center now supports customer-managed AWS Key Management Service (KMS) keys for encrypting workforce identity data, including user and group attributes.
+368	2	Directory certificate administrators	AWS Managed Microsoft AD adds LDAPS and Smart Card support using AWS Private CA
+369	2	Agents with long-term memory	Amazon Neptune Now Integrated with Zep to Power Long-Term Memory for GenAI Applications
+370	1	DNS firewall policy teams	AWS Network Firewall adds Reject and Alert actions for stateful domain list rule groups
+371	3	Outposts using external arrays	Outposts instances can use Dell or HPE arrays as boot and data storage.
+372	2	Distributed Map developers	AWS Step Functions expands data source options and improves observability for Distributed Map
+373	1	Storage Gateway network operators	AWS Storage Gateway now supports IPv6
+374	1	Private file transfer endpoints	AWS Transfer Family now supports Virtual Private Cloud (VPC) endpoint policies for your VPC endpoints.
+375	1	VMware migration planners	AWS Transform for VMware supports flexible network management and broader AWS Region coverage
+376	2	Multi-organization billing	Billing View now supports cost management data from multiple organizations
+377	1	DeepSeek inference applications	DeepSeek-V3.1 model now available fully managed in Amazon Bedrock
+378	1	Network-heavy database workloads	Now generally available: Amazon EC2 R8gn instances
+379	2	Local serverless testing	Previously, to use LocalStack to emulate AWS services in VS Code, developers had to manually configure ports, make code changes, and switch context between the IDE and LocalStack interface.
+380	3	HyperPod model checkpointing	Frequent checkpoints can use CPU memory while durable checkpoints persist to S3.
+381	1	Disk-backed vector search	Amazon OpenSearch Serverless now supports Disk-Optimized Vectors
+382	2	Training cluster autoscaling	Amazon SageMaker HyperPod now supports autoscaling using Karpenter
+383	2	Image-editing applications	Stability AI Image Services now available in Amazon Bedrock
+384	2	SAP HANA compliance checks	Validate best practice compliance for SAP with AWS Systems Manager
+385	1	FIPS-regulated DSQL clients	Amazon Aurora DSQL now supports FIPS 140-3 compliant endpoints
+386	2	Serverless model access	Amazon Bedrock now provides immediate access to all serverless foundation models by default for users in all commercial AWS regions.
+387	1	Windows event ingestion	Amazon CloudWatch Agent adds support for Windows Event Log Filters
+388	2	Synthetic monitoring teams	Amazon CloudWatch Synthetics now supports bundled multi-check canaries
+389	2	Contact center scheduling	These automated notifications eliminate the need for continuous dashboard monitoring and enable proactive intervention before service levels decline, improving both supervisor productivity and customer satisfaction.
+390	2	Contact evaluation supervisors	Amazon Connect can now automatically initiate follow-up evaluations to analyze specific situations identified during initial evaluations.
+391	2	Agent schedule administrators	Amazon Connect now supports copy and bulk edit of agent scheduling configuration
+392	2	Agents handling email threads	Amazon Connect now provides agents with generative AI-powered email conversation overviews, suggested actions, and responses.
+393	2	Individual agent schedules	Amazon Connect now supports scheduling of individual agents
+394	1	DocumentDB deployments	Amazon DocumentDB (with MongoDB compatibility) now supports Graviton4-based R8g database instances
+395	1	IPv6 DynamoDB clients	Amazon DynamoDB now supports Internet Protocol version 6 (IPv6)
+396	1	Compute-intensive Intel workloads	New Compute Optimized Amazon EC2 C8i and C8i-flex instances
+397	1	Windows licensing optimization	Amazon EC2 now supports Optimize CPUs for license-included instances
+398	2	ECS event diagnostics	Amazon Elastic Container Services (Amazon ECS), a fully managed container orchestration service, now provides one-click event capture and event history querying directly in the AWS Management Console.
+399	1	ElastiCache API clients	Amazon ElastiCache now supports dual-stack service endpoints .
+400	2	Game server operators	Amazon GameLift Servers adds ability to view and connect to instances in the console
+401	3	Kinesis records over 1 MiB	Streaming applications can drop a separate processing pipeline for intermittent records up to 10 MiB.
+402	1	Vietnam map users	Amazon Location Service Updates for Vietnam's New Administrative Boundaries
+403	2	Graph machine learning pipelines	Amazon Neptune Database now integrates with GraphStorm for scalable graph machine learning
+404	3	Ingestion pipelines enriching large datasets	The ingestion pipeline can enrich data offline through an asynchronous batch inference job.
+405	2	BI data preparation	Users can now clean, transform, and combine data in multi-step workflows—appending tables, aggregating data, executing flexible joins, and other advanced operations that previously required custom programming or SQL commands.
+406	1	Public RDS clients	Amazon RDS extends IPv6 support for publicly accessible databases
+407	3	Private DNS profile operators	A private VPC endpoint provides a path to manage Route 53 Profiles without internet transit.
+408	2	S3 table auditors	You can now use AWS CloudTrail to track compaction and snapshot expiration operations performed by S3 Tables on your tables.
+409	2	Studio Athena users	Amazon SageMaker Unified Studio supports Amazon Athena workgroups
+410	2	Network prefix list maintenance	Today, AWS announced the ability for Amazon VPC IP Address Manager (IPAM) to automate prefix lists updates with prefix list resolver (PLR).
+411	3	Applications rewriting incoming URLs	Native host and URL rewriting removes the need for an additional proxy layer.
+412	2	Cloud quota management	Automatic quota management is now generally available for AWS Service Quotas
+413	2	Cross-account database recovery	Previously, you needed to perform this as a two-step process—first copying to a different Region, and then to a different account (or vice versa).
+414	3	Cross-region data collaboration	Collaboration can query sources across Regions without copying the underlying datasets.
+415	1	Config resource auditing	AWS Config now supports 3 additional AWS resource types.
+416	2	Managed directory upgrades	AWS Directory Service now enables customers to upgrade Managed Microsoft AD from Standard to Enterprise Edition programmatically through the UpdateDirectorySetup API.
+417	2	ETL jobs writing SaaS data	AWS Glue adds write operations for SAP OData, Adobe Marketo Engage, Salesforce Marketing Cloud, and HubSpot connectors
+418	1	Location map developers	Amazon Location Service Introduces New Map Styling Features for Enhanced Customization
+419	1	Software marketplace pricing	These enhancements increase the maximum pricing dimensions from 24 to 200, enable immediate use of new SaaS dimensions, and remove the 90-day price update restriction for dimensions without active subscriptions.
+420	1	Slurm cluster operators	AWS Parallel Computing Service expands Slurm customization capabilities
+421	1	SAM local developers	AWS Serverless Application Model Command Line Interface (SAM CLI) now supports Finch as an alternative to Docker for local development and testing of serverless applications.
+422	2	Lambda event mapping teams	AWS Serverless MCP Server now supports tools for AWS Lambda event source mappings (ESM)
+423	2	Windows patch operations	AWS Systems Manager Patch Manager launches security updates notification for Windows
+424	2	HPC capacity planners	Introducing the Capacity Reservation Topology API for AI, ML, and HPC instance types
+425	1	Multimodal retrieval applications	Amazon Bedrock now offers Cohere Embed v4, the latest state-of-the-art multimodal embedding model from Cohere that produces high-quality embeddings for text, images, and complex business documents.
+426	2	Machine image pipelines	EC2 Image Builder now automatically disables pipelines after consecutive failures and allows customers to configure custom log groups for image pipelines.
+427	1	Large Lightsail instances	Amazon Lightsail now offers three larger instance bundles with up to 64 vCPUs and 256 GB memory.
+428	2	Kubernetes cost allocation	Starting today, Split Cost Allocation Data for Amazon EKS now allows you to import up to 50 Kubernetes custom labels per pod as cost allocation tags.
+429	2	Web-grounded model applications	Web Grounding: Build accurate AI applications with Amazon Nova models
+430	1	TLS API administrators	Amazon API Gateway now supports enhanced TLS security policies on API endpoints and custom domain names, providing you with greater control over the security posture of your APIs.
+431	2	Athena reservation owners	Amazon Athena launches auto-scaling solution for Capacity Reservations
+432	2	Browser-based database querying	Amazon Aurora DSQL now provides an integrated query editor for browser-based SQL access.
+433	3	AgentCore code deployment	Direct code upload makes the container image deployment path optional.
+434	1	Secret Region AI applications	Amazon Bedrock is now available
+435	1	Quantum circuit developers	Amazon Braket now offers access to IBEX Q1, a trapped-ion quantum processing unit (QPU) from Alpine Quantum Technologies (AQT), a new quantum hardware provider on Amazon Braket.
+436	2	CloudFront function authors	Amazon CloudFront announces 3 new CloudFront Functions capabilities
+437	2	Clients using mutual TLS	Previously, customers had to spend ongoing effort implementing and maintaining their own client access management solutions, leading to undifferentiated heavy lifting.
+438	1	Shared memory monitoring	Amazon CloudWatch agent now supports collection of shared memory utilization metrics from Linux hosts running on Amazon EC2 or on-premises environments.
+439	1	Composite alarm operators	Amazon CloudWatch Composite Alarms adds threshold-based alerting
+440	2	Incident responders	Amazon CloudWatch incident reports now support Five Whys analysis
+441	1	Machine identity billing	Amazon Cognito removes Machine-to-Machine app client price dimension
+442	2	Self-service voice agents	Amazon Connect is introducing agentic self-service capabilities that enable AI agents to understand, reason, and take action across voice and messaging channels to automate routine and complex customer service tasks.
+443	2	Contact center analysts	Amazon Connect launches AI-powered predictive insights (Preview)
+444	1	Case intake forms	Amazon Connect Cases now supports conditional field visibility and dependent field options, so you can simplify case layouts and ensure agents capture the right information faster.
+445	2	Bot performance analysts	Amazon Connect now provides conversational analytics for end-customer self-service interactions across voice and digital channels, helping you better understand and improve your customers' self-service experiences.
+446	1	Contact center email routing	Amazon Connect now supports configuration of email address aliases
+447	2	Contact flow module developers	With this launch, you can now define flexible parameters for your reusable flow modules to math your specific business logic.
+448	2	AI contact center agents	Amazon Connect launches Model Context Protocol (MCP) support
+449	2	Callback queue supervisors	Amazon Connect now provides you with the ability to monitor which contacts are queued for callback.
+450	2	Contact center QA teams	Amazon Connect now allows you to test and simulate contact center experiences in just a few clicks, making it easy to validate workflows, self-service voice interactions, and their outcomes.
+451	2	Linked case workflows	Amazon Connect now simplifies linking related contacts to cases using flows
+452	1	EC2 Mac remote users	Amazon DCV now supports Amazon EC2 Mac instances
+453	2	AMI refresh operators	Amazon EC2 Auto Scaling now supports root volume replacement through instance refresh
+454	1	macOS Tahoe developers	Amazon EC2 Mac instances now support Apple macOS Tahoe
+455	2	Image security teams	Amazon ECR now supports managed container image signing
+456	1	Managed ECS capacity operators	Amazon ECS Managed Instances adds configurable scale-in delay
+457	2	Kubernetes secret consumers	Amazon EKS add-ons are curated extensions that automate the installation, configuration, and lifecycle management of operational software for Kubernetes clusters, simplifying the process of maintaining cluster functionality and security.
+458	2	EKS network troubleshooting	Additionally, EKS now provides network monitoring visualizations in the AWS console that accelerate and enhance precise troubleshooting for faster root cause analysis.
+459	2	Governed lakehouse auditing	Amazon EMR and AWS Glue now provide comprehensive audit context support for AWS Lake Formation credential vending APIs and AWS Glue Data Catalog GetTable and GetTables API calls.
+460	2	FSx Active Directory clients	You can now use AWS Secrets Manager to store your domain join service credentials for all FSx for Windows file systems and FSx for ONTAP Storage Virtual Machines in all AWS Regions where they are available.
+461	2	Backup malware scanning	This capability automates malware detection in your backups without requiring additional security software or agents.
+462	1	Keyspaces geographic replicas	Amazon Keyspaces (for Apache Cassandra) now supports Multi-Region Replication in the Middle East (Bahrain) and Asia Pacific (Hong Kong) Regions.
+463	3	Multi-viewer live cameras	A single camera feed can reach multiple WebRTC peers and cloud recording concurrently.
+464	2	Address form developers	Amazon Location Service introduces Address Form Solution Builder
+465	2	Kafka topic administrators	Amazon MSK Console now supports viewing Kafka topics with new public APIs
+466	1	FIPS-regulated search clients	Amazon OpenSearch Serverless now supports FIPS compliant endpoints
+467	1	Multilingual speech generation	Amazon Polly expands Generative TTS engine with additional languages and region support
+468	1	BI dashboard designers	Amazon Quick Sight now supports comprehensive theming capabilities that enable organizations to maintain consistent brand identity across their analytics dashboards.
+469	3	Aurora Global upgrade teams	A separate green environment can stage and synchronize changes before global database switchover.
+470	1	PostgreSQL application owners	Amazon RDS for PostgreSQL now supports major version 18, starting with PostgreSQL version 18.1.
+471	2	Multi-warehouse access governance	Amazon Redshift now supports federated permissions across multi-warehouse architectures
+472	2	Public DNS recovery operators	Accelerated recovery targets a one-hour RTO for resuming hosted-zone changes during a regional outage.
+473	1	Route 53 API callers	Amazon Route 53 DNS service adds support for IPv6 API service endpoint
+474	2	S3 authorization administrators	In addition to using tags on your S3 buckets for cost allocation, you can now use them for ABAC to automatically manage permissions to your data.
+475	1	S3 Express clients	Amazon S3 Express One Zone now supports Internet Protocol version 6 (IPv6) addresses for gateway Virtual Private Cloud (VPC) endpoints.
+476	2	Catalog governance teams	Amazon SageMaker Catalog now provides automated data classification that suggests business glossary terms during data publishing, reducing manual tagging effort and improving metadata consistency across organizations.
+477	2	Catalog users managing S3 data	Amazon SageMaker Catalog now supports read and write access to Amazon S3
+478	1	Model serving with speculative decoding	Amazon SageMaker AI now supports EAGLE (Extrapolation Algorithm for Greater Language-model Efficiency) speculative decoding to improve large language model inference throughput by up to 2.5x.
+479	1	Pod scheduling administrators	Amazon SageMaker HyperPod now supports custom Kubernetes labels and taints, enabling customers to control pod scheduling and integrate seamlessly with existing Kubernetes infrastructure.
+480	2	Studio dataset owners	Introducing one-click onboarding of existing datasets to Amazon SageMaker
+481	2	Organizations using Infoblox	Previously, in hybrid cloud environments, administrators had to use offline means such as tickets or emails to request and allocate IP addresses, which was often error-prone and time-consuming.
+482	1	Streamed app deployments	Amazon WorkSpaces Applications now offers enhanced flexibility features that provide customers with more choices for compute and configurable storage volume.
+483	2	AMI distribution pipelines	Amazon EC2 Image Builder now allows you to distribute existing Amazon Machine Images(AMIs), retry distributions, and define custom distribution workflows.
+484	2	Streaming REST applications	Amazon API Gateway now supports response streaming for REST APIs
+485	2	Machine-to-machine ALB clients	Application Load Balancer now supports client credential flow with JWT verification
+486	2	DSQL query developers	Amazon Aurora DSQL now provides statement-level cost estimates in query plans, giving developers immediate insight into the resources consumed by individual SQL statements.
+487	2	Quota administrators	AWS Service Quotas adds now support for automatic quota management
+488	1	FSx backup operators	AWS Backup now supports Amazon FSx Intelligent-Tiering, a storage class which delivers fully elastic file storage that automatically scales up and down with your workloads.
+489	1	S3 backup retention	AWS Backup launches a low-cost warm storage tier for Amazon S3 backups
+490	2	Channel partner billing	AWS Channel Partners can now resell using Billing Transfer
+491	1	CloudFormation hook diagnostics	Building on the Hooks Invocation Summary launched in September 2025, AWS CloudFormation Hooks now supports granular invocation details.
+492	2	EBS storage optimization	Announcing AWS Compute Optimizer automation rules
+493	1	Config resource auditors	AWS Config now supports 49 additional AWS resource types across key services including Amazon EC2, Amazon Bedrock, and Amazon SageMaker.
+494	1	Control Tower compliance teams	AWS Control Tower now supports seven new compliance frameworks and 279 additional AWS Config rules
+495	1	Cloud cost analysts	AWS Cost Optimization Hub, a feature within the Billing and Cost Management Console, now supports a Cost Efficiency metric that helps you measure and track cloud cost efficiency over time across your organization.
+496	3	Directory API users in VPCs	Directory API traffic can use private VPC endpoints instead of public internet paths.
+497	2	Resilience testing teams	AWS Fault Injection Service (FIS) launches new test scenarios for partial failures
+498	2	Iceberg data transformation	AWS Glue now supports Apache Iceberg based materialized views
+499	2	Glue data quality rules	AWS Glue Data Quality now supports pre-processing queries
+500	3	AWS workloads authenticating externally	AWS workloads can exchange identity tokens with external services without retaining long-lived credentials.
+501	2	IoT telemetry transformation	AWS IoT Core now supports IoT thing registry data retrieval from IoT rules
+502	1	EdDSA signing workloads	AWS KMS now supports Edwards-curve Digital Signature Algorithm (EdDSA)
+503	3	Lambda on managed EC2 capacity	Lambda functions can execute on managed EC2 capacity through a different deployment model.
+504	1	Rust function developers	AWS Lambda now supports building serverless applications using Rust.
+505	2	Marketplace software procurement	AWS Marketplace introduces agent mode and AI-enhanced search to accelerate solution discovery
+506	2	AI tools executing AWS tasks	AWS announces a preview of the AWS MCP Server
+507	3	Egress proxy networks	Applications can route outbound requests through an explicit managed firewall proxy.
+508	2	Database upgrade administrators	AWS Organizations now supports upgrade rollout policy for Amazon Aurora and Amazon RDS
+509	2	AWS partner operations	With an expanded set of APIs, partners can automate co-selling processes, streamline AWS Marketplace activities, and unlock AWS Partner Network benefits more seamlessly.
+510	1	Quantum-resistant private PKI	AWS Private CA now supports post-quantum digital certificates
+511	2	Regional deployment planners	AWS announces a new Regional planning tool in Builder Center
+512	2	SDK permissions developers	AWS Service Reference Information now supports SDK Operation to Action mapping
+513	1	IAM perimeter administrators	AWS Identity and Access Management (IAM) now supports a new global condition key, aws:SourceVpcArn, that enables customers to enforce region-based access controls for resources accessed through AWS PrivateLink .
+514	2	SFTP malware scanning	AWS Transfer Family Terraform module now supports deployment of automated malware scanning workflows for files transferred using Transfer Family resources.
+515	2	VPC encryption compliance	AWS introduces new VPC Encryption Controls and further raises the bar on data encryption
+516	1	Custom OpenAI model weights	Amazon Bedrock Custom Model Import now supports Open AI GPT OSS models.
+517	2	CloudFormation stack developers	Change set creation now provides early feedback on common deployment errors.
+518	2	Cloud audit monitoring	AWS CloudTrail launches Insights for data events to automatically detect anomalies in data access
+519	2	Multi-region database monitoring	CloudWatch Database Insights adds cross-account cross-region monitoring
+520	2	Stack drift remediation	Safely handle configuration drift with AWS CloudFormation drift-aware change sets
+521	2	Cloud cost analysts	AWS Cost Explorer now provides 18-month forecasting and explainable AI-powered forecasts
+522	2	Machine image provenance	Amazon EC2 now provides Amazon Machine Image (AMI) ancestry that enables you to trace the complete lineage of any AMI, from its immediate parent through each preceding generation back to the root AMI.
+523	1	Mixed-instance Auto Scaling groups	EC2 Auto Scaling announces warm pool support for Auto Scaling groups that have mixed instances policies
+524	1	Capacity reservation chargeback	New AWS CUR 2.0 features: EC2 ODCR and Capacity Blocks for ML monitoring
+525	2	Messaging delivery analysts	AWS End User Messaging SMS launches Carrier Lookup
+526	1	Large Lustre directories	Amazon FSx for Lustre improves directory listing performance by up to 5x
+527	1	Data quality reporting	AWS Glue Data Quality now supports rule labeling for enhanced reporting
+528	2	Policy authors provisioning applications	AWS announces IAM Policy Autopilot to help builders generate IAM policies from code
+529	2	Kafka-to-Lambda integration	Previously, configuring MSK as an event source required navigating between MSK and Lambda consoles to provide parameters like cluster details, authentication method, and network configuration.
+530	2	LLM-backed conversational bots	Amazon Lex now allows you to use Large Language Models (LLMs) as the primary option to understand customer intent across voice and chat interactions.
+531	2	Professional services sellers	AWS Marketplace now supports variable payments for professional services
+532	2	S3 filesystem observability	You can now monitor Mountpoint operations in observability tools such as Amazon CloudWatch, Prometheus, and Grafana.
+533	1	Shared firewall billing	AWS Network Firewall now supports flexible cost allocation through AWS Transit Gateway native attachments, enabling you to automatically distribute data processing costs across different AWS accounts.
+534	1	Post-quantum TLS workloads	AWS Application Load Balancers (ALB) and Network Load Balancers (NLB) now support post-quantum key exchange options for the Transport Layer Security (TLS) protocol.
+535	2	Agent-driven data discovery	Agentic Search automates OpenSearch query planning and execution, eliminating the need for complex search syntax.
+536	3	Multicloud network operators	Managed private interconnects replace customer-built multicloud network links.
+537	U	Partners seeking resilience certification	The announcement identifies a program or authorization change but gives no specific change to customer workflow steps or components.
+538	2	Real-time model inference	Amazon SageMaker AI Inference now supports bidirectional streaming
+539	2	Shared savings commitments	Savings Plans and Reserved Instances Group Sharing is now generally available
+540	2	Cross-account partner integrations	Streamline integration with Amazon and AWS Partner products using AWS IAM temporary delegation
+541	2	Custom file-transfer identities	This allows you to automate and streamline the deployment of Transfer Family servers integrated with your existing identity providers.
+542	1	CloudFront BYOIP operators	Amazon CloudFront now supports bringing your own IP addresses (BYOIP) for Anycast Static IPs via VPC IP Address Manager (IPAM).
+543	2	Kubernetes certificate administrators	AWS Certificate Manager (ACM) now automates certificate provisioning and distribution for Kubernetes workloads through AWS Controllers for Kubernetes (ACK).
+544	2	Aurora developers using Kiro	Amazon Aurora PostgreSQL now supports integration with Kiro powers
+545	1	OpenAI-compatible Bedrock clients	Amazon Bedrock now supports Responses API on new OpenAI API-compatible service endpoints.
+546	3	Enterprise observability and security data	A unified data store and analytics layer can replace separate observability stores and ETL pipelines.
+547	1	Multilingual agent evaluation	Amazon Connect expands automated agent performance evaluations to 5 additional languages
+548	1	Contact evaluation form designers	Amazon Connect now supports multiple choice and date questions in evaluation forms
+549	1	Large GPU training workloads	Amazon EC2 P6e-GB300 UltraServers accelerated by NVIDIA GB300 NVL72 are now generally available
+550	2	Image publishing pipelines	Amazon ECR now supports creating repositories on push
+551	1	EKS network administrators	Amazon EKS introduces enhanced network security policies
+552	3	Analytics over ONTAP file data	An ONTAP file stays on its filesystem while S3 clients access it through an access point.
+553	2	Multimodal model inference	Introducing Amazon Nova 2 Omni in Preview
+554	1	OpenSearch cluster operators	Amazon OpenSearch Service announces new OI2 instances
+555	2	Quick conversational agents	Previously, chat users needed to repeat their preferences around response format, acronyms, dashboards, and integrations in every conversation.
+556	1	Concurrent COPY workloads	Amazon Redshift introduces concurrency scaling support for auto-copy
+557	2	Objects over 5 TB	Amazon S3 increases the maximum object size to 50 TB
+558	2	Distributed model training	Amazon SageMaker HyperPod now supports checkpointless training
+559	2	Bulk email senders	Amazon SES announces email validation
+560	1	IPv6 desktop clients	Amazon WorkSpaces now supports IPv6 for WorkSpaces domains and external endpoints , enabling users to connect through an IPv4/IPv6 dual-stack configuration from compatible clients (excluding SAML authentication).
+561	2	WebAuthn browser users	Amazon WorkSpaces Secure Browser now supports WebAuthn redirection for local Chromium browsers
+562	3	API owners exposing MCP tools	API Gateway can translate an existing REST API for MCP clients without a separate proxy service.
+563	1	Staged flag rollouts	AWS AppConfig adds enhanced targeting during feature flag rollout
+564	2	Vercel database applications	AWS Databases are now available on the Vercel Marketplace
+565	2	Render farm job submission	AWS Deadline Cloud now lets you submit rendering jobs directly from the Deadline Cloud Monitor desktop application.
+566	2	Game stream performance monitoring	Amazon GameLift Streams launches real-time performance stats and improved API error messaging
+567	1	IoT logging teams	AWS IoT now supports event-based logging, a new capability that helps developers reduce Amazon CloudWatch costs while improving log management efficiency.
+568	1	Payment key operations	AWS Payment Cryptography reduces API pricing by up to 63% and introduces tiered key pricing
+569	1	Secret inventory management	AWS Secrets Manager announces improved secret sorting capabilities
+570	2	Multi-account network protection	Today, AWS Shield announces multi-account network security management and automated network analysis for network security director, which is currently in preview.
+571	2	Enterprise support operations	It also includes AWS Security Incident Response at no additional cost, which customers can activate to automate security alert investigation and triage.
+572	2	Wickr network administrators	AWS Wickr now provides a suite of admin APIs that empower administrators to programmatically manage secure communication networks at scale.
+573	2	Teams fine-tuning models	Amazon Bedrock automates the reinforcement fine-tuning workflow, making this advanced model customization technique accessible to everyday developers.
+574	2	Agent quality evaluation	Amazon CloudWatch now enables automated quality assessment of AI agents through AgentCore Evaluations.
+575	1	WhatsApp contact campaigns	Amazon Connect Outbound Campaigns now supports WhatsApp, expanding on the WhatsApp Business messaging capabilities that already allow customers to contact your agents.
+576	2	Terraform-managed data transfers	You can now use Terraform to automatically provision DataSync tasks configured for Enhanced mode.
+577	1	Arm-based EC2 workloads	Announcing new Amazon EC2 M9g instances powered by AWS Graviton5 processors (Preview)
+578	2	Messaging registration applicants	AWS End User Messaging SMS launches a Generative AI Registration Reviewer (Preview)
+579	1	EBS-intensive compute workloads	Now generally available: Amazon EC2 C8gb instances
+580	2	Account audit logging	With this launch, you can now centrally configure collection of CloudTrail events in CloudWatch alongside other popular AWS log sources such as Amazon VPC flow logs and Amazon EKS Control Plane Logs.
+581	1	MiniMax model users	MiniMax-M2 is now available on Amazon SageMaker JumpStart
+582	2	Serverless model customization	The serverless workflow combines model preparation, training and evaluation.
+583	2	Search indexing pipelines	Amazon OpenSearch Service now supports automatic semantic enrichment
+584	1	Database backup inventory	Amazon RDS and Aurora now support resource tagging for automated backups and cluster automated backups.
+585	1	Resolver endpoint monitoring	Amazon Route 53 launches detailed metrics for Resolver endpoints
+586	2	Access-sensitive table storage	Additionally, S3 Tables automated maintenance operations such as compaction, snapshot expiration, and unreferenced file removal never tier up your data.
+587	2	Security finding triage	These new capabilities complement existing capabilities, including exposure findings, security-focused resource inventory, attack path visualization, and automated response workflows with ticketing system integration.
+588	2	InfluxDB instance operators	Timestream for InfluxDB Now Supports Restart API Calls
+589	2	Mainframe migration testing	By automating complex testing tasks and reducing dependency on scarce mainframe expertise, organizations can now modernize their applications with greater confidence while improving accuracy through consistent, automated processes.
+590	1	Video inference across regions	TwelveLabs’ Pegasus 1.2 model now in 23 new AWS regions via Global cross-region inference
+591	2	Teams integrating Quick actions	Amazon Quick adds third-party AI agents and expands built-in actions library
+592	1	AI cloud spend analysts	AWS Data Exports adds granular operation visibility for Amazon Bedrock model usage
+593	3	Agents invoking external tools	Bedrock calls custom tools server-side, removing the intermediate client round trip.
+594	2	Contact screen recording supervisors	Amazon Connect now provides agent screen recording status tracking
+595	2	Cases infrastructure authors	Amazon Connect Cases now supports AWS CloudFormation
+596	1	Contact center queue operators	Amazon Connect launches improved wait time estimates
+597	2	Agent schedule analysts	Amazon Connect now provides agent scheduling metrics in data lake, making it easier for you to generate reports and insights from this data.
+598	1	Mac build workloads	Announcing general availability of Amazon EC2 M4 Max Mac instances
+599	1	Linux containers needing temporary memory	Amazon Elastic Container Service (Amazon ECS) now supports tmpfs mounts for Linux tasks running on AWS Fargate and Amazon ECS Managed Instances, extending beyond the EC2 launch type.
+600	3	Event payloads 256 KB–1 MB	One event can carry the larger payload without externalizing its data.
+601	1	GPU compute workloads	Amazon EC2 G7e instances are now generally available
+602	1	Keyspaces capacity planners	Amazon Keyspaces (for Apache Cassandra) now supports table pre-warming, allowing you to proactively prepare both new and existing tables to meet future traffic demands.
+603	1	Lightsail web application deployments	Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints.
+604	1	RabbitMQ JMS consumers	Amazon MQ now supports the ability for RabbitMQ 4 brokers to connect to JMS applications through the RabbitMQ JMS Topic Exchange plugin and JMS client .
+605	1	Production database updates	Amazon RDS Blue/Green Deployments reduces downtime to under five seconds
+606	1	Bare-metal Oracle Standard Edition	Amazon RDS for Oracle now supports bare metal instances with Bring Your Own License (BYOL) license for Oracle Standard Edition 2.
+607	1	Second-generation Outpost storage	Amazon S3 on Outposts is now available on second-generation AWS Outposts racks
+608	3	Private Studio environments	Studio traffic can stay on a private VPC endpoint rather than the public internet.
+609	2	Kafka function monitoring	AWS Lambda launches enhanced observability for Kafka event source mappings
+610	1	SQL clean room analysts	AWS Clean Rooms adds support for join and partition hints in SQL
+611	1	Config compliance teams	AWS Config launches 13 new managed rules
+612	1	Render job operators	AWS Deadline Cloud now supports editing job names and descriptions after submission.
+613	1	Medical image archives	AWS HealthImaging now supports storing and retrieving lossy compressed medical images in the JPEG XL transfer syntax (1.2.840.10008.1.2.4.112).
+614	2	FPGA Marketplace sellers	AWS Marketplace expands AMI self-service listing experience to FPGA products
+615	3	Isolated Outpost networks	One rack can host isolated routing domains with distinct route tables and BGP sessions.
+616	3	External partners transferring ONTAP files	Transfer Family can expose existing ONTAP data over SFTP through an S3 access point.
+617	2	Clean Rooms query operators	AWS Clean Rooms now supports detailed monitoring for collaboration queries
+618	1	Auto Scaling administrators	EC2 Auto Scaling Introduces New Mechanisms for Group Deletion Protection
+619	1	Image and language model inference	FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart
+620	1	Speech and biomedical model inference	granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart
+621	2	Scheduled EC2 and RDS operations	The product now enables distributed cloud engineer personas to perform self-service troubleshooting in their spoke accounts through informational tags applied to their resources without relying on a central cloud administrator.
+622	1	Multimodal AI inference	LocateAnything-3B, Qwen-AgentWorld-35B-A3B, and Qwen3.5-122B-A10B models now available on Amazon SageMaker JumpStart
+623	1	Muse Spark inference	Muse Spark Open model now available on Amazon SageMaker JumpStart
+624	1	NVIDIA model inference	NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart
+625	2	Studio setup administrators	Amazon SageMaker Studio now sets up in seconds with model customization ready from the start
+626	1	Reflection model deployment	Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium
+627	1	Multilingual support users	AI Troubleshooting in the AWS Support Center Console now supports 7 additional languages
+628	1	DSQL numeric queries	Amazon Aurora DSQL now supports index creation on NUMERIC data types.
+629	2	Global Aurora upgrade operators	You can now perform managed minor version upgrades through the AWS Management Console, SDK, or CLI and all the global clusters, across Regions, are upgraded to the selected minor version, eliminating the need to manually upgrade each cluster individually.
+630	2	Browser agents needing persistent sign-in	This feature reduces session setup time from minutes to tens of seconds for enterprise customers processing hundreds or thousands of automated browser sessions daily.
+631	1	Open-weight model tuning	Amazon Bedrock reinforcement fine-tuning adds support for open-weight models with OpenAI-compatible APIs
+632	2	Shared training capacity	Amazon EC2 capacity blocks for ML can be shared across multiple accounts
+633	2	Cognito client secret administrators	Previously, Cognito automatically generated all app client secrets.
+634	2	Contact case form administrators	Amazon Connect Cases now supports CSV uploads to map related field options
+635	1	Contact center analytics access	Amazon Connect dashboards now provides granular access controls for analytics dashboards.
+636	2	Voice workflow QA teams	With this launch, you can also integrate testing directly into CI/CD pipelines, run multiple tests simultaneously to validate workflows at scale, and enable automated regression testing as part of your deployment cycles.
+637	1	High-bandwidth bare-metal compute	Announcing new metal sizes for Amazon EC2 M8gn and M8gb instances
+638	2	Load-balanced ECS deployments	Amazon ECS adds Network Load Balancer support for Linear and Canary deployments
+639	1	Memory-heavy Lightsail workloads	Amazon Lightsail now offers memory-optimized instance bundles with up to 512 GB memory.
+640	3	Multi-tenant encrypted search collections	Collections encrypted with different keys can share the same compute units.
+641	1	Storage-intensive search clusters	Amazon OpenSearch Service now supports latest generation x86 based high performance Storage Optimized i7i instances.
+642	2	Multi-cluster warehouse maintenance	Amazon Redshift now supports autonomics for multi-cluster environments
+643	2	Slurm administrators	Amazon SageMaker HyperPod now supports API-driven Slurm configuration
+644	1	Branded secure browser portals	Amazon WorkSpaces Secure Browser now supports custom domains for your WorkSpaces Secure Browser portals, enabling you to configure portal access through your own domain name instead of the default portal URL.
+645	2	EKS observability onboarding	Application Performance Monitoring Enabled by Default in CloudWatch Observability EKS Add-on
+646	1	Interactive SQL clients	Aurora DSQL launches new integrations for Visual Studio Code SQLTools and DBeaver
+647	2	Database recovery vaults	Previously, this required a two-step process—first copying snapshots to the target Region in a backup vault, then copying them to the logically air-gapped vault in the same Region.
+648	2	Batch queue operators	AWS Batch now provides Queue and Share Utilization Visibility, giving you insights into how your workloads are distributed across compute resources.
+649	3	Clean rooms using remote Iceberg catalogs	Clean Rooms can query tables through a remote catalog without replicating table metadata.
+650	1	Config inventory	AWS Config now supports 30 additional AWS resource types across key services including Amazon EKS, Amazon Q, and AWS IoT.
+651	2	GitHub-hosted web applications	GitHub Actions allow development teams to automate their software delivery process, enabling CI/CD workflows that automatically build, test, and deploy code changes whenever developers push updates to their repositories.
+652	1	Medical image pipeline operators	AWS HealthImaging launches additional metrics for monitoring data stores
+653	1	High-frequency compute applications	Announcing new Amazon EC2 general purpose M8azn instances
+654	1	Existing Kafka clusters	Amazon Managed Streaming for Apache Kafka ( Amazon MSK ) now supports dual-stack connectivity (IPv4 and IPv6) for existing MSK Provisioned and MSK Serverless clusters.
+655	2	Accounts leaving an organization	AWS Resource Access Manager now supports maintaining shares when accounts change organizations
+656	1	Agent-based browser networking	Amazon Bedrock AgentCore Browser now supports proxy configuration
+657	1	Centralized log inventory	Amazon CloudWatch now supports customizing destination log group names when creating CloudWatch log centralization rules.
+658	1	Multi-account console users	AWS Management Console now displays Account Name on the Navigation bar for easier account identification
+659	2	AMI cleanup policy owners	EC2 Image Builder, a service that helps you automate the creation, distribution, and management of customized Amazon Machine Images, now supports wildcard patterns in lifecycle policies and simplifies IAM role creation.
+660	1	GPU notebooks	Amazon SageMaker Studio notebooks now support G7e instance types
+661	1	Accelerated Notebook Instances	SageMaker Notebook Instances now support P5en.48xl instance types
+662	2	Database restore operators	Previously, restored database instances and clusters inherited backup parameter values from snapshot metadata and could only be modified after restore was complete.
+663	1	NAT gateway cost monitoring	AWS Trusted Advisor now delivers more accurate unused NAT Gateway checks powered by AWS Compute Optimizer
+664	1	Console administrators	AWS Management Console now supports settings to control service and Region visibility
+665	2	Agents tracking memory changes	Amazon Bedrock AgentCore Memory announces streaming notifications for long-term memory
+666	2	Stateful MCP applications	Amazon Bedrock AgentCore Runtime now supports stateful MCP server features
+667	1	Bedrock usage monitoring	It now supports two new CloudWatch metrics, TimeToFirstToken and EstimatedTPMQuotaUsage, giving you deeper visibility into inference performance and quota consumption.
+668	1	Infrequent log analytics	Amazon CloudWatch Logs now supports data protection, OpenSearch PPL and OpenSearch SQL for the Infrequent Access ingestion class
+669	1	Outbound contact email	Amazon Connect now lets you select different From email addresses when sending emails
+670	2	Contact email analysis	Amazon Connect now supports conversational analytics for email
+671	2	Agent coaching managers	Amazon Connect now provides integrated workflows for managers to coach agents
+672	1	Multilingual voice agents	Amazon Connect now supports 13 new languages for voice AI agents, bringing the total to 40 language locales.
+673	2	Supply chain container caches	Amazon ECR now supports pull through cache for Chainguard
+674	1	Scaled Kubernetes control planes	Amazon Elastic Kubernetes Service (Amazon EKS) now offers a 99.99% Service Level Agreement (SLA) for clusters running on Provisioned Control Plane, up from the 99.95% SLA offered on standard control plane.
+675	2	EC2 vulnerability management	Amazon Inspector expands agentless EC2 scanning and introduces Windows KB-based findings
+676	2	Graph spatial analytics	Amazon Neptune Database adds native spatial data support
+677	1	OpenSearch deployment operators	Amazon OpenSearch Service now offers a Capacity Optimized option for blue/green deployments, ensuring domain updates can complete even when available instance capacity is less than required.
+678	2	SQL Server host patching	Amazon RDS Custom for SQL Server now provides customers with ability to view and schedule new operating system (OS) updates for RDS provided engine versions (RPEV).
+679	1	BI dashboard workloads	Amazon Redshift increases performance for new queries in dashboards and ETL workloads by up to 7x
+680	2	Cross-account warehouse restores	Previously, restoring a serverless namespace from a snapshot required administrators to manually re-grant datashare permissions to consumer clusters and recreate consumer databases, even when restoring to the same namespace.
+681	1	Serverless model customization	Amazon SageMaker AI now supports serverless reinforcement fine-tuning for 12 additional models
+682	1	Restricted training instance operators	Amazon SageMaker HyperPod now provides comprehensive observability for Restricted Instance Groups
+683	2	Organizations with third-party catalogs	Amazon SageMaker Unified Studio adds metadata sync with third-party catalogs
+684	2	Kiro notebook developers	Amazon SageMaker Unified Studio launches support for remote connection from Kiro IDE
+685	1	Catalog data discovery	Amazon SageMaker Unified Studio adds custom metadata filters
+686	1	Targeted feature rollout	AWS AppConfig adds enhanced targeting during feature flag rollout
+687	1	Batch lifecycle monitoring	AWS Batch now provides enhanced visibility into your compute environments with two new capabilities that help you maintain operational best practices.
+688	2	Builder ID users	AWS Builder ID now supports Sign in with GitHub and Amazon
+689	1	AWS Config auditors	AWS Config now supports 30 additional AWS resource types across key services including Amazon Bedrock AgentCore and Amazon Cognito.
+690	1	BGP network operators	AWS Direct Connect adds CloudWatch metrics for BGP monitoring
+691	1	DynamoDB zero-ETL replication	AWS Glue zero-ETL now supports configurable change data capture (CDC) refresh intervals and on-demand data ingestion for integrations with Amazon DynamoDB as the source.
+692	2	High-volume genomic runs	AWS HealthOmics introduces batch run operations
+693	1	Rust functions on managed EC2	AWS Lambda Managed Instances now supports Rust, enabling developers to run high-performance Rust-based functions on Lambda-managed Amazon EC2 instances while maintaining Lambda’s operational simplicity.
+694	2	Multi-account IAM inventory	Previously, understanding where accounts and organizational units (OUs) are positioned within your organization structure required multiple API calls.
+695	3	Private certificate enrollment clients	SCEP clients can reach a private certificate connector over a VPC endpoint without internet egress.
+696	2	Security Agent administrators	AWS Security Agent now available with Service Quotas
+697	2	State machine developers	AWS Step Functions adds 28 new service integrations, including Amazon Bedrock AgentCore
+698	2	Mainframe modernization teams	AWS Blu Insights is now AWS Transform for mainframe refactor
+699	1	IPv6 CDN workloads	Amazon CloudFront now supports bringing your own IPv6 addresses (BYOIP) for Anycast Static IPs via VPC IP Address Manager (IPAM).
+700	2	Application log shippers	Amazon CloudWatch Logs now supports log ingestion using HTTP-based protocol
+701	2	Multi-account EC2 telemetry	Amazon CloudWatch now allows customers to automatically enable Amazon Elastic Compute Cloud (EC2) detailed monitoring across their AWS Organization.
+702	2	Beanstalk incident responders	This feature is designed for developers and operations teams who need to diagnose and resolve environment issues faster without manually reviewing logs and events.
+703	1	GPU notebook users	Amazon SageMaker Studio notebooks now support G7 instance types
+704	1	Memory-intensive Lambda functions	AWS Lambda supports up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances
+705	2	Approval team administrators	Multi-party approval now supports approval team baselining
+706	2	Accelerator provisioning for EKS	AWS Neuron announces support for Dynamic Resource Allocation with Amazon EKS
+707	1	GPU notebook users	SageMaker Notebook Instances now support P5.4xl instance types
+708	2	Rich business messaging	RCS includes automated SMS fallback, ensuring messages are delivered as SMS when a recipient's device doesn't support RCS with no additional logic required in your application.
+709	2	Replicated S3 bucket lifecycle management	Once you have corrected your replication configuration or permissions, you can use S3 Batch Replication to replicate objects that previously failed.
+710	2	Cursor notebook developers	Amazon SageMaker Unified Studio launches support for remote connection from Cursor IDE
+711	2	Code modernization teams	AWS Transform custom announces general availability of automated codebase analysis
+712	2	Browser automation agents	Key use cases include automated testing with system dialog handling, document management workflows, complex UI interactions with right-click menus, and vision-based AI agents that require complete browser environment visibility.
+713	3	Federated Athena query workloads	Athena-managed connectors remove the need to deploy and maintain customer-owned connector resources.
+714	2	Agents accessing downstream APIs	Previously, developers building agents that needed to act on behalf of a user had to manage separate consent flows for each protected resource, adding friction for end users and complexity for builders.
+715	1	CloudFront signing applications	Amazon CloudFront now supports SHA-256 as a hash algorithm for creating signed URLs and signed cookies.
+716	2	Telemetry governance teams	Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules
+717	1	Log transformation pipelines	Amazon CloudWatch pipelines now supports conditional processing and a new drop events processor, giving you more control over how your log data is transformed.
+718	1	Contact center AI supervisors	Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy.
+719	1	Contact center attachment handling	Amazon Connect now supports attachment file sizes up to 100 MB for chat, cases, and tasks, up from the previous 20 MB limit.
+720	2	Self-service phone calls	Amazon Connect now enables you to automatically pass customer context to personalize self-service experiences from the moment a call connects.
+721	1	High-bandwidth EC2 workloads	Introducing Amazon EC2 M8in and M8ib instances
+722	2	ECS GPU operators	Introducing GPU Health Monitoring and Auto Repair for Amazon ECS Managed Instances
+723	3	Hybrid Kubernetes pod networks	The gateway connects hybrid nodes without requiring the customer's on-premises pod networks to be routable.
+724	2	EKS cluster administrators	Amazon Elastic Kubernetes Service (EKS) now provides one-click cluster access directly from the AWS Management Console through AWS CloudShell , eliminating the need to install and configure kubectl, AWS CLI, or kubeconfig files locally.
+725	1	High-fidelity game streaming	Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming
+726	1	Terrain and traffic maps	This release introduces customizable contour line density levels, a traffic congestion-only mode, 3D Terrain and Globe View features, and expands support for existing features across multiple map styles.
+727	2	Kafka disaster recovery	Amazon MSK Replicator now provides enhanced consumer offset synchronization for bidirectional replication, enabling applications to resume processing from the correct position when moving across Kafka clusters.
+728	2	Search JWT authentication	Previously, JWT authentication required you to manually configure and update static public keys.
+729	2	Search cluster software upgrades	Previously, once a software update was applied, there was no self-service option to revert it to a previous version if you encountered an unexpected issue.
+730	3	Automations sharing working files	Native shared file storage can replace an external storage integration for automation files.
+731	2	Teams automating SaaS operations	Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more
+732	2	Workforce analytics users	Vee can also be invoked from automated Quick Flows to run recurring workforce reviews or draft documents.
+733	1	Top-K analytical queries	Amazon Redshift introduces key performance optimization for Top-K queries
+734	1	Qwen fine-tuning workloads	Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models
+735	2	Training cluster diagnostics	Amazon SageMaker HyperPod now supports on-demand deep health checks
+736	1	Training capacity analysts	Amazon SageMaker Training Plans now supports Amazon CloudWatch metrics to monitor the utilization of capacity reservations associated with your purchased plan.
+737	1	Authorization policy administrators	Amazon Verified Permissions now supports policy store aliases and named policies and policy templates
+738	1	Desktop private endpoint clients	Amazon WorkSpaces Personal now supports unique DNS names for PrivateLink
+739	1	Automatically scaled databases	Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero
+740	3	Multiple VPC remote access	Direct Client VPN to Transit Gateway attachment removes the intermediate VPC.
+741	2	Cloud spend analysts	You can now use natural language queries to ask Amazon Q questions about your AWS cost and usage data.
+742	1	IPv6 replication traffic	AWS Elastic Disaster Recovery (AWS DRS) now supports IPv6 for both data replication and control plane connections.
+743	3	Functions reading S3 as files	A Lambda function can mount S3 objects as files instead of downloading them for local processing.
+744	2	Software buyers searching catalogs	AWS Marketplace announces the Discovery API for programmatic access to catalog data
+745	1	Outpost network operators	AWS Outposts racks now support the LagStatus Amazon CloudWatch metric in all AWS commercial Regions and the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions.
+746	1	Customer-managed key selection	You can now provide a KMS key Amazon Resource Name (ARN) directly in the console, in addition to selecting from the pre-populated list of KMS keys in your current account.
+747	1	IPv6 SFTP clients	AWS Transfer Family now supports IPv6 for connectors and web apps
+748	2	Developers modernizing code in IDEs	AWS Transform agents now available in Kiro, Claude, Cursor, and Codex
+749	1	Domain-specific speech transcription	Amazon Bedrock Data Automation now supports custom vocabulary
+750	2	Bedrock AI developers	Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)
+751	2	Investigators correlating logs	Amazon CloudWatch Logs Insights introduces JOIN and sub-query commands
+752	2	Teams developing Quick apps	Build custom applications using natural language in Amazon Quick (Preview)
+753	1	Multi-region render operations	AWS Deadline Cloud supports monitor creation in multiple regions
+754	1	EC2 reservation chargeback	Amazon EC2 Capacity Manager now supports tag-based dimensions
+755	1	Private application TLS ingress	AWS Elastic Beanstalk now supports TLS listeners for environments configured with a Network Load Balancer.
+756	1	Firewall rule administrators	Enhancements to AWS Network Firewall Managed Rules from AWS Marketplace Partners
+757	1	Latency-sensitive Oracle applications	Oracle Database@AWS launches sub-millisecond network latency for high performance applications
+758	2	Metered Marketplace sellers	Partner Revenue Measurement now supports AWS Marketplace Metering for certain AWS Marketplace products
+759	1	SharePoint knowledge retrieval	Amazon Quick now supports document-level access controls (ACLs) for Microsoft SharePoint knowledge bases, enabling organizations to maintain native SharePoint permissions when indexing content.
+760	1	Qwen model inference	Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart
+761	2	Iceberg table ETL	Previously, modifying individual rows in Iceberg tables required using separate engines, adding complexity and latency to data pipelines.
+762	1	S3 content integrity checks	Amazon S3 now supports five additional checksum algorithms: MD5, XXHash3, XXHash64, XXHash128, and SHA-512, bringing the total to ten.
+763	2	Feature Store curators	With this interactive interface for creating and managing features, you can now discover and search existing features, create and modify feature groups, view definitions and schemas, monitor data ingestion status - all without writing API calls.
+764	2	Foundation model endpoint operators	SageMaker JumpStart now offers optimized deployments for foundation models
+765	2	Email security operators	Amazon SES Mail Manager adds new features for enhanced security and email processing
+766	2	Virtual desktop support	Amazon WorkSpaces Advisor now available for AI-powered troubleshooting
+767	1	Agent memory consistency	Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory
+768	2	MySQL developers using Kiro	Amazon Aurora MySQL now supports integration with Kiro Powers
+769	2	Model inference chargeback	Amazon Bedrock expands support for request-level usage attribution
+770	1	Real-time web applications	Amazon CloudFront now supports WebSockets traffic through Virtual Private Cloud (VPC) origins, enabling you to use CloudFront as the single entry point for real-time applications hosted entirely in private subnets.
+771	2	Agents wrapping up contacts	Amazon Connect adds default Step-by-Step Guides for After Contact Work
+772	2	Contact center case managers	Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace
+773	1	Future contact scheduling	Amazon Connect Customer now supports scheduling tasks up to 90 days in advance, helping organizations plan, route, and track long-running follow-up work.
+774	1	Multilingual contact summaries	Amazon Connect Customer now supports generative AI-powered post-contact summaries in eight additional language families: Portuguese, French, Italian, German, Spanish, Chinese, Japanese, and Korean.
+775	1	Local storage intensive compute	Introducing Amazon EC2 M8idn and M8idb instances
+776	2	Distributed cache diagnostics	Amazon ElastiCache adds thirteen new Amazon CloudWatch metrics for network capacity planning and engine diagnostics
+777	2	Interactive Spark analytics	Run Interactive Workloads on Amazon EMR Serverless with Spark Connect
+778	1	VMware cloud environments	Today, we are announcing that Amazon Elastic VMware Service (Amazon EVS) now supports up to 32 ESXi hosts per environment, double the previous limit of 16 hosts.
+779	2	EC2 vulnerability assessments	Amazon Inspector launches improved agent-based scanning for EC2
+780	2	Grafana administrators	Amazon Managed Grafana now supports in-place upgrade to Grafana version 12.4
+781	2	Graph database troubleshooting	Previously, connecting to Neptune resources required manual configuration network settings and access permissions, taking time from database administrators, developers, and data analysts who needed to query their graph databases.
+782	3	Private search-to-model connections	A VPC search domain can reach models or applications on private network paths.
+783	2	BI dashboard authors	Amazon Quick generates dashboards from natural language prompts
+784	1	Encrypted research data	Quick Research now supports customer managed keys
+785	1	Warehouse compute workloads	Amazon Redshift launches RG instances powered by AWS Graviton
+786	1	IPv6 DNS resolution	Amazon Route 53 Resolver endpoints now support additional capabilities for IPv6 query traffic
+787	2	OpenAI-compatible inference clients	Amazon SageMaker AI now supports OpenAI-compatible APIs for inference endpoints
+788	1	Qwen model customization	Amazon SageMaker AI now supports serverless model customization for Qwen3.6 27B parameter model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT).
+789	1	Slurm capacity allocation	Amazon SageMaker HyperPod now supports minimum capacity requirements (MinCount) for clusters using Slurm orchestration with continuous provisioning.
+790	2	Email delivery teams	Previously, customers could use SES' Virtual Deliverability Manager to visualize the full end-to-end journey of email deliverability metrics.
+791	2	Streamed browser sessions	Amazon WorkSpaces Applications now supports host-to-client URL redirection
+792	1	PostgreSQL JSON applications	Amazon Aurora DSQL now supports the JSON data type with compression
+793	2	Application recovery planning	AWS announces general availability of the next generation of AWS Resilience Hub
+794	2	Cloud billing transfer administrators	AWS Billing Conductor Console now enables you to see which accounts have received or accepted billing transfer invites but still lack access to pro forma billing data.
+795	1	Config inventory	AWS Config now supports 9 additional AWS resource types across key services including Amazon Bedrock, Amazon Bedrock AgentCore, and Amazon SageMaker.
+796	2	Streaming ad personalization	AWS Elemental MediaTailor launches Monetization Functions
+797	2	Healthcare interoperability	AWS HealthLake now provides native support for healthcare payers to comply with the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F).
+798	2	IoT connection operators	AWS IoT Core adds APIs for MQTT connection management
+799	1	IoT session diagnostics	AWS IoT Device Management adds MQTT session data to connectivity status API
+800	2	Automated software procurement	AWS Marketplace now supports programmatic procurement with Agreements API
+801	1	Organization policy administrators	AWS Organizations now supports higher quotas for service control policies (SCPs).
+802	2	Sensitive payment key operations	AWS Payment Cryptography adds integration to Multi-party approval for sensitive operations
+803	1	Programmatic bidding endpoints	AWS RTB Fabric now supports custom domains for real-time bidding transactions received through external links .
+804	2	WebSocket API developers	However, SAM previously did not support WebSocket APIs, requiring you to manually configure all of the underlying resources in AWS CloudFormation.
+805	1	Security solution buyers	Security Hub Extended expands to 21 curated partner solutions across 9 categories
+806	2	Existing site-to-site tunnels	Previously, changing tunnel bandwidth required deleting and recreating the connection, which generated new tunnel IP addresses and meant updating your on-premises VPN device configuration and firewall rules.
+807	3	VM migration into containers	VM applications can be migrated into a container deployment.
+808	1	Edge request processing	AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule.
+809	2	Large CloudFront flat-rate workloads	Previously, the Amazon CloudFront Premium flat-rate plan supported a single usage allowance, and customers who outgrew it needed to contact us to discuss custom pricing options.
+810	2	Studio domain administrators	Previously, this was only available for IAM based domains.
+811	1	Inter-zone EC2 networks	Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth.
+812	1	Embedding and image inference	New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart
+813	2	Personalized ad streams	Previously, these capabilities required a custom transcode profile.
+814	2	Geographically distributed search domains	Combined with the cross-account data access launch earlier this year, you can now query or build dashboards on OpenSearch domains in flexible combinations of accounts and Regions - without switching endpoints or replicating data.
+815	1	Qwen inference	4 new Qwen models for multimodal reasoning, agentic coding, and multilingual applications are now available in Amazon SageMaker JumpStart
+816	1	SQL Server database workloads	Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8i and R8i instances.
+817	2	IAM-based Studio governance	Amazon SageMaker adds business metadata and governance in IAM-based domains
+818	2	Datadog and Snowflake secret rotation	For Snowflake, you can now rotate Programmatic Access Tokens using Snowflake's native authentication, with a configurable grace period that allows applications to seamlessly transition to new tokens without interruption.
+819	1	Studio onboarding	Amazon SageMaker Unified Studio adds getting started tutorials and in-product release notes
+820	1	Speech model inference	Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart
+821	2	Partner co-selling teams	AWS Partner Central agents now accelerate co-selling on every deal
+822	3	Agents sharing memory across accounts	Agent processes can consume shared memory across AWS account boundaries.
+823	1	Compressed JSONB workloads	Amazon Aurora DSQL now supports the JSONB data type with compression
+824	2	Agents applying Bedrock safety policies	Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy
+825	2	Agent guardrail developers	Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows
+826	1	Bedrock console developers	Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs
+827	1	CloudWatch SQL-like analytics	Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs.
+828	1	Historical metrics investigation	Amazon CloudWatch now supports querying metrics data up to two weeks old
+829	2	Cloud observability analysts	Amazon CloudWatch Query Studio is now generally available
+830	1	Dashboard inventory	A mazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags.
+831	2	Voice agent supervisors	Amazon Connect Customer now provides AI agent traces for self-service voice interactions, enabling you to understand how AI agents reason, act, and respond during each customer conversation.
+832	2	CX flow designers	Amazon Connect Customer launches Agentic CX designer (NLX) in preview
+833	2	Urgent contact routing	Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact
+834	2	EC2 capacity planners	Should plans change, you can now cancel your future-dated reservation.
+835	1	Large Fargate tasks	Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance.
+836	1	Outpost Kubernetes clusters	Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store
+837	2	Running Spark applications	Previously, modifying these settings required stopping your EMR Serverless application, making the change, and restarting it — forcing you to coordinate maintenance windows and temporarily block job submissions.
+838	2	Security incident investigators	Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)
+839	2	Kafka migration developers	Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK
+840	2	Airflow workflow operators	Previously, monitoring workflow execution required custom polling logic or manual observation.
+841	1	IPv6 graph database clients	Amazon Neptune now supports dual-stack mode, enabling database clusters to accept connections over IPv4, IPv6, or both protocols simultaneously.
+842	1	Customer-encrypted research data	Quick Research now supports customer managed keys
+843	2	Quick business automation	Agents operate continuously to automate workflows like following up on stalled deals, summarizing regulatory changes, and processing purchase orders, eliminating manual repetitive work and notification overload.
+844	1	Graviton-based RDS databases	Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances
+845	2	DNS security administrators	Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)
+846	1	Gemma model customization	Amazon SageMaker AI now supports serverless model customization for Gemma 4 E4B and 31B models using supervised fine-tuning (SFT), direct preference optimization (DPO), and reinforcement fine-tuning (RFT).
+847	2	Data Agent users	Amazon SageMaker Data Agent now supports conversation history
+848	1	Interactive serverless Spark notebooks	Studio notebooks add EMR Serverless as an alternative interactive Spark engine.
+849	2	Cloud cost anomaly investigators	AWS now provides AI-powered cost investigations for cost anomalies
+850	2	Multi-stage clean room queries	AWS Clean Rooms now supports intermediate tables for SQL
+851	2	Stack template developers	Previously, pre-deployment validation was available during change set creation, covering property syntax errors, resource name conflicts, and S3 bucket emptiness constraints.
+852	1	Idle cloud resource monitoring	AWS Compute Optimizer now supports idle recommendations for six additional resource types
+853	2	Cloud cost analysts	With a single button click you now can receive detailed analysis from Amazon Q Developer covering your cost trends, top cost drivers, and anomalies.
+854	2	CUR 2.0 analytics	AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration
+855	1	Private Direct Connect networks	AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion
+856	2	Interactive Glue Spark workloads	AWS Glue Interactive Sessions now support Spark Connect for interactive workloads
+857	2	Genomics workflow troubleshooting	AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time
+858	1	IoT authentication diagnostics	AWS IoT Core now provides two new Amazon CloudWatch Log event types that help you troubleshoot device connectivity issues and authentication errors across your Internet of Things (IoT) fleet.
+859	2	Tagged Lambda-managed resources	Organizations that use resource tagging for cost tracking, governance, or security previously had no way to propagate tags to the underlying managed resources that LMI provisions on their behalf.
+860	2	Partner-branded software catalogs	Partners can automate deal workflows with private offer templates, approval automation, and native CRM connectivity to tools like Salesforce and HubSpot.
+861	1	Container firewall administrators	AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS
+862	2	Outposts procurement	AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API.
+863	2	Partners seeking funding	AWS Partner Central launches new funding benefits for Business Value Realization
+864	2	Partner co-sell pricing	AWS Partners co-selling with AWS can now use express private offers to automate pricing within co-sell workflows.
+865	2	AI workload compliance	Today, AWS Security Hub CSPM announces the AI Security Best Practices standard, a set of 31 automated security controls that detect when your deployed AI resources do not align with security best practices.
+866	2	Agentic state machines	AWS Step Functions now enables you to add AI agent reasoning steps to your workflow through an optimized integration with the managed harness (currently in preview) in Amazon Bedrock AgentCore.
+867	2	Modernization teams	AWS launches a new continuous modernization capability in AWS Transform that provides autonomous tech debt analysis and remediation at scale
+868	2	Storage migration teams	AWS Transform for migrations is an agentic AI service that automates the discovery, planning, and migration of workloads, accelerating infrastructure modernization with increased speed and confidence.
+869	1	EC2 batch allocation	AWS Batch now supports customer-ordered instance allocation strategies
+870	2	Teams using Claude Enterprise	Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace
+871	2	OTel metrics pipelines	Amazon CloudWatch pipelines now supports processing and enriching OpenTelemetry metrics
+872	3	Persistent render assets	Reusable EBS volumes replace exclusively ephemeral storage on render workers.
+873	1	Reserved EC2 capacity	Amazon EC2 Auto Scaling now supports reservations then balanced Availability Zone distribution
+874	1	Arm EC2 workloads	Amazon EC2 M9g and M9gd general purpose instances are now available
+875	2	Beanstalk log investigation	AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console.
+876	1	Genomic temporary storage	AWS HealthOmics now supports ephemeral storage for private workflows
+877	2	Partner sales teams	AWS Partner Central now provides lead enrichment and prospecting, enabling AWS Partners to enrich AWS-sourced leads or partner-sourced leads with AWS-generated propensity insights, and recommendations for program, funding, and sales motion eligibility.
+878	1	Nested hypervisor operators	Nested virtualization is now available on additional Intel platforms and AWS GovCloud (US) regions
+879	3	Serverless Oracle database customers	Autonomous Serverless eliminates the need to provision dedicated Exadata infrastructure or VM clusters.
+880	1	Memory-heavy SQL Server instances	Amazon RDS for SQL Server now supports X2m instances
+881	2	Agents handling secrets	AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS
+882	3	Streaming transactional changes	A managed change stream routes database mutations into Kinesis for downstream processing.
+883	2	Agent trace investigation	Previously, AgentCore split agent telemetry across multiple destinations trace spans went to the shared `aws/spans` log group while event logs containing prompts, inputs, and outputs went to a separate resource-specific log group.
+884	3	Load balancer logging	Load balancers can publish access and health logs directly into CloudWatch Logs.
+885	1	Multilingual customer interactions	Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls
+886	1	Contact queue supervisors	Amazon Connect Customer launches metrics for agent queues on analytics dashboards
+887	2	EC2 root volume recovery	Amazon EC2 now supports using an EBS volume for Replace Root Volume
+888	1	ECS deployment operators	Amazon ECS now supports configurable deployment circuit breaker settings
+889	3	Private cluster identity federation	EKS workload identity discovery can use a private VPC endpoint instead of internet egress.
+890	2	EKS Spark debugging	Data engineers can now diagnose EMR on EKS job failures through natural language, receiving automated root cause analysis and PySpark code recommendations without manually navigating distributed logs and Spark History Server data.
+891	2	Game stream session operators	Amazon GameLift Streams introduces secure terminal access for stream sessions
+892	1	Runtime security monitoring	Amazon GuardDuty adds sensitive file modification threat detections
+893	U	Regulated Grafana users	The announcement identifies a program or authorization change but gives no specific change to customer workflow steps or components.
+894	U	Regulated Prometheus users	The announcement identifies a program or authorization change but gives no specific change to customer workflow steps or components.
+895	1	Graph data authorization	Amazon Neptune now supports tag-based access control for IAM
+896	2	OpenSearch dashboard migrations	Amazon OpenSearch UI now supports one-click dashboard migration
+897	1	Warehouse compute sizing	Amazon Redshift adds rg.large and rg.12xlarge instance sizes
+898	1	Warehouse upgrade track users	Amazon Redshift now supports Graviton-based RG instances on the trailing track .
+899	1	GPU inference workloads	Amazon SageMaker AI inference now supports G7 instances
+900	2	Studio project developers	This brings a consistent source control experience across all project tools, including Notebooks, which previously had no Git support.
+901	2	ETL transform authors	With Amazon SageMaker Unified Studio, you can now create, share, and reuse custom visual transforms in visual ETL flows.
+902	2	Mail Manager SMTP senders	Amazon SES simplifies sending emails over SMTP using Mail Manager
+903	2	Studio data pipeline developers	Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog
+904	2	Workshop learners	AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about unexpected charges.
+905	1	Private endpoint audit logging	Selectively log network activity events by identity in AWS CloudTrail
+906	1	Bedrock cost analysts	AWS Data Exports now provides standardized Amazon Bedrock product metadata
+907	2	BGP routing operators	AWS Direct Connect now provides Border Gateway Protocol (BGP) route visibility, allowing you to view the routes exchanged between AWS and your on-premises routers across your private, transit, and public virtual interfaces (VIFs).
+908	1	Disaster recovery volume provisioning	AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries.
+909	2	Data quality operators	AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog
+910	2	Healthcare master data	AWS HealthLake identifies and links duplicate patient, provider, and organization records (Preview)
+911	1	Durable function SDK authors	AWS Lambda durable functions now supports custom Durable Execution SDK
+912	1	Container-based function startup	AWS Lambda now supports SnapStart for container image functions
+913	3	Kafka-to-S3 ingestion	MSK delivers Kafka data to S3 without a customer-operated connector fleet.
+914	1	Organization governance policies	AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000.
+915	1	Partner funding applicants	AWS Partner Central agents now support all AWS Partner funding programs.
+916	2	Cloud exposure scanning	AWS Security Hub now offers Network Scanning to identify publicly reachable resources
+917	3	Multi-VPC traffic steering	Transit Gateway policies can steer traffic without the additional VPC routing hops previously needed.
+918	3	Wickr compliance archiving	Serverless managed retention replaces the customer-hosted container retention deployment.
+919	1	Scheduled metrics evaluation	Amazon CloudWatch Alarms now supports wall clock evaluation windows
+920	2	Cognito capacity administrators	Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand.
+921	2	Customers paying by bank transfer	AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices.
+922	1	Sensitive workloads on dedicated hosts	Amazon EC2 Dedicated Hosts now support AMD SEV-SNP
+923	2	Public image consumers	Previously, finding the SSM parameter associated with a public AMI required searching through SSM parameter namespaces manually.
+924	1	Gemma inference	Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart
+925	2	IAM policy authors	Together, these changes help teams automate policy unit testing, detect over-permissive access, and validate guardrails with greater confidence.
+926	3	Customers managing function artifacts	Lambda can reference deployment artifacts in the customer's S3 bucket without an intermediate code copy.
+927	2	Agents connecting to AWS tools	You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In.
+928	1	Vector search model deployment	Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart
+929	2	Data warehouse disaster recovery	Amazon Redshift Serverless now automatically preserves zero-ETL and Amazon S3 event integrations when restoring a namespace from a snapshot or recovery point to the same serverless namespace.
+930	2	Sensitive contact center recordings	Amazon Connect Customer now lets you protect sensitive information in agent screen recordings by defining rules to redact specific applications or URLs.
+931	1	Domain-specific catalog assets	Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains.
+932	1	Synthetic monitoring artifacts	Amazon CloudWatch Synthetics now supports customer managed encryption keys
+933	1	Speech transcription inference	Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart
+934	2	Graphics game streaming	Amazon GameLift Streams Now Offers Service-managed Shader Caching
+935	1	Agent memory namespace administrators	Amazon Bedrock AgentCore Memory now supports flexible namespace variables
+936	1	Multi-region Grok inference	Amazon Bedrock now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference.
+937	1	Protected S3 multi-region origins	Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points
+938	2	Centralized log operators	Amazon CloudWatch log Centralization now supports log group tag propagation
+939	2	Contact callback scheduling	Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats.
+940	2	Contact center managers	Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds.
+941	1	Agent evaluation supervisors	Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores.
+942	2	Contact queue monitoring	Amazon Connect Customer adds one-click drill-down on real-time metrics dashboards
+943	1	Routing performance analysts	Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent proficiencies.
+944	2	EC2 application monitoring	Amazon EC2 introduces application status checks
+945	1	Images with very large layers	Amazon Elastic Container Registry (Amazon ECR) has increased the maximum image layer size limit to 200 GB, for images pushed via Docker push.
+946	1	GPU-sharing container workloads	Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances
+947	1	Kubernetes control plane operators	Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server.
+948	2	Interactive Spark analysis	Run interactive workloads on Amazon EMR on EC2 with Spark Connect
+949	2	Public game server workloads	Amazon GameLift Servers enhanced DDoS Protection now available
+950	2	Kafka authorization auditing	Amazon MSK now delivers Kafka Authorizer Logs to customers
+951	2	Private semantic search domains	Previously, automatic semantic enrichment was available only on domains that are not VPC-enabled.
+952	2	Enterprise DLP enforcement	Amazon Quick now supports data loss prevention with Microsoft Purview
+953	1	RDS volume restore operators	Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots.
+954	2	Full model fine-tuning	In addition to parameter-efficient methods such as LoRA, which update a small subset of model weights, you can now update all parameters in the model for deeper adaptation when your use case requires it.
+955	1	Email engagement analytics	Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs.
+956	1	Encrypted time series data	Amazon Timestream for InfluxDB now supports customer managed keys
+957	1	VDI session diagnostics	Amazon WorkSpaces Applications now publishes enhanced observability metrics
+958	1	DSQL relational integrity	Amazon Aurora DSQL now supports foreign key constraints
+959	2	Security remediation authors	Today, AWS announced four new capabilities for Automated Security Response on AWS (ASR) solution.
+960	3	Microsoft Azure to AWS networks	A managed private AWS-to-Azure link replaces customer-assembled network interconnects.
+961	2	S3 backup investigations	AWS Backup for Amazon S3 now supports direct access to backup data
+962	2	Cost dashboard users	AWS Billing and Cost Management introduces Managed Dashboards
+963	2	Remote VPN administration	You can now script VPN connections into your automation workflows and infrastructure-as-code deployments.
+964	1	Third-party model cost monitoring	AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock
+965	1	Render job template authors	AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines.
+966	1	Hybrid network route control	AWS Direct Connect introduces inbound prefix controls and higher prefix scale
+967	2	Iceberg catalog analytics	AWS Glue Data Catalog now supports metadata exports to S3 Tables (Preview)
+968	2	Workforce account administrators	Previously, customers granting workforce access to AWS accounts could use one of two alternative access management approaches.
+969	2	Service role provisioning	AWS IAM now provides role manager to set up IAM roles automatically
+970	1	Lambda resource permissions	AWS Lambda functions now support full IAM resource-based policies
+971	2	Marketplace procurement teams	You can now understand how a product's pricing works before you buy it.
+972	1	Software partner notifications	AWS Marketplace now supports category-based notifications and multi-channel delivery for partners
+973	3	Internet egress filtering	The existing firewall can serve as a forward proxy under the same security policy.
+974	U	Regulated HPC operators	The announcement identifies a program or authorization change but gives no specific change to customer workflow steps or components.
+975	2	Penetration test managers	Security teams and DevSecOps engineers previously had no built-in way to cap test costs or efficiently confirm that a remediated vulnerability had been resolved.
+976	2	Application migration operators	AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow.
+977	1	Cross-account capacity pools	Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations
+978	1	Self-managed PostgreSQL monitoring	Amazon CloudWatch Database Insights now supports self-managed PostgreSQL
+979	2	Outpost AMI developers	Amazon EC2 enables AMI creation with local snapshots from instances on Outposts
+980	3	Geographically distributed ONTAP backups	Backups can reside in another account or Region for recovery beyond the source environment.
+981	1	Long-context GPT inference	GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock, enabling you to process full codebases, lengthy documents, and multi-turn agent histories in a single request.
+982	1	Video network recovery	AWS Elemental MediaConnect Router now supports configurable recovery latency modes
+983	2	Serverless Airflow task developers	Amazon MWAA Serverless now supports PythonOperator and BashOperator
+984	2	Search cluster troubleshooting	Previously, when a cluster entered Red or Yellow status due to unassigned shards, diagnosing the underlying cause required manually correlating multiple metrics across nodes and availability zones.
+985	2	Warehouse automation developers	Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management
+986	1	Large Kinesis event ingestion	Amazon Redshift now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS.
+987	1	Encrypted MLflow deployments	SageMaker MLflow now supports customer managed keys
+988	2	Jenkins and SonarQube credential rotation	AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube
+989	1	Spot capacity planners	Spot Placement Score now includes Local Zones
+990	1	Web search agents	Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search.
+991	3	Complex contact center cases	A frontline agent can delegate work or transfer a session to a separately specialized agent.
+992	2	Customer experience designers	You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand.
+993	3	Aurora database replication	A delayed replica can be promoted before a harmful change propagates, without a full restore.
+994	2	Document retrieval authorization	Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control
+995	1	Video and audio retrieval	Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0
+996	2	Enterprise content ingestion	Previously, configuring these data sources required generating 2LO credentials on the third-party side, which could be time-consuming and inaccessible for users who lack admin-level access to those systems.
+997	2	Contact center QA managers	Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to migrate an existing quality program into Connect.
+998	1	Contact routing analysts	Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions.
+999	2	ECS deployment monitoring	Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies.
+1000	1	Task launch policy administrators	Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs.
+1001	1	Global cache administrators	Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore.
+1002	U	Regulated VMware cloud users	The announcement identifies a program or authorization change but gives no specific change to customer workflow steps or components.
+1003	2	Airflow environment administrators	You can use the one-click Create Recommended Alarms action to provision a curated set of alarms from an AWS-managed template, so you can start monitoring critical metrics without having to configure each alarm manually.
+1004	2	Enterprise tool connectors	Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors
+1005	1	Database snapshot inventory	Amazon RDS now adds full snapshot size information to the Console and API
+1006	3	Private FIPS S3 workloads	FIPS endpoint calls to S3 can take a private VPC path.
+1007	2	Training jobs seeking capacity	Amazon SageMaker AI now supports instance preference lists for training and processing jobs
+1008	3	SNS events 256 KiB–1 MiB	Publishing a single message removes the offload dependency for payloads between 256 KiB and 1 MiB.
+1009	2	Streamed graphics applications	Previously, each graphics generation required its own dedicated image.
+1010	3	Transactional and lakehouse analytics	PostgreSQL can query the lake directly without an ETL pipeline or duplicate dataset.
+1011	2	AWS account contact administrators	Previously, phone numbers in AWS account contact information were validated for format but never verified through an out-of-band mechanism.
+1012	2	Batch queue operators	AWS Batch now supports bulk job cancellation and termination
+1013	2	Federated Builder ID users	AWS Builder ID adds recovery options and multi-factor authentication for third-party logins
+1014	2	CloudFormation extension developers	Previously, the contract test suite covered only basic scenarios around the CRUD handlers.
+1015	2	Terraform-based account provisioning	AFT is an open-source Terraform module that automates account provisioning and customization in AWS Control Tower environments.
+1016	3	Personalized live multiview streams	MediaPackage composes streams server-side on request instead of maintaining pre-encoded combinations.
+1017	2	Resilient SMS delivery	AWS End User Messaging strengthens SMS deliverability with automatic failover
+1018	2	WhatsApp customer interactions	AWS End User Messaging now supports Dynamic Flows in WhatsApp
+1019	2	Genomics capacity planning	AWS HealthOmics introduces resource fallback order for WDL workflows
+1020	2	Durable AI agent developers	AWS Lambda durable functions integrates with Pydantic AI
+1021	1	Marketplace sales operations	AWS Marketplace sellers now receive qualified demo and private offer requests in minutes
+1022	1	HPC resource scheduling	AWS Parallel Computing Service (AWS PCS) now supports custom Generic Resource (GRES) settings and hardware topology, and adds support for Slurm version 26.05.
+1023	2	Application penetration testers	Previously, identifying all the URLs your application reaches required manual effort, and authentication failures were only discovered after a full test cycle completed, costing time and resources.
+1024	2	Growing SFTP connector fleets	AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region.
+1025	2	Modernized .NET applications	Modernizing a .NET Framework application to modern .NET produces a transformed, buildable codebase, but teams previously had to write test coverage for that modernized code by hand.
+1026	1	Sonnet model inference	AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed.
+1027	2	Frequently queried logs	Amazon CloudWatch Logs now automatically indexes the fields you query frequently, speeding up CloudWatch Logs Insights queries without requiring any manual setup.
+1028	2	Contact metrics developers	Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs
+1029	1	Contact center dashboard viewers	Amazon Connect Customer now offers compact mode on the analytics dashboards, increasing data density so supervisors can see more of their operational data without scrolling.
+1030	3	Cross-continent strong consistency	Strongly consistent replicas can now be placed across continents in a three-Region configuration.
+1031	1	Machine image publishers	Amazon EC2 now supports specifying compatible instance types on AMIs
+1032	3	Multi-application web hosting	Several applications can share a Beanstalk cluster rather than each using its own environment.
+1033	2	Live video metadata extraction	AWS Elemental Inference now generates contextual metadata from live video in real time
+1034	2	Enterprise event routing	With a new event publishing API, you can now publish events in popular JSON based event formats like CloudEvents and preserve their schema without modification.
+1035	1	Salesforce archival analytics	AWS Glue zero-ETL now captures archived Salesforce records
+1036	2	Callers holding identity store ARNs	AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID.
+1037	2	Live BI application developers	Amazon Quick now supports live data from your datasets in apps
+1038	2	Forensic broadcast tracking	AWS Elemental MediaLive adds support for A/B forensic watermarking
+1039	1	Cloud spend dashboards	Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget
+1040	3	Multi-tenant genomic runs	One run role with per-run policies replaces separate tenant-specific IAM roles.
+1041	1	Latency-sensitive GPT inference	OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock
+1042	1	Quantum-resistant database connections	Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange
+1043	1	Small single-node warehouses	Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters.
+1044	2	Application resilience teams	It provides automated dependency discovery, generative AI-powered failure mode analysis, modular resilience policies, resilience testing, and organization-wide resilience posture reporting.
+1045	1	Outpost DNS resolver clients	Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts racks
+1046	2	Notebook release pipelines	Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion across environments.
+1047	3	Serverless workflows running custom code	Python or shell code can run in the workflow instead of offloading execution to Lambda or ECS.
+1048	1	Rack-scale on-premises compute	Announcing second-generation single-rack AWS Outposts
+1049	2	SSM automation across accounts	AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager (AWS RAM).
+1050	1	Load-balanced SFTP servers	AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)
+1051	3	Private automated certificate clients	ACME clients can renew certificates via a private endpoint with no public internet path.
+1052	1	Agent memory retention	Amazon Bedrock AgentCore Memory now supports configurable time-to-live for long-term memory
+1053	1	GLM model inference	Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work.
+1054	2	Contact performance managers	While setting up an evaluation form, managers can run an automated check that compares the form against best practices with a single click.
+1055	2	Filtered DynamoDB exports	Amazon DynamoDB introduces filtered export to Amazon S3
+1056	2	Lattice-routed ECS deployments	Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments
+1057	3	Redis or Valkey migration	Managed live data synchronization and cutover avoid third-party replication tools.
+1058	2	Data engineers running Spark	Amazon EMR now supports native data quality checks in Apache Spark jobs
+1059	1	Low-latency streaming interruptions	Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now provides a failover slate, an animated image that IVS displays to viewers when a broadcaster's stream is unexpectedly interrupted.
+1060	2	Airflow automation developers	Amazon Managed Workflows for Apache Airflow now offers AI agent skills
+1061	1	Search index operators	Amazon OpenSearch Serverless now supports a 5-second default refresh interval
+1062	2	Oracle database patching	Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window.
+1063	1	Serverless model customization	Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen3.8 27B, and Ministral 3 3B, 8B, and 14B models.
+1064	1	Selective relational queries	Amazon Aurora DSQL now supports partial indexes
+1065	1	Agent catalog administrators	AWS Agent Registry now supports custom metadata for registry records
+1066	2	Warehouse recovery exercises	Restore testing helps you automate and periodically run restore tests of your backups, so you can confirm that your Amazon Redshift backups restore successfully and measure how long the restores take.
+1067	1	Bedrock spend analysis	AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes
+1068	3	Databricks data collaboration	Collaborators can analyze Databricks-managed data in place instead of copying the source.
+1069	1	Config-managed resources	AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business.
+1070	3	Customer verification services	Managed end-to-end OTP issuance and verification can replace application-managed code delivery and checking.
+1071	2	Multi-market messaging programs	AWS End User Messaging now supports Brand Profiles
+1072	2	Genomics private workflow images	You can now use container images from registries such as Seqera (Wave), NVIDIA NGC, and Google Artifact Registry with AWS HealthOmics expanded support for third-party container registries.
+1073	2	Workforce identity event consumers	With Identity Store change notifications, you can build automated workflows that respond to identity changes in your organization.
+1074	1	Containerized Lambda startup	AWS Lambda now supports Seekable OCI (SOCI) for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances .
+1075	1	Container firewall administrators	AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS).
+1076	2	Security remediation teams	Instead of addressing each exposure individually, you can now fix a single underlying resource, such as a misconfigured setting or overly permissive policy, and resolve or reduce the severity of multiple exposures at once.
+1077	1	Migrations into existing environments	AWS Transform now supports more types of existing AWS environments when building landing zones for your migration, including AWS Control Tower landing zones and landing zones built with AWS Organizations.
+1078	2	Regional deployment planners	In addition to the feature level availability notifications , you can now filter API operations and CloudFormation resources by availability status and compare Regions to show all capabilities, only matching ones, or only differences.
+1079	1	Location-aware agent search	Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location.
+1080	1	Haiku inference	AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work.
+1081	3	Web applications using Lambda	CloudFront can serve as the protected edge origin path for a Lambda Web Function.
+1082	2	Contact agents reviewing files	Amazon Connect Customer supports inline attachment previews
+1083	1	Contact profile administrators	Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace
+1084	2	Contact flow QA engineers	Amazon Connect Customer now enables you to validate the outcomes of your customer experience flow actions during testing and simulation.
+1085	3	Database replica separation	A replica can become an independent database table without deleting or copying its data.
+1086	2	EC2 image build workers	EC2 Image Builder now integrates with ASG for faster image builds
+1087	1	Auto Mode worker configuration	Amazon EKS Auto Mode now supports advanced compute configuration
+1088	1	Iceberg clients	AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In.
+1089	1	Runtime threat monitoring	Amazon GuardDuty now supports optional detection rules for Runtime Monitoring.
+1090	1	Quantum-resistant key exchange	AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation
+1091	2	Enterprise software procurement	Announcing the AWS Marketplace and Amazon Business unified storefront
+1092	2	Neptune graph administrators	Amazon Neptune now supports online index rebuild to reclaim storage
+1093	1	Terra inference	GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday workloads.
+1094	2	Search domain operators	Amazon OpenSearch Service now provides validation advisory for domain configuration changes, which helps you make informed decisions about changes that carry risk but can still be applied.
+1095	1	Multilingual speech synthesis	Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages
+1096	3	Distributed data lake queries	Redshift can query remote-Region S3 data directly without a local copy or replication.
+1097	2	Registry replication administrators	Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images.
+1098	1	Model tuning workloads	Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs
+1099	2	External service credential rotation	AWS Secrets Manager adds managed external secrets support for Databricks and Twilio
+1100	1	Security finding triage	AWS Security Hub now supports resource criticality for prioritization
+1101	2	Iceberg view owners	Apache Iceberg materialized views now support system-managed write protection
+1102	2	Model customization developers	Amazon SageMaker AI announces training session APIs for serverless model customization
+1103	2	SFTP key management	AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account.
+1104	1	Video understanding applications	Amazon Bedrock now supports TwelveLabs Pegasus 1.5, a video-to-text model that generates structured, time-coded metadata from video.
+1105	1	Claude inference	Claude Opus 4.6 now available in Amazon Bedrock
+1106	2	Bedrock quota administrators	Amazon Bedrock expands support for Service Quotas
+1107	1	Log analytics teams	Amazon CloudWatch Logs Insights query language now supports 25 new commands and functions that expand your ability to query, transform, correlate, and analyze logs.
+1108	2	Offline database schema migration	AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL
+1109	2	Agent-based partner workflows	Previously, AWS Partners needed to set up an MCP proxy with SigV4 credentials to access Partner Central agents from their existing tools, or sign in to AWS Partner Central through the AWS Management Console with IAM credentials.

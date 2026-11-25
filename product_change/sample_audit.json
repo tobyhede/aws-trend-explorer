@@ -1,0 +1,1082 @@
+[
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+    "title": "AWS Config now supports 60 new resource types",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds resource-type coverage to existing Config recording and rules.",
+    "final_reason": "Extends Config assessment to sixty resource types."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/iam-roles-anywhere-post-quantum-digital-certificates/",
+    "title": "IAM Roles Anywhere now supports post-quantum digital certificates",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds ML-DSA certificate compatibility to existing certificate authentication.",
+    "final_reason": "Roles Anywhere supports post-quantum certificates"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+    "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds two targets to an established managed external-secret rotation operation.",
+    "final_reason": "Managed secret rotation supports more SaaS providers"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-end-user-messaging-combat-sms-pumping/",
+    "title": "AWS End User Messaging helps customers combat SMS pumping",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces SMS pumping detection and blocking with risk results and monitoring.",
+    "final_reason": "Refines the existing SMS Protect detection and filtering controls with country/use-case settings; no separate service or execution model is introduced."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/vpc-ipam-cloudfront-byoip/",
+    "title": "Amazon CloudFront integrates with VPC IPAM to support BYOIP",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces IPAM integration to provision customer-owned CloudFront addresses.",
+    "final_reason": "Adds customer-owned address selection and IPAM pool management to existing CloudFront Anycast Static IPs; this changes provisioning options for the existing address capability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/clean-rooms-detailed-monitoring-collaboration-queries/",
+    "title": "AWS Clean Rooms now supports detailed monitoring for collaboration queries",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces publication of detailed collaboration monitoring metrics to CloudWatch.",
+    "final_reason": "Introduces an opt-in detailed query-metric publishing capability to CloudWatch, a distinct monitoring export interface supported by the source."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-ai-inference-rec/",
+    "title": "Amazon SageMaker AI launches optimized generative AI inference recommendations",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces automated model benchmarking and deployment configuration recommendations.",
+    "final_reason": "Introduces optimized inference recommendations and benchmarking results."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-backup-expands-information-job-api-audit-manager/",
+    "title": "AWS Backup expands information in job APIs and Backup Audit Manager reports",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds information fields to existing job APIs and audit reports.",
+    "final_reason": "Backup jobs and reports expose additional metadata"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-cognito-asia-pacific-malaysia-region/",
+    "title": "Amazon Cognito is now available in Asia Pacific (Malaysia) Region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing Cognito functionality.",
+    "final_reason": "Cognito regional availability"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/improved-aws-health-event-triage/",
+    "title": "Improved AWS Health event triage",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds actionability and persona fields to existing Health events.",
+    "final_reason": "Adds actionability and persona fields to Health events."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-bedrock-agentcore-runtime-browser-code-interpreter-vpc-privatelink-cloudformation-tagging/",
+    "title": "Amazon Bedrock AgentCore Runtime, Browser, and Code Interpreter add support for VPC, AWS PrivateLink, CloudFormation, and tagging",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces private connectivity and infrastructure provisioning integrations for AgentCore.",
+    "final_reason": "Adds networking, provisioning and tagging controls around existing AgentCore runtime operations; these are management and connectivity refinements."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
+    "title": "Amazon SageMaker notebooks now support trusted identity propagation",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds per-user identity propagation to existing notebook compute connections.",
+    "final_reason": "Notebook trusted identity propagation"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/",
+    "title": "AWS Certificate Manager now supports native certificate search",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces a distinct certificate search API and console operation.",
+    "final_reason": "The source explicitly introduces SearchCertificates API as well as a console search bar; this is a new certificate search operation, not merely a visual filter."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-chatbot-named-amazon-q-developer/",
+    "title": "AWS Chatbot is now named Amazon Q Developer",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Renames Chatbot with explicit statement that functionality is unchanged.",
+    "final_reason": "Renames existing Chatbot offering."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
+    "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends custom catalog asset types to IAM-based domains.",
+    "final_reason": "IAM catalogs support custom asset types"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management/",
+    "title": "AWS Health introduces the version catalog for software lifecycle management",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces a service-wide software version lifecycle catalog and API access.",
+    "final_reason": "Introduces centralized software-version lifecycle catalog."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-cloudwatch-query-metrics-data-two-weeks/",
+    "title": "Amazon CloudWatch now supports querying metrics data up to two weeks old",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Extends existing Metrics Insights query lookback from three hours to two weeks.",
+    "final_reason": "Metrics query lookback increases to two weeks"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-i7i-instances-available-in-aws-europe-spain/",
+    "title": "Amazon EC2 I7i instances now available in AWS Europe (Spain) region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing I7i instances.",
+    "final_reason": "Expands I7i regional availability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-join-partition-hints-sql/",
+    "title": "AWS Clean Rooms adds support for join and partition hints in SQL",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds join and partition optimization controls to existing SQL queries.",
+    "final_reason": "Adds SQL join and partition optimization hints."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-sourcevpcarn-condition-key-region-control/",
+    "title": "AWS IAM launches aws:SourceVpcArn condition key for region-based access control",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds a policy condition key to existing IAM access controls.",
+    "final_reason": "IAM conditions include source VPC ARN"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
+    "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Accepts ARN identifiers in existing Identity Store API requests.",
+    "final_reason": "Identity Store APIs accept ARNs"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+    "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends existing audio optimization to two additional desktop environments.",
+    "final_reason": "Extends audio optimization to Microsoft virtual desktops."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-ec2-p6-b300-instances-nvidia-blackwell-ultra-gpus-available/",
+    "title": "Amazon EC2 P6-B300 instances with NVIDIA Blackwell Ultra GPUs are now available",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Adds a higher-spec GPU instance to the EC2 instance catalog.",
+    "final_reason": "Adds P6-B300 GPU instance family."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
+    "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces a tunnel endpoint operation for sharing CIDR-based network segments.",
+    "final_reason": "PrivateLink introduces network-segment tunnel endpoints"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
+    "title": "Amazon SageMaker Data Agent integrates business context into conversations",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces integration of catalog business context into Data Agent conversations.",
+    "final_reason": "Adds business metadata and glossary context to the existing Data Agent catalog discovery and code-generation workflow."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-eagle-decoding/",
+    "title": "Amazon SageMaker AI now supports EAGLE speculative decoding",
+    "first_level": "1",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds EAGLE decoding optimization to existing model optimization and deployment workflows.",
+    "final_reason": "Adds EAGLE optimization and specialized prediction-head training to an existing model optimization workflow; this is more than a numerical throughput change."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
+    "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds AZ affinity configuration to existing responder gateways.",
+    "final_reason": "Bidding gateways support zone affinity configuration"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-kinesis-video-streams-webrtc-govcloud-regions/",
+    "title": "Amazon Kinesis Video Streams (KVS) now supports WebRTC in AWS GovCloud (US) Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing KVS WebRTC capability.",
+    "final_reason": "WebRTC GovCloud expansion"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-kubernetes/",
+    "title": "Amazon SageMaker HyperPod now supports custom Kubernetes labels and taints",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds persistent Kubernetes labels and taints to instance-group configuration.",
+    "final_reason": "Custom HyperPod scheduling labels and taints"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
+    "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends agent toolkit skills and supported SageMaker workflow coverage.",
+    "final_reason": "SageMaker expertise packaged as coding-agent skill"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/service-dependencies-amazon-cloudwatch-application-signals-slos/",
+    "title": "Monitor service dependencies with Amazon CloudWatch Application Signals SLOs",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends existing SLO creation to dependency metrics.",
+    "final_reason": "SLO calculations support dependency metrics"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/ami-configuration-continuous-slurm/",
+    "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters using continuous provisioning",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends existing AMI-based node configuration to continuous provisioning.",
+    "final_reason": "AMI-based Slurm node configuration"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-cloudwatch-application-signals-mcp-servers-for-ai-assisted-troubleshooting/",
+    "title": "Amazon CloudWatch and Application Signals MCP servers for AI-assisted troubleshooting",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces MCP interfaces for observability and troubleshooting operations.",
+    "final_reason": "CloudWatch troubleshooting tools exposed through MCP"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-analytics-generally-available-additional-regions/",
+    "title": "Amazon Neptune Analytics is now available in 7 additional regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing Neptune Analytics.",
+    "final_reason": "Neptune Analytics regional expansion"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-extends-fsx-support/",
+    "title": "AWS Backup extends Amazon FSx support to 5 additional AWS Regions and expands cross-Region and cross-account copy to 14 AWS Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing FSx backup and copy capabilities.",
+    "final_reason": "FSx backup regional availability"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-quicksight-trusted-identity-propagation/",
+    "title": "Amazon QuickSight launches Trusted Identity Propagation (TIP) for Athena Direct Query",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds identity propagation access control to existing Athena query integration.",
+    "final_reason": "Athena direct queries propagate user identity"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-transfer-family-asia-pacific-taipei-region/",
+    "title": "AWS Transfer Family is now available in AWS Asia Pacific (Taipei) region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing Transfer Family.",
+    "final_reason": "Transfer regional expansion"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
+    "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends existing Spark troubleshooting agent to EMR on EKS.",
+    "final_reason": "Spark troubleshooting assistant supports EMR on EKS"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-ivs-real-time-streaming-participant-replication/",
+    "title": "Amazon IVS Real-Time Streaming now supports participant replication",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces a participant replication operation between IVS stages.",
+    "final_reason": "Streaming participants can replicate between stages"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-outbound-campaigns-preview-dialing/",
+    "title": "Amazon Connect outbound campaigns supports preview dialing for greater agent control",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces agent preview and approval workflow before outbound campaign dialing.",
+    "final_reason": "Adds a distinct agent preview-and-accept workflow before campaign dialing, including its own review timing and outcome analytics."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-dashboards-filtering-metrics-custom-business-dimensions/",
+    "title": "Amazon Connect dashboards now support filtering metrics based on custom business dimensions",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds business-dimension filters to existing Connect dashboards.",
+    "final_reason": "Adds custom business-dimension dashboard filters."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-eventbridge-sqs-fair-queue-targets/",
+    "title": "Amazon EventBridge now supports targeting SQS fair queues",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds fair-queue targets to existing EventBridge SQS integration.",
+    "final_reason": "Adds fair queues as event delivery targets."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+    "title": "AWS Network Firewall now supports Route 53 Resolved IP Validation",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces resolver-backed destination-IP validation for firewall domain policies.",
+    "final_reason": "Adds DNS-resolved destination-IP validation to existing domain-based firewall rules and extends protocol coverage; it refines the existing traffic-filtering operation."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-end-user-messaging-ipv6/",
+    "title": "AWS End User Messaging now supports IPv6",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds IPv6 compatibility to existing messaging endpoints.",
+    "final_reason": "Adds IPv6 messaging endpoints."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/bedrock-data-automation-optimization-document-blueprints/",
+    "title": "Amazon Bedrock Data Automation launches instruction optimization for your document blueprints",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces an automated blueprint instruction optimization operation with labeled examples.",
+    "final_reason": "Introduces example-driven blueprint instruction optimization."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/b2b-data-interchange-transformation-status-reporting/",
+    "title": "AWS B2B Data Interchange introduces new transformation status reporting",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces a consolidated transformation-status reporting interface.",
+    "final_reason": "Surfaces existing transformation outcomes in the console with status and validation fields; this refines monitoring of the same transformation operation."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/",
+    "title": "AWS Payment Cryptography reduces API pricing by up to 63% and introduces tiered key pricing",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Changes service prices and pricing tiers without adding a product operation.",
+    "final_reason": "API and key rates change automatically without new controls or operations."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-ec2-g6-instances-now-available-in-aws-secret-cloud/",
+    "title": "Amazon EC2 G6 instances now available in AWS Secret Region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing EC2 G6 instances.",
+    "final_reason": "Expands G6 regional availability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-europe-ireland-region/",
+    "title": "Amazon EC2 M8a instances now available in AWS Europe (Ireland) region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing EC2 M8a instances.",
+    "final_reason": "M8a regional availability"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-firewall-manager-aws-private-link/",
+    "title": "AWS Firewall Manager adds support for AWS Private Link",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces PrivateLink access to Firewall Manager management operations.",
+    "final_reason": "Adds a private network access option for existing Firewall Manager management operations."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-q-developer-integration-github-preview-available/",
+    "title": "The Amazon Q Developer integration in GitHub (preview) is now available",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces a GitHub integration for existing Q development agents.",
+    "final_reason": "Q agents integrate with GitHub issues and pull requests"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/q-developer-multi-language-support/",
+    "title": "Amazon Q Developer expands multi-language support",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds natural-language coverage to existing Q interfaces.",
+    "final_reason": "Q assistant supports more languages"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-permission-view-own-performance-evaluations/",
+    "title": "Amazon Connect Customer launches permission for agents to view only their own performance evaluations",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds permission controls for viewing personal performance evaluations.",
+    "final_reason": "Evaluation access supports agent-only visibility"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/",
+    "title": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
+    "first_level": "NA",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds an upfront-payment choice to existing reservation purchasing.",
+    "final_reason": "Adds an all-upfront purchase/payment configuration for existing three-year serverless reservations; billing functionality is assessed as a refinement rather than excluded as a pure price cut."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/",
+    "title": "Amazon Aurora DSQL now supports foreign key constraints",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds foreign-key constraints and referential-action options to SQL tables.",
+    "final_reason": "DSQL supports foreign-key constraints"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+    "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces credential preflight testing and domain discovery before penetration tests.",
+    "final_reason": "Adds credential validation and domain suggestions within existing penetration-test configuration, refining test setup before the same test workflow."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-mysql-312-available/",
+    "title": "Amazon Aurora MySQL 3.12 (compatible with MySQL 8.0.44) is now generally available",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Adds a minor database engine release with fixes and availability improvements.",
+    "final_reason": "Aurora MySQL runtime version added"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-direct-connect-100g-expansion-cape-town/",
+    "title": "AWS Direct Connect announces 100G expansion in Cape Town, South Africa",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Rolls existing 100G Direct Connect connectivity into another location.",
+    "final_reason": "Direct Connect location bandwidth expansion"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-or2-om2-us-gov-region/",
+    "title": "OpenSearch OR2 and OM2 instances in AWS GovCloud (US-East, US-West) Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing OpenSearch instance families.",
+    "final_reason": "OpenSearch instances regional availability"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/second-generation-amazon-fsx-netapp-ontap/",
+    "title": "Second-generation Amazon FSx for NetApp ONTAP is now available in four additional AWS Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing second-generation FSx file systems.",
+    "final_reason": "ONTAP generation regional availability"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/",
+    "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces external shared file-system mounting through S3 Files and EFS integration.",
+    "final_reason": "Adds externally owned shared-file-system mounting through S3 Files and EFS access points, distinct from the existing automatically provisioned per-session storage."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-ebs-additional-resource-level-permissions-copying-eb-snapshots/",
+    "title": "Amazon EBS now supports additional resource-level permissions for copying EBS snapshots",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds resource-level policy controls to existing snapshot copy operation.",
+    "final_reason": "Snapshot copy resource permissions"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/new-aws-elemental-mediatailor-pricing-model/",
+    "title": "Announcing new AWS Elemental MediaTailor pricing model with lower VOD ad insertion costs",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Changes ad insertion prices without adding product functionality.",
+    "final_reason": "MediaTailor ad-insertion rates and tiers change automatically; no new configuration operation."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+    "title": "AWS Batch now supports bulk job cancellation and termination",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds bulk variants of existing job cancellation and termination operations.",
+    "final_reason": "Adds bulk job cancellation and termination APIs."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-adds-generative-text-to-speech-voices/",
+    "title": "Amazon Connect adds new generative text-to-speech voices and expands to new regions",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Adds voice catalog choices alongside regional rollout.",
+    "final_reason": "Speech voice catalog expands alongside regions"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
+    "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends established console-to-IDE integration to more IDEs.",
+    "final_reason": "Lambda IDE handoff supports Kiro and Cursor"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-ai-activity-dashboard/",
+    "title": "AWS WAF announces AI activity dashboard for visibility into AI bot and agent traffic",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces a dedicated AI traffic analysis dashboard.",
+    "final_reason": "Adds an AI-specific view and category coverage to existing WAF bot-traffic monitoring and controls; the dashboard organizes existing protection functions."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+    "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing Aurora DSQL multi-Region clusters.",
+    "final_reason": "DSQL replication regional availability"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search/",
+    "title": "Amazon Location Service enhances Places APIs with new address and search options",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds formatting parameters and response fields to existing Places APIs.",
+    "final_reason": "Adds address formatting and search options."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-continuous-modernization/",
+    "title": "AWS launches a new continuous modernization capability in AWS Transform that provides autonomous tech debt analysis and remediation at scale",
+    "first_level": "4",
+    "independent_level": "4",
+    "final_level": "4",
+    "independent_reason": "Introduces continuous portfolio-wide analysis and autonomous remediation as a new Transform operating model.",
+    "final_reason": "Continuous modernization adds organization-wide recurring analysis prioritization and remediation orchestration across repository portfolios."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-cloudwatch-rum-monitoring-multiple-domains-single-app-monitor/",
+    "title": "Amazon CloudWatch RUM now supports monitoring multiple domains with a single App Monitor",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds domain-list and wildcard configuration to existing RUM monitors.",
+    "final_reason": "Single RUM monitor accepts multiple domains"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-backup-multi-party-approval-logically-air-gapped-vaults/",
+    "title": "AWS Backup launches Multi-party approval support for logically air-gapped vaults",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces multi-party approval integration and recovery authorization workflow.",
+    "final_reason": "Multi-party recovery approval workflow"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/",
+    "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds EFA and placement group configuration to existing node pools.",
+    "final_reason": "Automatic EKS provisioning supports EFA and placement groups"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-connect-api-real-time-position-in-queue/",
+    "title": "Amazon Connect launches an API for real-time position in queue",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces a real-time queue-position API.",
+    "final_reason": "Connect exposes queue position API"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-visier-vee/",
+    "title": "Amazon Quick now integrates with Visier\u2019s Vee agent for workforce intelligence",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds a partner agent target through the existing remote MCP integration mechanism.",
+    "final_reason": "Existing MCP integration supports Visier agent"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-aurora-mysql-3-09-compatible-mysql-8-0-40-generally-available/",
+    "title": "Amazon Aurora MySQL 3.09 (compatible with MySQL 8.0.40) is now generally available",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Adds a minor engine version with throughput, resiliency and bug-fix improvements.",
+    "final_reason": "Improves Aurora write throughput and database resilience."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-eventbridge-direct-delivery-cross-account-targets/",
+    "title": "Amazon EventBridge announces direct delivery to cross-account targets",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends existing event delivery to direct cross-account targets.",
+    "final_reason": "Extends event delivery to cross-account service targets."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/general-availability-aws-managed-notifications/",
+    "title": "Announcing general availability of AWS Managed Notifications",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces managed Health notification subscription UI and channel configuration.",
+    "final_reason": "Managed Health notification subscriptions and controls introduced"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-lambda-payload-size-256-kb-1-mb-invocations/",
+    "title": "AWS Lambda increases maximum payload size from 256 KB to 1 MB for asynchronous invocations",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Raises the asynchronous invocation payload limit from 256KB to 1MB.",
+    "final_reason": "Raises the asynchronous invocation payload ceiling from 256 KB to 1 MB."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-u7i-instances-aws-europe-ireland-region/",
+    "title": "Amazon U7i instances now available in AWS Europe (Ireland) Region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing U7i instances.",
+    "final_reason": "Expands U7i regional availability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
+    "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing notebook instance support.",
+    "final_reason": "Expands G6 notebook regional availability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-rds-sql-server-2019-2022/",
+    "title": "Amazon RDS for SQL Server supports new minor versions for SQL Server 2019 and 2022",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Adds minor SQL Server engine versions with fixes and performance improvements.",
+    "final_reason": "SQL Server minor version catalog"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-emr-serverless-public-subnets/",
+    "title": "Amazon EMR Serverless adds support for Public Subnets",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds public-subnet configuration to existing EMR Serverless VPC connectivity.",
+    "final_reason": "Serverless jobs support public subnets"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-s3-express-one-zone-reduces-storage-request-prices/",
+    "title": "Amazon S3 Express One Zone reduces storage and request prices",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Changes S3 storage and request pricing without new product functionality.",
+    "final_reason": "S3 Express price reduction"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/mountpoint-amazon-s3-csi-driver-monitoring-capability/",
+    "title": "Mountpoint for Amazon S3 and Mountpoint for Amazon S3 CSI driver add monitoring capability",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces an OTLP metric export interface replacing log parsing for monitoring.",
+    "final_reason": "Introduces Mountpoint operations metrics emission."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/iam-identity-center-sessions-tip-capabilities-microsoft-ad/",
+    "title": "IAM Identity Center extends sessions and TIP management capabilities for customers with Microsoft AD",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends session and identity propagation controls to Microsoft AD customers.",
+    "final_reason": "Extends sessions and identity propagation controls for AD users."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-cloudfront-vpc-origin-modification-functions/",
+    "title": "Amazon CloudFront supports VPC Origin modification with CloudFront Functions",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends existing origin modification to VPC origins and origin groups.",
+    "final_reason": "Origin modification supports VPC origins"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/oracle-database-aws-general-expands-networking-capabilities/",
+    "title": "Oracle Database@AWS announces general availability, expands networking capabilities",
+    "first_level": "5",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces networking integrations and cross-account peering alongside GA.",
+    "final_reason": "The stated new product changes are network integrations and cross-account peering alongside GA of Oracle Database@AWS; the existing offering name alone does not establish a new-product delta."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-healthomics-workflow-versioning-support/",
+    "title": "AWS HealthOmics announces workflow versioning support",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces workflow version creation and selection within stable workflow identity.",
+    "final_reason": "Introduces workflow version management in HealthOmics."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-config-new-resource-types/",
+    "title": "AWS Config now supports 30 new resource types",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds resource-type coverage to existing Config recording and rules.",
+    "final_reason": "Extends Config assessment to thirty resource types."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-resolver-dns/",
+    "title": "Amazon Route 53 Resolver DNS Firewall Adds Threat and Content Domain Categories",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds domain-category controls to existing DNS firewall filtering.",
+    "final_reason": "Adds threat and content category filters."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ecs-managed-instances-commercial-regions/",
+    "title": "Amazon ECS Managed Instances now available in all commercial AWS Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing ECS Managed Instances.",
+    "final_reason": "Expands ECS Managed Instances regional availability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-inspector-security-engine-container-images-scanning/",
+    "title": "Amazon Inspector enhances the security engine for container images scanning",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Refines dependency detection within existing container vulnerability scanning.",
+    "final_reason": "Container scanning improves dependency vulnerability coverage"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-pcs-accounting-slurm-version-24-11/",
+    "title": "AWS Parallel Computing Service (PCS) now supports accounting with Slurm version 24.11",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces a managed accounting capability and database alongside a Slurm version.",
+    "final_reason": "Introduces managed Slurm usage accounting."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging/",
+    "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces controller log export through CloudWatch Vended Logs.",
+    "final_reason": "EKS capabilities publish vended logs"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-cloudwatch-agent-windows-event-log-filters/",
+    "title": "Amazon CloudWatch Agent adds support for Windows Event Log Filters",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds configurable Windows event filters to existing log collection.",
+    "final_reason": "Windows event collection filters"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+    "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds two targets to existing managed external-secret rotation.",
+    "final_reason": "External secrets support Jenkins and SonarQube tokens"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/build-automate-production-ui-workflows-nova-act/",
+    "title": "Build agents to automate production UI workflows with Amazon Nova Act (GA)",
+    "first_level": "5",
+    "independent_level": "5",
+    "final_level": "5",
+    "independent_reason": "Launches Nova Act as a managed AWS service for production agent fleets.",
+    "final_reason": "Source explicitly launches a managed AWS service for operating fleets of UI agents beyond the earlier SDK and IDE tooling."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+    "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces automated distribution authorization, settlement and reporting workflows.",
+    "final_reason": "Introduces an automated software-distribution workflow with distribution authorizations via public APIs, tax calculation, invoicing, settlement and reporting; this is billing/distribution functionality rather than a price-only announcement."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-clean-rooms-add-data-providers-existing-collaborations/",
+    "title": "AWS Clean Rooms supports adding new data providers to existing collaborations",
+    "first_level": "3",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds member changes to existing collaborations without recreation.",
+    "final_reason": "Extends collaboration membership configuration to allow adding data providers after creation; the collaboration operation remains the same."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-sagemaker-hyperpod-continuous-provisioning-cluster/",
+    "title": "Amazon SageMaker HyperPod now supports continuous provisioning for enhanced cluster operations",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces continuous background provisioning and an operational events API.",
+    "final_reason": "HyperPod supports background provisioning and operational events API"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/ses-outbound-delivers-mail-manager-archives/",
+    "title": "SES Outbound now delivers to Mail Manager Archives",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces SES outbound delivery into Mail Manager archives.",
+    "final_reason": "Adds outbound-message archiving into Mail Manager through a new service integration, preserving signed messages for search and export."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/",
+    "title": "Announcing Amazon EC2 Trn3 UltraServers for faster, lower-cost generative AI training",
+    "first_level": "1",
+    "independent_level": "1",
+    "final_level": "1",
+    "independent_reason": "Adds next-generation Trainium hardware to the existing EC2 UltraServer offering.",
+    "final_reason": "Trainium instance catalog generation"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
+    "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing AWS Backup EKS support.",
+    "final_reason": "Expands EKS backup to Sovereign Cloud."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/new-feature-tiers-essentials-plus-amazon-cognito-aws-govcloud-us-regions/",
+    "title": "Announcing new feature tiers: Essentials and Plus for Amazon Cognito in AWS GovCloud (US) Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing Cognito feature tiers.",
+    "final_reason": "Cognito feature tiers GovCloud expansion"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-deadline-cloud-adobe-after-effects-service-managed-fleets/",
+    "title": "AWS Deadline Cloud now supports Adobe After Effects in Service-Managed Fleets",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds After Effects support to existing managed rendering fleets.",
+    "final_reason": "Render fleets support After Effects"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-batch-array-job-status-summary/",
+    "title": "AWS Batch now provides Array Job Status Summary in ListJobs API",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds array-job status summary fields to an existing list API.",
+    "final_reason": "Array job summaries in existing listing API"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-g7e-seoul-spain-regions/",
+    "title": "Amazon EC2 G7e instances now available in Asia Pacific (Seoul) and Europe (Spain) regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing G7e instances.",
+    "final_reason": "G7e regional expansion"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transformation-adds-new-features/",
+    "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Introduces an interactive transformation playground alongside image controls.",
+    "final_reason": "Image transformation interactive playground"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-eventbridge-archive-replay-customer-managed-kms-keys/",
+    "title": "Amazon EventBridge Archive and Replay now supports Customer Managed KMS Keys",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds customer-managed encryption key choice to existing archives.",
+    "final_reason": "Adds customer-managed encryption keys for archived events."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-fsx-windows-file-server-aws-mexico-central-region/",
+    "title": "Amazon FSx for Windows File Server is now available in the AWS Mexico (Central) Region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing FSx Windows File Server.",
+    "final_reason": "Expands Windows File Server regional availability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-ec2-m7i-flex-instances-aws-asia-pacific-melbourne-region/",
+    "title": "Amazon EC2 M7i-flex instances now available in AWS Asia Pacific (Melbourne) Region",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing M7i-flex instances.",
+    "final_reason": "Expands M7i-flex regional availability."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/karpenter-arc-zonal-shift/",
+    "title": "Karpenter now supports Amazon Application Recovery Controller zonal shift",
+    "first_level": "2",
+    "independent_level": "3",
+    "final_level": "2",
+    "independent_reason": "Introduces Karpenter integration with ARC zonal shift for provisioning coordination.",
+    "final_reason": "Extends the existing EKS ARC zonal-shift capability to the Karpenter compute provisioner and coordinates its existing scheduling controls."
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/new-guidance-well-architected-tool/",
+    "title": "New Guidance in the Well-Architected Tool",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Updates best-practice guidance without a new tool operation.",
+    "final_reason": "Well-Architected guidance updated"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-elastic-beanstalk-spot-allocation-strategies/",
+    "title": "AWS Elastic Beanstalk adds additional Spot allocation strategies",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds allocation strategy choices to existing Spot provisioning.",
+    "final_reason": "Spot allocation strategy options added"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-bedrock-multi-agent-collaboration/",
+    "title": "Amazon Bedrock now supports multi-agent collaboration",
+    "first_level": "3",
+    "independent_level": "3",
+    "final_level": "3",
+    "independent_reason": "Adds infrastructure provisioning and monitoring interfaces alongside multi-agent GA refinements.",
+    "final_reason": "Inline agents permit dynamic runtime role definitions"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-database-migration-service-multi-eni-networking/",
+    "title": "AWS Database Migration Service now supports Multi-ENI networking for homogeneous migrations.",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds network interface and connection choices for existing homogeneous migrations.",
+    "final_reason": "Homogeneous migrations gain network interface connectivity choices"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
+    "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Extends existing WAF protection to another supported resource target.",
+    "final_reason": "WAF protection supports AgentCore Gateway target"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+    "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions",
+    "first_level": "NA",
+    "independent_level": "NA",
+    "final_level": "NA",
+    "independent_reason": "Regional rollout of existing on-demand replication capability.",
+    "final_reason": "OpenZFS replication regional availability"
+  },
+  {
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-rds-proxy-supports-ipv6/",
+    "title": "Amazon RDS Proxy now supports Internet Protocol Version 6 (IPv6)",
+    "first_level": "2",
+    "independent_level": "2",
+    "final_level": "2",
+    "independent_reason": "Adds IPv6 compatibility to existing proxy endpoints and target connections.",
+    "final_reason": "RDS Proxy IPv6 support"
+  }
+]

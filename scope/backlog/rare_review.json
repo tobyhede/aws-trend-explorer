@@ -1,0 +1,178 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-connect-workspaces-appstream-2-0-chrome-enterprise-recommended/": {
+    "label": "unclear",
+    "reason": "Chrome Enterprise Recommended certifies existing Chrome support. AWS describes no newly accessible environment or changed service behavior."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-gamelift-streams/": {
+    "label": "new_capability",
+    "reason": "AWS calls Streams a new managed capability of GameLift. Customers gain the game-streaming workflow and can provision streaming capacity."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/": {
+    "label": "improved",
+    "reason": "AWS positions Premier as a more capable model in the existing Nova understanding family, citing longer context, better reasoning and better teaching performance."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-cdk-construct-library-eventbridge-scheduler/": {
+    "label": "extended",
+    "reason": "EventBridge scheduling already existed. Developers gain a typed CDK construct for defining the same schedules."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/map-accelerate-ai-customer-adoption/": {
+    "label": "operational",
+    "reason": "The MAP funding program adds an incentive-eligible service and an AI modernization pathway for partners."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/open-source-aws-api-models/": {
+    "label": "new_capability",
+    "reason": "Publishing official API models daily as GitHub sources and Maven packages enables developers to build their own tools from the AWS service definitions."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/reimagined-aws-mssp-competency/": {
+    "label": "unclear",
+    "reason": "The change revises partner accreditation categories and assessment criteria. It identifies no new cloud product operation."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-documentdb-serverless/": {
+    "label": "new_capability",
+    "reason": "AWS explicitly calls Serverless an autoscaling configuration of DocumentDB with the same APIs, available to existing clusters. Customers gain a managed capacity mode."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-specialization-badges-display-categories/": {
+    "label": "improved",
+    "reason": "Badge Manager now presents a partner's existing specialization with its category. The improvement concerns the badge in the partner portal."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/introducing-aws-ai-league/": {
+    "label": "unclear",
+    "reason": "This is a training competition and prize program. It describes no change in what the participating AWS services do."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-directory-service-aws-microsoft-ad-hybrid-edition/": {
+    "label": "new_capability",
+    "reason": "AWS identifies Hybrid Edition as a new managed capability of Directory Service. Customers can extend their existing domain and delegate replication and maintenance."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-marketplace-private-offer-promotions/": {
+    "label": "operational",
+    "reason": "The private-offer promotion establishes AWS credits and financial incentives for participating ISVs and their customers."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/open-source-aws-cli-scripts/": {
+    "label": "unclear",
+    "reason": "The new materials are tutorials and working examples of existing CLI operations. AWS reports no changed CLI feature."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-route-53-global-resolver-secure-anycast-dns-resolution-preview/": {
+    "label": "new_product",
+    "reason": "AWS explicitly distinguishes Global Resolver and VPC Resolver as two services. Customers adopt the separately configured internet-reachable resolver with its own pricing page."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-nova-2-omni-preview/": {
+    "label": "new_product",
+    "reason": "AWS offers Nova 2 Omni as a separately accessible first-party multimodal model unifying input modalities and generated image and text outputs. Preview specifies access stage."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-vectors-generally-available/": {
+    "label": "improved",
+    "reason": "The same vector buckets and queries were available in preview. The GA announcement gives a measurable expansion to two billion vectors per index and greater scalability."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-end-user-messaging-notify/": {
+    "label": "new_capability",
+    "reason": "End User Messaging customers gain the ability to send OTPs with AWS-owned sender identities and ready-to-use templates through a new configuration."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/": {
+    "label": "new_product",
+    "reason": "AWS presents S3 Files as a managed shared file system with a dedicated product page and pricing. Customers attach existing bucket data to compute through the new offering."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-announces-amazon-connect-customer-services-competency/": {
+    "label": "operational",
+    "reason": "The new partner competency replaces the Connect Service Delivery designation, which AWS sets a specific date to deprecate."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/": {
+    "label": "operational",
+    "reason": "The change affects who handles support cases and default 24/7 coverage for GovCloud customers."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-cdk-l2-construct-cognito-identity-pools/": {
+    "label": "extended",
+    "reason": "Existing Cognito Identity Pools can now be defined and deployed through a typed CDK interface."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/new-guidance-well-architected-tool/": {
+    "label": "unclear",
+    "reason": "The post updates best-practice guidance. It does not identify a change to the assessment tool's behavior."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/well-architected-generative-ai-lens/": {
+    "label": "unclear",
+    "reason": "The new Lens is explicitly a guidance document for assessing architectures. Its availability in a catalog describes distribution of that document."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/open-sourcing-pgactive-active-active-replication-extension-postgresql/": {
+    "label": "new_capability",
+    "reason": "Publishing pgactive source enables developers to collaborate on and modify the existing replication extension."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-builder-center-available/": {
+    "label": "new_capability",
+    "reason": "Builder Center is a new community portal with voting and feedback workflows. Its launch describes community functionality outside the cloud-service catalog."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/gated-preview-interconnect-last-mile/": {
+    "label": "new_product",
+    "reason": "AWS positions Interconnect last mile as a managed connectivity offering with independent connection setup, bandwidth provisioning, and SLAs."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/preview-aws-interconnect-multicloud/": {
+    "label": "new_product",
+    "reason": "AWS calls Interconnect multicloud a purpose-built product customers can enable for private dedicated-bandwidth connections across clouds."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/resilience-software-competency-build-applications/": {
+    "label": "unclear",
+    "reason": "The competency validates partner software and credentials. AWS describes no change to the underlying cloud workloads."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/": {
+    "label": "new_capability",
+    "reason": "Publishing the EKS monitoring agent source enables inspecting, modifying and contributing to its implementation."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/": {
+    "label": "new_capability",
+    "reason": "AWS describes the registry as a governed catalog accessed through AgentCore. It introduces workflows for discovering, registering and approving agents."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/": {
+    "label": "unclear",
+    "reason": "EMR 7.14 mixes upstream versions, faster refreshes, Spark Connect endpoints, IPv6 and a larger storage limit. The source gives no single dominant scope."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/": {
+    "label": "new_capability",
+    "reason": "AWS publishes pre-synced snapshots that enable node operators to bootstrap directly from regional S3 data instead of syncing peer to peer."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-chatbot-named-amazon-q-developer/": {
+    "label": "operational",
+    "reason": "AWS renames Chatbot and explicitly retains its setup, usage, APIs and pricing. This is a service lifecycle change."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-sonic-speech-to-speech-conversations-bedrock/": {
+    "label": "new_product",
+    "reason": "Amazon introduces its own separately identified Nova Sonic foundation model with a dedicated product page and new bidirectional speech API."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/updated-aws-government-competency/": {
+    "label": "operational",
+    "reason": "The update merges two existing partner competencies, changes validation and restructures program benefits."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ocsf-ready-specialization/": {
+    "label": "operational",
+    "reason": "AWS replaces the Security Lake partner designation with OCSF Ready and revises its validation program."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/ai-league-2026-championship/": {
+    "label": "unclear",
+    "reason": "This is a competition and prize announcement. It introduces no identifiable change to customer workflows in the AWS services being used."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-mcp-server/": {
+    "label": "new_product",
+    "reason": "AWS introduces a managed remote MCP server with its own IAM-authenticated endpoint and service documentation. Customers can adopt the offering directly."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/new-aws-well-architected-lenses-ai-ml-workloads/": {
+    "label": "unclear",
+    "reason": "The post publishes new and updated architectural guidance; it describes no functional change to the services discussed."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-security-agent-preview/": {
+    "label": "new_product",
+    "reason": "Security Agent is a separately accessible AWS offering with its own console, permission setup and product page for application security testing."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/spatial-data-management-spatial-data-insights/": {
+    "label": "new_product",
+    "reason": "AWS launches Spatial Data Management as a distinct solution with its own APIs, desktop app, web interface and product page."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecr-pull-through-cache-additional-registries/": {
+    "label": "extended",
+    "reason": "The existing ECR pull-through caching capability adds supported upstream registries in named sovereign and GovCloud regions."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/": {
+    "label": "operational",
+    "reason": "AWS changes the service name to Transform MGN and describes the existing replication engine and retained certifications."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/": {
+    "label": "new_product",
+    "reason": "AWS and OpenAI introduce a managed agent offering with dedicated APIs, session management and a separately described preview pricing model."
+  }
+}

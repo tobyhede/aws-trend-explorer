@@ -1,0 +1,332 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2025/02/cloudwatch-application-signals-runtime-metrics-net-applications/": {
+    "level": "2",
+    "reason": "Runtime metric collection extends to .NET",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-bedrock-knowledge-bases-hybrid-search-aurora-postgresql-mongo-db-atlas-vector-stores/": {
+    "level": "2",
+    "reason": "Hybrid search extends to additional vector stores",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-backup-search-backup-indexes-backup-policies/": {
+    "level": "2",
+    "reason": "Backup policies configure automatic indexing",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-connect-dashboards-filtering-comparing-metrics-time-range/": {
+    "level": "2",
+    "reason": "Dashboards allow arbitrary comparison time ranges",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-connect-search-contacts-agent-hierarchy-filters/": {
+    "level": "2",
+    "reason": "Contact search gains hierarchy filters",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-cloudwatch-tags-observability/": {
+    "level": "2",
+    "reason": "Metric monitoring and alarms support resource tags",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-efa-metrics-improved-observability-networking/": {
+    "level": "2",
+    "reason": "EFA monitoring adds network metric fields",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-cloudwatch-metrics-monitor-ec2-instances-i-o-performance/": {
+    "level": "2",
+    "reason": "EC2 monitoring adds I/O exceeded metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-metrics-completion-agent-performance-evaluations/": {
+    "level": "2",
+    "reason": "Evaluation reporting gains completion metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/cloudwatch-container-sub-minute-gpu-metrics-eks/": {
+    "level": "2",
+    "reason": "GPU metric collection supports sub-minute frequency",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-scheduling-metrics/": {
+    "level": "2",
+    "reason": "Analytics lake includes scheduling metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-capacity-manager-spot-interruption-metrics/": {
+    "level": "2",
+    "reason": "Capacity reporting includes Spot interruptions",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecr-additional-repository-metrics/": {
+    "level": "2",
+    "reason": "Repository monitoring adds metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-cloudwatch-bgp-monitoring/": {
+    "level": "2",
+    "reason": "Direct Connect monitoring adds BGP metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/": {
+    "level": "2",
+    "reason": "Studio job interface embeds CloudWatch metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/": {
+    "level": "2",
+    "reason": "Telemetry auditing and enablement extend across regions",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/": {
+    "level": "2",
+    "reason": "Agent monitoring adds eight metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-cloudwatch-metrics-network-engine-diagnostics/": {
+    "level": "2",
+    "reason": "Cache monitoring adds diagnostic metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-pipelines-otel-metrics/": {
+    "level": "2",
+    "reason": "Pipelines transform and enrich OTel metric inputs",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps/": {
+    "level": "2",
+    "reason": "Location proximity search supports GrabMaps",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-drill-down-metrics/": {
+    "level": "2",
+    "reason": "Dashboards add drill-down navigation",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics/": {
+    "level": "2",
+    "reason": "Streaming monitoring adds session metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/": {
+    "level": "2",
+    "reason": "Vector search supports metadata prefiltering strategy",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-elemental-mediaconnect-content-quality-metrics/": {
+    "level": "3",
+    "reason": "Introduces content inspection for black frames, frozen video and audio silence, extending beyond existing transport/network metrics to a distinct content-quality detection capability.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/database-insights-customization-metrics-dashboard/": {
+    "level": "2",
+    "reason": "Customizable database metric dashboard",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-outposts-racks-cloudwatch-metrics/": {
+    "level": "2",
+    "reason": "Outposts adds network status metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-cloudwatch-alarm-multiple-metrics/": {
+    "level": "2",
+    "reason": "Query alarm tracks individual metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ebs-performance-monitoring-metrics-ebs-volumes/": {
+    "level": "2",
+    "reason": "EBS average IOPS and throughput metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-gamelift-servers-telemetry-metrics/": {
+    "level": "3",
+    "reason": "Introduces built-in SDK telemetry collection and export to CloudWatch or Prometheus, including custom client-side game metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-sagemaker-adds-search-context/": {
+    "level": "2",
+    "reason": "Search results include match context",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-step-functions-metrics-dashboard/": {
+    "level": "2",
+    "reason": "Workflow metrics dashboard",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-applications-health-performance-metrics/": {
+    "level": "2",
+    "reason": "Fleet health and performance metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/route-53-detailed-metrics-resolver-endpoints/": {
+    "level": "2",
+    "reason": "Resolver detailed performance metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-healthimaging-additional-metrics/": {
+    "level": "2",
+    "reason": "Imaging storage metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/": {
+    "level": "3",
+    "reason": "Introduces SearchCertificates API and a console search operation, rather than only refining a pre-existing search filter.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-opentelemetry-metrics/": {
+    "level": "3",
+    "reason": "Introduces native OTLP ingestion and PromQL query/Query Studio interfaces for CloudWatch metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/": {
+    "level": "2",
+    "reason": "Managed ECS GPU metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/": {
+    "level": "2",
+    "reason": "Volume recommendations include performance spikes",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/": {
+    "level": "2",
+    "reason": "Web search optionally retrieves live external content",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-scheduling-metrics/": {
+    "level": "2",
+    "reason": "Scheduling metrics refresh automatically",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/schedule-adherence-metrics/": {
+    "level": "2",
+    "reason": "Dashboard includes schedule adherence metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/": {
+    "level": "2",
+    "reason": "Web search domain and publication-date filters",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring/": {
+    "level": "2",
+    "reason": "Valkey monitoring supports OpenTelemetry metrics",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/": {
+    "level": "2",
+    "reason": "Web search domain and location controls",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-connect-cases-granular-search-case-list-views/": {
+    "level": "2",
+    "reason": "Adds custom-field filters and configurable case-list columns.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-bedrock-rag-model-evaluations-custom-metrics/": {
+    "level": "2",
+    "reason": "Adds user-defined evaluation metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-sagemaker-catalog-identifier-search-studio/": {
+    "level": "2",
+    "reason": "Adds exact and partial technical-identifier search matching.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-budgets-cost-metrics-filtering-capabilities/": {
+    "level": "2",
+    "reason": "Adds budget cost metrics and filtering controls.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-step-functions-sdk-integrations-backup-search-apis/": {
+    "level": "2",
+    "reason": "Adds Backup Search and other API targets to workflow integrations.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-connect-new-metrics-dashboard-drill-downs-outbound-campaigns/": {
+    "level": "2",
+    "reason": "Adds campaign metrics and reporting drilldowns.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-connect-agent-workspace-agent-metrics/": {
+    "level": "2",
+    "reason": "Adds agent-facing performance dashboard.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/custom-metrics-amazon-cloudwatch-application-signals/": {
+    "level": "2",
+    "reason": "Adds custom metric support to Application Signals.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-cloudwatch-agent-shared-memory-metrics/": {
+    "level": "2",
+    "reason": "Adds shared-memory utilization metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-metric-customization/": {
+    "level": "3",
+    "reason": "Introduces creation of persisted custom calculated metrics through a no-code builder for use in dashboards and APIs.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-knowledge-mcp-server-topic-based-search/": {
+    "level": "2",
+    "reason": "Adds topic-scoped knowledge search.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-dashboards-filtering-metrics-custom-business-dimensions/": {
+    "level": "2",
+    "reason": "Adds custom business-dimension dashboard filters.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-storage-lens-performance-metrics-prefixes-export-tables/": {
+    "level": "2",
+    "reason": "Adds performance metrics and export options to Storage Lens.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eventbridge-scheduler-resource-metrics/": {
+    "level": "2",
+    "reason": "Adds schedule resource-count metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-express-one-zone-cloudwatch-request-metrics/": {
+    "level": "2",
+    "reason": "Adds Express One Zone request metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/": {
+    "level": "2",
+    "reason": "Adds metrics for compatible inference APIs.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect/": {
+    "level": "2",
+    "reason": "Adds agent-queue dashboard metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search/": {
+    "level": "2",
+    "reason": "Adds address formatting and search options.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics/": {
+    "level": "2",
+    "reason": "Adds desktop performance and session-health metrics.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/": {
+    "level": "2",
+    "reason": "Adds tag-based custom metric permissions.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/": {
+    "level": "2",
+    "reason": "Adds customer-segment breakdowns to existing metrics views.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/": {
+    "level": "2",
+    "reason": "Adds item and attribute filters to existing DynamoDB full and incremental exports.",
+    "review": "targeted source rereading of search, export and metric refinements by primary reader"
+  }
+}

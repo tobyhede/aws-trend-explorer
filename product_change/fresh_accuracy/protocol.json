@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-24",
+  "population": 4920,
+  "eligible_population": 4578,
+  "excluded_previous_review": 342,
+  "sample_size": 200,
+  "seed": "432182a83d606ff79e6265799d7ca4c8687396f496b1d8da",
+  "selection": "SHA256(seed + URL) ranking; simple uniform sample without replacement from previously un-audited rows",
+  "scope": "2025-01-01 through 2026-10-28; estimates apply to eligible previously un-audited population, not all 4,920 rows",
+  "reference": "Two independent source readers blinded to production labels. Third reader resolves disagreements before predictions are compared. Reference is AI-adjudicated, not human ground truth.",
+  "scoring": "Exact agreement of frozen production label with final reference, Wilson 95% interval (no finite-population correction). Report reference uncertainty separately; do not alter production labels in this audit.",
+  "freeze_hashes": {
+    "blind/sample.json": "c259ef53dac7f133e8c19b4971f4018ffdd70e59a5c6030ec26775059573ec1d",
+    "frozen_predictions.json": "f5b2d9988ebbfeeb52e44fd2f30dfb1bb09066c90c0c1bad4f98386fca179de4",
+    "eligible_urls.json": "e34d1533d04a5de0ba5b87a73677c8010e8059fd4560e9601c0a01649b6586f4",
+    "excluded_urls.json": "b13680434d12ece2a4d0f127a08382f60de5b1dd0fdc08040ce6b45a2951c241"
+  },
+  "production_file_hashes": {
+    "announcements.csv": "f68ae00e7b44925ed83f1320b4bdfefb579bbef58bfb1c9db05488692e797d13",
+    "announcements.json": "72771c0c539e31d277d294033859182213763e51dc2fc90f7b23f324d5902083"
+  }
+}

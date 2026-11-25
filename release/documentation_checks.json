@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-25",
+  "checks": [
+    "All release documentation files exist and are nonempty",
+    "All Markdown file links in release documents resolve",
+    "All 12 recorded output hashes match",
+    "Plain-language checker: zero required fixes; advisory wording reviewed"
+  ],
+  "documentation_sha256": {
+    "README.txt": "4ba210d6497ce248cb8b25324035a32d09102907297d312d06cb03bf5cb01672",
+    "RELEASE_NOTES.md": "b3a9197178826e678eddabdd5f76dfcee0a3cf0d98431d559c64775bcf48a7fd",
+    "DATA_GUIDE.md": "37253dd677f5631ed7f75f9d34b4133d5ee3982be3f808733fc200f77cf17b1b",
+    "REPRODUCING.md": "a5ab125c81d22d7c6af038723d1b9cf1a137d09f1571ba99293ac8b2d19093af",
+    "product_change/historical_review/README.txt": "c131c775410cdb7c810c3e55170e2f227e31161022e78b4c31fe480416d2e21c"
+  }
+}

@@ -1,0 +1,2273 @@
+{
+  "date": "2026-11-24",
+  "cohort_start": "2025-01-01",
+  "cohort_end": "2026-10-28",
+  "source_records": 4920,
+  "source_method": "AI readers evaluated saved AWS announcement text; no fresh page fetch in this pass.",
+  "changed_from_previous": 1350,
+  "counts": {
+    "1": 599,
+    "2": 2186,
+    "3": 802,
+    "4": 70,
+    "5": 19,
+    "NA": 1222,
+    "U": 22
+  },
+  "high_level_second_readings": 124,
+  "targeted_interface_readings": 66,
+  "targeted_commercial_readings": 24,
+  "sample_size": 120,
+  "independent_exact_agreement": 100,
+  "sample_confusion": [
+    {
+      "first": "1",
+      "independent": "1",
+      "n": 8
+    },
+    {
+      "first": "1",
+      "independent": "2",
+      "n": 1
+    },
+    {
+      "first": "2",
+      "independent": "2",
+      "n": 47
+    },
+    {
+      "first": "2",
+      "independent": "3",
+      "n": 16
+    },
+    {
+      "first": "3",
+      "independent": "2",
+      "n": 1
+    },
+    {
+      "first": "3",
+      "independent": "3",
+      "n": 17
+    },
+    {
+      "first": "4",
+      "independent": "4",
+      "n": 1
+    },
+    {
+      "first": "5",
+      "independent": "3",
+      "n": 1
+    },
+    {
+      "first": "5",
+      "independent": "5",
+      "n": 1
+    },
+    {
+      "first": "NA",
+      "independent": "2",
+      "n": 1
+    },
+    {
+      "first": "NA",
+      "independent": "NA",
+      "n": 26
+    }
+  ],
+  "source_hashes": {
+    "batch0.json": "f45ae33ff5a78ae2804aaf110950ea9b08e8f12241c530a876d7d649ad8eabfc",
+    "ratings0.tsv": "64fa463d53be98821b826b9cd8ba0e52530ffc2a8dabe449df2b628d2c0f9050",
+    "batch1.json": "3c7987871ea506ee02973e90c610dd5e05fc91130c4b6d12ca4d3d1d93bcd7bc",
+    "ratings1.tsv": "ad17cb5acbae74c4ad2b1d8d8bb223d4f590be5b568202cbe8a960a3d43ba039",
+    "batch2.json": "7401fdd6a5bdb068a85cd6582dfe4b9434b5d78d425424c93713d1720d75b272",
+    "ratings2.tsv": "44a2a344a0fb8a7d8b87939f61e33919423405413b3b33a694d144be8503bf0c",
+    "sample.json": "33a822e05de446bc9e878acda4feb99ed5dc02112ef43dc4699c875e0c7af11d",
+    "sample_reading.tsv": "e2b7c2ddb822683c694eb4aaf4366c313affef1039056de1ee97ca48a40106cd",
+    "adjudications.json": "392d6dc262e2af4bc2e4b3b5080249e30da54695cc9884b03c5b36f0f0e2e9fc",
+    "previous_decisions.json": "f18b0e66017f4da9d9f58060558b140e3dd423e837fa18e48158a1449113c0be",
+    "high_audit1.json": "94170e3987f4afaf803bc9637531e51375052caa221dab66685633343845c0e0",
+    "high_audit2.json": "d331c894c16430c45f8504ac9bc48b331082d7f3410857be70bdc13d52d58727",
+    "commercial_audit0.json": "6fa596d387874edf0985bb1f43533fb3d9abe5b7536a2c9f36bb4c65dc913e17",
+    "interface_audit.json": "9c2e0860a1da6835ff9b880f7c1fdaeaad24ddaf13a2c04548c809bb87ab6054"
+  },
+  "final_overrides": [
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-s3-metadata-generally-available/",
+      "title": "Amazon S3 Metadata is now generally available",
+      "first_level": "4",
+      "final_level": "U",
+      "reason": "S3 Metadata GA describes metadata tables but does not establish a functional change from its prior stage.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/cloudwatch-application-signals-runtime-metrics-net-applications/",
+      "title": "CloudWatch Application Signals now supports Runtime Metrics for .NET Applications",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Runtime metric collection extends to .NET",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/custom-payment-schedules-marketplace-partner-offers/",
+      "title": "Announcing custom payment schedules for AWS Marketplace Channel Partner private offers",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds per-installment payment controls in the Portal and Catalog API, replacing a uniform markup constraint.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/ses-outbound-delivers-mail-manager-archives/",
+      "title": "SES Outbound now delivers to Mail Manager Archives",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Adds outbound-message archiving into Mail Manager through a new service integration, preserving signed messages for search and export.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-q-developer-cli-agent-command-line/",
+      "title": "Amazon Q Developer announces a new CLI agent within the command line",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "CLI agent adds local file and code execution operations; source does not establish a new service or substantial independent subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-codebuild-non-container-builds-on-demand-fleets/",
+      "title": "AWS CodeBuild now supports non-container builds in on-demand fleets",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Build execution can run directly on host operating systems instead of containers, introducing a materially different execution model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-bedrock-knowledge-bases-hybrid-search-aurora-postgresql-mongo-db-atlas-vector-stores/",
+      "title": "Amazon Bedrock Knowledge Bases now supports hybrid search for Aurora PostgreSQL and MongoDB Atlas vector stores",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Hybrid search extends to additional vector stores",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-aurora-dsql-generally-available/",
+      "title": "Amazon Aurora DSQL is now generally available",
+      "first_level": "5",
+      "final_level": "3",
+      "reason": "GA explicitly adds backup and audit integrations and an MCP interface; distributed SQL functionality is previously previewed baseline.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-fsx-lustre-new-storage-class/",
+      "title": "Amazon FSx for Lustre adds new storage class that delivers the lowest-cost and only fully elastic Lustre file storage",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Elastic Lustre storage automatically changes capacity and tiers data, replacing provisioned storage operation with a managed elastic storage model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-backup-search-backup-indexes-backup-policies/",
+      "title": "AWS Backup search now supports creating backup indexes within backup policies",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Backup policies configure automatic indexing",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-transform-vmware-generally-available/",
+      "title": "AWS Transform for VMware is now generally available",
+      "first_level": "5",
+      "final_level": "U",
+      "reason": "VMware transformation moves from Q preview to renamed GA service without an explicit functional delta in this source.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/agentic-capabilities-amazon-q-developer-chat-aws-management-console-chat-applications/",
+      "title": "Introducing agentic capabilities for Amazon Q Developer Chat in the AWS Management Console and chat applications",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Console assistant performs multi-step resource inspection and troubleshooting through AWS tools; agent behavior is a new operation rather than a separate subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-inspector-code-security-shift-security-development/",
+      "title": "Amazon Inspector launches code security to shift security left in development",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Inspector adds source-code SAST SCA and IaC scanning across repository workflows, a substantial new code-security subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-q-developer-eclipse-ide-plugin/",
+      "title": "Amazon Q Developer Eclipse IDE plugin is now generally available",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Provides existing Q Developer capabilities within an additional IDE.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-public-preview-amazon-elastic-vmware-service-evs/",
+      "title": "AWS launches public preview of Amazon Elastic VMware Service (Amazon EVS)",
+      "first_level": "5",
+      "final_level": "NA",
+      "reason": "The post explicitly expands EVS from private to public preview and promises unchanged functionality; this is an access-stage change.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/ga-accelerate-troubleshooting-amazon-cloudwatch-investigations/",
+      "title": "Now in GA: Accelerate troubleshooting with Amazon CloudWatch investigations",
+      "first_level": "4",
+      "final_level": "U",
+      "reason": "CloudWatch investigations was previously Q operational investigations preview; no distinct GA functional delta is identified.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-relational-database-service-custom-az-deployments/",
+      "title": "Amazon Relational Database Service Custom (Amazon RDS Custom) for Oracle now supports Multi-AZ deployments",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "RDS Custom adds synchronous standby replication and automatic failover, introducing a managed high-availability operating model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-firewall-manager-aws-private-link/",
+      "title": "AWS Firewall Manager adds support for AWS Private Link",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds a private network access option for existing Firewall Manager management operations.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-lambda-response-streaming-200-mb-payloads/",
+      "title": "AWS Lambda response streaming now supports 200 MB response payloads",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises the payload ceiling within existing response streaming from 20 MB to 200 MB.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-neuron-2-24-pytorch-2-7-inference-enhancements/",
+      "title": "New features for AWS Neuron 2.24 include PyTorch 2.7 and inference enhancements",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Neuron adds disaggregated inference that separates prefill and decode plus context parallelism, changing model execution distribution.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/oracle-database-aws-general-expands-networking-capabilities/",
+      "title": "Oracle Database@AWS announces general availability, expands networking capabilities",
+      "first_level": "5",
+      "final_level": "3",
+      "reason": "The stated new product changes are network integrations and cross-account peering alongside GA of Oracle Database@AWS; the existing offering name alone does not establish a new-product delta.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ses-tenant-isolation-automated-reputation-policies/",
+      "title": "Amazon SES introduces tenant isolation with automated reputation policies",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "SES introduces tenant resources with isolated configuration reputation monitoring and automated suspension, a substantial tenant-management subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-directory-service-aws-microsoft-ad-hybrid-edition/",
+      "title": "AWS Directory Service launches Hybrid Edition for Managed Microsoft AD",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Hybrid AD extends existing domains through managed replicated domain infrastructure rather than creating separate cloud directories.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-general-availability-amazon-elastic-evs/",
+      "title": "AWS announces general availability of Amazon Elastic VMware Service (Amazon EVS)",
+      "first_level": "5",
+      "final_level": "U",
+      "reason": "EVS GA restates VCF hosting already offered in public preview, without an established functional GA delta.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-connect-dashboards-filtering-comparing-metrics-time-range/",
+      "title": "Amazon Connect dashboards now support filtering and comparing metrics by any time range",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Dashboards allow arbitrary comparison time ranges",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-connect-search-contacts-agent-hierarchy-filters/",
+      "title": "Amazon Connect launches the ability to search contacts using agent hierarchy filters",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Contact search gains hierarchy filters",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-cloudwatch-tags-observability/",
+      "title": "Amazon CloudWatch now supports resource tags when monitoring vended metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Metric monitoring and alarms support resource tags",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-efa-metrics-improved-observability-networking/",
+      "title": "New EFA metrics for improved observability of AWS networking",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "EFA monitoring adds network metric fields",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-cloudwatch-metrics-monitor-ec2-instances-i-o-performance/",
+      "title": "New Amazon CloudWatch metrics to monitor EC2 instances exceeding I/O performance",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "EC2 monitoring adds I/O exceeded metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-outbound-campaigns-preview-dialing/",
+      "title": "Amazon Connect outbound campaigns supports preview dialing for greater agent control",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Adds a distinct agent preview-and-accept workflow before campaign dialing, including its own review timing and outcome analytics.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-enhances-agent-assistance-capabilities/",
+      "title": "Amazon Connect enhances its agent assistance capabilities",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Connect assistance executes tasks for representatives; this is a distinct assistance operation rather than evidence of a new execution platform.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-metrics-completion-agent-performance-evaluations/",
+      "title": "Amazon Connect now provides metrics on completion of agent performance evaluations by managers",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Evaluation reporting gains completion metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-data-agent-analytics-ai-ml-development/",
+      "title": "Introducing Amazon SageMaker Data Agent for analytics and AI/ML development",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Data Agent generates notebook plans and SQL/Python code from prompts, adding an interactive development operation.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-network-firewall-proxy-preview/",
+      "title": "Introducing AWS Network Firewall Proxy in preview",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Explicit forward proxy with TLS inspection and HTTP filtering introduces a distinct network security subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/cloudwatch-container-sub-minute-gpu-metrics-eks/",
+      "title": "Amazon CloudWatch Container Insights adds Sub-Minute GPU Metrics for Amazon EKS",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "GPU metric collection supports sub-minute frequency",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/elemental-mediaconnect-router/",
+      "title": "AWS Announces Elemental MediaConnect Router",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "MediaConnect Router is an independent dynamic live-video routing subsystem across sources destinations and regions.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/opensearch-service-agentic-search/",
+      "title": "Amazon OpenSearch Service introduces Agentic Search",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Agentic Search adds natural-language query planning and execution with tool access; scope is the search interface and operation.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/preview-aws-interconnect-multicloud/",
+      "title": "AWS announces preview of AWS Interconnect - multicloud",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Interconnect multicloud is introduced as a purpose-built managed private connectivity product.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/vpc-ipam-cloudfront-byoip/",
+      "title": "Amazon CloudFront integrates with VPC IPAM to support BYOIP",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds customer-owned address selection and IPAM pool management to existing CloudFront Anycast Static IPs; this changes provisioning options for the existing address capability.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-agentcore-policy-evaluations-preview/",
+      "title": "Amazon Bedrock AgentCore now includes Policy (preview), Evaluations (preview) and more",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "AgentCore adds policy enforcement and evaluation subsystems alongside memory and streaming capabilities.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-cloudwatch-unified-management-analytics/",
+      "title": "Amazon CloudWatch launches unified management and analytics for operational, security, and compliance data",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "CloudWatch adds managed mult-source ingestion transformation and unified analytics storage, a substantial data-management subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-nova-forge-frontier-models-nova/",
+      "title": "Amazon Nova Forge: Build your own Frontier Models using Nova",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Nova Forge is explicitly a new service for training proprietary frontier models from Nova checkpoints.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-vectors-generally-available/",
+      "title": "Amazon S3 Vectors is now generally available with 40 times the scale of preview",
+      "first_level": "4",
+      "final_level": "2",
+      "reason": "GA increases scale and adds per-index encryption keys and tag authorization; the vector-storage subsystem already existed in preview.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-ai-factories/",
+      "title": "Introducing AWS AI Factories",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "AI Factories is a new dedicated AWS-operated AI infrastructure offering installed in customer data centers.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-security-agent-preview/",
+      "title": "AWS Security Agent (Preview): AI agent for proactive app security",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Security Agent is a new standalone application security review and penetration-testing offering.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/devops-agent-preview-frontier-agent-operational-excellence/",
+      "title": "Introducing AWS DevOps Agent (preview), frontier agent for operational excellence",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "DevOps Agent is introduced as a standalone managed incident investigation and prevention offering.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/elastic-training-amazon-sagemaker-hyperpod/",
+      "title": "Introducing elastic training on Amazon SageMaker HyperPod",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Training jobs dynamically expand and contract accelerator membership without restarting, changing distributed training execution.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows/",
+      "title": "AWS Lambda announces durable functions for multi-step applications and AI workflows",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Durable functions add checkpoint replay and suspend/resume programming primitives for long-running Lambda execution.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-scheduling-metrics/",
+      "title": "Amazon Connect now provides agent scheduling metrics in data lake",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Analytics lake includes scheduling metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-capacity-manager-spot-interruption-metrics/",
+      "title": "EC2 Capacity Manager now includes Spot interruption metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Capacity reporting includes Spot interruptions",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecr-additional-repository-metrics/",
+      "title": "Amazon ECR now supports additional metrics for monitoring repositories",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Repository monitoring adds metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elemental-inference-generally-avail/",
+      "title": "Announcing AWS Elemental Inference",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Elemental Inference is explicitly a new managed video inference service, not merely a model value or encoding option.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/",
+      "title": "Amazon Bedrock AgentCore Evaluations is now generally available",
+      "first_level": "4",
+      "final_level": "U",
+      "reason": "Evaluations GA describes online and on-demand evaluation but does not identify which capabilities are new relative to preview.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-cloudwatch-bgp-monitoring/",
+      "title": "AWS Direct Connect adds CloudWatch metrics for BGP monitoring",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Direct Connect monitoring adds BGP metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-partner-central-agents-accelerate-co-sell/",
+      "title": "Announcing AWS Partner Central agents to accelerate co-sell",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Partner agents generate sales recommendations and funding requests through console and MCP operations, not a separate operating platform.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/",
+      "title": "Policy in Amazon Bedrock AgentCore is now generally available",
+      "first_level": "4",
+      "final_level": "NA",
+      "reason": "Policy GA restates previously previewed natural-language Cedar policies and gateway enforcement without a functional addition.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/",
+      "title": "Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Studio job interface embeds CloudWatch metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview/",
+      "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "AgentCore introduces payment orchestration with wallets settlement spending governance and transaction telemetry, a substantial new subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
+      "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Telemetry auditing and enablement extend across regions",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
+      "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Agent monitoring adds eight metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-decisions-april/",
+      "title": "AWS Announces Amazon Connect Decisions",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Connect Decisions is a new supply-chain planning and intelligence offering with its own specialized tools and trial.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-last-mile/",
+      "title": "AWS announces general availability of AWS Interconnect - last mile",
+      "first_level": "5",
+      "final_level": "NA",
+      "reason": "Last-mile GA repeats the gated preview connectivity provisioning bandwidth scaling and MACsec capabilities; only availability stage changes.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/",
+      "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Adds externally owned shared-file-system mounting through S3 Files and EFS access points, distinct from the existing automatically provisioned per-session storage.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-cloudwatch-metrics-network-engine-diagnostics/",
+      "title": "Amazon ElastiCache adds thirteen new Amazon CloudWatch metrics for network capacity planning and engine diagnostics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Cache monitoring adds diagnostic metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
+      "title": "AWS announces general availability of the next generation of AWS Resilience Hub",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Resilience Hub adds a new hierarchical application model and dependency/failure assessment framework alongside organization policy reporting.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/",
+      "title": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "ExtendDB implements DynamoDB control and data plane APIs on pluggable backends, a substantial database adapter implementation rather than a thin SDK.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/",
+      "title": "Claude Platform on AWS is now generally available",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Claude Platform on AWS is explicitly a new native-provider access service with its own console and integration boundary.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available/",
+      "title": "AgentCore harness is now generally available",
+      "first_level": "4",
+      "final_level": "U",
+      "reason": "Managed harness GA restates the orchestration runtime from preview without an explicit GA functional delta.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Cognito adds replicated identity credentials and standby authentication pools across regions, a new replication subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
+      "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Quick introduces continuously operating agents with granular autonomy, changing execution from interactive tasks to persistent autonomous work.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+      "title": "AWS FinOps Agent is now available in preview",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "FinOps Agent is a named standalone cost investigation and recurring workflow service with its own console entry point.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Lambda MicroVMs exposes isolated stateful VM environments with suspend/resume, a new compute execution primitive.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-pipelines-otel-metrics/",
+      "title": "Amazon CloudWatch pipelines now supports processing and enriching OpenTelemetry metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Pipelines transform and enrich OTel metric inputs",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache/",
+      "title": "Amazon ElastiCache for Valkey now supports durability",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "ElastiCache adds a durable multi-AZ transactional log and selectable consistency semantics, changing the underlying persistence model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps/",
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Location proximity search supports GrabMaps",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-optimized-log-analytics/",
+      "title": "Amazon OpenSearch Service optimized for log analytics",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "OpenSearch introduces a selectable columnar analytical engine, a new storage and query execution subsystem rather than a speed-only improvement.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency/",
+      "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Introduces customer-configurable ad timeout, personalization-budget and parallel-request controls; performance is a benefit of the controls.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-drill-down-metrics/",
+      "title": "Amazon Connect Customer adds one-click drill-down on real-time metrics dashboards",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Dashboards add drill-down navigation",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics/",
+      "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Streaming monitoring adds session metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls/",
+      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds route-prefix capacity pools and per-interface allocation controls as well as raising the ceiling.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-talent/",
+      "title": "Amazon Connect Talent is now generally available",
+      "first_level": "5",
+      "final_level": "NA",
+      "reason": "Talent GA repeats preview assessment interview and portal capabilities; no substantive new capability is identified.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
+      "title": "Amazon Quick now lets you build custom apps with natural language -",
+      "first_level": "4",
+      "final_level": "NA",
+      "reason": "Application-builder GA explicitly references preview users and repeats the same generation connection and publishing capabilities without a new delta.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
+      "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises the timeout for existing Managed Instance invocations from 15 to 90 minutes.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/live-sync-touchpoint/",
+      "title": "Amazon Connect Customer announces Live Sync and Touchpoint",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Touchpoint introduces an embeddable voice/chat/visual interaction surface; Live Sync was already previewed with CX designer.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+      "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Vector search supports metadata prefiltering strategy",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
+      "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "HyperPod adds a managed inference routing gateway using model and cache signals; this is a bounded routing operation, not a replacement execution model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0/",
+      "title": "AWS Neuron 2.33 adds native PyTorch support, Neuron Observer, and other new features",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "TorchNeuron adds native eager and compiled PyTorch execution on Trainium, a substantial backend programming model alongside diagnostics.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-gen-limit-increase/",
+      "title": "AWS Lambda durable functions increases durable operation and checkpoint payload limits",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises operation and checkpoint payload limits within existing durable execution.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
+      "title": "AWS Lambda announces Lambda Web Functions",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Lambda Web Functions introduces direct HTTP-server programming with concurrent requests active-CPU billing and multi-region routing, matching the agreed anchor.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+      "title": "AWS Well-Architected Agent is now available in preview",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Well-Architected Agent is introduced as a distinct managed recommendation and remediation service evolving prior tools.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/",
+      "title": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds customer-segment breakdowns to existing metrics views.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp/",
+      "title": "AWS Transfer Family supports custom ports for public SFTP servers",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds port and communication-mode controls to an existing SFTP server.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
+      "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "HyperPod splits prefill and decode onto independently scaled GPU pools with cache transport, changing distributed inference execution.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-s3-tables-10000-tables-bucket/",
+      "title": "Amazon S3 Tables now support 10,000 tables per table bucket",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises the existing per-bucket table quota to 10,000.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-elemental-mediaconnect-content-quality-metrics/",
+      "title": "AWS Elemental MediaConnect introduces content quality metrics",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Introduces content inspection for black frames, frozen video and audio silence, extending beyond existing transport/network metrics to a distinct content-quality detection capability.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-ses-tiered-pricing-virtual-deliverability-manager/",
+      "title": "Amazon SES now offers tiered pricing for Virtual Deliverability Manager",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "VDM rates decrease automatically at usage thresholds; no new billing controls or operations.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-step-functions-100-000-state-machines-activities-account/",
+      "title": "AWS Step Functions now supports 100,000 state machines and activities per AWS account",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises the existing registered-state-machine and activity quotas from 10,000 to 100,000.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/database-insights-customization-metrics-dashboard/",
+      "title": "Database Insights adds support for customization of its metrics dashboard",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Customizable database metric dashboard",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-end-user-messaging-combat-sms-pumping/",
+      "title": "AWS End User Messaging helps customers combat SMS pumping",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Refines the existing SMS Protect detection and filtering controls with country/use-case settings; no separate service or execution model is introduced.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-marketplace-japan-marketplace-facilitator-rule/",
+      "title": "AWS Marketplace now supports Japan Marketplace Facilitator Rule",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "Marketplace automates Japanese tax-qualified invoice issuance and consumption-tax collection or remittance.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/iam-identity-center-sdk-plugin-streamline-token-exchange-external-identity-provider/",
+      "title": "IAM Identity Center releases new SDK plugin to streamline token exchange with an external Identity Provider",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Automates existing trusted-identity token exchange through an SDK plugin.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/saas-manager-amazon-cloudfront/",
+      "title": "Announcing SaaS Manager for Amazon CloudFront",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Confirms multi-tenant CDN management subsystem spanning reusable distributions certificate lifecycle security and observability.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/managed-support-energy-data-insights/",
+      "title": "AWS Announces Managed Support for Energy Data Insights",
+      "first_level": "5",
+      "final_level": "4",
+      "reason": "Managed operations for an existing Energy Data Insights platform introduces a managed operating model delivered through AMS; it is not a distinct new underlying AWS product.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-dynamo-db-global-tables-multi-region-strong-consistency-generally-available/",
+      "title": "Amazon DynamoDB global tables with multi-Region strong consistency is now generally available",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Source introduces strongly consistent multi-region replication semantics rather than merely a new replica target; no earlier-preview baseline is established in this source.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-appsync-security-encryption-graphql-api-caching/",
+      "title": "AWS AppSync Enhances Security with Default Encryption for GraphQL API Caching",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "AppSync changes encryption defaults for new API caches; no distinct new operation.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-security-hub-risk-prioritization-response-scale/",
+      "title": "Introducing AWS Security Hub for risk prioritization and response at scale (Preview)",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces correlated risk inventory attack-path analysis and automated response subsystem within Security Hub.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-shield-network-security-director-preview/",
+      "title": "AWS Shield introduces network security director (preview)",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Introduces network topology assessment and remediation recommendations; source supports a distinct diagnostic capability rather than a new execution or operating model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/extending-aws-financing-program-marketplace-purchases-us-customers/",
+      "title": "Extending the AWS Financing program for AWS Marketplace purchases for all US customers",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "Existing Marketplace financing program extends customer eligibility; application and management operations already exist.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-bedrock-agentcore-preview/",
+      "title": "Amazon Bedrock AgentCore now available in preview",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces modular agent runtime memory gateway identity and execution infrastructure within Bedrock.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-documentdb-serverless/",
+      "title": "Amazon DocumentDB Serverless is Generally Available",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces on-demand autoscaling capacity operating model for DocumentDB.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-free-tier-credits-month-free-plan/",
+      "title": "AWS Free Tier now offers $200 in credits and 6-month free plan to explore AWS at no cost",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "Signup introduces a free account plan with controlled upgrade to paid usage, beyond changing credit amounts.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ecr-supports-100000-images/",
+      "title": "Amazon ECR now supports 100,000 images per repository",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises the existing repository image limit from 20,000 to 100,000.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-outposts-racks-cloudwatch-metrics/",
+      "title": "AWS Outposts racks now support new Amazon CloudWatch metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Outposts adds network status metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-bedrock-agentcore-runtime-browser-code-interpreter-vpc-privatelink-cloudformation-tagging/",
+      "title": "Amazon Bedrock AgentCore Runtime, Browser, and Code Interpreter add support for VPC, AWS PrivateLink, CloudFormation, and tagging",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds networking, provisioning and tagging controls around existing AgentCore runtime operations; these are management and connectivity refinements.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-cloudwatch-alarm-multiple-metrics/",
+      "title": "Amazon CloudWatch query alarms now support monitoring metrics individually",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Query alarm tracks individual metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-clean-rooms-add-data-providers-existing-collaborations/",
+      "title": "AWS Clean Rooms supports adding new data providers to existing collaborations",
+      "first_level": "3",
+      "final_level": "2",
+      "reason": "Extends collaboration membership configuration to allow adding data providers after creation; the collaboration operation remains the same.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ebs-performance-monitoring-metrics-ebs-volumes/",
+      "title": "Amazon EBS introduces additional performance monitoring metrics for EBS volumes",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "EBS average IOPS and throughput metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-gamelift-servers-telemetry-metrics/",
+      "title": "Amazon GameLift Servers adds telemetry metrics to all server SDKs and game engine plugins",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Introduces built-in SDK telemetry collection and export to CloudWatch or Prometheus, including custom client-side game metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-sagemaker-adds-search-context/",
+      "title": "Amazon SageMaker adds additional search context for search results",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Search results include match context",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-timestream-influxdb-3/",
+      "title": "Amazon Timestream now supports InfluxDB 3",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces a substantially different storage and query engine with S3 persistence and managed multi-node editions.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-lambda-payload-size-256-kb-1-mb-invocations/",
+      "title": "AWS Lambda increases maximum payload size from 256 KB to 1 MB for asynchronous invocations",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises the asynchronous invocation payload ceiling from 256 KB to 1 MB.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-step-functions-metrics-dashboard/",
+      "title": "AWS Step Functions announces a new metrics dashboard",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Workflow metrics dashboard",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-agentic-self-service/",
+      "title": "Amazon Connect introduces agentic self-service with more natural, expressive, and adaptive voice interactions",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces reasoning and action execution across voice and messaging as a managed self-service agent operating model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-route-53-global-resolver-secure-anycast-dns-resolution-preview/",
+      "title": "Introducing Amazon Route 53 Global Resolver for secure anycast DNS resolution (preview)",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces internet-facing authenticated anycast resolution with multi-region failover and DNS policy subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-eagle-decoding/",
+      "title": "Amazon SageMaker AI now supports EAGLE speculative decoding",
+      "first_level": "1",
+      "final_level": "2",
+      "reason": "Adds EAGLE optimization and specialized prediction-head training to an existing model optimization workflow; this is more than a numerical throughput change.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-flat-rate-pricing-plans/",
+      "title": "AWS announces flat-rate pricing plans for website delivery and security",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "CloudFront distributions gain selectable flat-rate plan tiers and bundled security configuration.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-apache-iceberg-based-materialized-views/",
+      "title": "AWS Glue now supports Apache Iceberg based materialized views",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Introduces creation and automatic refresh of Iceberg materialized views; a distinct managed operation rather than a new general execution model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-nat-gateway-regional-availability/",
+      "title": "AWS NAT Gateway now supports regional availability",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces region-scoped NAT operating model automatically provisioning and retiring per-AZ infrastructure.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/mwaa-serverless-deployment-apache-airflow-workflows/",
+      "title": "Amazon MWAA Introduces Serverless Deployment Option for Apache Airflow Workflows",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces isolated serverless Airflow workflow execution with automatic provisioning and per-workflow IAM.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-emr-serverless-local-storage-provisioning-apache-spark-workloads/",
+      "title": "Amazon EMR Serverless eliminates local storage provisioning for Apache Spark workloads",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Replaces provisioned local shuffle disks with separate managed autoscaling intermediate-storage subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-applications-health-performance-metrics/",
+      "title": "Amazon WorkSpaces Applications announces additional health and performance metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Fleet health and performance metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/",
+      "title": "AWS Payment Cryptography reduces API pricing by up to 63% and introduces tiered key pricing",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "API and key rates change automatically without new controls or operations.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/build-automate-production-ui-workflows-nova-act/",
+      "title": "Build agents to automate production UI workflows with Amazon Nova Act (GA)",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Source explicitly launches a managed AWS service for operating fleets of UI agents beyond the earlier SDK and IDE tooling.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/route-53-detailed-metrics-resolver-endpoints/",
+      "title": "Amazon Route 53 launches detailed metrics for Resolver endpoints",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Resolver detailed performance metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/spatial-data-management-spatial-data-insights/",
+      "title": "Announcing Spatial Data Management on AWS to accelerate spatial-data insights",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Introduces standalone spatial-data repository and management offering with dedicated APIs desktop and web interfaces.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/transform-custom-organization-wide-modernization/",
+      "title": "AWS launches AWS Transform custom to accelerate organization-wide application modernization",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Adds customer-defined transformation procedures and CLI execution to the existing Transform service; broad application consequences do not establish a new operating model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual/",
+      "title": "Amazon EC2 supports nested virtualization on virtual Amazon EC2 instances",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces nested hypervisor execution inside virtual EC2 instances.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-location-service-introduces-kiro-power-claude-skill-llm-context/",
+      "title": "Amazon Location Service introduces LLM Context as a Kiro power and Claude Code plugin to improve AI performance",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Packages instructions and patterns for using existing Location APIs in additional development tools.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-healthimaging-additional-metrics/",
+      "title": "AWS HealthImaging launches additional metrics for monitoring data stores",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Imaging storage metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-multi-region-aws-account-access-and-application-deployment/",
+      "title": "AWS IAM Identity Center enables account access and application use in multiple AWS Regions",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Introduces replication of identities and entitlements across regions; new replication operation rather than a new authentication operating model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-ai-activity-dashboard/",
+      "title": "AWS WAF announces AI activity dashboard for visibility into AI bot and agent traffic",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds an AI-specific view and category coverage to existing WAF bot-traffic monitoring and controls; the dashboard organizes existing protection functions.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-health-agentic-ai-healthcare/",
+      "title": "Introducing Amazon Connect Health, Agentic AI Built for Healthcare",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Introduces distinct Connect Health offering with clinical agents dedicated application and unified SDK.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/",
+      "title": "AWS Certificate Manager now supports native certificate search",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "The source explicitly introduces SearchCertificates API as well as a console search bar; this is a new certificate search operation, not merely a visual filter.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-launches-sustainability-console/",
+      "title": "AWS launches Sustainability console for carbon emissions tracking",
+      "first_level": "5",
+      "final_level": "3",
+      "reason": "Separates existing carbon-footprint reporting into its own access surface and adds API reporting; source identifies an extension of existing capability rather than wholly new service substance.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-opentelemetry-metrics/",
+      "title": "Amazon CloudWatch now supports OpenTelemetry metrics in public preview",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Introduces native OTLP ingestion and PromQL query/Query Studio interfaces for CloudWatch metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/",
+      "title": "Amazon ECS Managed Instances now supports NVIDIA GPU metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Managed ECS GPU metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/",
+      "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces shared filesystem semantics and cached file access backed by S3 object storage.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
+      "title": "AWS announces general availability of AWS Interconnect - multicloud",
+      "first_level": "5",
+      "final_level": "U",
+      "reason": "GA announcement describes multicloud service and pricing but does not establish a substantive delta from any earlier availability stage; preserve stage uncertainty rather than count the whole service again.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
+      "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces shared-storage architecture and independent compute scaling with scale-to-zero in the next-generation engine.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/karpenter-arc-zonal-shift/",
+      "title": "Karpenter now supports Amazon Application Recovery Controller zonal shift",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Extends the existing EKS ARC zonal-shift capability to the Karpenter compute provisioner and coordinates its existing scheduling controls.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer-agentic-cx-preview/",
+      "title": "Amazon Connect Customer launches Agentic CX designer (NLX) in preview",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces no-code self-service experience authoring and live voice-to-application synchronization subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
+      "title": "Amazon SageMaker Data Agent integrates business context into conversations",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds business metadata and glossary context to the existing Data Agent catalog discovery and code-generation workflow.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview/",
+      "title": "AWS announces AWS Blocks, an open-source framework for composing application backends on AWS (Preview)",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces typed application programming framework with full local runtime and unchanged-code deployment to managed AWS services.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
+      "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Volume recommendations include performance spikes",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace/",
+      "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "Professional-service listing fee reduction applies automatically; other purchase capabilities are background.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time/",
+      "title": "Amazon SageMaker AI cuts generative AI inference scale-out time by up to half with automatic container image caching",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Automatic container precaching improves scale-out speed without new controls or user operations.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+      "title": "Amazon SES introduces pricing plans",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "SES console adds selectable bundled capability plans instead of separate add-on purchases.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/",
+      "title": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "Adds an all-upfront purchase/payment configuration for existing three-year serverless reservations; billing functionality is assessed as a refinement rather than excluded as a pure price cut.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
+      "title": "Launching External Web Access for Web Search on Amazon Bedrock",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Web search optionally retrieves live external content",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-scheduling-metrics/",
+      "title": "Amazon Connect Customer now automatically refreshes scheduling metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Scheduling metrics refresh automatically",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/nested-virtualization-workspaces/",
+      "title": "Amazon WorkSpaces now supports Nested Virtualization",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Adds nested hypervisor execution within WorkSpaces desktops, supporting guest VMs and hypervisor-dependent tools. This is a new WorkSpaces execution mode; prior availability in EC2 does not make it a pre-existing WorkSpaces capability.",
+      "basis": "Source adjudication; primary-reader adjudication after cross-reader high-level audit"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/schedule-adherence-metrics/",
+      "title": "Amazon Connect Customer now provides schedule adherence metrics on dashboards",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Dashboard includes schedule adherence metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
+      "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Web search domain and publication-date filters",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A/",
+      "title": "Amazon Connect Customer launches agent-to-agent collaboration",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "Introduces inter-agent delegation and voice-session collaboration through A2A; distinct collaboration capability rather than a whole new agent runtime.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+      "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "Connections gain selectable billing modes, geographic tiers, and optional redundant port-pair configuration.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+      "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds credential validation and domain suggestions within existing penetration-test configuration, refining test setup before the same test workflow.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+      "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
+      "first_level": "4",
+      "final_level": "U",
+      "reason": "Earlier batch2 source announces limited-preview Bedrock Managed Agents; this preview post describes the same managed harness without explicitly identifying its new delta.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
+      "title": "Amazon EventBridge relaunches event buses for enterprise scale",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces replacement event-bus resource model with publishing API subscribers ordering retention and deduplication.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
+      "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Introduces separately named network-security management offering with dedicated pricing and organization-wide policy enforcement.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/",
+      "title": "Amazon WorkSpaces Core announces monthly pricing for managed instances",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "New WorkSpaces API billing configuration selects monthly or hourly payment per managed instance.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring/",
+      "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Valkey monitoring supports OpenTelemetry metrics",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
+      "title": "AWS announces AWS Interconnect - last mile preview with Megaport",
+      "first_level": "5",
+      "final_level": "2",
+      "reason": "Adds Megaport partner and activation workflow to existing Interconnect last-mile offering previously launched with Lumen.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+      "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Introduces an automated software-distribution workflow with distribution authorizations via public APIs, tax calculation, invoicing, settlement and reporting; this is billing/distribution functionality rather than a price-only announcement.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
+      "title": "AWS Continuum for code vulnerabilities is now generally available",
+      "first_level": "4",
+      "final_level": "U",
+      "reason": "GA description substantially repeats Continuum vulnerability lifecycle already announced in preview; no explicit substantive delta established.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+      "title": "AWS Lambda Durable Execution SDK for Go is now generally available",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Exposes the existing durable-execution programming model through a Go SDK.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
+      "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Web search domain and location controls",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai/",
+      "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Introduces user-authored stateful training-loop programming model through forward backward optimization and sampling APIs.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch2 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available/",
+      "title": "AWS Transform continuous modernization is now generally available",
+      "first_level": "3",
+      "final_level": "3",
+      "reason": "Compared with the continuous-modernization preview, the GA post explicitly adds connecting sources and initiating/scheduling analysis and remediation from the web application. Rate this interface addition, not the whole existing continuous-modernization subsystem.",
+      "basis": "Source adjudication; primary-reader adjudication after cross-reader high-level audit"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/amazon-connect-cases-granular-search-case-list-views/",
+      "title": "Amazon Connect Cases now provides more granular search capabilities and customizable case list views",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds custom-field filters and configurable case-list columns.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-marketplace-8-decimal-place-precision-usage-pricing/",
+      "title": "AWS Marketplace introduces 8 decimal place precision for usage pricing",
+      "first_level": "1",
+      "final_level": "1",
+      "reason": "Raises supported seller-configured pricing precision from three to eight decimal places.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-gamelift-streams/",
+      "title": "Announcing Amazon GameLift Streams",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "GameLift Streams introduces managed application rendering and interactive browser streaming, a substantial new delivery subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-s3-reduces-pricing-object-tagging/",
+      "title": "Amazon S3 reduces pricing for S3 object tagging by 35%",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "S3 object-tagging rates decrease automatically; tagging operations unchanged.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/managed-integrations-aws-iot-device-management/",
+      "title": "Announcing managed integrations for AWS IoT Device Management (Preview)",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Managed IoT integrations introduces unified multi-protocol device onboarding control and cloud connector infrastructure.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/03/pyspark-aws-clean-rooms/",
+      "title": "PySpark available in AWS Clean Rooms",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Clean Rooms adds arbitrary PySpark code and libraries as a collaborative computation execution model beyond SQL analysis.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-bedrock-rag-model-evaluations-custom-metrics/",
+      "title": "Amazon Bedrock RAG and Model Evaluations now support custom metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds user-defined evaluation metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-sagemaker-catalog-identifier-search-studio/",
+      "title": "Amazon SageMaker Catalog adds precise technical identifier search in SageMaker Unified Studio",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds exact and partial technical-identifier search matching.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-vpc-route-server/",
+      "title": "Announcing the general availability of Amazon VPC Route Server",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "VPC Route Server is a managed BGP control-plane subsystem that dynamically propagates appliance routes.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-budgets-cost-metrics-filtering-capabilities/",
+      "title": "AWS Budgets announces support for additional cost metrics and filtering capabilities",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds budget cost metrics and filtering controls.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-step-functions-sdk-integrations-backup-search-apis/",
+      "title": "AWS Step Functions expands SDK integrations with Amazon Backup Search and 137 additional APIs",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds Backup Search and other API targets to workflow integrations.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/general-availability-quarterly-update-amazon-linux-2023-al2023-7/",
+      "title": "Announcing the general availability seventh quarterly update for Amazon Linux 2023 (AL2023), AL2023.7",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Amazon Linux adds an integrated graphical desktop environment and remote desktop operation; kernel and package updates are smaller accompanying changes.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/04/new-aws-elemental-mediatailor-pricing-model/",
+      "title": "Announcing new AWS Elemental MediaTailor pricing model with lower VOD ad insertion costs",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "MediaTailor ad-insertion rates and tiers change automatically; no new configuration operation.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-connect-new-metrics-dashboard-drill-downs-outbound-campaigns/",
+      "title": "Amazon Connect adds five new metrics and dashboard drill downs for outbound campaigns",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds campaign metrics and reporting drilldowns.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-workspaces-core-managed-instances-vdi-migrations/",
+      "title": "Announcing Amazon WorkSpaces Core Managed Instances to simplify VDI migrations",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "WorkSpaces provisions and operates flexible EC2 resources in customer accounts through a new managed-instances model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-connect-agent-workspace-agent-metrics/",
+      "title": "Amazon Connect agent workspace now includes real-time agent performance metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds agent-facing performance dashboard.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-s3-vectors-preview-native-support-storing-querying-vectors/",
+      "title": "Announcing Amazon S3 Vectors (Preview)\u2014First cloud object storage with native support for storing and querying vectors",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "S3 Vectors introduces vector buckets indexes and similarity-query APIs, a substantial new storage subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/07/oracle-database-at-aws-now-generally-available/",
+      "title": "Oracle Database@AWS is now generally available",
+      "first_level": "5",
+      "final_level": "U",
+      "reason": "Oracle Database GA enumerates product capabilities but does not establish which were absent from its previous stage.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/08/custom-metrics-amazon-cloudwatch-application-signals/",
+      "title": "Custom Metrics now available in Amazon CloudWatch Application Signals",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds custom metric support to Application Signals.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ecs-managed-instances/",
+      "title": "Announcing Amazon ECS Managed Instances",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "ECS assumes EC2 provisioning scaling placement and patching through a new managed compute operating model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/09/b2b-data-interchange-transformation-status-reporting/",
+      "title": "AWS B2B Data Interchange introduces new transformation status reporting",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Surfaces existing transformation outcomes in the console with status and validation fields; this refines monitoring of the same transformation operation.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-quick-suite-agentic-ai-powered-workspace/",
+      "title": "Introducing Amazon Quick Suite: your agentic AI-powered workspace",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Quick Suite is introduced as a distinct agentic business workspace offering with research automation and a dedicated trial.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-rtb-fabric-generally-available/",
+      "title": "Now generally available: AWS RTB Fabric for real-time bidding workloads",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "RTB Fabric is a new managed AdTech connectivity and inline-processing service.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-cloudwatch-agent-shared-memory-metrics/",
+      "title": "Amazon CloudWatch agent adds Shared Memory Metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds shared-memory utilization metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-connect-metric-customization/",
+      "title": "Amazon Connect now supports creation of custom metrics for use in dashboards and APIs",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Introduces creation of persisted custom calculated metrics through a no-code builder for use in dashboards and APIs.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-eks-capabilities/",
+      "title": "Announcing Amazon EKS Capabilities",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "EKS introduces AWS-hosted deployment and resource orchestration components outside customer clusters, a managed platform subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-workspaces-applications-instances-storage-addition/",
+      "title": "Amazon WorkSpaces Applications adds new instance types and configurable storage options",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Adds custom EC2 AMI import to WorkSpaces image creation, alongside additional compute choices and configurable storage.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-knowledge-mcp-server-topic-based-search/",
+      "title": "AWS Knowledge MCP Server now supports topic-based search",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds topic-scoped knowledge search.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-managed-instances/",
+      "title": "Announcing AWS Lambda Managed Instances, a capability to run functions on your Amazon EC2 instances",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Lambda executes functions on customer-account EC2 capacity with managed lifecycle and concurrent requests, a new compute operating model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-tenant-isolation-mode/",
+      "title": "AWS Lambda announces new tenant isolation mode to simplify building tenant-aware applications",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Lambda changes execution-environment isolation and routing from function-level to tenant-level boundaries.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/gated-preview-interconnect-last-mile/",
+      "title": "AWS announces gated preview of AWS Interconnect - last mile",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Last-mile Interconnect is introduced as a distinct managed on-premises connectivity offering.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/notebooks-built-in-ai-agent-amazon-sagemaker/",
+      "title": "Announcing notebooks with a built-in AI agent in Amazon SageMaker",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "SageMaker introduces serverless Spark-backed notebook computation spanning SQL Python and ML without provisioning infrastructure.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/security-incident-response-metered-pricing-free-tier/",
+      "title": "AWS Security Incident Response now offers metered pricing with free tier",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "Incident Response moves automatically to findings-based metering and free tier; no explicit new user control.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/11/the-aws-api-mcp-server-aws-marketplace/",
+      "title": "The AWS API MCP Server is now available on AWS Marketplace",
+      "first_level": "NA",
+      "final_level": "2",
+      "reason": "Marketplace adds guided managed AgentCore deployment with authentication and network configuration.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-dashboards-filtering-metrics-custom-business-dimensions/",
+      "title": "Amazon Connect dashboards now support filtering metrics based on custom business dimensions",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds custom business-dimension dashboard filters.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-storage-lens-performance-metrics-prefixes-export-tables/",
+      "title": "Amazon S3 Storage Lens adds performance metrics, support for billions of prefixes, and export to S3 Tables",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds performance metrics and export options to Storage Lens.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-sagemaker-hyperpod-checkpointless-training/",
+      "title": "Amazon SageMaker HyperPod now supports checkpointless training",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "HyperPod replaces checkpoint restart with peer-state transfer and live node replacement, changing distributed fault-recovery execution.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-available-in-hyderabad-paris/",
+      "title": "AWS Payment Cryptography is now available in Asia Pacific(Hyderabad) and Europe(Paris)",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "Payment Cryptography expands to Hyderabad and Paris.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/new-serverless-model-customization-capability-amazon-sagemaker-ai/",
+      "title": "New serverless model customization capability in Amazon SageMaker AI",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "SageMaker introduces fully serverless customization training with managed data preparation evaluation and deployment workflow.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2025/12/sagemaker-ai-serverless-mlflow-ai-development/",
+      "title": "Amazon SageMaker AI announces serverless MLflow capability for faster AI development",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "MLflow becomes dynamically scaled serverless tracking infrastructure instead of customer-managed tracking server capacity.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/",
+      "title": "Amazon Bedrock now supports 1-hour duration for prompt caching",
+      "first_level": "1",
+      "final_level": "2",
+      "reason": "Prompt caching changes from fixed five-minute TTL to a selectable one-hour persistence option.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/",
+      "title": "AWS announces Flexible Cost Allocation in AWS GovCloud (US)",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "Existing flexible cost-allocation capability expands to GovCloud.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/01/clean-rooms-detailed-monitoring-collaboration-queries/",
+      "title": "AWS Clean Rooms now supports detailed monitoring for collaboration queries",
+      "first_level": "2",
+      "final_level": "3",
+      "reason": "Introduces an opt-in detailed query-metric publishing capability to CloudWatch, a distinct monitoring export interface supported by the source.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eventbridge-scheduler-resource-metrics/",
+      "title": "Amazon EventBridge Scheduler adds resource count metrics for quota monitoring",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds schedule resource-count metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-express-one-zone-cloudwatch-request-metrics/",
+      "title": "Amazon S3 Express One Zone now supports request metrics in Amazon CloudWatch",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds Express One Zone request metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/",
+      "title": "Amazon Bedrock AgentCore adds new features to help developers build agents faster",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "AgentCore introduces a managed orchestration harness with isolated persistent execution sessions and configurable agent loops.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/",
+      "title": "Amazon Connect Talent for AI-powered hiring (now available in Preview)",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Connect Talent is a distinct hiring product with assessments interviews candidate portal and recruiter workflow.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/",
+      "title": "AWS Agent Registry for centralized agent discovery and governance is now available in Preview",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Agent Registry introduces governed catalog discovery and approval infrastructure for agents and tools, beyond a simple search UI.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
+      "title": "AWS Payment Cryptography now available in South America (S\u00e3o Paulo)",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "Payment Cryptography expands to Sao Paulo.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/",
+      "title": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "The new managed agent harness and identity-scoped execution offering is substantive; model catalog additions are smaller components.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/04/custom-applications/",
+      "title": "Build custom applications using natural language in Amazon Quick (Preview)",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Adds a web-application creation and publishing subsystem to Quick, with interactive apps, live data connections, workflows and embedded AI. This introduces a new application artifact and execution surface beyond the assistant interaction.",
+      "basis": "Source adjudication; primary-reader adjudication after cross-reader high-level audit"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/",
+      "title": "Amazon Bedrock Managed Knowledge Base is now generally available",
+      "first_level": "4",
+      "final_level": "U",
+      "reason": "Managed Knowledge Base GA lists managed ingestion retrieval and storage but does not establish a prior-stage functional delta.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
+      "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds metrics for compatible inference APIs.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-continuum/",
+      "title": "Introducing AWS Continuum for security at machine speed",
+      "first_level": "5",
+      "final_level": "5",
+      "reason": "Continuum introduces a distinct vulnerability validation and remediation offering alongside renamed existing Security Agent components.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-continuous-modernization/",
+      "title": "AWS launches a new continuous modernization capability in AWS Transform that provides autonomous tech debt analysis and remediation at scale",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Continuous modernization adds organization-wide recurring analysis prioritization and remediation orchestration across repository portfolios.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/",
+      "title": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Oracle adds serverless independent compute/storage scaling and managed database operations without dedicated Exadata clusters.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect/",
+      "title": "Amazon Connect Customer launches metrics for agent queues on analytics dashboards",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds agent-queue dashboard metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search/",
+      "title": "Amazon Location Service enhances Places APIs with new address and search options",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds address formatting and search options.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
+      "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Oracle upgrade adds in-database vector search graph analytics and dual relational/document representation, substantive new engine subsystems.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics/",
+      "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds desktop performance and session-health metrics.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
+      "title": "AgentCore runtime instances are now generally available",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "AgentCore adds managed customer-account EC2 capacity and specialized hardware execution distinct from default microVM runtime.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/",
+      "title": "New AWS experience helps builders get started and ship faster",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "AWS introduces project-scoped onboarding membership automatic role management and spend-enforced resource operation, a new account interaction model.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
+      "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Omni adds a team-space observability workspace with cross-cloud discovery and local agent evaluation workflow, a substantial new product subsystem.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+      "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds tag-based custom metric permissions.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
+      "title": "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure",
+      "first_level": "4",
+      "final_level": "4",
+      "reason": "Beanstalk changes from per-app dedicated environments to pooled EKS multi-application infrastructure with managed lifecycle.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-extended-support-migration/",
+      "title": "Amazon EMR extends support at no additional cost for customers migrating off older releases",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "EMR extends support lifecycle for migrating customers; no changed product operation.",
+      "basis": "Source adjudication; cross-reader billing and performance audit by batch0 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing/",
+      "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
+      "first_level": "NA",
+      "final_level": "NA",
+      "reason": "Replaces per-event charges with consumption-based ingestion, retrieval and storage rates; the post describes no new memory operation or TTL functionality.",
+      "basis": "Source adjudication; primary-reader commercial-tail source review"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+      "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds item and attribute filters to existing DynamoDB full and incremental exports.",
+      "basis": "Source adjudication; targeted source rereading of search, export and metric refinements by primary reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+      "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
+      "first_level": "4",
+      "final_level": "3",
+      "reason": "ECS Gateway adds a managed ingress resource that provisions and shares load balancers; it is a bounded deployment/networking capability.",
+      "basis": "Source adjudication; cross-reader high-level audit by batch1 reader"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
+      "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
+      "first_level": "3",
+      "final_level": "3",
+      "reason": "Adds a telemetry exporter and query integration for existing durable executions.",
+      "basis": "Agreed rubric example; source reviewed"
+    },
+    {
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+      "title": "AWS Network Firewall now supports Route 53 Resolved IP Validation",
+      "first_level": "2",
+      "final_level": "2",
+      "reason": "Adds DNS-resolved destination-IP validation to existing domain-based firewall rules and extends protocol coverage; it refines the existing traffic-filtering operation.",
+      "basis": "Source adjudication; independent sample disagreement resolved against source text"
+    }
+  ],
+  "transitions": [
+    {
+      "before": "1",
+      "after": "1",
+      "n": 249
+    },
+    {
+      "before": "1",
+      "after": "2",
+      "n": 33
+    },
+    {
+      "before": "1",
+      "after": "3",
+      "n": 2
+    },
+    {
+      "before": "1",
+      "after": "4",
+      "n": 1
+    },
+    {
+      "before": "1",
+      "after": "NA",
+      "n": 1
+    },
+    {
+      "before": "2",
+      "after": "1",
+      "n": 168
+    },
+    {
+      "before": "2",
+      "after": "2",
+      "n": 1500
+    },
+    {
+      "before": "2",
+      "after": "3",
+      "n": 69
+    },
+    {
+      "before": "2",
+      "after": "4",
+      "n": 8
+    },
+    {
+      "before": "2",
+      "after": "NA",
+      "n": 34
+    },
+    {
+      "before": "2",
+      "after": "U",
+      "n": 3
+    },
+    {
+      "before": "3",
+      "after": "1",
+      "n": 3
+    },
+    {
+      "before": "3",
+      "after": "2",
+      "n": 514
+    },
+    {
+      "before": "3",
+      "after": "3",
+      "n": 659
+    },
+    {
+      "before": "3",
+      "after": "4",
+      "n": 43
+    },
+    {
+      "before": "3",
+      "after": "NA",
+      "n": 6
+    },
+    {
+      "before": "3",
+      "after": "U",
+      "n": 9
+    },
+    {
+      "before": "4",
+      "after": "4",
+      "n": 6
+    },
+    {
+      "before": "5",
+      "after": "1",
+      "n": 5
+    },
+    {
+      "before": "5",
+      "after": "2",
+      "n": 33
+    },
+    {
+      "before": "5",
+      "after": "3",
+      "n": 45
+    },
+    {
+      "before": "5",
+      "after": "4",
+      "n": 6
+    },
+    {
+      "before": "5",
+      "after": "5",
+      "n": 18
+    },
+    {
+      "before": "5",
+      "after": "NA",
+      "n": 4
+    },
+    {
+      "before": "5",
+      "after": "U",
+      "n": 10
+    },
+    {
+      "before": "NA",
+      "after": "1",
+      "n": 9
+    },
+    {
+      "before": "NA",
+      "after": "2",
+      "n": 42
+    },
+    {
+      "before": "NA",
+      "after": "3",
+      "n": 1
+    },
+    {
+      "before": "NA",
+      "after": "5",
+      "n": 1
+    },
+    {
+      "before": "NA",
+      "after": "NA",
+      "n": 1138
+    },
+    {
+      "before": "U",
+      "after": "1",
+      "n": 165
+    },
+    {
+      "before": "U",
+      "after": "2",
+      "n": 64
+    },
+    {
+      "before": "U",
+      "after": "3",
+      "n": 26
+    },
+    {
+      "before": "U",
+      "after": "4",
+      "n": 6
+    },
+    {
+      "before": "U",
+      "after": "NA",
+      "n": 39
+    }
+  ],
+  "limitations": [
+    "Independent agreement measures consistency, not proven accuracy.",
+    "The 120-record sample is uniform, not a per-category accuracy study; rare levels have few examples.",
+    "One initial source reader per record; targeted adjudication does not establish error-free classification.",
+    "The source review does not extend product-change ratings to 2021\u20132024 or independently establish completeness of AWS source collection.",
+    "Each announcement receives its highest substantive product-change level; preview and GA are assessed for the change announced and are not deduplicated into unique product launches."
+  ]
+}

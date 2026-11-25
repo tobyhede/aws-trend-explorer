@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-25",
+  "file": "sample_reader_a.tsv",
+  "sha256": "549bce7ea74220c223af7acb98a1ba7d5f57f6682c8571f67816ef0614d4c871",
+  "records": 200,
+  "blinded_to_initial_ratings": true
+}

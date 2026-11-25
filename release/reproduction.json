@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-25",
+  "reproduced_files_sha256": {
+    "announcements.csv": "a3184a64c4c66ff804a6fc8c49445969ebdd36cb2b97ab0c53965e9502dc2097",
+    "announcements.json": "67cc0b07b518bcc45048ba47a891f058ada87d6998a76fb0518e2f22aa1323ce",
+    "annual.csv": "7f0bde9f6083f92eae4fa6e3974b67092d99d59f3a8b48eb534383755ce22b5d",
+    "monthly.csv": "422f8a93c1194def6e637d4ac640e9b4f4115fcea1167b9790cce9492d94952c",
+    "matched.csv": "d380d30b873fad0dafa87785fc585293d807cccc1b55312bb7d408ef4e78ba66",
+    "service_matched.csv": "48e1bdc7ef9ea76e67952edba1d339fb100704357b9bc9a5f02493b217097ace",
+    "annual.svg": "54acfd0d789e528f0bf52167b7a39a525ae174402d81f8d8c6b9a9e2aeacc5b1",
+    "annual_full.svg": "f39ef248ade36745d26d8695c13909d253d6bcb2f30d813d42461c3109261c4d",
+    "monthly.svg": "585805bb3dbd01dffe33dd2e31890449316c2d4d3ec356974f0414ec61e8a8e4",
+    "matched.svg": "78f48a7a0ffb47eb029e31792ba529ab875b5bf347cd18096f4e659bc6f29d72",
+    "historical_review/metrics.json": "a732694b8228209cf6790708395d2dbe2f9e50811c846bbf2c56ef905362811d",
+    "historical_review/final_review.json": "5a29dab4e35f18a5a28eb1f243fcacaebe3fa9c137eb838336908fa52c96501c"
+  },
+  "result": "All 12 outputs reproduced byte-for-byte; all verification checks passed."
+}

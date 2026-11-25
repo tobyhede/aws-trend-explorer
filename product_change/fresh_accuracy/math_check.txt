@@ -1,0 +1,40 @@
+Independent arithmetic and sampling-scope verification
+
+Result: No material arithmetic error found in the reported result. Judgments and production data were not changed. I independently recomputed counts and Wilson intervals from row_audit.json and cross-checked all 200 rows against frozen_predictions.json; I inspected score.py without running it.
+
+Overall agreement
+- Exactly 200 unique source URLs and ordered indices 0..199.
+- All production labels match frozen_predictions.json; its SHA256 matches protocol.json.
+- All stored match flags equal exact production/reference equality.
+- 173/200 = 86.5%; 27 mismatches.
+- Independently calculated Wilson 95% interval: 81.0708616292% to 90.5534295452%, matching metrics.json.
+- This counts one U/U match. It is exact label agreement, not 173 independently established substantive correct classifications.
+
+Product-only agreement
+- Reference levels 1..5 contain 135 records, with 112 exact matches: 82.9629629630%.
+- Wilson 95% interval: 75.7312260385% to 88.3706645322%, matching metrics.json.
+- Denominator is reference-defined product changes, not production-predicted product changes. This is a conditional result and should retain that description.
+
+Category results
+- Independently verified every category's production count, reference count, true-positive count, precision, recall, and both Wilson intervals.
+- Precision is TP / production count; recall is TP / reference count. Zero denominators correctly produce null, not zero.
+- Level 4 recall is 0/5; level 4 precision is unmeasured because production predicts none in the sample.
+- Level 5 precision and recall are both unmeasured, with no sampled production or reference cases.
+- Level 3 precision 16/25 = 64% and recall 16/20 = 80% are correct; category denominators remain small.
+
+Reference uncertainty
+- Initial reader agreement 191/200 = 95.5% independently verified from row audit.
+- Four reference cases are U/low confidence; remaining 196 contain 172 matches: 87.7551020408%.
+- The reported 86%-88% sensitivity range is the arithmetic envelope 172/200 through (172+4)/200. It is not a confidence interval and assumes only those four rows may change correctness. It does not capture correlated errors or boundary uncertainty in medium-confidence reference judgments.
+- The third-reader count and pre-scoring chronology are declared provenance, not independently established by the row audit and hash manifests alone. Hashes identify contents, not creation chronology.
+
+Sampling scope and exclusions
+- Declared population arithmetic is consistent: 4,578 eligible + 342 previously reviewed exclusions = 4,920.
+- All sampled dates fall within the declared window; observed sample spans 2025-01-15 to 2026-10-26.
+- score.py verifies the sample against SHA256(seed + URL) ranking and disjointness from excluded URLs. A fixed hash ranking yields a reproducible pseudo-random sample; uniform-sampling interpretation requires a seed chosen independently of outcomes and a fixed eligible frame.
+- This verification was limited to the requested files and the original blind sample. I did not independently inspect the eligible/excluded URL manifests or prior audit evidence, so I cannot independently confirm all 342 exclusion memberships or the claim that prior audits removed most/all level-4/5 production records.
+- The stated limitation restricting estimates to the 4,578 previously unaudited records is appropriate. Do not generalize directly to all 4,920, excluded categories, current AWS announcements, or overall collection coverage.
+- Omitting finite-population correction is disclosed and slightly conservative at a 200/4,578 sampling fraction. Wilson intervals quantify sampling variation under the sampling interpretation, not reference validity.
+
+Non-material scoring-code robustness note
+- score.py hardcodes a denominator of 200 and uses zip(sample, predicted, reference) without asserting predicted length. A future shorter prediction file could truncate rows while retaining denominator 200. Current inputs have exactly 200 aligned records, so this does not affect the present results. An explicit equal-length assertion would make reruns safer.

@@ -1,0 +1,31 @@
+38	NA	Only expands availability of existing M8g instances to four regions; processor and size descriptions are background.	high
+50	2	Extends existing certificate-based authentication to Windows multi-session fleets as an authentication compatibility option.	high
+54	1	Adds P6-B200 hardware to existing SageMaker notebook environments, with increased GPU memory and performance.	high
+56	2	Adds approval policies governing existing asset-sharing operations, scoped by asset type and approver group.	medium
+71	3	Adds key encapsulation and decapsulation to establish a shared secret using ML-KEM, distinct cryptographic operations beyond an algorithm parameter.	high
+81	2	Database-level ACLs and atomic or cluster-wide variants of existing key/hash operations extend controls and operation options; throughput gains alone are level 1.	medium
+82	U	GA announcement describes automatic quota monitoring and notifications but does not identify a substantive change from any pre-GA capability.	medium
+91	3	Alongside a routine model addition, tool search introduces discovering tools from large libraries through the Bedrock API.	medium
+92	U	GA description explains the Cognito Identity Pools L2 construct but states no substantive change relative to its pre-GA version.	high
+97	1	Adds Java 21 as a canary runtime within existing synthetic monitoring; packaging, metrics and tracing support accompany that runtime.	medium
+100	2	Asset partitioning adds scheduling granularity and HITL, callbacks and async callable support extend existing workflow controls and compatibility.	medium
+101	2	Adds private endpoint connectivity to the existing SCEP certificate-request operation.	high
+102	NA	HIPAA eligibility changes compliance status without an announced product capability change.	high
+111	U	Describes the GA Query Studio workspace and visualization features without establishing which capabilities changed from preview.	high
+116	NA	Launches a community and learning portal with articles, courses, events and feedback rather than a cloud product capability.	medium
+117	2	Adds visibility of managed dedicated IPs and SNDS metrics through existing SES and CloudWatch interfaces.	medium
+122	2	Extends existing concurrency scaling to auto-copy ingestion, a new target for an existing scaling capability.	high
+134	4	Claude Tag introduces a persistent shared channel-agent operating model with its own identity, remembered context and future task execution within Claude Enterprise.	medium
+137	3	Integrates GuardDuty scanning with AWS Backup to add automatic, on-demand and pre-restoration backup malware verification.	medium
+144	2	Supports shared Managed Active Directory across accounts for existing license subscriptions and management.	high
+150	NA	Makes existing I8ge instances available in Ireland; performance descriptions do not announce another product change.	high
+152	4	Kafka Queues introduce shared consumption of the same topic partitions for point-to-point processing, a new message-consumption model.	high
+155	NA	Adds India geography availability and India-confined cross-region profiles for existing OpenAI models and inference APIs.	high
+157	1	Raises the maximum Aurora DSQL storage limit from 128 TiB to 256 TiB.	high
+159	NA	Expands existing Hpc8a instance availability to Tokyo and GovCloud US-West.	high
+163	1	Adds larger WorkSpaces hardware bundles with 16 or 32 vCPUs and corresponding memory.	high
+166	NA	Expands availability of existing RDS database instance families to additional regions.	high
+174	2	Adds per-table storage-cost detail to existing S3 Tables reporting in Cost Explorer and CUR.	high
+176	U	GA announcement describes RHEL for AWS integrations and image mode but does not establish the substantive delta from any pre-GA offering.	medium
+177	1	Adds MySQL minor runtime versions with unspecified fixes and improvements to existing RDS database operation.	high
+198	NA	Expands existing S3 Access Grants to Thailand and Mexico regions.	high

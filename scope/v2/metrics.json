@@ -1,0 +1,114 @@
+{
+  "sample": 64,
+  "reference_agreement": 60,
+  "scores": {
+    "baseline": {
+      "matches": 19,
+      "classified": 33,
+      "by_label": {
+        "new_product": {
+          "reference": 1,
+          "predicted": 0,
+          "matches": 0
+        },
+        "new_capability": {
+          "reference": 26,
+          "predicted": 24,
+          "matches": 15
+        },
+        "improved": {
+          "reference": 20,
+          "predicted": 6,
+          "matches": 2
+        },
+        "extended": {
+          "reference": 16,
+          "predicted": 3,
+          "matches": 2
+        },
+        "operational": {
+          "reference": 1,
+          "predicted": 0,
+          "matches": 0
+        },
+        "unclear": {
+          "reference": 0,
+          "predicted": 31,
+          "matches": 0
+        }
+      }
+    },
+    "text_rule": {
+      "matches": 2,
+      "classified": 5,
+      "by_label": {
+        "new_product": {
+          "reference": 1,
+          "predicted": 0,
+          "matches": 0
+        },
+        "new_capability": {
+          "reference": 26,
+          "predicted": 2,
+          "matches": 1
+        },
+        "improved": {
+          "reference": 20,
+          "predicted": 3,
+          "matches": 1
+        },
+        "extended": {
+          "reference": 16,
+          "predicted": 0,
+          "matches": 0
+        },
+        "operational": {
+          "reference": 1,
+          "predicted": 0,
+          "matches": 0
+        },
+        "unclear": {
+          "reference": 0,
+          "predicted": 59,
+          "matches": 0
+        }
+      }
+    },
+    "heuristic": {
+      "matches": 61,
+      "classified": 64,
+      "by_label": {
+        "new_product": {
+          "reference": 1,
+          "predicted": 1,
+          "matches": 1
+        },
+        "new_capability": {
+          "reference": 26,
+          "predicted": 23,
+          "matches": 23
+        },
+        "improved": {
+          "reference": 20,
+          "predicted": 22,
+          "matches": 20
+        },
+        "extended": {
+          "reference": 16,
+          "predicted": 17,
+          "matches": 16
+        },
+        "operational": {
+          "reference": 1,
+          "predicted": 1,
+          "matches": 1
+        },
+        "unclear": {
+          "reference": 0,
+          "predicted": 0,
+          "matches": 0
+        }
+      }
+    }
+  }
+}

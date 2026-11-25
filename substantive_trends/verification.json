@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-25",
+  "source_sha256": "a3184a64c4c66ff804a6fc8c49445969ebdd36cb2b97ab0c53965e9502dc2097",
+  "checks": [
+    "Six annual, 70 monthly, and four 90-day rows reconciled with independent DuckDB queries",
+    "All raw service-tag counts reconciled with independent DuckDB queries",
+    "All original 12 output hashes unchanged",
+    "Report links resolve",
+    "PNG chart visually inspected"
+  ],
+  "output_sha256": {
+    "annual_matched.csv": "2424fc75549ab58f13c14e1d092845ae9427c476240be5df10d2d9f45629fb55",
+    "velocity_90_days.csv": "da14b1b19b5d7ae5895bcc21d418e3742f32994fb5cfb05dbe63c65921ca9a0d",
+    "service_changes.csv": "7bc887b0ed7444d83d62dc9dee6dfb6d043fe76444bb18addd54c1113cf38e2a",
+    "requirements.txt": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38",
+    "recalculate.py": "6a2d90e8dd2123ec65c222cb120f50d37662e667d9e41cd83897016bf4607945",
+    "REPORT.md": "c5b282edfbef6d5e1e876edbb463eeb68921f8018daafdfca0daea6fced5bd70",
+    "results.json": "e3bdcf0791ebf698178fe4acb52eff9b7bef251e78c7a9165833dc68819314f5",
+    "trends.svg": "9a272c5b7c2b2afcd2b31771e64da3d1d074b9c57d3cb0b1d6c42e790b7ab529",
+    "README.txt": "5a52598972ef08cf3fc73463bc2e8e979773f55e0d2d4fcd80ec03015ef4cff2",
+    "monthly.csv": "2a78e97f650ec9880307e97410dbde268b4ce843b5f6f19344df017d3bd4f49d",
+    "trends.png": "63e94437e8dd48bae1c889a417300c778ac16320f69439320c38fb96450d49fa"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-25",
+  "records": 9247,
+  "batch_sizes": [
+    3083,
+    3082,
+    3082
+  ],
+  "sample_size": 200,
+  "sample_seed": "8923f82e3be425535cf1336b8e5f8539f85df54f7f70c3ed",
+  "sample_method": "Uniform pseudorandom SHA256(seed+URL) ranking before classification; sample hidden from initial readers",
+  "baseline_records": 4920,
+  "rubric": "Agreed product-change levels 1\u20135, NA, U; saved AWS announcement text",
+  "source_hashes": {
+    "batch2.json": "27a41e2aec7a993c054cea65d1a7be997747866d4ca467c1e53e9591a049bd6f",
+    "baseline_2025_2026.json": "72771c0c539e31d277d294033859182213763e51dc2fc90f7b23f324d5902083",
+    "baseline_decisions.json": "6777367c744263b62c1d69e5284141341c874ee1721be4626b3cf021cbaa7c7f",
+    "sample.json": "28fbf7d5f2037adc763e78f1a13aed68c54fee74347c43997cc29be5054ef117",
+    "batch0.json": "0d3d4115c4f325a88da952b11928cccb2f5106e03aebf7771b80dd93cf6ea0f3",
+    "batch1.json": "4f90fe2b7aa319de4adcd55517dbd57ea2d634988b8868e1f3c9816f5589e5fc"
+  }
+}

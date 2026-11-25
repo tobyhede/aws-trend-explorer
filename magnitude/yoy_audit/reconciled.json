@@ -1,0 +1,14 @@
+{
+  "01a6b0cd097b1a6c": {
+    "arch": true,
+    "reason": "For teams populating SageMaker Catalog from Glue, domain onboarding can replace the customer-run metadata ingestion job or script with native ingestion."
+  },
+  "02185353ae8f4628": {
+    "arch": false,
+    "reason": "S3 COPY uses the same Redshift ingestion pipeline. Automatic allocation of extra compute removes manual resizing and scheduling during bursts; the announcement identifies no separate customer-operated ingestion component or new system boundary."
+  },
+  "032868c00c798b9e": {
+    "arch": true,
+    "reason": "On warm inference nodes, pods load weights from a local NVMe cache instead of pulling them over the network from S3 or FSx. The original network path remains available for cold nodes."
+  }
+}

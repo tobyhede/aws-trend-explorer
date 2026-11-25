@@ -1,0 +1,209 @@
+[
+  {
+    "batch": 1,
+    "index": 75,
+    "initial_level": "NA",
+    "initial_reason": "VDM pricing tiers",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-ses-tiered-pricing-virtual-deliverability-manager/",
+    "title": "Amazon SES now offers tiered pricing for Virtual Deliverability Manager",
+    "text": "Today, Amazon Simple Email Service (SES) launched a new pricing structure for Virtual Deliverability Manager (VDM), giving customers reduced charges at higher levels of usage. Customers can benefit from lower total VDM charges without the need to change account configuration, sending practices, or billing setup. This can lower customer total cost of ownership for VDM as their usage increases. Previously, all customers using VDM paid a fixed price per message sent. Customers could turn VDM on or off whenever needed, and they paid only for what they used without any commitment or fixed monthly charges. Now, customers will see their charges per message for VDM decrease as their sending volume exceeds specific thresholds each month. After crossing each threshold in a given billing month, each subsequent message processed by VDM is charged at a lower rate. This reduces the total cost of using VDM for high volume senders. SES supports tiered pricing for VDM in all AWS regions where SES is available. For more information, see the documentation for the SES pricing page ."
+  },
+  {
+    "batch": 1,
+    "index": 232,
+    "initial_level": "NA",
+    "initial_reason": "Marketplace tax facilitator compliance",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-marketplace-japan-marketplace-facilitator-rule/",
+    "title": "AWS Marketplace now supports Japan Marketplace Facilitator Rule",
+    "text": "Starting today, AWS Marketplace supports the Japan Marketplace Facilitator (MPF) rule, making it easier for Sellers to meet the Japanese regulatory requirements and providing a seamless tax experience for customers in Japan. Under the MPF rule, AWS Marketplace will collect the Japan consumption tax (JCT) and issue a tax qualified invoice (TQI) for sales by non-Japan addressed Independent Software Vendors (ISVs) and Channel Partners (together as non-Japan addressed Sellers) to customers in Japan. Also, AWS Marketplace will offer the same customer experience by enabling TQI issuance for sales by Japan-addressed ISVs and Channel Partners (together as Japan-addressed Sellers) to customers in Japan. With this launch, for non-Japan addressed Sellers, AWS Japan will collect the 10% JCT on products listed and sold on AWS Marketplace to Japan customers, issue a TQI to the customers, and remit the JCT to the Japan Tax Authorities. For Japan-addressed Sellers, AWS Japan will continue to collect 10% JCT on the products listed and sold on AWS Marketplace to Japan customers and disburse the collected JCT to the Japan-addressed Sellers; additionally, AWS Japan will issue a TQI to the customers. The TQI issuance helps customers reduce the administrative burden for managing tax documentation. This feature is available for all Sellers when transacting via the AWS Japan Marketplace Operator. To learn more, please visit the AWS Japan FAQ or AWS Marketplace Seller Guide ."
+  },
+  {
+    "batch": 1,
+    "index": 358,
+    "initial_level": "1",
+    "initial_reason": "API cache encryption default",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-appsync-security-encryption-graphql-api-caching/",
+    "title": "AWS AppSync Enhances Security with Default Encryption for GraphQL API Caching",
+    "text": "AWS AppSync is a fully managed service that simplifies the development and deployment of GraphQL APIs. Starting today, AWS AppSync automatically enables encryption at-rest and in-transit for all new API caching configurations. This security enhancement applies to newly created caches, while existing caches maintain their current encryption settings. AWS AppSync SDKs have been updated to enforce encryption for new caches, ignoring any manual encryption configuration attributes. This default encryption strengthens your GraphQL APIs' security posture by ensuring comprehensive protection of cached data without requiring additional configuration. The change aligns with AWS security best practices and simplifies the implementation of secure caching for your APIs. Customers can continue using their existing cache configurations without disruption while benefiting from enhanced security for new deployments. This update is available in all AWS Regions where AWS AppSync is offered. To learn more about AWS AppSync caching, visit our documentation or explore the full range of AWS AppSync features in our Developer Guide ."
+  },
+  {
+    "batch": 1,
+    "index": 381,
+    "initial_level": "NA",
+    "initial_reason": "Financing eligibility expansion",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/extending-aws-financing-program-marketplace-purchases-us-customers/",
+    "title": "Extending the AWS Financing program for AWS Marketplace purchases for all US customers",
+    "text": "Today, AWS extended the availability of the AWS Financing program to help all US customers simplify and accelerate their AWS Marketplace software purchases directly through the AWS Billing and Cost Management console. US customers can now apply for, utilize, and manage financing within the console for AWS Marketplace software purchases. The AWS Marketplace Financing program provides customers with a seamless experience to search for and apply for financing, while buying third-party software on AWS Marketplace, all while managing billing and payment within the AWS Console. The AWS Financing program gives you the flexibility to better manage your cash flow by spreading payments over time, while only paying financing cost on what you use. With thousands of software products available in AWS Marketplace, this financing program enables you to finance purchases ranging from $10,000 - $100,000,000, subject to credit approval. With near real-time decisions for loans up to $350,000, approved customers can finance AWS Marketplace software purchases with contract terms of at least 12 months. Financing can be applied to a variety of purchases from multiple AWS Marketplace sellers, giving you more flexibility across your software portfolio. This financing program is available in the AWS Billing and Cost Management console for AWS Marketplace customers in the US, excluding NV, NC, ND, TN, & VT. To learn more about financing options for AWS Marketplace purchases and details about the AWS Financing program, visit the AWS Marketplace financing page ."
+  },
+  {
+    "batch": 1,
+    "index": 452,
+    "initial_level": "NA",
+    "initial_reason": "Free Tier commercial program changes",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-free-tier-credits-month-free-plan/",
+    "title": "AWS Free Tier now offers $200 in credits and 6-month free plan to explore AWS at no cost",
+    "text": "Today, AWS announces enhancements to its Free Tier program, offering new customers up to $200 in AWS credits to evaluate over 200 services. This program benefits a wide range of users, including cloud professionals, software developers, students, and early entrepreneurs to gain hands-on experience with AWS services, develop new skills, and build proof-of-concepts. With the new AWS Free Tier, new customers can explore AWS's extensive portfolio of services without incurring costs, making it easier to get started with AWS. As part of the enhanced Free Tier program, new customers receive $100 in AWS credits upon sign-up and can earn an additional $100 in credits by using services such as Amazon EC2 and Amazon Bedrock. It provides customers access to greater number of AWS services, while providing them control over the transition to paid usage. In addition to the ability to apply credits to paid services, customers continue to have access to over 30 always-free services. Additionally, the new Free Tier is integrated with AWS\u2019s suite of Cloud Financial Management tools, making it easy to monitor and forecast future usage. Customers can get started with the new AWS Free Tier program features by selecting the free account plan during sign-up. The free account plan expires either 6 months after sign-up or when Free Tier credits are depleted, whichever comes first. When ready, customers can easily upgrade to the paid plan with a single click to get access to more services and continue building on AWS. The new AWS Free Tier features are generally available in all AWS Regions, except the AWS GovCloud (US) Regions and the China Regions. To learn more, visit AWS Free Tier website and AWS Free Tier documentation ."
+  },
+  {
+    "batch": 1,
+    "index": 748,
+    "initial_level": "1",
+    "initial_reason": "Speculative decoding inference performance optimization",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-eagle-decoding/",
+    "title": "Amazon SageMaker AI now supports EAGLE speculative decoding",
+    "text": "Amazon SageMaker AI now supports EAGLE (Extrapolation Algorithm for Greater Language-model Efficiency) speculative decoding to improve large language model inference throughput by up to 2.5x. This capability enables models to predict and validate multiple tokens simultaneously rather than one at a time, improving response times for AI applications. As customers deploy AI applications to production, they need capabilities to serve models with low latency and high throughput to deliver responsive user experiences. Data scientists and ML engineers lack efficient methods to accelerate token generation without sacrificing output quality or requiring complex model re-architecture, making it hard to meet performance expectations under real-world traffic. Teams spend significant time optimizing infrastructure rather than improving their AI applications. With EAGLE speculative decoding, SageMaker AI enables customers to accelerate inference throughput by allowing models to generate and verify multiple tokens in parallel rather than one at a time, maintaining the same output quality while dramatically increasing throughput. SageMaker AI automatically selects between EAGLE 2 and EAGLE 3 based on your model architecture, and provides built-in optimization jobs that use either curated datasets or your own application data to train specialized prediction heads. You can then deploy optimized models through your existing SageMaker AI inference workflow without infrastructure changes, enabling you to deliver faster AI applications with predictable performance. You can use EAGLE speculative decoding in the following AWS Regions: US East (N. Virginia), US West (Oregon), US East (Ohio), Asia Pacific (Tokyo), Europe (Ireland), Asia Pacific (Singapore), and Europe (Frankfurt) To learn more about EAGLE speculative decoding, visit AWS News Blog here , and SageMaker AI documentation here ."
+  },
+  {
+    "batch": 1,
+    "index": 772,
+    "initial_level": "NA",
+    "initial_reason": "Flat-rate commercial pricing plans",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-flat-rate-pricing-plans/",
+    "title": "AWS announces flat-rate pricing plans for website delivery and security",
+    "text": "Amazon Web Services (AWS) is launching flat-rate pricing plans with no overages for website delivery and security. The flat-rate plans, available with Amazon CloudFront, combine global content delivery with AWS WAF, DDoS protection, Amazon Route 53 DNS, Amazon CloudWatch Logs ingestion, and serverless edge compute into a simple monthly price with no overage charges. Each plan also includes monthly Amazon S3 storage credits to help offset your storage costs. CloudFront flat-rate plans allow you to deliver your websites and applications without calculating costs across multiple AWS services. You won\u2019t face the risk of overage charges, even if your website or application goes viral or faces a DDoS attack. Security features like WAF and DDoS protection are enabled by default, and additional configurations are simple to set up. When you serve your AWS applications through CloudFront instead of directly to the internet, your flat-rate plan covers the data transfer costs between your applications and your viewers for a simple monthly price without the worry of overages. This simplified pricing model is available alongside pay-as-you-go pricing for each CloudFront distribution, giving you the flexibility to choose the right pricing model and feature set for each application. Plans are available in Free ($0/month), Pro ($15/month), Business ($200/month), and Premium ($1,000/month) tiers for new and existing CloudFront distributions. Select the plan tier with the features and usage allowances matching your application\u2019s needs. To learn more, refer to the Launch Blog , Plans and Pricing , or CloudFront Developer Guide . To get started, visit the CloudFront console ."
+  },
+  {
+    "batch": 1,
+    "index": 858,
+    "initial_level": "NA",
+    "initial_reason": "Cryptography price reduction",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/",
+    "title": "AWS Payment Cryptography reduces API pricing by up to 63% and introduces tiered key pricing",
+    "text": "Today, AWS Payment Cryptography announced a significant price reduction of up to 63% for API requests across existing tiers and introduced a new fourth tier. This change unifies pricing across all regions and enables customers to migrate higher volume workloads to the service without being worried about pricing. As part of this update, we moved from flat rate to tiered key pricing, better supporting customers who need to manage high volumes of cryptographic keys. The new pricing model allows customers to cost-effectively scale both their key management and payment processing operations while optimizing costs at any volume. AWS Payment Cryptography is a managed AWS service that provides access to cryptographic functions and key management used in payment processing in accordance with Payment Card Industry (PCI) security standards without the need to procure dedicated payment Hardware Security Module (HSM) instances. The service enables customers performing payment functions such as acquirers, payment facilitators, networks, switches, processors, and banks to move their payment cryptographic operations closer to applications in the cloud and minimize dependencies on auxiliary data centers or colocation facilities containing dedicated payment HSMs. The price change is effective from December 15 2025, across all AWS Regions where AWS Payment Cryptography is available and automatically applies to all customers without any further action. For more information about pricing, visit the AWS Payment Cryptography pricing page . To learn more about the service, see the AWS Payment Cryptography user guide ."
+  },
+  {
+    "batch": 1,
+    "index": 1315,
+    "initial_level": "NA",
+    "initial_reason": "Marketplace listing fee reduction",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace/",
+    "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
+    "text": "AWS Marketplace now offers a 0.5% listing fee for professional services private offers, reduced from 2.5%. This makes it more cost-effective for consulting partners, systems integrators, managed services providers and independent software vendors to transact their services through AWS Marketplace, while retaining the procurement and billing benefits that come with it. Professional services is an established and growing category on AWS Marketplace, with hundreds of partners actively transacting. The reduced fee complements capabilities purpose-built for the discovery and purchase of services through AWS Marketplace. Customers can find the right Partner through AI-powered discovery in Agent Mode, procure complete solutions through multi-product solutions that combine software and services in a single transaction, and pay through variable billing models like time-and-materials \u2014 all through AWS Marketplace. For Partners, these improvements make it simpler and more economical to transact professional services through AWS Marketplace. Partners with existing professional services listings benefit automatically, with the reduced fee applying to all new private offers going forward while existing offers and subscriptions continue at their original terms. The fee applies in all AWS Regions where AWS Marketplace operates, across all pricing models and currencies. To get started, Partners can review the seller documentation and list professional services through AWS Partner Central . Customers can explore professional services directly in AWS Marketplace."
+  },
+  {
+    "batch": 1,
+    "index": 1317,
+    "initial_level": "1",
+    "initial_reason": "Inference scale-out latency improves through caching",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time/",
+    "title": "Amazon SageMaker AI cuts generative AI inference scale-out time by up to half with automatic container image caching",
+    "text": "Amazon SageMaker Inference now supports container image caching, enabling up to 2x faster end-to-end scaling for generative AI models during scale-out events. When your endpoint scales out, the service pre-caches your container image so new instances can start serving traffic faster, without waiting for large container images to be pulled from Amazon ECR. Generative AI workloads typically use large container images (10 GB or more) for deep learning frameworks and model serving. Previously, every new instance launched during scale-out had to pull the full image from ECR, adding several minutes of cold-start latency. Container image caching eliminates this bottleneck by pre-pulling the image so new instances launch with the container already available locally. Customers don't need to make any changes. The service automatically caches whatever image URI is specified in your endpoint or inference component configuration. This capability supports accelerator instance types, single-model endpoints, and inference component-based endpoints. With this launch, SageMaker Inference now offers a comprehensive scaling optimization suite for generative AI: sub-minute concurrency metrics for up to 6x faster load detection, instance-store container caching for faster scaling on existing instances, and container image caching for up to 2x faster scaling on new instances. Container image caching is available in all AWS commercial regions where SageMaker Inference is supported. To learn more, visit the launch blog ."
+  },
+  {
+    "batch": 1,
+    "index": 1352,
+    "initial_level": "NA",
+    "initial_reason": "SES commercial pricing plans",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+    "title": "Amazon SES introduces pricing plans",
+    "text": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three hierarchical options: Essentials, Pro, and Enterprise. Each plan builds on the one before it, offering progressively more capability at a discount compared to \u00e0-la-carte pricing. Businesses depend on email reaching the inbox and getting read, but the capabilities needed to ensure this have traditionally been sold as individual add-ons that must be evaluated and purchased independently. With pricing plans, customers pick a plan and have access to the right capabilities at no additional cost. Essentials provides deliverability insights, Pro adds managed dedicated IPs, email validation, and global inbox placement visibility to proactively prevent problems, and Enterprise adds multi-region resilience, workload-level reputation isolation, and an annual deliverability assessment. Pricing plans are available in all AWS Regions where Amazon SES is available, except the Middle East (UAE) and Middle East (Bahrain) Regions. To get started, sign in to the Amazon SES console and navigate to the pricing plan section. To learn more, visit the Amazon SES Pricing page or the Amazon SES Developer Guide ."
+  },
+  {
+    "batch": 1,
+    "index": 1392,
+    "initial_level": "NA",
+    "initial_reason": "Upfront reservation payment option",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/",
+    "title": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
+    "text": "Amazon Redshift announces the availability of All Upfront payment option for 3-year Serverless Reservations, providing up to 50% savings over on-demand rates. With All Upfront pricing, you pay for the full reservation term at the start and receive the maximum discount on your Amazon Redshift Serverless compute costs. This new payment option joins the existing 1-year No Upfront, 1-year All Upfront, and 3-year No Upfront options, giving you greater flexibility to optimize costs based on your financial preferences Amazon Redshift Serverless allows you to run and scale analytics without having to provision and manage clusters. Serverless Reservations help you further optimize compute costs and improve cost predictability by committing to a specific number of Redshift Processing Units (RPUs). Managed at the AWS payer account level, Serverless Reservations can be shared between multiple AWS accounts, reducing compute costs across all Amazon Redshift Serverless workloads in your organization. Any usage exceeding the reserved RPU level is charged at standard on-demand rates. This pricing option is available in all AWS commercial and AWS GovCloud (US) Regions where Amazon Redshift Serverless is available. You can purchase Serverless Reservations via the Amazon Redshift console or by invoking the Serverless Reservations API. To learn more, see the Amazon Redshift pricing page or the Amazon Redshift Management Guide ."
+  },
+  {
+    "batch": 1,
+    "index": 1515,
+    "initial_level": "NA",
+    "initial_reason": "Direct Connect flat-rate pricing",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+    "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
+    "text": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value the flexibility of AWS Direct Connect's pay-as-you-go pricing, paying only for the port hours and data transfer out (DTO) they use, with no upfront commitment or long-term contracts. For workloads with large, sustained DTO, the per-gigabyte charges vary from month to month, making monthly costs challenging to predict as traffic grows. Flat-rate pricing for 10 Gbps and 100 Gbps dedicated connections introduces a single fixed monthly price that eliminates DTO charges within the selected pricing tier. This pricing model is designed for network architects, enterprise IT teams, and FinOps practitioners who need predictable, fixed-line-item network budgeting. With a fixed monthly price, you can grow your use of AWS without worrying about increasing data transfer bills. With flat-rate pricing, you pay a single fee based on your connection bandwidth and the geographical scope of your connectivity. With five geographic tiers ranging from same-metro to global coverage, customers can select the scope that matches their traffic patterns and pay one consistent monthly rate regardless of data volume. Flat-rate pricing also introduces the port-pair concept, a new way to provision dedicated connections with inbuilt resiliency. A port-pair is two dedicated connections on different devices or locations that share the same bandwidth and geographical connectivity scope. One connection carries your traffic while the other stands by for redundancy. The second connection is included at no additional charge. Port-pairs are recommended but optional. Flat-rate pricing is available at all AWS Direct Connect locations across all commercial AWS Regions (China Regions excluded) and applies exclusively to Dedicated Connections. The pricing model is configured per connection and gives customers the flexibility to switch billing mode on connections at any time. To learn more about flat-rate pricing tiers, port-pair configurations, and eligibility requirements, visit the AWS Direct Connect Flat-Rate Pricing , User Guide and Pricing Guide pages."
+  },
+  {
+    "batch": 1,
+    "index": 1560,
+    "initial_level": "NA",
+    "initial_reason": "WorkSpaces monthly pricing option",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/",
+    "title": "Amazon WorkSpaces Core announces monthly pricing for managed instances",
+    "text": "AWS is announcing flexible billing for Amazon WorkSpaces Core managed instances, adding monthly flat-rate pricing alongside existing hourly billing. Customers can now choose the optimal pricing model based on their end user usage patterns. Monthly billing is ideal for predictable full-time desktops and hourly billing is ideal for variable usage patterns. Both options are pay-as-you-go with no long-term commitments. Amazon WorkSpaces Core managed instances simplifies virtual desktop infrastructure (VDI) migrations with highly customizable instance configurations. WorkSpaces Core managed instances provisions resources in your AWS account, handling infrastructure lifecycle management for both persistent and non-persistent workloads. Monthly pricing delivers savings vs hourly billing at always-on utilization, optimized for real-world VDI use cases. With flexible billing, customers benefit from predictable costs for persistent desktop workloads and the flexibility to mix hourly and monthly billing within the same deployment. VDI partners utilizing WorkSpaces Core managed instances including Citrix , Workspot , Dizzion , and Leostream can now integrate with new WorkSpaces API billing features to enable the monthly billing option when instances are created. Hourly billing remains the default billing option for managed instances. In addition, starting today, hourly utility rates for WorkSpaces Core managed instances will now be combined and billed by Amazon WorkSpaces to simplify pricing. Previously, hourly rates were split between Amazon EC2 and Amazon WorkSpaces on customer bills. There is no change to the effective rates for on-demand hourly usage of WorkSpaces Core Managed Instances with this announcement. To learn more about Amazon WorkSpaces Core managed instances flexible billing, visit the WorkSpaces for VDI partners pricing page . For more information, see the WorkSpaces for VDI partners product page . For technical documentation, see the Amazon WorkSpaces Core Documentation ."
+  },
+  {
+    "batch": 2,
+    "index": 139,
+    "initial_level": "NA",
+    "initial_reason": "Reduces object-tagging prices.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-s3-reduces-pricing-object-tagging/",
+    "title": "Amazon S3 reduces pricing for S3 object tagging by 35%",
+    "text": "Amazon S3 reduces pricing for S3 object tagging by 35% in all AWS Regions to $0.0065 per 10,000 tags per month. Object tags are key-value pairs applied to S3 objects that can be created, updated, or deleted at any time during the lifetime of the object. S3 object tags help you logically group data for a variety of reasons such as to apply IAM policies to provide fine-grained access, to specify tag-based filters to manage object lifecycle rules, and to selectively replicate data to another AWS Region. Additionally, in AWS Regions where S3 Metadata is available, you can easily capture and query custom metadata that is stored as object tags. S3 object tags are available in all AWS Regions including the AWS China and AWS GovCloud (US) Regions. This new pricing takes effect automatically in the monthly billing cycle starting on March 1, 2025. To learn more about object tags, refer to the documentation . For more pricing details, visit the S3 pricing page ."
+  },
+  {
+    "batch": 2,
+    "index": 243,
+    "initial_level": "NA",
+    "initial_reason": "Changes MediaTailor pricing and discounts.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/new-aws-elemental-mediatailor-pricing-model/",
+    "title": "Announcing new AWS Elemental MediaTailor pricing model with lower VOD ad insertion costs",
+    "text": "Today, we are launching two significant updates to AWS Elemental MediaTailor pricing: A new VOD ad insertion usage type priced at a 50% discount to live. The new pricing model aligns better with how streaming providers monetize their content. By pricing VOD ad insertion at 50% of the cost of live workflows, you can expand your ad-supported VOD libraries more cost-effectively using MediaTailor. Elimination of the $0.75 per 1000 ads pricing tier, so live ad insertion now has a single tier at $0.50 per 1000 ads. By removing the tiered pricing model of 1 to 5M insertions and greater than 5M insertions per month, this makes it easier for you to predict your bill and get started with MediaTailor. The following summary illustrates the changes: Previously, ad insertion pricing was tiered: $0.75 per 1,000 ad insertions for the first 5 million insertions per month $0.50 per 1,000 ad insertions for volumes exceeding 5 million per month Under the new pricing model: Live streaming ad insertions: $0.50 per 1,000 insertions VOD streaming ad insertions: $0.25 per 1,000 insertions Both rates now apply regardless of volume. The new pricing is effective immediately and will be applied automatically to your bill. Customers willing to make minimum commitments of more than 60 million ad insertions per month qualify for additional discounted pricing. Contact us or your account manager to learn more. This new pricing structure is available in all AWS Regions where MediaTailor is available. To learn more, please visit the MediaTailor product page ."
+  },
+  {
+    "batch": 2,
+    "index": 818,
+    "initial_level": "NA",
+    "initial_reason": "Changes incident-response pricing model.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/security-incident-response-metered-pricing-free-tier/",
+    "title": "AWS Security Incident Response now offers metered pricing with free tier",
+    "text": "Today, AWS Security Incident Response announces a new metered pricing model that charges customers based on the number of security findings ingested, making automated security incident response capabilities and expert guidance from the AWS Customer Incident Response Team (CIRT) more flexible and scalable for organizations of all sizes. The new pricing model introduces a free tier covering the first 10,000 findings per month, allowing security teams to explore and validate the service's value at no cost. Customers pay $0.000676 per finding after the free tier, with tiered discounts that reduce rates as volume increases. This consumption-based approach enables customers to scale their security incident response capabilities as their needs evolve, without upfront commitments or minimum fees. Customers can monitor the number of monthly findings through Amazon CloudWatch at no additional cost, making it easy to track usage against the free tier and any applicable charges. The new pricing model automatically applies to all AWS Regions where Security Incident Response is available starting November 21, 2025, requiring no action from customers. To learn more, visit the Security Incident Response pricing page ."
+  },
+  {
+    "batch": 2,
+    "index": 820,
+    "initial_level": "NA",
+    "initial_reason": "Adds Marketplace distribution channel for existing MCP server.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/the-aws-api-mcp-server-aws-marketplace/",
+    "title": "The AWS API MCP Server is now available on AWS Marketplace",
+    "text": "AWS announces the availability of the AWS API MCP Server on AWS Marketplace, enabling customers to deploy the Model Context Protocol (MCP) server to Amazon Bedrock AgentCore. The marketplace entry includes step-by-step configuration and deployment instructions for deploying the AWS API MCP Server as a managed service with built-in authentication and session isolation to Bedrock Agent Core Runtime. The AWS Marketplace deployment simplifies container management while providing enterprise-grade security, scalability, and session isolation through Amazon Bedrock AgentCore Runtime. Customers can deploy the AWS API MCP Server with configurable authentication methods (SigV4 or JWT), implement least-privilege IAM policies, and leverage AgentCore's built-in logging and monitoring capabilities. The deployment lets customers configure IAM roles, authentication methods, and network settings according to their security requirements. The AWS API MCP Server can now be deployed from AWS Marketplace in all AWS Regions where Amazon Bedrock AgentCore is supported. Get started by visiting the AWS API MCP Server listing on AWS Marketplace or explore the deployment guide on AWS Labs GitHub repository . Learn more about Amazon Bedrock AgentCore in the AWS documentation ."
+  },
+  {
+    "batch": 2,
+    "index": 857,
+    "initial_level": "NA",
+    "initial_reason": "Expands Payment Cryptography regional availability.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-available-in-hyderabad-paris/",
+    "title": "AWS Payment Cryptography is now available in Asia Pacific(Hyderabad) and Europe(Paris)",
+    "text": "AWS Payment Cryptography has expanded its global presence with availability in two new regions - Asia Pacific(Hyderabad) and Europe(Paris). This expansion enables customers with latency-sensitive payment applications to build, deploy or migrate into additional AWS Regions without depending on cross-region support. These Region offers offers additional options for multi-region high availability for Europe and India. AWS Payment Cryptography is a fully managed service that simplifies payment-specific cryptographic operations and key management for cloud-hosted payment applications. The service scales elastically with your business needs and is assessed as compliant with PCI PIN and PCI P2PE requirements, eliminating the need to maintain dedicated payment HSM instances. Organizations performing payment functions - including acquirers, payment facilitators, networks, switches, processors, and banks can now position their payment cryptographic operations closer to their applications while reducing dependencies on auxiliary data centers with dedicated payment HSMs. AWS Payment Cryptography is available in the following AWS Regions: Canada(Montreal), US East (Ohio, N. Virginia), US West (Oregon), Europe (Ireland, Frankfurt, London,Paris), Africa(Cape Town) and Asia Pacific (Singapore, Tokyo, Osaka, Mumbai,Hyderabad). To start using the service, please download the latest AWS CLI/SDK and see the AWS Payment Cryptography user guide for more information."
+  },
+  {
+    "batch": 2,
+    "index": 890,
+    "initial_level": "1",
+    "initial_reason": "Adds one-hour prompt-cache lifetime value.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/",
+    "title": "Amazon Bedrock now supports 1-hour duration for prompt caching",
+    "text": "Amazon Bedrock now supports a 1-hour time-to-live (TTL) option for prompt caching for select Anthropic Claude models. With this update, you can extend the persistence of cached prompt prefixes from the default 5 minutes to 1 hour, improving cost efficiency and performance for long-running agentic workflows and multi-turn conversations. Previously, cached content remained active for a fixed 5-minute window and refreshed when reused. With the new 1-hour TTL option, you can maintain context for users who interact less frequently, or for complex agents that require more time between steps\u2014such as tool use, retrieval, and orchestration. The 1-hour TTL is also useful for longer sessions and batch processing where you want cached content to persist across extended periods. 1-hour TTL prompt caching is generally available for Anthropic\u2019s Claude Sonnet 4.5, Claude Haiku 4.5, and Claude Opus 4.5 in all commercial AWS Regions and AWS GovCloud (US) Regions where these models are available. The 1-hour cache is billed at a different rate than the standard 5-minute cache. To learn more, refer to the Amazon Bedrock documentation and Amazon Bedrock Pricing page."
+  },
+  {
+    "batch": 2,
+    "index": 921,
+    "initial_level": "NA",
+    "initial_reason": "Expands flexible firewall cost allocation to GovCloud.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/",
+    "title": "AWS announces Flexible Cost Allocation in AWS GovCloud (US)",
+    "text": "AWS Network Firewall now supports flexible cost allocation through AWS Transit Gateway native attachments in AWS GovCloud (US) Regions , enabling you to automatically distribute data processing costs across different AWS accounts. Customers can create metering policies to apply data processing charges based on their organization's chargeback requirements instead of consolidating all expenses in the firewall owner account. This capability helps security and network teams better manage centralized firewall costs by distributing charges to application teams based on actual usage. Organizations can now maintain centralized security controls while automatically allocating inspection costs to the appropriate business units or application owners, eliminating the need for custom cost management solutions. Flexible cost allocation is available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. You can enable these features using the AWS Management Console, AWS Command Line Interface (CLI) and the AWS Software Development Kit (SDK). There are no additional charges for using this attachment or flexible cost allocation beyond standard pricing of AWS Network Firewall and AWS Transit Gateway . To get started, visit the Flexible Cost Allocation on AWS Transit Gateway service documentation ."
+  },
+  {
+    "batch": 2,
+    "index": 1129,
+    "initial_level": "NA",
+    "initial_reason": "Expands Payment Cryptography regional availability.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
+    "title": "AWS Payment Cryptography now available in South America (S\u00e3o Paulo)",
+    "text": "AWS Payment Cryptography has expanded its global presence with availability in South America (S\u00e3o Paulo). This expansion enables customers with latency-sensitive payment applications to build, deploy or migrate into additional AWS Regions without depending on cross-region support. AWS Payment Cryptography is a fully managed service that simplifies payment-specific cryptographic operations and key management for cloud-hosted payment applications. The service scales elastically with your business needs and is assessed as compliant with PCI PIN and PCI P2PE requirements, eliminating the need to maintain dedicated payment HSM instances. Organizations performing payment functions - including acquirers, payment facilitators, networks, switches, processors, and banks can now position their payment cryptographic operations closer to their applications while reducing dependencies on auxiliary data centers with dedicated payment HSMs. AWS Payment Cryptography is available in the following AWS Regions: Canada (Montreal), US East (Ohio, N. Virginia), US West (Oregon), Europe (Ireland, Frankfurt, London, Paris), South America (S\u00e3o Paulo), Africa (Cape Town) and Asia Pacific (Singapore, Tokyo, Osaka, Mumbai, Hyderabad). To start using the service, please download the latest AWS CLI/SDK and see the AWS Payment Cryptography user guide for more information."
+  },
+  {
+    "batch": 2,
+    "index": 1539,
+    "initial_level": "NA",
+    "initial_reason": "Extends maintenance support for migrating customers.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-extended-support-migration/",
+    "title": "Amazon EMR extends support at no additional cost for customers migrating off older releases",
+    "text": "Amazon EMR now gives you more time, at no additional cost, to migrate off older releases before they reach end of support. If you are actively migrating, your workloads on eligible releases keep receiving support while you move to a current release, with no opt-in and at no charge. To give you more time to plan and migrate, Amazon EMR provides critical security fixes for releases 5.36 and 6.6 through 6.15 on a best-effort basis through June 30, 2027, and extended Standard Support for 7.0 through 7.10 releases through August 31, 2027. To receive an extension, contact AWS Support with your migration plan and any help you need with the upgrade. This applies to all deployment models of Amazon EMR (EMR on EC2, EMR on EKS, and EMR Serverless), in all AWS Regions where Amazon EMR is available. For the full list of releases and their support dates, see the Amazon EMR standard support policy . To get the extended support, contact AWS Support with your migration plan, or use the Apache Spark Upgrade Agent to move your applications to a current release."
+  }
+]

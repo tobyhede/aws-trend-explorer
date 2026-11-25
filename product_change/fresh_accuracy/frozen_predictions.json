@@ -1,0 +1,1402 @@
+[
+  {
+    "index": 0,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
+    "level": "2",
+    "reason": "Sustainability reporting includes water withdrawals",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 1,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-ecs-set-default-log-driver-blocking-mode/",
+    "level": "2",
+    "reason": "Account-level log blocking mode setting",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 2,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-dvc-releases-version-2025-0/",
+    "level": "2",
+    "reason": "Adds WebAuthn compatibility and keyboard-handling refinements.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 3,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/gamelift-servers-console-developers-ai-powered/",
+    "level": "2",
+    "reason": "GameLift console integrates Q guidance",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 4,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ec2-auto-scaling-forced-cancellation-instance/",
+    "level": "2",
+    "reason": "Instance refresh cancellation supports immediate force option",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 5,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+    "level": "2",
+    "reason": "SQL Developer Edition supports multi-AZ deployments",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 6,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/eks-auto-mode-advanced-compute-config/",
+    "level": "2",
+    "reason": "Automatic EKS nodes expose advanced kernel and kubelet tuning",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 7,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
+    "level": "NA",
+    "reason": "Capacity Blocks GovCloud expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 8,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-private-ca-post-quantum-digital-certificates/",
+    "level": "2",
+    "reason": "Certificate issuance supports post-quantum algorithms",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 9,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion/",
+    "level": "NA",
+    "reason": "SNS SMS regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 10,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-provides-apis-test-simulate-voice-interactions/",
+    "level": "3",
+    "reason": "Programmatic voice simulation testing APIs",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 11,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-sign-in/",
+    "level": "2",
+    "reason": "Console sign-in resource and organization policies",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 12,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-workspaces-core-managed-instances-additional-regions/",
+    "level": "NA",
+    "reason": "WorkSpaces Managed Instances regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 13,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-transform-mainframe-generally-available/",
+    "level": "3",
+    "reason": "Mainframe modernization adds documentation chat and analysis operations",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 14,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sagemaker-catalog-ai-descriptions-custom-assets/",
+    "level": "2",
+    "reason": "Description generation supports custom assets",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 15,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-elemental-mediatailor-s3-firehose-logging-destinations-lower-cost/",
+    "level": "2",
+    "reason": "Adds S3 and Firehose destinations for existing logs.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 16,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+    "level": "1",
+    "reason": "Voxtral model catalog addition",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 17,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-step-functions-ipv6-dual-stack-endpoints/",
+    "level": "2",
+    "reason": "Step Functions endpoints support IPv6",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 18,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
+    "level": "2",
+    "reason": "Cost anomaly detection covers third-party model spend",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 19,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-x2m/",
+    "level": "1",
+    "reason": "SQL Server instance catalog adds X2m",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 20,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/open-sourcing-pgactive-active-active-replication-extension-postgresql/",
+    "level": "NA",
+    "reason": "Existing PostgreSQL extension released as open source",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 21,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-dms-serverless-automatic-storage-scaling/",
+    "level": "3",
+    "reason": "Introduces automatic replication-storage scaling.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 22,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-step-functions-workflow-studio-vs-code-ide/",
+    "level": "2",
+    "reason": "Workflow Studio extends to VS Code",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 23,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-backup-asia-pacific-thailand/",
+    "level": "NA",
+    "reason": "Backup regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 24,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-codepipeline-codebuild-commands-rule-stage-level-condition/",
+    "level": "2",
+    "reason": "Pipeline conditions execute builds or commands",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 25,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8gn-milan-hong-kong/",
+    "level": "NA",
+    "reason": "C8gn regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 26,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/connect-campaigns-pacing-controls/",
+    "level": "2",
+    "reason": "Adds abandonment-target campaign pacing controls.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 27,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/05/aws-healthimaging-dicomweb-series-level-metadata-retrievals/",
+    "level": "2",
+    "reason": "DICOM metadata retrieval supports series grouping",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 28,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-app-runner-expands-support-ipv6/",
+    "level": "2",
+    "reason": "App Runner supports inbound and outbound IPv6",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 29,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+    "level": "1",
+    "reason": "MySQL extended-support versions added",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 30,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+    "level": "2",
+    "reason": "Adds existing secret ARN references to credential providers.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 31,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-ec2-m7g-instances-additional-regions/",
+    "level": "NA",
+    "reason": "M7g regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 32,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
+    "level": "2",
+    "reason": "Adds automatic Kafka Streams topic creation.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 33,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-neuron-2-26-announce/",
+    "level": "2",
+    "reason": "Adds framework compatibility and expert-parallelism controls.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 34,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ec2-m7i-instances-are-now-available-in-aws-secret-region/",
+    "level": "NA",
+    "reason": "Expands M7i regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 35,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-i7i-instances-aws-govcloud-us-regions/",
+    "level": "NA",
+    "reason": "I7i GovCloud availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 36,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
+    "level": "3",
+    "reason": "Aurora DSQL integrates Database Insights",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 37,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-ec2-r7g-instances-additional-aws-regions/",
+    "level": "NA",
+    "reason": "R7g regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 38,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-m8g-instances-additional-regions/",
+    "level": "NA",
+    "reason": "M8g regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 39,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-custom-sql-server-latest-gdr-updates-microsoft-sql-server/",
+    "level": "1",
+    "reason": "SQL Server maintenance versions added",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 40,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/s3-tables-automatic-replication-apache-iceberg-tables/",
+    "level": "3",
+    "reason": "S3 Tables gains automatic cross-region table replication",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 41,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8g-instances-aws-govcloud-us-regions/",
+    "level": "NA",
+    "reason": "Expands I8g to GovCloud.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 42,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mysql-minor-versions/",
+    "level": "1",
+    "reason": "MySQL minor version catalog",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 43,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/storage-gateway-terraform-al2023/",
+    "level": "1",
+    "reason": "Adds Amazon Linux 2023 deployment image support.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 44,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-serverless/",
+    "level": "2",
+    "reason": "EMR Serverless supports IPv6",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 45,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-redshift-query-editor-v2-larger-result-sets-govcloud/",
+    "level": "NA",
+    "reason": "Rolls out existing larger query-result limit to GovCloud.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 46,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-eks-enhanced-container-network-observability/",
+    "level": "3",
+    "reason": "EKS network metrics and flow observability integration",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 47,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-kiro-ide/",
+    "level": "2",
+    "reason": "Unified Studio remote access supports Kiro",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 48,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+    "level": "NA",
+    "reason": "Expands U7i regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 49,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-ecr-pull-through-cache/",
+    "level": "2",
+    "reason": "Pull-through caching supports ECR registries",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 50,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/02/certificate-based-authentication-amazon-appstream-2-0-multi-session-fleets/",
+    "level": "2",
+    "reason": "Certificate authentication on multi-session fleets",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 51,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/ipv6-amazon-s3-gateway-interface-vpc-endpoints/",
+    "level": "2",
+    "reason": "S3 private endpoints support IPv6",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 52,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-webauthn-redirection-chromium-browsers/",
+    "level": "2",
+    "reason": "Secure Browser redirects local WebAuthn authentication",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 53,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-athena-asia-pacific-taipei/",
+    "level": "NA",
+    "reason": "Expands Athena regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 54,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-sagemaker-notebooks-p6-b200-instance-type/",
+    "level": "1",
+    "reason": "Adds P6-B200 notebook instance option.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 55,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-resource-groups-privatelink/",
+    "level": "2",
+    "reason": "Adds private Resource Groups API connectivity.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 56,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
+    "level": "2",
+    "reason": "Adds approval requirements to asset sharing.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 57,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/memory-optimized-amazon-ec2-x8aedz-instances/",
+    "level": "1",
+    "reason": "X8aedz instance catalog addition",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 58,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-connect-aws-cloudformation-quick-response/",
+    "level": "2",
+    "reason": "Quick responses supported by CloudFormation",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 59,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
+    "level": "NA",
+    "reason": "Expands R8i to GovCloud East.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 60,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
+    "level": "NA",
+    "reason": "EVS regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 61,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/s3-batch-operations-performance-improvements/",
+    "level": "1",
+    "reason": "Improves batch-operation throughput.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 62,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-connect-contact-lens-automatically-email-agents-completed-performance-evaluations/",
+    "level": "3",
+    "reason": "Evaluation rules can send agent email notifications",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 63,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-datasync-scalability-performance-on-premises-file-transfers/",
+    "level": "2",
+    "reason": "Enhanced transfer mode supports on-premises file sources",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 64,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-service-availability/",
+    "level": "NA",
+    "reason": "Announces service lifecycle availability changes.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 65,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-opensearch-service-cluster-insights/",
+    "level": "3",
+    "reason": "OpenSearch gains cluster insights monitoring interface",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 66,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-s3-inventory-acl-support-govcloud-us-regions/",
+    "level": "NA",
+    "reason": "Inventory ACL metadata reaches GovCloud",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 67,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/qwen-models-on-sagemaker-jumpstart/",
+    "level": "1",
+    "reason": "JumpStart model catalog adds Qwen",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 68,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-instances-europe-london-region/",
+    "level": "NA",
+    "reason": "C8i regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 69,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-5-1-all-govcloud-commercial-regions/",
+    "level": "NA",
+    "reason": "Glue runtime regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 70,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-data-firehose-thailand-mexico-central-regions/",
+    "level": "NA",
+    "reason": "Expands Firehose regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 71,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+    "level": "3",
+    "reason": "KMS encapsulate and decapsulate post-quantum shared secrets",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 72,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-custom-supports-latest-cu-gdr-updates-microsoft-sql-server/",
+    "level": "1",
+    "reason": "SQL Server patch version catalog",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 73,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-batch-access-control-management-batch-eks-workloads/",
+    "level": "2",
+    "reason": "Adds namespaces and volume configuration for existing EKS jobs.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 74,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-ec2-c8g-instances-additional-regions/",
+    "level": "NA",
+    "reason": "Expands C8g regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 75,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/new-lza-mcp-server-ai-assisted/",
+    "level": "3",
+    "reason": "LZA configuration operations exposed through MCP",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 76,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-frankfurt-region/",
+    "level": "NA",
+    "reason": "Expands Quick regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 77,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-lifecycle-pauses-actions-on-objects/",
+    "level": "2",
+    "reason": "Object lifecycle waits for failed replication recovery",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 78,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
+    "level": "1",
+    "reason": "Adds PostgreSQL 19 beta version choice.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 79,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-waf-additional-regions/",
+    "level": "NA",
+    "reason": "WAF regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 80,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ec2-force-terminate-instances/",
+    "level": "2",
+    "reason": "Adds forced termination option for stuck instances.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 81,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-valkey-9-1/",
+    "level": "2",
+    "reason": "Adds database permissions and combined hash commands alongside performance gains.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 82,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/automatic-quota-management-service-quotas/",
+    "level": "3",
+    "reason": "Service Quotas proactively monitors usage and notifies",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 83,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-sitewise-mcp-server-modeling/",
+    "level": "3",
+    "reason": "SiteWise modeling tools exposed through MCP",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 84,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-direct-connect-100g-expansion-bogota/",
+    "level": "NA",
+    "reason": "Direct Connect location bandwidth expansion",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 85,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat/",
+    "level": "2",
+    "reason": "Persistent chat state spans linked regional instances",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 86,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-rds-sql-server-linked-servers-teradata-databases/",
+    "level": "2",
+    "reason": "Linked servers support Teradata target",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 87,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-london-region/",
+    "level": "NA",
+    "reason": "Quick regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 88,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
+    "level": "1",
+    "reason": "Improves root sign-in regional resilience.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 89,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
+    "level": "2",
+    "reason": "Restore encrypted SQL databases on Multi-AZ instances",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 90,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-config-new-resource-types/",
+    "level": "2",
+    "reason": "Extends Config assessment to additional resources.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 91,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/claude-opus-4-5-amazon-bedrock/",
+    "level": "1",
+    "reason": "Claude Opus model added",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 92,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-cdk-l2-construct-cognito-identity-pools/",
+    "level": "2",
+    "reason": "CDK construct for existing identity pools",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 93,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types/",
+    "level": "2",
+    "reason": "Config supports additional resource types",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 94,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-dynamodb-major-version-release-version-3-0-0/",
+    "level": "NA",
+    "reason": "Updates DynamoDB Local SDK dependency for maintenance.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 95,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/writers-palmyra-x5-x4-models-amazon-bedrock/",
+    "level": "1",
+    "reason": "Adds Writer model choices to Bedrock catalog.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 96,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/ec2-auto-scaling-synchronous-api-launch-instances/",
+    "level": "3",
+    "reason": "Synchronous instance launch API for scaling groups",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 97,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-cloudwatch-synthetics-java-runtime-lightweight-api/",
+    "level": "2",
+    "reason": "Canary authoring supports Java",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 98,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
+    "level": "2",
+    "reason": "RabbitMQ private outbound connectivity",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 99,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan/",
+    "level": "2",
+    "reason": "Adds interval-granularity capacity planning.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 100,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mwaa-now-supports-apache-airflow-3-2/",
+    "level": "1",
+    "reason": "Adds Airflow 3.2 runtime choice.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 101,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-connector-scep-privatelink/",
+    "level": "2",
+    "reason": "Adds private SCEP connector connectivity.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 102,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/aws-parallel-computing-hipaa-eligible/",
+    "level": "NA",
+    "reason": "HIPAA eligibility",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 103,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+    "level": "1",
+    "reason": "Claude Haiku model added",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 104,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-s3-tables-mcp-server/",
+    "level": "2",
+    "reason": "S3 Tables operations exposed through MCP wrapper",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 105,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/well-architected-generative-ai-lens/",
+    "level": "NA",
+    "reason": "Generative AI guidance document",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 106,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-indexes-numeric-data-type/",
+    "level": "2",
+    "reason": "Adds NUMERIC index-key compatibility.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 107,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-u7i-aws-europe-zurich/",
+    "level": "NA",
+    "reason": "U7i regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 108,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-aurora-r8g-database-instances-govcloud/",
+    "level": "NA",
+    "reason": "Aurora instance regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 109,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-network-firewall-thailand-mexico-central-regions/",
+    "level": "NA",
+    "reason": "Expands Network Firewall regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 110,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/",
+    "level": "NA",
+    "reason": "Reduces firewall-related network prices.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 111,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-query-studio-generally-available/",
+    "level": "U",
+    "reason": "Query Studio GA does not identify prior-stage functional delta",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 112,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+    "level": "NA",
+    "reason": "Expands X2idn regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 113,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud/",
+    "level": "NA",
+    "reason": "Redshift RG reaches GovCloud",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 114,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-keyspaces-apache-cassandra-uuid-functions-select-duration/",
+    "level": "2",
+    "reason": "Additional Cassandra query and duration compatibility",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 115,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-granular-usage-visibility/",
+    "level": "2",
+    "reason": "Bedrock cost reports expose operation granularity",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 116,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-builder-center-available/",
+    "level": "NA",
+    "reason": "Builder community and learning portal",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 117,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ses-ip-observability-dedicated-op-addresses-managed/",
+    "level": "2",
+    "reason": "Managed email IP pools expose assigned addresses",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 118,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-cloudwatch-rum-2-additional-aws-regions/",
+    "level": "NA",
+    "reason": "Expands CloudWatch RUM regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 119,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
+    "level": "NA",
+    "reason": "Lower serverless capacity regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 120,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-eks-100000-worker-nodes-per-cluster/",
+    "level": "1",
+    "reason": "Cluster node limit rises to 100000",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 121,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
+    "level": "2",
+    "reason": "Adds agent-toolkit access to existing OpenSearch operations.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 122,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-redshift-concurrency-scaling-auto-copy/",
+    "level": "2",
+    "reason": "Concurrency scaling supports auto-copy",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 123,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
+    "level": "NA",
+    "reason": "Gemma model GovCloud availability",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 124,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-ec2-p6-b200-instances-now-available-us-east-n-virginia/",
+    "level": "NA",
+    "reason": "Expands P6-B200 regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 125,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/02/aws-appsync-resolver-testing-comprehensive-context-object-mocking/",
+    "level": "2",
+    "reason": "Resolver testing supports comprehensive context mocking",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 126,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/01/aws-managed-notifications-console-mobile-app/",
+    "level": "2",
+    "reason": "Mobile notification inbox accepts managed Health notifications",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 127,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+    "level": "3",
+    "reason": "Introduces citation-backed compliance inquiry assistant.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 128,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-supports-monitoring-microsoft-azure/",
+    "level": "2",
+    "reason": "Extends security monitoring operations to Azure resources.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 129,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/aws-codebuild-node-22-python-3-13-go-1-23/",
+    "level": "1",
+    "reason": "Adds Node Python and Go runtime versions.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 130,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
+    "level": "2",
+    "reason": "Adds Lambda event-source action to failover workflows.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 131,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys/",
+    "level": "2",
+    "reason": "Quick Research supports customer-managed encryption",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 132,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/cloudtrail-data-event-aggregation-security-monitoring/",
+    "level": "3",
+    "reason": "CloudTrail generates aggregated data-event summaries",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 133,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-iot-core-delete-connection/",
+    "level": "3",
+    "reason": "IoT exposes MQTT client disconnection API",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 134,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
+    "level": "2",
+    "reason": "Existing Claude platform adds Slack collaboration integration",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 135,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sagemaker-ai-available-aws-asia-pacific-taipei-region/",
+    "level": "NA",
+    "reason": "SageMaker regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 136,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/guardduty-extended-threat-detection-ec2-ecs/",
+    "level": "2",
+    "reason": "Threat detection covers EC2 and ECS workloads",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 137,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-guardduty-malware-protection-backup/",
+    "level": "2",
+    "reason": "Malware scanning supports Backup recovery points",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 138,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-console-mobile-application-support-amazon-lightsail/",
+    "level": "2",
+    "reason": "Mobile console supports Lightsail management",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 139,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-keyspaces-apache-cassandra-multi-region-support-udts/",
+    "level": "2",
+    "reason": "User-defined types supported in multi-region tables",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 140,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-aurora-dsql-available-in-frankfurt/",
+    "level": "NA",
+    "reason": "Aurora DSQL regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 141,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-application-recovery/",
+    "level": "3",
+    "reason": "Introduces orchestrated multi-region application recovery switching.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 142,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-step-functions-data-source-options-observability-distributed-map/",
+    "level": "2",
+    "reason": "Adds Distributed Map source choices and monitoring metrics.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 143,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick/",
+    "level": "3",
+    "reason": "Create editable documents and visuals in chat",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 144,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/aws-license-manager-shared-managed-active-directory/",
+    "level": "2",
+    "reason": "License management supports shared directory deployments",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 145,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-bedrock-europe-milan-spain-regions/",
+    "level": "NA",
+    "reason": "Expands Bedrock regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 146,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/08/openai-amazon-bedrock-sagemaker-jumpstart/",
+    "level": "1",
+    "reason": "Adds OpenAI models to inference catalogs.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 147,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/sage-maker-da-infr-jp-au/",
+    "level": "2",
+    "reason": "Adds geographic inference profile choices.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 148,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-rds-postgresql-mysql-mariadb-m8g-r8g/",
+    "level": "NA",
+    "reason": "RDS instance regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 149,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-adds-job-run-level/",
+    "level": "2",
+    "reason": "Serverless job costs support per-run allocation tags",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 150,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-I8ge-expansion-ireland/",
+    "level": "NA",
+    "reason": "I8ge regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 151,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m7i-africa-cape-town-regions/",
+    "level": "NA",
+    "reason": "M7i regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 152,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-msk-apache-kafka-version-4-1/",
+    "level": "3",
+    "reason": "Kafka adds shared-consumer queue operation",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 153,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-bedrock-data-automation-support-enhancing-transcription/",
+    "level": "2",
+    "reason": "Audio transcription supports speaker distinctions",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 154,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-api-gateway-tls-security-rest-apis/",
+    "level": "2",
+    "reason": "Adds TLS security-policy choices for REST APIs.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 155,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
+    "level": "NA",
+    "reason": "OpenAI models regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 156,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-continuum-penetration/",
+    "level": "NA",
+    "reason": "Penetration testing regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 157,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-aurora-dsql-database-clusters-up-to-256-tib/",
+    "level": "1",
+    "reason": "DSQL storage limit doubles",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 158,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/aws-clean-rooms-incremental-distributed-training-custom-modeling/",
+    "level": "2",
+    "reason": "Adds incremental and distributed training options to custom models.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 159,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-hpc8a-additional-regions/",
+    "level": "NA",
+    "reason": "Hpc8a regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 160,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-artifact-access-previous-versions-compliance-reports/",
+    "level": "2",
+    "reason": "Artifact interface exposes previous report versions",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 161,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c8g-m8g-and-r8g-instances-now-available-in-aws-secret-region/",
+    "level": "NA",
+    "reason": "Graviton instances Secret Region availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 162,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-ipam-policies-rds-alb/",
+    "level": "2",
+    "reason": "IPAM policies support RDS and load balancers",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 163,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/01/larger-general-purpose-bundles-workspaces-personal-core/",
+    "level": "1",
+    "reason": "Adds larger WorkSpaces desktop bundle sizes.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 164,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/",
+    "level": "2",
+    "reason": "SAM templates support WebSocket APIs",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 165,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
+    "level": "2",
+    "reason": "EventBridge audit logging covers data-plane operations",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 166,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-rds-postgresql-mysql-mariadb-m6i/",
+    "level": "NA",
+    "reason": "RDS instance regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 167,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-improved-speech-recognition-models-english/",
+    "level": "1",
+    "reason": "English speech recognition accuracy improvement",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 168,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/announcing-amazon-ecs-express-mode/",
+    "level": "3",
+    "reason": "Express interface automates container application deployment",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 169,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-ec2-f2-instances-four-additional-aws-regions/",
+    "level": "NA",
+    "reason": "F2 regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 170,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node/",
+    "level": "2",
+    "reason": "RG instances support single-node topology",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 171,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
+    "level": "1",
+    "reason": "SQL Server maintenance version added",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 172,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/firewall-state-change-notifications/",
+    "level": "3",
+    "reason": "Introduces firewall state notifications through EventBridge.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 173,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ec2-i7i-instances-available-in-additional-aws-regions/",
+    "level": "NA",
+    "reason": "Expands I7i regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 174,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-s3-tables-storage-cost-visibility-individual-tables/",
+    "level": "2",
+    "reason": "Per-table storage cost reporting",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 175,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/sap-aws-grow-region-availability-sap-cloud-erp/",
+    "level": "NA",
+    "reason": "SAP offering regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 176,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/05/red-hat-enterprise-linux-aws/",
+    "level": "1",
+    "reason": "Adds AWS-optimized RHEL operating-system offering to runtime catalog.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 177,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-rds-mysql-new-minor-versions/",
+    "level": "1",
+    "reason": "MySQL minor version catalog",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 178,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transform-mainframe-refactor/",
+    "level": "NA",
+    "reason": "Blu Insights renamed and repositioned within Transform",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 179,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-unified-studio/",
+    "level": "3",
+    "reason": "Import and export notebooks",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 180,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/reimagined-aws-mssp-competency/",
+    "level": "NA",
+    "reason": "Partner competency program update",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 181,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+    "level": "2",
+    "reason": "Lambda code storage uses customer-owned S3 buckets",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 182,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-ecr-managed-container-image-signing/",
+    "level": "3",
+    "reason": "Managed container image signing",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 183,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/06/aws-iam-mfa-root-users-across-all-account-types/",
+    "level": "1",
+    "reason": "Root MFA required by default",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 184,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-quicksight-scheduling-alerts-embedded-dashboards/",
+    "level": "2",
+    "reason": "Alerts and scheduling supported in embedded dashboards",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 185,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-eventbridge-iam-execution-role-all-targets/",
+    "level": "2",
+    "reason": "Extends event-bus execution roles to additional targets.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 186,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b300-us-east/",
+    "level": "NA",
+    "reason": "P6-B300 regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 187,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-ec2-i8g-instances-additional-regions/",
+    "level": "NA",
+    "reason": "Expands I8g regional availability.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 188,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-nova-creative-models-europe/",
+    "level": "NA",
+    "reason": "Nova creative models regional expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 189,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/",
+    "level": "NA",
+    "reason": "Expands existing model catalog availability to GovCloud.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 190,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-custom-tags-project-resources/",
+    "level": "2",
+    "reason": "Adds custom tagging to project-created resources.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 191,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/network-firewall-european-sovereign-cloud-region/",
+    "level": "NA",
+    "reason": "Network Firewall sovereign cloud expansion",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 192,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
+    "level": "2",
+    "reason": "One-click coding agent setup guidance",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 193,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-ai-assistant/",
+    "level": "3",
+    "reason": "Transform adds interactive IDE modernization assistant",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 194,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-sagemaker-hyperpod-spot-instances/",
+    "level": "2",
+    "reason": "HyperPod provisioning supports Spot capacity",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 195,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
+    "level": "3",
+    "reason": "Introduces managed Prometheus metric collectors in CloudWatch.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 196,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-q-developer-releases-state-art-agent-feature-development/",
+    "level": "2",
+    "reason": "Coding agent uses candidate selection and planning tools",
+    "basis": "AWS source reading; batch 1"
+  },
+  {
+    "index": 197,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-rds-mysql-innovation-release-94-database-preview-environment/",
+    "level": "1",
+    "reason": "Adds MySQL 9.4 preview engine choice.",
+    "basis": "AWS source reading; batch 2"
+  },
+  {
+    "index": 198,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-s3-access-grants-additional-regions/",
+    "level": "NA",
+    "reason": "S3 Access Grants regional availability",
+    "basis": "AWS source reading; batch 0"
+  },
+  {
+    "index": 199,
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/",
+    "level": "1",
+    "reason": "C8id M8id R8id instance catalog expands",
+    "basis": "AWS source reading; batch 0"
+  }
+]

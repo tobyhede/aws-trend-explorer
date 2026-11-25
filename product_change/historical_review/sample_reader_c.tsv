@@ -1,0 +1,39 @@
+0	2	API Gateway adds IAM condition keys controlling endpoint exposure, authorization and TLS through existing IAM policies and SCPs.	high
+1	NA	MemoryDB changes its contractual Multi-AZ availability SLA from 99.9% to 99.99%; no functional product change is stated.	medium
+2	2	EventBridge adds GitHub, Stripe and Twilio sources through deployable webhook templates for its existing event ingestion operation.	high
+3	2	Elastic Disaster Recovery adds Outposts racks as replication and recovery destinations while explicitly retaining the same functionality.	high
+4	2	EventBridge Pipes gains private VPC connectivity through PrivateLink for existing Pipes operations.	high
+5	U	Data Exchange for Redshift describes direct subscription-based queries and automated entitlements at GA but identifies no functional change from any prior preview.	medium
+6	2	CloudWatch cross-account observability adds Service Quotas as another monitored resource type with dashboards and alarms.	high
+7	3	Batch introduces a queue-front snapshot operation showing fair-share scheduling order through its console and GetJobQueueSnapshot API.	high
+8	2	EMR on EKS enriches the existing DescribeJobRun response with relevant driver-log error details.	medium
+9	3	Data Exchange introduces in-place subscriber access to provider S3 objects without copies, with access governed by subscriptions.	high
+10	2	Launch Wizard adds an option to place SQL Server tempdb on instance-store volumes during the existing deployment flow.	high
+11	2	Proton allows environments to link existing shared resources via customer-managed templates instead of provisioning those resources anew.	medium
+12	NA	AMS Accelerate becomes available in GovCloud; the text describes existing operational capabilities without a functional delta.	high
+13	1	Alongside regional expansion, the post explicitly makes Graviton2 instances the default ElastiCache choice; other described changes are routine hardware and runtime versions.	medium
+14	3	JumpStart adds a programmatic Python interface explicitly enabling automated deployment and training of previously one-click models.	medium
+15	3	Customer Profiles now automatically stores Connect contact history in unified customer profiles, replacing the described custom profile-building work.	medium
+16	NA	Bedrock Blueprints are open-source sample templates for experimenting and learning with existing agents, actions, guardrails and knowledge bases.	high
+17	U	The WorkSpaces webcam GA post describes video redirection but does not distinguish new functionality from pre-GA webcam support.	medium
+18	3	Personalize gains an integrated Data Wrangler preparation workflow with transformations and exploration before dataset import.	medium
+19	3	B2B Data Interchange adds automatic generation of 997 and TA1 acknowledgement artifacts and corresponding delivery-triggering events.	high
+20	2	Private 5G adds multiple radio units and additional SIM ordering to scale an existing private network.	high
+21	4	FSx File Gateway introduces a deployable gateway type with local caching to extend managed FSx shares on premises, a substantial Storage Gateway subsystem.	medium
+22	U	Advanced NodeJS Driver GA describes topology-aware failover and authentication features but does not establish an inaugural launch or a functional GA delta.	medium
+23	2	CloudFormation extends AllowedValues and AllowedPattern validation controls to CommaDelimitedList parameters.	high
+24	1	Lambda explicitly improves synchronous scaling rates to 1000 executions per ten seconds per function with automatic enablement; this is scaling behavior and performance.	medium
+25	2	Q Business adds Smartsheet to its existing set of index synchronization connectors.	high
+26	3	Redshift adds SQL MERGE and multidimensional aggregation operations including CUBE and ROLLUP; these outweigh the accompanying size-limit increase.	medium
+27	3	DocumentDB adds managed unplanned global failover preserving cluster topology, distinct from its existing planned switchover operation.	high
+28	2	HealthImaging extends its existing DICOM import operation to S3 buckets in other accounts and regions.	high
+29	2	Time Sync adds configurable PTP hardware-clock support and clock-accuracy auditing alongside automatic NTP accuracy improvements.	medium
+30	1	EC2 adds a bare-metal size of the existing C7gn family with specified capacity and networking characteristics.	high
+31	U	Amplify announces in-app messaging GA and describes campaign and UI features without specifying changes from its prior release stage.	medium
+32	2	IoT Device Management adds reusable templates and access controls for existing remote job actions and their deployment parameters.	medium
+33	NA	Lake Formation expands to Zurich; the body only explains established data-lake capabilities.	high
+34	3	IAM adds centralized removal of member-account root credentials and scoped privileged operations using temporary credentials.	high
+35	2	CloudFormation gains PCS resource support for creating and managing existing cluster resources through infrastructure templates.	high
+36	3	Step Functions gains a general AWS SDK invocation interface spanning service API actions, beyond the previous curated service integrations.	medium
+37	2	Neptune GSP adds whole-named-graph variants of existing fetch, insert and delete operations; the source explicitly contrasts these with multiple existing SPARQL queries.	medium
+38	2	FinSpace Scaling Groups allow multiple existing kdb clusters to share provisioned compute, adding a placement and utilization option.	medium

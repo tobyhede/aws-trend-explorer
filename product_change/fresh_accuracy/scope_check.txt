@@ -1,0 +1,3 @@
+Verified exclusion membership against the previous source review artifacts: excluded URLs equal the union of prior final_overrides and the original 120-record audit sample (342 unique records). Eligible URLs equal all 4,920 current product-change URLs minus that union (4,578). The frozen 200-record sample is disjoint from excluded records.
+The independent math reviewer could not verify this membership from their authorized files; this additional check used the original source-review artifacts.
+Scoring length validation was strengthened after the independent code check; no reference judgments changed.

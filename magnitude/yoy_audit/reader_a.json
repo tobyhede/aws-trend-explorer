@@ -1,0 +1,1030 @@
+{
+  "003248f8ff28c2f8": {
+    "arch": false,
+    "reason": "Auto-accept removes the agent's manual acceptance step for additional channels."
+  },
+  "00336b78b33d7336": {
+    "arch": false,
+    "reason": "Security controls are enabled automatically at organization creation."
+  },
+  "003c186e91102642": {
+    "arch": false,
+    "reason": "A higher state-machine count changes the existing account quota."
+  },
+  "00b38f9acdea3c4d": {
+    "arch": false,
+    "reason": "The same VPN endpoint can hold additional routes and rules."
+  },
+  "00b3ef13847ac08c": {
+    "arch": false,
+    "reason": "The time-series collection gains a higher supported data ceiling."
+  },
+  "00b6f8fb85eb8819": {
+    "arch": false,
+    "reason": "The maintained metadata tables now also cover preexisting objects."
+  },
+  "00bac62c224b6356": {
+    "arch": false,
+    "reason": "User-pool owners choose a KMS key under their control."
+  },
+  "00d553b3c7765af3": {
+    "arch": false,
+    "reason": "Schedule optimization selects times for activities automatically."
+  },
+  "00e29540b77e21d3": {
+    "arch": false,
+    "reason": "An identifier in SDK requests attributes consumption to marketplace products."
+  },
+  "00e70b09787344f8": {
+    "arch": false,
+    "reason": "Asset sharing gains an approval step."
+  },
+  "00fef48f60405429": {
+    "arch": true,
+    "reason": "Managed rotation for Twilio and Databricks can replace a custom rotation Lambda function."
+  },
+  "011692120b19b6d4": {
+    "arch": true,
+    "reason": "Multiple domains can share one RUM App Monitor instead of separate per-domain monitors."
+  },
+  "01241484d8a8e1b2": {
+    "arch": false,
+    "reason": "Drain mode changes maintenance sequencing on the existing fleet."
+  },
+  "013a14f074a8c7ef": {
+    "arch": true,
+    "reason": "Power BI clients can now query a governed SageMaker project directly via Athena ODBC."
+  },
+  "013e01fb0e852cfb": {
+    "arch": false,
+    "reason": "Per-principal cost attribution extends to another Bedrock endpoint."
+  },
+  "0141422cb0554e47": {
+    "arch": false,
+    "reason": "The release certifies the existing VPN-less access service."
+  },
+  "01696092fe296067": {
+    "arch": false,
+    "reason": "Additional consoles are accessible inside the existing mobile app."
+  },
+  "0189c098d6a9039c": {
+    "arch": false,
+    "reason": "Conditional controls and refreshes change how a guide responds."
+  },
+  "018dc91daa4d132f": {
+    "arch": true,
+    "reason": "A failed Glue run can retry in another subnet using managed connectors without manual intervention in the failure."
+  },
+  "01a6b0cd097b1a6c": {
+    "arch": true,
+    "reason": "The catalog's native onboarding replaces customer metadata ingestion jobs and scripts."
+  },
+  "01aed8342c52d0a0": {
+    "arch": false,
+    "reason": "Repository and notebook context improve inline code suggestions."
+  },
+  "02185353ae8f4628": {
+    "arch": true,
+    "reason": "S3 COPY operations can burst onto automatically provisioned concurrency-scaling compute rather than contending on the primary cluster."
+  },
+  "022cb9f659e37223": {
+    "arch": false,
+    "reason": "Additional context in HTTP errors helps diagnose failed requests."
+  },
+  "023a6ec943f8acfa": {
+    "arch": false,
+    "reason": "The increase raises shard limits in existing stream deployments."
+  },
+  "024bbedaf0a1af2c": {
+    "arch": false,
+    "reason": "A launch template becomes the default when creating environments."
+  },
+  "026c50e3b708e125": {
+    "arch": true,
+    "reason": "OTP senders can use AWS-owned numbers and sender IDs in place of provisioning their own sending identities."
+  },
+  "02ad23403deb8498": {
+    "arch": false,
+    "reason": "Parameters select Spark cluster and instance size for the existing job."
+  },
+  "02e1f1006d528d78": {
+    "arch": true,
+    "reason": "Call audio can now route to the agent's local device instead of traversing the virtual desktop."
+  },
+  "02e38724736c5f1c": {
+    "arch": true,
+    "reason": "OpenCypher queries can read S3 in place instead of loading external data into Neptune."
+  },
+  "0313287b4055fb02": {
+    "arch": false,
+    "reason": "The dashboard aggregates existing performance metrics for managers."
+  },
+  "032868c00c798b9e": {
+    "arch": false,
+    "reason": "Model weights and images are preloaded on existing nodes."
+  },
+  "034c738838ee7489": {
+    "arch": true,
+    "reason": "Quick can query S3 Iceberg data without an intermediate warehouse or OLAP layer."
+  },
+  "03817575e75785c8": {
+    "arch": false,
+    "reason": "Q accepts more human languages in the existing interfaces."
+  },
+  "03a047c00b27db8f": {
+    "arch": false,
+    "reason": "ENA Express becomes available on additional instance families."
+  },
+  "03a28d8bcdc320bf": {
+    "arch": false,
+    "reason": "Self-service quota requests replace support tickets."
+  },
+  "03a36a38872a8749": {
+    "arch": false,
+    "reason": "These are additional memory-optimized instance choices."
+  },
+  "03aa1f41f444c4f9": {
+    "arch": false,
+    "reason": "Sellers and buyers process refunds and cancellations within the console."
+  },
+  "0409845e69a13299": {
+    "arch": false,
+    "reason": "Registration guidance and worked examples improve submissions."
+  },
+  "04174c220c12c3d4": {
+    "arch": false,
+    "reason": "API keys simplify credential setup for Bedrock access."
+  },
+  "041939c895a708cb": {
+    "arch": true,
+    "reason": "Client VPN attaches directly to Transit Gateway instead of traversing an intermediate VPC."
+  },
+  "042462e88ca92fdb": {
+    "arch": false,
+    "reason": "The partner page changes discovery and subscription for protection solutions."
+  },
+  "042e2e9b5f2a95d3": {
+    "arch": false,
+    "reason": "The release adds a model to the JumpStart catalog."
+  },
+  "043c33152887261e": {
+    "arch": true,
+    "reason": "HealthOmics workflows can access another account's centrally managed VPC through shared subnets."
+  },
+  "04473fe8ec43dfb5": {
+    "arch": false,
+    "reason": "Resource indicators narrow an OAuth access token's audience."
+  },
+  "046f011c4c78fab2": {
+    "arch": false,
+    "reason": "Capabilities and discovery simplify configuring existing co-located containers."
+  },
+  "0470adc2cb5cbcc9": {
+    "arch": false,
+    "reason": "The instance types reach Redshift's trailing release track."
+  },
+  "04737049068ea299": {
+    "arch": true,
+    "reason": "ARC can take over orchestrating Neptune promotion during regional failure instead of a customer failover script."
+  },
+  "0476e864a95a7dd5": {
+    "arch": false,
+    "reason": "Notebooks can select another GPU instance type."
+  },
+  "049079edf5171bb2": {
+    "arch": false,
+    "reason": "Capacity metrics gain grouping and filtering dimensions."
+  },
+  "0499a8f2c7d41a67": {
+    "arch": false,
+    "reason": "Preconfigured dashboards remove initial reporting setup."
+  },
+  "04a7be9109c8d2a8": {
+    "arch": true,
+    "reason": "Quick can consume Purview sensitivity labels and enforce file access directly without additional enforcement tooling."
+  },
+  "04b60c90c2c46827": {
+    "arch": false,
+    "reason": "Existing SFTP servers gain per-port options."
+  },
+  "04e225caa72be455": {
+    "arch": false,
+    "reason": "Console recording produces automation code from prototype actions."
+  },
+  "052b4959a07eb559": {
+    "arch": false,
+    "reason": "The agent guides partners through onboarding activities."
+  },
+  "05398b07f9becbe9": {
+    "arch": false,
+    "reason": "The release adds Intel instance choices to RDS for Oracle."
+  },
+  "0545974c44d831b1": {
+    "arch": false,
+    "reason": "Administrators gain index recommendations and coverage for more engine versions."
+  },
+  "054add844c524889": {
+    "arch": false,
+    "reason": "Pricing rules gain custom rates and volume thresholds."
+  },
+  "05567e70349a62e1": {
+    "arch": false,
+    "reason": "Operators can tune properties of existing Spark analyses."
+  },
+  "0588f94774ed1f8d": {
+    "arch": true,
+    "reason": "The GraphRAG toolkit can connect curated graphs to retrieval instead of requiring custom retrieval pipelines."
+  },
+  "059adda4cb8b3b4a": {
+    "arch": true,
+    "reason": "IPv6 clients can access FSx directly without IPv6-to-IPv4 translation infrastructure."
+  },
+  "05ac170d1ac92570": {
+    "arch": false,
+    "reason": "Node lifecycle hooks automate initialization scripts."
+  },
+  "05b0da0820ab7397": {
+    "arch": false,
+    "reason": "A field on SES notifications flags probable bot events."
+  },
+  "05bc56b57ea50fa9": {
+    "arch": false,
+    "reason": "The conversational interface automates log investigation."
+  },
+  "05e6e8cb8a83deaf": {
+    "arch": true,
+    "reason": "Cross-account table access can use a single wildcard RAM share instead of provisioning shares to handle resource association limits."
+  },
+  "05ebd03c84bc8fba": {
+    "arch": false,
+    "reason": "Additional language slots automate recognition of confirmation and currency inputs."
+  },
+  "060dbb95a00b7f52": {
+    "arch": true,
+    "reason": "Cluster insights can flow into EventBridge automations directly instead of being consumed only in dashboards."
+  },
+  "060e611b9cbb6b97": {
+    "arch": true,
+    "reason": "Q-Index can trust an application-issued token instead of requiring the user to authenticate separately to AWS IAM."
+  },
+  "063265c68ed10e64": {
+    "arch": false,
+    "reason": "The API adds a lifecycle state field."
+  },
+  "06328eaec76ff3f3": {
+    "arch": true,
+    "reason": "KVM and Hyper-V guests can now run on virtual EC2 hosts instead of requiring bare-metal hosts."
+  },
+  "063c497446eecdd0": {
+    "arch": false,
+    "reason": "Serverless shuffle capacity increases and the storage implementation can spill to disk."
+  },
+  "067297d604d6dabd": {
+    "arch": false,
+    "reason": "Upgrade checks prevent an unsafe cluster upgrade."
+  },
+  "06881cd4b1a1e673": {
+    "arch": false,
+    "reason": "The sorting implementation changes how existing queries are accelerated."
+  },
+  "06a0715331a27fe3": {
+    "arch": false,
+    "reason": "Rollout configuration gains finer targeting controls."
+  },
+  "07327b357a990570": {
+    "arch": false,
+    "reason": "More trace flags tune the same SQL engine."
+  },
+  "07547994a47513e0": {
+    "arch": false,
+    "reason": "The signing operation accepts a stronger hash algorithm."
+  },
+  "0759c62b02ff6c83": {
+    "arch": true,
+    "reason": "Connect delivers routing-step data directly to its analytics lake, avoiding separate data pipelines for those reports."
+  },
+  "0766cb498a996240": {
+    "arch": false,
+    "reason": "The existing deployment action can read settings from a repository file."
+  },
+  "079633cab25f394f": {
+    "arch": true,
+    "reason": "Security incident case and membership changes can now feed downstream EventBridge consumers directly."
+  },
+  "07b121c6dcd45324": {
+    "arch": false,
+    "reason": "Channels organize collaboration within the same private environment."
+  },
+  "07b370c1c4f5e59e": {
+    "arch": false,
+    "reason": "Researchers can batch multiple circuits in one task submission."
+  },
+  "07c4f78c24c98e2c": {
+    "arch": false,
+    "reason": "The scheduling horizon increases."
+  },
+  "07c770fddd58b04c": {
+    "arch": true,
+    "reason": "Quick gains managed connectors that route actions directly to external applications with account authorization handled in Quick."
+  },
+  "07cd17fb2b6aeac6": {
+    "arch": false,
+    "reason": "Additional IDEs can access the same underlying transformation job."
+  },
+  "07f76df8e9ec646a": {
+    "arch": false,
+    "reason": "The client can switch to IPv6 on the existing DynamoDB path."
+  },
+  "080b4a0cd3c2afbb": {
+    "arch": false,
+    "reason": "Multiple participants can join an existing call."
+  },
+  "0810b79af90f9ede": {
+    "arch": false,
+    "reason": "A higher-level CDK construct simplifies deployment configuration."
+  },
+  "081b9d8eed4ff4ca": {
+    "arch": false,
+    "reason": "Glue jobs accept more source and output formats."
+  },
+  "0834d3203ccb6393": {
+    "arch": false,
+    "reason": "Aurora DSQL can store another type within the existing relational database."
+  },
+  "0836ac996c5d7e0c": {
+    "arch": false,
+    "reason": "Console rule editing removes delete-and-recreate steps."
+  },
+  "085110c3bce9c6da": {
+    "arch": false,
+    "reason": "Live Tail is also accessible in the IDE."
+  },
+  "087346098e2add82": {
+    "arch": false,
+    "reason": "Message group IDs improve fairness within subscribed queues."
+  },
+  "087cf50de8f99671": {
+    "arch": false,
+    "reason": "Model changes improve anomaly detection accuracy."
+  },
+  "0885a8c458fcb17d": {
+    "arch": false,
+    "reason": "More regions can participate in existing global replication."
+  },
+  "0898a4fc093cf2fa": {
+    "arch": true,
+    "reason": "A single Aurora cluster can now replicate from multiple source databases, enabling consolidation of previously separate databases."
+  },
+  "08b617277a5e9786": {
+    "arch": false,
+    "reason": "An additional database target can use the existing monitoring console."
+  },
+  "08cc0233cda44c0c": {
+    "arch": false,
+    "reason": "ECS exposes deployment operations in action logs."
+  },
+  "08e0453aa077a46b": {
+    "arch": false,
+    "reason": "Tags restrict report access to designated groups."
+  },
+  "090aad7f886b5ee2": {
+    "arch": true,
+    "reason": "CloudFront can serve WebSockets through private VPC origins rather than requiring the application to expose a public origin."
+  },
+  "090e7937b72df9e7": {
+    "arch": true,
+    "reason": "EKS backups can restore directly from a cross-account logically air-gapped vault."
+  },
+  "090f187754929fb6": {
+    "arch": false,
+    "reason": "Drivers automate authentication for existing SQL clients."
+  },
+  "0915cc90bed0738f": {
+    "arch": true,
+    "reason": "A shared organization- or enterprise-level CodeBuild runner fleet can service multiple repositories rather than being scoped to individual repositories."
+  },
+  "09223bedf6c5f837": {
+    "arch": true,
+    "reason": "The AgentCore gateway can enforce guardrails outside agent code before calls reach downstream targets."
+  },
+  "09488448d74d162f": {
+    "arch": false,
+    "reason": "Replication over the existing Multi-AZ topology gains a faster network protocol."
+  },
+  "09491a2f65e9da20": {
+    "arch": false,
+    "reason": "CloudTrail logs additional CloudWatch API events."
+  },
+  "0975ba312fb7468d": {
+    "arch": true,
+    "reason": "The native EC2 deployment action removes CodeDeploy from the CodePipeline deployment path."
+  },
+  "097e0b509849bb11": {
+    "arch": false,
+    "reason": "A distribution analyzer adds statistical profiling."
+  },
+  "097f5fdf32e1a5a1": {
+    "arch": false,
+    "reason": "A media probe reads headers without processing the full video."
+  },
+  "09923b710cd76ed2": {
+    "arch": false,
+    "reason": "Terraform examples automate deploying previously available IdP integrations."
+  },
+  "09b34d37c9513693": {
+    "arch": true,
+    "reason": "Dedicated host resource groups can be provisioned without the previously required self-managed License Manager resources."
+  },
+  "09dfa7f71e2eb9c7": {
+    "arch": false,
+    "reason": "The browser allows simultaneous account sessions."
+  },
+  "09fba4b7fcb771a6": {
+    "arch": false,
+    "reason": "Additional instance families change the available hardware."
+  },
+  "0a006ad6179b0c03": {
+    "arch": false,
+    "reason": "Templates can require fields conditionally during case entry."
+  },
+  "0a37632b9857d1a8": {
+    "arch": false,
+    "reason": "The Slurm configuration exposes more tuning parameters."
+  },
+  "0a4a0a0e1bcfa0aa": {
+    "arch": false,
+    "reason": "Operators can schedule extra practice runs with readiness checks."
+  },
+  "0a7701b9796614fe": {
+    "arch": false,
+    "reason": "The diagnostic message supports more characters."
+  },
+  "0ab2856ee8d29af4": {
+    "arch": false,
+    "reason": "Licenses can be purchased alongside applications on AppStream fleets."
+  },
+  "0ad46b0f948143ee": {
+    "arch": true,
+    "reason": "Managed web search lets Bedrock ground GPT responses inside AWS instead of depending on external search infrastructure."
+  },
+  "0b0a2578652753f5": {
+    "arch": true,
+    "reason": "AgentCore pushes memory updates into Kinesis rather than requiring a polling consumer."
+  },
+  "0b0b3f038dd262b5": {
+    "arch": true,
+    "reason": "Assets up to 200 GB can ship in an image layer instead of requiring an external storage system."
+  },
+  "0b1c93c1df216703": {
+    "arch": true,
+    "reason": "The SQL Server snapshot recovery runbook can restore to a new database without stopping the running one."
+  },
+  "0b24ebc1f7e18691": {
+    "arch": true,
+    "reason": "Notebook or IDE clients can run Spark Connect sessions remotely on a dedicated EMR cluster."
+  },
+  "0b2a11efed07e3cd": {
+    "arch": false,
+    "reason": "Placement decisions optimize existing distributed training across the network."
+  },
+  "0b3473e9aa35b146": {
+    "arch": false,
+    "reason": "Account and application quotas are counted separately."
+  },
+  "0b393df0fbb06c07": {
+    "arch": false,
+    "reason": "Job metadata can be edited after submission."
+  },
+  "0b3dbfc8b4c651f1": {
+    "arch": false,
+    "reason": "Automatic instrumentation simplifies EKS monitoring setup."
+  },
+  "0b5e44e0df6960e2": {
+    "arch": false,
+    "reason": "Permission verification removes manual access tracing."
+  },
+  "0b6e19c3ec6c656c": {
+    "arch": false,
+    "reason": "The migration engine recommends and validates network redesigns previously reviewed manually."
+  },
+  "0ba407eb4e379862": {
+    "arch": false,
+    "reason": "Existing clusters gain the automatic balancing feature."
+  },
+  "0bd04e3bd13bd83c": {
+    "arch": false,
+    "reason": "Tags provide authorization granularity for shared metrics."
+  },
+  "0be091c9a6cb48ae": {
+    "arch": false,
+    "reason": "Additional accelerators improve instance performance."
+  },
+  "0c3604c88da34995": {
+    "arch": false,
+    "reason": "Windows workloads gain the existing diagnostic workflow."
+  },
+  "0c3c02d2c72066e6": {
+    "arch": false,
+    "reason": "Landing-zone setup automates configuration across existing services."
+  },
+  "0c3c72aad5108e1e": {
+    "arch": false,
+    "reason": "JumpStart adds three model options."
+  },
+  "0c6e4cda8da5ef2a": {
+    "arch": true,
+    "reason": "OpenSearch domains can recover to their previous service software using a self-service blue/green rollback previously unavailable."
+  },
+  "0c96930ec03349a1": {
+    "arch": true,
+    "reason": "Clean Rooms can push collaboration and analysis state changes directly into EventBridge-driven workflows."
+  },
+  "0ce16ef6858cc4d7": {
+    "arch": false,
+    "reason": "The existing recorder covers four more resource types."
+  },
+  "0ce61c7bd78b6226": {
+    "arch": false,
+    "reason": "Developers can edit state-machine definitions from an IDE."
+  },
+  "0cfb586a0efcb277": {
+    "arch": false,
+    "reason": "Invoice summaries become programmatically retrievable."
+  },
+  "0d02f462d0a29f5b": {
+    "arch": true,
+    "reason": "Distributed Map directly reads Athena manifests and Parquet or extracts arrays, eliminating a custom preprocessing stage."
+  },
+  "0d113173b4f7e78c": {
+    "arch": false,
+    "reason": "Compact layouts increase dashboard information density."
+  },
+  "0d16def4bdcfa248": {
+    "arch": false,
+    "reason": "Billing automatically tries an alternate payment method."
+  },
+  "0d66785c0b22038f": {
+    "arch": false,
+    "reason": "Query Studio unifies querying and visualization inside CloudWatch."
+  },
+  "0d679f5112453d06": {
+    "arch": false,
+    "reason": "Structured metadata extends the registry schema."
+  },
+  "0d9ccd50f6bee8ad": {
+    "arch": true,
+    "reason": "RDS Proxy can authenticate database connections end-to-end through IAM without storing database credentials in Secrets Manager."
+  },
+  "0da0f02a14775d60": {
+    "arch": true,
+    "reason": "Customized Llama models can use on-demand compute instead of an always-on preprovisioned deployment."
+  },
+  "0dcf802a3d43e725": {
+    "arch": true,
+    "reason": "One ingestion pipeline replaces three separate pipelines for OpenTelemetry logs, metrics and traces."
+  },
+  "0dff250d5d899d93": {
+    "arch": false,
+    "reason": "SharePoint permissions are respected during document retrieval."
+  },
+  "0e19e4fdee463266": {
+    "arch": false,
+    "reason": "Marketplace can collect Swiss VAT and associate multiple tax profiles."
+  },
+  "0e34d018f1df23d9": {
+    "arch": false,
+    "reason": "Ad prefetch schedules can recur automatically."
+  },
+  "0e655803c3f41949": {
+    "arch": false,
+    "reason": "Job API responses and reports include additional fields."
+  },
+  "0e6b166bc6631c77": {
+    "arch": false,
+    "reason": "SnapStart accelerates initialization of existing container image functions."
+  },
+  "0e79c449c33172e5": {
+    "arch": false,
+    "reason": "The service accepts IPv6 over dual-stack endpoints."
+  },
+  "0ebf7d111344e369": {
+    "arch": false,
+    "reason": "WDL tasks gain an individual timeout setting."
+  },
+  "0ec584696aa1f5ed": {
+    "arch": false,
+    "reason": "Image cropping and optimization improve within the existing delivery architectures."
+  },
+  "0ecb818819d88090": {
+    "arch": false,
+    "reason": "Virtual try-on and style options extend generation functions."
+  },
+  "0efc144ce5e02b85": {
+    "arch": true,
+    "reason": "A multi-tenant Oracle primary can now distribute read traffic to a replica."
+  },
+  "0f2f54d85629b611": {
+    "arch": false,
+    "reason": "Agents can programmatically update or delete case items."
+  },
+  "0f4ed1aa6cbeff67": {
+    "arch": false,
+    "reason": "WorkSpaces automates the image-import and compatibility workflow."
+  },
+  "0f631a0369f6577b": {
+    "arch": false,
+    "reason": "Authors can enable natural-language dashboard questions without defining all semantics manually."
+  },
+  "0ff1ab453555a773": {
+    "arch": true,
+    "reason": "Glue Spark jobs granted full access can directly read and write Lake Formation tables within one Spark application."
+  },
+  "0ff7bd412d10b395": {
+    "arch": false,
+    "reason": "A configurable rate improves snapshot-backed volume initialization."
+  },
+  "10163e5c37f71532": {
+    "arch": true,
+    "reason": "Lambda logs can now stream directly to S3 or Firehose rather than only to the existing Logs destination."
+  },
+  "101b712877ab0cc2": {
+    "arch": false,
+    "reason": "Case workers can inspect email details within the existing activity feed."
+  },
+  "103390491838e57e": {
+    "arch": false,
+    "reason": "Reel extends generation duration, consistency and shot controls."
+  },
+  "105824a3a16892ff": {
+    "arch": true,
+    "reason": "Marengo can return embeddings inline for interactive searches rather than requiring an asynchronous inference flow."
+  },
+  "10706d8e75ad8991": {
+    "arch": false,
+    "reason": "Steps in AMI fulfillment are combined in the console."
+  },
+  "10b50fab2501f176": {
+    "arch": true,
+    "reason": "Cognee's memory layer gains a deployment path that stores and queries its graphs in Neptune Analytics."
+  },
+  "10cd287a02782d0c": {
+    "arch": true,
+    "reason": "Hybrid EKS clusters can use the gateway instead of making on-premises pod networks directly routable from the VPC."
+  },
+  "1107c6ec886867b1": {
+    "arch": false,
+    "reason": "CTAS combines creation and loading into a single SQL statement."
+  },
+  "114275e2be9916d6": {
+    "arch": false,
+    "reason": "HyperPod gains an additional GPU instance choice."
+  },
+  "11474f1ec3d7858e": {
+    "arch": false,
+    "reason": "Existing managed threat detection extends its coverage to EKS signals."
+  },
+  "11530397fa27539e": {
+    "arch": true,
+    "reason": "New Outposts racks decouple compute from networking and support network device failover."
+  },
+  "121c679d05d2795d": {
+    "arch": true,
+    "reason": "RabbitMQ brokers can reach private identity providers or federated brokers inside a VPC without publicly exposing them."
+  },
+  "122cedc1f6c7e11c": {
+    "arch": false,
+    "reason": "Graviton4 adds another memory-optimized instance family."
+  },
+  "1232654369a290c2": {
+    "arch": false,
+    "reason": "Liveness checks gain accuracy and challenge settings."
+  },
+  "12b20737e5e41402": {
+    "arch": false,
+    "reason": "The existing upgrade workflow supports another Java target."
+  },
+  "12c9be4c5376dfff": {
+    "arch": false,
+    "reason": "Geofences gain additional polygon representations."
+  },
+  "13274c377baf8f63": {
+    "arch": false,
+    "reason": "Redaction extends to more languages."
+  },
+  "143fa1d91decee47": {
+    "arch": true,
+    "reason": "An agent can consume memory in a different AWS account and deliver records to cross-account destinations."
+  },
+  "14e4bdabbcc13fe9": {
+    "arch": true,
+    "reason": "Devices can send syslog directly to CloudWatch via VPC endpoints without managing collection agents."
+  },
+  "1500392a2c53e296": {
+    "arch": true,
+    "reason": "Guardrail inference can now distribute processing across regions instead of relying on regional compute alone."
+  },
+  "15448b7848a4d0b9": {
+    "arch": true,
+    "reason": "MicroVM clients can reach the Lambda service over a private VPC endpoint rather than the public internet."
+  },
+  "17921f062d656179": {
+    "arch": true,
+    "reason": "Mail Manager can accept SMTP from customer VPCs directly over PrivateLink instead of public ingress."
+  },
+  "18519465fec13e65": {
+    "arch": true,
+    "reason": "AWS-to-OCI private connections can use the managed Interconnect instead of a customer-built multi-layer cloud network."
+  },
+  "187daecbfb66e3c7": {
+    "arch": true,
+    "reason": "Transfer connectors can now reach private SFTP servers through the customer's VPC."
+  },
+  "19e0c5c719237044": {
+    "arch": true,
+    "reason": "SCEP clients can request certificates through private VPC endpoints instead of traversing the public internet."
+  },
+  "1d2b877cea20c42b": {
+    "arch": true,
+    "reason": "Non-HTTP resources can share Verified Access rather than needing a separate VPN or connectivity product."
+  },
+  "1dce7f781a0f5ec4": {
+    "arch": true,
+    "reason": "Connect deployments in Tokyo can fail traffic over to a synchronized replica in Osaka."
+  },
+  "20c8beedc4c91c3d": {
+    "arch": true,
+    "reason": "Branch networks can use a managed Megaport-to-AWS private connection instead of configuring the peering and VLAN infrastructure themselves."
+  },
+  "21a7efdb9a7ca424": {
+    "arch": true,
+    "reason": "RDS SQL Server can issue queries against remote Teradata databases through a linked server."
+  },
+  "23335b57def9b27b": {
+    "arch": true,
+    "reason": "Bedrock supports a supervisor agent coordinating a network of separately specialized agents."
+  },
+  "24e1a52e55999a3f": {
+    "arch": true,
+    "reason": "Aurora PostgreSQL changes can reach SageMaker's lakehouse through managed zero-ETL rather than customer extraction pipelines."
+  },
+  "259a2cd619449e8a": {
+    "arch": true,
+    "reason": "HyperPod inference can separate prefill and decoding onto dedicated GPU pools with a KV-cache transfer between them."
+  },
+  "2756a3e4b31fb705": {
+    "arch": true,
+    "reason": "DSQL can publish change events directly into Kinesis without customer-operated capture infrastructure."
+  },
+  "28a5b2a1c3eb0c3c": {
+    "arch": true,
+    "reason": "An LLM can stream text directly into Polly while receiving audio concurrently instead of waiting for complete input."
+  },
+  "28ffe9ae406692d3": {
+    "arch": true,
+    "reason": "Billing exports can be written straight into another account's S3 bucket rather than replicated there afterward."
+  },
+  "2931d712daa73818": {
+    "arch": true,
+    "reason": "A managed ingestion path now carries Jira and Confluence data into OpenSearch indexes for retrieval."
+  },
+  "2948007eaff8e653": {
+    "arch": true,
+    "reason": "Bedrock can invoke tools server-side instead of routing tool calls back through the client."
+  },
+  "29e05e0c2176d6e1": {
+    "arch": true,
+    "reason": "Multiple collaborators can consume results directly rather than operating external audit or redistribution mechanisms."
+  },
+  "2c34c7b04bcc4b9d": {
+    "arch": true,
+    "reason": "Subdomain resolution can delegate between on-premises DNS authorities and Route 53 private hosted zones."
+  },
+  "2ce2f52e5041ed62": {
+    "arch": true,
+    "reason": "The ALB can rewrite URLs and Host headers itself, removing a separate reverse proxy layer."
+  },
+  "2e004f94f17d111e": {
+    "arch": true,
+    "reason": "Certificate clients can reach ACM APIs through a private VPC endpoint instead of the public internet."
+  },
+  "2e70b5b4525b0e6e": {
+    "arch": true,
+    "reason": "Voice applications can use one speech-to-speech model rather than chaining speech understanding and speech generation."
+  },
+  "2eeb4cdbc214459a": {
+    "arch": true,
+    "reason": "Db2 read workloads can be moved off the primary onto same-region or cross-region replicas."
+  },
+  "2f2a5ef3ac013347": {
+    "arch": true,
+    "reason": "Self-managed GitLab pipelines can execute jobs on CodeBuild ephemeral hosts in place of customer-hosted runner compute."
+  },
+  "2fa4093399051fe3": {
+    "arch": true,
+    "reason": "Resource Groups clients can use a private VPC endpoint instead of reaching APIs over the public internet."
+  },
+  "30f457d7c118d453": {
+    "arch": true,
+    "reason": "Batch can schedule into an existing customer-managed EKS cluster rather than requiring a managed compute environment."
+  },
+  "318a9ff36bb24155": {
+    "arch": true,
+    "reason": "Network Firewall attaches directly to Transit Gateway without an intervening inspection VPC configuration."
+  },
+  "318f250028e47800": {
+    "arch": true,
+    "reason": "Cache queries can search text and numeric ranges in ElastiCache without a separate search service."
+  },
+  "323d3d6900d4e73b": {
+    "arch": true,
+    "reason": "Managed RDS-to-OpenSearch synchronization can replace custom ETL pipelines."
+  },
+  "329ec443464c1555": {
+    "arch": true,
+    "reason": "Lambda can run an HTTP server directly without a request adapter."
+  },
+  "32e6c77164c597fc": {
+    "arch": true,
+    "reason": "Identity Center domains gain managed Airflow workflows without provisioning their own Airflow infrastructure."
+  },
+  "32f290fdac4d0162": {
+    "arch": true,
+    "reason": "A new multi-AZ transaction log enables durable recovery of Valkey cache data across failures."
+  },
+  "33dfe13cb4bfaf10": {
+    "arch": true,
+    "reason": "Cloud storage transfers to S3 no longer require deploying DataSync agents."
+  },
+  "35c730c5d70a2719": {
+    "arch": true,
+    "reason": "MediaTailor can now deliver logs straight to S3 or Firehose rather than through CloudWatch Logs."
+  },
+  "3639765526b3406f": {
+    "arch": true,
+    "reason": "Tape and volume gateways can reach FIPS endpoints over PrivateLink instead of the public internet."
+  },
+  "36659bd11f68fc4a": {
+    "arch": true,
+    "reason": "Aurora changes can synchronize directly into OpenSearch through managed ingestion instead of custom ETL pipelines."
+  },
+  "37021e1a1ef44764": {
+    "arch": true,
+    "reason": "A game can run in managed streaming capacity and reach browser players rather than executing on the player's hardware."
+  },
+  "37de7ce4fc135fa0": {
+    "arch": true,
+    "reason": "Custom Nova models can run on demand instead of always-on provisioned inference compute."
+  },
+  "38253689934b4350": {
+    "arch": true,
+    "reason": "Enrichment can run offline as a batch job within the ingestion pipeline instead of calling inference synchronously during ingestion."
+  },
+  "3934945b65ee6cba": {
+    "arch": true,
+    "reason": "Private zones owned by consumer accounts can resolve through shared central DNS views without moving zone ownership."
+  },
+  "396afa1c7b99fa43": {
+    "arch": true,
+    "reason": "Rolling updates can replace double-sized inference deployments with incremental changes on the serving endpoint."
+  },
+  "3a1baed7d02ab722": {
+    "arch": true,
+    "reason": "Messages through 1 MiB can remain in SQS rather than offloading their payload to external storage."
+  },
+  "3b5b2bbc24563b77": {
+    "arch": true,
+    "reason": "Buildkite pipelines can execute jobs on CodeBuild-managed hosts instead of self-hosting runner compute."
+  },
+  "3ccffc2ed283f439": {
+    "arch": true,
+    "reason": "DocumentDB workloads can deploy on autoscaling serverless capacity rather than a database provisioned for peak demand."
+  },
+  "3ec373a440a04286": {
+    "arch": true,
+    "reason": "Large model training can use one 100,000-node cluster rather than attempting to split a job across clusters."
+  },
+  "404ed6344fddae2b": {
+    "arch": true,
+    "reason": "In the newly supported regions, direct firewall attachment replaces separate Transit Gateway inspection subnets and route tables."
+  },
+  "419c8be49ad223a4": {
+    "arch": true,
+    "reason": "Firehose can now deliver live streams into S3 Tables without a custom ingestion path."
+  },
+  "432f068344766620": {
+    "arch": true,
+    "reason": "AgentCore can operate the orchestration loop, memory and recovery layer instead of a customer-built agent harness."
+  },
+  "43bf04d1a059d0a0": {
+    "arch": true,
+    "reason": "Managed collectors replace self-hosted OpenTelemetry Collectors for Prometheus ingestion."
+  },
+  "4529290aa7297856": {
+    "arch": true,
+    "reason": "Strong multi-region writes support a zero-data-loss recovery design for global tables."
+  },
+  "45b62cbb88638d75": {
+    "arch": true,
+    "reason": "An approved alternate account can recover vault backups even when their owner account is inaccessible."
+  },
+  "49a3be19652f778c": {
+    "arch": true,
+    "reason": "MediaPackage can assemble video layouts at request time instead of pre-encoding combinations or using custom client players."
+  },
+  "4c9567aeb23a8f90": {
+    "arch": true,
+    "reason": "Athena can query external databases without deploying dedicated connector resources in the customer's account."
+  },
+  "4cab095ebc2e5337": {
+    "arch": true,
+    "reason": "AgentCore Gateway can invoke private targets such as EKS-hosted MCP servers directly through VPC egress."
+  },
+  "4d8fb5756cc775a2": {
+    "arch": false,
+    "reason": "This certifies the existing Identity Center service for additional workloads."
+  },
+  "52e30b2f13d5b5ce": {
+    "arch": true,
+    "reason": "Clean Rooms can resolve external Iceberg catalogs directly instead of replicating table metadata."
+  },
+  "56661d0c29604706": {
+    "arch": true,
+    "reason": "Network Firewall can act as the forward proxy rather than deploying a separate proxy service."
+  },
+  "577bd24e40782332": {
+    "arch": true,
+    "reason": "Access logs can now reach CloudWatch Logs or S3 Tables directly rather than only landing in general-purpose buckets."
+  },
+  "5da017eb4a5acaee": {
+    "arch": true,
+    "reason": "Transformation artifacts can be delivered to a customer-owned S3 bucket instead of the service-owned artifact store."
+  },
+  "5e163e59e22594b0": {
+    "arch": true,
+    "reason": "Both Connect regions can carry live calls concurrently rather than keeping one region idle as standby."
+  },
+  "5e9e6494c55ce631": {
+    "arch": true,
+    "reason": "Workflows can access dependencies across regions via a VPC instead of moving data to the workflow region."
+  },
+  "692a5409d186e1d0": {
+    "arch": false,
+    "reason": "The change authorizes Aurora DSQL for FedRAMP Moderate workloads."
+  },
+  "6ca157dc9555aea3": {
+    "arch": false,
+    "reason": "Braket gains certification for government workloads."
+  },
+  "6d9a2a411ec5727d": {
+    "arch": false,
+    "reason": "CB approval changes payment compliance coverage."
+  },
+  "768f88698f505112": {
+    "arch": false,
+    "reason": "The authorization extends use of existing EMR Serverless to regulated workloads."
+  },
+  "7a25383a96bc12e8": {
+    "arch": false,
+    "reason": "The release certifies the existing VMware service."
+  },
+  "8d6bc7a981b3614c": {
+    "arch": false,
+    "reason": "Security Lake gains FedRAMP authorization."
+  },
+  "8da666fbba567bab": {
+    "arch": false,
+    "reason": "The announcement adds FedRAMP compliance coverage for Transform."
+  },
+  "96765bf556606bb9": {
+    "arch": false,
+    "reason": "Existing Bedrock models and features gain additional approvals."
+  },
+  "a2c5734e64ad80c7": {
+    "arch": false,
+    "reason": "Model availability for regulated workloads changes through approval."
+  },
+  "af7fbee75b99c56c": {
+    "arch": false,
+    "reason": "Application Migration Service gains DoD authorization."
+  },
+  "af942b033b481f68": {
+    "arch": false,
+    "reason": "PCS gains compliance coverage for additional workloads."
+  },
+  "c2f9a61e7c3ab2ea": {
+    "arch": false,
+    "reason": "Kiro gains authorization in GovCloud."
+  },
+  "d69d39fd596392ca": {
+    "arch": false,
+    "reason": "Managed Grafana gains FedRAMP authorization in GovCloud."
+  },
+  "e1eec712f1dc3710": {
+    "arch": false,
+    "reason": "The release certifies Security Incident Response under HITRUST."
+  },
+  "fc8860fcd8dbe68d": {
+    "arch": false,
+    "reason": "Managed Prometheus gains GovCloud compliance authorizations."
+  }
+}

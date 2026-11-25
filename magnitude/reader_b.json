@@ -1,0 +1,242 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-management-console-assigning-color-aws-account/": {
+    "rating": "1",
+    "reason": "Account color makes existing account selection visually identifiable.",
+    "workload": "Console users switching AWS accounts"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-india/": {
+    "rating": "2",
+    "reason": "Direct upload and validation replace an email submission and follow-up.",
+    "workload": "India-based Marketplace sellers submitting signatures"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/": {
+    "rating": "2",
+    "reason": "Long polling removes repeated result checks and session listing removes external identifier tracking.",
+    "workload": "Applications running SQL through the Redshift Data API"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-emr-serverless-support-inline-runtime-permissions-job-runs/": {
+    "rating": "3",
+    "reason": "A shared runtime role plus a per-job policy replaces a separately managed role for each tenant.",
+    "workload": "Multi-tenant EMR Serverless jobs"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/aws-security-incident-response-ou-membership-coverage/": {
+    "rating": "1",
+    "reason": "Selecting OUs narrows the membership boundary of the existing response service.",
+    "workload": "Organizations piloting response coverage in selected OUs"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-workspaces-core-managed-instances-vdi-migrations/": {
+    "rating": "3",
+    "reason": "WorkSpaces can provision and manage customer-account instances as a VDI deployment alternative to fixed bundles.",
+    "workload": "VDI operators needing customized compute configurations"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/aws-client-vpn-onboarding-quickstart-setup/": {
+    "rating": "2",
+    "reason": "Presets reduce endpoint creation to three required inputs.",
+    "workload": "Teams creating Client VPN endpoints"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/partyrock-image-playground-amazon-nova-canvas/": {
+    "rating": "2",
+    "reason": "Users can generate an image directly without first working through an application widget.",
+    "workload": "PartyRock users experimenting with image prompts"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/": {
+    "rating": "2",
+    "reason": "Callers that already hold an ARN can pass it directly and omit the parsing step.",
+    "workload": "Applications passing identifiers from CloudTrail or IAM"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-eventbridge-enhanced-logging-improved-observability/": {
+    "rating": "3",
+    "reason": "An event bus can deliver diagnostic records directly into a selected logs, storage or streaming destination.",
+    "workload": "Event-driven applications tracing matched rules and invocations"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-quality/": {
+    "rating": "2",
+    "reason": "Rule authoring and evaluation become steps inside the Studio catalog or visual ETL flow.",
+    "workload": "Engineers checking catalog or in-transit data quality"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-security-agent-adds-penetration-tests-shared/": {
+    "rating": "3",
+    "reason": "Shared VPC access allows a central account to run assessments across participating accounts.",
+    "workload": "Security teams testing VPCs owned by multiple accounts"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/improved-ai-assistance-amazon-sagemaker-unified-studio/": {
+    "rating": "2",
+    "reason": "A project-aware assistant can act on files and commands within the development workflow.",
+    "workload": "Studio users working in notebooks or Code Editor"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/": {
+    "rating": "3",
+    "reason": "The serverless database removes the need to provision dedicated Exadata infrastructure or VM clusters.",
+    "workload": "Oracle Database@AWS customers choosing Autonomous Serverless"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-config-new-resource-types/": {
+    "rating": "1",
+    "reason": "The existing recorder and rules recognize additional resource types.",
+    "workload": "Config customers tracking the newly covered resources"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-route-53-domains-adds-support-for-.ai-and-other-top-level-domains/": {
+    "rating": "1",
+    "reason": "The registrar accepts ten additional TLDs through its existing registration workflow.",
+    "workload": "Route 53 users registering one of the added domains"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/": {
+    "rating": "3",
+    "reason": "Native scheduling and notebook chaining can replace external orchestration infrastructure.",
+    "workload": "Studio users productionizing recurring notebook jobs"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/": {
+    "rating": "2",
+    "reason": "Provider-level tags automatically propagate when underlying resources are created.",
+    "workload": "Lambda Managed Instances operators enforcing tags"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/instance-scheduler-adds-enhanced-scaling/": {
+    "rating": "2",
+    "reason": "Retries, diagnostics and scheduling event bus creation automate operator actions.",
+    "workload": "Teams operating Instance Scheduler across multiple accounts"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-emr-serverless-local-storage-provisioning-apache-spark-workloads/": {
+    "rating": "3",
+    "reason": "Managed shuffle storage decouples compute workers from local intermediate data storage.",
+    "workload": "EMR Serverless Spark jobs with intermediate data"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management/": {
+    "rating": "2",
+    "reason": "EKS coordinates successor certificates and updates managed components during rotation.",
+    "workload": "Operators rotating an EKS cluster CA"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/": {
+    "rating": "2",
+    "reason": "Self-service drafting and policy validation remove the specialization review for eligible case studies.",
+    "workload": "Partners publishing go-to-market case studies"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-ec2-delete-underlying-ebs-snapshots-deregistering-amis/": {
+    "rating": "2",
+    "reason": "Deregistering an image can delete its snapshots in the same operation.",
+    "workload": "EC2 administrators cleaning up AMIs and snapshots"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-cloudwatch-organization-vpc-flow-logs-enablement/": {
+    "rating": "2",
+    "reason": "One rule automatically enables flow logging on matching existing and new VPCs.",
+    "workload": "Organizations provisioning VPC logs across accounts"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-rum-session/": {
+    "rating": "2",
+    "reason": "Replay gives developers a way to diagnose the user session without recreating the error.",
+    "workload": "Front-end developers investigating web application errors"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/": {
+    "rating": "1",
+    "reason": "An additional embedding model is available through existing JumpStart deployment methods.",
+    "workload": "Teams embedding text for search, clustering or similarity"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-ec2-mac-host-recovery-host-maintenance/": {
+    "rating": "3",
+    "reason": "Host Recovery can migrate a running workload to replacement hardware after detecting host issues.",
+    "workload": "macOS workloads on EC2 Mac Dedicated Hosts"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-wickr-admin-apis-generally-available/": {
+    "rating": "2",
+    "reason": "Administrators can automate user provisioning and policy updates through APIs.",
+    "workload": "Teams managing Wickr user and group lifecycles"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-launches-improved-wait-time/": {
+    "rating": "1",
+    "reason": "More accurate wait estimates feed existing routing and capacity decisions.",
+    "workload": "Connect queues using estimated wait times"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/attributed-revenue-dashboard-launch/": {
+    "rating": "2",
+    "reason": "One dashboard consolidates revenue measurements and lets partners verify implementation.",
+    "workload": "Partners measuring attributed AWS consumption"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/": {
+    "rating": "3",
+    "reason": "Visual alignment replaces external synchronization workflows or specialized hardware.",
+    "workload": "Broadcasters aligning videos from sources without timecode"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-s3-block-public-access-organization-level-enforcement/": {
+    "rating": "2",
+    "reason": "One inherited policy replaces individual public access configurations across accounts.",
+    "workload": "Organizations enforcing S3 Block Public Access"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/12/s3-batch-operations-performance-improvements/": {
+    "rating": "1",
+    "reason": "The same batch job completes faster without additional configuration.",
+    "workload": "S3 Batch Operations jobs processing millions of objects"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-opensearch-star-tree-index/": {
+    "rating": "1",
+    "reason": "An index setting accelerates supported aggregations while existing queries keep their syntax.",
+    "workload": "OpenSearch users aggregating append-only multidimensional data"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-ec2-r8gb-instances/": {
+    "rating": "1",
+    "reason": "A higher-bandwidth instance option changes capacity available to the same compute workload.",
+    "workload": "EBS-intensive databases running on Graviton"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-c8i-and-c8i-flex-instances-generally-available/": {
+    "rating": "1",
+    "reason": "New instance sizes improve compute performance through an existing EC2 deployment choice.",
+    "workload": "Teams running compute-intensive Intel workloads"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-healthomics-elastic-throughput-dynamic-run-storage/": {
+    "rating": "1",
+    "reason": "Existing dynamic storage automatically scales throughput for the run.",
+    "workload": "HealthOmics workflows with variable I/O"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/": {
+    "rating": "2",
+    "reason": "Native retryable writes automate retries of transient failures and additional operators enable new query steps.",
+    "workload": "DocumentDB 8.0.2 applications using affected writes or aggregations"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sqs-introduces-fair/": {
+    "rating": "1",
+    "reason": "Adding a group identifier changes queue fairness within the existing producer and consumer design.",
+    "workload": "Multi-tenant applications sharing a standard SQS queue"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/": {
+    "rating": "1",
+    "reason": "A newer model can be selected in the existing AWS model access offerings.",
+    "workload": "Teams upgrading Sonnet-based inference workloads"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/": {
+    "rating": "3",
+    "reason": "Execution logs can fan out directly to storage and alerting destinations instead of a single managed log group.",
+    "workload": "REST API operators retaining and analyzing logs across multiple destinations"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/": {
+    "rating": "1",
+    "reason": "A higher bitrate tier increases transport capacity in the existing routing workflow.",
+    "workload": "Broadcasters routing high-bitrate streams"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/": {
+    "rating": "1",
+    "reason": "The existing backup plan can cover more buckets in one account without changes under managed policies.",
+    "workload": "Accounts protecting more than 1,000 general-purpose S3 buckets"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/malware-protection-s3-file-size-archive-scanning-limits/": {
+    "rating": "1",
+    "reason": "Existing scanning automatically accepts larger objects and larger archive member counts.",
+    "workload": "GuardDuty customers scanning large S3 objects or archives"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/upgrades-amazon-q-business-browser-extension/": {
+    "rating": "2",
+    "reason": "Users can ask questions against indexed company data directly in the extension and change the material used in a conversation.",
+    "workload": "Q Business users combining corporate and browser sources"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/": {
+    "rating": "2",
+    "reason": "Customers can change the plan allowance themselves instead of contacting AWS for custom pricing.",
+    "workload": "Premium CloudFront customers outgrowing the prior allowance"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/09/amazon-cloudwatch-query-metrics-data-two-weeks/": {
+    "rating": "1",
+    "reason": "The same Metrics Insights query can cover two weeks instead of three hours.",
+    "workload": "Operators querying historical groups of CloudWatch metrics"
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-s4.5-quota-aws-govcloud-us/": {
+    "rating": "1",
+    "reason": "Higher default token and request limits increase capacity through the existing model interface.",
+    "workload": "Claude Sonnet 4.5 workloads in AWS GovCloud"
+  }
+}

@@ -1,0 +1,120 @@
+0	2	Adds resource-type coverage to existing Config recording and rules.
+1	2	Adds ML-DSA certificate compatibility to existing certificate authentication.
+2	2	Adds two targets to an established managed external-secret rotation operation.
+3	3	Introduces SMS pumping detection and blocking with risk results and monitoring.
+4	3	Introduces IPAM integration to provision customer-owned CloudFront addresses.
+5	3	Introduces publication of detailed collaboration monitoring metrics to CloudWatch.
+6	3	Introduces automated model benchmarking and deployment configuration recommendations.
+7	2	Adds information fields to existing job APIs and audit reports.
+8	NA	Regional rollout of existing Cognito functionality.
+9	2	Adds actionability and persona fields to existing Health events.
+10	3	Introduces private connectivity and infrastructure provisioning integrations for AgentCore.
+11	2	Adds per-user identity propagation to existing notebook compute connections.
+12	3	Introduces a distinct certificate search API and console operation.
+13	NA	Renames Chatbot with explicit statement that functionality is unchanged.
+14	2	Extends custom catalog asset types to IAM-based domains.
+15	3	Introduces a service-wide software version lifecycle catalog and API access.
+16	1	Extends existing Metrics Insights query lookback from three hours to two weeks.
+17	NA	Regional rollout of existing I7i instances.
+18	2	Adds join and partition optimization controls to existing SQL queries.
+19	2	Adds a policy condition key to existing IAM access controls.
+20	2	Accepts ARN identifiers in existing Identity Store API requests.
+21	2	Extends existing audio optimization to two additional desktop environments.
+22	1	Adds a higher-spec GPU instance to the EC2 instance catalog.
+23	3	Introduces a tunnel endpoint operation for sharing CIDR-based network segments.
+24	3	Introduces integration of catalog business context into Data Agent conversations.
+25	2	Adds EAGLE decoding optimization to existing model optimization and deployment workflows.
+26	2	Adds AZ affinity configuration to existing responder gateways.
+27	NA	Regional rollout of existing KVS WebRTC capability.
+28	2	Adds persistent Kubernetes labels and taints to instance-group configuration.
+29	2	Extends agent toolkit skills and supported SageMaker workflow coverage.
+30	2	Extends existing SLO creation to dependency metrics.
+31	2	Extends existing AMI-based node configuration to continuous provisioning.
+32	3	Introduces MCP interfaces for observability and troubleshooting operations.
+33	NA	Regional rollout of existing Neptune Analytics.
+34	NA	Regional rollout of existing FSx backup and copy capabilities.
+35	2	Adds identity propagation access control to existing Athena query integration.
+36	NA	Regional rollout of existing Transfer Family.
+37	2	Extends existing Spark troubleshooting agent to EMR on EKS.
+38	3	Introduces a participant replication operation between IVS stages.
+39	3	Introduces agent preview and approval workflow before outbound campaign dialing.
+40	2	Adds business-dimension filters to existing Connect dashboards.
+41	2	Adds fair-queue targets to existing EventBridge SQS integration.
+42	3	Introduces resolver-backed destination-IP validation for firewall domain policies.
+43	2	Adds IPv6 compatibility to existing messaging endpoints.
+44	3	Introduces an automated blueprint instruction optimization operation with labeled examples.
+45	3	Introduces a consolidated transformation-status reporting interface.
+46	NA	Changes service prices and pricing tiers without adding a product operation.
+47	NA	Regional rollout of existing EC2 G6 instances.
+48	NA	Regional rollout of existing EC2 M8a instances.
+49	3	Introduces PrivateLink access to Firewall Manager management operations.
+50	3	Introduces a GitHub integration for existing Q development agents.
+51	2	Adds natural-language coverage to existing Q interfaces.
+52	2	Adds permission controls for viewing personal performance evaluations.
+53	2	Adds an upfront-payment choice to existing reservation purchasing.
+54	2	Adds foreign-key constraints and referential-action options to SQL tables.
+55	3	Introduces credential preflight testing and domain discovery before penetration tests.
+56	1	Adds a minor database engine release with fixes and availability improvements.
+57	NA	Rolls existing 100G Direct Connect connectivity into another location.
+58	NA	Regional rollout of existing OpenSearch instance families.
+59	NA	Regional rollout of existing second-generation FSx file systems.
+60	3	Introduces external shared file-system mounting through S3 Files and EFS integration.
+61	2	Adds resource-level policy controls to existing snapshot copy operation.
+62	NA	Changes ad insertion prices without adding product functionality.
+63	2	Adds bulk variants of existing job cancellation and termination operations.
+64	1	Adds voice catalog choices alongside regional rollout.
+65	2	Extends established console-to-IDE integration to more IDEs.
+66	3	Introduces a dedicated AI traffic analysis dashboard.
+67	NA	Regional rollout of existing Aurora DSQL multi-Region clusters.
+68	2	Adds formatting parameters and response fields to existing Places APIs.
+69	4	Introduces continuous portfolio-wide analysis and autonomous remediation as a new Transform operating model.
+70	2	Adds domain-list and wildcard configuration to existing RUM monitors.
+71	3	Introduces multi-party approval integration and recovery authorization workflow.
+72	2	Adds EFA and placement group configuration to existing node pools.
+73	3	Introduces a real-time queue-position API.
+74	2	Adds a partner agent target through the existing remote MCP integration mechanism.
+75	1	Adds a minor engine version with throughput, resiliency and bug-fix improvements.
+76	2	Extends existing event delivery to direct cross-account targets.
+77	3	Introduces managed Health notification subscription UI and channel configuration.
+78	1	Raises the asynchronous invocation payload limit from 256KB to 1MB.
+79	NA	Regional rollout of existing U7i instances.
+80	NA	Regional rollout of existing notebook instance support.
+81	1	Adds minor SQL Server engine versions with fixes and performance improvements.
+82	2	Adds public-subnet configuration to existing EMR Serverless VPC connectivity.
+83	NA	Changes S3 storage and request pricing without new product functionality.
+84	3	Introduces an OTLP metric export interface replacing log parsing for monitoring.
+85	2	Extends session and identity propagation controls to Microsoft AD customers.
+86	2	Extends existing origin modification to VPC origins and origin groups.
+87	3	Introduces networking integrations and cross-account peering alongside GA.
+88	3	Introduces workflow version creation and selection within stable workflow identity.
+89	2	Adds resource-type coverage to existing Config recording and rules.
+90	2	Adds domain-category controls to existing DNS firewall filtering.
+91	NA	Regional rollout of existing ECS Managed Instances.
+92	2	Refines dependency detection within existing container vulnerability scanning.
+93	3	Introduces a managed accounting capability and database alongside a Slurm version.
+94	3	Introduces controller log export through CloudWatch Vended Logs.
+95	2	Adds configurable Windows event filters to existing log collection.
+96	2	Adds two targets to existing managed external-secret rotation.
+97	5	Launches Nova Act as a managed AWS service for production agent fleets.
+98	3	Introduces automated distribution authorization, settlement and reporting workflows.
+99	2	Adds member changes to existing collaborations without recreation.
+100	3	Introduces continuous background provisioning and an operational events API.
+101	3	Introduces SES outbound delivery into Mail Manager archives.
+102	1	Adds next-generation Trainium hardware to the existing EC2 UltraServer offering.
+103	NA	Regional rollout of existing AWS Backup EKS support.
+104	NA	Regional rollout of existing Cognito feature tiers.
+105	2	Adds After Effects support to existing managed rendering fleets.
+106	2	Adds array-job status summary fields to an existing list API.
+107	NA	Regional rollout of existing G7e instances.
+108	3	Introduces an interactive transformation playground alongside image controls.
+109	2	Adds customer-managed encryption key choice to existing archives.
+110	NA	Regional rollout of existing FSx Windows File Server.
+111	NA	Regional rollout of existing M7i-flex instances.
+112	3	Introduces Karpenter integration with ARC zonal shift for provisioning coordination.
+113	NA	Updates best-practice guidance without a new tool operation.
+114	2	Adds allocation strategy choices to existing Spot provisioning.
+115	3	Adds infrastructure provisioning and monitoring interfaces alongside multi-agent GA refinements.
+116	2	Adds network interface and connection choices for existing homogeneous migrations.
+117	2	Extends existing WAF protection to another supported resource target.
+118	NA	Regional rollout of existing on-demand replication capability.
+119	2	Adds IPv6 compatibility to existing proxy endpoints and target connections.

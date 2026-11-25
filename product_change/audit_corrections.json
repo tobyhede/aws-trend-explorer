@@ -1,0 +1,62 @@
+{
+  "2025/01/amazon-s3-tables-10000-tables-bucket/": [
+    "1",
+    "Raises the existing per-bucket table quota to 10,000."
+  ],
+  "2025/02/aws-step-functions-100-000-state-machines-activities-account/": [
+    "1",
+    "Raises the existing registered-state-machine and activity quotas from 10,000 to 100,000."
+  ],
+  "2025/07/aws-lambda-response-streaming-200-mb-payloads/": [
+    "1",
+    "Raises the payload ceiling within existing response streaming from 20 MB to 200 MB."
+  ],
+  "2025/08/amazon-ecr-supports-100000-images/": [
+    "1",
+    "Raises the existing repository image limit from 20,000 to 100,000."
+  ],
+  "2026/09/aws-lambda-90-minute-function/": [
+    "1",
+    "Raises the timeout for existing Managed Instance invocations from 15 to 90 minutes."
+  ],
+  "2026/07/mediatail-configurable-ad-timeout-and-concurrency/": [
+    "2",
+    "Introduces customer-configurable ad timeout, personalization-budget and parallel-request controls; performance is a benefit of the controls."
+  ],
+  "2026/08/aws-direct-connect-new-prefix-controls/": [
+    "2",
+    "Adds route-prefix capacity pools and per-interface allocation controls as well as raising the ceiling."
+  ],
+  "2026/09/s3-vectors-introduces-metadata-pre-filtering/": [
+    "2",
+    "Adds filtering-mode controls and a prefix-match operator within existing vector search, with an UpdateIndexMode API."
+  ],
+  "2025/06/amazon-q-developer-eclipse-ide-plugin/": [
+    "2",
+    "Provides existing Q Developer capabilities within an additional IDE."
+  ],
+  "2025/04/iam-identity-center-sdk-plugin-streamline-token-exchange-external-identity-provider/": [
+    "2",
+    "Automates existing trusted-identity token exchange through an SDK plugin."
+  ],
+  "2026/02/amazon-location-service-introduces-kiro-power-claude-skill-llm-context/": [
+    "2",
+    "Packages instructions and patterns for using existing Location APIs in additional development tools."
+  ],
+  "2026/10/aws-lambda-durable-go-sdk-support/": [
+    "2",
+    "Exposes the existing durable-execution programming model through a Go SDK."
+  ],
+  "2025/01/aws-marketplace-8-decimal-place-precision-usage-pricing/": [
+    "1",
+    "Raises supported seller-configured pricing precision from three to eight decimal places."
+  ],
+  "2025/02/custom-payment-schedules-marketplace-partner-offers/": [
+    "2",
+    "Adds per-installment payment controls in the Portal and Catalog API, replacing a uniform markup constraint."
+  ],
+  "2025/11/amazon-workspaces-applications-instances-storage-addition/": [
+    "3",
+    "Adds custom EC2 AMI import to WorkSpaces image creation, alongside additional compute choices and configurable storage."
+  ]
+}

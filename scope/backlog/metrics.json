@@ -1,0 +1,36 @@
+{
+  "agreement": 86,
+  "sample": 100,
+  "by_label": {
+    "new_capability": {
+      "first_reading": 32,
+      "independent_reading": 36,
+      "agreed": 29
+    },
+    "improved": {
+      "first_reading": 34,
+      "independent_reading": 33,
+      "agreed": 29
+    },
+    "extended": {
+      "first_reading": 34,
+      "independent_reading": 29,
+      "agreed": 28
+    },
+    "new_product": {
+      "first_reading": 0,
+      "independent_reading": 1,
+      "agreed": 0
+    },
+    "operational": {
+      "first_reading": 0,
+      "independent_reading": 1,
+      "agreed": 0
+    },
+    "unclear": {
+      "first_reading": 0,
+      "independent_reading": 0,
+      "agreed": 0
+    }
+  }
+}

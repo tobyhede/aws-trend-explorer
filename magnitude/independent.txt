@@ -1,0 +1,80 @@
+3 Managed cross-region routing takes over multi-region capacity routing for Grok inference.
+2 Finance teams assign shared discount benefits to account groups.
+2 MySQL and MariaDB operators gain automated bottleneck diagnosis.
+2 Driver retries transient writes without application intervention.
+3 Transacting agents can delegate settlement across external wallets to AgentCore.
+3 Multi-AZ storage can now run in a participant account's shared VPC.
+1 Nested virtualization gains supported instance types and regions.
+3 Vectors can be indexed alongside transactional data in DynamoDB.
+3 Agents can deploy on managed dedicated EC2 capacity instead of microVMs.
+2 WDL authors no longer create parameter templates manually.
+2 Auditors can enrich event records with tags and contextual keys.
+1 GLM is an additional model choice for Bedrock inference.
+2 IDE validation brings deployment checks into the authoring step.
+2 An event release starts a timed retention period for S3 objects.
+2 Scheduled inventory replaces synchronous listing for directory-bucket reporting.
+2 Coding agents can now invoke domain management actions directly.
+2 Multi-step investigations are delegated to Q within chat.
+1 The Aurora serverless capacity ceiling rises to 384 ACUs.
+1 Mac builders gain a higher-performance EC2 instance option.
+1 Existing KMS signing APIs accept another signing algorithm.
+3 DMS homogeneous migrations can use private per-migration network interfaces.
+2 Teams can allocate secret costs using per-secret tags.
+2 Global table operators can run controlled regional failure experiments.
+2 Operators can track Step Functions quotas and monitor utilization centrally.
+2 Self-service adjustments remove the manual quota review step.
+2 Operators can start a secure shell scoped to a live stream session.
+1 A visibility setting filters managed resources from EC2 listings.
+3 FIPS-validated registry requests can use a private VPC endpoint.
+2 Expiration and transition pause automatically when replication fails.
+3 Workflow tasks can isolate scratch I/O onto a dedicated local volume.
+3 Schema conversion planning can run without provisioning a target database.
+2 Imported keys can be rotated in place while preserving their identifiers.
+3 A managed retrieval pipeline combines Neptune graph traversal and vector search.
+1 Existing cache workloads can select new node families.
+2 AWS Batch automatically creates and configures cluster access entries.
+2 Lineage events are captured and delivered to the studio automatically.
+1 Existing clients can connect with a second protocol without changing applications.
+1 An index predicate narrows indexed rows in existing table queries.
+2 Operators can ask Q for CloudZero data without switching consoles.
+3 Service-managed rules can deliver results independently of customer-managed recorders.
+1 Existing idle-resource detection reaches six more resource types.
+1 Spark SQL analyses gain additional policy options.
+2 Production agent tests and quality assessments can run continuously.
+3 Two procurement catalogs and their approval flows can be consolidated.
+3 QuickSight gains a native data path from Impala into SPICE.
+1 Authors can select a different interface color scheme.
+3 LAG monitoring in CloudWatch can dispense with an external networking tool.
+2 Map authors can disambiguate locations in a visual.
+3 GPT OSS users can move custom model serving onto managed infrastructure.
+1 The directory functional level upgrades automatically in place.
+3 Customers can consolidate separate data stores and ETL pipelines.
+1 Approved Nova workloads can tune moderation settings.
+3 Brokers can delegate identity checks to an HTTP server.
+2 SMS resources can be provisioned through reusable deployment templates.
+1 Customers can choose another index compression codec.
+2 Deployment logs are visible during rollout without manual event correlation.
+2 Job metrics and logs can be correlated in one troubleshooting view.
+3 Service traffic can preferentially route to same-zone endpoints.
+1 A configurable index option stores less data for equivalent searches.
+2 Budget owners can monitor cross-account spend without management-account access.
+2 Query plans are captured and retained automatically for later diagnosis.
+2 Teams can export monthly carbon data through Billing Data Exports.
+2 Recurring analysis tasks can run autonomously.
+2 TCV submission removes manual monthly revenue estimation.
+1 Bedrock customers can choose an additional model.
+2 Preconfigured deployment profiles reduce manual performance tuning.
+3 Edge gateways gain an integrated broker linking custom edge components.
+2 Debuggers can map minified stack traces directly to source locations.
+2 Built-in Korean slots remove manual synonym definition.
+1 Resource searches cover more types with the same operation.
+1 Customers can select their own encryption key for API destination credentials.
+2 Kafka applications can move independently without coordinating offset alignment.
+2 Kafka handlers can delegate schema validation and event decoding.
+3 Resolver management traffic can stay on a private network path.
+2 Firewall rules can validate destination IPs against actual DNS answers.
+3 A load balancer can take over token validation from application code.
+2 Stream consumers can start at a chosen timestamp.
+2 Audit logs replace manual inventories of default VPC resources.
+3 Cross-account metrics can be replicated into a central destination account.
+2 Slurm clusters can schedule independently partitioned GPU slices.

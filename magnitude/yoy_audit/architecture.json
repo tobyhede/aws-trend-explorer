@@ -1,0 +1,70 @@
+{
+  "years": [
+    {
+      "year": 2025,
+      "total": 1259,
+      "observed": 136,
+      "observed_share": 10.802223987291502,
+      "adjusted": 310.025,
+      "adjusted_share": 24.624702144559173,
+      "count_interval": [
+        243,
+        406
+      ],
+      "carried": 62,
+      "exact_count_interval": [
+        182,
+        516
+      ],
+      "share_interval": [
+        19.301032565528196,
+        32.24781572676728
+      ]
+    },
+    {
+      "year": 2026,
+      "total": 1561,
+      "observed": 159,
+      "observed_share": 10.185778347213326,
+      "adjusted": 487.975,
+      "adjusted_share": 31.26040999359385,
+      "count_interval": [
+        383,
+        616
+      ],
+      "carried": 85,
+      "exact_count_interval": [
+        294,
+        751
+      ],
+      "share_interval": [
+        24.535554131966688,
+        39.46188340807175
+      ]
+    }
+  ],
+  "difference": {
+    "count": 177.95000000000005,
+    "share_pp": 6.635707849034677,
+    "count_interval": [
+      36,
+      321
+    ],
+    "share_interval": [
+      -3.469039571077986,
+      16.319755925179834
+    ],
+    "exact_share_interval": [
+      -22.150827940176026,
+      33.65426838358947
+    ]
+  },
+  "sample": 257,
+  "agreement": 254,
+  "reader_confusion": {
+    "True/True": 110,
+    "True/False": 2,
+    "False/True": 1,
+    "False/False": 144
+  }
+}

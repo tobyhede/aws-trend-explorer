@@ -1,0 +1,200 @@
+0	2	Cognito adds switchable feature tiers bundling authentication and threat-protection options.	medium
+1	3	Messaging delivery events can first flow through EventBridge routing to downstream consumers.	high
+2	2	Grafana queries gain template variables and incremental refresh options.	high
+3	2	Adds 28 controls to the existing proactive governance mechanism.	high
+4	2	Existing GitLab integration expands from user repositories to Group repositories.	high
+5	2	MediaLive decoding gains Dolby E input compatibility.	high
+6	2	Existing anomaly alarms gain verification labels, descriptions and filters.	high
+7	2	Link UHD video contribution gains MediaConnect as a destination.	medium
+8	2	Spot provisioning gains a combined price-and-capacity allocation option.	high
+9	1	Raises serverless collection capacity to 6 TB and 100 OCUs.	high
+10	2	Spark upgrade explicitly adds SQL functions and ANSI compatibility to existing cluster analytics.	medium
+11	2	IAM condition keys extend controls for API authorization, endpoints and logging.	high
+12	2	Existing agent scheduling gains recurring shift patterns and bulk assignments.	medium
+13	1	Systems Manager adds routine Windows and Ubuntu operating-system versions.	high
+14	NA	Existing R6i instances expand to eight regions.	high
+15	1	MemoryDB Multi-AZ availability commitment changes from 99.9 to 99.99 percent.	medium
+16	1	Notebook catalog gains ml.g5 hardware and Python 3.8 kernels.	high
+17	2	Analyze ID adds MRZ fields and raw OCR output to existing extraction.	high
+18	3	Glue Studio introduces a SQL interface for authoring transforms previously requiring Spark code.	high
+19	2	Quick Start templates extend event ingestion to three webhook sources.	medium
+20	NA	Existing Timestream becomes available in Frankfurt.	high
+21	2	Disaster recovery replication gains Outposts racks as a destination.	high
+22	2	Pipes gains private connectivity through PrivateLink.	high
+23	3	Data Exchange introduces direct subscription-based querying of provider Redshift datasets.	medium
+24	1	Bedrock catalog adds the updated Mistral Large 2 model.	medium
+25	2	Redshift string comparison gains case-insensitive collation and per-column overrides.	high
+26	2	Genomics CLI extends workflow compatibility to CWL/Toil and adds subnet and AMI options.	high
+27	2	Existing cross-account monitoring expands to service-quota data.	high
+28	2	App Runner adds service-level CPU, memory and concurrency metrics.	high
+29	3	ISVs gain permission-controlled access to customers' Q indexes for their own applications.	high
+30	2	Existing EC2 hibernation is extended to C5d, M5d and R5d instances.	high
+31	2	Existing Contact Lens conversational analytics expands from voice to chat.	medium
+32	NA	Kinesis Video Streams expands to GovCloud regions.	high
+33	4	SPARC-compatible execution environments introduce a legacy-application runtime on AWS.	medium
+34	NA	Customer Profiles gains PCI and SOC compliance coverage only.	high
+35	2	Queue snapshots add visibility into jobs at the front of existing Batch queues.	medium
+36	3	Evidence Finder introduces searchable evidence exploration and report export backed by CloudTrail Lake.	medium
+37	2	SNS active tracing expands to FIFO topics.	high
+38	NA	Redshift Data API becomes available in Osaka.	high
+39	NA	EventBridge Scheduler expands to 18 regions.	high
+40	2	Lambda publishes three additional asynchronous-processing metrics.	high
+41	NA	Existing 9 TiB EC2 instances expand to London.	high
+42	NA	D3 instances expand to Paris.	high
+43	NA	Existing AQUA accelerator expands to three regions.	high
+44	2	Personalize dynamic filtering gains comparison operators.	high
+45	NA	OpenSearch Graviton2 instances expand to six regions.	high
+46	2	CloudHSM APIs gain private VPC connectivity.	high
+47	NA	S3 on Outposts expands to GovCloud.	high
+48	2	Smithy language gains defaults, enumeration shapes and syntax refinements.	high
+49	2	Existing patch execution gains configurable before-and-after hooks.	high
+50	2	Transfer authentication adds ED25519 and ECDSA key compatibility.	high
+51	2	CodeCatalyst repository browsing adds per-file commit history.	medium
+52	NA	AWS adds a Chicago Local Zone.	high
+53	2	DescribeJobRun responses include driver-log errors for existing jobs.	high
+54	2	ROSA infrastructure roles gain AWS-maintained permission policies.	high
+55	3	Alongside version updates, HypoPG adds hypothetical-index evaluation without building real indexes.	medium
+56	NA	Firewall Manager expands to three regions.	high
+57	NA	Existing snapshot export becomes available in Osaka.	high
+58	2	Application Signals monitoring expands to Bedrock dependencies.	high
+59	3	Customer Profiles gains automatic identity matching and profile consolidation.	high
+60	2	WorkSpaces Core adds automated Office installation and subscription during BYOL image creation.	medium
+61	2	Firewall Manager central policy management extends to Shield automatic L7 protections.	high
+62	3	Application Manager gains template versioning, distribution and stack provisioning operations.	high
+63	2	Glue adds a spare-capacity execution option for existing jobs with variable starts and interruption.	medium
+64	2	Q agent assistance expands its supported languages to 64.	high
+65	NA	C7i instances become available in Paris.	high
+66	2	QuickSight monitoring adds SPICE consumption metrics to CloudWatch.	medium
+67	2	OpenSearch analyzer compatibility expands to Hebrew and HanLP.	high
+68	3	Data Exchange adds direct subscribed access to provider S3 objects without copying.	medium
+69	NA	ElastiCache autoscaling expands to GovCloud.	high
+70	NA	Chime meetings and media expand to Cape Town.	high
+71	2	Detective investigation covers additional GuardDuty ECS runtime findings.	high
+72	1	SQS raises FIFO high-throughput transaction quotas.	high
+73	3	HealthOmics introduces workflow-run archiving and querying through CloudWatch Logs.	medium
+74	2	Existing Sidewalk integration gains streamlined provisioning, onboarding and monitoring.	medium
+75	2	Launch Wizard adds tempdb placement configuration for SQL Server deployment.	high
+76	NA	C6g and R6gd hardware expands to more regions.	high
+77	2	Proton environments can reference existing shared resources instead of recreating them.	medium
+78	NA	Glue DataBrew gains HIPAA eligibility.	high
+79	2	Firewall Manager gains rule-order and default-action controls for Network Firewall.	high
+80	3	Data Exchange adds subscription delivery directly into Lake Formation catalogs.	medium
+81	2	S3 access-point permissions extend to cross-account delegation.	high
+82	NA	Nitro Enclaves and ACM support expand to GovCloud.	high
+83	NA	Network Firewall gains PCI DSS compliance.	high
+84	NA	Coursera developer specializations are educational offerings.	high
+85	2	RAM gains custom fine-grained permission policies for existing resource shares.	high
+86	NA	AMS Accelerate expands to GovCloud.	high
+87	1	Regional expansion also explicitly makes Graviton2 the default ElastiCache instance choice.	medium
+88	3	JumpStart gains a programmatic Python interface to automate training and deployment formerly offered one-click.	medium
+89	2	Batch dashboard adds layout customization and additional monitoring widgets.	high
+90	3	Connect introduces reusable centrally managed contact-flow modules referenced across flows.	medium
+91	2	Corretto release explicitly adds stream gatherers and unnamed-variable language capabilities.	medium
+92	2	Cost anomaly interface improves layout, dates and diagnostic messages.	high
+93	3	Neuron release adds EKS problem detection and recovery tooling alongside attention and batching improvements.	medium
+94	2	Step Functions adds customer-managed encryption-key choice.	high
+95	2	Step Functions tooling accepts YAML in addition to JSON definitions.	high
+96	2	Customer Profiles automatically includes contact-history data and ships enabled in new instances.	medium
+97	NA	Bedrock expands to Seoul and Ohio.	high
+98	NA	Wavelength deployments gain SOC compliance coverage.	high
+99	2	Oracle NNE gains client-side encryption and checksum configuration controls.	high
+100	2	PostgreSQL 14 explicitly adds disconnect cancellation, idle-session controls and procedure returns.	medium
+101	2	Personalize solution automation expands to domain recommenders and segmentation jobs.	high
+102	2	Existing Neptune data operations gain SDK bindings and automatic request signing.	high
+103	2	Keyspaces quotas can now be managed through the existing Service Quotas console.	medium
+104	3	Kendra introduces query suggestion generation and retrieval as users type.	medium
+105	NA	Bedrock Blueprints are sample templates for learning and deploying existing agent capabilities.	medium
+106	3	Systems Manager introduces Slack-based discovery, execution and tracking of runbooks.	medium
+107	2	Existing Personalize training gains automatic recurring scheduling.	high
+108	2	Amazon Linux update adds repository-version locking and security configuration refinements.	medium
+109	NA	Glue becomes available in Jakarta.	high
+110	U	Webcam GA describes redirection capability but does not identify a delta from preview.	medium
+111	NA	Service Quotas expands to UAE.	high
+112	2	Connect routing gains an option to ignore outbound activity when ordering agents.	high
+113	NA	Backup Audit Manager expands to GovCloud.	high
+114	2	ECS Exec and Amazon Linux compatibility extend to existing on-premises ECS Anywhere workloads.	high
+115	NA	CodePipeline expands to seven regions.	high
+116	3	Personalize gains an integrated data-preparation interface through Data Wrangler.	medium
+117	2	Existing B2B inbound processing gains automatic standard acknowledgement output.	medium
+118	1	RDS adds MySQL minor versions without a specific substantive function delta.	high
+119	1	EC2 storage instance catalog adds Im4gn and Is4gen hardware configurations.	high
+120	NA	FSx ONTAP expands to three regions.	high
+121	NA	DataBrew expands to GovCloud West.	high
+122	NA	Snowball devices become available in Jakarta.	high
+123	2	Existing Private 5G networks support multiple radios and additional SIMs.	high
+124	3	Incident Manager introduces incident synchronization and response integration with Jira Service Management.	medium
+125	2	Alongside HIPAA eligibility, B2B transformation adds healthcare X12 transaction formats.	high
+126	3	Storage Gateway adds locally cached access to FSx file shares through a new gateway type.	medium
+127	NA	Flink analytics expands to three regions.	high
+128	U	NodeJS driver GA describes failover and authentication features without establishing a new delta.	medium
+129	NA	CloudFront adds an Istanbul edge location.	high
+130	NA	Is4gen and Im4gn instances expand to Singapore.	high
+131	NA	CodeBuild expands to Jakarta.	high
+132	2	Omics workflow execution adds CWL compatibility.	high
+133	NA	Config conformance packs and organization management expand to Melbourne.	high
+134	3	Security Hub introduces bidirectional finding and Jira issue synchronization.	medium
+135	NA	Existing CloudShell VPC, Docker and startup improvements expand to remaining regions.	high
+136	NA	C6in instances expand to Hyderabad.	high
+137	3	SES introduces deliverability analysis, recommendations and automatic sending optimization.	high
+138	2	Existing Contact Lens analytics extends to external voice systems.	high
+139	2	SiteWise adds customer-selected identifiers and external-ID mappings.	high
+140	2	CloudFormation list parameters gain allowed-value and pattern validation controls.	high
+141	NA	Lambda's existing faster function scaling reaches GovCloud regions.	medium
+142	1	Corretto receives routine quarterly security and critical version updates.	high
+143	2	Copilot provisioning gains full property overrides via CDK or YAML patches.	high
+144	3	Marketplace introduces self-service AMI listing creation and updates replacing manual processing.	medium
+145	2	Connect adds local audio redirection compatibility for Citrix desktops.	high
+146	3	Explicit GA delta adds real-time payload redaction and masking to message protection.	high
+147	2	Q Business connector catalog expands to Smartsheet data.	high
+148	3	Redshift adds MERGE and multidimensional aggregation SQL operations alongside larger object limits.	medium
+149	NA	EMR Serverless expands to four regions.	high
+150	2	Glue crawlers gain Lake Formation-based permission management instead of direct bucket policies.	high
+151	2	Existing fraud enrichment adds geographic-distance input features.	high
+152	3	DocumentDB introduces managed unplanned cross-region failover while preserving global topology.	medium
+153	1	Bedrock model catalog adds Claude 3.5 Sonnet.	high
+154	2	Existing HealthImaging imports accept cross-account and cross-region S3 sources.	high
+155	2	SQL Server migration workflows add transaction logs as a backup type.	high
+156	3	SNS FIFO introduces native message archiving and replay operations.	high
+157	2	re:Post gains Builder ID sign-in and linked-login profiles.	high
+158	3	Synthetics first emits canary events into EventBridge for automated reactions.	high
+159	3	Inaugural Genomics CLI introduces commands automating genomics workflow infrastructure deployment.	medium
+160	3	Glue introduces AI-driven Spark upgrade planning, code transformation and validation.	high
+161	2	Amplify backend provisioning extends to custom CDK and CloudFormation resources.	medium
+162	2	QuickSight billing reports standardize user-level cost and usage fields.	high
+163	2	State Manager enforcement gains calendar-based blackout controls.	high
+164	2	Time Sync adds PTP hardware-clock access and accuracy auditing beyond a precision improvement.	medium
+165	2	Existing Transit Gateway connectivity supports lower-speed Direct Connect links.	high
+166	NA	Well-Architected Tool expands to GovCloud.	high
+167	3	Connect adds programmatic dismissal of agent contact notifications enabling remote reactivation.	medium
+168	NA	Console mobile app adds Osaka region coverage.	high
+169	1	Bedrock model catalog adds Llama 3.1 405B.	high
+170	2	ECR artifact handling gains OCI reference relationships, replication and lifecycle compatibility.	medium
+171	2	CloudFormation coverage expands to three Connect resource types.	high
+172	1	C7gn instance catalog adds a bare-metal size.	high
+173	U	Amplify in-app messaging GA describes capabilities without an explicit delta or clear inaugural-launch evidence.	medium
+174	2	Lex language coverage adds Portuguese variants and Mandarin.	high
+175	2	IoT remote jobs gain reusable templates with controlled parameters and access.	high
+176	1	RDS storage catalog adds io2 Block Express with higher performance and durability values.	medium
+177	NA	Backup cross-region copying expands to four regions.	high
+178	2	Inference Recommender extends load tests to existing endpoints and adds observability and execution options.	medium
+179	2	Gateway Load Balancer gains an existing-flow rebalance configuration option.	high
+180	3	Edge Manager gains managed agent and model deployment through Greengrass rather than manual copying.	medium
+181	NA	Lake Formation announcement is availability in Zurich.	high
+182	2	Existing device-position retrieval gains a geographic bounding filter.	high
+183	2	Redshift query optimization consumes Glue column statistics automatically.	high
+184	2	Demand forecasting adds product lifecycle dates, initialization and stabilization controls.	high
+185	3	IAM introduces centralized root-credential removal and temporary privileged actions across member accounts.	high
+186	NA	EFS replication expands to remaining regions.	high
+187	3	NICE DCV adds a web console for session management previously exposed through Session Manager APIs.	high
+188	2	PCS resources gain CloudFormation management compatibility.	high
+189	2	Connect chat creation can carry previous conversation context and transcripts forward.	medium
+190	2	Existing Step Functions service calls expand through SDK integration to many more services and actions.	medium
+191	1	Kinesis image extraction sampling rate increases to five frames per second.	high
+192	3	Connect introduces manager barge-in participation in ongoing calls.	high
+193	1	EC2 image catalog adds Windows Server 2025 with updated default storage and drivers.	high
+194	NA	SNS SMS sending expands to Jakarta.	high
+195	3	DocumentDB introduces managed performance-load analysis and bottleneck visualization.	medium
+196	2	Neptune adds protocol compatibility for whole-graph bulk operations replacing multiple triple queries.	medium
+197	5	AWS positions Wickr as a distinct enterprise communications service with its own networks and administration.	medium
+198	2	FinSpace adds shared-compute placement of multiple kdb clusters through Scaling Groups.	medium
+199	NA	MediaTailor logs receive volume-tiered pricing with no stated functional change.	high

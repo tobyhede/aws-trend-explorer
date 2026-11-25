@@ -1,0 +1,258 @@
+{
+  "005ea9a5c4aa1d64": {
+    "label": "new_capability",
+    "reason": "Developers can attach a local debugger to a running cloud function and step through its execution."
+  },
+  "0070550f56cfe075": {
+    "label": "improved",
+    "reason": "A new VPC condition constrains the existing host creation and update operations."
+  },
+  "00d99c9874f44144": {
+    "label": "improved",
+    "reason": "Users can tailor an existing dashboard by adding and removing database metrics."
+  },
+  "00f545a6fe7377f1": {
+    "label": "new_capability",
+    "reason": "Connect can ingest external activities as completed tasks for performance evaluation."
+  },
+  "00fb3d9ba6995191": {
+    "label": "new_capability",
+    "reason": "Lifecycle hooks can invoke Lambda directly through a new notification integration."
+  },
+  "00ff70284da3b23b": {
+    "label": "new_capability",
+    "reason": "Memcached customers can delegate capacity scaling to policies previously requiring manual intervention."
+  },
+  "010454c3c4835eb8": {
+    "label": "extended",
+    "reason": "The management endpoint now accepts IPv6 as well as IPv4."
+  },
+  "0116b4ead9a79f07": {
+    "label": "new_product",
+    "reason": "AWS introduces its own named Nova embedding model, which customers can adopt to embed multiple modalities together."
+  },
+  "01f46b9c64402ff7": {
+    "label": "extended",
+    "reason": "Existing ACM public certificates can now be used on workloads beyond integrated AWS services, through key export."
+  },
+  "0250b1b1a0fbb065": {
+    "label": "extended",
+    "reason": "Push ingestion pipelines can accept traffic across account boundaries."
+  },
+  "026095dff77038e5": {
+    "label": "new_capability",
+    "reason": "Collaborators can now configure delivery of privacy-redacted error summaries to selected members."
+  },
+  "02766157e6080a8e": {
+    "label": "improved",
+    "reason": "The HttpOnly flag strengthens security on existing session cookies."
+  },
+  "02939832b3253972": {
+    "label": "improved",
+    "reason": "The same document APIs recognize text more accurately and handle additional character layouts."
+  },
+  "02986cf94765cb6a": {
+    "label": "extended",
+    "reason": "Tag-based grouping covers 160 further resource types."
+  },
+  "02be69ccd502d8c1": {
+    "label": "extended",
+    "reason": "Existing document processing works in five further languages."
+  },
+  "0374f0e6b7c6deea": {
+    "label": "improved",
+    "reason": "Access to the same two models no longer requires manual activation."
+  },
+  "0444d1f455c85db7": {
+    "label": "improved",
+    "reason": "An existing outbound call workflow can connect to agents within a shorter interval while retaining classification."
+  },
+  "049ce5f25f7d428f": {
+    "label": "improved",
+    "reason": "The new interface simplifies adjustments to existing forecasts."
+  },
+  "04b76dcbb709bef2": {
+    "label": "new_capability",
+    "reason": "Procurement teams gain a PDF export for private agreement sharing and historical agreement retrieval."
+  },
+  "056b08c9eaf027d1": {
+    "label": "new_capability",
+    "reason": "Channels introduce restricted team collaboration spaces within an existing organizational community."
+  },
+  "057595fb7b7d7bb1": {
+    "label": "extended",
+    "reason": "The Multi-AZ deployment pattern reaches RDS Custom for Oracle."
+  },
+  "05dd893e896d6c4f": {
+    "label": "new_capability",
+    "reason": "Two newly callable spatial functions enable additional computations over existing H3 indexes."
+  },
+  "05e7c8c1fd0f6796": {
+    "label": "extended",
+    "reason": "The existing SFTP transfer operation supports another key-exchange algorithm."
+  },
+  "064388cd73a2bd8b": {
+    "label": "new_capability",
+    "reason": "Billing customers can configure automatic fallback payment when the primary method fails."
+  },
+  "067f87de27e725af": {
+    "label": "improved",
+    "reason": "The console makes an existing table-inspection task available without writing a query."
+  },
+  "0691ea1ade2648f6": {
+    "label": "improved",
+    "reason": "Preset application and identity configuration reduces deployment effort for the existing Storage Browser."
+  },
+  "0692fbbc25026604": {
+    "label": "new_capability",
+    "reason": "Users gain another emissions accounting method alongside the existing market-based reports."
+  },
+  "06ab7ea8aca983c7": {
+    "label": "extended",
+    "reason": "License management can use one shared directory across account boundaries."
+  },
+  "06c332f2dcae3fc4": {
+    "label": "extended",
+    "reason": "Bedrock adds two third-party models to its managed catalog."
+  },
+  "06e1db8c9032d555": {
+    "label": "new_capability",
+    "reason": "Pipeline stage conditions can invoke builds and commands as gates to run tests and roll back deployments."
+  },
+  "072037fd42aee8d5": {
+    "label": "new_capability",
+    "reason": "The new APIs provide managed session state and context across multi-step AI workflows."
+  },
+  "079a8aaccd5acde3": {
+    "label": "improved",
+    "reason": "Customers gain more precise compute and storage configuration for their existing build fleets."
+  },
+  "00060e19547f8226": {
+    "label": "improved",
+    "reason": "The same metrics can reach CloudWatch without provisioning and maintaining a collector."
+  },
+  "009d62686d650064": {
+    "label": "extended",
+    "reason": "Existing Transform agents are accessible from additional development environments."
+  },
+  "00a5876d6855427b": {
+    "label": "improved",
+    "reason": "Session policies narrow permissions per run without managing a role for every run."
+  },
+  "00b4ae056f4acdf6": {
+    "label": "improved",
+    "reason": "Users can run an existing precheck earlier and receive readiness information during patching."
+  },
+  "00c7e8cc6362b1ed": {
+    "label": "extended",
+    "reason": "Global Datastore becomes eligible for tagging already supported on other cache resources."
+  },
+  "00ffd54fffc409ab": {
+    "label": "improved",
+    "reason": "Existing user and group writes can reject stale revisions to prevent lost updates."
+  },
+  "00fff6345909cc14": {
+    "label": "new_capability",
+    "reason": "Kiro Powers now connects to Aurora MySQL and supplies database-specific guidance."
+  },
+  "016bf9988eac35f7": {
+    "label": "extended",
+    "reason": "HealthOmics workloads can reach shared subnets owned by other accounts."
+  },
+  "018afc802dbdeee1": {
+    "label": "new_capability",
+    "reason": "Managers can query operational data conversationally and receive recommendations."
+  },
+  "01e124a54a71c936": {
+    "label": "extended",
+    "reason": "Centralized identity access now spans domains deployed beyond the identity instance’s region."
+  },
+  "0230af99ecd8cf88": {
+    "label": "extended",
+    "reason": "Existing console subscription actions are exposed to API, CLI and infrastructure-as-code clients."
+  },
+  "0238b868f3992af0": {
+    "label": "new_capability",
+    "reason": "Customers can designate a shader capture session and delegate reuse and distribution to GameLift."
+  },
+  "023bdb219dc408dc": {
+    "label": "extended",
+    "reason": "JumpStart adds two external models to its deployment catalog."
+  },
+  "0259a7ab260cc3be": {
+    "label": "improved",
+    "reason": "Up to 50 existing cancellation or termination actions can be performed in one API call."
+  },
+  "0292797531de361f": {
+    "label": "extended",
+    "reason": "Existing global database provisioning and management becomes available via CloudFormation."
+  },
+  "02ef71206dbf1a5a": {
+    "label": "new_capability",
+    "reason": "Customers can run continuing autonomous analysis and remediation across their software portfolio."
+  },
+  "0307af77203727cb": {
+    "label": "new_capability",
+    "reason": "Agents can forward a contact to external email while keeping its history and ownership."
+  },
+  "034d38a183e97685": {
+    "label": "new_capability",
+    "reason": "Linked accounts can now share partner qualifications in addition to revenue attribution."
+  },
+  "03a3abab4dcfa6ec": {
+    "label": "improved",
+    "reason": "Teams can more precisely control who may view and edit existing custom metrics."
+  },
+  "03ccf23d0ad3014b": {
+    "label": "extended",
+    "reason": "The existing reinforcement tuning operation reaches 12 further models."
+  },
+  "03ed6b5e144359c6": {
+    "label": "improved",
+    "reason": "Organization setup gains a switch to omit account-access management."
+  },
+  "0412ffdaa50a2725": {
+    "label": "new_capability",
+    "reason": "The new AgentCore integration adds an agent reasoning action inside a workflow."
+  },
+  "044323ebe747a355": {
+    "label": "improved",
+    "reason": "Backend connections can now authenticate using a trusted CA-issued certificate in place of a self-signed one."
+  },
+  "04c1c9f0fe0aa6b5": {
+    "label": "improved",
+    "reason": "Derived source reduces the storage required to serve existing collection documents."
+  },
+  "04ceca3748f5a554": {
+    "label": "improved",
+    "reason": "New account settings tailor the services and regions shown to authorized console users."
+  },
+  "04e39adf569e36b3": {
+    "label": "new_capability",
+    "reason": "A migration can now include converting source applications into containers and deploying the result."
+  },
+  "050968ffdeddd457": {
+    "label": "improved",
+    "reason": "Customers can choose and manage their own keys for data already encrypted by default."
+  },
+  "0520be195b2efc6c": {
+    "label": "new_capability",
+    "reason": "Marketplace partners gain a branded catalog publishing and sales workflow within Marketplace."
+  },
+  "05250415724bf97d": {
+    "label": "new_capability",
+    "reason": "Cache users gain a managed metrics feed and integrated health dashboard in CloudWatch."
+  },
+  "05285637f4e34444": {
+    "label": "operational",
+    "reason": "AWS Brazil handles local selling, invoicing, tax and disbursement under a distribution program."
+  },
+  "05366ecf5a162a8e": {
+    "label": "improved",
+    "reason": "Existing metrics can now be broken down by additional customer dimensions."
+  },
+  "05f952a844e43b51": {
+    "label": "new_capability",
+    "reason": "Model customization gains a training method that rewards sequences across an agent task."
+  }
+}

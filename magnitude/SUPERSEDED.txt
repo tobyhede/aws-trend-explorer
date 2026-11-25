@@ -1,0 +1,3 @@
+These files measure customer consequences, including possible architecture changes. This measure was retired when the user clarified that scope must describe the AWS product change itself.
+
+Current ratings and exports are in ../product_change/. The current explorer reads product_change_level and its reason and basis. The old magnitude and architecture audit tables remain historical evidence. Their validation results do not establish accuracy of the revised product-change measure.

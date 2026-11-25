@@ -1,0 +1,97 @@
+{
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/": {
+    "rating": "3",
+    "workload": "Grok inference spanning regions",
+    "reason": "Bedrock explicitly assumes capacity routing across multiple regions, supporting a different deployment for workloads that previously managed model capacity region by region."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/": {
+    "rating": "3",
+    "workload": "agents paying external API providers",
+    "reason": "AgentCore orchestrates microtransactions between agent tools and external wallets, establishing an infrastructure-enforced payment path."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-openzfs-multi-az-vpcs/": {
+    "rating": "3",
+    "workload": "participant accounts deploying highly available OpenZFS shares",
+    "reason": "Multi-AZ storage can now reside inside centrally owned shared subnets instead of requiring a participant-owned VPC."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/05/cloudtrail-lake-event-enrichment-expanded-event-size/": {
+    "rating": "2",
+    "workload": "auditing AWS activity by application or principal",
+    "reason": "CloudTrail can attach contextual tags and keys at event capture, enabling a new step in creating application-specific reports."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-ecr-privatelink-fips-endpoints/": {
+    "rating": "3",
+    "workload": "regulated registry traffic in private subnets",
+    "reason": "PrivateLink makes a private VPC-to-ECR path available for FIPS-validated connections."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/": {
+    "rating": "3",
+    "workload": "genomic tasks that generate scratch data",
+    "reason": "Tasks can direct temporary reads and writes to dedicated local volumes, separate from shared run storage."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/": {
+    "rating": "2",
+    "workload": "authenticating Batch jobs on EKS",
+    "reason": "Batch creates and associates cluster access entries automatically when the operator enables the setting."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules/": {
+    "rating": "3",
+    "workload": "service-managed resource compliance evaluation",
+    "reason": "Service-linked rules deliver results directly to the consuming security service, independently of customer-managed recorders."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/04/aws-clean-rooms-spark-sql-aggregation-list-analysis-rules/": {
+    "rating": "2",
+    "workload": "existing collaborative Spark SQL analyses",
+    "reason": "Partners can update an existing collaboration to use Spark, removing the previous requirement to create another collaboration."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/10/marketplace-business-storefront/": {
+    "rating": "3",
+    "workload": "procurement teams using both AWS Marketplace and Amazon Business",
+    "reason": "A unified storefront consolidates catalog curation and approval rules across the two purchasing systems."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-quicksight-apache-impala-connector/": {
+    "rating": "3",
+    "workload": "QuickSight analytics on Impala data",
+    "reason": "The new native connector establishes a direct Impala-to-SPICE ingestion path."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/": {
+    "rating": "3",
+    "workload": "Outposts operators monitoring link aggregation",
+    "reason": "For LAG-status monitoring, CloudWatch can replace the external network monitoring tool previously needed to observe that signal."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/bedrock-model-import-openai-gpt-oss-models/": {
+    "rating": "3",
+    "workload": "hosting custom GPT OSS weights",
+    "reason": "Bedrock can serve the imported weights directly, eliminating customer-operated model serving for affected deployments."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-http-based-rabbitmq-brokers/": {
+    "rating": "3",
+    "workload": "RabbitMQ brokers with external identity infrastructure",
+    "reason": "The broker can delegate authentication and authorization checks to an HTTP server, changing the identity-check path."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/": {
+    "rating": "1",
+    "workload": "existing cross-AZ ECS services",
+    "reason": "Built-in routing prefers local healthy endpoints and adjusts weights in the same deployed service topology, with no additional infrastructure or application logic."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-opportunity-deal-sizing-tcv/": {
+    "rating": "2",
+    "workload": "partner sales teams submitting deal estimates",
+    "reason": "Partner Central converts contract value and duration into recurring revenue, removing a manual forecasting step."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/03/amazon-lex-confirmation-alphanumeric-slot-types-korean/": {
+    "rating": "2",
+    "workload": "Korean conversational interfaces",
+    "reason": "Built-in confirmation slots normalize Korean synonyms that developers previously encoded in custom slots."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2025/11/application-load-balancer-jwt-verification/": {
+    "rating": "3",
+    "workload": "service-to-service APIs behind an ALB",
+    "reason": "JWT verification moves from application code into a shared load-balancer layer."
+  },
+  "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-gres-hardware-topology-mig/": {
+    "rating": "2",
+    "workload": "Slurm administrators allocating GPU capacity",
+    "reason": "Administrators can partition GPUs into independently scheduled slices and let PCS discover their hardware topology."
+  }
+}

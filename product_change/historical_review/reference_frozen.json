@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-25",
+  "sample_size": 200,
+  "reference_sha256": "b5f0035d20bb2b5cfd0c7fb43d26b6cf44b326322b5789535ba40c2ef3c982ea",
+  "reference_tsv_sha256": "ded7e62131c1d3293d54b028820328d66c234b02bb5ed72b7d3190ec7c4c0a70",
+  "reader_c_sha256": "9a7d2259915594516d184b95d1a4e30fffc102812bef42d1b4c0435d5f283ee1",
+  "protocol_sha256": "259659192a7224c5ec4dbe8a247a4b78de08e370743f367723e3c1384df0f470",
+  "context_sha256": "a74c657972142e916c9e345a52a7a0def970847082192a33351e0ef9575bd447",
+  "adjudication_sha256": "981a3aae82a30cc884390a96da9daef264ee7df0b06884ed06606808c1f3f822",
+  "original_reference_sha256": "84525963a3db6ff4a653bc6bd5fafdec19673be30585c5343f145980c775524f",
+  "reference_type": "Blind AI source readings, adjudicated with official context. One contextual correction followed the first freeze during targeted review; both versions retained. Not human ground truth."
+}

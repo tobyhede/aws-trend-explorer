@@ -1,0 +1,108 @@
+0	4	Object Lambda inserts customer Lambda execution into S3 GET responses, introducing programmable read-time data transformation.	high
+1	5	Nimble Studio launches a distinct managed creative-production service with workstations, storage and rendering.	high
+2	5	Application Migration Service is explicitly a new AWS migration offering, replacing earlier CloudEndure/SMS choices with an integrated service.	high
+3	4	CloudFront Functions introduces a native lightweight JavaScript edge execution environment alongside Lambda@Edge.	high
+4	4	Incident Manager adds an incident-response subsystem with response plans, responder engagement, incident tracking and post-incident actions.	high
+5	4	The public extension registry adds publishing, discovery and activation infrastructure for third-party CloudFormation resources and modules.	medium
+6	5	MemoryDB is a distinct durable Redis-compatible primary database service, rather than another ElastiCache instance option.	high
+7	4	MSK Connect adds managed, automatically scaling Kafka Connect cluster execution and connector lifecycle management.	high
+8	4	Elastic fleets replace image and fleet-capacity management with on-demand application streaming from virtual hard disks.	high
+9	4	CloudWatch RUM adds a client-side real-user monitoring subsystem with sessions, browser errors, dashboards and backend trace correlation.	high
+10	4	Redshift Serverless introduces automatic warehouse capacity provisioning and scaling without customer-managed clusters.	high
+11	4	Canvas introduces an end-to-end visual no-code model-building and prediction environment within SageMaker.	medium
+12	5	Elastic Disaster Recovery is explicitly a distinct AWS service with replication, recovery drills, point-in-time recovery and failback.	high
+13	5	IoT ExpressLink is a distinct AWS connectivity-software offering delivered through partner modules, not a routine hardware refresh.	medium
+14	5	RoboRunner introduces a separately positioned robotics service with a shared robot-data repository and orchestration APIs.	high
+15	5	TwinMaker launches a distinct digital-twin service for connecting data, modeling relationships and composing interactive 3D scenes.	high
+16	4	Refactor Spaces adds managed multi-account refactoring environments and routing between existing applications and extracted microservices.	high
+17	5	Resilience Hub launches a distinct service for resilience targets, assessments, testing and portfolio tracking.	high
+18	4	VPC IPAM adds an address-management subsystem with address pools, allocation policies, tracking, utilization monitoring and history.	high
+19	4	CloudTrail Lake adds integrated immutable storage and SQL querying of audit events as a substantial CloudTrail subsystem.	high
+20	4	Interactive Sessions add interactive serverless execution for Glue development, with notebook authoring and conversion to scheduled jobs.	high
+21	4	Connect adds a workforce-planning subsystem linking demand forecasts, staffing capacity and individual agent schedules.	high
+22	4	Connect Cases introduces case lifecycle management, shared timelines, templates, tasks and case-aware self-service interactions.	high
+23	5	CodeWhisperer introduces a distinct developer-assistance service generating code recommendations and checking security and references.	high
+24	5	AWS Wickr launches a distinct encrypted enterprise communication service with administrative networks and retention controls.	high
+25	5	Amazon File Cache is a distinct managed cache service spanning on-premises and cloud file datasets in a unified namespace.	high
+26	4	Neptune Serverless adds automatic compute and memory provisioning and scaling as a new database operating mode.	high
+27	4	Internet Monitor adds continuous end-user network monitoring, health events, geographic views and routing recommendations to CloudWatch.	medium
+28	4	DocumentDB Elastic Clusters introduce customer-visible sharded collections and shard-based scaling, rather than only increasing throughput limits.	high
+29	4	HealthLake Imaging adds a medical-image storage and retrieval subsystem with cloud-native image APIs, positioned here as a HealthLake capability.	high
+30	5	Verified Permissions introduces a distinct application authorization service with Cedar policies, evaluation and permission management.	high
+31	5	Resource Explorer launches a separately positioned AWS resource-discovery offering with its own console and APIs.	medium
+32	5	VPC Lattice is positioned as a distinct managed application-networking service covering discovery, routing, authorization and monitoring.	high
+33	5	SimSpace Weaver introduces a distinct managed spatial-simulation compute service coordinating distributed simulation worlds.	high
+34	5	Verified Access launches a distinct policy-based remote application-access service without VPNs.	high
+35	4	KVS adds an edge execution and recording subsystem with a deployable agent, local video storage and configured cloud uploads.	high
+36	5	CodeCatalyst introduces a distinct integrated software-development service spanning projects, repositories, environments and CI/CD.	high
+37	5	Clean Rooms introduces a distinct privacy-preserving collaborative analytics service with participant controls and protected queries.	high
+38	5	User Notifications is explicitly a new centralized notification service with configurable event selection and delivery channels.	high
+39	3	Keyspaces gains a distinct managed active-active cross-region replication capability with conflict resolution.	medium
+40	5	Entity Resolution introduces a distinct service for matching and linking records across sources using configurable workflows.	high
+41	5	HealthScribe introduces a distinct clinical-documentation service turning consultation audio into referenced preliminary notes.	high
+42	2	Multi-session fleets add a configurable shared-instance session arrangement to existing AlwaysOn and OnDemand fleets.	medium
+43	4	Aurora Limitless introduces distributed relational transactions and queries through an automatically scaled serverless endpoint.	high
+44	4	Connect adds a managed analytics data-lake subsystem exposing deduplicated contact-center data for external analytics.	medium
+45	4	Neptune Analytics adds a separate analytics database engine and graph lifecycle with graph algorithms and vector similarity queries.	high
+46	2	Express One Zone adds a low-latency storage class, directory-bucket choice and AZ placement; the text does not establish a new programming model beyond these options.	medium
+47	4	InferenceComponents introduce independently resourced and scaled model deployments with automatic placement within shared inference endpoints.	medium
+48	5	WorkSpaces Thin Client introduces a distinct end-user device offering paired with remote device-management service capabilities.	high
+49	5	B2B Data Interchange launches a distinct EDI transformation service with partner relationships, mappings and workflow integration.	high
+50	4	CodeCatalyst adds an autonomous issue-to-pull-request execution workflow that plans, changes code, monitors builds and repairs failures.	medium
+51	4	Timestream adds a managed InfluxDB database-engine subsystem with instance lifecycle, native APIs and high-availability deployments.	medium
+52	5	Deadline Cloud launches a distinct managed render-farm service with rendering integrations and project cost management.	high
+53	4	The substantive addition is Q Apps: natural-language app creation, sharing and an administered app library; Q Business GA alone is not treated as a fresh service launch. Prior Q preview: https://aws.amazon.com/about-aws/whats-new/2023/11/aws-amazon-q-preview/	high
+54	3	Trace Analytics adds distributed-trace analysis to Elasticsearch log analytics through OpenTelemetry-compatible ingestion.	medium
+55	4	MediaTailor adds channel assembly as a new content-scheduling and virtual-linear-stream subsystem beyond ad insertion.	medium
+56	4	Kinesis Data Analytics Studio adds interactive serverless notebook execution and deployment of notebook code as stateful streaming applications.	medium
+57	5	App Runner launches a distinct fully managed container-web-application service building, deploying, scaling and monitoring applications.	high
+58	5	Application Cost Profiler launches a separately positioned service apportioning shared application resource costs by tenant.	high
+59	4	Lightsail adds an object-storage resource subsystem with buckets, access permissions, programmatic credentials and CDN association.	medium
+60	4	Asynchronous Inference adds queued request execution with S3 inputs and outputs, asynchronous completion and scale-to-zero endpoints.	high
+61	3	S3 Multi-Region Access Points introduce a global request-routing endpoint that selects replicated copies dynamically.	high
+62	3	Cloud Control API introduces a common cross-service CRUDL interface; the described change is unified resource management access rather than new underlying operations.	medium
+63	4	RDS Custom introduces a managed-database operating model allowing customer access to and customization of the underlying OS and database environment.	high
+64	4	Braket Hybrid Jobs introduce coordinated classical/quantum job execution with resource provisioning, QPU priority and managed job lifecycle.	high
+65	4	Inspector changes to continuous automatic workload discovery and vulnerability assessment, a new operating model beyond its internal rearchitecture.	medium
+66	4	MSK Serverless introduces automatically provisioned and scaled Kafka capacity without customer-managed brokers.	high
+67	3	Managed RStudio adds a distinct IDE interface and integration to SageMaker while retaining its existing managed development environment role.	medium
+68	5	WorkSpaces Web is a distinct managed secure-browser offering with its own portal provisioning, browser isolation and service positioning.	medium
+69	5	IoT FleetWise introduces a distinct vehicle-data collection service with vehicle modeling, edge decoding and collection campaigns.	high
+70	5	Private 5G introduces a distinct managed private-mobile-network service including delivered hardware, software and network operation.	high
+71	5	Studio Lab is a separately accessible no-configuration notebook service with its own account registration, not merely educational material.	medium
+72	5	Cloud WAN introduces a distinct managed global-network service driven by centralized network policies.	high
+73	4	IVS Chat adds a chat-room and messaging subsystem with resource lifecycle and moderation, alongside video streaming.	high
+74	NA	GA describes the same notebook authoring and Interactive Sessions already introduced in preview, with no explicit functional delta; prior source: https://aws.amazon.com/about-aws/whats-new/2022/01/aws-glue-interactive-sessions-job-notebooks/	medium
+75	4	Migration Hub Orchestrator adds customizable executable migration workflows, dependency handling and progress tracking.	medium
+76	3	Neptune Global Database adds cross-region replication and secondary promotion as a distinct database capability.	medium
+77	5	Incident Detection and Response is a separately positioned managed monitoring and incident-response offering delivered by AWS engineers.	medium
+78	4	Athena adds interactive serverless Spark application execution and PySpark notebooks alongside its SQL query model.	high
+79	3	RDS Blue/Green Deployments add a managed staging-and-switchover operation for database updates.	high
+80	2	Redshift adds a multi-AZ deployment option with automatic recovery and workload distribution while retaining the same warehouse endpoint and application model.	medium
+81	5	Security Lake introduces a distinct security-data service collecting, normalizing and managing customer-owned security lakes.	high
+82	4	Glue Data Quality adds a rules-based quality subsystem spanning recommendations, evaluation, monitoring and ETL quality gates.	medium
+83	4	External Key Store introduces externally controlled key custody and authorization into KMS cryptographic operations.	medium
+84	4	EventBridge Pipes adds a point-to-point event-processing subsystem with source consumption, filtering, enrichment and delivery beyond event buses.	high
+85	5	Modular Data Center is a distinct managed physical-deployment offering for infrastructure-limited locations, not a routine server configuration.	high
+86	3	Chime SDK adds call-analysis operations including speaker search and voice-tone analysis with transcription integrations.	medium
+87	2	Multi-AZ with Standby adds a standby/failover deployment option to existing managed OpenSearch clusters.	high
+88	4	FinSpace adds managed kdb application execution and lifecycle management as a substantial analytics-engine subsystem.	medium
+89	NA	GA repeats the edge recording, agent deployment and scheduled uploading already offered in preview; stated changes are availability and stage, not functionality; prior source: https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-kinesis-video-streams-edge-recording-scheduled-cloud-streaming-preview/	high
+90	5	AppFabric launches a distinct SaaS-application integration and audit-log normalization service; future generative AI promises are not counted.	high
+91	4	DMS adds serverless homogeneous migration execution using native tools without replication-instance management.	medium
+92	5	Payment Cryptography introduces a distinct payments-specific cryptographic and key-management service replacing customer-operated payment HSMs.	high
+93	3	Feature Store adds a managed data-to-feature transformation operation that builds and schedules the supporting pipelines.	medium
+94	4	DMS Serverless introduces automatic migration-capacity provisioning and scaling rather than customer-managed replication resources.	high
+95	4	IVS Real-Time Streaming introduces interactive stage-based host/viewer participation and role promotion, beyond a latency improvement alone.	medium
+96	2	EMR on EKS adds Apache Flink as an additional supported framework and lifecycle-management target within its existing Kubernetes deployment model.	medium
+97	3	The pgactive integration enables a distinct active-active replication capability with writer synchronization and conflict resolution.	medium
+98	5	Amazon Q expert capabilities form the inaugural developer-assistant offering, including IDE assistance, code transformation and AWS operational guidance.	medium
+99	3	The Group Replication integration newly enables active-active RDS MySQL clusters with conflict handling.	medium
+100	5	Amazon Q introduces a distinct enterprise assistant offering spanning company knowledge, actions and developer assistance.	high
+101	4	AppFabric for productivity adds a cross-application generative-AI subsystem exposing contextual insights and actions to embedded application experiences.	medium
+102	4	Clean Rooms ML adds collaborative model training and inference with protected partner data, extending the product into a new ML execution model.	high
+103	2	Countdown replaces existing IEM and adds a premium support tier with designated engineers and continuity; the text supports an expanded support option rather than a genuinely new product.	medium
+104	5	PartyRock launches a distinct standalone generative-AI app-building playground with its own web interface, sharing and account experience.	medium
+105	4	CodeCatalyst adds a managed package-repository subsystem for storage, publication, upstream access and package-origin controls.	medium
+106	4	Reserved capacity introduces persistent customer-provisioned build-host fleets, a new operating mode beyond ephemeral build allocation.	medium
+107	4	Supply Chain N-Tier Visibility adds a partner-collaboration subsystem for onboarding, sharing orders and forecasts, and tracking supplier responses.	medium

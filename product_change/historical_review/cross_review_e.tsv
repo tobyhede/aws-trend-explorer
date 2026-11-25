@@ -1,0 +1,33 @@
+0	4	Mail Manager introduces a coherent SES email gateway subsystem with ingress endpoints, traffic policies, a routing rules engine and archiving; this is more than another email delivery option.	high
+1	4	Prompt Flows introduces visual composition, testing and deployment of workflows connecting prompts, knowledge bases and Lambda, a new workflow programming model within Bedrock.	high
+2	5	AWS PCS is explicitly a new managed HPC service with its own cluster provisioning interfaces and managed Slurm scheduler, establishing a distinct AWS offering.	high
+3	4	MediaLive Anywhere moves the encoding engine onto customer-managed hardware while retaining AWS configuration and control, establishing a hybrid operating model rather than just another input target.	high
+4	U	Containerized game-server execution, on-premises/cloud deployment and isolated packing were already described in the preview; Graviton, Spot and five-minute updates are not clearly identified as new GA deltas. Prior: https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-gamelift-containers-support-preview/	medium
+5	4	Custom modeling lets collaborators bring proprietary models for both training and inference with jointly approved datasets, introducing a programmable ML execution subsystem beyond AWS-authored lookalike modeling.	high
+6	5	Aurora DSQL is positioned as a new distributed SQL database with its own console/API and serverless active-active operation, a distinct database offering despite the Aurora brand.	high
+7	4	Multi-agent collaboration introduces coordinated execution of specialized agents, including parallel roles, as a new agent orchestration model within Bedrock.	medium
+8	4	EKS Auto Mode changes who operates worker infrastructure: AWS provisions, secures, patches, upgrades and scales compute with integrated networking and storage management.	high
+9	5	Amazon EVS is explicitly a new native AWS service for deploying VMware Cloud Foundation inside a VPC, with its own product positioning.	high
+10	4	FSx Intelligent-Tiering introduces automatically elastic NAS storage that no longer requires storage provisioning plus automatic tier management, a substantive storage operating model beyond price reduction.	medium
+11	4	VMware transformation adds a migration subsystem spanning discovery, wave planning, network translation/deployment and overall orchestration with human checkpoints.	high
+12	4	S3 Metadata introduces continuously maintained queryable object-metadata tables, with automatic capture and refresh as objects change, constituting a managed metadata subsystem.	medium
+13	4	SageMaker Lakehouse provides a unified data access and governance subsystem across S3 and Redshift using Iceberg, including RMS-backed lakes and consistently applied permissions.	high
+14	5	Data Transfer Terminal launches a distinct reservable physical-facility service for direct high-throughput AWS uploads, with its own product and reservation experience.	high
+15	3	MemoryDB Multi-Region introduces managed active-active cross-region replication with conflict reconciliation and regional-cluster membership; the described delta is a distinct replication capability rather than a new execution model.	medium
+16	4	Unified Studio establishes a shared development environment with projects, cross-compute notebooks, SQL editing and integrated data/AI authoring, a substantial SageMaker development subsystem.	high
+17	4	GameLift container preview introduces packaged runtime execution and multiple isolated servers per host with container deployment and scaling, a new game-server execution model.	high
+18	4	Managed MLflow adds hosted tracking-server lifecycle, IAM access and experiment/model governance integration, a managed ML experiment subsystem within SageMaker.	medium
+19	4	WorkSpaces Pools changes desktops from per-user persistent assignments to autoscaled shared pools with fresh desktops per login, a new desktop operating model.	high
+20	4	Agent code interpretation supplies a secure runtime for dynamically generated code and iterative execution, introducing a code-execution model to Bedrock agents.	medium
+21	5	App Studio is introduced as a separately positioned AI application-building service that generates, deploys and operates business applications, with its own usage pricing.	high
+22	4	Neuron Kernel Interface exposes custom compute-kernel programming on Trainium and Inferentia, a new low-level programming model; bundled model and framework additions do not drive the rating.	high
+23	3	DocumentDB Global Clusters adds cross-region storage replication and promotion of secondary clusters, a distinct disaster-recovery operation rather than a new database execution model.	medium
+24	2	RDS adds an alternative Multi-AZ topology with two readable standbys and read endpoints; reads, replication and automatic failover already exist, so this is a deployment option.	high
+25	2	MemoryDB data tiering adds a memory-plus-SSD storage option with transparent item movement selected through R6gd nodes; it retains existing database operations and execution semantics.	medium
+26	1	Aurora Optimized Reads changes temporary storage and caching internally to improve existing query performance, selected via new instance types without a distinct user operation.	high
+27	4	Oracle Multitenant changes an RDS instance into a container database hosting separately pluggable databases with creation and migration paths, a substantive database tenancy operating model.	medium
+28	3	Keyspaces Multi-Region Replication adds active-active regional replication with automated conflict and divergence handling, a distinct replication capability without evidence of a new query engine or broader subsystem.	medium
+29	3	S3 Express One Zone introduces directory-bucket resources with explicit AZ placement and import workflows; source evidence supports a distinct storage interface, while faster internal hardware alone does not establish a subsystem.	medium
+30	3	Neptune Global Database adds cross-region storage replication and promotion of a secondary region to read/write service, a distinct recovery capability rather than a new graph execution model.	medium
+31	2	Redshift Multi-AZ adds a warehouse deployment option that distributes work across AZs with automatic recovery behind the same endpoint; the source establishes topology and resilience changes, not a new programming model.	high
+32	4	EMR on EKS gains the Flink stream-processing engine and operator-mediated application lifecycle, a new execution model rather than a routine runtime version or extra target.	high

@@ -1,0 +1,1402 @@
+[
+  {
+    "index": 0,
+    "level": "2",
+    "reason": "Adds water withdrawal metrics to existing sustainability reporting. Second reader: Adds water-withdrawal measurements to existing sustainability reporting.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 1,
+    "level": "2",
+    "reason": "Account control chooses default blocking mode with task override. Second reader: Adds account-level control over the default blocking log-driver mode.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 2,
+    "level": "2",
+    "reason": "Adds authentication redirection and OS architecture compatibility options. Second reader: Adds authentication and platform compatibility plus keyboard options.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 3,
+    "level": "3",
+    "reason": "Adds AI guidance and troubleshooting interface within GameLift console. Second reader: Introduces an AI assistance interface for GameLift configuration and troubleshooting.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 4,
+    "level": "2",
+    "reason": "Adds immediate cancellation option to existing refresh cancellation. Second reader: Adds immediate-force option to existing instance-refresh cancellation.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 5,
+    "level": "2",
+    "reason": "Extends Multi-AZ operation to SQL Server Developer Edition. Second reader: Extends existing Multi-AZ deployment capability to Developer Edition.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 6,
+    "level": "2",
+    "reason": "Exposes node tuning controls through existing Auto Mode NodeClass. Second reader: Exposes node tuning controls through the existing NodeClass resource.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 7,
+    "level": "NA",
+    "reason": "Capacity Blocks expansion to GovCloud regions only. Second reader: Existing Capacity Blocks expand to GovCloud regions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 8,
+    "level": "2",
+    "reason": "Adds ML-DSA algorithm choice to existing CA and certificate operations. Second reader: Adds ML-DSA algorithm compatibility to existing CA and certificate operations.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 9,
+    "level": "NA",
+    "reason": "SMS sending expands to additional regions. Second reader: Existing SNS SMS capability expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 10,
+    "level": "3",
+    "reason": "Introduces programmatic interface for configuring and running voice simulation tests. Second reader: Adds a programmable interface for configuring and executing simulated voice tests.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 11,
+    "level": "2",
+    "reason": "Adds network restriction policy controls for console sign-in. Second reader: Adds network-based sign-in policy controls.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 12,
+    "level": "NA",
+    "reason": "Existing WorkSpaces offering expands into five regions. Second reader: Existing WorkSpaces Core Managed Instances expand to five regions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 13,
+    "level": "3",
+    "reason": "GA delta explicitly includes AI chat querying of generated documentation and new import/export operations. Second reader: Explicit GA delta includes documentation-query chat and file import/export operations.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 14,
+    "level": "2",
+    "reason": "Extends existing AI metadata generation to custom structured assets. Second reader: Extends existing AI metadata recommendations to custom assets.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 15,
+    "level": "2",
+    "reason": "Adds S3 and Firehose destinations for existing log delivery. Second reader: Adds S3 and Firehose destinations to existing log delivery.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 16,
+    "level": "1",
+    "reason": "Adds Voxtral model to existing JumpStart model catalog. Second reader: Adds Voxtral model to the existing JumpStart catalog.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 17,
+    "level": "2",
+    "reason": "Adds IPv6 dual-stack and private connectivity options. Second reader: Adds IPv6 protocol and private endpoint connectivity options.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 18,
+    "level": "2",
+    "reason": "Extends spend anomaly monitoring to third-party Bedrock model costs. Second reader: Extends existing cost anomaly monitoring to third-party Bedrock model spend.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 19,
+    "level": "1",
+    "reason": "Adds X2m instance family to RDS SQL Server catalog. Second reader: Adds X2m hardware choices to RDS SQL Server.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 20,
+    "level": "NA",
+    "reason": "Announces open sourcing existing pgactive extension rather than a new product capability. Second reader: Announces open sourcing of pgactive without establishing a new functional delta.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 21,
+    "level": "2",
+    "reason": "Automatically scales replication storage beyond previously fixed allocation. Second reader: Adds automatic storage scaling behavior to existing DMS replication.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 22,
+    "level": "3",
+    "reason": "Introduces visual workflow authoring and debugging interface inside VS Code. Second reader: Introduces local visual workflow authoring and debugging interface in VS Code.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 23,
+    "level": "NA",
+    "reason": "AWS Backup regional availability only. Second reader: Existing Backup service expands to Thailand.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 24,
+    "level": "2",
+    "reason": "Adds CodeBuild and shell-command choices for existing stage condition gates. Second reader: Adds CodeBuild and shell-command rule options to existing stage gates.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 25,
+    "level": "NA",
+    "reason": "Existing C8gn instances expand to Milan and Hong Kong. Second reader: Existing C8gn instance family expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 26,
+    "level": "2",
+    "reason": "Adds abandonment pacing controls and metrics to predictive dialing. Second reader: Adds abandonment-target controls and associated predictive-dialing metrics.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 27,
+    "level": "2",
+    "reason": "Bulk series metadata retrieval extends existing instance retrieval. Second reader: Adds bulk series-level variant of existing DICOM metadata retrieval.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 28,
+    "level": "2",
+    "reason": "Extends IPv6 networking compatibility to additional traffic and endpoints. Second reader: Extends IPv6 networking options to private and outbound traffic.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 29,
+    "level": "1",
+    "reason": "Adds routine extended-support MySQL minor releases. Second reader: Adds routine MySQL Extended Support minor runtime versions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 30,
+    "level": "2",
+    "reason": "Allows existing customer-managed secret references as credential provider option. Second reader: Allows customer-owned Secrets Manager secrets in existing credential providers.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 31,
+    "level": "NA",
+    "reason": "M7g regional expansion only. Second reader: Existing M7g instances expand geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 32,
+    "level": "2",
+    "reason": "Automates existing topic creation for Kafka Streams on Express Brokers. Second reader: Adds automatic topic creation option for existing Kafka Streams deployments.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 33,
+    "level": "2",
+    "reason": "Adds framework compatibility and expert parallelism distribution options to existing SDK. Second reader: Adds expert-parallel distribution and profiler grouping options alongside version support.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 34,
+    "level": "NA",
+    "reason": "M7i availability in Secret Region only. Second reader: Existing M7i instances expand to Secret Region.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 35,
+    "level": "NA",
+    "reason": "I7i availability expands to GovCloud. Second reader: Existing I7i instances expand to GovCloud.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 36,
+    "level": "2",
+    "reason": "Adds per-statement cluster performance metric to CloudWatch monitoring. Second reader: Adds per-statement performance measurements consumable by existing monitoring tools.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 37,
+    "level": "NA",
+    "reason": "R7g expands to additional regions. Second reader: Existing R7g instances expand geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 38,
+    "level": "NA",
+    "reason": "Only expands availability of existing M8g instances to four regions; processor and size descriptions are background.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 39,
+    "level": "1",
+    "reason": "Routine SQL Server security update versions for RDS Custom. Second reader: Adds routine SQL Server security update versions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 40,
+    "level": "3",
+    "reason": "Adds continuous table replication with backfill and synchronized read-only replicas. Second reader: Introduces automated Iceberg table replication and replica synchronization.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 41,
+    "level": "NA",
+    "reason": "I8g instances expand to GovCloud regions. Second reader: Existing I8g instances expand to GovCloud.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 42,
+    "level": "1",
+    "reason": "Adds routine MySQL minor engine versions. Second reader: Adds routine MySQL minor runtime versions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 43,
+    "level": "2",
+    "reason": "Adds AL2023 deployment compatibility and optional network/domain configuration. Second reader: Adds deployment compatibility and private activation configuration to Terraform modules.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 44,
+    "level": "2",
+    "reason": "Adds IPv6-only and dual-stack connectivity options. Second reader: Adds IPv6 and dual-stack network choices for existing EMR jobs.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 45,
+    "level": "1",
+    "reason": "Raises result and export size limit from 5MB to 100MB. Second reader: Raises result and export limits from 5MB or 100000 rows to 100MB without row limit.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 46,
+    "level": "3",
+    "reason": "Adds network flow monitoring visualizations and troubleshooting integration for EKS. Second reader: Introduces network-flow monitoring and troubleshooting visualizations within EKS.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 47,
+    "level": "2",
+    "reason": "Adds Kiro as a remote IDE target for existing SageMaker compute. Second reader: Adds Kiro as a remote IDE connection option for existing Studio compute.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 48,
+    "level": "NA",
+    "reason": "Existing high-memory instance sizes expand to additional regions. Second reader: Existing U7i instance variants expand geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 49,
+    "level": "2",
+    "reason": "Adds ECR registries as upstream targets for existing pull-through caching. Second reader: Adds private ECR registries as upstream targets for existing pull-through caching.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 50,
+    "level": "2",
+    "reason": "Extends existing certificate-based authentication to Windows multi-session fleets as an authentication compatibility option.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 51,
+    "level": "2",
+    "reason": "Adds IPv6 address options for existing S3 VPC endpoints. Second reader: Adds IPv6 endpoint connectivity choices for S3.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 52,
+    "level": "2",
+    "reason": "Adds WebAuthn authentication redirection compatibility for remote browsing. Second reader: Adds WebAuthn authentication protocol compatibility to remote browser sessions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 53,
+    "level": "NA",
+    "reason": "Athena availability in Taipei only. Second reader: Existing Athena service expands to Taipei.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 54,
+    "level": "1",
+    "reason": "Adds P6-B200 hardware to existing SageMaker notebook environments, with increased GPU memory and performance.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 55,
+    "level": "2",
+    "reason": "Adds private network access option for Resource Groups APIs. Second reader: Adds private network access to existing Resource Groups APIs.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 56,
+    "level": "2",
+    "reason": "Approval requests, approver groups and approve/deny steps implement a policy gate on existing asset sharing. The source presents governance controls, so level 2 is better supported than treating each approval step as a distinct product operation.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 57,
+    "level": "1",
+    "reason": "Adds X8aedz hardware family to EC2 memory-optimized catalog. Second reader: Adds X8aedz hardware family to the EC2 catalog.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 58,
+    "level": "2",
+    "reason": "Adds CloudFormation management support for existing quick responses. Second reader: Extends CloudFormation resource coverage to quick responses.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 59,
+    "level": "NA",
+    "reason": "R8i and R8i-flex expand to GovCloud East. Second reader: Existing R8i and R8i-flex instances expand to GovCloud East.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 60,
+    "level": "NA",
+    "reason": "Existing EVS service expands to Seoul Zurich and Stockholm. Second reader: Existing EVS service expands to three regions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 61,
+    "level": "1",
+    "reason": "Improves existing S3 Batch Operations execution performance up to tenfold. Second reader: Accelerates existing S3 Batch Operations jobs up to tenfold.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 62,
+    "level": "2",
+    "reason": "Adds automatic email notification action and rules to existing evaluations. Second reader: Adds email notification actions and conditions for existing evaluations.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 63,
+    "level": "2",
+    "reason": "Extends existing Enhanced transfer mode to on-premises file server targets. Second reader: Extends existing Enhanced transfer mode to on-premises NFS and SMB sources.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 64,
+    "level": "NA",
+    "reason": "Service maintenance sunset and end-of-support changes only. Second reader: Announces maintenance, sunset, and end-of-support lifecycle changes.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 65,
+    "level": "3",
+    "reason": "Introduces consolidated Cluster Insights troubleshooting dashboard with remediation guidance. Second reader: Introduces consolidated cluster troubleshooting dashboard with remediation guidance.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 66,
+    "level": "NA",
+    "reason": "Existing inventory ACL reporting expands to GovCloud. Second reader: Existing inventory ACL metadata expands to GovCloud.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 67,
+    "level": "1",
+    "reason": "Adds five Qwen models to JumpStart catalog. Second reader: Adds five Qwen models to the JumpStart catalog.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 68,
+    "level": "NA",
+    "reason": "Existing C8i instances expand to London. Second reader: Existing C8i instances expand to London.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 69,
+    "level": "NA",
+    "reason": "Existing Glue 5.1 release expands to remaining regions. Second reader: Existing Glue 5.1 release expands to additional regions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 70,
+    "level": "NA",
+    "reason": "Data Firehose expands to Thailand and Mexico. Second reader: Existing Firehose service expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 71,
+    "level": "3",
+    "reason": "Adds key encapsulation and decapsulation to establish a shared secret using ML-KEM, distinct cryptographic operations beyond an algorithm parameter.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 72,
+    "level": "1",
+    "reason": "Routine CU and GDR engine version additions. Second reader: Adds routine SQL Server CU and GDR runtime updates.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 73,
+    "level": "2",
+    "reason": "Adds namespace volume and annotation configuration controls to Batch jobs. Second reader: Adds namespace, volume, subpath, and annotation controls for Batch EKS jobs.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 74,
+    "level": "NA",
+    "reason": "C8g regional expansion only. Second reader: Existing C8g instances expand geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 75,
+    "level": "3",
+    "reason": "Introduces MCP interface with tools for LZA configuration and pipeline management. Second reader: Introduces an MCP interface exposing LZA configuration and troubleshooting tools.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 76,
+    "level": "NA",
+    "reason": "Amazon Quick expands to Frankfurt. Second reader: Existing Quick capabilities expand to Frankfurt.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 77,
+    "level": "1",
+    "reason": "Changes default lifecycle behavior to pause actions after replication failure. Second reader: Changes default lifecycle behavior to pause on failed replication.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 78,
+    "level": "1",
+    "reason": "Adds PostgreSQL 19 Beta 3 engine version to preview catalog. Second reader: Adds PostgreSQL 19 Beta 3 to the existing database preview runtime catalog.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 79,
+    "level": "NA",
+    "reason": "WAF expands to Thailand and Mexico. Second reader: Existing WAF service expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 80,
+    "level": "2",
+    "reason": "Adds forced termination option for stuck instances. Second reader: Adds forced-shutdown variant of existing EC2 termination.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 81,
+    "level": "2",
+    "reason": "The release explicitly adds database-scoped ACLs and atomic or cluster-wide command variants. These are substantive controls and operation variants beyond the runtime-version catalog addition; internal I/O redesign does not establish a new customer execution model.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 82,
+    "level": "U",
+    "reason": "The source calls quota monitoring and notifications a new capability but announces GA without establishing a pre-GA baseline or substantive GA delta. Level 3 could describe the full capability, but the supplied evidence cannot support that as the GA change.",
+    "confidence": "low",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 83,
+    "level": "3",
+    "reason": "Introduces conversational MCP interface for SiteWise modeling. Second reader: Introduces conversational MCP interface to SiteWise modeling operations.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 84,
+    "level": "NA",
+    "reason": "Existing Direct Connect capabilities expand at Bogota location. Second reader: Existing connection speeds and encryption expand at Bogota location.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 85,
+    "level": "2",
+    "reason": "Extends persistent chat continuity to linked regions through existing global routing. Second reader: Extends persistent conversation continuity across linked resiliency regions.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 86,
+    "level": "2",
+    "reason": "Adds Teradata as supported linked-server database target. Second reader: Adds Teradata as a target for existing linked-server queries.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 87,
+    "level": "NA",
+    "reason": "Amazon Quick regional expansion to London. Second reader: Existing Quick service expands to London.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 88,
+    "level": "1",
+    "reason": "Improves automatic sign-in resiliency with unchanged sign-in operation. Second reader: Improves root sign-in resiliency through automatic multiregion routing.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 89,
+    "level": "2",
+    "reason": "Extends native TDE restore to Multi-AZ and read-replica configurations. Second reader: Extends existing encrypted restore operation to Multi-AZ and replica configurations.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 90,
+    "level": "2",
+    "reason": "Adds five resource targets to existing Config monitoring. Second reader: Adds five resource targets to existing Config monitoring.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 91,
+    "level": "2",
+    "reason": "The model launch explicitly adds tool search, tool-use examples and an effort control through existing Bedrock model access. These justify more than a routine model addition, but the text does not establish a separately invocable discovery operation or distinct interface; level 2 is better supported than level 3.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 92,
+    "level": "U",
+    "reason": "The text describes the GA Identity Pools L2 construct and its configuration features without identifying a substantive change from prior availability. No GA delta can be established from this source.",
+    "confidence": "low",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 93,
+    "level": "2",
+    "reason": "Adds nine resource types to existing Config coverage. Second reader: Adds nine resource targets to existing Config monitoring.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 94,
+    "level": "2",
+    "reason": "Changes supported SDK dependency and client integration compatibility. Second reader: Changes supported Java SDK integration and namespaces for DynamoDB local.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 95,
+    "level": "1",
+    "reason": "Adds Palmyra models to existing Bedrock serverless model catalog. Second reader: Adds Palmyra X5 and X4 models to existing Bedrock catalog.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 96,
+    "level": "2",
+    "reason": "Adds synchronous feedback and placement override variant of existing ASG instance launch operation. Second reader: Adds synchronous placement and retry variant of existing ASG instance provisioning.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 97,
+    "level": "1",
+    "reason": "The concrete addition is the Java 21 canary runtime in the existing synthetic-monitoring service. Language compatibility is a plausible level-2 reading, but the rubric explicitly places runtime additions within an existing capability at level 1, and the text establishes no separate operation.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 98,
+    "level": "2",
+    "reason": "Adds private networking connectivity option to RabbitMQ brokers. Second reader: Adds private networking option for existing RabbitMQ broker connections.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 99,
+    "level": "2",
+    "reason": "Adds interval-level granularity and inputs to existing capacity planning. Second reader: Adds interval-granularity inputs and outputs for existing capacity plans.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 100,
+    "level": "2",
+    "reason": "Beyond adding Airflow 3.2, the source expressly adds partition-level scheduling controls and extends existing HITL, callback and PythonOperator options. Mixed-change rules therefore favor level 2 over a blanket runtime-addition level 1.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 101,
+    "level": "2",
+    "reason": "Adds private endpoint connectivity to the existing SCEP certificate-request operation.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 102,
+    "level": "NA",
+    "reason": "HIPAA eligibility changes compliance status without an announced product capability change.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 103,
+    "level": "1",
+    "reason": "Adds Haiku 5.5 model with effort parameter to existing model access offerings. Second reader: Adds Haiku 5.5 model to existing AWS access offerings.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 104,
+    "level": "3",
+    "reason": "Introduces S3 Tables MCP interface for natural-language table operations. Second reader: Introduces MCP natural-language interface for S3 table operations.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 105,
+    "level": "NA",
+    "reason": "New architectural guidance lens and educational content. Second reader: Provides architecture guidance through a new Well-Architected lens.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 106,
+    "level": "2",
+    "reason": "Extends existing index creation to NUMERIC columns. Second reader: Extends existing index creation to NUMERIC columns.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 107,
+    "level": "NA",
+    "reason": "U7i 12TB regional expansion to Zurich. Second reader: Existing U7i hardware expands to Zurich.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 108,
+    "level": "NA",
+    "reason": "Aurora R8g availability expands to GovCloud West. Second reader: Existing Aurora R8g hardware expands to GovCloud West.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 109,
+    "level": "NA",
+    "reason": "Network Firewall regional expansion only. Second reader: Existing Network Firewall service expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 110,
+    "level": "NA",
+    "reason": "Only removes charges and expands NAT Gateway discounts. Second reader: Changes Network Firewall and chained NAT pricing only.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 111,
+    "level": "U",
+    "reason": "The source lists Query Studio querying, visualization and import capabilities at GA but does not identify what changed from pre-GA availability. The whole workspace cannot establish the substantive GA delta.",
+    "confidence": "low",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 112,
+    "level": "NA",
+    "reason": "X2idn availability expands to Hong Kong. Second reader: Existing X2idn hardware expands to Hong Kong.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 113,
+    "level": "NA",
+    "reason": "Existing Redshift RG instances expand to GovCloud. Second reader: Existing Redshift RG hardware expands to GovCloud.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 114,
+    "level": "2",
+    "reason": "Adds CQL function contexts and Duration type compatibility. Second reader: Adds Cassandra-compatible data type and query-function contexts.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 115,
+    "level": "2",
+    "reason": "Adds granular Bedrock operation dimensions to existing cost reporting. Second reader: Adds operation-level detail to existing Bedrock cost reports.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 116,
+    "level": "NA",
+    "reason": "Launches a community and learning portal with articles, courses, events and feedback rather than a cloud product capability.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 117,
+    "level": "2",
+    "reason": "Adds visibility of managed dedicated IPs and SNDS metrics through existing SES and CloudWatch interfaces.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 118,
+    "level": "NA",
+    "reason": "CloudWatch RUM expands to two regions. Second reader: Existing RUM capability expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 119,
+    "level": "NA",
+    "reason": "Existing 4-RPU capacity option expands to seven regions. Second reader: Existing 4-RPU configuration expands to seven additional regions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 120,
+    "level": "1",
+    "reason": "Raises worker-node cluster limit to 100000. Second reader: Raises EKS cluster worker-node scale limit to 100000.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 121,
+    "level": "3",
+    "reason": "Introduces agent toolkit natural-language interface to OpenSearch operations. Second reader: Adds agent-facing MCP and curated skill interface for OpenSearch management.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 122,
+    "level": "2",
+    "reason": "Extends existing concurrency scaling to auto-copy ingestion, a new target for an existing scaling capability.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 123,
+    "level": "NA",
+    "reason": "Gemma model availability in GovCloud West is regional scope. Second reader: Existing Gemma 4 models expand to GovCloud West.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 124,
+    "level": "NA",
+    "reason": "P6-B200 expands to Virginia. Second reader: Existing P6-B200 hardware expands to Virginia.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 125,
+    "level": "2",
+    "reason": "Expands context mocking and validation controls in existing resolver testing APIs. Second reader: Extends existing resolver-test mocks to all context properties.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 126,
+    "level": "2",
+    "reason": "Adds managed Health notifications as source for existing mobile push and inbox. Second reader: Adds managed Health notifications to existing mobile notification channels.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 127,
+    "level": "3",
+    "reason": "Introduces citation-backed compliance question answering and questionnaire processing. Second reader: Introduces AI compliance-question answering and questionnaire processing operations.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 128,
+    "level": "2",
+    "reason": "Extends existing discovery posture and vulnerability monitoring to Azure resources. Second reader: Extends existing security discovery, assessment, and response to Azure resources.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 129,
+    "level": "1",
+    "reason": "Adds routine language runtime versions and bundled build tools. Second reader: Adds routine build runtime versions and bundled tools.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 130,
+    "level": "2",
+    "reason": "Adds Lambda event-source mappings as orchestration targets for existing failover plans. Second reader: Adds Lambda event mappings as targets of existing failover orchestration.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 131,
+    "level": "2",
+    "reason": "Adds customer-managed encryption key control. Second reader: Adds customer-managed encryption key choice to Quick Research.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 132,
+    "level": "3",
+    "reason": "Introduces managed aggregation of data events into templated five-minute summaries. Second reader: Introduces automatic data-event aggregation into analytical summaries.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 133,
+    "level": "3",
+    "reason": "Introduces server-side programmatic MQTT disconnection by client ID. Second reader: Introduces explicit server-side MQTT client disconnection operation.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 134,
+    "level": "4",
+    "reason": "The source describes a shared, persistent channel agent with its own identity, retained channel context and future task planning. Those combined features support a new operating model within Claude Enterprise, beyond merely a new Slack interaction interface; it is not positioned as a distinct AWS offering.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 135,
+    "level": "NA",
+    "reason": "SageMaker AI expands to Taipei. Second reader: Existing SageMaker AI service expands to Taipei.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 136,
+    "level": "2",
+    "reason": "Extends existing multistage threat detection to EC2 and ECS resources. Second reader: Extends existing attack-sequence detection to EC2 and ECS.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 137,
+    "level": "2",
+    "reason": "The source expressly extends malware detection to backup copies and adds automatic, on-demand, pre-restoration and incremental scan options. These remain variants and targets of malware scanning; integration with Backup alone does not establish a distinct operation or capability for level 3.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 138,
+    "level": "2",
+    "reason": "Adds Lightsail as managed resource target in existing mobile console. Second reader: Adds Lightsail resources to existing mobile management interface.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 139,
+    "level": "2",
+    "reason": "Extends existing UDT support to multi-region replication. Second reader: Extends UDT schema support to existing multiregion deployments.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 140,
+    "level": "NA",
+    "reason": "Aurora DSQL expands to Frankfurt. Second reader: Existing Aurora DSQL service expands to Frankfurt.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 141,
+    "level": "4",
+    "reason": "Introduces replicated recovery-plan orchestration subsystem with readiness evaluation and failover execution. Second reader: Introduces replicated recovery plans, readiness evaluation, and multiregion failover orchestration subsystem.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 142,
+    "level": "2",
+    "reason": "Adds input formats sources and monitoring metrics to existing Distributed Map. Second reader: Adds Distributed Map input formats and observability metrics.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 143,
+    "level": "3",
+    "reason": "Adds document spreadsheet presentation and image creation operations to chat. Second reader: Introduces document and visual generation and export operations within chat.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 144,
+    "level": "2",
+    "reason": "Supports shared Managed Active Directory across accounts for existing license subscriptions and management.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 145,
+    "level": "NA",
+    "reason": "Bedrock model processing availability expands to Milan and Spain. Second reader: Existing Bedrock and Nova capability expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 146,
+    "level": "2",
+    "reason": "Model additions also explicitly support OpenAI SDK endpoint compatibility. Second reader: Adds OpenAI SDK compatibility alongside routine model catalog additions.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 147,
+    "level": "NA",
+    "reason": "Geo-specific inference availability expands to Japan and Australia. Second reader: Existing geography-scoped inference expands to Japan and Australia.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 148,
+    "level": "NA",
+    "reason": "Existing RDS hardware expands to additional regions. Second reader: Existing RDS instance families expand geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 149,
+    "level": "2",
+    "reason": "Extends existing cost tags and allocation from applications to job runs. Second reader: Extends existing cost-allocation tagging from applications to job runs.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 150,
+    "level": "NA",
+    "reason": "Makes existing I8ge instances available in Ireland; performance descriptions do not announce another product change.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 151,
+    "level": "NA",
+    "reason": "M7i availability expands to Cape Town. Second reader: Existing M7i hardware expands to Cape Town.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 152,
+    "level": "4",
+    "reason": "Queues explicitly allow multiple consumers to process the same topic partitions for point-to-point delivery. This changes the message-consumption model, so the highest substantive change exceeds the routine Kafka-version addition; rebalance and default changes alone would score lower.",
+    "confidence": "medium",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 153,
+    "level": "2",
+    "reason": "Adds diarization channel separation and audio blueprint options to existing extraction. Second reader: Adds speaker and channel controls and extends blueprint creation to audio.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 154,
+    "level": "2",
+    "reason": "Adds TLS policy selections and endpoint access controls. Second reader: Adds TLS security policy options to existing REST endpoints.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 155,
+    "level": "NA",
+    "reason": "Adds India geography availability and India-confined cross-region profiles for existing OpenAI models and inference APIs.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 156,
+    "level": "NA",
+    "reason": "Penetration testing service expands to six regions. Second reader: Existing penetration-testing service expands to six regions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 157,
+    "level": "1",
+    "reason": "Raises the maximum Aurora DSQL storage limit from 128 TiB to 256 TiB.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 158,
+    "level": "2",
+    "reason": "Adds incremental and distributed variants to existing custom-model training operation. Second reader: Adds incremental and distributed variants of existing custom model training.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 159,
+    "level": "NA",
+    "reason": "Expands existing Hpc8a instance availability to Tokyo and GovCloud US-West.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 160,
+    "level": "2",
+    "reason": "Extends report retrieval to previous versions with version selection. Second reader: Extends existing report retrieval to historical versions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 161,
+    "level": "NA",
+    "reason": "Graviton4 instance families expand to Secret East. Second reader: Existing Graviton4 hardware expands to Secret East.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 162,
+    "level": "2",
+    "reason": "Extends existing IPAM policy enforcement to RDS and ALB targets. Second reader: Extends existing central IP allocation policies to RDS and ALB.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 163,
+    "level": "1",
+    "reason": "Adds larger WorkSpaces hardware bundles with 16 or 32 vCPUs and corresponding memory.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 164,
+    "level": "2",
+    "reason": "Adds WebSocket API resource compatibility to SAM templates. Second reader: Adds WebSocket API resource compatibility to existing SAM provisioning.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 165,
+    "level": "2",
+    "reason": "Extends existing CloudTrail API logging to EventBridge data-plane events. Second reader: Extends existing CloudTrail logging coverage to EventBridge PutEvents.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 166,
+    "level": "NA",
+    "reason": "Expands availability of existing RDS database instance families to additional regions.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 167,
+    "level": "1",
+    "reason": "Adds improved neural speech model within existing recognition capability. Second reader: Adds improved English speech-recognition model within existing Lex capability.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 168,
+    "level": "4",
+    "reason": "Introduces image-to-managed-application deployment mode orchestrating routing scaling and infrastructure. Second reader: Introduces image-to-application deployment mode managing networking, domains, scaling, and shared load balancers.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 169,
+    "level": "NA",
+    "reason": "F2 hardware expands to four regions. Second reader: Existing F2 hardware expands to four regions.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 170,
+    "level": "2",
+    "reason": "Adds single-node deployment configuration for existing rg.large instances. Second reader: Adds single-node deployment configuration for existing rg.large instances.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 171,
+    "level": "1",
+    "reason": "Routine SQL Server cumulative update version addition. Second reader: Adds routine SQL Server cumulative runtime update.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 172,
+    "level": "3",
+    "reason": "Introduces EventBridge state-change event integration for automated firewall response workflows. Second reader: Introduces EventBridge event delivery for firewall state and configuration changes.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 173,
+    "level": "NA",
+    "reason": "I7i regional expansion only. Second reader: Existing I7i hardware expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 174,
+    "level": "2",
+    "reason": "Adds per-table storage-cost detail to existing S3 Tables reporting in Cost Explorer and CUR.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 175,
+    "level": "NA",
+    "reason": "SAP Cloud ERP offering expands to Frankfurt. Second reader: Existing SAP Cloud ERP offering expands to Frankfurt.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 176,
+    "level": "U",
+    "reason": "The GA description lists AWS-tuned RHEL images, telemetry, CLI and image mode without establishing which are new at GA. Level 2 may characterize integration options, but the substantive GA delta cannot be determined from the supplied source.",
+    "confidence": "low",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 177,
+    "level": "1",
+    "reason": "Adds MySQL minor runtime versions with unspecified fixes and improvements to existing RDS database operation.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 178,
+    "level": "2",
+    "reason": "Exposes existing refactor capability through Transform console and AWS credentials. Second reader: Adds existing Blu Insights capabilities to Transform console with existing AWS credentials.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 179,
+    "level": "3",
+    "reason": "Introduces notebook import/export operations alongside editing controls. Second reader: Introduces notebook import and export operations alongside editing improvements.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 180,
+    "level": "NA",
+    "reason": "Partner competency validation program change only. Second reader: Updates partner competency validation program.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 181,
+    "level": "2",
+    "reason": "Adds self-managed S3 reference option for existing code storage and increases managed limit. Second reader: Adds customer-owned S3 code-storage option alongside increased managed limit.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 182,
+    "level": "3",
+    "reason": "Introduces managed automatic image-signing workflow triggered by pushes. Second reader: Introduces automatic image signing on push through Signer integration.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 183,
+    "level": "1",
+    "reason": "Extends default MFA enforcement to member-account root users. Second reader: Changes default MFA enforcement to include member-account root users.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 184,
+    "level": "2",
+    "reason": "Extends existing alerts and report scheduling into embedded dashboards. Second reader: Extends existing alerts and report scheduling to embedded dashboards.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 185,
+    "level": "2",
+    "reason": "Extends execution-role authorization to remaining event target types. Second reader: Extends existing execution-role controls to Lambda, SNS, and SQS targets.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 186,
+    "level": "NA",
+    "reason": "P6-B300 expands to Virginia. Second reader: Existing P6-B300 hardware expands to Virginia.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 187,
+    "level": "NA",
+    "reason": "I8g expands to Seoul and Sao Paulo. Second reader: Existing I8g hardware expands geographically.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 188,
+    "level": "NA",
+    "reason": "Existing Nova creative models expand to Dublin. Second reader: Existing Nova creative models expand to Europe.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 189,
+    "level": "NA",
+    "reason": "Existing model serving capability expands to GovCloud. Second reader: Existing OpenAI and Nemotron model serving expands to GovCloud.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 190,
+    "level": "2",
+    "reason": "Adds custom tag propagation controls for project-created resources. Second reader: Adds project-profile controls for resource tag propagation.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 191,
+    "level": "NA",
+    "reason": "Existing Network Firewall expands to sovereign cloud. Second reader: Existing Network Firewall service expands to European Sovereign Cloud.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 192,
+    "level": "2",
+    "reason": "Adds one-click setup convenience for existing agent skills and MCP server. Second reader: Adds one-click setup convenience for existing serverless agent tools.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 193,
+    "level": "3",
+    "reason": "Introduces interactive IDE assistant interface with review checkpoints and preserved transformation context. Second reader: Introduces interactive modernization assistant interface within Visual Studio.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 194,
+    "level": "2",
+    "reason": "Adds Spot capacity purchasing option to existing HyperPod clusters. Second reader: Adds Spot capacity option to existing HyperPod clusters.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 195,
+    "level": "4",
+    "reason": "Introduces service-managed metrics collection subsystem replacing customer-operated collectors. Second reader: Introduces managed collection subsystem replacing customer-operated Prometheus collectors.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 196,
+    "level": "1",
+    "reason": "Improves existing development agent accuracy through internal candidate generation. Second reader: Improves existing development agent accuracy through internal solution generation and selection.",
+    "confidence": "medium",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 197,
+    "level": "1",
+    "reason": "Adds MySQL 9.4 runtime to existing database preview environment. Second reader: Adds MySQL 9.4 runtime to existing database preview catalog.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  },
+  {
+    "index": 198,
+    "level": "NA",
+    "reason": "Expands existing S3 Access Grants to Thailand and Mexico regions.",
+    "confidence": "high",
+    "basis": "Third-reader adjudication after independent source reading"
+  },
+  {
+    "index": 199,
+    "level": "1",
+    "reason": "Adds next-generation EC2 hardware families to existing instance catalog. Second reader: Adds C8id, M8id, and R8id hardware catalog entries.",
+    "confidence": "high",
+    "basis": "Two independent source readers agreed"
+  }
+]

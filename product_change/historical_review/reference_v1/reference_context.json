@@ -1,0 +1,9 @@
+{
+  "141": {
+    "date": "2023-12-06",
+    "title": "AWS Lambda functions now scale up to 12X faster",
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/12/aws-lambda-functions-scale-up/",
+    "text": "Starting today, AWS Lambda functions now scale up at a 12x faster rate. With this improvement each function can scale up to a rate of 1,000 concurrent executions every 10 seconds, up to your account concurrency limit. Starting today, AWS Lambda functions now scale up at a 12x faster rate. With this improvement each function can scale up to a rate of 1,000 concurrent executions every 10 seconds, up to your account concurrency limit. Workloads such as SLA-bound data processing or web applications with request-response patterns require high scalability and are prone to frequent changes in traffic. Previously, Lambda\u2019s scaling was at the account level, enabling customers to scale by up to 3000 concurrent executions in the first minute, followed by 500 concurrent executions every minute afterwards. Today\u2019s launch enables more rapid, granular scaling of individual Lambda functions, benefiting workloads that need to absorb traffic fluctuations, all without affecting the scaling rate of any other functions in your account. The new scaling experience is available in all commercial AWS Regions and is enabled by default for all functions that are invoked synchronously, at no additional cost. You can set a limit on your function\u2019s scalability by configuring Reserved Concurrency on your function . To learn more about Lambda\u2019s new function scaling capabilities, visit Lambda scaling behavior documentation page and the launch blog .",
+    "use": "Confirms the GovCloud post rolls out existing commercial-region scaling behavior."
+  }
+}

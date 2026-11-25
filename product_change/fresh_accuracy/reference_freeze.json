@@ -1,0 +1,12 @@
+{
+  "sha256": "d7ef27fdfa38dc68d2f322276c6e27af490bb3e7a0444ebe55b932a6dce23705",
+  "reference_records": 200,
+  "readers_blinded_to_production": true,
+  "inputs": {
+    "reader_a.tsv": "9939830dd9c8e3e7258bd8cd3fe820994eb37c153e189dbbfdb69ae078a4b9c4",
+    "reader_b.tsv": "0f1dbb0c35e41054778d4d907ff18f72c9fcbbdc2122d374cdfc290a64f8a47a",
+    "reader_c.tsv": "fc281aeb774f245f29ba4117c51f8f605b17df20a7c8486354d787bc6db912d0",
+    "adjudicated.json": "940f05afdebdd6e298a638e8c1e765816a39fbe375e0637ac41751d5301c1784",
+    "sample.json": "c259ef53dac7f133e8c19b4971f4018ffdd70e59a5c6030ec26775059573ec1d"
+  }
+}

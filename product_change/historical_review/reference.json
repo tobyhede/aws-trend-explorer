@@ -1,0 +1,1402 @@
+[
+  {
+    "level": "2",
+    "reason": "Adds selectable bundled feature tiers to existing user pools; referenced login features were recently announced separately.",
+    "confidence": "medium",
+    "index": 0,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/new-feature-tiers-essentials-plus-amazon-cognito/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces delivery-event publication to EventBridge for messaging events.",
+    "confidence": "high",
+    "index": 1,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/end-user-messaging-integration-amazon-eventbridge/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds payload limits, query variables and panel controls to an existing plugin.",
+    "confidence": "high",
+    "index": 2,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/09/aws-iot-twinmaker-launches-v-1-2-0-twinmaker-grafana-plugin/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds proactive policy controls for additional governed resource types.",
+    "confidence": "high",
+    "index": 3,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/07/aws-control-tower-proactive-controls/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing GitLab source integration to group repositories.",
+    "confidence": "high",
+    "index": 4,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/09/codepipeline-gitlab-groups/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds Dolby E codec support to existing audio decoding.",
+    "confidence": "high",
+    "index": 5,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/02/aws-elemental-medialive-dolby-e-audio-decoding/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds verification states and filters to existing anomaly alarms.",
+    "confidence": "high",
+    "index": 6,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/09/aws-iot-device-defender-detect-alarm-verification-states/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds MediaConnect as a delivery destination for an existing Link encoder.",
+    "confidence": "medium",
+    "index": 7,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/09/aws-elemental-link-uhd-live-video-contribution-mediaconnect/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds a price-and-capacity allocation strategy to existing Spot provisioning.",
+    "confidence": "high",
+    "index": 8,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-ec2-price-capacity-optimized-allocation-strategy-provisioning-ec2-spot-instances/"
+  },
+  {
+    "level": "1",
+    "reason": "Raises searchable data and compute capacity ceilings for existing serverless collections.",
+    "confidence": "high",
+    "index": 9,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-opensearch-serverless-workloads-collections/"
+  },
+  {
+    "level": "2",
+    "reason": "Spark update explicitly adds query optimization and SQL-function capabilities beyond a version identifier.",
+    "confidence": "medium",
+    "index": 10,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-finspace-apache-spark-clusters-3/"
+  },
+  {
+    "level": "2",
+    "reason": "API Gateway adds IAM condition keys controlling endpoint exposure, authorization and TLS through existing IAM policies and SCPs.",
+    "confidence": "high",
+    "index": 11,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/03/amazon-api-gateway-provides-iam-condition-keys-governing-endpoint-authorization-logging-configurations/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds repeating shift patterns and bulk assignments to existing scheduling.",
+    "confidence": "medium",
+    "index": 12,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/07/amazon-connect-automated-rotation-agent-shifts/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds supported operating-system versions to existing Systems Manager management capabilities.",
+    "confidence": "medium",
+    "index": 13,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-systems-manager-windows-server-2025-ubuntu-server-24-04-24-10/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing R6i instances.",
+    "confidence": "high",
+    "index": 14,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-ec2-r6i-instances-8-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "MemoryDB changes its contractual Multi-AZ availability SLA from 99.9% to 99.99%; no functional product change is stated.",
+    "confidence": "medium",
+    "index": 15,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/01/amazon-memorydb-redis-service-level-agreement/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds an instance family and Python runtime versions to existing notebook options.",
+    "confidence": "high",
+    "index": 16,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/05/sagemaker-notebook-instances-support-ml-g5-instance-family-python-3-8-kernels/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds extracted fields and OCR response data to existing Analyze ID operation.",
+    "confidence": "high",
+    "index": 17,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-textract-updates-analyze-id-api/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces a SQL authoring interface for Glue Studio transforms.",
+    "confidence": "medium",
+    "index": 18,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/03/aws-glue-studio-now-supports-transforms-defined-in-sql/"
+  },
+  {
+    "level": "2",
+    "reason": "EventBridge adds GitHub, Stripe and Twilio sources through deployable webhook templates for its existing event ingestion operation.",
+    "confidence": "high",
+    "index": 19,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-eventbridge-supports-receiving-events-github-stripe-twilio-using-webhooks/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Timestream.",
+    "confidence": "high",
+    "index": 20,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/04/amazon-timestream-is-now-available-in-europe-frankfurt-region/"
+  },
+  {
+    "level": "2",
+    "reason": "Elastic Disaster Recovery adds Outposts racks as replication and recovery destinations while explicitly retaining the same functionality.",
+    "confidence": "high",
+    "index": 21,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-elastic-disaster-recovery-outposts-racks/"
+  },
+  {
+    "level": "2",
+    "reason": "EventBridge Pipes gains private VPC connectivity through PrivateLink for existing Pipes operations.",
+    "confidence": "high",
+    "index": 22,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-eventbridge-pipes-aws-privatelink/"
+  },
+  {
+    "level": "U",
+    "reason": "Data Exchange for Redshift describes direct subscription-based queries and automated entitlements at GA but identifies no functional change from any prior preview.",
+    "confidence": "medium",
+    "index": 23,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/aws-data-exchange-amazon-redshift/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds a new Mistral model version to the existing Bedrock model catalog.",
+    "confidence": "high",
+    "index": 24,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/07/mistral-large-2-foundation-model-amazon-bedrock/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds collation options and overrides to existing string comparison and SQL operations.",
+    "confidence": "high",
+    "index": 25,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/06/amazon-redshift-now-supports-case-insensitive-collation-with-column-level-overrides/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds CWL and Toil support to an established multi-engine workflow CLI.",
+    "confidence": "high",
+    "index": 26,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-genomics-cli-workflow-language-cwl-toil/"
+  },
+  {
+    "level": "2",
+    "reason": "CloudWatch cross-account observability adds Service Quotas as another monitored resource type with dashboards and alarms.",
+    "confidence": "high",
+    "index": 27,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-cloudwatch-cross-account-service-quotas/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds service-level metric aggregation to existing App Runner monitoring.",
+    "confidence": "high",
+    "index": 28,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/02/aws-app-runner-concurrency-cpu-memory-utilization-metrics/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces controlled ISV access to customers' Q indexes through application registration.",
+    "confidence": "medium",
+    "index": 29,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-q-index-software-vendors-ai-experiences/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing hibernation to additional EC2 instance targets.",
+    "confidence": "high",
+    "index": 30,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/08/amazon-ec2-hibernation-c5d-m5d-r5d-instances/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing conversational analytics from voice to chat contacts.",
+    "confidence": "medium",
+    "index": 31,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/contact-lens-amazon-connect-provides-conversational-analytics-chat/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Kinesis Video Streams.",
+    "confidence": "high",
+    "index": 32,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-kinesis-video-streams-aws-govcloud-regions/"
+  },
+  {
+    "level": "4",
+    "reason": "Introduces a SPARC-compatible emulated execution environment for rehosting applications on AWS.",
+    "confidence": "medium",
+    "index": 33,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/11/virtualization-sparc-aws-stromasys-available/"
+  },
+  {
+    "level": "NA",
+    "reason": "Adds compliance attestations without new product functionality.",
+    "confidence": "high",
+    "index": 34,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-connect-pci-compliant-soc/"
+  },
+  {
+    "level": "3",
+    "reason": "Batch introduces a queue-front snapshot operation showing fair-share scheduling order through its console and GetJobQueueSnapshot API.",
+    "confidence": "high",
+    "index": 35,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/aws-batch-job-queue-snapshot-jobs-front-job-queues/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces Evidence Finder search and grouping with CloudTrail Lake ingestion and reporting.",
+    "confidence": "medium",
+    "index": 36,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-audit-manager-search-based-filtering-grouping-root-cause-analysis/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing SNS tracing to FIFO topics.",
+    "confidence": "high",
+    "index": 37,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-sns-x-ray-active-tracing-fifo-topics/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of the existing Redshift Data API.",
+    "confidence": "high",
+    "index": 38,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/07/the-amazon-redshift-data-api-is-now-available-in-the-aws-asia-pacific-osaka-region/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of the existing EventBridge Scheduler.",
+    "confidence": "high",
+    "index": 39,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-eventbridge-scheduler-18-regions/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds asynchronous invocation measurements to existing Lambda CloudWatch monitoring.",
+    "confidence": "high",
+    "index": 40,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/02/aws-lambda-launches-cloudwatch-metrics-asynchronous-invocations/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing high-memory EC2 instances.",
+    "confidence": "high",
+    "index": 41,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-ec2-high-memory-instances-europe-london-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing EC2 D3 instances.",
+    "confidence": "high",
+    "index": 42,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-ec2-d3-instances-europe-paris-region/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of the existing AQUA accelerator.",
+    "confidence": "high",
+    "index": 43,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/09/aqua-amazon-redshift-additional-aws-regions/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds comparison operators to existing dynamic recommendation filters.",
+    "confidence": "high",
+    "index": 44,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-personalize-range-queries-dynamic-filters/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Graviton-backed OpenSearch instances.",
+    "confidence": "high",
+    "index": 45,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-opensearch-service-graviton2-additional-regions/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds private endpoint connectivity for existing CloudHSM management APIs.",
+    "confidence": "high",
+    "index": 46,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/02/introducing-amazon-vpc-endpoints-aws-cloudhsm/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing S3 on Outposts.",
+    "confidence": "high",
+    "index": 47,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-s3-outposts-aws-govcloud-us/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds modeling syntax, default values and type controls to existing Smithy code generation.",
+    "confidence": "medium",
+    "index": 48,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/smithy-interface-definition-language-idl-2-0-generally-available/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds configurable before/after hooks to existing patch installations.",
+    "confidence": "high",
+    "index": 49,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/02/take-actions-before-after-patching-improve-safety-patch-installation/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds supported key algorithms to existing user authentication.",
+    "confidence": "high",
+    "index": 50,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/07/aws-transfer-family-ed25519-ecdsa-keys-user-authentication/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds file-level commit-history viewing to existing repository console navigation.",
+    "confidence": "medium",
+    "index": 51,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-codecatalyst-file-commit-history/"
+  },
+  {
+    "level": "NA",
+    "reason": "Introduces another geographic Local Zone location.",
+    "confidence": "high",
+    "index": 52,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/01/aws-local-zone-chicago-illinois/"
+  },
+  {
+    "level": "2",
+    "reason": "EMR on EKS enriches the existing DescribeJobRun response with relevant driver-log error details.",
+    "confidence": "medium",
+    "index": 53,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-emr-eks-error-message-describejobrun-api-response/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds managed permission policies for existing ROSA infrastructure operations.",
+    "confidence": "high",
+    "index": 54,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/09/aws-managed-iam-policies-rosa-control-planes/"
+  },
+  {
+    "level": "3",
+    "reason": "Adds hypothetical-index query-plan evaluation through HypoPG alongside routine engine and extension versions.",
+    "confidence": "medium",
+    "index": 55,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/05/amazon-rds-postgresql-supports-new-minor-versions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Firewall Manager.",
+    "confidence": "high",
+    "index": 56,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/aws-firewall-manager-new-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing snapshot export.",
+    "confidence": "high",
+    "index": 57,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-rds-snapshot-export-s3-osaka/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds Bedrock as an observed dependency target within existing Application Signals.",
+    "confidence": "high",
+    "index": 58,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/08/amazon-cloudwatch-application-signals-bedrock/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces automated profile matching and rule-based identity consolidation.",
+    "confidence": "high",
+    "index": 59,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-connect-customer-identity-resolution-consolidate-profiles/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds Office subscription and installation configuration to existing WorkSpaces image creation.",
+    "confidence": "medium",
+    "index": 60,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-workspaces-core-ms-office-2019-plus-bundle/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing Shield policy management to automatic layer-7 mitigation controls.",
+    "confidence": "high",
+    "index": 61,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/aws-firewall-manager-shield-advanced-application-layer-ddos-mitigation/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces template-library authoring, versioning and stack lifecycle operations within Application Manager.",
+    "confidence": "medium",
+    "index": 62,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/07/aws-systems-manager-application-manager-now-supports-full-lifecycle-management-of-aws-cloudformation-templates-and-stacks/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds interruptible spare-capacity selection for existing Glue job execution with otherwise unchanged capabilities.",
+    "confidence": "medium",
+    "index": 63,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/aws-glue-supports-flex-execution-option/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds natural-language coverage to existing agent assistance.",
+    "confidence": "high",
+    "index": 64,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-connect-64-languages-q-connect-agent-assistance/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing C7i instances.",
+    "confidence": "high",
+    "index": 65,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-ec2-c7i-instances-europe-paris/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds SPICE consumption measurements to QuickSight monitoring through CloudWatch.",
+    "confidence": "medium",
+    "index": 66,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-quicksight-monitoring-spice-consumption-sending-metrics-cloudwatch/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds language analyzers to an existing plugin integration mechanism.",
+    "confidence": "high",
+    "index": 67,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-opensearch-hebrew-hanlp-language-analyzers/"
+  },
+  {
+    "level": "3",
+    "reason": "Data Exchange introduces in-place subscriber access to provider S3 objects without copies, with access governed by subscriptions.",
+    "confidence": "high",
+    "index": 68,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-data-exchange-amazon-s3-preview/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing ElastiCache autoscaling.",
+    "confidence": "high",
+    "index": 69,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-elasticache-redis-auto-scaling-govcloud-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Chime meeting endpoints and media.",
+    "confidence": "high",
+    "index": 70,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-chime-sdk-meetings-cape-town/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds ECS runtime findings to existing Detective investigations.",
+    "confidence": "high",
+    "index": 71,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-detective-security-guardduty-ecs-monitoring/"
+  },
+  {
+    "level": "1",
+    "reason": "Raises throughput quotas for existing FIFO queues.",
+    "confidence": "high",
+    "index": 72,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-sqs-increased-throughput-quota-fifo-high-throughput-mode/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces workflow-run archiving and history export through CloudWatch Logs.",
+    "confidence": "high",
+    "index": 73,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/08/aws-healthomics-workflow-run-archiving-retention/"
+  },
+  {
+    "level": "2",
+    "reason": "Refines provisioning and onboarding in an existing Sidewalk integration.",
+    "confidence": "medium",
+    "index": 74,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/03/aws-iot-core-deepens-integration-amazon-sidewalk/"
+  },
+  {
+    "level": "2",
+    "reason": "Launch Wizard adds an option to place SQL Server tempdb on instance-store volumes during the existing deployment flow.",
+    "confidence": "high",
+    "index": 75,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/10/aws-launch-wizard-placing-microsoft-sql-server-tempdb-instance-store/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing C6g and R6gd instances.",
+    "confidence": "high",
+    "index": 76,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-ec2-r6gd-c6g-instances-aws-graviton2-regions/"
+  },
+  {
+    "level": "2",
+    "reason": "Proton allows environments to link existing shared resources via customer-managed templates instead of provisioning those resources anew.",
+    "confidence": "medium",
+    "index": 77,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/04/aws-proton-introduces-customer-managed-environments/"
+  },
+  {
+    "level": "NA",
+    "reason": "Adds HIPAA eligibility without new product functionality.",
+    "confidence": "high",
+    "index": 78,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/07/aws-glue-databrew-hipaa-eligible/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds rule ordering and default action controls to existing firewall policies.",
+    "confidence": "high",
+    "index": 79,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/07/aws-firewall-manager-supports-network-strict-rule-alert-configurations/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces data subscription access through Lake Formation catalog and permissions integration.",
+    "confidence": "medium",
+    "index": 80,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-data-exchange-aws-lake-formation-preview/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds cross-account delegation to existing S3 access-point policies.",
+    "confidence": "high",
+    "index": 81,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-s3-access-points-securely-delegate-permissions-datasets-aws-accounts/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Nitro Enclaves and certificate integration.",
+    "confidence": "high",
+    "index": 82,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/05/aws-nitro-enclaves-available-aws-govcloud-us-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Adds PCI compliance certification without new product functionality.",
+    "confidence": "high",
+    "index": 83,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/07/aws-network-firewall-achieves-pci-dss-compliance/"
+  },
+  {
+    "level": "NA",
+    "reason": "Introduces educational courses and certificates.",
+    "confidence": "high",
+    "index": 84,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/07/announcing-new-aws-developer-specializations-on-coursera/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds customer-authored permissions to existing resource sharing.",
+    "confidence": "high",
+    "index": 85,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/aws-resource-access-manager-fine-grained-managed-permissions/"
+  },
+  {
+    "level": "NA",
+    "reason": "AMS Accelerate becomes available in GovCloud; the text describes existing operational capabilities without a functional delta.",
+    "confidence": "high",
+    "index": 86,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/02/aws-managed-services-available-govcloud-us-regions/"
+  },
+  {
+    "level": "1",
+    "reason": "Alongside regional expansion, the post explicitly makes Graviton2 instances the default ElastiCache choice; other described changes are routine hardware and runtime versions.",
+    "confidence": "medium",
+    "index": 87,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-elasticache-m6g-r6g-graviton2-regions/"
+  },
+  {
+    "level": "3",
+    "reason": "JumpStart adds a programmatic Python interface explicitly enabling automated deployment and training of previously one-click models.",
+    "confidence": "medium",
+    "index": 88,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/02/amazon-sagemaker-apis-jumpstart/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds widget choices and arrangement controls to existing Batch dashboards.",
+    "confidence": "high",
+    "index": 89,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/05/aws-batch-dashboard-customization-console/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces reusable, centrally published contact-flow modules.",
+    "confidence": "medium",
+    "index": 90,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-connects-supports-contact-flow-modules-repeatable-logic/"
+  },
+  {
+    "level": "2",
+    "reason": "Runtime release explicitly adds language constructs and API enhancements beyond a version identifier.",
+    "confidence": "medium",
+    "index": 91,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-corretto-22-generally-available/"
+  },
+  {
+    "level": "2",
+    "reason": "Refines anomaly-console presentation, metadata and error messages.",
+    "confidence": "high",
+    "index": 92,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/aws-cost-anomaly-detection-simplified-interface-anomaly-exploration/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces node problem-detection/recovery and Kubernetes monitoring tools alongside kernel optimizations.",
+    "confidence": "medium",
+    "index": 93,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/07/aws-neuron-flash-kernel-performance-sequence-lengths/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds customer-managed encryption-key selection to existing state machines and activities.",
+    "confidence": "high",
+    "index": 94,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/07/aws-step-functions-customer-managed-keys/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds YAML format compatibility to existing workflow authoring and provisioning.",
+    "confidence": "high",
+    "index": 95,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/03/aws-step-functions-adds-tooling-support-for-yaml/"
+  },
+  {
+    "level": "3",
+    "reason": "Customer Profiles now automatically stores Connect contact history in unified customer profiles, replacing the described custom profile-building work.",
+    "confidence": "medium",
+    "index": 96,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-connect-customer-profiles-contact-history/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Bedrock.",
+    "confidence": "high",
+    "index": 97,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-bedrock-seoul-ohio-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Adds SOC compliance coverage without new product functionality.",
+    "confidence": "high",
+    "index": 98,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/05/aws-wavelength-is-now-system-and-organization-controls-soc-compliant/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds client-side encryption parameters and changes defaults in existing database networking.",
+    "confidence": "high",
+    "index": 99,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-rds-oracle-sqlnet-ora-client-parameters-oracle-native-network-encryption-nne-option/"
+  },
+  {
+    "level": "2",
+    "reason": "Engine update explicitly adds session controls and stored-procedure return data.",
+    "confidence": "high",
+    "index": 100,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-rds-postgresql-14-outposts/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing personalization automation to domain recommenders and segmentation configurations.",
+    "confidence": "medium",
+    "index": 101,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/02/maintaining-personalized-experiences-with-machine-learning-business-domains-user-segmentation/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds SDK wrappers for existing Neptune data-plane APIs.",
+    "confidence": "high",
+    "index": 102,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-neptune-data-apis-sdk/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds Keyspaces as a managed target in the existing Service Quotas console.",
+    "confidence": "medium",
+    "index": 103,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/05/manage-amazon-keyspaces--for-apache-cassandra--service-quotas-th/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces generated query suggestions with suggestion rules and blocking controls.",
+    "confidence": "medium",
+    "index": 104,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-kendra-releases-query-suggestions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Bedrock Blueprints are open-source sample templates for experimenting and learning with existing agents, actions, guardrails and knowledge bases.",
+    "confidence": "high",
+    "index": 105,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/08/blueprints-agent-based-automation-amazon-bedrock/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces Slack runbook search, execution and progress interaction through Chatbot.",
+    "confidence": "medium",
+    "index": 106,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/aws-systems-manager-automation-runbooks-slack/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds retraining schedules and defaults to existing Personalize solution training.",
+    "confidence": "high",
+    "index": 107,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-personalize-automatic-solution-training/"
+  },
+  {
+    "level": "2",
+    "reason": "New Linux release explicitly adds repository version locking and update controls.",
+    "confidence": "medium",
+    "index": 108,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/11/preview-amazon-linux-2022/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Glue.",
+    "confidence": "high",
+    "index": 109,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/aws-glue-available-aws-jakarta-region/"
+  },
+  {
+    "level": "U",
+    "reason": "The WorkSpaces webcam GA post describes video redirection but does not distinguish new functionality from pre-GA webcam support.",
+    "confidence": "medium",
+    "index": 110,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/04/amazon-workspaces-webcam-support-generally-available/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Service Quotas.",
+    "confidence": "high",
+    "index": 111,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/12/service-quotas-available-aws-middle-east-uae-region/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds outbound-call exclusion configuration to existing agent-routing order.",
+    "confidence": "high",
+    "index": 112,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-connect-excluding-outbound-calls-agent-order/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing Backup Audit Manager.",
+    "confidence": "high",
+    "index": 113,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/06/aws-backup-audit-manager-aws-govcloud-us-regions/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing ECS Exec and operating-system support to on-premises targets.",
+    "confidence": "high",
+    "index": 114,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-ecs-exec-linux-2-container-workloads/"
+  },
+  {
+    "level": "NA",
+    "reason": "Regional rollout of existing CodePipeline.",
+    "confidence": "high",
+    "index": 115,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-codepipeline-seven-regions/"
+  },
+  {
+    "level": "3",
+    "reason": "Personalize gains an integrated Data Wrangler preparation workflow with transformations and exploration before dataset import.",
+    "confidence": "medium",
+    "index": 116,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/prepare-data-amazon-personalize-sagemaker-data-wrangler-integration/"
+  },
+  {
+    "level": "3",
+    "reason": "B2B Data Interchange adds automatic generation of 997 and TA1 acknowledgement artifacts and corresponding delivery-triggering events.",
+    "confidence": "high",
+    "index": 117,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/05/automated-997-ta1-acknowledgements-aws-b2b-data-interchange/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds routine minor MySQL versions with fixes and generic improvements.",
+    "confidence": "high",
+    "index": 118,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/02/amazon-rds-mysql-new-minor-versions-5-8/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds storage-optimized hardware options to the existing EC2 instance catalog.",
+    "confidence": "high",
+    "index": 119,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-ec2-im4gn-is4gen-aws-graviton2/"
+  },
+  {
+    "level": "NA",
+    "reason": "FSx ONTAP is rolled out to three more regions.",
+    "confidence": "high",
+    "index": 120,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing DataBrew is rolled out to GovCloud West.",
+    "confidence": "high",
+    "index": 121,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/08/aws-glue-databrew-aws-govcloud-us-west-region/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing Snowball devices become available in Jakarta.",
+    "confidence": "high",
+    "index": 122,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/09/aws-snowball-available-asia-pacific-jakarta-region/"
+  },
+  {
+    "level": "2",
+    "reason": "Private 5G adds multiple radio units and additional SIM ordering to scale an existing private network.",
+    "confidence": "high",
+    "index": 123,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-private-5g-service-support-multiple-radio-units/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces Incident Manager incident synchronization and response integration with Jira.",
+    "confidence": "high",
+    "index": 124,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/10/incident-manager-aws-systems-manager-streamlines-response-jira-service-management-jsm-incidents/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds HIPAA transaction formats to existing EDI transformation operations.",
+    "confidence": "high",
+    "index": 125,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-b2b-data-interchange-hipaa-eligible-x12-version-5010-hipaa-transactions/"
+  },
+  {
+    "level": "4",
+    "reason": "FSx File Gateway introduces a deployable gateway type with local caching to extend managed FSx shares on premises, a substantial Storage Gateway subsystem.",
+    "confidence": "medium",
+    "index": 126,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/04/amazon-fsx-file-gateway-delivers-faster-more-efficient-on-premises-access/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing Flink analytics service expands to three regions.",
+    "confidence": "high",
+    "index": 127,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-kinesis-data-analytics-additional-regions/"
+  },
+  {
+    "level": "U",
+    "reason": "Advanced NodeJS Driver GA describes topology-aware failover and authentication features but does not establish an inaugural launch or a functional GA delta.",
+    "confidence": "medium",
+    "index": 128,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/aws-advanced-nodejs-driver/"
+  },
+  {
+    "level": "NA",
+    "reason": "New edge location is geographic expansion despite associated latency benefits.",
+    "confidence": "high",
+    "index": 129,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/02/aws-new-edge-location-turkiye/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing EC2 instance families expand to Singapore.",
+    "confidence": "high",
+    "index": 130,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-ec2-is4gen-im4gn-instances-available-asia-pacific-singapore-region/"
+  },
+  {
+    "level": "NA",
+    "reason": "CodeBuild expands to Jakarta.",
+    "confidence": "high",
+    "index": 131,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/06/aws-codebuild-available-aws-asia-pacific-jakarta-region/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds CWL compatibility to existing managed workflow execution.",
+    "confidence": "high",
+    "index": 132,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-omics-common-workflow-language/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing Config functionality expands to Melbourne.",
+    "confidence": "high",
+    "index": 133,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/10/aws-config-conformance-packs-asia-pacific-melbourne-region/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces bidirectional Jira issue and Security Hub finding synchronization.",
+    "confidence": "high",
+    "index": 134,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/05/aws-security-hub-supports-bidirectional-integration-with-atlassian-jira-service-management/"
+  },
+  {
+    "level": "NA",
+    "reason": "Explicitly extends already available CloudShell capabilities to remaining commercial regions.",
+    "confidence": "high",
+    "index": 135,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/09/aws-cloudshell-recent-capabilities-commercial-regions/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing C6in instances expand to Hyderabad.",
+    "confidence": "high",
+    "index": 136,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-ec2-c6in-instances-asia-pacific-hyderabad/"
+  },
+  {
+    "level": "3",
+    "reason": "Adds deliverability diagnosis, recommendations and automated sending optimization.",
+    "confidence": "medium",
+    "index": 137,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-simple-email-service-virtual-deliverability-manager-delivery-rate/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing Contact Lens analytics to external voice system inputs.",
+    "confidence": "medium",
+    "index": 138,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-connect-contact-lens-external-voice/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds user-supplied and external identifiers to existing asset resources.",
+    "confidence": "high",
+    "index": 139,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/11/aws-iot-sitewise-user-defined-unique-identifiers/"
+  },
+  {
+    "level": "2",
+    "reason": "CloudFormation extends AllowedValues and AllowedPattern validation controls to CommaDelimitedList parameters.",
+    "confidence": "high",
+    "index": 140,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/12/specify-validation-checks-commadelimitedlist-parameter-aws-cloudformation/"
+  },
+  {
+    "level": "NA",
+    "reason": "GovCloud rollout of the same scaling behavior announced for all commercial regions on 2023-12-06; the earlier AWS source confirms identical rates and granularity.",
+    "confidence": "high",
+    "index": 141,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/04/aws-lambda-functions-12x-faster-govcloud-us-regions/"
+  },
+  {
+    "level": "1",
+    "reason": "Routine quarterly security and critical runtime updates.",
+    "confidence": "high",
+    "index": 142,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-corretto-october-2024-quarterly-updates/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds property overrides to existing Copilot resource provisioning.",
+    "confidence": "medium",
+    "index": 143,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/03/aws-copilot-customization-cdk-yaml-overrides/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces self-service listing creation and updates replacing manually processed requests.",
+    "confidence": "medium",
+    "index": 144,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/05/aws-marketplace-self-service-listing-feature-single-ami-products/"
+  },
+  {
+    "level": "2",
+    "reason": "Optimizes existing Connect audio for Citrix desktop environments.",
+    "confidence": "high",
+    "index": 145,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-connect-audio-optimization-citrix-cloud-desktops/"
+  },
+  {
+    "level": "3",
+    "reason": "Explicit GA delta adds real-time payload redaction and masking operations.",
+    "confidence": "high",
+    "index": 146,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-sns-message-data-protection-available-real-time-data-redaction-masking/"
+  },
+  {
+    "level": "2",
+    "reason": "Q Business adds Smartsheet to its existing set of index synchronization connectors.",
+    "confidence": "high",
+    "index": 147,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/10/preview-amazon-q-business-integration-smartsheet/"
+  },
+  {
+    "level": "3",
+    "reason": "Redshift adds SQL MERGE and multidimensional aggregation operations including CUBE and ROLLUP; these outweigh the accompanying size-limit increase.",
+    "confidence": "medium",
+    "index": 148,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-redshift-sql-capabilities-speed-data-warehouse-migrations-preview/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing EMR Serverless expands to four regions.",
+    "confidence": "high",
+    "index": 149,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-emr-serverless-available-new-aws-regions/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds Lake Formation as the authorization method for existing crawler data access.",
+    "confidence": "medium",
+    "index": 150,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/02/aws-glue-crawlers-integration-lake-formation/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing model enrichment with calculated geographical distance inputs.",
+    "confidence": "high",
+    "index": 151,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/02/aws-geolocation-enrichment-amazon-fraud-detector-models/"
+  },
+  {
+    "level": "3",
+    "reason": "DocumentDB adds managed unplanned global failover preserving cluster topology, distinct from its existing planned switchover operation.",
+    "confidence": "high",
+    "index": 152,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/08/amazon-documentdb-mongodb-compatibility-global-clusters-failover/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds a newer foundation model to the Bedrock catalog.",
+    "confidence": "high",
+    "index": 153,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/anthropic-claude-3-5-sonnet-model-bedrock/"
+  },
+  {
+    "level": "2",
+    "reason": "HealthImaging extends its existing DICOM import operation to S3 buckets in other accounts and regions.",
+    "confidence": "high",
+    "index": 154,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/05/aws-healthimaging-cross-account-data-imports/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds transaction logs as a backup input option to existing migration workflows.",
+    "confidence": "high",
+    "index": 155,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/09/aws-migration-hub-orchestrator-microsoft-sql-logs/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces native message archiving and replay operations for SNS FIFO topics.",
+    "confidence": "high",
+    "index": 156,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-sns-in-place-message-archiving-replay-fifo-topics/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds another sign-in provider and linked login options to existing community profiles.",
+    "confidence": "high",
+    "index": 157,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/12/aws-repost-customers-community-engagement-builder-id-repost-linked-logins/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces canary event emission to EventBridge for downstream actions.",
+    "confidence": "high",
+    "index": 158,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-cloudwatch-synthetics-supports-canary-events-with-amazon-eventbridge/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces a genomics command-line workflow provisioning interface at launch.",
+    "confidence": "medium",
+    "index": 159,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-genomics-cli-available/"
+  },
+  {
+    "level": "3",
+    "reason": "Adds automatic Spark code upgrade planning, rewriting and validation.",
+    "confidence": "high",
+    "index": 160,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/generative-ai-upgrades-apache-spark-glue-preview/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing backend resource provisioning to custom resources via CDK or CloudFormation.",
+    "confidence": "medium",
+    "index": 161,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/11/aws-amplify-custom-aws-resources-amplify-created-backends-cdk-cloudformation/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds standardized per-user detail to existing cost and usage reporting.",
+    "confidence": "high",
+    "index": 162,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/06/quicksight-standardized-user-level-cost-usage-data/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds calendar-based blocking controls to existing desired-state enforcement.",
+    "confidence": "medium",
+    "index": 163,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/05/now-use-aws-systems-manager-change-calendar-to-prevent-desired-state-updates-during-critical-events/"
+  },
+  {
+    "level": "2",
+    "reason": "Time Sync adds configurable PTP hardware-clock support and clock-accuracy auditing alongside automatic NTP accuracy improvements.",
+    "confidence": "medium",
+    "index": 164,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-time-sync-service-microsecond-accurate-time/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing Transit Gateway connectivity to lower-speed connection options.",
+    "confidence": "high",
+    "index": 165,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/aws-direct-connect-expands-transit-gateway-support-connection-speeds/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing Well-Architected Tool expands to GovCloud.",
+    "confidence": "high",
+    "index": 166,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/08/aws-well-architected-tool-available-aws-govcloud-us-regions/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces a programmatic interface for clearing missed-contact notifications.",
+    "confidence": "medium",
+    "index": 167,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-connect-api-agent-new-contacts-missed-contact/"
+  },
+  {
+    "level": "NA",
+    "reason": "Mobile console expands to Osaka region.",
+    "confidence": "high",
+    "index": 168,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/04/aws-console-mobile-application-adds-support-for-asia-pacific-osaka-region/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds another foundation model size to the Bedrock model catalog.",
+    "confidence": "high",
+    "index": 169,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/07/meta-llama-3-1-405b-generally-available-amazon-bedrock/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends artifact management with OCI reference relationships and lifecycle handling.",
+    "confidence": "medium",
+    "index": 170,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-ecr-oci-image-distribution-version-1-1/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds three resource targets to existing CloudFormation integration.",
+    "confidence": "high",
+    "index": 171,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/10/amazon-connect-aws-cloudformation-hierarchy-hours-operation/"
+  },
+  {
+    "level": "1",
+    "reason": "EC2 adds a bare-metal size of the existing C7gn family with specified capacity and networking characteristics.",
+    "confidence": "high",
+    "index": 172,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-ec2-c7gn-metal-instance-available/"
+  },
+  {
+    "level": "U",
+    "reason": "Amplify announces in-app messaging GA and describes campaign and UI features without specifying changes from its prior release stage.",
+    "confidence": "medium",
+    "index": 173,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-amplify-general-availability-in-app-messaging-notifications-react-react-native/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds language compatibility to existing conversational processing.",
+    "confidence": "high",
+    "index": 174,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-lex-launches-support-new-languages/"
+  },
+  {
+    "level": "2",
+    "reason": "IoT Device Management adds reusable templates and access controls for existing remote job actions and their deployment parameters.",
+    "confidence": "medium",
+    "index": 175,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/05/aws-iot-device-management-launches-job-templates-in-preview/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds a higher-performance storage volume option to existing RDS storage provisioning.",
+    "confidence": "medium",
+    "index": 176,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/03/amazon-rds-io2-block-express-sub-millisecond-latency-99-999-durability/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing cross-region backup feature expands to four regions.",
+    "confidence": "high",
+    "index": 177,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/05/aws-backup-cross-region-backups-four-regions/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing inference testing with existing-endpoint targets, controls and SDK support.",
+    "confidence": "medium",
+    "index": 178,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-sagemaker-inference-recommender-new-features/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds a flow rebalancing configuration option to existing gateway load balancing.",
+    "confidence": "high",
+    "index": 179,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/10/aws-gateway-load-balancer-launches-new-option-rebalance-flows-target-fails-deregisters/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces managed Edge Manager agent and model deployment through Greengrass components.",
+    "confidence": "medium",
+    "index": 180,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-sagemaker-edge-manager-integrates-aws-iot-greengrass-simplify-deployment-fleets-edge-devices/"
+  },
+  {
+    "level": "NA",
+    "reason": "Lake Formation expands to Zurich; the body only explains established data-lake capabilities.",
+    "confidence": "high",
+    "index": 181,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/04/aws-lake-formation-europe-zurich-region/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds a bounding-polygon filter to existing tracked-device position queries.",
+    "confidence": "high",
+    "index": 182,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/10/amazon-location-service-bounding-box-search-device-positions/"
+  },
+  {
+    "level": "2",
+    "reason": "Extends existing Glue catalog integration with statistics for query optimization.",
+    "confidence": "high",
+    "index": 183,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-redshift-integration-glue-column-statistics/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds product lifecycle dates and initial-value controls to existing demand forecasting.",
+    "confidence": "high",
+    "index": 184,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/10/aws-supply-chain-demand-planning-product-lifecycle/"
+  },
+  {
+    "level": "3",
+    "reason": "IAM adds centralized removal of member-account root credentials and scoped privileged operations using temporary credentials.",
+    "confidence": "high",
+    "index": 185,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/manage-root-access-aws-identity-access-management/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing EFS replication expands to remaining regions.",
+    "confidence": "high",
+    "index": 186,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/05/amazon-efs-replication-aws-regions/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces a web console interface for existing session management APIs.",
+    "confidence": "high",
+    "index": 187,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/06/access-console-nice-dcv/"
+  },
+  {
+    "level": "2",
+    "reason": "CloudFormation gains PCS resource support for creating and managing existing cluster resources through infrastructure templates.",
+    "confidence": "high",
+    "index": 188,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/12/cloudformation-aws-parallel-computing-service/"
+  },
+  {
+    "level": "2",
+    "reason": "Adds previous-contact context carryover to existing chat creation.",
+    "confidence": "medium",
+    "index": 189,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/01/amazon-connect-persistent-chat-experiences/"
+  },
+  {
+    "level": "3",
+    "reason": "Step Functions gains a general AWS SDK invocation interface spanning service API actions, beyond the previous curated service integrations.",
+    "confidence": "medium",
+    "index": 190,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/09/aws-step-functions-200-aws-sdk-integration/"
+  },
+  {
+    "level": "1",
+    "reason": "Raises existing image extraction sampling frequency.",
+    "confidence": "high",
+    "index": 191,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/08/amazon-kinesis-video-streams-image-sampling-frequency/"
+  },
+  {
+    "level": "3",
+    "reason": "Adds manager participation in live calls through barge-in.",
+    "confidence": "high",
+    "index": 192,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-connect-contact-center-managers-join-ongoing-calls/"
+  },
+  {
+    "level": "1",
+    "reason": "Adds Windows Server 2025 images to the existing EC2 operating-system catalog.",
+    "confidence": "medium",
+    "index": 193,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2024/11/microsoft-windows-server-2025-images-amazon-ec2/"
+  },
+  {
+    "level": "NA",
+    "reason": "Existing SNS SMS sending expands to Jakarta.",
+    "confidence": "high",
+    "index": 194,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-sns-sms-asia-pacific-jakarta/"
+  },
+  {
+    "level": "3",
+    "reason": "Introduces database performance diagnosis and bottleneck visualization.",
+    "confidence": "high",
+    "index": 195,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/04/amazon-documentdb-mongodb-performance-insights-preview/"
+  },
+  {
+    "level": "2",
+    "reason": "Neptune GSP adds whole-named-graph variants of existing fetch, insert and delete operations; the source explicitly contrasts these with multiple existing SPARQL queries.",
+    "confidence": "medium",
+    "index": 196,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-neptune-announces-support-sparql-1-1-graph-store-http-protocol/"
+  },
+  {
+    "level": "U",
+    "reason": "AWS Wickr was already announced in preview on 2022-07-26; the GA source does not identify a substantive product delta.",
+    "confidence": "medium",
+    "index": 197,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/11/general-availability-aws-wickr/"
+  },
+  {
+    "level": "2",
+    "reason": "FinSpace Scaling Groups allow multiple existing kdb clusters to share provisioned compute, adding a placement and utilization option.",
+    "confidence": "medium",
+    "index": 198,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-finspace-managed-kdb-insights-multiple-processes-shared-compute/"
+  },
+  {
+    "level": "NA",
+    "reason": "Changes MediaTailor log pricing to volume-based vended-log tiers.",
+    "confidence": "high",
+    "index": 199,
+    "source_url": "https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-cloudwatch-elemental-mediatailor-vended-logs-pricing/"
+  }
+]
