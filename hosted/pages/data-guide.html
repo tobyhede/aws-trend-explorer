@@ -1,0 +1,60 @@
+<h1>Read the public dataset</h1>
+<p>Release: {release}. The public dataset is one Parquet file, <a href="{dataset}" download>{dataset_name}</a>. It holds {records} records, one for each collected AWS announcement from {first} to {cutoff}. The hosted explorer reads this same file.</p>
+<p>The file does not contain the text of any announcement. Follow a record's <code>source_url</code> to read the announcement on the AWS website.</p>
+
+<h2>Fields</h2>
+<p>The file has nine fields. <code>source_url</code> identifies a record in this release.</p>
+<table>
+<tr><th>Field</th><th>Type</th><th>Meaning</th></tr>
+<tr><td><code>announcement_date</code></td><td>Date</td><td>Publication date.</td></tr>
+<tr><td><code>title</code></td><td>Text</td><td>Announcement title, as AWS published it.</td></tr>
+<tr><td><code>service</code></td><td>Text</td><td>Service tags separated by <code>; </code> (semicolon and space). <code>unknown</code> means no service tag is available.</td></tr>
+<tr><td><code>release_type</code></td><td>Text</td><td>Release-type label retained from an earlier classification.</td></tr>
+<tr><td><code>enhancement_facets</code></td><td>Text</td><td>Enhancement labels retained from an earlier classification, separated by <code>|</code>. Empty when the announcement has none.</td></tr>
+<tr><td><code>product_change_level</code></td><td>Text</td><td>Magnitude level, defined below. It is text, not a number: the values are <code>1</code> to <code>5</code>, <code>U</code> and <code>NA</code>.</td></tr>
+<tr><td><code>product_change_reason</code></td><td>Text</td><td>Our explanation of the level, written from the announcement and the recorded review.</td></tr>
+<tr><td><code>product_change_basis</code></td><td>Text</td><td>Provenance: which reading or adjudication produced the level.</td></tr>
+<tr><td><code>source_url</code></td><td>Text</td><td>Address of the official AWS announcement.</td></tr>
+</table>
+<p><code>U</code> and <code>NA</code> are explicit decisions, not missing values. The file also records the release date and the collection cutoff in its metadata, under the keys <code>release_date</code> and <code>collection_cutoff</code>.</p>
+
+<h2>Magnitude levels</h2>
+<p>The scale describes the announced product change, not its consequences for a customer.</p>
+<table>
+<tr><th>Code</th><th>Level</th><th>Decision rule</th></tr>
+<tr><td><code>1</code></td><td>Parameter change</td><td>A limit, default, performance characteristic, or supported catalogue value changes.</td></tr>
+<tr><td><code>2</code></td><td>Capability refinement</td><td>Controls, options, compatibility, or targets extend an existing operation.</td></tr>
+<tr><td><code>3</code></td><td>New capability</td><td>A distinct new operation or interface appears within an existing product.</td></tr>
+<tr><td><code>4</code></td><td>Major product expansion</td><td>A substantial subsystem or new execution, operating, or programming model appears.</td></tr>
+<tr><td><code>5</code></td><td>New product</td><td>AWS positions a distinct offering that customers can adopt. Billing is supporting evidence.</td></tr>
+<tr><td><code>U</code></td><td>Needs review</td><td>The evidence does not establish the change sufficiently.</td></tr>
+<tr><td><code>NA</code></td><td>Outside scale</td><td>Pure geographic, price-only, compliance, educational, or lifecycle announcements.</td></tr>
+</table>
+<p>Mixed announcements receive the highest substantive level supported by their text. Routine hardware, runtime, and model catalogue additions are generally level 1. An additional integration target is generally level 2. A first integration that adds a distinct capability can be level 3.</p>
+<p>General availability alone does not imply a new product. Billing functionality is assessed on the scale even though pure price changes are outside it.</p>
+<p>The levels are ordered categories, not arithmetic weights. Do not multiply counts by the level number to estimate effort or value. The <a href="method.html">method page</a> gives the full rubric and reviewed examples.</p>
+
+<h2>Periods and totals</h2>
+<ul>
+<li><strong>Matched period.</strong> Year comparisons count 1 January to {cutoff_day} in every year, because the final year stops at the collection cutoff.</li>
+<li><strong>Months.</strong> The monthly chart uses whole calendar months. The final month ends on {cutoff_day}.</li>
+<li><strong>In-scale totals</strong> include <code>U</code> and exclude <code>NA</code>.</li>
+<li><strong>Shares</strong> divide each level's count by all filtered announcements, including <code>U</code> and <code>NA</code>.</li>
+<li><strong>Year-on-year change</strong> compares adjacent matched periods, using the previous year's in-scale total as the denominator.</li>
+<li><strong>Service tags overlap.</strong> Count a multi-service announcement once for each of its services, but once in the whole collection. Do not add service totals together.</li>
+</ul>
+
+<h2>Query the file yourself</h2>
+<p>Any tool that reads Parquet keeps the column types. For example, in DuckDB:</p>
+<pre><code>select year(announcement_date) as year, product_change_level as level, count(*) as announcements
+from '{dataset_name}'
+where strftime(announcement_date, '%m-%d') &lt;= '{cutoff_mmdd}'
+group by all order by all;</code></pre>
+<p>That query gives the hosted explorer's matched-period table. To count by service, split the tags first: <code>unnest(string_split(service, '; '))</code>.</p>
+
+<h2>Cite a release</h2>
+<p>The file name carries the release date. Each release keeps its own file at its own address, so a citation of <code>{dataset_name}</code> keeps pointing at the same data after later releases.</p>
+
+<h2>Interpret trends with the audits</h2>
+<p>Announcement volume measures publication activity. Preview, general availability and regional rollout can each produce a separate announcement of the same feature. Seasonal publication patterns and partial periods also affect apparent velocity. Unknown service tags and differences in collection coverage can affect service comparisons.</p>
+<p>All levels are AI judgments. The <a href="historical-audit.html">historical audit</a> and the <a href="fresh-audit.html">fresh-sample audit</a> report how often they agree with independent AI references, and the <a href="release-notes.html">release notes</a> list the limits that remain. Trends in levels 4 and 5 are provisional.</p>

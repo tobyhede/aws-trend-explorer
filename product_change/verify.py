@@ -10,6 +10,24 @@ HERE=Path(__file__).resolve().parent
 sys.path.insert(0,str(HERE.parent))
 import serve
 
+def verify_public_dataset(db):
+    """The public dataset holds every record, the nine public fields and no saved announcement text."""
+    from public_dataset import FIELDS, PATH
+    assert PATH.is_file(), f'Public dataset missing: run product_change/public_dataset.py ({PATH.name})'
+    assert [p.name for p in PATH.parent.glob('*.parquet')]==[PATH.name]
+    file=str(PATH)
+    schema={name:kind for name,kind,*_ in db.execute('describe select * from read_parquet(?)',[file]).fetchall()}
+    assert list(schema)==FIELDS and len(FIELDS)==9 and 'announcement_text' not in schema
+    assert schema['announcement_date']=='DATE' and all(kind=='VARCHAR' for name,kind in schema.items() if name!='announcement_date')
+    assert db.execute('select count(*),count(distinct source_url) from read_parquet(?)',[file]).fetchone()==(14167,14167)
+    columns=','.join(FIELDS)
+    for left,right in [('announcements','read_parquet(?)'),('read_parquet(?)','announcements')]:
+        assert db.execute(f'select count(*) from (select {columns} from {left} except select {columns} from {right})',[file]).fetchone()[0]==0
+    text_fields=" || ' ' || ".join(f"coalesce(p.{name},'')" for name in FIELDS if name not in ['announcement_date','title'])
+    leaked=db.execute(f"""select count(*) from read_parquet(?) p join announcements a using (source_url)
+        where length(a.announcement_text)>length(a.title) and contains({text_fields},a.announcement_text)""",[file]).fetchone()[0]
+    assert leaked==0, f'{leaked} public records contain saved announcement text'
+
 def verify():
     from historical import load_initial, verify_recent_baseline
     with duckdb.connect(str(HERE.parent/'announcements.duckdb'),read_only=True) as db:
@@ -60,6 +78,7 @@ def verify():
             assert not any('magnitude' in key for key in rows[0])
             for row in rows:
                 assert decision_map[row['source_url']]==(row['product_change_level'],row['product_change_reason'],row['product_change_basis'])
+        verify_public_dataset(db)
     html=(HERE.parent/'index.html').read_text()
     assert 'architectureTitle' not in html and '/architecture.js' not in html
     print('Verified source coverage, unchanged recent ratings, chart cells, service tags and all 14,167 CSV/JSON records.')

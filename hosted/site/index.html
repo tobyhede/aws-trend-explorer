@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>AWS announcement explorer</title>
+<link rel="stylesheet" href="site.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<main>
+<header class="masthead">
+  <h1>AWS announcement explorer</h1>
+  <p id="coverage" class="coverage">Loading the public dataset…</p>
+</header>
+<nav aria-label="Supporting pages">
+  <a href="method.html">Method</a>
+  <a href="historical-audit.html">Historical audit</a>
+  <a href="fresh-audit.html">Fresh-sample audit</a>
+  <a href="data-guide.html">Data guide</a>
+  <a href="release-notes.html">Release notes</a>
+  <a id="download" href="data/aws-announcements-2026-11-25.parquet" download>Download the dataset (Parquet)</a>
+</nav>
+
+<section class="limits" aria-labelledby="limitsTitle">
+  <h2 id="limitsTitle">Before you read a chart</h2>
+  <ul>
+    <li>Every magnitude level is an AI judgment, audited against AI references and not validated by people.</li>
+    <li>The collection has not been proven to hold every AWS announcement.</li>
+    <li>Trends in levels 4 and 5 are provisional: the audits found too few of them to measure.</li>
+    <li>The final year stops at the collection cutoff, <span data-cutoff>28 October 2026</span>, so 2026 and its last month are partial.</li>
+  </ul>
+</section>
+
+<div id="error" role="alert"></div>
+<noscript><p>This page counts the records in your browser and needs JavaScript. You can still <a href="data-guide.html">read the data guide</a> and download the dataset.</p></noscript>
+
+<form id="filters" class="filters" aria-label="Filters">
+  <label>Search titles and reasons
+    <input type="search" id="q" autocomplete="off" aria-describedby="searchNote">
+  </label>
+  <label>Release type <select id="type"></select></label>
+  <label>Service <select id="service"></select></label>
+  <label>Enhancement facet <select id="facet"></select></label>
+  <button type="reset" id="clear">Clear filters</button>
+  <p id="searchNote" class="note">Search matches announcement titles and our classification reasons. Announcement bodies are not in the public dataset and are not searched.</p>
+</form>
+<p id="total" class="total" aria-live="polite"></p>
+
+<section class="card" aria-labelledby="annualTitle">
+  <h2 id="annualTitle">Announcements by magnitude level, matched period</h2>
+  <p>Each year is counted over the same dates, 1 January to <span data-cutoff-day>28 October</span>, so years compare fairly. Levels are ordered categories that describe the announced change; they are not weights. Select a count to list its records.</p>
+  <div class="scroll" id="annual"></div>
+</section>
+
+<section class="card" aria-labelledby="monthlyTitle">
+  <div class="cardhead">
+    <h2 id="monthlyTitle">Announcements by month</h2>
+    <label>Measure
+      <select id="unit">
+        <option value="count">Announcement count</option>
+        <option value="share">Share of all filtered announcements</option>
+      </select>
+    </label>
+  </div>
+  <p id="monthlyNote">Whole calendar months. Shares divide each level by all filtered announcements in the month, including needs-review and outside-scale. Select a bar segment to list its records; inside the chart, use the arrow keys to move and Enter to select.</p>
+  <div id="legend" class="legend"></div>
+  <div class="scroll" id="monthly"></div>
+  <details>
+    <summary>Monthly values as a table</summary>
+    <div class="scroll tall" id="monthlyTable"></div>
+  </details>
+</section>
+
+<section class="card" aria-labelledby="recordsTitle">
+  <div class="cardhead">
+    <h2 id="recordsTitle" tabindex="-1">Records</h2>
+    <button type="button" id="export">Export these records (CSV)</button>
+  </div>
+  <p id="selection" aria-live="polite"></p>
+  <ol id="records" class="records"></ol>
+  <div class="paging">
+    <button type="button" id="previous">Previous</button>
+    <span id="page"></span>
+    <button type="button" id="next">Next</button>
+  </div>
+</section>
+
+<footer>
+  <p>Release <span data-release>25 November 2026</span>. Collection cutoff <span data-cutoff>28 October 2026</span>.</p>
+  <p>The magnitude levels, reasons and bases are our own classifications, offered under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a>. Announcement titles and the linked announcement pages remain the property of Amazon Web Services and are outside that licence.</p>
+  <p>This site is not affiliated with, sponsored by or endorsed by Amazon Web Services. It sets no cookies and loads nothing from other sites.</p>
+</footer>
+</main>
+</body>
+</html>

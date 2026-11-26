@@ -13,13 +13,14 @@ Work in a copy of the extracted archive. Stop the explorer before changing its d
 ```sh
 .venv/bin/python product_change/historical_audit.py score
 .venv/bin/python product_change/build.py
+.venv/bin/python product_change/public_dataset.py
 .venv/bin/python product_change/charts.py
 .venv/bin/python product_change/verify.py
 ```
 
-The first command scores the frozen initial predictions against the saved references. The build applies recorded corrections, updates the database, and writes current CSV and JSON exports. The chart command writes four SVG charts and their aggregate CSV files.
+The first command scores the frozen initial predictions against the saved references. The build applies recorded corrections, updates the database, and writes current CSV and JSON exports. The public dataset command writes `product_change/public/aws-announcements-2026-11-25.parquet`: every record with nine fields and no saved announcement text. It selects fields from the database and classifies nothing. The chart command writes four SVG charts and their aggregate CSV files.
 
-The verification command checks source matches, unchanged recent decisions, exports, aggregates, and drill-down counts. Its expected final message is:
+The verification command checks source matches, unchanged recent decisions, exports, aggregates, and drill-down counts. It also checks that the public dataset holds all 14,167 records, agrees with the database, and contains no announcement text. Its expected final message is:
 
 ```text
 Verified source coverage, unchanged recent ratings, chart cells, service tags and all 14,167 CSV/JSON records.
@@ -51,6 +52,8 @@ print('All 12 recorded output hashes match.')
 PY
 ```
 
+The public dataset was added after that rebuild, so the report does not list it. Two builds on the tested environment wrote identical files; record its hash at the next release.
+
 The database file itself can change its internal layout during rebuilding. Compare exported records and chart data rather than requiring an identical database-file hash.
 
 ## Package and share the release
@@ -67,7 +70,7 @@ Share the complete archive for local exploration and reproducible analysis. Reci
 
 For a smaller analysis handoff, share the current CSV or JSON, relevant SVG charts, release notes, and audit report together. Keep source URLs, classification reasons, and the collection cutoff with any derivative tables. This documentation does not assign a new licence to AWS source text.
 
-The included server is a local viewer. Public hosting, authentication, and a hosted download page are not part of this release.
+The included server is a local viewer. The release bundle does not contain the hosted explorer. The public dataset is the only file in the release bundle prepared for publication, because it omits saved announcement text. Do not publish the rest of the release bundle.
 
 ## Report a correction
 

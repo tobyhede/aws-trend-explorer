@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Release notes: 25 November 2026 · AWS announcement explorer</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<main class="doc">
+<nav aria-label="Site"><a href="index.html">Hosted explorer</a><a href="method.html">Method</a><a href="historical-audit.html">Historical audit</a><a href="fresh-audit.html">Fresh-sample audit</a><a href="data-guide.html">Data guide</a><a href="release-notes.html" aria-current="page">Release notes</a></nav>
+<h1>Release notes: 25 November 2026</h1>
+<p>This release classifies the magnitude of the product change in every collected AWS announcement from 1 January 2021 to 28 October 2026. It contains 14,167 announcements. The release date is not the collection cutoff: the release holds nothing published after 28 October 2026.</p>
+<p>The classification describes the size of the announced product change itself. It does not measure customer consequences, engineering effort, or business value. AI readers produced the classifications and the audit references.</p>
+
+<h2>What this release contains</h2>
+<ul>
+<li>Individual readings of 9,247 announcements from 2021–2024, added in this release.</li>
+<li>The 4,920 ratings, reasons and bases for 2025–2026, unchanged from the earlier classification.</li>
+<li>69 corrections to historical levels, applied after sample and targeted review.</li>
+<li>A fresh audit of the historical classifications and a separate fresh-sample audit of the recent ones.</li>
+<li>The <a href="data/aws-announcements-2026-11-25.parquet" download>public dataset</a>: every record with nine fields, without announcement text. The <a href="data-guide.html">data guide</a> defines the fields.</li>
+</ul>
+
+<h2>Collected records by year</h2>
+<p>Every record has a magnitude decision, including explicit needs-review and outside-scale decisions.</p>
+<table>
+<tr><th>Year</th><th>Announcements</th></tr>
+<tr><td>2021</td><td>2,084</td></tr>
+<tr><td>2022</td><td>2,103</td></tr>
+<tr><td>2023</td><td>2,715</td></tr>
+<tr><td>2024</td><td>2,345</td></tr>
+<tr><td>2025</td><td>2,663</td></tr>
+<tr><td>2026, to 28 October</td><td>2,257</td></tr>
+<tr><td>Total</td><td>14,167</td></tr>
+</table>
+
+<h2>Historical audit results</h2>
+<p>The fresh sample contains 200 records from 2021–2024, selected before classification. Two independent readers assessed every sampled announcement without seeing the production labels or each other's decisions. A third reader assessed disagreements, low-confidence cases, and selected agreements.</p>
+<p>Initial classifications agreed with the final reference on 177 records, or 88.5%. The Wilson 95% interval is 83.3%–92.2%. This interval describes sample uncertainty; it does not account for bias the AI readers share.</p>
+<p>Among reference records assigned levels 1–5, agreement was 123 of 145, or 84.8%. The <a href="historical-audit.html">historical audit report</a> gives category results and uncertainty details.</p>
+<p>All 233 initial historical level-4 and level-5 decisions received a second reading. That targeted review checks existing high ratings; it cannot find every large change that was given a lower rating.</p>
+<p>The random sample contained two reference level-4 records, and the initial classifications missed both. It contained no reference level-5 records. Major-expansion and new-product trends therefore remain provisional.</p>
+
+<h2>Recent audit results</h2>
+<p>A separate fresh sample of 200 records from 2025–2026 was scored against a blind, adjudicated AI reference. 173 classifications matched, or 86.5%, with a Wilson 95% interval of 81.1%–90.6%. The <a href="fresh-audit.html">fresh-sample audit report</a> gives the details. Its findings were not applied as corrections.</p>
+
+<h2>Checks completed</h2>
+<p>The release checks confirm unique source addresses and a magnitude decision for every record. They confirm that the public dataset holds every record with the same levels, reasons and bases as the full release, and that it holds no announcement text. A separate check confirms that this site's counts equal the release's verified annual, monthly and per-service counts.</p>
+
+<h2>Limits that remain</h2>
+<ul>
+<li>Classification covers the collected announcements. Spot checks have not established that the collection holds every AWS announcement.</li>
+<li>All labels are AI judgments. The audits measure agreement with AI references, not accuracy validated by people.</li>
+<li>226 records are marked needs review; 204 of them are from 2021–2024.</li>
+<li>Service tags are unknown on 564 records, 246 of them from 2021–2024. Service tags can overlap, so service totals must not be added together.</li>
+<li>Announcement counts are not counts of unique features or products.</li>
+<li>Search on this site covers titles and reasons only, because the dataset does not hold announcement text.</li>
+</ul>
+<p>Treat category trends, and above all level 4 and level 5 trends, as provisional until rare categories and historical coverage have had broader independent review.</p>
+<footer>
+  <p>Release 25 November 2026. Collection cutoff 28 October 2026.</p>
+  <p>The magnitude levels, reasons and bases are our own classifications, offered under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a>. Announcement titles and the linked announcement pages remain the property of Amazon Web Services and are outside that licence.</p>
+  <p>This site is not affiliated with, sponsored by or endorsed by Amazon Web Services. It sets no cookies and loads nothing from other sites.</p>
+</footer>
+</main>
+</body>
+</html>

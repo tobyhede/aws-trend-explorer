@@ -1,6 +1,6 @@
 # The hosted explorer counts in plain JavaScript, not DuckDB-Wasm
 
-The local explorer and the build both use DuckDB, so DuckDB-Wasm was the obvious choice for the hosted explorer. We rejected it: the engine file is about 36 MB, and the public dataset is under 1 MB and 14,167 records, which plain JavaScript filters and counts in milliseconds. The hosted explorer reads one dated Parquet file with a small reader library checked into the repository, and that same file is the download for anyone who wants to run SQL in their own DuckDB.
+The local explorer and the build both use DuckDB, so DuckDB-Wasm was the obvious choice for the hosted explorer. We rejected it: the engine file is about 36 MB, and the public dataset is about 1.5 MB and 14,167 records, which plain JavaScript filters and counts in milliseconds. The hosted explorer reads one dated Parquet file with a small reader library checked into the repository, and that same file is the download for anyone who wants to run SQL in their own DuckDB.
 
 ## Consequences
 

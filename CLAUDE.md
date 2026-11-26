@@ -6,7 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A released data bundle plus a local viewer: 14,167 AWS "What's New" announcements (1 January 2021 – 28 October 2026), each with an AI-assigned product-change magnitude, the saved review evidence behind those labels, and the scripts that replay that evidence into exports and charts. It is distributed as `aws_trend_explorer.zip`; `README.txt` is the recipient-facing entry point.
 
-There is no test suite, linter, or build system. `product_change/verify.py` is the correctness check.
+The repository also holds the hosted explorer (`hosted/`): a public static site that presents the same release from the public dataset, which is the records without saved announcement text. `GLOSSARY.md` fixes the terms release bundle, public dataset, local explorer and hosted explorer; `docs/adr/` records why the public dataset omits text and why the hosted explorer counts in JavaScript.
+
+There is no test suite, linter, or build system. `product_change/verify.py` is the correctness check for the release, and `hosted/check.mjs` is the check for the hosted explorer's counting.
 
 ## Commands
 
@@ -23,6 +25,7 @@ Rebuild pipeline, in this order. Stop `serve.py` first: the build opens `announc
 ```sh
 .venv/bin/python product_change/historical_audit.py score   # score frozen predictions against saved references
 .venv/bin/python product_change/build.py                    # replay decisions into DuckDB, write announcements.csv/json and matched.csv
+.venv/bin/python product_change/public_dataset.py           # write the public dataset (Parquet, nine fields, no announcement text)
 .venv/bin/python product_change/charts.py                   # SVG charts and aggregate CSVs
 .venv/bin/python product_change/verify.py                   # integrated check
 .venv/bin/python product_change/package.py                  # writes ../aws_trend_explorer.zip, replacing any existing one
@@ -37,6 +40,16 @@ Substantive trend analysis needs matplotlib as well:
 .venv/bin/python substantive_trends/recalculate.py
 ```
 
+Hosted explorer, development only (needs Node 22 or later; no package install):
+
+```sh
+.venv/bin/python hosted/pages.py                 # regenerate the supporting pages in hosted/site/
+node hosted/check.mjs                            # counting module against matched.csv, monthly.csv, service_matched.csv and serve.py summaries
+.venv/bin/python hosted/check_site.py            # upload set: no announcement text, no third-party requests, pages current
+python3 -m http.server -d hosted/site 8766       # view it; any static server works
+PAGES_PROJECT=<name> hosted/publish.sh           # manual publish to Cloudflare Pages; run only when the maintainer asks
+```
+
 `REPRODUCING.md` has a snippet that compares rebuilt outputs with the SHA-256 hashes in `release/reproduction.json`.
 
 ## Rules that are easy to break
@@ -46,7 +59,10 @@ Substantive trend analysis needs matplotlib as well:
 - Do not run anything under `magnitude/` to produce current results. That measure (customer consequences, architecture change) is retired; see `magnitude/SUPERSEDED.txt`. `scope/` is likewise earlier-stage evidence.
 - The 4,920 recent (2025–2026) ratings, reasons, and provenance must stay unchanged. `historical.py:verify_recent_baseline` and `verify.py` enforce this.
 - Corrections go into the recorded evidence (`product_change/audit_corrections.json`, or the `REVIEWED` map in `build.py`), keeping the original prediction and audit reference. Then rerun build, charts, and verify. A new release also needs the release date, audit evidence, and `release/reproduction.json` hashes updated.
-- The record count 14,167, the date bounds, and the 28 October cutoff are hard-coded in several places: `serve.py` (`FIRST`, `LAST`, `'10-28'` in SQL), `build.py` (assertion), `product_trends.js` (year and month loops, `2026-10` ending on day 28), and all four documentation files. Changing the corpus means changing all of them.
+- This repository stays private. It contains saved announcement text, which the AWS Site Terms do not let us republish (ADR 0001). Only `hosted/site/` is ever published, and only through `hosted/publish.sh`. Never add `announcement_text`, an excerpt of it, or an index built from it to `hosted/site/` or to the public dataset. The checks are a backstop, not a licence: `verify.py` fails on a text field or a whole saved text in any public field, and `hosted/check_site.py` fails on a run of eight copied words in a page or script, but neither detects a short excerpt written into a reason.
+- Do not modify the local explorer (`serve.py`, `index.html`, `scope.js`, `magnitude.js`, `product_trends.js`) for hosted explorer work. The two viewers share no code.
+- Do not edit `release/reproduction.json` or `release/documentation_checks.json` between releases. They record the 25 November 2026 release. `REPRODUCING.md` has changed since, so its recorded documentation hash is stale, and the public dataset has no recorded hash yet; refresh both at the next release. `README.txt` does not yet mention the public dataset or its build step.
+- The record count 14,167, the date bounds, and the 28 October cutoff are hard-coded in several places: `serve.py` (`FIRST`, `LAST`, `'10-28'` in SQL), `build.py` (assertion), `product_trends.js` (year and month loops, `2026-10` ending on day 28), and all four documentation files. Changing the corpus means changing all of them. The hosted explorer's page code reads its release date, first date and cutoff from `hosted/site/release.js` alone. A new release also changes: the release date and cutoff in `product_change/public_dataset.py` (file name and metadata; `hosted/check.mjs` fails if they disagree with `release.js`), the static download link in `hosted/site/index.html` (`hosted/check_site.py` fails if it is stale), the record count 14,167 asserted in `public_dataset.py`, `verify.py` and `hosted/check.mjs`, and the month count and comparison years asserted in `hosted/check.mjs`.
 
 ## Architecture
 
@@ -57,6 +73,10 @@ Substantive trend analysis needs matplotlib as well:
 **Current versus legacy columns.** `product_change_level`, `product_change_reason`, and `product_change_basis` are the current measure. `magnitude`, `affected_workload`, `magnitude_reason`, `magnitude_review`, and `legacy_category` are retired but kept for history. `primary_scope` and `title_stage` are unassessed (null) for 2021–2024; `release_type` and `enhancement_facets` are retained earlier labels. Multi-valued fields use different separators: `service` uses `'; '` and `enhancement_facets` uses `'|'`.
 
 **Viewer.** `serve.py` is a single-file, read-only `http.server` bound to 127.0.0.1. It serves `index.html` and a fixed whitelist of static paths (the `pages` dictionary; a new static file needs an entry there), plus `/api/options`, `/api/summary` (LRU-cached per filter set), `/api/rows` (25 per page), and `/export.csv`. Retired architecture and magnitude audit routes deliberately return 410 with `product_change/retired.html`. `index.html` holds the shared state and helpers (`data`, `el`, `fmt`, `esc`, `selectPeriod`, `magnitudeNames`) as globals; `scope.js`, `magnitude.js`, and `product_trends.js` are plain scripts that depend on those globals and on load order, with no bundler or modules. `architecture.js` is not loaded by `index.html`.
+
+**Public dataset.** `product_change/public_dataset.py` selects nine fields from `announcements` into `product_change/public/aws-announcements-<release date>.parquet` (Snappy, which the vendored reader decodes without extra code) and copies the file to `hosted/site/data/` when `hosted/` exists. The copy in `product_change/public/` goes into the release bundle; `package.py` leaves `hosted/` out. Dated files from earlier releases stay in `hosted/site/data/` so their addresses keep working.
+
+**Hosted explorer.** `hosted/site/` is exactly what is uploaded: plain HTML, CSS and JavaScript modules, no bundler, no package install, no CDN. `counting.js` holds all filtering and counting, including the share denominator, and touches no page elements; `app.js` only draws; `release.js` is the one place for the release date and cutoff; `vendor/hyparquet/` is a pinned copy of hyparquet 1.33.2. The page fetches the Parquet file once and counts in memory. Search covers title and reason only, so it can return fewer records than the local explorer. `method.html`, `historical-audit.html`, `fresh-audit.html`, `data-guide.html` and `release-notes.html` in `hosted/site/` are generated by `hosted/pages.py` from the release's reports and from `hosted/pages/`; edit the sources, not the outputs. The 120-record review (`review.html`) and raw review evidence are not published.
 
 **Scope filter quirk.** Because `primary_scope` exists only for 2025–2026, selecting a scope filter in `serve.py:overview` shifts the series start to 2025.
 
