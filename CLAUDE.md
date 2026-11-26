@@ -93,3 +93,17 @@ PAGES_PROJECT=<name> hosted/publish.sh           # manual publish to Cloudflare 
 Documentation in this bundle states its limits carefully: labels are AI judgments, corpus coverage is not proven exhaustive, and level 4 and 5 trends are provisional. Keep that hedging when editing docs or adding analysis; a successful rebuild shows reproducibility, not accuracy.
 
 `historical-methods.md` and `subtype-methods.md` describe earlier pipelines whose scripts (`historical/`, `subtype_validation/`) are not in this bundle. Their rebuild commands will not run here.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in this repository's GitHub Issues, through the `gh` CLI. The earlier hosted explorer spec and issues stay as files under `.scratch/hosted-explorer/`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five default labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `GLOSSARY.md` and `docs/adr/` at the repository root. See `docs/agents/domain.md`.
