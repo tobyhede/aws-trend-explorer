@@ -48,7 +48,7 @@ TEMPLATE = """<!doctype html>
 {body}
 <footer>
   <p>Release {release}. Collection cutoff {cutoff}.</p>
-  <p>The magnitude levels, reasons and bases are our own classifications, offered under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a>. Announcement titles and the linked announcement pages remain the property of Amazon Web Services and are outside that licence.</p>
+  <p>The magnitude levels, reasons and bases are classifications by Toby Hede, offered under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a>. To reuse them, credit “Toby Hede, AWS announcement explorer” and link to this site. Announcement titles and the linked announcement pages remain the property of Amazon Web Services and are outside that licence.</p>
   <p>This site is not affiliated with, sponsored by or endorsed by Amazon Web Services. It sets no cookies and loads nothing from other sites.</p>
 </footer>
 </main>

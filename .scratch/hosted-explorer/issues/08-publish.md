@@ -4,9 +4,9 @@
 
 **Blocked by:** 03, 04, 05, 06, and the maintainer's choice of domain and subdomain
 
-**Status:** needs-info
+**Status:** ready
 
-- [ ] The maintainer has named the domain and subdomain
+- [x] The maintainer has named the domain and subdomain: `aws-whats-new.tobyhede.com`, Pages project `aws-whats-new`
 - [ ] One documented command uploads only the hosted explorer's publishable files
 - [ ] Nothing containing saved announcement text is uploaded; the upload set is checked for this before publishing
 - [ ] The public dataset is served at an address that includes the release date, and the layout keeps earlier files in place at later releases

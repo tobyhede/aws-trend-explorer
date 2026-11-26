@@ -53,10 +53,20 @@ Chart rendering, keyboard operation and the deployed site are not automated. Bef
 Publishing is manual. Nothing deploys automatically, and no analytics are enabled.
 
 ```sh
-PAGES_PROJECT=<cloudflare-pages-project> hosted/publish.sh
+PAGES_PROJECT=aws-whats-new hosted/publish.sh
 ```
 
-The script runs the three checks above and then uploads `hosted/site/` to Cloudflare Pages with Wrangler. It needs a Cloudflare login (`npx wrangler login`) and an existing Pages project with the custom subdomain attached. Do not enable Cloudflare Web Analytics on the project: it injects a third-party script.
+The site's address is https://aws-whats-new.tobyhede.com, served by the Cloudflare Pages project `aws-whats-new`.
+
+The script runs the three checks above and then uploads `hosted/site/` to Cloudflare Pages with Wrangler. It needs a Cloudflare login (`npx wrangler login`).
+
+First publish only:
+
+1. Create the project: `npx wrangler@4 pages project create aws-whats-new --production-branch main`.
+2. Run the publish command.
+3. In the Cloudflare dashboard, open Workers & Pages, then `aws-whats-new`, then Custom domains, and add `aws-whats-new.tobyhede.com`. Cloudflare adds the DNS record and the certificate.
+
+Do not enable Cloudflare Web Analytics on the project: it injects a third-party script.
 
 A direct upload replaces the whole site, so a dated dataset stays at its address only while its file stays in `site/data/`. Never delete an earlier release's file.
 
