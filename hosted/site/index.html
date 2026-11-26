@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>AWS announcement explorer</title>
-<link rel="stylesheet" href="site.css">
-<script type="module" src="app.js"></script>
+<link rel="stylesheet" href="site.css?v=annual-comparison-3">
+<script type="module" src="app.js?v=annual-comparison-3"></script>
 </head>
 <body>
 <main>
@@ -51,7 +51,10 @@
 
 <section class="card" aria-labelledby="annualTitle">
   <h2 id="annualTitle">Announcements by magnitude level, matched period</h2>
-  <p>Each year is counted over the same dates, 1 January to <span data-cutoff-day>28 October</span>, so years compare fairly. Levels are ordered categories that describe the announced change; they are not weights. Select a count to list its records.</p>
+  <p>1 January to <span data-cutoff-day>28 October</span> in each year.</p>
+  <fieldset class="series-picker"><legend>Show on chart</legend><div id="annualLegend"></div></fieldset>
+  <div id="annualTrends" role="img" aria-label="Annual announcement counts for the selected series. Exact values follow in the table."></div>
+  <p>Select a count in the table to list its announcements.</p>
   <div class="scroll" id="annual"></div>
 </section>
 

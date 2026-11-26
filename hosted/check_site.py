@@ -80,7 +80,7 @@ def check():
             if re.match(r'https?://', target):
                 assert tag == 'a', f'{path.name}: <{tag}> loads {target}'
             else:
-                assert (path.parent / target.split('#')[0]).exists(), f'{path.name}: broken link {target}'
+                assert (path.parent / target.split('#')[0].split('?')[0]).exists(), f'{path.name}: broken link {target}'
     index = (SITE / 'index.html').read_text()
     assert f'href="data/{NAME}"' in index, 'index.html download link does not name the current dataset'
     print(f'Checked {len(files)} files for upload: no announcement text, no third-party requests, pages current, links resolve.')

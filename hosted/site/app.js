@@ -30,7 +30,30 @@ let chartFocus = null; // 'month|level' of the chart segment that holds the tab 
 
 const filters = () => Object.fromEntries(['q', 'type', 'service', 'facet'].map(key => [key, el(key).value]).filter(([, value]) => value));
 
+function drawAnnualTrend() {
+  const years = summary.years;
+  const series = Array.from(el('annualLegend').querySelectorAll('input:checked'), input => ({
+    level: input.value,
+    counts: years.map(y => input.value === 'total' ? y.matched : summary.annual[y.year][input.value] || 0)
+  }));
+  if (!series.length) {
+    el('annualTrends').textContent = 'Select a series to see its trend.';
+    return;
+  }
+  const ceiling = niceCeiling(Math.max(...series.flatMap(s => s.counts)));
+  const lines = series.map(({level, counts}) => {
+    const points = counts.map((count, i) => [100 * i / Math.max(1, years.length - 1), 100 * (1 - count / ceiling)]);
+    return `<polyline class="lv${level}" points="${points.map(p => p.join(',')).join(' ')}"><title>${esc(LEVEL_NAMES[level] || 'All announcements')}</title></polyline>`;
+  }).join('');
+  const ticks = [4, 3, 2, 1, 0];
+  el('annualTrends').innerHTML = `<div class="trend-scale">${ticks.map(t => `<span>${fmt(t * ceiling / 4)}</span>`).join('')}</div>
+    <div class="trend-plot"><svg class="annual-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <path class="trend-grid" d="${ticks.map(t => `M0 ${25*t}H100`).join(' ')}"/>${lines}</svg>
+    <div class="trend-years">${years.map(y => `<span>${y.year}</span>`).join('')}</div></div>`;
+}
+
 function drawAnnual() {
+  drawAnnualTrend();
   const years = summary.years;
   const head = years.map(y => `<th scope="col">${y.year}</th>`).join('');
   const rows = LEVELS.map(level => `<tr><th scope="row">${esc(levelLabel(level))}</th>` + years.map(y => {
@@ -188,6 +211,10 @@ function wire() {
   el('q').oninput = () => { clearTimeout(timer); timer = setTimeout(refresh, 200); };
   el('filters').onsubmit = event => { event.preventDefault(); refresh(); };
   el('filters').onreset = () => setTimeout(refresh);
+  el('annualLegend').innerHTML = [...LEVELS, 'total'].map(level =>
+    `<label><input type="checkbox" value="${level}" ${level === 'total' ? '' : 'checked'}><i class="swatch lv${level}"></i>${level === 'total' ? 'All announcements' : esc(levelLabel(level))}</label>`
+  ).join('');
+  el('annualLegend').onchange = drawAnnualTrend;
   el('unit').onchange = drawMonthly;
   el('annual').onclick = event => { const button = event.target.closest('button[data-level]'); if (button) choose(button); };
   el('monthly').onclick = event => { const segment = event.target.closest('rect.seg'); if (segment) choose(segment); };
