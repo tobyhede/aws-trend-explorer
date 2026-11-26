@@ -1,10 +1,10 @@
 const scopeStyles = {
-  new_product: ['New product', '#653f79'],
-  new_capability: ['New capability', '#086c67'],
-  improved: ['Existing capability improved', '#ba652c'],
-  extended: ['Existing capability extended', '#507baf'],
-  operational: ['Commercial, lifecycle or maintenance', '#845c47'],
-  unclear: ['Unclear', '#85908e']
+  new_product: ['New product', 'var(--scope1)'],
+  new_capability: ['New capability', 'var(--scope2)'],
+  improved: ['Existing capability improved', 'var(--scope3)'],
+  extended: ['Existing capability extended', 'var(--scope4)'],
+  operational: ['Commercial, lifecycle or maintenance', 'var(--scope5)'],
+  unclear: ['Unclear', 'var(--scope6)']
 };
 const scopeName = key => scopeStyles[key]?.[0] ?? key;
 const signedCount = value => (value > 0 ? '+' : '') + fmt(value);
@@ -25,28 +25,28 @@ function drawScope() {
 function drawScopeMonths(months, scopes) {
   const share = el('scopeUnit').value === 'share';
   const total = counts => scopes.reduce((sum, scope) => sum + (counts[scope] || 0), 0);
-  const maximum = share ? 100 : Math.max(1, ...Array.from(months.values(), total));
+  const maximum = share ? 100 : niceCeiling(Math.max(1, ...Array.from(months.values(), total)));
   const left = 46, baseline = 182, height = 154, step = 35;
   let chart = '', table = '';
   for (let tick = 0; tick <= 4; tick++) {
     const y = baseline - tick * height / 4;
-    chart += '<path d="M'+left+' '+y+'h'+(step*months.size)+'" stroke="#e0e9e4"/>'
-      + text(left-6,y+4,Math.round(maximum*tick/4)+(share?'%':''),'end');
+    chart += '<path d="M'+left+' '+y+'h'+(step*months.size)+'" style="stroke:var(--grid)"/>'
+      + text(left-6,y+4,fmt(Math.round(maximum*tick/4))+(share?'%':''),'end');
   }
   let i = 0;
   for (const [date, counts] of months) {
     let y = baseline;
     const x = left + i*step + 4, sum = total(counts);
-    table += '<tr><th>'+date.slice(0,7)+'</th>';
+    table += '<tr><th scope="row">'+date.slice(0,7)+'</th>';
     for (const scope of scopes) {
       const n = counts[scope] || 0;
       table += '<td>' + (n ? '<button data-month="'+date+'" data-label="'+scope+'">'+fmt(n)+'</button>' : '0') + '</td>';
       if (!n) continue;
       const fraction = n / sum, size = height*(share ? fraction : n/maximum);
       y -= size;
-      const description = date.slice(0,7)+' · '+scopeName(scope)+' · '+fmt(n)+' ('+(100*fraction).toFixed(1)+'%)';
-      chart += '<rect class="point" role="button" tabindex="0" data-month="'+date+'" data-label="'+scope
-        +'" x="'+x+'" y="'+y+'" width="26" height="'+size+'" fill="'+scopeStyles[scope][1]+'" aria-label="'+description+'"><title>'+description+'</title></rect>';
+      const description = monthTitle(date)+', '+scopeName(scope)+': '+fmt(n)+' announcements, '+(100*fraction).toFixed(1)+'% of the month';
+      chart += '<rect class="point" role="button" data-month="'+date+'" data-label="'+scope
+        +'" x="'+x+'" y="'+y+'" width="26" height="'+size+'" style="fill:'+scopeStyles[scope][1]+'" aria-label="'+description+'. List them."></rect>';
     }
     table += '</tr>';
     if (i % 3 === 0) chart += text(x+13,baseline+18,date.slice(0,7));
@@ -54,15 +54,21 @@ function drawScopeMonths(months, scopes) {
   }
   plot('scopeChart',chart,left+step*months.size+12,209,'Monthly announcements by primary scope');
   el('scopeLegend').innerHTML = scopes.map(key => '<span><i style="background:'+scopeStyles[key][1]+'"></i>'+scopeName(key)+'</span>').join('');
-  el('scopeTable').innerHTML = '<table class="bars"><thead><tr><th>Month</th>'+scopes.map(key => '<th>'+scopeName(key)+'</th>').join('')+'</tr></thead><tbody>'+table+'</tbody></table>';
+  el('scopeTable').innerHTML = '<table class="bars"><thead><tr><th scope="col">Month</th>'+scopes.map(key => '<th scope="col">'+scopeName(key)+'</th>').join('')+'</tr></thead><tbody>'+table+'</tbody></table>';
   const show = target => {
     const segment = target.closest('[data-month]');
     if (segment) selectPeriod(...interval({date:segment.dataset.month},'monthly'),segment.dataset.label);
   };
   el('scopeChart').onclick = event => show(event.target);
-  el('scopeChart').onkeydown = event => {
-    if (['Enter',' '].includes(event.key)) {event.preventDefault(); show(event.target);}
-  };
+  chartTips(el('scopeChart'), mark => {
+    const counts = months.get(mark.dataset.month), sum = total(counts);
+    const rows = scopes.map(scope => {
+      const n = counts[scope] || 0;
+      return {color: scopeStyles[scope][1], value: fmt(n), label: scopeName(scope)+(sum ? ' · '+(100*n/sum).toFixed(1)+'%' : ''), on: scope === mark.dataset.label};
+    });
+    return {title: monthTitle(mark.dataset.month), rows: [...rows, {value: fmt(sum), label: 'All shown scopes'}]};
+  });
+  roving(el('scopeChart'));
   el('scopeTable').onclick = event => show(event.target);
 }
 

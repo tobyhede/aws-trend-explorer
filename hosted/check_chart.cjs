@@ -8,32 +8,44 @@ async function check() {
     for (const width of [1200, 375]) {
       const page = await browser.newPage({ viewport: { width, height: 900 } });
       await page.goto(process.argv[2]);
-      const lines = page.locator('#annualTrends polyline');
-      await lines.first().waitFor();
-      assert.equal(await lines.count(), 7);
+      const panels = page.locator('#annualTrends .panel');
+      await panels.first().waitFor();
+      assert.equal(await panels.count(), 7);
       assert.ok(await page.locator('#annual table').isVisible());
-      for (const line of await lines.all()) {
-        const style = await line.evaluate(node => {
-          const rect = node.ownerSVGElement.getBoundingClientRect();
-          const color = getComputedStyle(document.querySelector('#legend .' + node.getAttribute('class'))).backgroundColor;
-          return { stroke: getComputedStyle(node).stroke, color,
-            left: node.getBoundingClientRect().left - rect.left,
-            right: rect.right - node.getBoundingClientRect().right,
-            count: node.points.length };
-        });
-        assert.equal(style.stroke, style.color);
-        assert.ok(Math.abs(style.left) < 1 && Math.abs(style.right) < 1);
-        assert.equal(style.count, await page.locator('#annual thead th').count() - 1);
+      const years = await page.locator('#annual thead th').count() - 1;
+      for (const panel of await panels.all()) {
+        assert.equal(await panel.locator('polyline').evaluate(node => node.points.length), years);
+        assert.equal(await panel.locator('circle').count(), years);
       }
+      // Each panel's end label is the last column of the matching table row.
+      const endLabels = () => page.locator('#annualTrends text.end').allTextContents();
+      const lastColumn = async () => (await page.locator('#annual tbody tr td:last-child').allTextContents()).slice(0, 7);
+      assert.deepEqual(await endLabels(), await lastColumn());
+      const unfiltered = await endLabels();
+      await page.locator('#service').selectOption('aws-lambda');
+      assert.notDeepEqual(await endLabels(), unfiltered);
+      assert.deepEqual(await endLabels(), await lastColumn());
+      await page.locator('#clear').click();
+      await page.waitForFunction(expected => [...document.querySelectorAll('#annualTrends text.end')].map(t => t.textContent).join() === expected, unfiltered.join());
+
       const first = page.locator('#annualLegend input[value="1"]');
       await first.uncheck();
-      assert.equal(await lines.count(), 6);
+      assert.equal(await panels.count(), 6);
       await first.check();
       await page.locator('#annualLegend input[value="total"]').check();
-      assert.equal(await lines.count(), 8);
-      await page.locator('#annual tbody button').first().click();
+      assert.equal(await panels.count(), 8);
+
+      const point = page.locator('#annualTrends rect.hit[data-series="1"]').first();
+      await point.hover();
+      assert.match(await page.locator('.tip').innerText(), /Parameter change/);
+      await point.click();
       assert.match(await page.locator('#selection').innerText(), /Parameter change/);
-      console.log(width + 'px: table, drill-down, simultaneous series, colors and plot edges passed');
+      assert.equal(await page.locator('#annualTrends circle.selected').count(), 1);
+
+      await page.locator('#monthly rect.seg').first().hover();
+      assert.equal(await page.locator('.tip div').count(), 8);
+      assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'page scrolls sideways');
+      console.log(width + 'px: panels, filters, series picker, tooltips, drill-down and page width passed');
       await page.close();
     }
   } finally {

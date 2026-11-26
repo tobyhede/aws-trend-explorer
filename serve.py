@@ -12,6 +12,12 @@ from urllib.parse import parse_qs, urlsplit
 import duckdb
 
 HERE = Path(__file__).resolve().parent
+SITE=HERE/'hosted'/'site'
+MIME={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.svg':'image/svg+xml','.parquet':'application/vnd.apache.parquet','.txt':'text/plain; charset=utf-8','.md':'text/plain; charset=utf-8'}
+def site_file(name):
+    """A file of the explorer page under hosted/site, or None. Never a path outside that folder."""
+    target=(SITE/name).resolve()
+    return target if name and target.is_file() and SITE.resolve() in target.parents else None
 DEFAULT = HERE / 'announcements.duckdb'
 FIRST = date(2021, 1, 1)
 LAST = date(2026, 10, 28)
@@ -107,7 +113,8 @@ def serve(database, port):
         def do_GET(self):
             path=urlsplit(self.path); q={k:v[-1] for k,v in parse_qs(path.query).items()}
             try:
-                if path.path=='/':return self.reply((HERE/'index.html').read_bytes(),'text/html; charset=utf-8')
+                # The explorer is the page that is published (hosted/site). data-local tells it that saved announcement text is available here.
+                if path.path=='/':return self.reply((SITE/'index.html').read_text().replace('<html lang="en">','<html lang="en" data-local>',1),'text/html; charset=utf-8')
                 pages={'/product_trends.js':('product_trends.js','application/javascript'),
                        '/historical-product-audit':('product_change/historical_review/report.html','text/html'),
                        '/historical-audit.csv':('product_change/historical_review/row_audit.csv','text/csv'),
@@ -133,7 +140,12 @@ def serve(database, port):
                     if path.path in {'/architecture-audit','/architecture.json','/architecture.svg','/architecture-rows.csv','/architecture-strata.csv','/magnitude/audit.html'}:
                         return self.reply((HERE/'product_change/retired.html').read_bytes(),'text/html; charset=utf-8',410)
                     return self.reply((HERE/filename).read_bytes(),mime+'; charset=utf-8')
+                static=site_file(path.path.lstrip('/'))
+                if static:return self.reply(static.read_bytes(),MIME.get(static.suffix,'application/octet-stream'))
                 if path.path=='/api/options': result=choices
+                elif path.path=='/api/text':
+                    with connect() as db:row=db.execute('SELECT announcement_text FROM announcements WHERE source_url=?',[q.get('url','')]).fetchone()
+                    result={'text':row[0] if row else None}
                 elif path.path=='/api/summary':result=summary(tuple(sorted((k,v) for k,v in q.items() if k in ['q','type','service','facet','scope'])))
                 elif path.path in ['/api/rows','/export.csv']:
                     where,args=filters(q);w,a=drill(q);where+=w;args+=a

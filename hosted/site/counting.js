@@ -117,6 +117,19 @@ export function summarize(records, filters, release) {
 }
 
 /**
+ * Announcements per tag and year from one summary.breakdown[key], with every level counted together:
+ * {tag: {year: n}}. Tags overlap for service and facet, so do not sum across tags.
+ */
+export function tagTotals(byTag) {
+  const result = {};
+  for (const [tag, byYear] of Object.entries(byTag)) {
+    result[tag] = {};
+    for (const [year, levels] of Object.entries(byYear)) result[tag][year] = Object.values(levels).reduce((sum, n) => sum + n, 0);
+  }
+  return result;
+}
+
+/**
  * The records behind a count, newest first. drill is optional:
  *   {month: 'YYYY-MM', level}  one month and level
  *   {year, level}              one year's matched period and level

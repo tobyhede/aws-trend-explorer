@@ -17,9 +17,9 @@ _Avoid_: Export, public export, download file
 ### Viewers
 
 **Local explorer**:
-The viewer a recipient runs on their own computer from the release bundle, with access to every field including saved announcement text.
+The explorer page run on a recipient's own computer through `serve.py` from the release bundle. It is the same page as the hosted explorer, and it also shows each record's saved announcement text.
 _Avoid_: Explorer (unqualified), server, Python explorer
 
 **Hosted explorer**:
-The public viewer that runs entirely in a visitor's browser and presents a frozen release without saved announcement text.
+The explorer page as published: it runs entirely in a visitor's browser and presents a frozen release without saved announcement text. There is one explorer page; the local and hosted explorers are two ways of running it.
 _Avoid_: Explorer (unqualified), WASM version, interactive version, web app

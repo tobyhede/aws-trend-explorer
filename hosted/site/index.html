@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>AWS announcement explorer</title>
-<link rel="stylesheet" href="site.css?v=annual-comparison-3">
-<script type="module" src="app.js?v=annual-comparison-3"></script>
+<link rel="stylesheet" href="site.css?v=one-explorer-1">
+<script type="module" src="app.js?v=one-explorer-1"></script>
 </head>
 <body>
 <main>
@@ -21,6 +21,7 @@
   <a href="fresh-audit.html">Fresh-sample audit</a>
   <a href="data-guide.html">Data guide</a>
   <a href="release-notes.html">Release notes</a>
+  <label class="theme">Theme <select id="theme"><option value="">Auto</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
   <a id="download" href="data/aws-announcements-2026-11-25.parquet" download>Download the dataset (Parquet)</a>
 </nav>
 
@@ -44,23 +45,39 @@
   <label>Release type <select id="type"></select></label>
   <label>Service <select id="service"></select></label>
   <label>Enhancement facet <select id="facet"></select></label>
-  <button type="reset" id="clear">Clear filters</button>
+  <button type="reset" id="clear">Reset</button>
   <p id="searchNote" class="note">Search matches announcement titles and our classification reasons. Announcement bodies are not in the public dataset and are not searched.</p>
 </form>
+<div id="state" class="state" aria-live="polite"></div>
 <p id="total" class="total" aria-live="polite"></p>
 
+<section class="card" aria-labelledby="compareTitle">
+  <div class="cardhead">
+    <h2 id="compareTitle">How big were the changes? <span id="compareYears"></span></h2>
+    <label>Measure
+      <select id="compareUnit">
+        <option value="count">Announcement count</option>
+        <option value="share">Share of in-scale announcements</option>
+      </select>
+    </label>
+  </div>
+  <p>Each announcement is rated on a five-level scale for the size of the product change it announces, from a parameter change (1) to a new product (5). Each bar counts the announcements at that level from 1 January to <span data-cutoff-day>28 October</span> of its year. Select a number to list its announcements.</p>
+  <div class="scroll" id="compare"></div>
+  <p class="note" id="compareNote"></p>
+</section>
+
 <section class="card" aria-labelledby="annualTitle">
-  <h2 id="annualTitle">Announcements by magnitude level, matched period</h2>
+  <h2 id="annualTitle">Every year by magnitude level, matched period</h2>
   <p>1 January to <span data-cutoff-day>28 October</span> in each year.</p>
-  <fieldset class="series-picker"><legend>Show on chart</legend><div id="annualLegend"></div></fieldset>
-  <div id="annualTrends" role="img" aria-label="Annual announcement counts for the selected series. Exact values follow in the table."></div>
-  <p>Select a count in the table to list its announcements.</p>
+  <fieldset class="series-picker"><legend>Show panels</legend><div id="annualLegend"></div></fieldset>
+  <div id="annualTrends"></div>
+  <p>Each panel has its own scale, so compare shapes across panels, not heights. Select a point, or a count in the table, to list its announcements.</p>
   <div class="scroll" id="annual"></div>
 </section>
 
 <section class="card" aria-labelledby="monthlyTitle">
   <div class="cardhead">
-    <h2 id="monthlyTitle">Announcements by month</h2>
+    <h2 id="monthlyTitle">Magnitude levels by month</h2>
     <label>Measure
       <select id="unit">
         <option value="count">Announcement count</option>
@@ -68,13 +85,28 @@
       </select>
     </label>
   </div>
-  <p id="monthlyNote">Whole calendar months. Shares divide each level by all filtered announcements in the month, including needs-review and outside-scale. Select a bar segment to list its records; inside the chart, use the arrow keys to move and Enter to select.</p>
+  <p id="monthlyNote">Whole calendar months. Shares divide each level by all filtered announcements in the month, including needs-review and outside-scale. Select a bar segment to list its records; inside the chart, use the arrow keys to move and Enter to select. Thin segments are easier to select from the table below the chart.</p>
   <div id="legend" class="legend"></div>
   <div class="scroll" id="monthly"></div>
   <details>
     <summary>Monthly values as a table</summary>
     <div class="scroll tall" id="monthlyTable"></div>
   </details>
+</section>
+
+<section class="card" aria-labelledby="breakTitle">
+  <div class="cardhead">
+    <h2 id="breakTitle">What changed? <span id="breakYears"></span></h2>
+    <label>Break down by
+      <select id="split">
+        <option value="type">Release type</option>
+        <option value="facet">Enhancement facet</option>
+        <option value="service">Service</option>
+      </select>
+    </label>
+  </div>
+  <p id="breakNote"></p>
+  <div class="scroll" id="breakdown"></div>
 </section>
 
 <section class="card" aria-labelledby="recordsTitle">
