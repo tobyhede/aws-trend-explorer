@@ -1,6 +1,6 @@
 # The public dataset omits saved announcement text
 
-The AWS Site Terms (last updated 4 June 2025) reserve all rights in announcement text and give no attribution-based permission to republish it. The public dataset and the hosted explorer therefore carry only the date, title, service tags, classifications, our own reasons and bases, and the source URL for each record. The saved text stays in the release bundle, and this repository stays private because it contains that text.
+The AWS Site Terms (last updated 4 June 2025) reserve all rights in announcement text and give no attribution-based permission to republish it. The public dataset and the hosted explorer therefore carry only the date, title, service tags, classifications, our own reasons and bases, and the source URL for each record. The saved text stays in the release bundle. This ADR first kept the repository private because it contains that text; ADR 0004 replaces that part.
 
 ## Consequences
 
