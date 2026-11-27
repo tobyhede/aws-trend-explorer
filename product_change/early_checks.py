@@ -242,6 +242,20 @@ def a_level_outside_the_scale_or_a_copied_reason_is_rejected():
 
 
 @check
+def a_re_ask_says_why_the_previous_reply_was_rejected():
+    from early_label import label
+    copied = 'now lets customers choose option number 0 for every widget'
+    client = CannedClient(lambda role, records, call: reply(records, reason=copied) if call == 1 else reply(records))
+    with tempfile.TemporaryDirectory() as tmp:
+        label(label_records(1), Path(tmp), client)
+        attempts = json.loads((Path(tmp) / 'reader_a/chunk000.json').read_text())['attempts']
+    first, second = client.calls[0]['system'], client.calls[1]['system']
+    assert 'rejected' not in first and 'rejected' in second and 'choose option number for every widget' in second, second[-300:]
+    assert attempts[1]['retry_note'] and second.endswith(attempts[1]['retry_note'])
+    assert client.calls[2]['system'] == first  # reader B starts clean
+
+
+@check
 def a_rerun_skips_saved_chunks():
     from early_label import label
     with tempfile.TemporaryDirectory() as tmp:

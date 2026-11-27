@@ -94,8 +94,9 @@ def validate(text, records):
         if not isinstance(reason, str) or not reason.strip() or '\n' in reason.strip():
             raise ValueError(f'index {index}: the reason must be one non-empty line')
         record = expected[index]
-        if shingles(reason) & (shingles(record['text']) - shingles(record['title'])):
-            raise ValueError(f'index {index}: the reason copies the announcement text')
+        copied = shingles(reason) & (shingles(record['text']) - shingles(record['title']))
+        if copied:
+            raise ValueError(f'index {index}: the reason copies the announcement text ("{sorted(copied)[0]}")')
         result[index] = {'level': level, 'reason': reason.strip(), 'confidence': confidence}
     missing = sorted(set(expected) - set(result))
     if missing:
@@ -112,9 +113,12 @@ def ask(client, model, system, records, path):
     user = json.dumps(records, ensure_ascii=False, indent=1)
     attempts = []
     for _ in range(ATTEMPTS):
-        response = client.complete(model, system, user)
+        # A re-ask is still a fresh request; it says only why this chunk's previous reply was rejected.
+        note = (f'\n\nA previous reply to this request was rejected: {attempts[-1]["rejected"]}. '
+                'Reply again with a rating for every record.') if attempts else ''
+        response = client.complete(model, system + note, user)
         attempt = {'model': response.get('model'), 'stop_reason': response.get('stop_reason'), 'request_id': response.get('request_id'),
-                   'usage': response.get('usage'), 'reply': response.get('text', ''), 'rejected': None}
+                   'usage': response.get('usage'), 'retry_note': note or None, 'reply': response.get('text', ''), 'rejected': None}
         attempts.append(attempt)
         try:
             ratings = validate(attempt['reply'], records)
@@ -128,7 +132,10 @@ def ask(client, model, system, records, path):
         path.write_text(json.dumps({'model': model, 'system_sha256': digest(system), 'indices': [r['index'] for r in records],
                                     'user': user, 'attempts': attempts, 'ratings': ratings}, indent=1, ensure_ascii=False) + '\n')
         return ratings
-    failed = path.with_suffix('.failed.json')
+    failed, n = path.with_suffix('.failed.json'), 1
+    while failed.exists():  # keep every failed run's evidence
+        n += 1
+        failed = path.with_suffix(f'.failed{n}.json')
     failed.parent.mkdir(parents=True, exist_ok=True)
     failed.write_text(json.dumps({'model': model, 'system_sha256': digest(system), 'user': user, 'attempts': attempts}, indent=1, ensure_ascii=False) + '\n')
     raise RuntimeError(f'{path.name}: no valid reply in {ATTEMPTS} attempts; see {failed}')

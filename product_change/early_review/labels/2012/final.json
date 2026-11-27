@@ -1,0 +1,1664 @@
+{
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/10/AWS-Direct-Connect-GA-US-West-1/": {
+  "index": 0,
+  "level": "NA",
+  "reason": "Only adds new physical connection sites for an existing service; purely geographic.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Only adds new physical connection sites for an existing service; purely geographic.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Only adds new physical connection sites for an existing service; purely geographic.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/15/AWS-Free-Tier-Now-Includes-Windows/": {
+  "index": 1,
+  "level": "NA",
+  "reason": "Free-tier eligibility widened to Windows instances; a pricing/promotional change with no product functionality added.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Free-tier eligibility widened to Windows instances; a pricing/promotional change with no product functionality added.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Free-tier eligibility widened to Windows instances; a pricing/promotional change with no product function added.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/18/aws-announces-dynamodb/": {
+  "index": 2,
+  "level": "5",
+  "reason": "Launch of a distinct, separately adoptable managed NoSQL database service.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "5",
+   "reason": "Launch of a distinct, separately adoptable managed NoSQL database service.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "5",
+   "reason": "Launch of a distinct managed NoSQL database service that customers adopt separately.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/19/Announcing-IAM-Identity-Federation-To-AWS-Management-Console/": {
+  "index": 3,
+  "level": "2",
+  "reason": "Existing federation, previously for API access, now also reaches the web console as an additional target.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Existing federation, previously for API access, now also reaches the web console as an additional target.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Existing federation mechanism gains the web console as an additional access target alongside the APIs.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/24/amazon-rds-announces-support-for-vpc/": {
+  "index": 4,
+  "level": "2",
+  "reason": "Existing DB instance provisioning gains a private-network deployment target with otherwise unchanged functionality.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Existing DB instance provisioning gains a private-network deployment target with otherwise unchanged functionality.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Existing database instances can now be placed in a private virtual network, a new deployment target with unchanged functionality.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/": {
+  "index": 5,
+  "level": "5",
+  "reason": "Public beta of a distinct new hybrid storage service built around an on-premises appliance.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "5",
+   "reason": "Public beta of a distinct new hybrid storage service built around an on-premises appliance.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "5",
+   "reason": "Public beta of a newly positioned hybrid storage service with its own on-premises appliance.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/30/amazon-web-services-introduces-new-premium-support-features/": {
+  "index": 6,
+  "level": "3",
+  "reason": "Support plans gain an automated best-practice checking capability plus wider support scope, framed as plan features rather than a standalone product.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Support plans gain an automated best-practice checking capability plus wider support scope, framed as plan features rather than a standalone product.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Support plans gain an automated best-practice checking tool plus wider support scope, both new capabilities inside an existing offering.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/02/02/aws-cloudformation-new-features-vpc/": {
+  "index": 7,
+  "level": "2",
+  "reason": "Templating service extends its resource coverage to private-network constructs and deployment into them.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Templating service extends its resource coverage to private-network constructs and deployment into them.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Template provisioning extended to cover virtual network resources and deploying existing resource types into them.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/02/02/cloudfront-route-53-add-osaka-milan-locations/": {
+  "index": 8,
+  "level": "NA",
+  "reason": "Two new edge sites; purely geographic expansion.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Two new edge sites; purely geographic expansion.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Two additional edge sites; geographic expansion only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/02/06/amazon-s3-announces-new-lower-prices-for-standard-storage/": {
+  "index": 9,
+  "level": "NA",
+  "reason": "Storage price cut only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Storage price cut only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Storage price cut with no functional change.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/": {
+  "index": 10,
+  "level": "5",
+  "reason": "Launch of a distinct workflow coordination service with its own programming framework.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "5",
+   "reason": "Launch of a distinct workflow coordination service with its own programming framework.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "5",
+   "reason": "Launch of a distinct workflow coordination service, with an accompanying programming framework.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/02/22/elasticache-in-oregon-and-sao-paulo/": {
+  "index": 11,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Regional availability expansion only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Existing caching service reaches two more regions; geographic only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/02/29/dynamodb-now-available-in-japan/": {
+  "index": 12,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Regional availability expansion only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Regional availability expansion of an existing database service.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/05/new-lower-pricing-for-amazon-ec2-rds-and-elasticache/": {
+  "index": 13,
+  "level": "NA",
+  "reason": "Price cuts plus volume discount tiers; entirely pricing with no functional change.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Price cuts plus volume discount tiers; entirely pricing with no functional change.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Price cuts plus volume discount tiers; a pricing structure change without new billing functionality.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/06/aws-elastic-beanstalk-now-supports-resource-permissions/": {
+  "index": 14,
+  "level": "2",
+  "reason": "Adds resource-level access control granularity to existing application management operations.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Adds resource-level access control granularity to existing application management operations.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Adds finer-grained access controls over existing application deployment resources.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/07/dynamodb-now-available-in-europe/": {
+  "index": 15,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Regional availability expansion only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Regional availability expansion of an existing database service.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/07/three-new-Amazon-EC2-features/": {
+  "index": 16,
+  "level": "3",
+  "reason": "Alongside a new instance size and broader 64-bit image compatibility, adds a new in-console way to log in to Linux instances.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Alongside a new instance size and broader 64-bit image compatibility, adds a new in-console way to log in to Linux instances.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Bundle of a new instance size, wider 64-bit image compatibility, and a new in-console login path to Linux instances; the last is a distinct interface.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/08/Announcing-IAM-Password-Management-Billing-Access/": {
+  "index": 17,
+  "level": "3",
+  "reason": "Account-wide password strength policy is a distinct new operation, alongside billing-page permission delegation and a self-service password screen.",
+  "confidence": "medium",
+  "basis": "early_review: readers disagreed; adjudicated by claude-fable-5-2",
+  "reader_a": {
+   "level": "3",
+   "reason": "Introduces account-wide password policy enforcement and delegated billing-page access as new operations, plus self-service password change.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Adds password-strength policy, billing-page permissions and a self-service password screen, all refining existing user management.",
+   "confidence": "medium"
+  },
+  "adjudication": {
+   "level": "3",
+   "reason": "Account-wide password strength policy is a distinct new operation, alongside billing-page permission delegation and a self-service password screen.",
+   "confidence": "medium"
+  }
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/": {
+  "index": 18,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Regional availability expansion only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Existing gateway service becomes available in one more region.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/19/amazon-cloudfront-lowers-minimum-expiration-period/": {
+  "index": 19,
+  "level": "2",
+  "reason": "Removes the hour-long caching floor and adds a per-distribution minimum expiry setting through the API.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Removes the hour-long caching floor and adds a per-distribution minimum expiry setting through the API.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Removes the hour-long caching floor and exposes a configurable minimum expiry setting on distributions.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/19/amazon-rds-increases-backup-retention-period/": {
+  "index": 20,
+  "level": "1",
+  "reason": "Maximum automated backup retention limit raised.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "Maximum automated backup retention limit raised.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "Maximum automated backup retention limit raised from 8 to 35 days.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/20/php-and-git-deployment-for-aws-elastic-beanstalk/": {
+  "index": 21,
+  "level": "3",
+  "reason": "Beyond another language runtime, adds a new deployment interface based on pushing from version-control repositories.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Beyond another language runtime, adds a new deployment interface based on pushing from version-control repositories.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Adds a second language runtime and a new Git push-based deployment path, the latter being a distinct interface.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/21/amazon-route-53-adds-latency-based-routing/": {
+  "index": 22,
+  "level": "3",
+  "reason": "Adds a distinct new DNS routing method that picks endpoints by measured regional latency.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds a distinct new DNS routing method that picks endpoints by measured regional latency.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a new DNS routing method that picks endpoints by measured regional latency.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/22/amazon-rds-free-trial/": {
+  "index": 23,
+  "level": "NA",
+  "reason": "Time-limited free trial offer; promotional pricing only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Time-limited free trial offer; promotional pricing only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Time-limited free trial offer; promotional pricing only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/29/amazon-cloudfront-improves-live-streaming-support-with-adobe-fms/": {
+  "index": 24,
+  "level": "2",
+  "reason": "Existing live streaming setup gains compatibility with a newer media server version and delivery to additional device platforms.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Existing live streaming setup gains compatibility with a newer media server version and delivery to additional device platforms.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Existing CDN live-streaming setup extended to work with a newer media server version and reach iOS devices, built on existing features.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/01/amazon-cloudfront-announces-support-for-smooth-streaming/": {
+  "index": 25,
+  "level": "2",
+  "reason": "Packages a template and tutorial so the CDN can deliver one more live streaming format from a customer-run origin; no new CDN operation.",
+  "confidence": "medium",
+  "basis": "early_review: readers disagreed; adjudicated by claude-fable-5-2",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds a live adaptive-streaming delivery path to the CDN, packaged as a template-provisioned origin setup.",
+   "confidence": "low"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Adds another live streaming format to CDN delivery, packaged as a provisioning template around a customer-run origin server.",
+   "confidence": "medium"
+  },
+  "adjudication": {
+   "level": "2",
+   "reason": "Packages a template and tutorial so the CDN can deliver one more live streaming format from a customer-run origin; no new CDN operation.",
+   "confidence": "medium"
+  }
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/05/announcing-the-availability-of-reserved-cache-nodes-for-amazon-elasticache/": {
+  "index": 26,
+  "level": "2",
+  "reason": "Adds a reserved-capacity purchase option to the existing cache service; billing functionality that extends how existing nodes are bought.",
+  "confidence": "medium",
+  "basis": "early_review: readers disagreed; adjudicated by claude-fable-5-2",
+  "reader_a": {
+   "level": "3",
+   "reason": "Introduces a reservation purchase model for cache nodes, which is billing functionality rather than a bare price cut.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Adds a reserved-capacity purchasing option to an existing cache service; a billing mechanism rather than a bare price cut.",
+   "confidence": "medium"
+  },
+  "adjudication": {
+   "level": "2",
+   "reason": "Adds a reserved-capacity purchase option to the existing cache service; billing functionality that extends how existing nodes are bought.",
+   "confidence": "medium"
+  }
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/11/aws-announces-cloudsearch/": {
+  "index": 27,
+  "level": "5",
+  "reason": "Launches a standalone managed search service as a distinct offering.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "5",
+   "reason": "Launches a standalone managed search service as a distinct offering.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "5",
+   "reason": "Launches a distinct, standalone managed search service.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/13/aws-announces-sharepoint-on-aws-whitepaper/": {
+  "index": 28,
+  "level": "NA",
+  "reason": "Publication of a reference architecture document; educational only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Publication of a reference architecture document; educational only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Publication of a reference architecture document; educational content only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/19/dynamodb-announces-batchwriteitem/": {
+  "index": 29,
+  "level": "3",
+  "reason": "Adds a distinct new API operation for batched puts and deletes.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds a distinct new API operation for batched puts and deletes.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a distinct new API operation for multi-item writes and deletes.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/19/introducing-aws-marketplace/": {
+  "index": 30,
+  "level": "5",
+  "reason": "Launches a distinct software storefront with integrated billing and deployment.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "5",
+   "reason": "Launches a distinct software storefront with integrated billing and deployment.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "5",
+   "reason": "Launches a distinct software storefront with its own purchasing, deployment and consolidated billing.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/23/aws-elastic-beanstalk-now-available-in-the-asia-pacific-tokyo-region/": {
+  "index": 31,
+  "level": "NA",
+  "reason": "Pure regional availability expansion.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Pure regional availability expansion.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Pure regional availability expansion.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/24/dynamodb-now-available-in-three-additional-regions/": {
+  "index": 32,
+  "level": "NA",
+  "reason": "Pure regional availability expansion.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Pure regional availability expansion.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Pure regional availability expansion.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/25/aws-cloudformation-support-for-creating-vpc-resources/": {
+  "index": 33,
+  "level": "2",
+  "reason": "Extends templating to cover more resource types from another service.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Extends templating to cover more resource types from another service.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Extends the templating service with additional networking resource types it can create.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/26/cluster-compute-eight-extra-large-instance-type-support-now-available-in-amazon-vpc/": {
+  "index": 34,
+  "level": "1",
+  "reason": "One existing instance type joins the list of types launchable in private networks; a supported-value addition.",
+  "confidence": "medium",
+  "basis": "early_review: readers disagreed; adjudicated by claude-fable-5-2",
+  "reader_a": {
+   "level": "2",
+   "reason": "Makes an existing instance type launchable inside private networks; a compatibility extension.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "Adds one existing instance type to the set launchable inside private networks.",
+   "confidence": "medium"
+  },
+  "adjudication": {
+   "level": "1",
+   "reason": "One existing instance type joins the list of types launchable in private networks; a supported-value addition.",
+   "confidence": "medium"
+  }
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/02/amazon-rds-announces-multi-az-enhancements/": {
+  "index": 35,
+  "level": "2",
+  "reason": "Extends an existing standby deployment option to a second engine and adds a failover flag on reboot plus a character set choice at creation.",
+  "confidence": "medium",
+  "basis": "early_review: readers disagreed; adjudicated by claude-fable-5-2",
+  "reader_a": {
+   "level": "3",
+   "reason": "Brings standby replication to another engine, alongside a forced-failover reboot option and character set choices.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Extends an existing standby deployment option to a second engine, adds a failover flag on reboot and a character set choice.",
+   "confidence": "medium"
+  },
+  "adjudication": {
+   "level": "2",
+   "reason": "Extends an existing standby deployment option to a second engine and adds a failover flag on reboot plus a character set choice at creation.",
+   "confidence": "medium"
+  }
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/03/new-and-updated-microsoft-sql-server-offerings-on-amazon-ec2/": {
+  "index": 36,
+  "level": "1",
+  "reason": "Adds supported instance sizes, a database edition and a newer version to the catalogue.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "Adds supported instance sizes, a database edition and a newer version to the catalogue.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "Adds database editions, versions and smaller instance sizes to the supported catalogue.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/08/new-managed-services-for-windows-developers/": {
+  "index": 37,
+  "level": "4",
+  "reason": "Adds a whole new database engine to the managed database service, plus a new application platform for the deployment service.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "4",
+   "reason": "Adds a whole new database engine to the managed database service, plus a new application platform for the deployment service.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "4",
+   "reason": "Adds a whole new database engine with its own licensing models to the managed database service, plus a new application platform runtime.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/09/api-and-iam-support-for-storage-gateway/": {
+  "index": 38,
+  "level": "3",
+  "reason": "Introduces a programmatic interface for the gateway, plus access-control integration.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Introduces a programmatic interface for the gateway, plus access-control integration.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a programmatic interface for the gateway service where none existed, plus access-control integration.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/10/announcing-aws-billing-alerts/": {
+  "index": 39,
+  "level": "3",
+  "reason": "New ability to monitor estimated charges and be notified when they cross a threshold.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "New ability to monitor estimated charges and be notified when they cross a threshold.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces threshold-based notifications on estimated charges, a new monitoring function built on existing alarms.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/11/TCO-Study-for-SAP-on-AWS-White-Paper/": {
+  "index": 40,
+  "level": "NA",
+  "reason": "Cost study document; educational and marketing only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Cost study document; educational and marketing only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Publication of a third-party cost study; educational and marketing content only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/13/amazon-cloudfront-now-supports-dynamic-content/": {
+  "index": 41,
+  "level": "3",
+  "reason": "Adds multi-origin, query-string and per-path cache controls that together enable delivery of non-static content.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds multi-origin, query-string and per-path cache controls that together enable delivery of non-static content.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Adds multiple origins, query string forwarding and per-path cache behaviours, enabling a new class of content delivery.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/15/amazon-simple-email-service-announces-domain-verification/": {
+  "index": 42,
+  "level": "3",
+  "reason": "New domain-level verification operation, accompanied by a raised identity limit.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "New domain-level verification operation, accompanied by a raised identity limit.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a new whole-domain identity verification operation, alongside a raised identity limit.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/16/aws-elastic-beanstalk-now-available-in-the-eu-ireland-region/": {
+  "index": 43,
+  "level": "NA",
+  "reason": "Pure regional availability expansion.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Pure regional availability expansion.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Pure regional availability expansion.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/17/amazon-rds-read-replica-in-vpc/": {
+  "index": 44,
+  "level": "2",
+  "reason": "Extends existing replica functionality to work in private network environments.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Extends existing replica functionality to work in private network environments.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Extends an existing replication feature to work inside private network environments.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/18/aws-console-enhancements-for-elastic-load-balancing-listener-certificate-and-cipher-management/": {
+  "index": 45,
+  "level": "2",
+  "reason": "Exposes existing API-level load balancer settings in the web console, plus a regional expansion of IPv6.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Exposes existing API-level load balancer settings in the web console, plus a regional expansion of IPv6.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Surfaces existing API-only load balancer settings in the web console, plus a regional extension of IPv6.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/25/Announcing-VMExport/": {
+  "index": 46,
+  "level": "3",
+  "reason": "Adds a distinct reverse operation for moving previously imported instances back on-premises.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds a distinct reverse operation for moving previously imported instances back on-premises.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a new operation for moving previously imported instances back out to on-premises virtualisation platforms.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/29/amazon-rds-for-oracle-announces-oem-support/": {
+  "index": 47,
+  "level": "3",
+  "reason": "Adds a vendor management tool option and a new reusable option-set construct for instances.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds a vendor management tool option and a new reusable option-set construct for instances.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a reusable option-set construct for database instances, with a vendor management tool as its first option.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/30/amazon-elastic-mapreduce-now-supports-hive-0-8-1/": {
+  "index": 48,
+  "level": "1",
+  "reason": "Routine addition of a newer framework version to the supported catalogue.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "Routine addition of a newer framework version to the supported catalogue.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "Routine addition of a newer query engine version to the supported catalogue.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/01/amazon-elasticache-free-trial/": {
+  "index": 49,
+  "level": "NA",
+  "reason": "Promotional free trial; a price-only change.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Promotional free trial; a price-only change.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Promotional free trial; a pricing-only change with no product functionality added.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/05/aws-billing-enables-enhanced-csv-reports-and-programmatic-access/": {
+  "index": 50,
+  "level": "3",
+  "reason": "Adds delivery of detailed billing reports to an S3 bucket, a new programmatic access path, alongside a more granular report.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds delivery of detailed billing reports to an S3 bucket, a new programmatic access path, alongside a more granular report.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Adds delivery of the detailed billing report to an S3 bucket, a new programmatic access path alongside a more granular report.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/07/announcing-spot-integration-with-auto-scaling-and-cloudformation/": {
+  "index": 51,
+  "level": "2",
+  "reason": "Spot purchasing becomes usable through two existing provisioning services; the rest is sample templates and a tutorial.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Spot purchasing becomes usable through two existing provisioning services; the rest is sample templates and a tutorial.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Spot purchasing becomes usable through two existing provisioning tools, extending existing operations to new targets; the tutorial is educational.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/10/announcing-internal-load-balancing-in-amazon-virtual-private-cloud/": {
+  "index": 52,
+  "level": "2",
+  "reason": "Existing load balancer creation gains a private-address, non-internet-facing option inside VPC.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Existing load balancer creation gains a private-address, non-internet-facing option inside VPC.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Load balancers gain a private-address, non-internet-facing option inside VPC, extending the existing create operation.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/11/Announcing-IAM-Roles-for-EC2-instances/": {
+  "index": 53,
+  "level": "3",
+  "reason": "Introduces a distinct mechanism for attaching roles to instances with automatic credential delivery.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Introduces a distinct mechanism for attaching roles to instances with automatic credential delivery.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a distinct mechanism for launching instances with a role and having credentials delivered automatically.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/11/amazon-rds-micro/": {
+  "index": 54,
+  "level": "1",
+  "reason": "One more instance size added to the managed MySQL catalogue.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "One more instance size added to the managed MySQL catalogue.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "A smaller instance class is added to the managed MySQL catalogue.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/12/amazon-elastic-mapreduce-hbase-mapr/": {
+  "index": 55,
+  "level": "3",
+  "reason": "The Hadoop service gains a real-time data store option with its own backup-to-S3 functions.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "The Hadoop service gains a real-time data store option with its own backup-to-S3 functions.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Adds a real-time column store workload with S3 backup to the managed Hadoop service, a distinct new capability.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/13/expanded-free-support-new-features-lower-pricing/": {
+  "index": 56,
+  "level": "3",
+  "reason": "Mixed bundle of price cuts and plan tweaks, but it also launches a self-service advisory dashboard and a chat channel.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Mixed bundle of price cuts and plan tweaks, but it also launches a self-service advisory dashboard and a chat channel.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Mixed bundle whose highest substantive item is a new self-service advisory dashboard plus a chat channel; price cuts and renames are secondary.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/19/aws-cloudformation-supports-amazon-dynamodb-and-amazon-cloudfront-dynamic-content/": {
+  "index": 57,
+  "level": "2",
+  "reason": "Template provisioning is extended to further resource types from two other services.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Template provisioning is extended to further resource types from two other services.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Template provisioning is extended to two more resource types.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/19/cloudfront-route-53-add-sydney-australia-location/": {
+  "index": 58,
+  "level": "NA",
+  "reason": "Purely a new edge site; geographic expansion only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Purely a new edge site; geographic expansion only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Purely a new geographic edge site.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/26/amazon-ses-announces-bounce-and-complaint-notifications/": {
+  "index": 59,
+  "level": "3",
+  "reason": "Adds a new feedback channel that delivers bounce and complaint events as structured notifications to topics.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds a new feedback channel that delivers bounce and complaint events as structured notifications to topics.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Adds a new feedback channel delivering bounce and complaint events as structured notifications to topics.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/26/dynamodb-breaks-growth-records/": {
+  "index": 60,
+  "level": "NA",
+  "reason": "Promotional growth milestone with no product change.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Promotional growth milestone with no product change.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Promotional growth statement with no product change.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/27/aws-elastic-beanstalk-announces-updated-command-line-interface/": {
+  "index": 61,
+  "level": "3",
+  "reason": "A new guided command line tool appears next to the existing API-mirroring CLI.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "A new guided command line tool appears next to the existing API-mirroring CLI.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "A new guided command line tool appears alongside the existing API-mirroring CLI.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/06/multiple-ip-addresses-for-amazon-ec2-instances-in-amazon-vpc/": {
+  "index": 62,
+  "level": "3",
+  "reason": "Instances can now hold several movable private addresses, each mappable to a public one; the price cut is secondary.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Instances can now hold several movable private addresses, each mappable to a public one; the price cut is secondary.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Instances can now hold several movable private addresses each mappable to a public one, a distinct networking capability; the price cut is secondary.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/10/Announcing-MFA-protected-API-access/": {
+  "index": 63,
+  "level": "3",
+  "reason": "Policies can now require second-factor authentication for chosen API calls, a new enforcement mechanism.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Policies can now require second-factor authentication for chosen API calls, a new enforcement mechanism.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Adds the ability to require a second authentication factor for chosen API calls through access policies.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/10/aws-elastic-beanstalk-now-available-in-us-west-oregon-and-us-west-northern-california/": {
+  "index": 64,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Regional availability expansion only.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Regional availability expansion only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/17/easily-dkim-sign-your-emails-with-amazon-ses/": {
+  "index": 65,
+  "level": "3",
+  "reason": "Service-side message signing introduced, with new API actions and console setup.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Service-side message signing introduced, with new API actions and console setup.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Service-managed message signing is introduced, with new API actions and console setup.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/18/CloudWatch-Metrics-for-EC2-Status-Checks/": {
+  "index": 66,
+  "level": "2",
+  "reason": "Existing status check results are now exposed as monitoring metrics that can be graphed and alarmed on.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Existing status check results are now exposed as monitoring metrics that can be graphed and alarmed on.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Existing status check results are exposed as metrics for graphing and alarming, extending existing monitoring.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/18/announcing-high-io-instances-for-amazon-ec2/": {
+  "index": 67,
+  "level": "1",
+  "reason": "A new SSD-backed instance type joins the compute catalogue.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "A new SSD-backed instance type joins the compute catalogue.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "A new SSD-backed instance type joins the compute catalogue.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/30/aws-announces-reserved-instances-for-rhel/": {
+  "index": 68,
+  "level": "2",
+  "reason": "The existing reservation purchasing model is extended to cover another operating system platform.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "The existing reservation purchasing model is extended to cover another operating system platform.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "The existing reservation purchasing model is extended to cover an additional operating system platform.",
+   "confidence": "low"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/31/announcing-provisioned-iops-for-amazon-ebs/": {
+  "index": 69,
+  "level": "3",
+  "reason": "Customers can now specify volume performance directly, paired with a new dedicated-throughput launch option for instances.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Customers can now specify volume performance directly, paired with a new dedicated-throughput launch option for instances.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Introduces a volume type with customer-specified performance plus a dedicated-throughput instance launch option.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/09/dynamodb-announces-minimumtablethroughput/": {
+  "index": 70,
+  "level": "1",
+  "reason": "The minimum capacity setting for tables is reduced.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "The minimum capacity setting for tables is reduced.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "The minimum provisioned capacity limit per table is reduced.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/13/AWS-Direct-Connect-Console/": {
+  "index": 71,
+  "level": "3",
+  "reason": "The service gets a graphical management interface for the first time; the added sites are geographic only.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "The service gets a graphical management interface for the first time; the added sites are geographic only.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "The service gains a web console for ordering and managing connections; the new sites are geographic.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/14/dynamodb-announces-in-console-item-updating/": {
+  "index": 72,
+  "level": "2",
+  "reason": "The console table explorer gains edit and copy actions on top of its existing view, add and delete.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "The console table explorer gains edit and copy actions on top of its existing view, add and delete.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "The console table explorer gains edit and copy actions on existing items.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/16/amazon-rds-oracle-announces-vpc-apex-xmldb-timezone-support/": {
+  "index": 73,
+  "level": "2",
+  "reason": "The managed Oracle engine gains private networking compatibility and several additional database options.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "The managed Oracle engine gains private networking compatibility and several additional database options.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Adds private network placement and several database engine options to an existing managed engine.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/19/aws-elastic-beanstalk-now-runs-python-and-seamlessly-integrates-with-amazon-rds/": {
+  "index": 74,
+  "level": "3",
+  "reason": "Beyond another language runtime, it adds database integration and a new declarative environment customisation mechanism.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Beyond another language runtime, it adds database integration and a new declarative environment customisation mechanism.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Beyond a new language runtime and database integration, a new declarative environment customisation mechanism is introduced.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/": {
+  "index": 75,
+  "level": "5",
+  "reason": "Launch of a standalone archival storage service with its own pricing and console setup.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "5",
+   "reason": "Launch of a standalone archival storage service with its own pricing and console setup.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "5",
+   "reason": "Launch of a standalone archival storage service with its own pricing and console setup.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/21/aws-billing-enables-cost-allocation-reports/": {
+  "index": 76,
+  "level": "3",
+  "reason": "Billing gains a distinct new report type that breaks down costs by resource tags.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Billing gains a distinct new report type that breaks down costs by resource tags.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Billing gains a distinct new report type that breaks down costs by resource tags.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/21/dynamodb-announces-binary-data-types/": {
+  "index": 77,
+  "level": "2",
+  "reason": "Two extra attribute data types broaden what existing table operations can store.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Two extra attribute data types broaden what existing table operations can store.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Two additional attribute data types extend what existing table operations can store.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/22/cluster-compute-eight-extra-large-instances-now-available-in-us-west-oregon/": {
+  "index": 78,
+  "level": "NA",
+  "reason": "An existing instance type becomes available in one more region; the sample template is incidental.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "An existing instance type becomes available in one more region; the sample template is incidental.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "An existing instance type becomes available in another region; purely geographic.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/31/amazon-s3-announces-cross-origin-resource-sharing-CORS-support/": {
+  "index": 79,
+  "level": "3",
+  "reason": "Buckets get a new cross-origin configuration interface that lets browsers access them directly without a proxy.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Buckets get a new cross-origin configuration interface that lets browsers access them directly without a proxy.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "Buckets get a new cross-origin configuration interface that enables direct browser access without a proxy.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/04/aws-elastic-beanstalk-now-available-in-the-asia-pacific-singapore-region/": {
+  "index": 80,
+  "level": "NA",
+  "reason": "Purely a regional rollout of an existing service.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Purely a regional rollout of an existing service.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Existing service extended to an additional region only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/04/cloudfront-support-for-cookies-and-price-classes/": {
+  "index": 81,
+  "level": "2",
+  "reason": "Adds cookie forwarding controls, an edge-subset selection option and extra log fields to existing distributions.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Adds cookie forwarding controls, an edge-subset selection option and extra log fields to existing distributions.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Cookie forwarding, edge-subset selection and extra log fields are all new options on existing distributions.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/12/amazon-cloudfront-announces-madrid-edge-location/": {
+  "index": 82,
+  "level": "NA",
+  "reason": "Only adds a new edge location, a geographic expansion.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "NA",
+   "reason": "Only adds a new edge location, a geographic expansion.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "NA",
+   "reason": "Adds one more edge site; a geographic expansion only.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/12/announcing-amazon-ec2-reserved-instance-marketplace/": {
+  "index": 83,
+  "level": "4",
+  "reason": "Introduces a resale marketplace where customers list and buy reservations from each other, a new operating model for reserved capacity.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "4",
+   "reason": "Introduces a resale marketplace where customers list and buy reservations from each other, a new operating model for reserved capacity.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "4",
+   "reason": "Introduces a resale marketplace for reservations, a new buying and selling model within EC2.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/13/RDS-SQL-Server-IPsec-VPN-Route-Propagation-Support-for-Amazon-VPC/": {
+  "index": 84,
+  "level": "2",
+  "reason": "Extends existing features with another engine inside private networks, a static-routing VPN option and automatic route propagation.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Extends existing features with another engine inside private networks, a static-routing VPN option and automatic route propagation.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Adds another database engine inside VPC, a non-BGP VPN routing option and automatic route propagation, all extending existing networking functions.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/13/amazon-rds-oracle-announces-data-pump-support/": {
+  "index": 85,
+  "level": "2",
+  "reason": "Enables a faster vendor import/export utility on the managed Oracle engine, where data import was already possible by older tools.",
+  "confidence": "medium",
+  "basis": "early_review: readers disagreed; adjudicated by claude-fable-5-2",
+  "reader_a": {
+   "level": "3",
+   "reason": "Enables a distinct engine-native bulk import and export mechanism not previously usable on the managed Oracle service.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Adds compatibility with a vendor import/export utility for the existing Oracle engine.",
+   "confidence": "medium"
+  },
+  "adjudication": {
+   "level": "2",
+   "reason": "Enables a faster vendor import/export utility on the managed Oracle engine, where data import was already possible by older tools.",
+   "confidence": "medium"
+  }
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/25/announcing-provisioned-iops-for-amazon-rds/": {
+  "index": 86,
+  "level": "3",
+  "reason": "Adds a new storage class for databases where the customer specifies guaranteed I/O rates at creation.",
+  "confidence": "medium",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "3",
+   "reason": "Adds a new storage class for databases where the customer specifies guaranteed I/O rates at creation.",
+   "confidence": "medium"
+  },
+  "reader_b": {
+   "level": "3",
+   "reason": "New storage class for databases where customers specify a guaranteed I/O rate.",
+   "confidence": "medium"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/26/amazon-rds-sqlserver-announces-sql-server-2012-support/": {
+  "index": 87,
+  "level": "1",
+  "reason": "A newer engine version joins the list of supported database versions.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "A newer engine version joins the list of supported database versions.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "A newer engine version is added to the supported catalogue.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/27/amazon-cloudfront-announces-private-content-support-in-AWS-Console/": {
+  "index": 88,
+  "level": "2",
+  "reason": "An existing API-only feature becomes configurable through the graphical console.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "An existing API-only feature becomes configurable through the graphical console.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "An existing API-only feature becomes configurable through the graphical console.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/27_msm_moved/amazon-cloudfront-announces-private-content-support-in-AWS-Console/": {
+  "index": 89,
+  "level": "2",
+  "reason": "Duplicate posting: an existing API-only feature becomes configurable through the graphical console.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "2",
+   "reason": "Duplicate posting: an existing API-only feature becomes configurable through the graphical console.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "2",
+   "reason": "Duplicate of the previous record: an existing API-only feature gains console configuration.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/27_msm_moved/amazon-rds-oracle-micro-instances/": {
+  "index": 90,
+  "level": "1",
+  "reason": "A smaller instance size is added to the catalogue for one database engine.",
+  "confidence": "high",
+  "basis": "early_review: two claude-fable-5-2 readers agreed",
+  "reader_a": {
+   "level": "1",
+   "reason": "A smaller instance size is added to the catalogue for one database engine.",
+   "confidence": "high"
+  },
+  "reader_b": {
+   "level": "1",
+   "reason": "A smaller instance size is added to the catalogue for one database engine.",
+   "confidence": "high"
+  },
+  "adjudication": null
+ }
+}

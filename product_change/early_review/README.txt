@@ -26,7 +26,17 @@ By default the script runs each request as a headless Claude Code session (claud
 - A rerun skips saved chunks. inputs.json and prompts.json are frozen on the first run; a later run with different inputs or prompt stops.
 - labels/<year>/final.json holds each record's final level, reason, confidence and basis, with all readings.
 
+Bridge sample and audit reference
+- bridge/: the bridge sample read under the same two-reader protocol. Readers see index, date, URL, title and text only; the pass and the recorded label are withheld. bridge/final.json never changes a recorded label.
+- reference/: one blind claude-opus-5-5 reading of each hidden-sample record, with the same prompt. It never sees a reader's rating. reference/reference.json is the audit reference.
+
+Scoring (early_score.py, offline, part of reproduction)
+- audit_metrics.json: final labels against the reference, exact agreement per year with Wilson intervals, per level (precision and recall), and weighted to each year's share of the 8,421 records with a stratified interval. This is agreement between AI readings, not accuracy.
+- bridge_metrics.json: recorded against new labels for each earlier pass and both combined, as a confusion table, exact agreement and level shares with Wilson intervals, and the level 2 against level 3 movements. The bridge holds only 2021–2026 records, so it cannot detect drift specific to older texts.
+- scores.txt: both, as text.
+
 Commands, from the repository root
-- Label a year: .venv/bin/python product_change/early_label.py label --year 2010
-- Check a labelled year, offline: .venv/bin/python product_change/early_label.py check --year 2010
+- Label: .venv/bin/python product_change/early_label.py label TARGET --workers 4, where TARGET is a year from 2010 to 2020, bridge or reference
+- Check a labelled target, offline: .venv/bin/python product_change/early_label.py check TARGET
+- Score, offline: .venv/bin/python product_change/early_score.py
 - Checks with canned replies, no network or API key: .venv/bin/python product_change/early_checks.py
