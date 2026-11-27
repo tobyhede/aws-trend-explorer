@@ -36,6 +36,10 @@ _Avoid_: After COVID, post-pandemic
 A random set of already-labelled records that a later group of readers labels again without seeing the recorded labels, to measure how far the two groups' judgments differ. It never changes a recorded label.
 _Avoid_: Calibration set, relabel, overlap sample
 
+**Hidden sample**:
+A random set of records drawn before any reading, which a different model reads blind as the audit reference. The readers who label those records are not told which records it holds.
+_Avoid_: Holdout, test set, gold set
+
 ### Viewers
 
 **Local explorer**:

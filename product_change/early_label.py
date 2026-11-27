@@ -13,8 +13,10 @@ import argparse
 import hashlib
 import json
 import re
-import sys
+from collections import Counter
 from pathlib import Path
+
+from early_collect import YEARS, parse
 
 HERE = Path(__file__).resolve().parent
 LABELS = HERE / 'early_review' / 'labels'
@@ -138,8 +140,8 @@ def freeze(root, name, value):
         path.write_text(json.dumps(value, indent=1, ensure_ascii=False) + '\n')
 
 
-def label(records, root, client):
-    """Label records; returns final ratings keyed by source URL and writes final.json."""
+def label(records, root, client, write=True):
+    """Label records; returns final ratings keyed by source URL and, unless write is False, writes final.json."""
     ordered = sorted(records, key=lambda r: (r['announcement_date'], r['source_url']))
     inputs = [{'index': i, 'date': r['announcement_date'], 'url': r['source_url'], 'title': r['title'], 'text': r['announcement_text']}
               for i, r in enumerate(ordered)]
@@ -166,25 +168,24 @@ def label(records, root, client):
         else:
             decision, basis = a[i], f'early_review: two {READER_MODEL} readers agreed'
         final[row['url']] = {'index': i, **decision, 'basis': basis, 'reader_a': a[i], 'reader_b': b[i], 'adjudication': adjudicated.get(i)}
-    (root / 'final.json').write_text(json.dumps(final, indent=1, ensure_ascii=False) + '\n')
+    if write:
+        (root / 'final.json').write_text(json.dumps(final, indent=1, ensure_ascii=False) + '\n')
     return final
 
 
-class _Replay:
-    """Answers only from saved evidence, so check runs without the network; any unsaved chunk fails."""
+class _NoNetwork:
+    """A client that refuses every request, so check uses saved evidence only and fails on any unsaved chunk."""
 
     def complete(self, model, system, user):
         raise AssertionError('a chunk has no saved evidence')
 
 
 def check(year):
-    from early_collect import parse
     root = LABELS / str(year)
     saved = json.loads((root / 'final.json').read_text())
     records = [r for r in parse() if r['announcement_date'].startswith(str(year))]
-    replayed = label(records, root, _Replay())
+    replayed = label(records, root, _NoNetwork(), write=False)
     assert replayed == saved, 'final.json does not match the saved readings'
-    from collections import Counter
     print(f'{year}: {len(saved)} records replayed from saved evidence;',
           sum(r['adjudication'] is not None for r in saved.values()), 'adjudicated; levels', dict(sorted(Counter(r['level'] for r in saved.values()).items())))
 
@@ -205,12 +206,10 @@ class AnthropicClient:
 
 
 if __name__ == '__main__':
-    sys.path.insert(0, str(HERE))
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('action', choices=['label', 'check'])
-    parser.add_argument('--year', type=int, required=True, choices=range(2010, 2021))
+    parser.add_argument('--year', type=int, required=True, choices=YEARS)
     args = parser.parse_args()
     if args.action == 'label':
-        from early_collect import parse
         label([r for r in parse() if r['announcement_date'].startswith(str(args.year))], LABELS / str(args.year), AnthropicClient())
     check(args.year)

@@ -304,8 +304,6 @@ def the_prompt_is_the_data_guide_rubric_plus_the_hindsight_instruction():
 
 
 def main():
-    import sys
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
     failed = 0
     for function in CHECKS:
         try:

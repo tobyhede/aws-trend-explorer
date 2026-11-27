@@ -18,6 +18,8 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
+from early_collect import SNAPSHOT, parse
+
 HERE = Path(__file__).resolve().parent
 REVIEW = HERE / 'early_review'
 HIDDEN_SIZE, FLOOR, BRIDGE_SIZE = 300, 20, 200
@@ -85,7 +87,6 @@ def earlier_passes():
 
 
 def sources():
-    from early_collect import SNAPSHOT, parse
     passes, files = earlier_passes()
     files['early_snapshot/manifest.json'] = digest((SNAPSHOT / 'manifest.json').read_bytes())
     return parse(), passes, files
