@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-27",
+  "seed": "152be684776ca594843acd886546301be1b4d6a0235d4832",
+  "method": "Both samples rank records by SHA-256 of seed plus source URL, as the historical audit does.\nHidden sample: 300 of the 2010–2020 records, at least 20 from each year, the rest allocated in proportion\nto each year's records by largest remainder. Bridge sample: 200 records from each earlier labelling pass,\n2025–2026 and 2021–2024, with reader inputs only (no recorded level, reason or basis).",
+  "hidden_size": 300,
+  "hidden_floor_per_year": 20,
+  "bridge_size_per_pass": 200,
+  "population": 8421,
+  "hidden_by_year": {
+    "2010": 20,
+    "2011": 21,
+    "2012": 21,
+    "2013": 22,
+    "2014": 23,
+    "2015": 24,
+    "2016": 26,
+    "2017": 30,
+    "2018": 33,
+    "2019": 38,
+    "2020": 42
+  },
+  "source_hashes": {
+    "source_review/batch0.json": "f45ae33ff5a78ae2804aaf110950ea9b08e8f12241c530a876d7d649ad8eabfc",
+    "source_review/batch1.json": "3c7987871ea506ee02973e90c610dd5e05fc91130c4b6d12ca4d3d1d93bcd7bc",
+    "source_review/batch2.json": "7401fdd6a5bdb068a85cd6582dfe4b9434b5d78d425424c93713d1720d75b272",
+    "historical_review/batch0.json": "0d3d4115c4f325a88da952b11928cccb2f5106e03aebf7771b80dd93cf6ea0f3",
+    "historical_review/batch1.json": "4f90fe2b7aa319de4adcd55517dbd57ea2d634988b8868e1f3c9816f5589e5fc",
+    "historical_review/batch2.json": "27a41e2aec7a993c054cea65d1a7be997747866d4ca467c1e53e9591a049bd6f",
+    "early_snapshot/manifest.json": "d68a59895ef6ff1c33238ec520a16418139b38a0c088db48bc5b2c94190a704c"
+  },
+  "hidden_sha256": "01f099e5b8d8c9c306daa603eaae67037f80e4b4242604cfba2ff9b5933aab71",
+  "bridge_sha256": "03e3d13f0dccee8f2a477bd9f01a9d9cb06ecd98dc4dcd09abdb4cafafdc99f7"
+}

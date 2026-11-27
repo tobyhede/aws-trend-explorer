@@ -36,7 +36,7 @@ def measure(rows, start, end):
 def main():
     source=ROOT/'product_change/announcements.csv'
     rows=list(csv.DictReader(source.open(newline='')))
-    assert len(rows)==14167 and len({r['source_url'] for r in rows})==14167
+    assert len(rows)==22588 and len({r['source_url'] for r in rows})==22588
     for r in rows:
         r['_date']=date.fromisoformat(r['announcement_date'])
         assert r['product_change_level'] in GROUPS['all']

@@ -1,0 +1,2102 @@
+{
+ "https://aws.amazon.com/about-aws/whats-new/2010/02/02/amazon-elastic-mapreduce-now-supports-job-flow-debugging-via-the-aws-management-console/": {
+  "index": 0,
+  "level": "3",
+  "reason": "Adds a new console-based debugging interface for tracing EMR job flow steps and tasks.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/02/23/Amazon-EC2-Reserved-Instances-with-Windows-Now-Available/": {
+  "index": 1,
+  "level": "2",
+  "reason": "Brings the existing reserved pricing model to Windows instances as an added platform.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/04/13/announcing-amazon-relational-database-service-rds-in-the-eu-region/": {
+  "index": 2,
+  "level": "NA",
+  "reason": "RDS is now offered in a new region; the change is purely geographic.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/05/04/announcing-amazon-vpc-in-the-eu-region/": {
+  "index": 3,
+  "level": "NA",
+  "reason": "VPC is now offered in Europe; the change is purely geographic.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/05/13/amazon-cloudfront-adds-access-logs-for-streaming/": {
+  "index": 4,
+  "level": "2",
+  "reason": "The existing access logging feature now also covers streaming distributions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/06/10/aws-importexport-exits-beta-and-announces-web-service-support/": {
+  "index": 5,
+  "level": "3",
+  "reason": "Adds a new programmatic web service interface for job management alongside general availability.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/06/10/aws-management-console-adds-support-for-amazon-s3/": {
+  "index": 6,
+  "level": "3",
+  "reason": "Adds a first console interface for managing S3 buckets and objects.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/07/01/amazon-sqs-introduces-free-tier-and-adds-support-for-larger-messages-and-longer-retention/": {
+  "index": 7,
+  "level": "2",
+  "reason": "Retention becomes a configurable setting and the message size limit goes up; the free tier is a price matter.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/08/16/amazon-rds-adds-new-reserved-database-instance-option/": {
+  "index": 8,
+  "level": "3",
+  "reason": "Adds a new reservation purchasing option, which is billing functionality, for RDS instances.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/08/18/4th-annual-aws-startup-challenge-goes-global/": {
+  "index": 9,
+  "level": "NA",
+  "reason": "Startup contest announcement with no product change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/09/08/aws-management-console-adds-support-for-amazon-vpc/": {
+  "index": 10,
+  "level": "3",
+  "reason": "Adds console management and a setup wizard for VPC resources for the first time.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/09/20/amazon-ec2-introduces-tagging-filtering-import-key-pair-and-idempotency/": {
+  "index": 11,
+  "level": "3",
+  "reason": "Resource tagging is a distinct new capability; filtering, key import and idempotent launches are refinements.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/09/29/announcing-aws-sdk-for-php/": {
+  "index": 12,
+  "level": "5",
+  "reason": "Official PHP SDK is launched as a distinct developer offering with its own library and docs.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/10/05/amazon-ec2-running-suse-linux-now-available/": {
+  "index": 13,
+  "level": "1",
+  "reason": "Adds a new operating system choice to the EC2 catalogue.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/10/05/announcing-read-replicas-lower-high-memory-db-instance-prices-for-amazon-rds/": {
+  "index": 14,
+  "level": "3",
+  "reason": "Read replicas are a new deployment capability for scaling reads; the price cuts are outside scale.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/10/12/aws-management-console-adds-support-for-amazon-sns/": {
+  "index": 15,
+  "level": "3",
+  "reason": "Adds a first console interface for managing SNS topics, subscriptions and publishing.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/11/15/announcing-cluster-gpu-instances-for-amazon-ec2/": {
+  "index": 16,
+  "level": "1",
+  "reason": "Adds a new instance type with GPU hardware to the EC2 catalogue.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/11/23/AWS_Customer_Satisfaction_Survey_2010/": {
+  "index": 17,
+  "level": "NA",
+  "reason": "Customer survey request with no product change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/12/03/amazon-simpledb-introduces-batch-delete-api/": {
+  "index": 18,
+  "level": "2",
+  "reason": "Adds a batched form of the existing attribute deletion operation.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2010/12/07/aws-achieves-pci-dss-level-1-compliance/": {
+  "index": 19,
+  "level": "NA",
+  "reason": "Compliance certification announcement.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/01/06/aws-introduces-new-premium-support-plans-lowers-usage-prices-by-50-on-existing-plans/": {
+  "index": 20,
+  "level": "2",
+  "reason": "Adds two more support plan tiers alongside a price reduction on existing plans.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/02/01/oracle-database-11g-coming-to-amazon-rds/": {
+  "index": 21,
+  "level": "4",
+  "reason": "Pre-announces a major new commercial database engine with licensing models for RDS.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/02/08/new-edge-location-paris/": {
+  "index": 22,
+  "level": "NA",
+  "reason": "New edge location; the change is purely geographic.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/03/27/amazon-vpc-adds-dedicated-instances/": {
+  "index": 23,
+  "level": "3",
+  "reason": "Introduces single-tenant hardware isolation as a new instance tenancy concept within VPC.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/04/14/amazon-elastic-mapreduce-now-available-in-asia-pacific-regions/": {
+  "index": 24,
+  "level": "NA",
+  "reason": "EMR is now offered in more regions; the change is purely geographic.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/04/19/aws-management-console-adds-support-for-amazon-cloudfront-2/": {
+  "index": 25,
+  "level": "2",
+  "reason": "The mobile SDKs gain coverage of more AWS services, which adds integration targets to existing SDKs.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/05/10/amazon-cloudwatch-announces-custom-metrics-lower-prices-for-amazon-ec2-monitoring/": {
+  "index": 26,
+  "level": "3",
+  "reason": "Customers can now publish their own metrics to CloudWatch, a distinct new operation; the price cut alongside it is outside scale.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/06/23/new-edge-location-stockholm/": {
+  "index": 27,
+  "level": "NA",
+  "reason": "Adding one edge location is a purely geographic change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/06/30/aws-announces-new-data-transfer-pricing/": {
+  "index": 28,
+  "level": "NA",
+  "reason": "The data transfer price cuts and new volume tiers only change pricing.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/06/30/aws-elastic-beanstalk-announces-configuration-persistence-and-support-for-url-swapping/": {
+  "index": 29,
+  "level": "3",
+  "reason": "Saving and reusing environment configurations and swapping URLs between environments are new operations in Beanstalk.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/08/18/amazon-elastic-mapreduce-now-supports-spot-instances/": {
+  "index": 30,
+  "level": "2",
+  "reason": "EMR clusters can now use the Spot purchasing option, which extends an existing operation.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/09/08/AWS-Direct-Connect-GA-US-West/": {
+  "index": 31,
+  "level": "NA",
+  "reason": "Direct Connect becomes available in one more region, a purely geographic change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/09/08/announcing-the-aws-toolkit-for-visual-studio/": {
+  "index": 32,
+  "level": "3",
+  "reason": "A new IDE plugin gives developers a new interface for exploring and deploying AWS resources.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/09/15/aws-fisma-moderate/": {
+  "index": 33,
+  "level": "NA",
+  "reason": "Gaining FISMA Moderate accreditation is a compliance announcement.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/10/04/amazon-s3-announces-server-side-encryption-support/": {
+  "index": 34,
+  "level": "3",
+  "reason": "S3 can now encrypt stored data at rest on the server side, a distinct new capability.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/10/31/amazon-elastic-mapreduce-announces-karmasphere/": {
+  "index": 35,
+  "level": "2",
+  "reason": "A third-party analytics tool can now be used with EMR under an hourly billing option, adding a pricing and integration option.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/11/21/aws-elastic-beanstalk-adds-support-for-aws-identity-access-management/": {
+  "index": 36,
+  "level": "2",
+  "reason": "IAM permissions now apply to Beanstalk, which extends access controls over existing operations.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/12/01/New-Amazon-EC2-Reserved-Instances-Options-Now-Available/": {
+  "index": 37,
+  "level": "2",
+  "reason": "Two new Reserved Instance utilization tiers add purchase options to existing billing functionality.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/": {
+  "index": 38,
+  "level": "NA",
+  "reason": "Launching a new region is a geographic expansion.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/12/21/Multiple-Network-Interfaces/": {
+  "index": 39,
+  "level": "3",
+  "reason": "Network interfaces that can be attached and moved between instances are a new resource type with their own operations.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2011/12/27/amazon-s3-announces-object-expiration/": {
+  "index": 40,
+  "level": "3",
+  "reason": "Rules that delete objects automatically after a set age are a new capability in S3.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/01/19/Announcing-IAM-Identity-Federation-To-AWS-Management-Console/": {
+  "index": 41,
+  "level": "2",
+  "reason": "Existing identity federation now also covers the web console, adding a new target.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/": {
+  "index": 42,
+  "level": "5",
+  "reason": "AWS introduces a new standalone service for workflow coordination.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/07/dynamodb-now-available-in-europe/": {
+  "index": 43,
+  "level": "NA",
+  "reason": "DynamoDB becomes available in one more region, a purely geographic change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/07/three-new-Amazon-EC2-features/": {
+  "index": 44,
+  "level": "3",
+  "reason": "Logging into instances from the browser console is a new interface; the new instance type and wider 64-bit support are level 1 catalogue changes.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/": {
+  "index": 45,
+  "level": "NA",
+  "reason": "Storage Gateway becomes available in one more region, a purely geographic change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/03/20/php-and-git-deployment-for-aws-elastic-beanstalk/": {
+  "index": 46,
+  "level": "3",
+  "reason": "Deploying from Git is a new interface for pushing code; the PHP runtime on its own would be a catalogue addition.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/11/aws-announces-cloudsearch/": {
+  "index": 47,
+  "level": "5",
+  "reason": "AWS introduces a new managed search service.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/19/introducing-aws-marketplace/": {
+  "index": 48,
+  "level": "5",
+  "reason": "AWS launches a new online store for buying and deploying third-party software.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/04/25/aws-cloudformation-support-for-creating-vpc-resources/": {
+  "index": 49,
+  "level": "2",
+  "reason": "CloudFormation templates can now create VPC resource types, which extends the resources the product covers.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/09/api-and-iam-support-for-storage-gateway/": {
+  "index": 50,
+  "level": "3",
+  "reason": "A programmatic API is a new interface for managing gateways; IAM access control alongside it is a refinement.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/15/amazon-simple-email-service-announces-domain-verification/": {
+  "index": 51,
+  "level": "2",
+  "reason": "Sender verification now works for a whole domain, with Route 53 integration; the identity limit rising from 100 to 1,000 is a separate level-1 facet.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/16/aws-elastic-beanstalk-now-available-in-the-eu-ireland-region/": {
+  "index": 52,
+  "level": "NA",
+  "reason": "Region launch only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/18/aws-console-enhancements-for-elastic-load-balancing-listener-certificate-and-cipher-management/": {
+  "index": 53,
+  "level": "2",
+  "reason": "The console can now manage listener, certificate and cipher settings that the API already offered; the IPv6 expansion is only regional.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/05/30/amazon-elastic-mapreduce-now-supports-hive-0-8-1/": {
+  "index": 54,
+  "level": "1",
+  "reason": "A new Hive version is added to EMR's supported software.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/06/19/aws-cloudformation-supports-amazon-dynamodb-and-amazon-cloudfront-dynamic-content/": {
+  "index": 55,
+  "level": "2",
+  "reason": "CloudFormation templates gain two more resource types: DynamoDB tables and CloudFront dynamic content.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/10/Announcing-MFA-protected-API-access/": {
+  "index": 56,
+  "level": "2",
+  "reason": "IAM policies gain a control that can require MFA before specific API calls run.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/07/17/easily-dkim-sign-your-emails-with-amazon-ses/": {
+  "index": 57,
+  "level": "3",
+  "reason": "SES can now DKIM-sign mail itself, a new managed operation with three new API actions.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/16/amazon-rds-oracle-announces-vpc-apex-xmldb-timezone-support/": {
+  "index": 58,
+  "level": "2",
+  "reason": "RDS for Oracle adds VPC support and several engine options in a new engine version.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/08/21/aws-billing-enables-cost-allocation-reports/": {
+  "index": 59,
+  "level": "3",
+  "reason": "A new billing report lets customers break down costs by resource tags.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/12/announcing-amazon-ec2-reserved-instance-marketplace/": {
+  "index": 60,
+  "level": "3",
+  "reason": "A new marketplace lets customers sell and buy Reserved Instances from each other, inside EC2.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2012/09/27/amazon-cloudfront-announces-private-content-support-in-AWS-Console/": {
+  "index": 61,
+  "level": "2",
+  "reason": "Private content settings, already available in the API, can now be configured in the console.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/01/08/use-amazon-cloudwatch-to-detect-and-shut-down-unused-amazon-ec2-instances/": {
+  "index": 62,
+  "level": "2",
+  "reason": "CloudWatch alarms gain stop and terminate actions for EC2 instances.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/03/08/AWS-SAP-Hana-One-Promo-Credit/": {
+  "index": 63,
+  "level": "NA",
+  "reason": "Promotional credit offer only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/03/19/announcing-ebs-optimized-support-for-additional-instance-types/": {
+  "index": 64,
+  "level": "1",
+  "reason": "More instance types are added to the list that supports EBS optimization.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/04/02/announcing-lower-request-pricing-for-amazon-s3/": {
+  "index": 65,
+  "level": "NA",
+  "reason": "Price reduction only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/04/03/announcing-iam-policy-variables/": {
+  "index": 66,
+  "level": "2",
+  "reason": "Variables extend the existing policy language so one policy can cover many users.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/04/08/aws-elastic-beanstalk-for-net-supports-amazon-vpc-and-configuration-files/": {
+  "index": 67,
+  "level": "2",
+  "reason": ".NET environments now support config files and integration with VPC and RDS.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/04/10/aws-storage-gateway-now-supports-microsoft-hyper-v/": {
+  "index": 68,
+  "level": "2",
+  "reason": "Hyper-V is added as a second hypervisor that can host the gateway.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/04/18/amazon-dynamodb-announces-local-secondary-indexes/": {
+  "index": 69,
+  "level": "3",
+  "reason": "Local secondary indexes let customers query on attributes other than the primary key, a new operation.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/05/14/aws-management-console-in-aws-govcloud-us-adds-support-for-amazon-swf/": {
+  "index": 70,
+  "level": "2",
+  "reason": "The GovCloud console can now manage SWF, which extends an existing interface.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/06/06/cloudformer-now-supports-amazon-vpc-and-more-aws-resources/": {
+  "index": 71,
+  "level": "2",
+  "reason": "CloudFormer can now include more resource types and gives better error messages.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/06/18/jaspersoft-promo-ec2-credit/": {
+  "index": 72,
+  "level": "NA",
+  "reason": "Promotional credit offer only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/08/13/amazon-sns-announces-mobile-push/": {
+  "index": 73,
+  "level": "3",
+  "reason": "SNS can now deliver push notifications directly to Apple, Google and Kindle devices, a new delivery capability.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/08/28/amazon-rds-read-replica-new-features/": {
+  "index": 74,
+  "level": "2",
+  "reason": "Read replicas gain parallel creation, snapshots, point-in-time recovery and chained replicas.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/08/28/aws-cloudformation-now-available-in-aws-govcloud-us/": {
+  "index": 75,
+  "level": "NA",
+  "reason": "An existing service launches in another region; this is a geographic expansion only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/09/11/amazon-ec2-now-offers-reserved-instance-modifications/": {
+  "index": 76,
+  "level": "3",
+  "reason": "Adds a new action to move existing reservations to another AZ or between EC2-Classic and VPC, which was not possible before.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/09/12/aws-trusted-advisor-adds-three-new-amazon-route-53-checks/": {
+  "index": 77,
+  "level": "2",
+  "reason": "Three more best-practice checks broaden what the existing advisor covers.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/10/21/aws-console-for-ios-android-now-supports-auto-scaling/": {
+  "index": 78,
+  "level": "2",
+  "reason": "The mobile console adds one more service it can view and manage.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/10/31/announcing-iam-policy-simulator/": {
+  "index": 79,
+  "level": "3",
+  "reason": "A new tool lets customers test permission policies before applying them.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/11/11/aws-elastic-beanstalk-announces-rolling-updates/": {
+  "index": 80,
+  "level": "2",
+  "reason": "Adds tunable batch controls to the existing process for updating environments.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/11/14/introducing-amazon-kinesis/": {
+  "index": 81,
+  "level": "5",
+  "reason": "Launches a new managed streaming-data service as a standalone offering, in limited preview.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/12/10/auto-scaling-console/": {
+  "index": 82,
+  "level": "3",
+  "reason": "A new console interface for creating and managing scaling groups and policies, previously only possible through the API or CLI.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2013/12/12/announcing-amazon-dynamodb-global-secondary-indexes/": {
+  "index": 83,
+  "level": "3",
+  "reason": "A new index type lets tables be queried on attributes other than the primary key.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/02/27/announcing-new-features-in-the-amazon-ec2-management-console/": {
+  "index": 84,
+  "level": "2",
+  "reason": "Several console conveniences and a redesign improve resource management that already existed.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/03/05/vm-import-for-windows-server-2012/": {
+  "index": 85,
+  "level": "1",
+  "reason": "Adds another guest operating system to the list supported for VM import.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/04/08/introducing-cost-explorer-view-and-analyze-your-historical-aws-spend/": {
+  "index": 86,
+  "level": "3",
+  "reason": "A new graphical reporting tool for analysing past spend is added inside the billing console.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/05/06/provision-amazon-kinesis-with-aws-cloudformation/": {
+  "index": 87,
+  "level": "2",
+  "reason": "Kinesis streams become a new resource type that templates can provision.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/05/14/announcing-new-features-in-aws-activate-startup-blog-startup-spotlight-and-the-amazon-toolbox/": {
+  "index": 88,
+  "level": "NA",
+  "reason": "Covers a startup blog and partner offers, which are educational and marketing items rather than a product change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/06/02/amazon-rds-for-sqlserver-adds-multi-az-support-in-us-east/": {
+  "index": 89,
+  "level": "NA",
+  "reason": "An existing high-availability option is extended to one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/06/20/amazon-elastic-mapreduce-now-supports-iam-roles-and-federated-users/": {
+  "index": 90,
+  "level": "2",
+  "reason": "Adds federated access and a service role as new permission controls for EMR.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/07/10/amazon-sns-adds-support-for-cross-platform-time-to-live-ttl/": {
+  "index": 91,
+  "level": "2",
+  "reason": "A new expiry setting is added for push notifications.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-mobile-analytics/": {
+  "index": 92,
+  "level": "5",
+  "reason": "Introduces a new standalone service for analysing app usage.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/07/16/new-functionality-in-aws-support-api-attachments-and-lightweight-case-monitoring-capability/": {
+  "index": 93,
+  "level": "2",
+  "reason": "Support case API calls gain file attachments and an option to leave out case communications.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/07/24/aws-cloudtrail-now-logs-aws-management-console-sign-in-events/": {
+  "index": 94,
+  "level": "2",
+  "reason": "Console sign-ins become a newly logged event type in the existing audit trail.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/08/04/new-low-cost-amazon-rds-option-t2/": {
+  "index": 95,
+  "level": "1",
+  "reason": "Adds a new instance family to the database service's hardware options.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/09/04/hive-0-13-1-now-available-on-amazon-elastic-mapreduce/": {
+  "index": 96,
+  "level": "1",
+  "reason": "Adds a newer version of an application to EMR's software options.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/09/11/amazon-elasticache-now-supports-t2-cache-nodes/": {
+  "index": 97,
+  "level": "1",
+  "reason": "Adds a new node family to the cache service's hardware options.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/09/11/tagging-support-for-kinesis-streams/": {
+  "index": 98,
+  "level": "2",
+  "reason": "Streams can now carry key-value tags like other AWS resources.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/09/25/developer-preview-resource-apis-v-2-aws-sdk-ruby/": {
+  "index": 99,
+  "level": "3",
+  "reason": "A preview of a new object-oriented programming interface in the Ruby SDK, built on top of the low-level request calls.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/10/16/amazon-cloudsearch-announces-enhanced-japanese-language-processing-cloudtrail-support/": {
+  "index": 100,
+  "level": "2",
+  "reason": "Japanese analysis schemes can now take custom dictionaries, and CloudTrail is added as an audit-logging integration target; both extend existing features",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/10/16/amazon-rds-now-supports-oracle_database_11_2_0_4v2/": {
+  "index": 101,
+  "level": "1",
+  "reason": "A new Oracle engine patch version is added to the RDS catalogue",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/10/23/announcing-the-aws-eu-frankfurt-region/": {
+  "index": 102,
+  "level": "NA",
+  "reason": "New geographic region launch only",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/10/28/amazon-workspaces-adds-support-for-custom-images/": {
+  "index": 103,
+  "level": "3",
+  "reason": "Adds a distinct new operation to capture images from running desktops and launch new desktops from them",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/": {
+  "index": 104,
+  "level": "5",
+  "reason": "Launch of a new standalone service for resource inventory and configuration history",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/11/21/aws-partner-blog/": {
+  "index": 105,
+  "level": "NA",
+  "reason": "Partner blog launch; informational content rather than a product change",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2014/12/18/amazon-cloudwatch-logs-in-the-tokyo-singapore-sydney-frankfurt-regions/": {
+  "index": 106,
+  "level": "NA",
+  "reason": "Existing logging service extended to more regions only",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/01/20/aws-certification-exam-readiness-workshop-for-aws-certified-solutions-architect-associate/": {
+  "index": 107,
+  "level": "NA",
+  "reason": "Training workshop for certification preparation; educational",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/02/11/aws-identity-and-access-management-simplifies-policy-management/": {
+  "index": 108,
+  "level": "3",
+  "reason": "Introduces a new kind of IAM policy object that can be reused, versioned and rolled back, plus policies maintained by AWS",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/03/aws-cloudtrail-integration-with-amazon-cloudwatch-logs-now-available-in-syd-sing-frank-tokyo-regions/": {
+  "index": 109,
+  "level": "NA",
+  "reason": "Existing CloudTrail-to-Logs integration made available in more regions",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/03/amazon-rds-for-postgresql-now-supports-94/": {
+  "index": 110,
+  "level": "1",
+  "reason": "A new major PostgreSQL engine version is added to the supported catalogue",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/04/amazon-emr-now-supports-amazon-ec2-dense-storage-d2-instances/": {
+  "index": 111,
+  "level": "1",
+  "reason": "Routine addition of a new instance family as a supported EMR cluster option",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/04/aws-elastic-beanstalk-supports-amazon-linux-ami-2015-03/": {
+  "index": 112,
+  "level": "1",
+  "reason": "Platform base AMI refresh adding a runtime version and deprecating 32-bit platforms",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/05/introducing-amazon-vpc-endpoints-for-amazon-s3/": {
+  "index": 113,
+  "level": "3",
+  "reason": "New private-connectivity interface between a VPC and S3, with endpoint-based access controls",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/05/amazon-ec2-g2-instances-now-available-in-the-eu-frankfurt-aws-region/": {
+  "index": 114,
+  "level": "NA",
+  "reason": "Existing GPU instance type made available in one more region",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/05/aws-pop-up-loft-comes-to-new-york/": {
+  "index": 115,
+  "level": "NA",
+  "reason": "In-person event space and sessions; educational and community activity",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/06/aws-sdk-for-go-developer-preview/": {
+  "index": 116,
+  "level": "3",
+  "reason": "Preview of a new language SDK, giving a new programming interface within the AWS SDK family",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/06/aws-partner-network-launches-new-marketing-commerce-competency/": {
+  "index": 117,
+  "level": "NA",
+  "reason": "Partner competency designation programme; not a product change",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/07/auto-scaling-now-helps-you-to-scale-faster/": {
+  "index": 118,
+  "level": "2",
+  "reason": "Step scaling based on how far an alarm is breached, plus continuous alarm evaluation, refine existing scaling policies",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/07/meet-regulatory-storage-requirements-with-amazon-glacier-vault-lock/": {
+  "index": 119,
+  "level": "3",
+  "reason": "New immutable, lockable vault policy mechanism that enforces retention controls",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codepipeline-now-available/": {
+  "index": 120,
+  "level": "5",
+  "reason": "Continuous delivery service offered to all customers as its own service with pay-per-use billing",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/08/amazon-linux-ami-2015-03-1-point-release/": {
+  "index": 121,
+  "level": "1",
+  "reason": "OS image point release with a kernel update and a package added to the defaults",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/08/automate-deploying-the-most-cost-effective-spot-instances/": {
+  "index": 122,
+  "level": "2",
+  "reason": "Spot fleet requests gain weighted capacity units and per-type bid adjustment, extending an existing API",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/09/aws-storage-gateway-reduces-virtual-tape-shelf-vts-storage-pricing/": {
+  "index": 123,
+  "level": "NA",
+  "reason": "Storage price reduction only",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/09/aws-device-farm-plugins-for-android-studio-gradle-automatically-launch-tests-on-real-devices/": {
+  "index": 124,
+  "level": "2",
+  "reason": "Adds CI and IDE plugins as additional integration targets for starting tests",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/10/cloudwatch-dashboards/": {
+  "index": 125,
+  "level": "3",
+  "reason": "Adds a dashboard interface with configurable widgets to CloudWatch, which is new within the existing monitoring service.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/10/create-auto-scaling-launch-configurations-that-include-encrypted-ebs-volumes/": {
+  "index": 126,
+  "level": "2",
+  "reason": "Launch configurations can now include encrypted volumes, an added option on an existing Auto Scaling operation.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/11/aws-device-farm-adds-support-for-web-applications-test-your-ios-android-and-web-appsagainst-real-devices-in-the-aws-cloud/": {
+  "index": 127,
+  "level": "2",
+  "reason": "Web apps join iOS and Android as a supported type for the existing device testing workflow.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/11/sitecore-on-the-aws-cloud-quick-start-reference-deployment/": {
+  "index": 128,
+  "level": "NA",
+  "reason": "A reference architecture template with a deployment guide; this is guidance material, not a product change.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-redshift-announces-tag-based-permissions-default-access-privileges-bzip2-compression-format/": {
+  "index": 129,
+  "level": "3",
+  "reason": "Mixed update. The highest-level item is a new SQL command for default object privileges, alongside tag-based IAM controls and BZIP2 load support.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-dynamodb-titan-graph-database-integration/": {
+  "index": 130,
+  "level": "1",
+  "reason": "The DynamoDB storage plugin now supports a newer Titan version, which is a routine version bump.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/03/support-for-multiple-trails-in-aws-govcloud-us/": {
+  "index": 131,
+  "level": "1",
+  "reason": "The trail quota in the GovCloud region rises from one to five, so this is a limit change.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/03/aws-config-launches-in-asia-pacific-seoul/": {
+  "index": 132,
+  "level": "NA",
+  "reason": "Only announces the service in an additional region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/05/ec2-run-command-adds-document-sharing-capability/": {
+  "index": 133,
+  "level": "3",
+  "reason": "Adds private and public sharing of command documents between AWS users, a new operation in Run Command.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-rds-now-supports-mariadb-10-1/": {
+  "index": 134,
+  "level": "1",
+  "reason": "A new database engine version is added to the supported list.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/06/aws-solutions-training-for-partners-big-data-and-analytics/": {
+  "index": 135,
+  "level": "NA",
+  "reason": "Partner training workshop, which is educational content.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/06/new-data-warehousing-on-aws-training-available/": {
+  "index": 136,
+  "level": "NA",
+  "reason": "New training course, which is educational content.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/": {
+  "index": 137,
+  "level": "2",
+  "reason": "Adds a guided wizard option to Mobile Hub's existing NoSQL database feature.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/07/aws-support-announces-update-to-developer-support-plan/": {
+  "index": 138,
+  "level": "NA",
+  "reason": "Lowers the price of a support plan and changes nothing else.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/": {
+  "index": 139,
+  "level": "2",
+  "reason": "Distributions gain support for a newer protocol version, extending the existing delivery capability.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/09/announcing-second-edge-location-in-mumbai-india-for-amazon-cloudfront/": {
+  "index": 140,
+  "level": "NA",
+  "reason": "Adds an edge location, which is a geographic expansion only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-elastic-transcoder-now-publishes-operational-metrics-to-amazon-cloudwatch/": {
+  "index": 141,
+  "level": "3",
+  "reason": "First publication of operational metrics to CloudWatch, which gives the transcoder new monitoring and alarm capability.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/10/announcing-the-hadoop-distributed-file-system-support-for-aws-import-export-snowball/": {
+  "index": 142,
+  "level": "2",
+  "reason": "The Snowball client can now import from an additional source type, HDFS clusters.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/10/use-hosted-git-repositories-from-aws-codecommit-with-aws-elastic-beanstalk/": {
+  "index": 143,
+  "level": "2",
+  "reason": "Adds CodeCommit repositories as a source integration for Beanstalk deployments through the CLI.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/10/announcing-regional-expansion-of-amazon-ec2-instances/": {
+  "index": 144,
+  "level": "NA",
+  "reason": "Existing instance types become available in more regions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/10/enable-access-control-scenarios-using-microsoft-network-policy-service-with-microsoft-ad/": {
+  "index": 145,
+  "level": "2",
+  "reason": "Delegated group permissions let customers run Network Policy Server against the managed directory, extending what the directory supports.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/10/aws-elastic-beanstalk-supports-amazon-linux-ami-2016-09-and-new-instance-types/": {
+  "index": 146,
+  "level": "1",
+  "reason": "Adds a newer AMI, runtime and software versions, and more supported instance types to the catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-regional-expansion-of-amazon-ec2-p2-instances/": {
+  "index": 147,
+  "level": "NA",
+  "reason": "An existing instance family becomes available in another region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-api-gateway-available-in-us-west-n-california/": {
+  "index": 148,
+  "level": "NA",
+  "reason": "Only announces the service in an additional region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/11/aws-lambda-available-in-us-west-n-california/": {
+  "index": 149,
+  "level": "NA",
+  "reason": "Only announces the service in an additional region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-cloudfront-adds-new-edge-locations-in-minneapolis-mn-berlin-germany-and-our-fourth-in-london-england/": {
+  "index": 150,
+  "level": "NA",
+  "reason": "Only adds edge locations in new cities, which is a purely geographic change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-aurora-and-amazon-rds-for-postgresql-are-now-hipaa-eligible-services/": {
+  "index": 151,
+  "level": "NA",
+  "reason": "Adds the services to the HIPAA program, a compliance change with no product change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-workspaces-introduces-windows-10-desktop-experience/": {
+  "index": 152,
+  "level": "1",
+  "reason": "Adds a new operating system option to the WorkSpaces bundle catalogue.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-organizations-now-in-preview/": {
+  "index": 153,
+  "level": "5",
+  "reason": "Launches a separate multi-account management service in preview.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/12/aws-database-migration-service-officially-suports-ssl-for-oracle-databases/": {
+  "index": 154,
+  "level": "2",
+  "reason": "Existing SSL endpoint support now covers one more source engine.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/12/aws-config-now-enables-you-to-create-50-or-more-config-rules-in-your-aws-account/": {
+  "index": 155,
+  "level": "1",
+  "reason": "Raises the default limit on Config rules per account.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2016/12/amazon-cloudwatch-adds-detailed-billing-to-cloudwatch-logs/": {
+  "index": 156,
+  "level": "2",
+  "reason": "Adds per-log-group cost reporting and tagging to an existing service, which refines billing visibility.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/01/amazon-dynamodb-now-supports-cost-allocation-tags/": {
+  "index": 157,
+  "level": "2",
+  "reason": "Tables can now be tagged for cost allocation, which extends resource management controls.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/02/amazon-elasticsearch-service-now-supports-additional-instance-types-and-up-to-30-tb-ebs-capacity-per-domain/": {
+  "index": 158,
+  "level": "1",
+  "reason": "Adds instance types, raises storage and IOPS limits, and speeds up cluster operations.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/03/aws-trusted-advisor-adds-checks-for-ten-new-service-limits-auroradb-availability-and-ec2-windows/": {
+  "index": 159,
+  "level": "1",
+  "reason": "Adds more check entries to the existing Trusted Advisor catalogue.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/04/new-quick-start-deploys-confluent-platform-on-the-aws-cloud/": {
+  "index": 160,
+  "level": "1",
+  "reason": "Adds one more reference deployment template to the Quick Start catalogue.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/05/amazon-workmail-now-offers-an-smtp-gateway-for-sending-email/": {
+  "index": 161,
+  "level": "3",
+  "reason": "Adds a new mail-sending interface, so WorkMail no longer needs an outside SMTP service.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/05/aws-schema-conversion-tool-exports-from-sql-server-to-amazon-redshift/": {
+  "index": 162,
+  "level": "2",
+  "reason": "Data extraction now supports another source warehouse, with better upload options.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/05/april-2017-oracle-patch-set-updates-are-available-for-amazon-rds-for-oracle/": {
+  "index": 163,
+  "level": "1",
+  "reason": "Adds new Oracle patch versions to the supported engine catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/06/amazon-api-gateway-available-in-canada-central-region/": {
+  "index": 164,
+  "level": "NA",
+  "reason": "Regional expansion only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/06/aws-greengrass-available-in-eu-frankfurt-and-asia-pacific-sydney-regions/": {
+  "index": 165,
+  "level": "NA",
+  "reason": "Announces availability in more regions only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/07/aws-device-farm-announces-appium-1-6-5-support/": {
+  "index": 166,
+  "level": "1",
+  "reason": "Adds a newer test framework version to the supported list.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/07/amazon-elastic-file-system-amazon-efs-available-in-eu-frankfurt-region/": {
+  "index": 167,
+  "level": "NA",
+  "reason": "Launch in one more region, with no feature change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/07/create-a-new-default-vpc-using-aws-console-or-cli/": {
+  "index": 168,
+  "level": "3",
+  "reason": "Adds a self-service operation to recreate the default VPC, which previously needed a support request.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/08/amazon-ec2-g3-instances-now-available-in-asia-pacific-japan-asia-pacific-sydney-asia-pacific-singapore-and-eu-frankfurt-regions/": {
+  "index": 169,
+  "level": "NA",
+  "reason": "An existing instance family arrives in more regions; geographic only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/08/amazon-rds-for-sql-server-increases-maxiumum-database-storage-size-to-16-tb/": {
+  "index": 170,
+  "level": "1",
+  "reason": "Raises the maximum storage size and the IOPS-to-storage ratio limit.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/09/now-specify-request-level-attributes-with-amazon-lex/": {
+  "index": 171,
+  "level": "2",
+  "reason": "Adds per-request attribute options to existing Lex runtime calls.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/10/support-for-apache-livy-hue-4-0-1-and-presto-0-184-on-amazon-emr-release-5-9-0/": {
+  "index": 172,
+  "level": "1",
+  "reason": "A new EMR release with more and updated applications, plus encryption and performance improvements.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/10/manage-amazon-simple-queue-service-costs-using-cost-allocation-tags/": {
+  "index": 173,
+  "level": "2",
+  "reason": "Queues can now be tagged for cost tracking, which extends resource controls.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-quicksight-adds-support-for-combo-charts-and-row-level-security/": {
+  "index": 174,
+  "level": "3",
+  "reason": "Row-level security is a new access-control capability, along with a new chart type.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-pinpoint-adds-several-push-notification-enhancements/": {
+  "index": 175,
+  "level": "2",
+  "reason": "Push delivery gains the PushKit target plus options for collapse, priority and expiry.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-ec2-systems-manager-now-integrates-with-github/": {
+  "index": 176,
+  "level": "2",
+  "reason": "Run Command can now pull scripts from GitHub and S3, and documents can be nested; this extends execution that already existed.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/11/apache-mxnet-release-adds-support-for-new-nvidia-volta-gpus-and-sparse-tensor/": {
+  "index": 177,
+  "level": "3",
+  "reason": "Volta GPU support is a hardware addition, but sparse tensor formats and operators are a new computation capability in the framework.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-ec2-c5-instances-the-next-generation-of-compute-optimized-instances/": {
+  "index": 178,
+  "level": "1",
+  "reason": "New generation of compute-optimized instance family is a routine hardware catalogue addition.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-privatelink-for-aws-services/": {
+  "index": 179,
+  "level": "5",
+  "reason": "A branded private-connectivity offering is introduced for reaching AWS services through endpoints inside a VPC.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-quicksight-adds-support-for-geospatial-visualizations-tabular-reports-private-vpc-access-calculations-for-spice-datasets-in-analysis-and-hipaa-compliant-workloads/": {
+  "index": 180,
+  "level": "3",
+  "reason": "Several features ship together; map visuals and private VPC data connectivity are new capabilities beyond the column limit increase.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/11/customize-integration-timeouts-in-amazon-api-gateway/": {
+  "index": 181,
+  "level": "2",
+  "reason": "Adds a configurable timeout control on existing API integrations.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/11/aws-privatelink-on-aws-marketplace-now-available/": {
+  "index": 182,
+  "level": "2",
+  "reason": "Marketplace adds discovery and purchase of PrivateLink-enabled SaaS with verified endpoint names, which extends existing buying.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/11/sign-up-for-the-preview-of-amazon-aurora-serverless/": {
+  "index": 183,
+  "level": "4",
+  "reason": "Preview of an on-demand auto-scaling operating model for the relational database that needs no instance management.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/12/aws-contributes-to-milestone-apache-mxnet-1-0-release-and-adds-model-serving-capability/": {
+  "index": 184,
+  "level": "3",
+  "reason": "Adds a new model serving tool that exposes models via endpoints, alongside framework feature updates.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/12/amazon-workmail-releases-an-administrative-sdk-and-enables-aws-cloudtrail-integration/": {
+  "index": 185,
+  "level": "3",
+  "reason": "A new administrative API for managing users, groups and resources, plus audit logging integration.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2017/12/aws-organizations-enhancements/": {
+  "index": 186,
+  "level": "2",
+  "reason": "Account removal is extended to created accounts as a self-service console action instead of going through support.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/01/amazon-rekognition-now-available-in-aws-us-east-ohio-region/": {
+  "index": 187,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/02/register-for-the-new-aws-certified-developer-associate-beta-exam/": {
+  "index": 188,
+  "level": "NA",
+  "reason": "Certification exam beta is an educational announcement.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/03/RDS-PostgreSQL-R4Instance-GovCloud/": {
+  "index": 189,
+  "level": "NA",
+  "reason": "Existing database instance types are rolled out to one more region, which is mainly a geographic change.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/03/iot-core-increases-default-limits/": {
+  "index": 190,
+  "level": "1",
+  "reason": "Raised default rate limits for publish and connect requests.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/03/resource-groups-tagging-api-now-supports-13-additional-aws-services/": {
+  "index": 191,
+  "level": "2",
+  "reason": "Tagging API extended to additional services as integration targets.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/04/tape-gateway-in-singapore/": {
+  "index": 192,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/05/ecs-adds-ssm-parameter-for-launching-ecs-optimized-ec2-amis/": {
+  "index": 193,
+  "level": "2",
+  "reason": "A public parameter now returns the latest container-optimized image ID for use in templates, an added option for existing launches.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/05/enterprise_contract_for_aws_marketplace_standardizes_software_license_terms_to_simplify_and_streamline_software_procurement_for_enterprise_customers/": {
+  "index": 194,
+  "level": "2",
+  "reason": "Adds a standardized license terms option to the existing software purchasing flow.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-ec2-x1e-instances-now-available-in-europe--frankfurt--region/": {
+  "index": 195,
+  "level": "NA",
+  "reason": "Instance family launched in an additional region only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/05/new-developer-preview-use-amazon-polly-voices-in-alexa-skills/": {
+  "index": 196,
+  "level": "2",
+  "reason": "Preview lets Alexa skill speech markup select text-to-speech voices; an integration that extends voice output.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/05/aws-step-functions-is-now-a-hipaa-eligible-service/": {
+  "index": 197,
+  "level": "NA",
+  "reason": "Compliance eligibility announcement.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/06/aws-elemental-medialive-now-available-in-europe-frankfurt-region/": {
+  "index": 198,
+  "level": "NA",
+  "reason": "Regional availability expansion only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/06/amazon-macie-releases-administrative-APIs-to-enable-IT-management-workflow-automation/": {
+  "index": 199,
+  "level": "3",
+  "reason": "New programmatic admin interface for linking and listing accounts and buckets.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/07/aws-single-sign-on-streamlines-access-to-aws-organizations-master-account-resources/": {
+  "index": 200,
+  "level": "2",
+  "reason": "SSO permission assignment now covers the Organizations management account as well as member accounts, extending existing targets.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/07/amazon-ec2-fleet-now-supports-two-new-allocation-strategies/": {
+  "index": 201,
+  "level": "2",
+  "reason": "Two more allocation strategy options for the existing Fleet provisioning operation.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/07/aws-batch-is-now-available-in-south-america-sao-paulo-region/": {
+  "index": 202,
+  "level": "NA",
+  "reason": "Region launch of an existing service only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/08/amazon-polly-adds-bilingual-indian-english-hindi-language-support/": {
+  "index": 203,
+  "level": "1",
+  "reason": "Adds a language and a bilingual voice to the speech catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/08/amazon-ec2-p3-instances-now-available-in-6-additional-regions/": {
+  "index": 204,
+  "level": "NA",
+  "reason": "Existing instance family made available in more regions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/09/major-updates-to-3-aws-classroom-training-courses/": {
+  "index": 205,
+  "level": "NA",
+  "reason": "Training course updates, which are educational content.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/10/aws-service-catalog-announces-self-service-actions/": {
+  "index": 206,
+  "level": "3",
+  "reason": "Adds a distinct operation: end users run defined automation actions on their provisioned products.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/10/aws-config-launches-the-ability-to-store-compliance-history-of-resources-as-evaluated-by-aws-config-rules/": {
+  "index": 207,
+  "level": "3",
+  "reason": "New ability to record and query compliance state over time; previously only the current state was available.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/10/deploy-tableau-server-for-healthcare-on-the-aws-cloud-with-new-quick-start/": {
+  "index": 208,
+  "level": "NA",
+  "reason": "A partner-built reference deployment template; it does not change any AWS service.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/chainer5-0_launch_deep_learning_ami/": {
+  "index": 209,
+  "level": "1",
+  "reason": "Framework version update in the Deep Learning AMI catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/aws-console-mobile-app-new-ios/": {
+  "index": 210,
+  "level": "3",
+  "reason": "New mobile console app for iOS, giving a new interface for monitoring and managing resources.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-route-53-announces-resolver-with-support-for-dns-resolution-over-direct-connect-and-vpn/": {
+  "index": 211,
+  "level": "4",
+  "reason": "Adds a substantial hybrid DNS subsystem to Route 53, with inbound and outbound endpoints and shareable forwarding rules.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-translate-adds-eight-new-languages/": {
+  "index": 212,
+  "level": "1",
+  "reason": "More supported languages and language pairs in the translation catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/aws-snowball-edge-compute-optimized-option-to-add-more-than-2x-m/": {
+  "index": 213,
+  "level": "2",
+  "reason": "New compute-heavy device option with an optional GPU, plus clustering across both device types.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/monitor-and-visualize-training-metrics-of-your-machine-learning-/": {
+  "index": 214,
+  "level": "2",
+  "reason": "Training metrics now publish to CloudWatch, an added integration target for monitoring.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-elastic-fabric-adapter/": {
+  "index": 215,
+  "level": "4",
+  "reason": "New EC2 network interface with OS-bypass and libfabric support, giving a new HPC communication model.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-efs-now-supports-1000-file-systems-per-account/": {
+  "index": 216,
+  "level": "1",
+  "reason": "Higher limits on file systems per account and mount targets per VPC.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-security-hub/": {
+  "index": 217,
+  "level": "5",
+  "reason": "Newly positioned standalone security service that gathers findings and runs compliance checks.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/12/aws-cloudformation-macros-can-now-be-used-in-templates-with-nest/": {
+  "index": 218,
+  "level": "2",
+  "reason": "Macros now work through the stack create and update calls, so they can be used with nested stacks.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2018/12/aws-step-functions-now-available-in-eu-paris/": {
+  "index": 219,
+  "level": "NA",
+  "reason": "Region launch of an existing service only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/01/announcing-windows-server-2019-amis-for-amazon-ec2/": {
+  "index": 220,
+  "level": "1",
+  "reason": "Newer operating system version added to the AMI catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-ec2-x1e-instances-are-now-available-in-the-asia-pacific-seoul-aws-region/": {
+  "index": 221,
+  "level": "NA",
+  "reason": "Existing instance family made available in one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/01/aws-storage-gateway-integrates-with-aws-backup-to-protect-volume/": {
+  "index": 222,
+  "level": "2",
+  "reason": "Volume Gateway volumes added as a resource type the central backup service can protect.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-ec2-r5-r5d-c5d-and-m5d-instances-are-now-available-in-the-asia-pacific-mumbai-aws-region1/": {
+  "index": 223,
+  "level": "NA",
+  "reason": "Existing instance types made available in one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/02/trigger-actions-on-your-inbound-email-with-aws-lambda-for-amazon-workmail/": {
+  "index": 224,
+  "level": "3",
+  "reason": "First serverless function hook in inbound mail rules, allowing custom processing of incoming mail.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/02/aws-x-ray-net-core-sdk-generally-available/": {
+  "index": 225,
+  "level": "2",
+  "reason": "An X-Ray SDK for another .NET runtime widens which languages the tracing service works with.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/03/aws-step-functions-adds-tag-based-permissions/": {
+  "index": 226,
+  "level": "2",
+  "reason": "State machines can now be access-controlled through IAM conditions on their tags.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/04/amazon-eks-now-delivers-kubernetes-control-plane-logs-to-amazon-/": {
+  "index": 227,
+  "level": "3",
+  "reason": "EKS control plane logs could not be reached before; delivering them to CloudWatch is a distinct new observability capability.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/04/amazon-rds-postgresql-supports-multi-major-version-upgrades/": {
+  "index": 228,
+  "level": "2",
+  "reason": "The existing major-version upgrade can now skip versions and reach PostgreSQL 11 in one step.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-dynamodb-transactions-are-now-available-in-the-asia-pacific-osaka-local-region/": {
+  "index": 229,
+  "level": "NA",
+  "reason": "Only brings an existing DynamoDB feature to one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/05/performance-insights-global-datatabase/": {
+  "index": 230,
+  "level": "2",
+  "reason": "Performance Insights gains Aurora Global Database (MySQL) as a supported target.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/05/aws-encryption-sdk-for-c-now-available/": {
+  "index": 231,
+  "level": "2",
+  "reason": "A C implementation of the client-side encryption library works with the other versions; its keyrings refine how wrapping keys are chosen.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/05/amazon_aurora_serverless_mysql_5_6_now_supportsdataapi/": {
+  "index": 232,
+  "level": "3",
+  "reason": "A new HTTP endpoint lets you run SQL against Aurora Serverless without managing connections.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-inspector-adds-cis-benchmark-support-for-amazon-linux-2/": {
+  "index": 233,
+  "level": "2",
+  "reason": "Inspector's CIS assessments now cover another operating system, Amazon Linux 2.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/06/aws-client-vpn-includes-support-for-aws-cloudformation/": {
+  "index": 234,
+  "level": "2",
+  "reason": "Client VPN endpoint resources can now be defined in CloudFormation templates.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/06/aws-certificate-manager-private-certificate-authority-now-supports-root-CA-heirarchies/": {
+  "index": 235,
+  "level": "3",
+  "reason": "Private CA can now create AWS-managed root and subordinate CAs, a new operation that replaces the need for an external root.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/06/launching-encrypted-ebs-backed-ec2-instances-from-unencrypted-amis-now-available-aws-china-beijing-ningxia/": {
+  "index": 236,
+  "level": "NA",
+  "reason": "Only brings an existing EC2/EBS encryption feature to the China regions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-kinesis-data-firehose-available-in-aws-govcloud-region/": {
+  "index": 237,
+  "level": "NA",
+  "reason": "Firehose becomes available in one more GovCloud region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecr-now-supports-increased-repository-and-image-limits/": {
+  "index": 238,
+  "level": "1",
+  "reason": "Default limits on repositories per region and images per repository are raised tenfold.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/07/discovering-documents-made-easy-in-aws-systems-manager-automation/": {
+  "index": 239,
+  "level": "2",
+  "reason": "The console's document picker now groups documents by category and lets you filter for your own or shared ones.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/07/elastic-fabric-adapter-officially-integrated-into-libfabric-library/": {
+  "index": 240,
+  "level": "2",
+  "reason": "The EFA provider now ships inside the upstream Libfabric release, so it no longer needs a separate install.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/07/aws-direct-connect-support-aws-transit-gateway-now-available-in-aws-eu-ireland-region/": {
+  "index": 241,
+  "level": "NA",
+  "reason": "Direct Connect's Transit Gateway support reaches one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/07/now-use-aws-systems-manager-maintenance-windows-to-select-resource-groups-as-targets/": {
+  "index": 242,
+  "level": "2",
+  "reason": "Maintenance windows can now target resource groups, which go beyond EC2 instances.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/07/aws-snowball-and-aws-snowball-edge-available-in-asia-pacific-seoul-region/": {
+  "index": 243,
+  "level": "NA",
+  "reason": "Snowball devices become available in one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/08/introducing-aws-privatelink-in-the-aws-govcloud-us-east-region/": {
+  "index": 244,
+  "level": "NA",
+  "reason": "PrivateLink becomes available in one more GovCloud region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-rekognition-now-detects-violence-weapons-and-self-injury-in-images-and-videos-improves-accuracy-for-nudity-detection/": {
+  "index": 245,
+  "level": "1",
+  "reason": "The moderation label set gains new categories and existing classifiers are more accurate; both are catalogue and performance changes.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/09/aws-glue-now-supports-wheel-files-as-dependencies-for-glue-python-shell-jobs/": {
+  "index": 246,
+  "level": "2",
+  "reason": "Python shell jobs accept another dependency package format besides egg.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/10/aws-snowball-edge-now-supports-offline-software-updates-for-snowball-edge-devices-in-air-gapped-environments/": {
+  "index": 247,
+  "level": "2",
+  "reason": "The device software update can now run without an internet connection, a new mode for an existing operation.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-route-53-resolver-endpoints-for-hybrid-cloud-now-available-in-aws-govcloud-us-regions/": {
+  "index": 248,
+  "level": "NA",
+  "reason": "Resolver endpoints become available in GovCloud regions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-lex-achieves-pci-dcc-compliance/": {
+  "index": 249,
+  "level": "NA",
+  "reason": "A compliance certification only; the product itself is unchanged.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/11/amazon-transcribe-is-now-available-in-asia-pacific-hong-kong-and-middle-east-bahrain-regions/": {
+  "index": 250,
+  "level": "NA",
+  "reason": "Only adds two new regions for the existing transcription service.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/11/new-quick-start-for-deloitte-truevoice-on-aws/": {
+  "index": 251,
+  "level": "1",
+  "reason": "Adds one partner reference deployment to the Quick Start catalogue; AWS's own products don't change.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/11/amazon-elasticache-now-supports-t3-standard-cache-nodes/": {
+  "index": 252,
+  "level": "1",
+  "reason": "Adds a new burstable node family to the list of supported cache node types.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/11/aws-ram-now-available-in-sao-paulo-region/": {
+  "index": 253,
+  "level": "NA",
+  "reason": "Only makes the resource sharing service available in one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/11/aws-direct-connect-enables-direct-connect-gateway-for-aws-china-regions/": {
+  "index": 254,
+  "level": "2",
+  "reason": "Brings the existing gateway feature to the China regions and changes how transfer charges are allocated between accounts.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-amazon-cloudwatch-synthetics-preview/": {
+  "index": 255,
+  "level": "3",
+  "reason": "Adds scripted canary monitoring of endpoints to CloudWatch as a separate new feature (preview).",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-ec2-image-builder/": {
+  "index": 256,
+  "level": "5",
+  "reason": "AWS presents this as a standalone service for building, testing and distributing machine images.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-elastic-container-service-launches-a-new-cli-to-launch-and-manage-containerized-applications-easier/": {
+  "index": 257,
+  "level": "3",
+  "reason": "Adds a new command-line tool with guided workflows for deploying and running container apps (preview).",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/01/amazon-sagemaker-supports-tensorflow-2-0/": {
+  "index": 258,
+  "level": "1",
+  "reason": "Adds a newer framework version to the prebuilt container catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/02/now-available-updated-versions-of-2-apn-partner-digital-courses/": {
+  "index": 259,
+  "level": "NA",
+  "reason": "Updates partner training courses, which is educational content.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-neptune-refreshes-the-console-to-simplify-management-of-your-database/": {
+  "index": 260,
+  "level": "2",
+  "reason": "Redesigns the console views and menus used for existing cluster management tasks.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-elasticsearch-service-announces-support-for-elasticsearch-versions-7.4/": {
+  "index": 261,
+  "level": "1",
+  "reason": "Adds a new engine version to the list of supported versions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/03/all-amazon-chime-meetings-now-support-250-attendees/": {
+  "index": 262,
+  "level": "2",
+  "reason": "Raises the attendee limit and adds automatic muting and notification handling for large meetings.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-now-available-los-angeles-local-zone/": {
+  "index": 263,
+  "level": "NA",
+  "reason": "Only makes the existing database service available in one more Local Zone.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/05/aws-secrets-manager-is-now-fedramp-compliant/": {
+  "index": 264,
+  "level": "NA",
+  "reason": "Announces a compliance certification only.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/05/aws-sam-adds-support-for-aws-step-functions/": {
+  "index": 265,
+  "level": "2",
+  "reason": "Lets SAM templates define state machines, adding a new resource type to the framework.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/05/network-load-balancer-now-supports-tls-alpn-policies/": {
+  "index": 266,
+  "level": "2",
+  "reason": "Adds protocol negotiation policies to existing TLS listeners on the load balancer.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/06/infineons-optiga-trust-m-now-qualified-for-use-with-freertos-available-for-use-with-iot-core-multi-account-registration/": {
+  "index": 267,
+  "level": "2",
+  "reason": "Qualifies a partner secure element so it works with the existing device registration feature.",
+  "confidence": "low",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/06/amazon-redshift-ra3-nodes-are-now-available-in-the-asia-pacific-mumbai-region/": {
+  "index": 268,
+  "level": "NA",
+  "reason": "Only makes an existing node type available in one more region.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/07/amazon-personalize-improved-handling-missing-metadata/": {
+  "index": 269,
+  "level": "2",
+  "reason": "Lets dataset schemas accept null values so incomplete metadata can be used in training.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/07/aws-systems-manager-explorer-now-available-govcloud-regions/": {
+  "index": 270,
+  "level": "NA",
+  "reason": "Only brings the existing dashboard to the GovCloud regions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/07/amazon-rds-for-oracle-supports-oracle-spatial-for-oracle-standard-edition-2/": {
+  "index": 271,
+  "level": "2",
+  "reason": "Makes an existing database option available on another edition.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/07/track-file-changes-on-systems-manager-managed-instances-with-aws-config/": {
+  "index": 272,
+  "level": "2",
+  "reason": "Adds instance file inventory as a new resource type that Config can track.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/07/introducing-amazon-virtual-andon-2/": {
+  "index": 273,
+  "level": "2",
+  "reason": "Solution update adds group permissions and root-cause assignment to the existing workflow.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/07/announcing-amazon-cloudwatch-metrics-amazon-ec2-on-demand-capacity-reservations/": {
+  "index": 274,
+  "level": "2",
+  "reason": "Publishes usage metrics for capacity reservations to CloudWatch, which makes alarms possible.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/07/amazon-kinesis-data-firehose-now-supports-data-delivery-to-http-endpoints/": {
+  "index": 275,
+  "level": "2",
+  "reason": "Adds generic HTTP endpoints as a further delivery destination for an existing streaming service.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/08/aws-snowball-edge-compute-optimized-now-available-mumbai/": {
+  "index": 276,
+  "level": "NA",
+  "reason": "Regional launch of existing Snowball Edge device options.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-detective-available-bahrain-hong-kong-regions/": {
+  "index": 277,
+  "level": "NA",
+  "reason": "Detective expands into two more regions; purely geographic.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/09/introducing-aws-cost-anomaly-detection-preview/": {
+  "index": 278,
+  "level": "3",
+  "reason": "New ML-driven anomaly alerting operation added within Cost Management, presented as an opt-in feature.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-qldb-launches-index-improvements/": {
+  "index": 279,
+  "level": "2",
+  "reason": "Index creation now permitted on tables that already contain data, extending an existing operation.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/09/reserved-outbound-bandwidth-available-for-aws-elemental-mediaconnect/": {
+  "index": 280,
+  "level": "2",
+  "reason": "New committed reservation purchase option for egress bandwidth; billing mechanism, not only a price cut.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/09/increased-availability-for-aws-certification-exam-online-proctoring/": {
+  "index": 281,
+  "level": "NA",
+  "reason": "Certification exam delivery change is educational, not a product change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-appflow-supports-new-options-updating-records/": {
+  "index": 282,
+  "level": "2",
+  "reason": "Upsert write mode added alongside insert for the Salesforce destination.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/10/introducing-distributed-load-testing-v1-1/": {
+  "index": 283,
+  "level": "2",
+  "reason": "Solution update accepts JMeter scripts and restructures internals with Step Functions.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-cloudwatch-synthetics-launches-recorder-to-generate-user-flow-scripts-for-canaries/": {
+  "index": 284,
+  "level": "3",
+  "reason": "New browser-extension interface that records user actions into canary scripts.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-kendra-adds-confluence-server-connector/": {
+  "index": 285,
+  "level": "2",
+  "reason": "One more built-in data source connector for the search index.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-ses-now-offers-list-and-subscription-management-capabilities/": {
+  "index": 286,
+  "level": "3",
+  "reason": "Introduces contact lists, topics and automated unsubscribe handling as a new function in SES.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/11/amazon-quicksight-supports-column-level-security-column-descriptions-new-oracle-connector/": {
+  "index": 287,
+  "level": "3",
+  "reason": "Column-level access control is a new governance capability; descriptions and Oracle connector are smaller refinements.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/11/announcing-amazon-lightsail-containers/": {
+  "index": 288,
+  "level": "4",
+  "reason": "Brings a container-based execution model to Lightsail with managed deployment and load-balanced endpoints.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/11/aws-partners-learn-how-to-engage-customers-in-ml-and-ai-opportunities/": {
+  "index": 289,
+  "level": "NA",
+  "reason": "Partner training course update is educational content.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/11/introducing-next-generation-aws-database-migration-service-instances/": {
+  "index": 290,
+  "level": "1",
+  "reason": "Additional instance families in the replication instance catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/11/aws-codeartifact-supports-nuget/": {
+  "index": 291,
+  "level": "2",
+  "reason": "Extends artifact repository compatibility to another package format and its client tools.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/11/amazon-ecs-cluster-auto-scaling-now-offers-more-responsive-scaling/": {
+  "index": 292,
+  "level": "1",
+  "reason": "Improved scaling responsiveness for multi-AZ and mixed-type groups, enabled by default; performance change.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/11/amazon-translate-adds-support-for-sixteen-more-languages-and-variants/": {
+  "index": 293,
+  "level": "1",
+  "reason": "Sixteen languages added to the supported translation catalogue.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-replication-adds-support-two-way-replication/": {
+  "index": 294,
+  "level": "2",
+  "reason": "New replication rule option to sync metadata changes on replicas bidirectionally.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-supports-10gb-memory-6-vcpu-cores-lambda-functions/": {
+  "index": 295,
+  "level": "1",
+  "reason": "Maximum function memory limit raised, with proportional vCPU increase.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-the-new-aws-travel-and-hospitality-competency/": {
+  "index": 296,
+  "level": "NA",
+  "reason": "Partner competency program launch, not a product change.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ebs-io2-volumes-support-sap-workloads/": {
+  "index": 297,
+  "level": "NA",
+  "reason": "SAP certification of an existing volume type is a compliance-style announcement.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-distributed-training-on-amazon-sagemaker/": {
+  "index": 298,
+  "level": "3",
+  "reason": "New libraries providing model- and data-parallel training methods within SageMaker training.",
+  "confidence": "medium",
+  "model": "claude-opus-5-5"
+ },
+ "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-distributed-load-testing-v1-2/": {
+  "index": 299,
+  "level": "2",
+  "reason": "Solution update adds plugin and input file support plus per-sampler result views.",
+  "confidence": "high",
+  "model": "claude-opus-5-5"
+ }
+}

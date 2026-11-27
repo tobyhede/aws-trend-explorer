@@ -1,0 +1,152 @@
+{
+  "source": "Internet Archive Wayback Machine",
+  "files": [
+    {
+      "file": "archive/cdx/2010.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2010%2F&from=20101201&to=20110331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 178,
+      "sha256": "a9d494bf631deb66eaf60413b1e5dfb3dd0b13704ecf8535b209915aff8a0808"
+    },
+    {
+      "file": "archive/cdx/2011.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2011%2F&from=20111201&to=20120331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 180,
+      "sha256": "bd1698def964c457e65d4cf71ec64ae80a595d4c33dfaa808c3b773bdc1aed21"
+    },
+    {
+      "file": "archive/cdx/2012.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2012%2F&from=20121201&to=20130331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 416,
+      "sha256": "4876c4d09fa9fef17d55da589007a357b9979f3db6436a565695319f39acb62b"
+    },
+    {
+      "file": "archive/cdx/2013.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2013%2F&from=20131201&to=20140331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 1855,
+      "sha256": "1cce0a82e8294e4a6388ece9674c2f5029589c3cc4bfd7329526c0b8b242fc7c"
+    },
+    {
+      "file": "archive/cdx/2014.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2014%2F&from=20141201&to=20150331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 1624,
+      "sha256": "4803a6b4aa247b72df31deb141a4915dc718109e424e5adf324b1bd6b47e8ca9"
+    },
+    {
+      "file": "archive/cdx/2015.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2015%2F&from=20151201&to=20160331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 299,
+      "sha256": "6ecd53fc9f7d816d3bd4feea3ca14f7bc9d8726c43fb5c2f15322465d9b1c3ec"
+    },
+    {
+      "file": "archive/cdx/2016.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2016%2F&from=20161201&to=20170331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 179,
+      "sha256": "9458f98007d519702285302fb784dd66fbe6ebb6d2d33e5268ba4c408e10a2f8"
+    },
+    {
+      "file": "archive/cdx/2017.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2017%2F&from=20171201&to=20180331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "archive/cdx/2018.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2018%2F&from=20181201&to=20190331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 1389,
+      "sha256": "37a8d114169d18fcebc94b0a95c71ad82e9d91e64c3dfd76226d01132e4abb97"
+    },
+    {
+      "file": "archive/cdx/2019.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2019%2F&from=20191201&to=20200331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 1873,
+      "sha256": "d98f6b689b99bf8896151b676ebc2d298e3151c62590ff7d4de654f7b181ec5c"
+    },
+    {
+      "file": "archive/cdx/2020.json",
+      "url": "https://web.archive.org/cdx/search/cdx?url=aws.amazon.com%2Fabout-aws%2Fwhats-new%2F2020%2F&from=20201201&to=20210331&filter=statuscode%3A200&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Clength%2Cdigest",
+      "retrieved": "2026-11-27",
+      "bytes": 1752,
+      "sha256": "f05a2e8df5525c9c195a06d5e1ad0949f172761d53a05343335eeef0de3dc2fb"
+    },
+    {
+      "file": "archive/pages/2010_20101202112050.html",
+      "url": "https://web.archive.org/web/20101202112050id_/https://aws.amazon.com/about-aws/whats-new/2010/",
+      "retrieved": "2026-11-27",
+      "bytes": 96638,
+      "sha256": "f13c9dd5dab5d6602c48c261efb79aed7f1bf3954f56da2889d99e6f52041865"
+    },
+    {
+      "file": "archive/pages/2011_20111222215213.html",
+      "url": "https://web.archive.org/web/20111222215213id_/http://aws.amazon.com:80/about-aws/whats-new/2011/",
+      "retrieved": "2026-11-27",
+      "bytes": 135079,
+      "sha256": "1883e81ab0a3ed0802aa9274760f4ac721bb2773beec50d45856d0a4261fbd2a"
+    },
+    {
+      "file": "archive/pages/2012_20130307225034.html",
+      "url": "https://web.archive.org/web/20130307225034id_/http://aws.amazon.com/about-aws/whats-new/2012/",
+      "retrieved": "2026-11-27",
+      "bytes": 260033,
+      "sha256": "035d61077d20a52e7700f9254058b52d113cff29d4d6694c969a52434b226f8d"
+    },
+    {
+      "file": "archive/pages/2013_20140105031724.html",
+      "url": "https://web.archive.org/web/20140105031724id_/http://aws.amazon.com/about-aws/whats-new/2013/",
+      "retrieved": "2026-11-27",
+      "bytes": 391082,
+      "sha256": "8ed2e0dfcaa9eaea3ef86dab456fd20cf6c4d7d69b99e8b7d961063178423534"
+    },
+    {
+      "file": "archive/pages/2014_20150106183300.html",
+      "url": "https://web.archive.org/web/20150106183300id_/http://aws.amazon.com/about-aws/whats-new/2014/",
+      "retrieved": "2026-11-27",
+      "bytes": 581855,
+      "sha256": "ef74b7f24d49ca5496a592f73783dea053fc6276ae72cf031d14b26249f8e089"
+    },
+    {
+      "file": "archive/pages/2015_20160315065245.html",
+      "url": "https://web.archive.org/web/20160315065245id_/https://aws.amazon.com/about-aws/whats-new/2015/",
+      "retrieved": "2026-11-27",
+      "bytes": 813002,
+      "sha256": "78209354edb1e2e055a996a9ec49baf1faf5e8428451cd69d101ddf77bb3fcfc"
+    },
+    {
+      "file": "archive/pages/2016_20161209111916.html",
+      "url": "https://web.archive.org/web/20161209111916id_/https://aws.amazon.com/about-aws/whats-new/2016/",
+      "retrieved": "2026-11-27",
+      "bytes": 880846,
+      "sha256": "827257463b3c980c3e94e6edb4d48576d6c6ea0cde6048e75c30f04de1da94b2"
+    },
+    {
+      "file": "archive/pages/2018_20190104102105.html",
+      "url": "https://web.archive.org/web/20190104102105id_/https://aws.amazon.com/about-aws/whats-new/2018/",
+      "retrieved": "2026-11-27",
+      "bytes": 1798731,
+      "sha256": "0e8e637a57e2c924d8a67a83ade44f182b2337a386d89bbbc835d0acad074a94"
+    },
+    {
+      "file": "archive/pages/2019_20200107145750.html",
+      "url": "https://web.archive.org/web/20200107145750id_/https://aws.amazon.com/about-aws/whats-new/2019/",
+      "retrieved": "2026-11-27",
+      "bytes": 2217708,
+      "sha256": "91d27829f1a23218f72c07de5668a654e7ce56e7898bbd89f99bd09b193ecd13"
+    },
+    {
+      "file": "archive/pages/2020_20210119222413.html",
+      "url": "https://web.archive.org/web/20210119222413id_/https://aws.amazon.com/about-aws/whats-new/2020/",
+      "retrieved": "2026-11-27",
+      "bytes": 2670057,
+      "sha256": "a9a5240257812e5cb89d2eaeed8e04abda55efb13499e030ceb994c3d1c192b5"
+    }
+  ]
+}

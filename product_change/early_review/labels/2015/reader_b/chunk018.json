@@ -1,0 +1,44 @@
+{
+ "model": "claude-fable-5-2",
+ "system_sha256": "3e9f71c216d58458e5b323ad825a89ba5e54235dc6e1bed90fcc957cfa44c06a",
+ "indices": [
+  450,
+  451
+ ],
+ "user": "[\n {\n  \"index\": 450,\n  \"date\": \"2015-12-28\",\n  \"url\": \"https://aws.amazon.com/about-aws/whats-new/2015/12/now-add-or-modify-request-headers-forwarded-from-amazon-cloudfront-to-origin/\",\n  \"title\": \"Now Add or Modify Request Headers Forwarded From Amazon CloudFront to Origin\",\n  \"text\": \"You can now configure CloudFront to add custom headers or override the value of existing request headers when CloudFront forwards requests to your origin. You can use these headers to help validate that requests made to your origin were sent from CloudFront (shared secret) and configure your origin to only allow requests that contain the custom header values that you specify. This feature also helps with setting up Cross-Origin Request Sharing (CORS) for your CloudFront distribution - you can configure CloudFront to always add custom headers to your origin to accommodate viewers that don't automatically include those headers in requests. It also allows you to disable varying on the Origin header, which improves your cache hit ratio, yet forward the appropriate headers so that your origin can respond with the CORS header. For more information, see Forwarding Custom Headers to Your Origin in the Amazon CloudFront Developer Guide. You can now configure CloudFront to add custom headers or override the value of existing request headers when CloudFront forwards requests to your origin. You can use these headers to help validate that requests made to your origin were sent from CloudFront (shared secret) and configure your origin to only allow requests that contain the custom header values that you specify. This feature also helps with setting up Cross-Origin Request Sharing (CORS) for your CloudFront distribution - you can configure CloudFront to always add custom headers to your origin to accommodate viewers that don't automatically include those headers in requests. It also allows you to disable varying on the Origin header, which improves your cache hit ratio, yet forward the appropriate headers so that your origin can respond with the CORS header. For more information, see Forwarding Custom Headers to Your Origin in the Amazon CloudFront Developer Guide.\"\n },\n {\n  \"index\": 451,\n  \"date\": \"2015-12-28\",\n  \"url\": \"https://aws.amazon.com/about-aws/whats-new/2015/12/now-available-in-aws-govcloud-us-d2-instances-the-latest-generation-of-amazon-ec2-dense-storage-instances/\",\n  \"title\": \"Now Available in AWS GovCloud (US): D2 instances, the latest generation of Amazon EC2 Dense-storage instances\",\n  \"text\": \"You can now launch D2 instances, the latest generation of Amazon EC2 Dense-storage instances. D2 instances are designed for workloads that require high sequential read and write access to very large data sets, such as Hadoop distributed computing, massively parallel processing data warehousing, and log processing applications. You can now launch D2 instances, the latest generation of Amazon EC2 Dense-storage instances. D2 instances are designed for workloads that require high sequential read and write access to very large data sets, such as Hadoop distributed computing, massively parallel processing data warehousing, and log processing applications. The largest D2 instance, d2.8xlarge, offers up to 48 TB of instance storage and can deliver up to 3.5 GBps read and 3.1 GBps write disk throughput with a 2 MiB block size. D2 instances are powered by Intel Xeon E5-2676 v3 (Haswell) processors that run at a base clock frequency of 2.4 GHz and can deliver clock speeds as high as 3.0 GHz with Intel Turbo Boost. D2 instances also offer Amazon EC2 Enhanced Networking (when used in Amazon VPC) for high packet per second performance, low network jitter, and low network latencies. D2 instances are available in four instance sizes with following specifications: You can launch D2 instances through the AWS Management Console , AWS Command Line Interface , and the Amazon EC2 API . To learn more about D2 and other Amazon EC2 instances, visit the Amazon EC2 Instances page and the Amazon EC2 User Guide's section on D2 instances. Instance Size # vCPUs Memory (GiB) Instance Storage (HDD) Network Performance Disk Read (MBps with 2 MiB block size) d2.xlarge 4 30.5 3 x 2 TB Moderate 438 d2.2xlarge 8 61 6 x 2 TB High 875 d2.4xlarge 16 122 12 x 2 TB High 1,750 d2.8xlarge 36 244 24 x 2 TB 10 Gbps 3,500\"\n }\n]",
+ "attempts": [
+  {
+   "model": "claude-fable-5-2",
+   "stop_reason": "success",
+   "request_id": "53f3e325-9158-4462-a1a3-65f7001bd076",
+   "usage": {
+    "claude-haiku-5-5": {
+     "input_tokens": 2724,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "output_tokens": 266
+    },
+    "claude-fable-5-2": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 683,
+     "cache_read_input_tokens": 3075,
+     "output_tokens": 287
+    }
+   },
+   "reply": "{\"ratings\": [{\"index\": 450, \"level\": \"2\", \"reason\": \"Adds a configuration option to inject or override headers on origin requests, extending the existing forwarding behaviour of distributions.\", \"confidence\": \"medium\"}, {\"index\": 451, \"level\": \"NA\", \"reason\": \"An existing instance family becomes launchable in an additional region; purely a geographic expansion.\", \"confidence\": \"high\"}]}",
+   "rejected": null
+  }
+ ],
+ "ratings": {
+  "450": {
+   "level": "2",
+   "reason": "Adds a configuration option to inject or override headers on origin requests, extending the existing forwarding behaviour of distributions.",
+   "confidence": "medium"
+  },
+  "451": {
+   "level": "NA",
+   "reason": "An existing instance family becomes launchable in an additional region; purely a geographic expansion.",
+   "confidence": "high"
+  }
+ }
+}

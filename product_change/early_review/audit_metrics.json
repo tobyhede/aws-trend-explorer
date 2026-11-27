@@ -1,0 +1,2601 @@
+{
+  "sample_size": 300,
+  "population_size": 8421,
+  "exact_agreement": 272,
+  "unweighted_agreement": 0.9066666666666666,
+  "unweighted_wilson_95": [
+    0.8684146029829267,
+    0.934635780421109
+  ],
+  "weighted_agreement": 0.9021575467847008,
+  "weighted_95": [
+    0.8613939608105942,
+    0.9429211327588075
+  ],
+  "by_year": {
+    "2010": {
+      "population": 66,
+      "sample_size": 20,
+      "exact": 17,
+      "agreement": 0.85,
+      "wilson_95": [
+        0.6395811352592431,
+        0.9476312541037835
+      ]
+    },
+    "2011": {
+      "population": 82,
+      "sample_size": 21,
+      "exact": 19,
+      "agreement": 0.9047619047619048,
+      "wilson_95": [
+        0.7108586092608176,
+        0.9734812325619255
+      ]
+    },
+    "2012": {
+      "population": 91,
+      "sample_size": 21,
+      "exact": 18,
+      "agreement": 0.8571428571428571,
+      "wilson_95": [
+        0.6536393971937906,
+        0.9501898750027473
+      ]
+    },
+    "2013": {
+      "population": 185,
+      "sample_size": 22,
+      "exact": 21,
+      "agreement": 0.9545454545454546,
+      "wilson_95": [
+        0.7820195416134267,
+        0.991930572378736
+      ]
+    },
+    "2014": {
+      "population": 295,
+      "sample_size": 23,
+      "exact": 23,
+      "agreement": 1.0,
+      "wilson_95": [
+        0.8568833815495731,
+        1.0
+      ]
+    },
+    "2015": {
+      "population": 452,
+      "sample_size": 24,
+      "exact": 23,
+      "agreement": 0.9583333333333334,
+      "wilson_95": [
+        0.7975819352134406,
+        0.9926065438344942
+      ]
+    },
+    "2016": {
+      "population": 640,
+      "sample_size": 26,
+      "exact": 23,
+      "agreement": 0.8846153846153846,
+      "wilson_95": [
+        0.7102409678828635,
+        0.9599675537638938
+      ]
+    },
+    "2017": {
+      "population": 1023,
+      "sample_size": 30,
+      "exact": 26,
+      "agreement": 0.8666666666666667,
+      "wilson_95": [
+        0.703186733179637,
+        0.9469034451594526
+      ]
+    },
+    "2018": {
+      "population": 1433,
+      "sample_size": 33,
+      "exact": 31,
+      "agreement": 0.9393939393939394,
+      "wilson_95": [
+        0.8039375519135219,
+        0.9832191169128082
+      ]
+    },
+    "2019": {
+      "population": 1860,
+      "sample_size": 38,
+      "exact": 34,
+      "agreement": 0.8947368421052632,
+      "wilson_95": [
+        0.7586947827711269,
+        0.9582974265244647
+      ]
+    },
+    "2020": {
+      "population": 2294,
+      "sample_size": 42,
+      "exact": 37,
+      "agreement": 0.8809523809523809,
+      "wilson_95": [
+        0.7499960973799032,
+        0.9480619667224176
+      ]
+    }
+  },
+  "by_level": {
+    "1": {
+      "correct": 37,
+      "predicted": 39,
+      "reference": 43,
+      "precision": 0.9487179487179487,
+      "recall": 0.8604651162790697
+    },
+    "2": {
+      "correct": 88,
+      "predicted": 94,
+      "reference": 99,
+      "precision": 0.9361702127659575,
+      "recall": 0.8888888888888888
+    },
+    "3": {
+      "correct": 53,
+      "predicted": 63,
+      "reference": 60,
+      "precision": 0.8412698412698413,
+      "recall": 0.8833333333333333
+    },
+    "4": {
+      "correct": 3,
+      "predicted": 7,
+      "reference": 5,
+      "precision": 0.42857142857142855,
+      "recall": 0.6
+    },
+    "5": {
+      "correct": 10,
+      "predicted": 11,
+      "reference": 12,
+      "precision": 0.9090909090909091,
+      "recall": 0.8333333333333334
+    },
+    "U": {
+      "correct": 0,
+      "predicted": 1,
+      "reference": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "NA": {
+      "correct": 81,
+      "predicted": 85,
+      "reference": 81,
+      "precision": 0.9529411764705882,
+      "recall": 1.0
+    }
+  },
+  "confusion": {
+    "1 -> 1": 37,
+    "1 -> 2": 2,
+    "2 -> 1": 3,
+    "2 -> 2": 88,
+    "2 -> 3": 3,
+    "3 -> 2": 8,
+    "3 -> 3": 53,
+    "3 -> 4": 1,
+    "3 -> 5": 1,
+    "4 -> 3": 3,
+    "4 -> 4": 3,
+    "4 -> 5": 1,
+    "5 -> 3": 1,
+    "5 -> 5": 10,
+    "NA -> 1": 3,
+    "NA -> 2": 1,
+    "NA -> NA": 81,
+    "U -> 4": 1
+  },
+  "interpretation": "This is agreement between AI readings: final labels from two claude-fable-5-2 readers with adjudication, against one blind claude-opus-5-5 reading. It is not accuracy against human judgement. The weighted figure weights each year by its share of the 2010\u20132020 records; intervals describe sampling uncertainty only, not shared model bias.",
+  "rows": [
+    {
+      "index": 0,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/02/02/amazon-elastic-mapreduce-now-supports-job-flow-debugging-via-the-aws-management-console/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 1,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/02/23/Amazon-EC2-Reserved-Instances-with-Windows-Now-Available/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 2,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/04/13/announcing-amazon-relational-database-service-rds-in-the-eu-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 3,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/05/04/announcing-amazon-vpc-in-the-eu-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 4,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/05/13/amazon-cloudfront-adds-access-logs-for-streaming/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 5,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/06/10/aws-importexport-exits-beta-and-announces-web-service-support/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 6,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/06/10/aws-management-console-adds-support-for-amazon-s3/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 7,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/07/01/amazon-sqs-introduces-free-tier-and-adds-support-for-larger-messages-and-longer-retention/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 8,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/08/16/amazon-rds-adds-new-reserved-database-instance-option/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 9,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/08/18/4th-annual-aws-startup-challenge-goes-global/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 10,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/09/08/aws-management-console-adds-support-for-amazon-vpc/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 11,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/09/20/amazon-ec2-introduces-tagging-filtering-import-key-pair-and-idempotency/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 12,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/09/29/announcing-aws-sdk-for-php/",
+      "label": "3",
+      "reference": "5",
+      "exact_match": false
+    },
+    {
+      "index": 13,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/10/05/amazon-ec2-running-suse-linux-now-available/",
+      "label": "2",
+      "reference": "1",
+      "exact_match": false
+    },
+    {
+      "index": 14,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/10/05/announcing-read-replicas-lower-high-memory-db-instance-prices-for-amazon-rds/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 15,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/10/12/aws-management-console-adds-support-for-amazon-sns/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 16,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/11/15/announcing-cluster-gpu-instances-for-amazon-ec2/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 17,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/11/23/AWS_Customer_Satisfaction_Survey_2010/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 18,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/12/03/amazon-simpledb-introduces-batch-delete-api/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 19,
+      "year": "2010",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2010/12/07/aws-achieves-pci-dss-level-1-compliance/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 20,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/01/06/aws-introduces-new-premium-support-plans-lowers-usage-prices-by-50-on-existing-plans/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 21,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/02/01/oracle-database-11g-coming-to-amazon-rds/",
+      "label": "U",
+      "reference": "4",
+      "exact_match": false
+    },
+    {
+      "index": 22,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/02/08/new-edge-location-paris/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 23,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/03/27/amazon-vpc-adds-dedicated-instances/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 24,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/04/14/amazon-elastic-mapreduce-now-available-in-asia-pacific-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 25,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/04/19/aws-management-console-adds-support-for-amazon-cloudfront-2/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 26,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/05/10/amazon-cloudwatch-announces-custom-metrics-lower-prices-for-amazon-ec2-monitoring/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 27,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/06/23/new-edge-location-stockholm/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 28,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/06/30/aws-announces-new-data-transfer-pricing/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 29,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/06/30/aws-elastic-beanstalk-announces-configuration-persistence-and-support-for-url-swapping/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 30,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/08/18/amazon-elastic-mapreduce-now-supports-spot-instances/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 31,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/09/08/AWS-Direct-Connect-GA-US-West/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 32,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/09/08/announcing-the-aws-toolkit-for-visual-studio/",
+      "label": "5",
+      "reference": "3",
+      "exact_match": false
+    },
+    {
+      "index": 33,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/09/15/aws-fisma-moderate/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 34,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/10/04/amazon-s3-announces-server-side-encryption-support/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 35,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/10/31/amazon-elastic-mapreduce-announces-karmasphere/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 36,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/11/21/aws-elastic-beanstalk-adds-support-for-aws-identity-access-management/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 37,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/12/01/New-Amazon-EC2-Reserved-Instances-Options-Now-Available/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 38,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 39,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/12/21/Multiple-Network-Interfaces/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 40,
+      "year": "2011",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2011/12/27/amazon-s3-announces-object-expiration/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 41,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/01/19/Announcing-IAM-Identity-Federation-To-AWS-Management-Console/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 42,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 43,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/03/07/dynamodb-now-available-in-europe/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 44,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/03/07/three-new-Amazon-EC2-features/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 45,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 46,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/03/20/php-and-git-deployment-for-aws-elastic-beanstalk/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 47,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/04/11/aws-announces-cloudsearch/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 48,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/04/19/introducing-aws-marketplace/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 49,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/04/25/aws-cloudformation-support-for-creating-vpc-resources/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 50,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/05/09/api-and-iam-support-for-storage-gateway/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 51,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/05/15/amazon-simple-email-service-announces-domain-verification/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 52,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/05/16/aws-elastic-beanstalk-now-available-in-the-eu-ireland-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 53,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/05/18/aws-console-enhancements-for-elastic-load-balancing-listener-certificate-and-cipher-management/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 54,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/05/30/amazon-elastic-mapreduce-now-supports-hive-0-8-1/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 55,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/06/19/aws-cloudformation-supports-amazon-dynamodb-and-amazon-cloudfront-dynamic-content/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 56,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/07/10/Announcing-MFA-protected-API-access/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 57,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/07/17/easily-dkim-sign-your-emails-with-amazon-ses/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 58,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/08/16/amazon-rds-oracle-announces-vpc-apex-xmldb-timezone-support/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 59,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/08/21/aws-billing-enables-cost-allocation-reports/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 60,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/09/12/announcing-amazon-ec2-reserved-instance-marketplace/",
+      "label": "4",
+      "reference": "3",
+      "exact_match": false
+    },
+    {
+      "index": 61,
+      "year": "2012",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2012/09/27/amazon-cloudfront-announces-private-content-support-in-AWS-Console/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 62,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/01/08/use-amazon-cloudwatch-to-detect-and-shut-down-unused-amazon-ec2-instances/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 63,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/03/08/AWS-SAP-Hana-One-Promo-Credit/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 64,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/03/19/announcing-ebs-optimized-support-for-additional-instance-types/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 65,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/04/02/announcing-lower-request-pricing-for-amazon-s3/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 66,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/04/03/announcing-iam-policy-variables/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 67,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/04/08/aws-elastic-beanstalk-for-net-supports-amazon-vpc-and-configuration-files/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 68,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/04/10/aws-storage-gateway-now-supports-microsoft-hyper-v/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 69,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/04/18/amazon-dynamodb-announces-local-secondary-indexes/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 70,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/05/14/aws-management-console-in-aws-govcloud-us-adds-support-for-amazon-swf/",
+      "label": "NA",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 71,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/06/06/cloudformer-now-supports-amazon-vpc-and-more-aws-resources/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 72,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/06/18/jaspersoft-promo-ec2-credit/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 73,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/08/13/amazon-sns-announces-mobile-push/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 74,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/08/28/amazon-rds-read-replica-new-features/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 75,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/08/28/aws-cloudformation-now-available-in-aws-govcloud-us/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 76,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/09/11/amazon-ec2-now-offers-reserved-instance-modifications/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 77,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/09/12/aws-trusted-advisor-adds-three-new-amazon-route-53-checks/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 78,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/10/21/aws-console-for-ios-android-now-supports-auto-scaling/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 79,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/10/31/announcing-iam-policy-simulator/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 80,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/11/11/aws-elastic-beanstalk-announces-rolling-updates/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 81,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/11/14/introducing-amazon-kinesis/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 82,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/12/10/auto-scaling-console/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 83,
+      "year": "2013",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2013/12/12/announcing-amazon-dynamodb-global-secondary-indexes/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 84,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/02/27/announcing-new-features-in-the-amazon-ec2-management-console/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 85,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/03/05/vm-import-for-windows-server-2012/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 86,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/04/08/introducing-cost-explorer-view-and-analyze-your-historical-aws-spend/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 87,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/05/06/provision-amazon-kinesis-with-aws-cloudformation/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 88,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/05/14/announcing-new-features-in-aws-activate-startup-blog-startup-spotlight-and-the-amazon-toolbox/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 89,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/06/02/amazon-rds-for-sqlserver-adds-multi-az-support-in-us-east/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 90,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/06/20/amazon-elastic-mapreduce-now-supports-iam-roles-and-federated-users/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 91,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/amazon-sns-adds-support-for-cross-platform-time-to-live-ttl/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 92,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-mobile-analytics/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 93,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/07/16/new-functionality-in-aws-support-api-attachments-and-lightweight-case-monitoring-capability/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 94,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/07/24/aws-cloudtrail-now-logs-aws-management-console-sign-in-events/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 95,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/08/04/new-low-cost-amazon-rds-option-t2/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 96,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/09/04/hive-0-13-1-now-available-on-amazon-elastic-mapreduce/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 97,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/09/11/amazon-elasticache-now-supports-t2-cache-nodes/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 98,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/09/11/tagging-support-for-kinesis-streams/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 99,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/09/25/developer-preview-resource-apis-v-2-aws-sdk-ruby/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 100,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/10/16/amazon-cloudsearch-announces-enhanced-japanese-language-processing-cloudtrail-support/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 101,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/10/16/amazon-rds-now-supports-oracle_database_11_2_0_4v2/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 102,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/10/23/announcing-the-aws-eu-frankfurt-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 103,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/10/28/amazon-workspaces-adds-support-for-custom-images/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 104,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/11/12/introducing-aws-config/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 105,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/11/21/aws-partner-blog/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 106,
+      "year": "2014",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2014/12/18/amazon-cloudwatch-logs-in-the-tokyo-singapore-sydney-frankfurt-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 107,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/01/20/aws-certification-exam-readiness-workshop-for-aws-certified-solutions-architect-associate/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 108,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/02/11/aws-identity-and-access-management-simplifies-policy-management/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 109,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/03/aws-cloudtrail-integration-with-amazon-cloudwatch-logs-now-available-in-syd-sing-frank-tokyo-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 110,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/03/amazon-rds-for-postgresql-now-supports-94/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 111,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/04/amazon-emr-now-supports-amazon-ec2-dense-storage-d2-instances/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 112,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/04/aws-elastic-beanstalk-supports-amazon-linux-ami-2015-03/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 113,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/05/introducing-amazon-vpc-endpoints-for-amazon-s3/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 114,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/05/amazon-ec2-g2-instances-now-available-in-the-eu-frankfurt-aws-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 115,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/05/aws-pop-up-loft-comes-to-new-york/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 116,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/06/aws-sdk-for-go-developer-preview/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 117,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/06/aws-partner-network-launches-new-marketing-commerce-competency/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 118,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/07/auto-scaling-now-helps-you-to-scale-faster/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 119,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/07/meet-regulatory-storage-requirements-with-amazon-glacier-vault-lock/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 120,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/07/aws-codepipeline-now-available/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 121,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/08/amazon-linux-ami-2015-03-1-point-release/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 122,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/08/automate-deploying-the-most-cost-effective-spot-instances/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 123,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/09/aws-storage-gateway-reduces-virtual-tape-shelf-vts-storage-pricing/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 124,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/09/aws-device-farm-plugins-for-android-studio-gradle-automatically-launch-tests-on-real-devices/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 125,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/10/cloudwatch-dashboards/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 126,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/10/create-auto-scaling-launch-configurations-that-include-encrypted-ebs-volumes/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 127,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/11/aws-device-farm-adds-support-for-web-applications-test-your-ios-android-and-web-appsagainst-real-devices-in-the-aws-cloud/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 128,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/11/sitecore-on-the-aws-cloud-quick-start-reference-deployment/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 129,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-redshift-announces-tag-based-permissions-default-access-privileges-bzip2-compression-format/",
+      "label": "2",
+      "reference": "3",
+      "exact_match": false
+    },
+    {
+      "index": 130,
+      "year": "2015",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-dynamodb-titan-graph-database-integration/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 131,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/03/support-for-multiple-trails-in-aws-govcloud-us/",
+      "label": "NA",
+      "reference": "1",
+      "exact_match": false
+    },
+    {
+      "index": 132,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/03/aws-config-launches-in-asia-pacific-seoul/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 133,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/05/ec2-run-command-adds-document-sharing-capability/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 134,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-rds-now-supports-mariadb-10-1/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 135,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/06/aws-solutions-training-for-partners-big-data-and-analytics/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 136,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/06/new-data-warehousing-on-aws-training-available/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 137,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 138,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/07/aws-support-announces-update-to-developer-support-plan/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 139,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 140,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/09/announcing-second-edge-location-in-mumbai-india-for-amazon-cloudfront/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 141,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-elastic-transcoder-now-publishes-operational-metrics-to-amazon-cloudwatch/",
+      "label": "2",
+      "reference": "3",
+      "exact_match": false
+    },
+    {
+      "index": 142,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/10/announcing-the-hadoop-distributed-file-system-support-for-aws-import-export-snowball/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 143,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/10/use-hosted-git-repositories-from-aws-codecommit-with-aws-elastic-beanstalk/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 144,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/10/announcing-regional-expansion-of-amazon-ec2-instances/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 145,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/10/enable-access-control-scenarios-using-microsoft-network-policy-service-with-microsoft-ad/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 146,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/10/aws-elastic-beanstalk-supports-amazon-linux-ami-2016-09-and-new-instance-types/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 147,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-regional-expansion-of-amazon-ec2-p2-instances/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 148,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-api-gateway-available-in-us-west-n-california/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 149,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/11/aws-lambda-available-in-us-west-n-california/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 150,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-cloudfront-adds-new-edge-locations-in-minneapolis-mn-berlin-germany-and-our-fourth-in-london-england/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 151,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-aurora-and-amazon-rds-for-postgresql-are-now-hipaa-eligible-services/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 152,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-workspaces-introduces-windows-10-desktop-experience/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 153,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/11/announcing-aws-organizations-now-in-preview/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 154,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/12/aws-database-migration-service-officially-suports-ssl-for-oracle-databases/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 155,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/12/aws-config-now-enables-you-to-create-50-or-more-config-rules-in-your-aws-account/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 156,
+      "year": "2016",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2016/12/amazon-cloudwatch-adds-detailed-billing-to-cloudwatch-logs/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 157,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/01/amazon-dynamodb-now-supports-cost-allocation-tags/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 158,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/02/amazon-elasticsearch-service-now-supports-additional-instance-types-and-up-to-30-tb-ebs-capacity-per-domain/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 159,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/03/aws-trusted-advisor-adds-checks-for-ten-new-service-limits-auroradb-availability-and-ec2-windows/",
+      "label": "2",
+      "reference": "1",
+      "exact_match": false
+    },
+    {
+      "index": 160,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/04/new-quick-start-deploys-confluent-platform-on-the-aws-cloud/",
+      "label": "NA",
+      "reference": "1",
+      "exact_match": false
+    },
+    {
+      "index": 161,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/05/amazon-workmail-now-offers-an-smtp-gateway-for-sending-email/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 162,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/05/aws-schema-conversion-tool-exports-from-sql-server-to-amazon-redshift/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 163,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/05/april-2017-oracle-patch-set-updates-are-available-for-amazon-rds-for-oracle/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 164,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/06/amazon-api-gateway-available-in-canada-central-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 165,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/06/aws-greengrass-available-in-eu-frankfurt-and-asia-pacific-sydney-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 166,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/07/aws-device-farm-announces-appium-1-6-5-support/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 167,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/07/amazon-elastic-file-system-amazon-efs-available-in-eu-frankfurt-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 168,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/07/create-a-new-default-vpc-using-aws-console-or-cli/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 169,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/08/amazon-ec2-g3-instances-now-available-in-asia-pacific-japan-asia-pacific-sydney-asia-pacific-singapore-and-eu-frankfurt-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 170,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/08/amazon-rds-for-sql-server-increases-maxiumum-database-storage-size-to-16-tb/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 171,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/09/now-specify-request-level-attributes-with-amazon-lex/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 172,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/10/support-for-apache-livy-hue-4-0-1-and-presto-0-184-on-amazon-emr-release-5-9-0/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 173,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/10/manage-amazon-simple-queue-service-costs-using-cost-allocation-tags/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 174,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-quicksight-adds-support-for-combo-charts-and-row-level-security/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 175,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-pinpoint-adds-several-push-notification-enhancements/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 176,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/10/amazon-ec2-systems-manager-now-integrates-with-github/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 177,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/apache-mxnet-release-adds-support-for-new-nvidia-volta-gpus-and-sparse-tensor/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 178,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-ec2-c5-instances-the-next-generation-of-compute-optimized-instances/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 179,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-aws-privatelink-for-aws-services/",
+      "label": "4",
+      "reference": "5",
+      "exact_match": false
+    },
+    {
+      "index": 180,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-quicksight-adds-support-for-geospatial-visualizations-tabular-reports-private-vpc-access-calculations-for-spice-datasets-in-analysis-and-hipaa-compliant-workloads/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 181,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/customize-integration-timeouts-in-amazon-api-gateway/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 182,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/aws-privatelink-on-aws-marketplace-now-available/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 183,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/11/sign-up-for-the-preview-of-amazon-aurora-serverless/",
+      "label": "4",
+      "reference": "4",
+      "exact_match": true
+    },
+    {
+      "index": 184,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/12/aws-contributes-to-milestone-apache-mxnet-1-0-release-and-adds-model-serving-capability/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 185,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/12/amazon-workmail-releases-an-administrative-sdk-and-enables-aws-cloudtrail-integration/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 186,
+      "year": "2017",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2017/12/aws-organizations-enhancements/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 187,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/01/amazon-rekognition-now-available-in-aws-us-east-ohio-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 188,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/02/register-for-the-new-aws-certified-developer-associate-beta-exam/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 189,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/03/RDS-PostgreSQL-R4Instance-GovCloud/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 190,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/03/iot-core-increases-default-limits/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 191,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/03/resource-groups-tagging-api-now-supports-13-additional-aws-services/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 192,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/04/tape-gateway-in-singapore/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 193,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/05/ecs-adds-ssm-parameter-for-launching-ecs-optimized-ec2-amis/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 194,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/05/enterprise_contract_for_aws_marketplace_standardizes_software_license_terms_to_simplify_and_streamline_software_procurement_for_enterprise_customers/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 195,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-ec2-x1e-instances-now-available-in-europe--frankfurt--region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 196,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/05/new-developer-preview-use-amazon-polly-voices-in-alexa-skills/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 197,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/05/aws-step-functions-is-now-a-hipaa-eligible-service/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 198,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/06/aws-elemental-medialive-now-available-in-europe-frankfurt-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 199,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/06/amazon-macie-releases-administrative-APIs-to-enable-IT-management-workflow-automation/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 200,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/07/aws-single-sign-on-streamlines-access-to-aws-organizations-master-account-resources/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 201,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/07/amazon-ec2-fleet-now-supports-two-new-allocation-strategies/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 202,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/07/aws-batch-is-now-available-in-south-america-sao-paulo-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 203,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/08/amazon-polly-adds-bilingual-indian-english-hindi-language-support/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 204,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/08/amazon-ec2-p3-instances-now-available-in-6-additional-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 205,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/09/major-updates-to-3-aws-classroom-training-courses/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 206,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/10/aws-service-catalog-announces-self-service-actions/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 207,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/10/aws-config-launches-the-ability-to-store-compliance-history-of-resources-as-evaluated-by-aws-config-rules/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 208,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/10/deploy-tableau-server-for-healthcare-on-the-aws-cloud-with-new-quick-start/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 209,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/chainer5-0_launch_deep_learning_ami/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 210,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/aws-console-mobile-app-new-ios/",
+      "label": "2",
+      "reference": "3",
+      "exact_match": false
+    },
+    {
+      "index": 211,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-route-53-announces-resolver-with-support-for-dns-resolution-over-direct-connect-and-vpn/",
+      "label": "4",
+      "reference": "4",
+      "exact_match": true
+    },
+    {
+      "index": 212,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-translate-adds-eight-new-languages/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 213,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/aws-snowball-edge-compute-optimized-option-to-add-more-than-2x-m/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 214,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/monitor-and-visualize-training-metrics-of-your-machine-learning-/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 215,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-elastic-fabric-adapter/",
+      "label": "3",
+      "reference": "4",
+      "exact_match": false
+    },
+    {
+      "index": 216,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-efs-now-supports-1000-file-systems-per-account/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 217,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-aws-security-hub/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 218,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/12/aws-cloudformation-macros-can-now-be-used-in-templates-with-nest/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 219,
+      "year": "2018",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2018/12/aws-step-functions-now-available-in-eu-paris/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 220,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/01/announcing-windows-server-2019-amis-for-amazon-ec2/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 221,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-ec2-x1e-instances-are-now-available-in-the-asia-pacific-seoul-aws-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 222,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/01/aws-storage-gateway-integrates-with-aws-backup-to-protect-volume/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 223,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/01/amazon-ec2-r5-r5d-c5d-and-m5d-instances-are-now-available-in-the-asia-pacific-mumbai-aws-region1/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 224,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/02/trigger-actions-on-your-inbound-email-with-aws-lambda-for-amazon-workmail/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 225,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/02/aws-x-ray-net-core-sdk-generally-available/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 226,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/03/aws-step-functions-adds-tag-based-permissions/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 227,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/04/amazon-eks-now-delivers-kubernetes-control-plane-logs-to-amazon-/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 228,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/04/amazon-rds-postgresql-supports-multi-major-version-upgrades/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 229,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-dynamodb-transactions-are-now-available-in-the-asia-pacific-osaka-local-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 230,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/05/performance-insights-global-datatabase/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 231,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/05/aws-encryption-sdk-for-c-now-available/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 232,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/05/amazon_aurora_serverless_mysql_5_6_now_supportsdataapi/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 233,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-inspector-adds-cis-benchmark-support-for-amazon-linux-2/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 234,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/06/aws-client-vpn-includes-support-for-aws-cloudformation/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 235,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/06/aws-certificate-manager-private-certificate-authority-now-supports-root-CA-heirarchies/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 236,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/06/launching-encrypted-ebs-backed-ec2-instances-from-unencrypted-amis-now-available-aws-china-beijing-ningxia/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 237,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/06/amazon-kinesis-data-firehose-available-in-aws-govcloud-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 238,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/07/amazon-ecr-now-supports-increased-repository-and-image-limits/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 239,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/07/discovering-documents-made-easy-in-aws-systems-manager-automation/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 240,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/07/elastic-fabric-adapter-officially-integrated-into-libfabric-library/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 241,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/07/aws-direct-connect-support-aws-transit-gateway-now-available-in-aws-eu-ireland-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 242,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/07/now-use-aws-systems-manager-maintenance-windows-to-select-resource-groups-as-targets/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 243,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/07/aws-snowball-and-aws-snowball-edge-available-in-asia-pacific-seoul-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 244,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/08/introducing-aws-privatelink-in-the-aws-govcloud-us-east-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 245,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-rekognition-now-detects-violence-weapons-and-self-injury-in-images-and-videos-improves-accuracy-for-nudity-detection/",
+      "label": "2",
+      "reference": "1",
+      "exact_match": false
+    },
+    {
+      "index": 246,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/09/aws-glue-now-supports-wheel-files-as-dependencies-for-glue-python-shell-jobs/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 247,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/10/aws-snowball-edge-now-supports-offline-software-updates-for-snowball-edge-devices-in-air-gapped-environments/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 248,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-route-53-resolver-endpoints-for-hybrid-cloud-now-available-in-aws-govcloud-us-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 249,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-lex-achieves-pci-dcc-compliance/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 250,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/11/amazon-transcribe-is-now-available-in-asia-pacific-hong-kong-and-middle-east-bahrain-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 251,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/11/new-quick-start-for-deloitte-truevoice-on-aws/",
+      "label": "NA",
+      "reference": "1",
+      "exact_match": false
+    },
+    {
+      "index": 252,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/11/amazon-elasticache-now-supports-t3-standard-cache-nodes/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 253,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/11/aws-ram-now-available-in-sao-paulo-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 254,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/11/aws-direct-connect-enables-direct-connect-gateway-for-aws-china-regions/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 255,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/11/introducing-amazon-cloudwatch-synthetics-preview/",
+      "label": "4",
+      "reference": "3",
+      "exact_match": false
+    },
+    {
+      "index": 256,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-ec2-image-builder/",
+      "label": "5",
+      "reference": "5",
+      "exact_match": true
+    },
+    {
+      "index": 257,
+      "year": "2019",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-elastic-container-service-launches-a-new-cli-to-launch-and-manage-containerized-applications-easier/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 258,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/01/amazon-sagemaker-supports-tensorflow-2-0/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 259,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/02/now-available-updated-versions-of-2-apn-partner-digital-courses/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 260,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-neptune-refreshes-the-console-to-simplify-management-of-your-database/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 261,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-elasticsearch-service-announces-support-for-elasticsearch-versions-7.4/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 262,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/03/all-amazon-chime-meetings-now-support-250-attendees/",
+      "label": "1",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 263,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-now-available-los-angeles-local-zone/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 264,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/05/aws-secrets-manager-is-now-fedramp-compliant/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 265,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/05/aws-sam-adds-support-for-aws-step-functions/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 266,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/05/network-load-balancer-now-supports-tls-alpn-policies/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 267,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/06/infineons-optiga-trust-m-now-qualified-for-use-with-freertos-available-for-use-with-iot-core-multi-account-registration/",
+      "label": "1",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 268,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/06/amazon-redshift-ra3-nodes-are-now-available-in-the-asia-pacific-mumbai-region/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 269,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/07/amazon-personalize-improved-handling-missing-metadata/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 270,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/07/aws-systems-manager-explorer-now-available-govcloud-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 271,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/07/amazon-rds-for-oracle-supports-oracle-spatial-for-oracle-standard-edition-2/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 272,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/07/track-file-changes-on-systems-manager-managed-instances-with-aws-config/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 273,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/07/introducing-amazon-virtual-andon-2/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 274,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/07/announcing-amazon-cloudwatch-metrics-amazon-ec2-on-demand-capacity-reservations/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 275,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/07/amazon-kinesis-data-firehose-now-supports-data-delivery-to-http-endpoints/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 276,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/08/aws-snowball-edge-compute-optimized-now-available-mumbai/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 277,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-detective-available-bahrain-hong-kong-regions/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 278,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/09/introducing-aws-cost-anomaly-detection-preview/",
+      "label": "4",
+      "reference": "3",
+      "exact_match": false
+    },
+    {
+      "index": 279,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-qldb-launches-index-improvements/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 280,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/09/reserved-outbound-bandwidth-available-for-aws-elemental-mediaconnect/",
+      "label": "3",
+      "reference": "2",
+      "exact_match": false
+    },
+    {
+      "index": 281,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/09/increased-availability-for-aws-certification-exam-online-proctoring/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 282,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-appflow-supports-new-options-updating-records/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 283,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/10/introducing-distributed-load-testing-v1-1/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 284,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-cloudwatch-synthetics-launches-recorder-to-generate-user-flow-scripts-for-canaries/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 285,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-kendra-adds-confluence-server-connector/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 286,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-ses-now-offers-list-and-subscription-management-capabilities/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 287,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/11/amazon-quicksight-supports-column-level-security-column-descriptions-new-oracle-connector/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 288,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/11/announcing-amazon-lightsail-containers/",
+      "label": "4",
+      "reference": "4",
+      "exact_match": true
+    },
+    {
+      "index": 289,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/11/aws-partners-learn-how-to-engage-customers-in-ml-and-ai-opportunities/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 290,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/11/introducing-next-generation-aws-database-migration-service-instances/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 291,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/11/aws-codeartifact-supports-nuget/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 292,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/11/amazon-ecs-cluster-auto-scaling-now-offers-more-responsive-scaling/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 293,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/11/amazon-translate-adds-support-for-sixteen-more-languages-and-variants/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 294,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-replication-adds-support-two-way-replication/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    },
+    {
+      "index": 295,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-supports-10gb-memory-6-vcpu-cores-lambda-functions/",
+      "label": "1",
+      "reference": "1",
+      "exact_match": true
+    },
+    {
+      "index": 296,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-the-new-aws-travel-and-hospitality-competency/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 297,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-ebs-io2-volumes-support-sap-workloads/",
+      "label": "NA",
+      "reference": "NA",
+      "exact_match": true
+    },
+    {
+      "index": 298,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-distributed-training-on-amazon-sagemaker/",
+      "label": "3",
+      "reference": "3",
+      "exact_match": true
+    },
+    {
+      "index": 299,
+      "year": "2020",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-distributed-load-testing-v1-2/",
+      "label": "2",
+      "reference": "2",
+      "exact_match": true
+    }
+  ]
+}

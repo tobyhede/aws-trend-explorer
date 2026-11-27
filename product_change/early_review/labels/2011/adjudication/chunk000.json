@@ -1,0 +1,50 @@
+{
+ "model": "claude-fable-5-2",
+ "system_sha256": "8d758f6d0ba4aa9d888854d3275bba37621ae6a2215aad8398d8f71f95dd0f9b",
+ "indices": [
+  0,
+  24,
+  36
+ ],
+ "user": "[\n {\n  \"index\": 0,\n  \"date\": \"2011-01-06\",\n  \"url\": \"https://aws.amazon.com/about-aws/whats-new/2011/01/06/aws-introduces-new-premium-support-plans-lowers-usage-prices-by-50-on-existing-plans/\",\n  \"title\": \"AWS Introduces New Premium Support Plans, Lowers Usage Prices by 50% on Existing Plans\",\n  \"text\": \"We are excited to announce that we have lowered usage pricing on existing Premium Support offerings by 50% and added two new support plans to meet the needs of developers and businesses of all sizes and technical ability. In addition to existing Silver and Gold support plans – which provide fast, predictable response times, an unlimited number of support cases, and personalized support from AWS developer support engineers – AWS will now offer a Bronze support plan which offers a low-priced option for developers at $49 per month, and a Platinum support plan which provides 15 minute response times and dedicated Technical Account Managers to meet the needs of larger enterprises and more complex projects. All AWS customers can continue to take advantage of AWS Basic Support which provides free access to a Resource Center, Service Health Dashboard, Technical FAQ’s and Developer Forums. To learn more about the range of AWS support options, visit http://aws.amazon.com/premiumsupport/ . We are excited to announce that we have lowered usage pricing on existing Premium Support offerings by 50% and added two new support plans to meet the needs of developers and businesses of all sizes and technical ability. In addition to existing Silver and Gold support plans – which provide fast, predictable response times, an unlimited number of support cases, and personalized support from AWS developer support engineers – AWS will now offer a Bronze support plan which offers a low-priced option for developers at $49 per month, and a Platinum support plan which provides 15 minute response times and dedicated Technical Account Managers to meet the needs of larger enterprises and more complex projects. All AWS customers can continue to take advantage of AWS Basic Support which provides free access to a Resource Center, Service Health Dashboard, Technical FAQ’s and Developer Forums. To learn more about the range of AWS support options, visit http://aws.amazon.com/premiumsupport/ .\",\n  \"reader_a\": {\n   \"level\": \"3\",\n   \"reason\": \"Two extra support tiers join the existing lineup, one bringing a dedicated account manager service; the price cut alone would be out of scope.\",\n   \"confidence\": \"low\"\n  },\n  \"reader_b\": {\n   \"level\": \"2\",\n   \"reason\": \"Two extra support tiers extend the existing paid support offering; the accompanying price cut is not rated.\",\n   \"confidence\": \"medium\"\n  }\n },\n {\n  \"index\": 24,\n  \"date\": \"2011-05-18\",\n  \"url\": \"https://aws.amazon.com/about-aws/whats-new/2011/05/18/announcing-aws-ec2-support-for-sap-rapid-deployment-solutions-and-sap-businessobjects-solutions/\",\n  \"title\": \"Announcing AWS EC2 Support for SAP® Rapid Deployment solutions and SAP® BusinessObjects™ solutions\",\n  \"text\": \"We are excited to announce that customers can now deploy their SAP® Rapid Deployment solutions and SAP® BusinessObjects™ solutions on various Amazon EC2 instance types in both production and non-production environments. For a detailed guide to operating SAP solutions on AWS, visit the AWS SAP page We are excited to announce that customers can now deploy their SAP® Rapid Deployment solutions and SAP® BusinessObjects™ solutions on various Amazon EC2 instance types in both production and non-production environments. For a detailed guide to operating SAP solutions on AWS, visit the AWS SAP page Modified 9/14/2021 – In an effort to ensure a great experience, expired links in this post have been updated or removed from the original post.\",\n  \"reader_a\": {\n   \"level\": \"2\",\n   \"reason\": \"More third-party enterprise software is declared supported on existing instance types, which extends compatibility only.\",\n   \"confidence\": \"low\"\n  },\n  \"reader_b\": {\n   \"level\": \"1\",\n   \"reason\": \"More vendor software packages are approved to run on existing instance types, a supported-workload catalogue addition.\",\n   \"confidence\": \"low\"\n  }\n },\n {\n  \"index\": 36,\n  \"date\": \"2011-07-14\",\n  \"url\": \"https://aws.amazon.com/about-aws/whats-new/2011/07/14/announcing-aws-sdk-for-ruby/\",\n  \"title\": \"Announcing the AWS SDK for Ruby\",\n  \"text\": \"Amazon Web Services launches the official AWS SDK for Ruby, enabling developers to get started building scalable Ruby web applications in minutes. The SDK features: AWS Ruby Gem —Build Ruby applications with the aws-sdk gem that takes the complexity out of coding directly against the web service interfaces. The gem handles common tasks, such as authentication, request retries, XML processing, error handling, and more. Rails Integration— Easily integrate Amazon Web Services into your Rails application using an Object Relational Mapper (ORM) to model your data and persist it using Amazon SimpleDB, and an Action Mailer implementation for Amazon Simple E-mail Service. Code Samples —Practical examples for how to use the library to build applications available through GitHub. Learn more about the AWS SDK for Ruby at http://aws.amazon.com/sdkforruby . See all resources for Ruby development at http://aws.amazon.com/ruby . Amazon Web Services launches the official AWS SDK for Ruby, enabling developers to get started building scalable Ruby web applications in minutes. The SDK features: AWS Ruby Gem —Build Ruby applications with the aws-sdk gem that takes the complexity out of coding directly against the web service interfaces. The gem handles common tasks, such as authentication, request retries, XML processing, error handling, and more. Rails Integration— Easily integrate Amazon Web Services into your Rails application using an Object Relational Mapper (ORM) to model your data and persist it using Amazon SimpleDB, and an Action Mailer implementation for Amazon Simple E-mail Service. Code Samples —Practical examples for how to use the library to build applications available through GitHub. Learn more about the AWS SDK for Ruby at http://aws.amazon.com/sdkforruby . See all resources for Ruby development at http://aws.amazon.com/ruby .\",\n  \"reader_a\": {\n   \"level\": \"3\",\n   \"reason\": \"A new official language SDK gives a distinct programming interface, including framework integration.\",\n   \"confidence\": \"medium\"\n  },\n  \"reader_b\": {\n   \"level\": \"5\",\n   \"reason\": \"A separately positioned official development kit for a new language, with its own page and framework integration.\",\n   \"confidence\": \"low\"\n  }\n }\n]",
+ "attempts": [
+  {
+   "model": "claude-fable-5-2",
+   "stop_reason": "success",
+   "request_id": "1fab764b-4578-47f8-9d1b-865e7633de09",
+   "usage": {
+    "claude-haiku-5-5": {
+     "input_tokens": 3501,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "output_tokens": 277
+    },
+    "claude-fable-5-2": {
+     "input_tokens": 2,
+     "cache_creation_input_tokens": 3270,
+     "cache_read_input_tokens": 1312,
+     "output_tokens": 724
+    }
+   },
+   "reply": "{\"ratings\": [{\"index\": 0, \"level\": \"2\", \"reason\": \"Two further tiers, one entry-level and one enterprise-grade, widen the options of the existing paid support offering; the price reduction is outside the scale.\", \"confidence\": \"medium\"}, {\"index\": 24, \"level\": \"2\", \"reason\": \"Additional vendor enterprise software is approved to run on existing compute instances, which widens compatibility without adding a new operation.\", \"confidence\": \"low\"}, {\"index\": 36, \"level\": \"3\", \"reason\": \"An official library for another programming language adds a new programmatic interface to existing services, not a standalone adoptable service.\", \"confidence\": \"medium\"}]}",
+   "rejected": null
+  }
+ ],
+ "ratings": {
+  "0": {
+   "level": "2",
+   "reason": "Two further tiers, one entry-level and one enterprise-grade, widen the options of the existing paid support offering; the price reduction is outside the scale.",
+   "confidence": "medium"
+  },
+  "24": {
+   "level": "2",
+   "reason": "Additional vendor enterprise software is approved to run on existing compute instances, which widens compatibility without adding a new operation.",
+   "confidence": "low"
+  },
+  "36": {
+   "level": "3",
+   "reason": "An official library for another programming language adds a new programmatic interface to existing services, not a standalone adoptable service.",
+   "confidence": "medium"
+  }
+ }
+}
