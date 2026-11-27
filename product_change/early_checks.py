@@ -178,6 +178,131 @@ def bridge_sample_draws_two_hundred_per_earlier_pass_without_labels():
     assert draw_bridge({'2025-2026': recent, '2021-2024': older}, 'seed-a', size=200) == sample
 
 
+class CannedClient:
+    """Stands in for the Claude API. policy(role, records, call_number) returns the reply text."""
+
+    def __init__(self, policy):
+        self.policy, self.calls = policy, []
+
+    def complete(self, model, system, user):
+        records = json.loads(user)
+        role = 'adjudicator' if 'reader_a' in user else 'reader'
+        self.calls.append({'model': model, 'system': system, 'user': user, 'role': role})
+        return {'text': self.policy(role, records, len(self.calls)), 'model': model, 'stop_reason': 'end_turn'}
+
+
+def reply(records, level='2', reason='Adds an option to an existing operation.', confidence='high', skip=0):
+    return json.dumps({'ratings': [{'index': r['index'], 'level': level, 'reason': reason, 'confidence': confidence} for r in records[skip:]]})
+
+
+def label_records(n):
+    return [{'announcement_date': f'2010-01-{i % 28 + 1:02d}', 'source_url': f'https://aws.amazon.com/about-aws/whats-new/2010/01/r{i:02d}/',
+             'title': f'Record {i}', 'announcement_text': f'Amazon Example service now lets customers choose option number {i} for every widget they run today.',
+             'service': 'unknown'} for i in range(n)]
+
+
+@check
+def a_reply_missing_a_record_is_rejected_and_asked_again():
+    from early_label import label
+    first_call = {}
+
+    def policy(role, records, call):
+        if not first_call:
+            first_call['seen'] = True
+            return reply(records, skip=1)
+        return reply(records)
+
+    client = CannedClient(policy)
+    with tempfile.TemporaryDirectory() as tmp:
+        final = label(label_records(30), Path(tmp), client)
+        chunk = json.loads((Path(tmp) / 'reader_a/chunk000.json').read_text())
+    assert len(client.calls) == 5, len(client.calls)  # two chunks per reader, one re-ask
+    assert len(chunk['attempts']) == 2 and 'missing' in chunk['attempts'][0]['rejected'], chunk['attempts'][0]
+    assert chunk['model'] == 'claude-fable-5-2' and all(a['model'] == 'claude-fable-5-2' for a in chunk['attempts'])
+    assert len(final) == 30 and {r['level'] for r in final.values()} == {'2'}
+
+
+@check
+def a_level_outside_the_scale_or_a_copied_reason_is_rejected():
+    from early_label import label
+    bad = iter([lambda r: reply(r, level='6'),
+                lambda r: reply(r, reason='now lets customers choose option number 0 for every widget'),
+                lambda r: reply(r)])
+    pending = {'n': 0}
+
+    def policy(role, records, call):
+        pending['n'] += 1
+        return next(bad)(records) if pending['n'] <= 3 else reply(records)
+
+    with tempfile.TemporaryDirectory() as tmp:
+        label(label_records(1), Path(tmp), CannedClient(policy))
+        attempts = json.loads((Path(tmp) / 'reader_a/chunk000.json').read_text())['attempts']
+    assert [a['rejected'] is not None for a in attempts] == [True, True, False], attempts
+    assert 'outside' in attempts[0]['rejected'] and 'copies' in attempts[1]['rejected'], attempts
+
+
+@check
+def a_rerun_skips_saved_chunks():
+    from early_label import label
+    with tempfile.TemporaryDirectory() as tmp:
+        first = CannedClient(lambda role, records, call: reply(records))
+        saved = label(label_records(30), Path(tmp), first)
+        again = CannedClient(lambda role, records, call: reply(records, level='5'))
+        assert label(label_records(30), Path(tmp), again) == saved
+    assert len(first.calls) == 4 and again.calls == []
+
+
+@check
+def readers_never_share_a_context_and_a_disagreement_is_adjudicated():
+    from early_label import label
+
+    def policy(role, records, call):
+        if role == 'adjudicator':
+            return reply(records, level='3', reason='A distinct new operation appears in the service.')
+        # reader B differs on record 0 only
+        if call == 2:
+            return json.dumps({'ratings': [{'index': r['index'], 'level': '1' if r['index'] == 0 else '2',
+                                            'reason': 'Changes a supported value.', 'confidence': 'medium'} for r in records]})
+        return reply(records)
+
+    client = CannedClient(policy)
+    with tempfile.TemporaryDirectory() as tmp:
+        final = label(label_records(3), Path(tmp), client)
+    readers = [c for c in client.calls if c['role'] == 'reader']
+    assert len(readers) == 2 and all('Adds an option' not in c['user'] and 'supported value' not in c['user'] for c in readers)
+    adjudications = [c for c in client.calls if c['role'] == 'adjudicator']
+    assert len(adjudications) == 1
+    shown = json.loads(adjudications[0]['user'])
+    assert [r['index'] for r in shown] == [0] and shown[0]['reader_a']['level'] == '2' and shown[0]['reader_b']['level'] == '1'
+    assert shown[0]['text'] and shown[0]['reader_b']['reason'] == 'Changes a supported value.'
+    first = final['https://aws.amazon.com/about-aws/whats-new/2010/01/r00/']
+    assert first['level'] == '3' and first['reader_a']['level'] == '2' and first['reader_b']['level'] == '1' and 'adjudicated' in first['basis']
+    assert final['https://aws.amazon.com/about-aws/whats-new/2010/01/r01/']['adjudication'] is None
+
+
+@check
+def a_chunk_with_no_valid_reply_stops_and_keeps_its_attempts():
+    from early_label import label
+    with tempfile.TemporaryDirectory() as tmp:
+        try:
+            label(label_records(2), Path(tmp), CannedClient(lambda role, records, call: 'not json'))
+            raise AssertionError('three invalid replies must stop the run')
+        except RuntimeError:
+            pass
+        failed = json.loads((Path(tmp) / 'reader_a/chunk000.failed.json').read_text())
+        assert len(failed['attempts']) == 3 and not (Path(tmp) / 'final.json').exists()
+
+
+@check
+def the_prompt_is_the_data_guide_rubric_plus_the_hindsight_instruction():
+    from early_label import prompts, HINDSIGHT
+    guide = (Path(__file__).resolve().parent.parent / 'DATA_GUIDE.md').read_text()
+    section = guide.split('## Magnitude categories\n', 1)[1].split('\n## ', 1)[0].strip()
+    for prompt in prompts().values():
+        assert section in prompt and HINDSIGHT in prompt
+        assert '| `4` | Major product expansion |' in prompt
+
+
 def main():
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parent))
