@@ -40,3 +40,8 @@ Commands, from the repository root
 - Check a labelled target, offline: .venv/bin/python product_change/early_label.py check TARGET
 - Score, offline: .venv/bin/python product_change/early_score.py
 - Checks with canned replies, no network or API key: .venv/bin/python product_change/early_checks.py
+
+Results, 27 November 2026 (see scores.txt)
+- All 8,421 records of 2010–2020 have two readings and a final label; 303 disagreements were adjudicated. One 2020 chunk was rejected three times for a copied product description and succeeded after re-asking with the reason; both runs are kept.
+- Audit: the final labels agree with the blind claude-opus-5-5 reference on 272 of 300 hidden-sample records. Weighted to each year's records, agreement is 90.2% (95% interval 86.1–94.3%). This is agreement between AI readings, not accuracy. Level 4 agreement is weak (3 of 7 labels, 3 of 5 references), as in the earlier audits.
+- Bridge: the new protocol agrees with the recorded labels on 170 of 200 records from the 2025–2026 pass (85.0%) and 153 of 200 from the 2021–2024 pass (76.5%). The disagreements lean one way: 35 recorded level 2 records became level 3, and 7 went the other way. The level 3 share is about 14% recorded and 21% new across the 400 records. Any comparison of level 3 shares between the pre-COVID and later periods must be read against this drift.

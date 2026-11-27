@@ -1,0 +1,63 @@
+Audit: agreement between AI readings (2010–2020 final labels against one blind claude-opus-5-5 reading)
+
+Weighted to the population: 90.2% (95% interval 86.1–94.3%)
+Unweighted: 272/300 = 90.7% (Wilson 86.8–93.5%)
+
+Year    Records  Sampled  Agree    Rate  Wilson 95%
+2010         66       20     17   85.0%  64.0–94.8%
+2011         82       21     19   90.5%  71.1–97.3%
+2012         91       21     18   85.7%  65.4–95.0%
+2013        185       22     21   95.5%  78.2–99.2%
+2014        295       23     23  100.0%  85.7–100.0%
+2015        452       24     23   95.8%  79.8–99.3%
+2016        640       26     23   88.5%  71.0–96.0%
+2017       1023       30     26   86.7%  70.3–94.7%
+2018       1433       33     31   93.9%  80.4–98.3%
+2019       1860       38     34   89.5%  75.9–95.8%
+2020       2294       42     37   88.1%  75.0–94.8%
+
+Level   Label  Reference  Both  Precision  Recall
+1          39         43    37      94.9%   86.0%
+2          94         99    88      93.6%   88.9%
+3          63         60    53      84.1%   88.3%
+4           7          5     3      42.9%   60.0%
+5          11         12    10      90.9%   83.3%
+U           1          0     0       0.0%       —
+NA         85         81    81      95.3%  100.0%
+
+This is agreement between AI readings: final labels from two claude-fable-5-2 readers with adjudication, against one blind claude-opus-5-5 reading. It is not accuracy against human judgement. The weighted figure weights each year by its share of the 2010–2020 records; intervals describe sampling uncertainty only, not shared model bias.
+
+Bridge: recorded labels against new labels for the same records
+
+2025-2026: 170/200 = 85.0% agree (Wilson 79.4–89.3%); 2 -> 3: 13, 3 -> 2: 2
+  rows recorded, columns new: 1  2  3  4  5  U  NA
+  1    20   3   0   0   0   0   0
+  2     5  81  13   1   0   0   0
+  3     0   2  27   1   1   0   0
+  U     0   0   0   0   2   0   0
+  NA    0   1   0   1   0   0  42
+  level shares, recorded vs new (Wilson 95%): 1 7.8–16.7% vs 8.6–17.8%; 2 43.1–56.9% vs 36.8–50.4%; 3 11.1–21.2% vs 15.0–26.1%; 4 0.0–1.9% vs 0.5–4.3%; 5 0.0–1.9% vs 0.5–4.3%; U 0.3–3.6% vs 0.0–1.9%; NA 16.8–28.2% vs 15.9–27.2%
+
+2021-2024: 153/200 = 76.5% agree (Wilson 70.2–81.8%); 2 -> 3: 22, 3 -> 2: 5
+  rows recorded, columns new: 1  2  3  4  5  U  NA
+  1    28   1   0   0   0   0   0
+  2     7  67  22   0   2   0   1
+  3     0   5  19   0   0   0   1
+  4     0   0   0   3   0   0   0
+  5     0   0   0   0   1   0   0
+  U     0   0   2   1   1   0   0
+  NA    3   1   0   0   0   0  35
+  level shares, recorded vs new (Wilson 95%): 1 10.3–20.0% vs 14.2–25.0%; 2 42.6–56.4% vs 30.6–43.9%; 3 8.6–17.8% vs 16.4–27.7%; 4 0.5–4.3% vs 0.8–5.0%; 5 0.1–2.8% vs 0.8–5.0%; U 0.8–5.0% vs 0.0–1.9%; NA 14.6–25.5% vs 13.7–24.5%
+
+combined: 323/400 = 80.8% agree (Wilson 76.6–84.3%); 2 -> 3: 35, 3 -> 2: 7
+  rows recorded, columns new: 1  2  3  4  5  U  NA
+  1    48   4   0   0   0   0   0
+  2    12 148  35   1   2   0   1
+  3     0   7  46   1   1   0   1
+  4     0   0   0   3   0   0   0
+  5     0   0   0   0   1   0   0
+  U     0   0   2   1   3   0   0
+  NA    3   2   0   1   0   0  77
+  level shares, recorded vs new (Wilson 95%): 1 10.1–16.7% vs 12.5–19.6%; 2 44.9–54.6% vs 35.6–45.1%; 3 10.9–17.7% vs 17.1–25.0%; 4 0.3–2.2% vs 0.9–3.6%; 5 0.0–1.4% vs 0.9–3.6%; U 0.7–3.2% vs 0.0–1.0%; NA 17.1–25.0% vs 16.1–23.9%
+
+Recorded labels against new labels for the same records, read blind under the 2010–2020 protocol. Combined pools the two passes, 200 records each, without weighting. The bridge holds only 2021–2026 records, so it cannot detect drift specific to older texts. It changes no recorded label.
