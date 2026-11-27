@@ -1,0 +1,114 @@
+{
+  "source": "https://aws.amazon.com/api/dirs/items/search",
+  "page_size": 2000,
+  "pages": [
+    {
+      "file": "raw/2010_p0000.json",
+      "year": 2010,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232010&page=0",
+      "collected": "2026-11-27",
+      "bytes": 215052,
+      "sha256": "cd42846a875b69e9fdd883431ac757abf254e0b421255c961fe59e4e23e88360"
+    },
+    {
+      "file": "raw/2011_p0000.json",
+      "year": 2011,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232011&page=0",
+      "collected": "2026-11-27",
+      "bytes": 334796,
+      "sha256": "570f6811d5434f3cb78fdf21e555328f191f8e9febdbe09ebb967e463ec418d6"
+    },
+    {
+      "file": "raw/2012_p0000.json",
+      "year": 2012,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232012&page=0",
+      "collected": "2026-11-27",
+      "bytes": 406910,
+      "sha256": "0bda9f01f047c953b79fcfa79d6602f1b74fb49d6251ed9cd2dcdd86bc0b18b1"
+    },
+    {
+      "file": "raw/2013_p0000.json",
+      "year": 2013,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232013&page=0",
+      "collected": "2026-11-27",
+      "bytes": 968353,
+      "sha256": "116f9a43541c34b22a39f425256a945350143cd9e553c2b28e8d8bb71df56bb0"
+    },
+    {
+      "file": "raw/2014_p0000.json",
+      "year": 2014,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232014&page=0",
+      "collected": "2026-11-27",
+      "bytes": 1168495,
+      "sha256": "81dc53fec0919b55cff55c881377eea6d7002d5f1a2ac8c30ccea5a49c97e078"
+    },
+    {
+      "file": "raw/2015_p0000.json",
+      "year": 2015,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232015&page=0",
+      "collected": "2026-11-27",
+      "bytes": 1821454,
+      "sha256": "0b27beb74c7e0a2453cc32bf1b1094ad5984618d8bcc7541f3266981a44f4d7a"
+    },
+    {
+      "file": "raw/2016_p0000.json",
+      "year": 2016,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232016&page=0",
+      "collected": "2026-11-27",
+      "bytes": 2407453,
+      "sha256": "63e34e7d61852602edde0a00f6b1bdbe2571f7efe901f10d8c3d1728fe05546b"
+    },
+    {
+      "file": "raw/2017_p0000.json",
+      "year": 2017,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232017&page=0",
+      "collected": "2026-11-27",
+      "bytes": 3980965,
+      "sha256": "0c5d055471ea46e687f8023d43d2e2985f079da5ad041fd858508a75b9bfd02a"
+    },
+    {
+      "file": "raw/2018_p0000.json",
+      "year": 2018,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232018&page=0",
+      "collected": "2026-11-27",
+      "bytes": 5763222,
+      "sha256": "dcfd1492b61bcc6b6fe965d118470fab84c8eda46a12b171f6f0dab053d72725"
+    },
+    {
+      "file": "raw/2019_p0000.json",
+      "year": 2019,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232019&page=0",
+      "collected": "2026-11-27",
+      "bytes": 7731959,
+      "sha256": "fd501e4cd098c763461584a82e3b71f0f88f457baefa8751bbc187f69d56ab71"
+    },
+    {
+      "file": "raw/2020_p0000.json",
+      "year": 2020,
+      "page": 0,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232020&page=0",
+      "collected": "2026-11-27",
+      "bytes": 8881257,
+      "sha256": "969b9e2ad4738f8b252b3921c8e0bbddf4956c4be2b8d83fdb8a250a3d475b7c"
+    },
+    {
+      "file": "raw/2020_p0001.json",
+      "year": 2020,
+      "page": 1,
+      "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=whats-new-v2&sort_by=item.additionalFields.postDateTime&sort_order=asc&size=2000&item.locale=en_US&tags.id=whats-new-v2%23year%232020&page=1",
+      "collected": "2026-11-27",
+      "bytes": 1431464,
+      "sha256": "31bcfb1fdd62700aa3c51ee133370d1e52dab2683f68fe353b77f1edf82ec7f1"
+    }
+  ]
+}
