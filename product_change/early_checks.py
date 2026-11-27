@@ -147,6 +147,37 @@ def coverage_report_counts_archived_links_absent_from_the_inventory():
     assert year2011['status'] == 'unchecked' and year2011['absent_count'] is None and year2011['inventory'] == 1, year2011
 
 
+def corpus(populations):
+    return [{'announcement_date': f'{year}-06-01', 'source_url': f'https://aws.amazon.com/about-aws/whats-new/{year}/06/r{i}/',
+             'title': f'T{i}', 'announcement_text': f'Text {i}.', 'service': 'unknown'} for year, n in populations.items() for i in range(n)]
+
+
+@check
+def hidden_sample_has_a_floor_per_year_and_the_rest_proportional():
+    from early_samples import draw_hidden
+    records = corpus({2010: 30, 2011: 100, 2012: 870})
+    sample = draw_hidden(records, 'seed-a', size=100, floor=20)
+    by_year = {y: sum(r['date'].startswith(str(y)) for r in sample) for y in (2010, 2011, 2012)}
+    # floor 60, remainder 40 split 1.2 / 4 / 34.8, the largest remainder going to 2012
+    assert by_year == {2010: 21, 2011: 24, 2012: 55}, by_year
+    assert len({r['url'] for r in sample}) == 100
+    assert [r['index'] for r in sample] == list(range(100))
+    assert set(sample[0]) == {'index', 'date', 'url', 'title', 'text'}
+    assert draw_hidden(records, 'seed-a', size=100, floor=20) == sample
+    assert draw_hidden(records, 'seed-b', size=100, floor=20) != sample
+
+
+@check
+def bridge_sample_draws_two_hundred_per_earlier_pass_without_labels():
+    from early_samples import draw_bridge
+    recent = [{'date': '2025-01-01', 'url': f'https://x/r{i}', 'title': 't', 'text': 'x', 'level': '3', 'reason': 'r'} for i in range(500)]
+    older = [{'date': '2022-01-01', 'url': f'https://x/o{i}', 'title': 't', 'text': 'x', 'level': '2', 'reason': 'r'} for i in range(900)]
+    sample = draw_bridge({'2025-2026': recent, '2021-2024': older}, 'seed-a', size=200)
+    assert [sum(r['pass'] == p for r in sample) for p in ('2025-2026', '2021-2024')] == [200, 200]
+    assert all(set(r) == {'index', 'pass', 'date', 'url', 'title', 'text'} for r in sample)
+    assert draw_bridge({'2025-2026': recent, '2021-2024': older}, 'seed-a', size=200) == sample
+
+
 def main():
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parent))
