@@ -23,7 +23,15 @@ Year  Records
 2020  2,294
 Total 8,421
 
-Coverage means what the API listed on the collection date. Posts the API no longer lists are absent; early_coverage.py measures that gap against the Internet Archive.
+Coverage means what the API listed on the collection date. Posts the API no longer lists are absent.
+
+Coverage against the Internet Archive
+early_coverage.py compares each year with an archived copy of that year's announcement index page. archive/ holds the Wayback CDX listings and the captures used, with hashes in archive/manifest.json; coverage.txt and coverage.json hold the result, including every absent link. Absent links are reported and not added to the corpus.
+
+Result on 27 November 2026: 79 archived links are absent from the inventory across the ten checked years. 58 of them are in 2012, where the API lists 91 posts but a March 2013 capture of the 2012 index links 146, most of the missing ones from late September onward. Every other checked year has 0 to 5 absent. 2017 is unchecked: the archive holds no capture of its index page between December 2017 and March 2018. The 2010, 2011 and 2016 captures predate year end, so they cannot show posts from the last weeks of those years.
+
+- Report, offline: .venv/bin/python product_change/early_coverage.py report
+- Fetch the captures again (skips saved files): .venv/bin/python product_change/early_coverage.py fetch
 
 Commands, from the repository root
 - Check, offline: .venv/bin/python product_change/early_collect.py check

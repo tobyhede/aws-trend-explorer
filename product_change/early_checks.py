@@ -119,6 +119,34 @@ def records_dated_outside_their_year_tag_are_set_aside_and_reported():
         assert check_snapshot(root) == {2016: 2}
 
 
+@check
+def coverage_report_counts_archived_links_absent_from_the_inventory():
+    from early_coverage import save_file, report
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        write_snapshot(root, [
+            (2010, 0, [api_item('kept', '2010-02-01', 'Kept', '', '<p>K.</p>'),
+                       api_item('Mixed-Case', '2010-12-20', 'Mixed', '', '<p>M.</p>')], 2),
+            (2011, 0, [api_item('b', '2011-03-01', 'B', '', '<p>B.</p>')], 1)])
+        header = ['timestamp', 'original', 'statuscode', 'length', 'digest']
+        cdx = [header, ['20101202112050', 'https://aws.amazon.com/about-aws/whats-new/2010/', '200', '1', 'X'],
+               ['20110105000000', 'http://aws.amazon.com/about-aws/whats-new/2010/', '200', '1', 'Y'],
+               ['20110110000000', 'https://aws.amazon.com/about-aws/whats-new/2010/', '200', '1', 'Z']]
+        save_file(root, 'archive/cdx/2010.json', json.dumps(cdx).encode(), 'https://example.invalid/cdx', '2026-11-27')
+        save_file(root, 'archive/cdx/2011.json', json.dumps([header]).encode(), 'https://example.invalid/cdx', '2026-11-27')
+        page = ('<a href="/about-aws/whats-new/2010/02/kept/">k</a> <a href="//aws.amazon.com/about-aws/whats-new/2010/12/mixed-case/">m</a>'
+                '<a href="https://aws.amazon.com/about-aws/whats-new/2010/06/gone/?nc=1">g</a> <a href="/about-aws/whats-new/2009/01/old/">o</a>'
+                '<a href="/about-aws/whats-new/2010/">index</a>')
+        save_file(root, 'archive/pages/2010_20110105000000.html', page.encode(), 'https://example.invalid/page', '2026-11-27')
+        result = report(root, [2010, 2011])
+    year2010, year2011 = result['years']
+    assert year2010['status'] == 'checked' and year2010['capture'] == '20110105000000', year2010
+    assert year2010['capture_date'] == '2011-01-05'
+    assert (year2010['archived_links'], year2010['inventory'], year2010['absent_count']) == (3, 2, 1), year2010
+    assert year2010['absent'] == ['https://aws.amazon.com/about-aws/whats-new/2010/06/gone/']
+    assert year2011['status'] == 'unchecked' and year2011['absent_count'] is None and year2011['inventory'] == 1, year2011
+
+
 def main():
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parent))
