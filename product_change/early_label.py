@@ -1,11 +1,14 @@
 """Label the 2010–2020 records through the Claude API: two independent readers, a third reading on disagreement.
 
-label --year Y   calls the model through headless Claude Code on the Claude subscription (or, with --client api,
+label TARGET     calls the model through headless Claude Code on the Claude subscription (or, with --client api,
                  the Claude API with a key and product_change/labelling-requirements.txt). Every chunk
                  of about 25 records goes to each reader in a fresh request; neither reader sees the other.
                  A reply missing a record, holding a level outside 1–5, U and NA, or copying the announcement
                  text into a reason is rejected and asked again. A rerun skips chunks already saved.
-check --year Y   offline: replays the saved readings and adjudications and confirms final.json.
+check TARGET     offline: replays the saved readings and adjudications and confirms final.json.
+
+TARGET is a year (2010–2020), bridge (the bridge sample under the full protocol, blind to recorded labels) or
+reference (one blind reading of the hidden sample by claude-opus-5-5, the audit reference).
 
 This is a step of its own, not part of the rebuild. The build replays final.json and never calls a model.
 Every request and reply is saved under early_review/labels/<year>/ with the model ID and the prompt.
@@ -21,7 +24,11 @@ from early_collect import YEARS, parse
 
 HERE = Path(__file__).resolve().parent
 LABELS = HERE / 'early_review' / 'labels'
+BRIDGE = HERE / 'early_review' / 'bridge'
+REFERENCE = HERE / 'early_review' / 'reference'
 READER_MODEL = ADJUDICATOR_MODEL = 'claude-fable-5-2'
+REFERENCE_MODEL = 'claude-opus-5-5'
+REVIEW = HERE / 'early_review'
 CHUNK_SIZE = 25
 ATTEMPTS = 3
 LEVELS = ['1', '2', '3', '4', '5', 'U', 'NA']
@@ -141,26 +148,40 @@ def freeze(root, name, value):
         path.write_text(json.dumps(value, indent=1, ensure_ascii=False) + '\n')
 
 
-def label(records, root, client, write=True):
-    """Label records; returns final ratings keyed by source URL and, unless write is False, writes final.json."""
-    ordered = sorted(records, key=lambda r: (r['announcement_date'], r['source_url']))
-    inputs = [{'index': i, 'date': r['announcement_date'], 'url': r['source_url'], 'title': r['title'], 'text': r['announcement_text']}
-              for i, r in enumerate(ordered)]
-    system = prompts()
-    freeze(root, 'inputs.json', inputs)
+def ask_all(client, jobs, workers):
+    """Run (model, system, chunk, path) jobs, up to workers at once; results in job order. A failed chunk stops the
+    run after the others finish, so their evidence is kept."""
+    if workers <= 1:
+        return [ask(client, *job) for job in jobs]
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(workers) as pool:
+        futures = [pool.submit(ask, client, *job) for job in jobs]
+        errors = [f.exception() for f in futures if f.exception()]
+    if errors:
+        raise errors[0]
+    return [f.result() for f in futures]
+
+
+def freeze_prompts(root, system):
     freeze(root, 'prompts.json', {'reader_model': READER_MODEL, 'adjudicator_model': ADJUDICATOR_MODEL, 'hindsight_instruction': HINDSIGHT,
                                   'reader': system['reader'], 'reader_sha256': digest(system['reader']),
                                   'adjudicator': system['adjudicator'], 'adjudicator_sha256': digest(system['adjudicator'])})
-    readings = {}
-    for reader in ('reader_a', 'reader_b'):
-        readings[reader] = {}
-        for n, chunk in enumerate(chunks(inputs)):
-            readings[reader].update(ask(client, READER_MODEL, system['reader'], chunk, root / reader / f'chunk{n:03d}.json'))
-    a, b = readings['reader_a'], readings['reader_b']
+
+
+def two_readers(inputs, root, client, workers=1, write=True):
+    """The protocol on prepared reader inputs: two readers, a third reading on disagreement; returns final ratings by URL."""
+    system = prompts()
+    freeze(root, 'inputs.json', inputs)
+    freeze_prompts(root, system)
+    jobs = [(READER_MODEL, system['reader'], chunk, root / reader / f'chunk{n:03d}.json')
+            for reader in ('reader_a', 'reader_b') for n, chunk in enumerate(chunks(inputs))]
+    results = ask_all(client, jobs, workers)
+    half = len(results) // 2
+    a = {i: r for part in results[:half] for i, r in part.items()}
+    b = {i: r for part in results[half:] for i, r in part.items()}
     disputed = [dict(row, reader_a=a[row['index']], reader_b=b[row['index']]) for row in inputs if a[row['index']]['level'] != b[row['index']]['level']]
-    adjudicated = {}
-    for n, chunk in enumerate(chunks(disputed)):
-        adjudicated.update(ask(client, ADJUDICATOR_MODEL, system['adjudicator'], chunk, root / 'adjudication' / f'chunk{n:03d}.json'))
+    jobs = [(ADJUDICATOR_MODEL, system['adjudicator'], chunk, root / 'adjudication' / f'chunk{n:03d}.json') for n, chunk in enumerate(chunks(disputed))]
+    adjudicated = {i: r for part in ask_all(client, jobs, workers) for i, r in part.items()}
     final = {}
     for row in inputs:
         i = row['index']
@@ -174,6 +195,38 @@ def label(records, root, client, write=True):
     return final
 
 
+def label(records, root, client, write=True, workers=1):
+    """Label corpus records; returns final ratings keyed by source URL and, unless write is False, writes final.json."""
+    ordered = sorted(records, key=lambda r: (r['announcement_date'], r['source_url']))
+    inputs = [{'index': i, 'date': r['announcement_date'], 'url': r['source_url'], 'title': r['title'], 'text': r['announcement_text']}
+              for i, r in enumerate(ordered)]
+    return two_readers(inputs, root, client, workers, write)
+
+
+def reader_inputs(sample):
+    """Reader inputs from a frozen sample: index, date, URL, title and text only (the bridge sample's pass is dropped)."""
+    return [{k: row[k] for k in ('index', 'date', 'url', 'title', 'text')} for row in sample]
+
+
+def bridge(sample, root, client, write=True, workers=1):
+    """The bridge sample under the full protocol, blind to the recorded labels."""
+    return two_readers(reader_inputs(sample), root, client, workers, write)
+
+
+def reference(sample, root, client, write=True, workers=1):
+    """One blind reading of the hidden sample by the reference model; it sees the text only, never a reader's rating."""
+    system = prompts()['reader']
+    inputs = reader_inputs(sample)
+    freeze(root, 'inputs.json', inputs)
+    freeze(root, 'prompts.json', {'reference_model': REFERENCE_MODEL, 'hindsight_instruction': HINDSIGHT, 'reader': system, 'reader_sha256': digest(system)})
+    jobs = [(REFERENCE_MODEL, system, chunk, root / 'reference' / f'chunk{n:03d}.json') for n, chunk in enumerate(chunks(inputs))]
+    ratings = {i: r for part in ask_all(client, jobs, workers) for i, r in part.items()}
+    result = {row['url']: {'index': row['index'], **ratings[row['index']], 'model': REFERENCE_MODEL} for row in inputs}
+    if write:
+        (root / 'reference.json').write_text(json.dumps(result, indent=1, ensure_ascii=False) + '\n')
+    return result
+
+
 class _NoNetwork:
     """A client that refuses every request, so check uses saved evidence only and fails on any unsaved chunk."""
 
@@ -181,14 +234,24 @@ class _NoNetwork:
         raise AssertionError('a chunk has no saved evidence')
 
 
-def check(year):
-    root = LABELS / str(year)
-    saved = json.loads((root / 'final.json').read_text())
-    records = [r for r in parse() if r['announcement_date'].startswith(str(year))]
-    replayed = label(records, root, _NoNetwork(), write=False)
-    assert replayed == saved, 'final.json does not match the saved readings'
-    print(f'{year}: {len(saved)} records replayed from saved evidence;',
-          sum(r['adjudication'] is not None for r in saved.values()), 'adjudicated; levels', dict(sorted(Counter(r['level'] for r in saved.values()).items())))
+def targets():
+    """Each labelling target: its evidence folder and how to run it on a client."""
+    found = {str(y): (LABELS / str(y), lambda client, write=True, workers=1, y=y: label(
+        [r for r in parse() if r['announcement_date'].startswith(str(y))], LABELS / str(y), client, write, workers)) for y in YEARS}
+    found['bridge'] = (BRIDGE, lambda client, write=True, workers=1: bridge(json.loads((REVIEW / 'bridge_sample.json').read_text()), BRIDGE, client, write, workers))
+    found['reference'] = (REFERENCE, lambda client, write=True, workers=1: reference(json.loads((REVIEW / 'hidden_sample.json').read_text()), REFERENCE, client, write, workers))
+    return found
+
+
+def check(target):
+    root, run = targets()[target]
+    name = 'reference.json' if target == 'reference' else 'final.json'
+    saved = json.loads((root / name).read_text())
+    replayed = run(_NoNetwork(), write=False)
+    assert replayed == saved, f'{name} does not match the saved readings'
+    adjudicated = sum(r.get('adjudication') is not None for r in saved.values())
+    print(f'{target}: {len(saved)} records replayed from saved evidence; {adjudicated} adjudicated; levels',
+          dict(sorted(Counter(r['level'] for r in saved.values()).items())))
 
 
 class ClaudeCodeClient:
@@ -224,7 +287,8 @@ class ClaudeCodeClient:
         return {'text': json.dumps(structured) if structured is not None else (output.get('result') or ''),
                 'model': served, 'stop_reason': output.get('subtype') if not output.get('is_error') else f'error: {output.get("result")}',
                 'request_id': output.get('session_id'),
-                'usage': {m: {'input_tokens': u.get('inputTokens'), 'output_tokens': u.get('outputTokens')} for m, u in usage.items()}}
+                'usage': {m: {'input_tokens': u.get('inputTokens'), 'cache_creation_input_tokens': u.get('cacheCreationInputTokens'),
+                              'cache_read_input_tokens': u.get('cacheReadInputTokens'), 'output_tokens': u.get('outputTokens')} for m, u in usage.items()}}
 
 
 class AnthropicClient:
@@ -247,11 +311,12 @@ class AnthropicClient:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('action', choices=['label', 'check'])
-    parser.add_argument('--year', type=int, required=True, choices=YEARS)
+    parser.add_argument('target', choices=[str(y) for y in YEARS] + ['bridge', 'reference'],
+                        help='a year of 2010–2020 records, the bridge sample, or the hidden sample\'s reference reading')
     parser.add_argument('--client', choices=['claude-code', 'api'], default='claude-code',
                         help='claude-code (default) uses the Claude subscription through headless Claude Code; api needs an API key')
+    parser.add_argument('--workers', type=int, default=1, help='requests in flight at once')
     args = parser.parse_args()
     if args.action == 'label':
-        client = ClaudeCodeClient() if args.client == 'claude-code' else AnthropicClient()
-        label([r for r in parse() if r['announcement_date'].startswith(str(args.year))], LABELS / str(args.year), client)
-    check(args.year)
+        targets()[args.target][1](ClaudeCodeClient() if args.client == 'claude-code' else AnthropicClient(), workers=args.workers)
+    check(args.target)

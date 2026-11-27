@@ -333,6 +333,48 @@ def the_claude_code_client_runs_a_fresh_toolless_session_on_the_subscription():
     assert response['request_id'] == 'abc'
 
 
+def by_index_policy(role, records, call):
+    """Deterministic whatever the call order: readers disagree on even indices, the adjudicator says 3."""
+    if role == 'adjudicator':
+        return reply(records, level='3', reason='A distinct new operation appears in the service.')
+    return json.dumps({'ratings': [{'index': r['index'], 'level': '2', 'reason': 'Adds an option to an existing operation.', 'confidence': 'high'}
+                                   for r in records]})
+
+
+@check
+def concurrent_requests_give_the_same_labels_as_one_at_a_time():
+    from early_label import label
+    with tempfile.TemporaryDirectory() as one, tempfile.TemporaryDirectory() as many:
+        serial = label(label_records(60), Path(one), CannedClient(by_index_policy))
+        parallel = label(label_records(60), Path(many), CannedClient(by_index_policy), workers=4)
+    assert serial == parallel and len(parallel) == 60
+
+
+@check
+def the_bridge_sample_reaches_readers_without_its_pass_or_any_recorded_label():
+    from early_label import bridge
+    sample = [{'index': i, 'pass': '2025-2026' if i < 2 else '2021-2024', 'date': '2025-01-0' + str(i + 1),
+               'url': f'https://x/{i}', 'title': f'T{i}', 'text': f'Text {i}.'} for i in range(4)]
+    client = CannedClient(lambda role, records, call: reply(records))
+    with tempfile.TemporaryDirectory() as tmp:
+        final = bridge(sample, Path(tmp), client)
+    shown = [row for call in client.calls for row in json.loads(call['user'])]
+    assert shown and all(set(row) == {'index', 'date', 'url', 'title', 'text'} for row in shown), shown[0]
+    assert len(final) == 4 and all(r['reader_a'] and r['reader_b'] for r in final.values())
+
+
+@check
+def the_reference_reading_is_one_blind_opus_reading_per_hidden_record():
+    from early_label import reference
+    sample = [{'index': i, 'date': '2012-01-01', 'url': f'https://x/{i}', 'title': f'T{i}', 'text': f'Text {i}.'} for i in range(30)]
+    client = CannedClient(lambda role, records, call: reply(records, level='1'))
+    with tempfile.TemporaryDirectory() as tmp:
+        result = reference(sample, Path(tmp), client)
+    assert {c['model'] for c in client.calls} == {'claude-opus-5-5'} and len(client.calls) == 2
+    assert all(c['role'] == 'reader' and 'reader_a' not in c['user'] for c in client.calls)
+    assert len(result) == 30 and {r['level'] for r in result.values()} == {'1'} and result['https://x/0']['model'] == 'claude-opus-5-5'
+
+
 def main():
     failed = 0
     for function in CHECKS:
