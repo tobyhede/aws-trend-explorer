@@ -435,6 +435,51 @@ def bridge_scores_a_confusion_table_with_intervals_per_pass_and_combined():
     assert combined['two_to_three'] == 1 and combined['three_to_two'] == 0
 
 
+@check
+def period_tables_match_a_hand_built_corpus():
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'substantive_trends'))
+    from periods import tables
+    rows = []
+    # 2018: 4 matched records (levels 3, 2, 1, NA) plus one on 29 October that the matched period drops.
+    rows += [('2018-02-01', '3'), ('2018-03-01', '2'), ('2018-04-01', '1'), ('2018-10-28', 'NA'), ('2018-10-29', '5')]
+    # 2019: 6 matched (3, 3, 2, 2, U, NA). 2020: 3 (4, 2, 1). 2022: 2 (5, NA). 2023: 4 (3, 2, 2, 1).
+    rows += [('2019-01-01', '3'), ('2019-01-02', '3'), ('2019-01-03', '2'), ('2019-01-04', '2'), ('2019-01-05', 'U'), ('2019-01-06', 'NA')]
+    rows += [('2020-05-01', '4'), ('2020-05-02', '2'), ('2020-05-03', '1')]
+    rows += [('2022-01-01', '5'), ('2022-01-02', 'NA')]
+    rows += [('2023-01-01', '3'), ('2023-01-02', '2'), ('2023-01-03', '2'), ('2023-01-04', '1')]
+    result = tables(rows, periods={'pre-COVID': (2018, 2019), 'COVID': (2020, 2021), 'post-COVID': (2022, 2023)}, sensitivity=(2019, 2019))
+    annual = {r['year']: (r['announcements'], r['strict'], r['broad']) for r in result['annual']}
+    assert annual == {2018: (4, 1, 2), 2019: (6, 2, 4), 2020: (3, 1, 2), 2021: (0, 0, 0), 2022: (2, 1, 1), 2023: (4, 1, 3)}, annual
+    changes = {r['period']: r for r in result['median_change']}
+    # Changes ending in each period's years: pre-COVID 2019 vs 2018 only (2018 has no earlier year): +50%, +100%, +100%.
+    assert changes['pre-COVID']['announcements'] == 50.0 and changes['pre-COVID']['strict'] == 100.0 and changes['pre-COVID']['years'] == [2019]
+    # COVID: 2020 vs 2019 = -50% (announcements); 2021 vs 2020 = -100%; median -75%.
+    assert changes['COVID']['announcements'] == -75.0, changes['COVID']
+    # post-COVID: 2022 vs 2021 has a zero base and is left out; 2023 vs 2022 = +100%.
+    assert changes['post-COVID']['announcements'] == 100.0 and changes['post-COVID']['years'] == [2023], changes['post-COVID']
+    assert changes['2019–2019']['announcements'] == 50.0
+    shares = {(r['period'], r['level']): r for r in result['shares']}
+    assert [r['level'] for r in result['shares'] if r['period'] == 'pre-COVID'] == ['1', '2', '3', '4', '5', 'U', 'NA']
+    assert shares[('pre-COVID', '3')]['count'] == 3 and shares[('pre-COVID', '3')]['total'] == 10
+    assert shares[('pre-COVID', 'U')]['count'] == 1 and shares[('pre-COVID', 'NA')]['count'] == 2
+    assert shares[('pre-COVID', '5')]['count'] == 0  # the 29 October record is outside the matched period
+    low, high = shares[('pre-COVID', '3')]['wilson_95']
+    assert low < 0.3 < high
+
+
+@check
+def the_interpretation_may_use_only_numbers_from_the_tables():
+    from periods import check_report
+    tables_text = 'Level 3: pre-COVID 17.4% (16.4–18.6%); post-COVID 12.5%; 2010 48; +45.1%'
+    check_report('Level 3 was 17.4% before and 12.5% after; 2010 had 48 records; growth +45.1%.', tables_text)
+    try:
+        check_report('Level 3 fell by 4.9 points.', tables_text)
+        raise AssertionError('a derived number must be refused')
+    except AssertionError as error:
+        assert '4.9' in str(error), error
+
+
 def main():
     failed = 0
     for function in CHECKS:

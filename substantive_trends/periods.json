@@ -1,0 +1,504 @@
+{
+  "annual": [
+    {
+      "year": 2010,
+      "announcements": 48,
+      "strict": 25,
+      "broad": 35
+    },
+    {
+      "year": 2011,
+      "announcements": 62,
+      "strict": 29,
+      "broad": 47
+    },
+    {
+      "year": 2012,
+      "announcements": 91,
+      "strict": 35,
+      "broad": 60
+    },
+    {
+      "year": 2013,
+      "announcements": 132,
+      "strict": 36,
+      "broad": 80
+    },
+    {
+      "year": 2014,
+      "announcements": 228,
+      "strict": 45,
+      "broad": 150
+    },
+    {
+      "year": 2015,
+      "announcements": 370,
+      "strict": 117,
+      "broad": 244
+    },
+    {
+      "year": 2016,
+      "announcements": 455,
+      "strict": 91,
+      "broad": 276
+    },
+    {
+      "year": 2017,
+      "announcements": 738,
+      "strict": 174,
+      "broad": 449
+    },
+    {
+      "year": 2018,
+      "announcements": 1039,
+      "strict": 191,
+      "broad": 588
+    },
+    {
+      "year": 2019,
+      "announcements": 1359,
+      "strict": 215,
+      "broad": 714
+    },
+    {
+      "year": 2020,
+      "announcements": 1706,
+      "strict": 326,
+      "broad": 988
+    },
+    {
+      "year": 2021,
+      "announcements": 1642,
+      "strict": 230,
+      "broad": 997
+    },
+    {
+      "year": 2022,
+      "announcements": 1512,
+      "strict": 181,
+      "broad": 943
+    },
+    {
+      "year": 2023,
+      "announcements": 1990,
+      "strict": 222,
+      "broad": 1184
+    },
+    {
+      "year": 2024,
+      "announcements": 1665,
+      "strict": 163,
+      "broad": 991
+    },
+    {
+      "year": 2025,
+      "announcements": 2018,
+      "strict": 310,
+      "broad": 1185
+    },
+    {
+      "year": 2026,
+      "announcements": 2257,
+      "strict": 423,
+      "broad": 1422
+    }
+  ],
+  "median_change": [
+    {
+      "period": "pre-COVID",
+      "first": 2010,
+      "last": 2019,
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "announcements": 45.05494505494505,
+      "announcements_changes": 9,
+      "strict": 15.999999999999993,
+      "strict_changes": 9,
+      "broad": 33.33333333333333,
+      "broad_changes": 9
+    },
+    {
+      "period": "COVID",
+      "first": 2020,
+      "last": 2021,
+      "years": [
+        2020,
+        2021
+      ],
+      "announcements": 10.891007542094865,
+      "announcements_changes": 2,
+      "strict": 11.090027108003992,
+      "strict_changes": 2,
+      "broad": 19.643140657072546,
+      "broad_changes": 2
+    },
+    {
+      "period": "post-COVID",
+      "first": 2022,
+      "last": 2026,
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "announcements": 11.843409316154618,
+      "announcements_changes": 5,
+      "strict": 22.651933701657455,
+      "strict_changes": 5,
+      "broad": 19.576185671039358,
+      "broad_changes": 5
+    },
+    {
+      "period": "2015\u20132019",
+      "first": 2015,
+      "last": 2019,
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "announcements": 40.785907859078584,
+      "announcements_changes": 5,
+      "strict": 12.565445026178,
+      "strict_changes": 5,
+      "broad": 30.95768374164811,
+      "broad_changes": 5
+    }
+  ],
+  "shares": [
+    {
+      "period": "pre-COVID",
+      "level": "1",
+      "count": 551,
+      "total": 4522,
+      "share": 0.12184873949579832,
+      "wilson_95": [
+        0.11263428893210224,
+        0.13170512703781664
+      ]
+    },
+    {
+      "period": "pre-COVID",
+      "level": "2",
+      "count": 1685,
+      "total": 4522,
+      "share": 0.3726227333038479,
+      "wilson_95": [
+        0.35864411620656,
+        0.3868175818043602
+      ]
+    },
+    {
+      "period": "pre-COVID",
+      "level": "3",
+      "count": 789,
+      "total": 4522,
+      "share": 0.17448031844316675,
+      "wilson_95": [
+        0.16369621216953356,
+        0.18581701608059553
+      ]
+    },
+    {
+      "period": "pre-COVID",
+      "level": "4",
+      "count": 51,
+      "total": 4522,
+      "share": 0.011278195488721804,
+      "wilson_95": [
+        0.008588685843246386,
+        0.014797342983373938
+      ]
+    },
+    {
+      "period": "pre-COVID",
+      "level": "5",
+      "count": 118,
+      "total": 4522,
+      "share": 0.026094648385670056,
+      "wilson_95": [
+        0.021835074157514303,
+        0.031158708546308034
+      ]
+    },
+    {
+      "period": "pre-COVID",
+      "level": "U",
+      "count": 2,
+      "total": 4522,
+      "share": 0.0004422821760283061,
+      "wilson_95": [
+        0.00012129810563021382,
+        0.0016112987809468486
+      ]
+    },
+    {
+      "period": "pre-COVID",
+      "level": "NA",
+      "count": 1326,
+      "total": 4522,
+      "share": 0.2932330827067669,
+      "wilson_95": [
+        0.2801443839912958,
+        0.3066727820507359
+      ]
+    },
+    {
+      "period": "COVID",
+      "level": "1",
+      "count": 418,
+      "total": 3348,
+      "share": 0.12485065710872162,
+      "wilson_95": [
+        0.114082020391043,
+        0.1364791917482037
+      ]
+    },
+    {
+      "period": "COVID",
+      "level": "2",
+      "count": 1429,
+      "total": 3348,
+      "share": 0.42682198327359616,
+      "wilson_95": [
+        0.41016105101778966,
+        0.4436506503947226
+      ]
+    },
+    {
+      "period": "COVID",
+      "level": "3",
+      "count": 478,
+      "total": 3348,
+      "share": 0.14277180406212664,
+      "wilson_95": [
+        0.1313307559724362,
+        0.15503167214741975
+      ]
+    },
+    {
+      "period": "COVID",
+      "level": "4",
+      "count": 36,
+      "total": 3348,
+      "share": 0.010752688172043012,
+      "wilson_95": [
+        0.007777122991914119,
+        0.014849680737453814
+      ]
+    },
+    {
+      "period": "COVID",
+      "level": "5",
+      "count": 42,
+      "total": 3348,
+      "share": 0.012544802867383513,
+      "wilson_95": [
+        0.009294392584537505,
+        0.016912532742891347
+      ]
+    },
+    {
+      "period": "COVID",
+      "level": "U",
+      "count": 44,
+      "total": 3348,
+      "share": 0.013142174432497013,
+      "wilson_95": [
+        0.009804601322349274,
+        0.017595697871099887
+      ]
+    },
+    {
+      "period": "COVID",
+      "level": "NA",
+      "count": 901,
+      "total": 3348,
+      "share": 0.269115890083632,
+      "wilson_95": [
+        0.2543640348140358,
+        0.28439696596911523
+      ]
+    },
+    {
+      "period": "post-COVID",
+      "level": "1",
+      "count": 1196,
+      "total": 9442,
+      "share": 0.12666807879686506,
+      "wilson_95": [
+        0.12011083735989801,
+        0.1335289753836681
+      ]
+    },
+    {
+      "period": "post-COVID",
+      "level": "2",
+      "count": 4426,
+      "total": 9442,
+      "share": 0.468756619360305,
+      "wilson_95": [
+        0.4587058363222609,
+        0.47883281467329997
+      ]
+    },
+    {
+      "period": "post-COVID",
+      "level": "3",
+      "count": 1176,
+      "total": 9442,
+      "share": 0.12454988349925863,
+      "wilson_95": [
+        0.11804172843661627,
+        0.13136341657783535
+      ]
+    },
+    {
+      "period": "post-COVID",
+      "level": "4",
+      "count": 93,
+      "total": 9442,
+      "share": 0.009849608133869942,
+      "wilson_95": [
+        0.008047458256720073,
+        0.01205042922618033
+      ]
+    },
+    {
+      "period": "post-COVID",
+      "level": "5",
+      "count": 30,
+      "total": 9442,
+      "share": 0.003177292946409659,
+      "wilson_95": [
+        0.002226576747824767,
+        0.004532107388364905
+      ]
+    },
+    {
+      "period": "post-COVID",
+      "level": "U",
+      "count": 129,
+      "total": 9442,
+      "share": 0.013662359669561534,
+      "wilson_95": [
+        0.011510793576176006,
+        0.01620949581913053
+      ]
+    },
+    {
+      "period": "post-COVID",
+      "level": "NA",
+      "count": 2392,
+      "total": 9442,
+      "share": 0.2533361575937301,
+      "wilson_95": [
+        0.2446651037473041,
+        0.2622078391973103
+      ]
+    }
+  ],
+  "reader_context": {
+    "coverage": {
+      "2010": 2,
+      "2011": 1,
+      "2012": 58,
+      "2013": 3,
+      "2014": 0,
+      "2015": 5,
+      "2016": 2,
+      "2017": null,
+      "2018": 3,
+      "2019": 2,
+      "2020": 3
+    },
+    "audit": {
+      "2010-2020": {
+        "agreement": 0.9021575467847008,
+        "interval_95": [
+          0.8613939608105942,
+          0.9429211327588075
+        ],
+        "basis": "final labels against one blind claude-opus-5-5 reading, 300 records, weighted to each year"
+      },
+      "2021-2024": {
+        "agreement": 0.885,
+        "interval_95": [
+          0.8333528310151243,
+          0.9221362676743804
+        ],
+        "basis": "initial ratings against a blind adjudicated AI reference, 200 records, before corrections"
+      },
+      "2025-2026": {
+        "agreement": 0.8333333333333334,
+        "interval_95": [
+          0.7565471860673773,
+          0.8894400363201539
+        ],
+        "basis": "first reading against an independent reading, 120 records, before adjudication"
+      }
+    },
+    "bridge": {
+      "2025-2026": {
+        "agreement": 0.85,
+        "wilson_95": [
+          0.7939442071583334,
+          0.89286406437758
+        ],
+        "n": 200,
+        "two_to_three": 13,
+        "three_to_two": 2,
+        "level_3_recorded": 0.155,
+        "level_3_new": 0.2,
+        "strict_recorded": 0.155,
+        "strict_new": 0.23
+      },
+      "2021-2024": {
+        "agreement": 0.765,
+        "wilson_95": [
+          0.7015863111723746,
+          0.8184256658476741
+        ],
+        "n": 200,
+        "two_to_three": 22,
+        "three_to_two": 5,
+        "level_3_recorded": 0.125,
+        "level_3_new": 0.215,
+        "strict_recorded": 0.145,
+        "strict_new": 0.255
+      },
+      "combined": {
+        "agreement": 0.8075,
+        "wilson_95": [
+          0.7660109641776837,
+          0.8431389748067241
+        ],
+        "n": 400,
+        "two_to_three": 35,
+        "three_to_two": 7,
+        "level_3_recorded": 0.14,
+        "level_3_new": 0.2075,
+        "strict_recorded": 0.15,
+        "strict_new": 0.2425
+      }
+    },
+    "protocols": {
+      "pre-COVID": "2010\u20132019: two-reader protocol (2026-11-27)",
+      "COVID": "2020: two-reader protocol; 2021: historical pass (2026-11-25)",
+      "post-COVID": "2022\u20132024: historical pass; 2025\u20132026: recent pass (2026-11-24)"
+    }
+  }
+}
