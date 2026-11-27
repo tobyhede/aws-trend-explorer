@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>2010–2020 audit and bridge sample · AWS announcement explorer</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<main class="doc">
+<nav aria-label="Site"><a href="index.html">Hosted explorer</a><a href="method.html">Method</a><a href="early-audit.html" aria-current="page">2010–2020 audit</a><a href="historical-audit.html">Historical audit</a><a href="fresh-audit.html">Fresh-sample audit</a><a href="data-guide.html">Data guide</a><a href="release-notes.html">Release notes</a></nav>
+<h1>2010–2020 audit and bridge sample</h1>
+<p>The 8,421 announcements from 2010–2020 were labelled under a different review protocol from the 2021–2026 announcements. This page reports three checks of those labels:</p>
+<ul>
+<li>a blind audit against an independent AI reference</li>
+<li>a bridge sample that measures how differently the two protocols rate</li>
+<li>a check of level 4 and level 5 records by the maintainer</li>
+</ul>
+<p> All the readings compared here are AI judgments, except the maintainer's.</p>
+<p>The 2010–2020 labels agree with an independent AI reference on 90.2% of a weighted sample. But the protocol behind them rates higher than the one behind the 2021–2026 labels. On the bridge sample, level 3 is 20.8% of the new labels and 14.0% of the recorded ones. A difference between periods smaller than that is not a finding.</p>
+
+<h2>How the labels were made</h2>
+<p>Two AI readers on <code>claude-fable-5-2</code> rated every record without seeing each other's ratings. Each of the 303 disagreements went to a third reading on the same model. The third reader saw both ratings and their reasons. Each request ran as a fresh session with no tools and no project instructions. The prompt was the rubric on the <a href="data-guide.html">data guide</a>, with one added instruction. That instruction was to rate only the change the text describes at the time of publication.</p>
+<p>Every request, reply, and model name is saved with the release. The build replays the saved labels and never calls a model.</p>
+
+<h2>Audit against a blind reference</h2>
+<p>A hidden sample of 300 records was drawn before any reading, with at least 20 from each year. The labelling readers were not told which records it held. One blind reading by a different model, <code>claude-opus-5-5</code>, gives the audit reference.</p>
+<p>The final labels agree with the reference on 272 of the 300 records. Weighted to each year's share of the 8,421 records, agreement is 90.2%, with a 95% interval of 86.1%–94.3%. The interval describes sample uncertainty. It does not account for bias that the AI readers share.</p>
+<table>
+<caption>Agreement by year: every year agrees on at least 85% of its sample</caption>
+<tr><th>Year</th><th>Records</th><th>Sampled</th><th>Agree</th><th>Agreement</th></tr>
+<tr><td>2010</td><td>66</td><td>20</td><td>17</td><td>85.0%</td></tr>
+<tr><td>2011</td><td>82</td><td>21</td><td>19</td><td>90.5%</td></tr>
+<tr><td>2012</td><td>91</td><td>21</td><td>18</td><td>85.7%</td></tr>
+<tr><td>2013</td><td>185</td><td>22</td><td>21</td><td>95.5%</td></tr>
+<tr><td>2014</td><td>295</td><td>23</td><td>23</td><td>100.0%</td></tr>
+<tr><td>2015</td><td>452</td><td>24</td><td>23</td><td>95.8%</td></tr>
+<tr><td>2016</td><td>640</td><td>26</td><td>23</td><td>88.5%</td></tr>
+<tr><td>2017</td><td>1,023</td><td>30</td><td>26</td><td>86.7%</td></tr>
+<tr><td>2018</td><td>1,433</td><td>33</td><td>31</td><td>93.9%</td></tr>
+<tr><td>2019</td><td>1,860</td><td>38</td><td>34</td><td>89.5%</td></tr>
+<tr><td>2020</td><td>2,294</td><td>42</td><td>37</td><td>88.1%</td></tr>
+</table>
+<table>
+<caption>Agreement by level: level 4 is weak</caption>
+<tr><th>Level</th><th>Labelled</th><th>Reference</th><th>Both</th><th>Precision</th><th>Recall</th></tr>
+<tr><td>1</td><td>39</td><td>43</td><td>37</td><td>94.9%</td><td>86.0%</td></tr>
+<tr><td>2</td><td>94</td><td>99</td><td>88</td><td>93.6%</td><td>88.9%</td></tr>
+<tr><td>3</td><td>63</td><td>60</td><td>53</td><td>84.1%</td><td>88.3%</td></tr>
+<tr><td>4</td><td>7</td><td>5</td><td>3</td><td>42.9%</td><td>60.0%</td></tr>
+<tr><td>5</td><td>11</td><td>12</td><td>10</td><td>90.9%</td><td>83.3%</td></tr>
+<tr><td>U</td><td>1</td><td>0</td><td>0</td><td>0.0%</td><td>none in reference</td></tr>
+<tr><td>NA</td><td>85</td><td>81</td><td>81</td><td>95.3%</td><td>100.0%</td></tr>
+</table>
+<p>Precision is the share of a level's labels that the reference gives the same level. Recall is the share of the reference's records at a level that the labels also put there. Level 4 counts are small, and the earlier audits found the same weakness at level 4.</p>
+
+<h2>Bridge sample: how differently the protocols rate</h2>
+<p>The bridge sample holds 200 records from the 2021–2024 labelling pass and 200 from the 2025–2026 pass. The readers saw the announcement only, not the recorded label, and labelled each record under the 2010–2020 protocol. The new readings never change a recorded label.</p>
+<table>
+<caption>Agreement with the recorded labels: lower for 2021–2024</caption>
+<tr><th>Earlier pass</th><th>Agree</th><th>Agreement</th><th>Wilson 95% interval</th></tr>
+<tr><td>2025–2026</td><td>170 of 200</td><td>85.0%</td><td>79.4%–89.3%</td></tr>
+<tr><td>2021–2024</td><td>153 of 200</td><td>76.5%</td><td>70.2%–81.8%</td></tr>
+<tr><td>Both</td><td>323 of 400</td><td>80.8%</td><td>76.6%–84.3%</td></tr>
+</table>
+<p>The disagreements mostly go one way. 35 records recorded at level 2 became level 3 under the new protocol, and 7 went from level 3 to level 2. Level 3 is 14.0% of the recorded labels and 20.8% of the new ones.</p>
+<p>So the 2010–2020 labels probably rate higher than the 2021–2026 labels would for the same announcements. Counting 1 January to 28 October in each year, level 3 is 17.4% of pre-COVID announcements and 12.5% of post-COVID ones. That fall is no larger than the bridge drift, and it runs in the direction the drift predicts.</p>
+<p>The bridge holds only 2021–2026 records. It cannot detect drift that affects older texts only, such as a reader rating an early launch by what the product later became.</p>
+
+<h2>Maintainer's check of level 4 and level 5 records</h2>
+<p>40 records were drawn from the 459 records of 2010–2020 at level 4 or level 5: 13 at level 4 and 27 at level 5. The draw used a saved seed. The maintainer reads each record and marks whether they agree with its level.</p>
+<p>The maintainer's readings have not been recorded in this release. Until they are, no person has checked any 2010–2020 label, and level 4 and level 5 trends remain provisional.</p>
+
+<h2>Collection coverage</h2>
+<p>The 2010–2020 records are what the AWS directory API listed on 27 November 2026. Each year was compared with an archived copy of that year's announcement index page:</p>
+<ul>
+<li>The archived pages link 79 announcements that the API no longer lists. They are reported, not added.</li>
+<li>58 of the 79 are from 2012. The API lists 91 posts for 2012; a March 2013 capture of the index links 146.</li>
+<li>Every other checked year has between 0 and 5 absent links.</li>
+<li>2017 is unchecked, because the archive holds no capture of its index page from the right months.</li>
+</ul>
+<p>Coverage of the whole collection has not been proven exhaustive.</p>
+<footer>
+  <p>Release 27 November 2026. Collection cutoff 28 October 2026.</p>
+  <p>The magnitude levels, reasons and bases are classifications by Toby Hede, offered under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a>. To reuse them, credit “Toby Hede, AWS announcement explorer” and link to this site. Announcement titles and the linked announcement pages remain the property of Amazon Web Services and are outside that licence.</p>
+  <p>This site is not affiliated with, sponsored by or endorsed by Amazon Web Services. It sets no cookies and loads nothing from other sites.</p>
+</footer>
+</main>
+</body>
+</html>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <main class="doc">
-<nav aria-label="Site"><a href="index.html">Hosted explorer</a><a href="method.html">Method</a><a href="historical-audit.html">Historical audit</a><a href="fresh-audit.html">Fresh-sample audit</a><a href="data-guide.html" aria-current="page">Data guide</a><a href="release-notes.html">Release notes</a></nav>
+<nav aria-label="Site"><a href="index.html">Hosted explorer</a><a href="method.html">Method</a><a href="early-audit.html">2010–2020 audit</a><a href="historical-audit.html">Historical audit</a><a href="fresh-audit.html">Fresh-sample audit</a><a href="data-guide.html" aria-current="page">Data guide</a><a href="release-notes.html">Release notes</a></nav>
 <h1>Read the public dataset</h1>
 <p>Release: 27 November 2026. The public dataset is one Parquet file, <a href="data/aws-announcements-2026-11-27.parquet" download>aws-announcements-2026-11-27.parquet</a>. It holds 22,588 records, one for each collected AWS announcement from 1 January 2010 to 28 October 2026. The hosted explorer reads this same file.</p>
 <p>The file does not contain the text of any announcement. Follow a record's <code>source_url</code> to read the announcement on the AWS website.</p>
@@ -22,8 +22,8 @@
 <tr><td><code>announcement_date</code></td><td>Date</td><td>Publication date.</td></tr>
 <tr><td><code>title</code></td><td>Text</td><td>Announcement title, as AWS published it.</td></tr>
 <tr><td><code>service</code></td><td>Text</td><td>Service tags separated by <code>; </code> (semicolon and space). <code>unknown</code> means no service tag is available.</td></tr>
-<tr><td><code>release_type</code></td><td>Text</td><td>Release-type label retained from an earlier classification.</td></tr>
-<tr><td><code>enhancement_facets</code></td><td>Text</td><td>Enhancement labels retained from an earlier classification, separated by <code>|</code>. Empty when the announcement has none.</td></tr>
+<tr><td><code>release_type</code></td><td>Text</td><td>Release-type label retained from an earlier classification. Empty before 2021.</td></tr>
+<tr><td><code>enhancement_facets</code></td><td>Text</td><td>Enhancement labels retained from an earlier classification, separated by <code>|</code>. Empty when the announcement has none, and for every announcement before 2021.</td></tr>
 <tr><td><code>product_change_level</code></td><td>Text</td><td>Magnitude level, defined below. It is text, not a number: the values are <code>1</code> to <code>5</code>, <code>U</code> and <code>NA</code>.</td></tr>
 <tr><td><code>product_change_reason</code></td><td>Text</td><td>Our explanation of the level, written from the announcement and the recorded review.</td></tr>
 <tr><td><code>product_change_basis</code></td><td>Text</td><td>Provenance: which reading or adjudication produced the level.</td></tr>
@@ -57,6 +57,20 @@
 <li><strong>Service tags overlap.</strong> Count a multi-service announcement once for each of its services, but once in the whole collection. Do not add service totals together.</li>
 </ul>
 
+<h2>Periods and labelling passes</h2>
+<p>The explorer groups years into three periods: pre-COVID (2010–2019), COVID (2020–2021) and post-COVID (2022–2026). These are analysis groupings, not part of the rubric.</p>
+<p>Three labelling passes produced the levels, and they do not line up with the periods. <code>product_change_basis</code> names the pass for each record.</p>
+<table>
+<tr><th>Years</th><th>Records</th><th>Pass</th></tr>
+<tr><td>2010–2020</td><td>8,421</td><td>Two AI readers on every record; a third reading settles each disagreement.</td></tr>
+<tr><td>2021–2024</td><td>9,247</td><td>One AI reader per record, with targeted review.</td></tr>
+<tr><td>2025–2026</td><td>4,920</td><td>One AI reader per record.</td></tr>
+</table>
+<p>The 2010–2020 pass rates higher. On a bridge sample of 400 records from 2021–2026, level 3 was 14.0% of the recorded labels and 20.8% under the 2010–2020 protocol. A difference between periods smaller than that is not a finding. The <a href="early-audit.html">2010–2020 audit page</a> gives the details.</p>
+
+<h2>Records without a service tag</h2>
+<p>Most announcements from 2010–2014 have no service tag: between 77% and 98% of each year's records are <code>unknown</code>. From 2015 the share is at most 17% in every year. A per-service count that starts before 2015 therefore measures tagging as well as output. The explorer does not draw the yearly panels when a service filter is on, and it shows the untagged share for each period instead.</p>
+
 <h2>Query the file yourself</h2>
 <p>Any tool that reads Parquet keeps the column types. For example, in DuckDB:</p>
 <pre><code>select year(announcement_date) as year, product_change_level as level, count(*) as announcements
@@ -70,7 +84,7 @@ group by all order by all;</code></pre>
 
 <h2>Interpret trends with the audits</h2>
 <p>Announcement volume measures publication activity. Preview, general availability and regional rollout can each produce a separate announcement of the same feature. Seasonal publication patterns and partial periods also affect apparent velocity. Unknown service tags and differences in collection coverage can affect service comparisons.</p>
-<p>All levels are AI judgments. The <a href="historical-audit.html">historical audit</a> and the <a href="fresh-audit.html">fresh-sample audit</a> report how often they agree with independent AI references, and the <a href="release-notes.html">release notes</a> list the limits that remain. Trends in levels 4 and 5 are provisional.</p>
+<p>All levels are AI judgments. The <a href="early-audit.html">2010–2020 audit</a>, the <a href="historical-audit.html">historical audit</a>, and the <a href="fresh-audit.html">fresh-sample audit</a> report how often the levels agree with independent AI references, and the <a href="release-notes.html">release notes</a> list the limits that remain. Trends in levels 4 and 5 are provisional.</p>
 <footer>
   <p>Release 27 November 2026. Collection cutoff 28 October 2026.</p>
   <p>The magnitude levels, reasons and bases are classifications by Toby Hede, offered under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a>. To reuse them, credit “Toby Hede, AWS announcement explorer” and link to this site. Announcement titles and the linked announcement pages remain the property of Amazon Web Services and are outside that licence.</p>
