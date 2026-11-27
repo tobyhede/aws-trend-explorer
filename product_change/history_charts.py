@@ -51,10 +51,18 @@ def chart(source, destination, key, title, subtitle):
     (HERE / destination).write_text(''.join(parts))
 
 
+def span(source, key):
+    with (HERE / source).open() as stream:
+        periods = sorted({r[key] for r in csv.DictReader(stream)})
+    return periods[0], periods[-1]
+
+
 def charts():
-    chart('matched.csv', 'annual.svg', 'year', 'AWS product-change magnitude · matched annual periods', 'January 1–October 28 each year · 2021–2026 · announcement counts')
-    chart('annual.csv', 'annual_full.svg', 'year', 'AWS product-change magnitude · calendar-year totals', '2021–2025 complete calendar periods; 2026 ends October 28 and is not directly comparable')
-    chart('monthly.csv', 'monthly.svg', 'month', 'AWS product-change magnitude · monthly publication volume', 'January 2021–October 28, 2026 · last month is partial · announcement counts')
+    first, last = span('matched.csv', 'year')
+    chart('matched.csv', 'annual.svg', 'year', 'AWS product-change magnitude · matched annual periods', f'January 1–October 28 each year · {first}–{last} · announcement counts')
+    chart('annual.csv', 'annual_full.svg', 'year', 'AWS product-change magnitude · calendar-year totals', f'{first}–{int(last) - 1} complete calendar periods; {last} ends October 28 and is not directly comparable')
+    first_month, _ = span('monthly.csv', 'month')
+    chart('monthly.csv', 'monthly.svg', 'month', 'AWS product-change magnitude · monthly publication volume', f'{first_month}–October 28, {last} · last month is partial · announcement counts')
 
 
 if __name__ == '__main__':

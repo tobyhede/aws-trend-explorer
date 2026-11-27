@@ -27,7 +27,7 @@ def load_initial(db):
     for name, digest in protocol['source_hashes'].items():
         assert hashlib.sha256((HERE / name).read_bytes()).hexdigest() == digest, name
     actual = {url: (str(date), title, text) for url, date, title, text in db.sql(
-        "select source_url,announcement_date,title,announcement_text from announcements where announcement_date < '2025-01-01'"
+        "select source_url,announcement_date,title,announcement_text from announcements where announcement_date between '2021-01-01' and '2024-12-31'"
     ).fetchall()}
     sources, ratings = {}, {}
     for batch, size in enumerate(protocol['batch_sizes']):

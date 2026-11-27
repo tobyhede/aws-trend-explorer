@@ -39,8 +39,18 @@ def build():
         verify_recent_baseline(decisions)
         historical = load_historical(db)
         decisions.extend((url, *rating) for url, rating in historical.items())
-        assert len(decisions) == 14167 and len({r[0] for r in decisions}) == 14167
+        from early_collect import COLUMNS, COHORT, parse
+        from early_label import load_early
+        early = load_early()  # replays saved readings; never calls a model
+        decisions.extend((url, *rating) for url, rating in early.items())
+        assert len(decisions) == 22588 and len({r[0] for r in decisions}) == 22588
         db.begin()
+        # The 2010–2020 records join the corpus from the frozen directory snapshot, replaced whole on each build.
+        db.execute('delete from announcements where classification_cohort = ?', [COHORT])
+        early_rows = parse()
+        assert {r['source_url'] for r in early_rows} == set(early)
+        db.executemany(f'insert into announcements ({",".join(COLUMNS)}) values ({",".join("?" * len(COLUMNS))})',
+                       [[r[c] for c in COLUMNS] for r in early_rows])
         db.execute('create or replace table product_change_decisions(source_url varchar primary key,product_change_level varchar,product_change_reason varchar,product_change_basis varchar)')
         db.executemany('insert into product_change_decisions values (?,?,?,?)',decisions)
         for col in ['product_change_level','product_change_reason','product_change_basis']:

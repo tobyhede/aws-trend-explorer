@@ -250,6 +250,21 @@ def targets():
     return found
 
 
+def load_early():
+    """Final 2010–2020 decisions for the build, each replayed from its saved readings without a model:
+    {source_url: (level, reason, basis)}. A record without a saved decision is an error, never a fallback."""
+    records = parse()
+    result = {}
+    for year in YEARS:
+        root = LABELS / str(year)
+        part = [r for r in records if r['announcement_date'].startswith(str(year))]
+        saved = json.loads((root / 'final.json').read_text())
+        assert label(part, root, _NoNetwork(), write=False) == saved, f'{root}/final.json does not match its saved readings'
+        assert set(saved) == {r['source_url'] for r in part}, f'{year}: decisions do not cover the snapshot records'
+        result.update({url: (row['level'], row['reason'], row['basis']) for url, row in saved.items()})
+    return result
+
+
 def check(target):
     root, run = targets()[target]
     name = 'reference.json' if target == 'reference' else 'final.json'
