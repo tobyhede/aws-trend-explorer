@@ -3,8 +3,8 @@
 Usage: .venv/bin/python hosted/pages.py
 
 The method page and the two audit reports are copied from the release's own reports, with links to
-material that is not published removed. The data guide and release notes come from hosted/pages/,
-which are the versions limited to the nine public fields. hosted/check_site.py confirms that the
+material that is not published removed. The 2010–2020 audit page, data guide and release notes come from
+hosted/pages/; the data guide and release notes there are the versions limited to the nine public fields. hosted/check_site.py confirms that the
 written pages are current and hold no announcement text.
 """
 import re
@@ -28,8 +28,8 @@ SOURCED = [
     ]),
     ('product_change/fresh_accuracy/report.html', 'fresh-audit.html', []),
 ]
-WRITTEN = ['data-guide.html', 'release-notes.html']
-NAV = [('index.html', 'Hosted explorer'), ('method.html', 'Method'), ('historical-audit.html', 'Historical audit'),
+WRITTEN = ['early-audit.html', 'data-guide.html', 'release-notes.html']
+NAV = [('index.html', 'Hosted explorer'), ('method.html', 'Method'), ('early-audit.html', '2010–2020 audit'), ('historical-audit.html', 'Historical audit'),
        ('fresh-audit.html', 'Fresh-sample audit'), ('data-guide.html', 'Data guide'), ('release-notes.html', 'Release notes')]
 
 TEMPLATE = """<!doctype html>

@@ -42,7 +42,7 @@ node hosted/check.mjs                       # JavaScript counts equal matched.cs
 Chart rendering, keyboard operation and the deployed site are not automated. Before each publication, check by hand in a browser:
 
 - the annual table and monthly chart draw, and the share view sums to 100%;
-- each filter and the search recalculate everything, and Clear filters restores 14,167;
+- each filter and the search recalculate everything, and Clear filters restores 22,588;
 - selecting a table count or a chart segment lists exactly that many records, by mouse and by keyboard (Tab into the chart, arrow keys, Enter);
 - record titles open the AWS announcement; paging and CSV export work;
 - the Parquet download and every supporting page open;
