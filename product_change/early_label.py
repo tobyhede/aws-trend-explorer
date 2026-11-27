@@ -1,6 +1,7 @@
 """Label the 2010–2020 records through the Claude API: two independent readers, a third reading on disagreement.
 
-label --year Y   calls the API (needs credentials and product_change/labelling-requirements.txt). Every chunk
+label --year Y   calls the model through headless Claude Code on the Claude subscription (or, with --client api,
+                 the Claude API with a key and product_change/labelling-requirements.txt). Every chunk
                  of about 25 records goes to each reader in a fresh request; neither reader sees the other.
                  A reply missing a record, holding a level outside 1–5, U and NA, or copying the announcement
                  text into a reason is rejected and asked again. A rerun skips chunks already saved.
@@ -190,7 +191,45 @@ def check(year):
           sum(r['adjudication'] is not None for r in saved.values()), 'adjudicated; levels', dict(sorted(Counter(r['level'] for r in saved.values()).items())))
 
 
+class ClaudeCodeClient:
+    """The default client: a headless Claude Code session on the maintainer's Claude subscription.
+
+    Each request is a fresh session with the reader's system prompt in place of Claude Code's own, no tools, no MCP
+    servers, no settings, CLAUDE.md files or memory, run from an empty folder. API key variables are removed, so the
+    session uses the subscription login rather than API billing. Claude Code attaches a short account note to the
+    context; nothing else reaches the model.
+    """
+
+    def __init__(self, run=None, timeout=900):
+        import subprocess
+        self.run, self.timeout = run or subprocess.run, timeout
+
+    def complete(self, model, system, user):
+        import os
+        import tempfile
+        command = ['claude', '-p', '--model', model, '--effort', 'high', '--system-prompt', system, '--tools', '',
+                   '--strict-mcp-config', '--setting-sources', '', '--disable-slash-commands', '--no-session-persistence',
+                   '--output-format', 'json', '--json-schema', json.dumps(SCHEMA)]
+        env = {k: v for k, v in os.environ.items() if k not in {'ANTHROPIC_API_KEY', 'ANTHROPIC_AUTH_TOKEN'}}
+        with tempfile.TemporaryDirectory() as empty:
+            done = self.run(command, input=user, capture_output=True, text=True, env=env, cwd=empty, timeout=self.timeout)
+        try:
+            output = json.loads(done.stdout)
+        except ValueError:
+            return {'text': '', 'model': None, 'stop_reason': f'claude exited {done.returncode}: {done.stderr[-500:]}'}
+        usage = output.get('modelUsage') or {}
+        answering = [m for m, u in usage.items() if u.get('outputTokens')]
+        served = model if model in answering else max(answering, key=lambda m: usage[m]['outputTokens'], default=None)
+        structured = output.get('structured_output')
+        return {'text': json.dumps(structured) if structured is not None else (output.get('result') or ''),
+                'model': served, 'stop_reason': output.get('subtype') if not output.get('is_error') else f'error: {output.get("result")}',
+                'request_id': output.get('session_id'),
+                'usage': {m: {'input_tokens': u.get('inputTokens'), 'output_tokens': u.get('outputTokens')} for m, u in usage.items()}}
+
+
 class AnthropicClient:
+    """Optional: the Claude API with an API key (labelling-requirements.txt)."""
+
     def __init__(self):
         import anthropic
         self.client = anthropic.Anthropic()
@@ -209,7 +248,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('action', choices=['label', 'check'])
     parser.add_argument('--year', type=int, required=True, choices=YEARS)
+    parser.add_argument('--client', choices=['claude-code', 'api'], default='claude-code',
+                        help='claude-code (default) uses the Claude subscription through headless Claude Code; api needs an API key')
     args = parser.parse_args()
     if args.action == 'label':
-        label([r for r in parse() if r['announcement_date'].startswith(str(args.year))], LABELS / str(args.year), AnthropicClient())
+        client = ClaudeCodeClient() if args.client == 'claude-code' else AnthropicClient()
+        label([r for r in parse() if r['announcement_date'].startswith(str(args.year))], LABELS / str(args.year), client)
     check(args.year)

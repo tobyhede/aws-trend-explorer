@@ -303,6 +303,36 @@ def the_prompt_is_the_data_guide_rubric_plus_the_hindsight_instruction():
         assert '| `4` | Major product expansion |' in prompt
 
 
+@check
+def the_claude_code_client_runs_a_fresh_toolless_session_on_the_subscription():
+    import os
+    from early_label import ClaudeCodeClient, SCHEMA
+    seen = {}
+
+    def run(command, **kwargs):
+        seen.update(command=command, **kwargs)
+        output = {'subtype': 'success', 'is_error': False, 'session_id': 'abc', 'result': '{"ratings": []}',
+                  'structured_output': {'ratings': []},
+                  'modelUsage': {'claude-haiku-5-5': {'inputTokens': 9, 'outputTokens': 2},
+                                 'claude-fable-5-2': {'inputTokens': 2, 'outputTokens': 50}}}
+        return type('Done', (), {'returncode': 0, 'stdout': json.dumps(output), 'stderr': ''})()
+
+    os.environ['ANTHROPIC_API_KEY'] = 'should-not-be-passed'
+    try:
+        response = ClaudeCodeClient(run=run).complete('claude-fable-5-2', 'SYSTEM', '[{"index": 0}]')
+    finally:
+        del os.environ['ANTHROPIC_API_KEY']
+    command = seen['command']
+    assert command[:2] == ['claude', '-p'] and seen['input'] == '[{"index": 0}]'
+    for flag, value in [('--model', 'claude-fable-5-2'), ('--system-prompt', 'SYSTEM'), ('--tools', ''), ('--setting-sources', ''),
+                        ('--output-format', 'json'), ('--json-schema', json.dumps(SCHEMA))]:
+        assert command[command.index(flag) + 1] == value, flag
+    assert '--no-session-persistence' in command and '--strict-mcp-config' in command
+    assert 'ANTHROPIC_API_KEY' not in seen['env'] and seen['cwd'] != str(Path.cwd())
+    assert json.loads(response['text']) == {'ratings': []} and response['model'] == 'claude-fable-5-2'
+    assert response['request_id'] == 'abc'
+
+
 def main():
     failed = 0
     for function in CHECKS:
