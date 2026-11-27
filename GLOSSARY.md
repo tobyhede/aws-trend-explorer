@@ -14,6 +14,28 @@ _Avoid_: Archive, zip, package
 The records of one release without saved announcement text, published as a single dated file.
 _Avoid_: Export, public export, download file
 
+### Analysis
+
+**Substantive output**:
+The number of announcements in a period that record a product change above the routine levels, read together with the share of all announcements at each level. It is a proxy for shipped product change, not a measure of how well the organisation performed.
+_Avoid_: Org performance, productivity, velocity
+
+**Pre-COVID period**:
+The calendar years 2010 to 2019.
+_Avoid_: Before COVID, pre-pandemic
+
+**COVID period**:
+The calendar years 2020 and 2021, reported on their own and counted in neither of the other two periods.
+_Avoid_: Pandemic years, transition
+
+**Post-COVID period**:
+The calendar years 2022 to 2026, the last of them partial.
+_Avoid_: After COVID, post-pandemic
+
+**Bridge sample**:
+A random set of already-labelled records that a later group of readers labels again without seeing the recorded labels, to measure how far the two groups' judgments differ. It never changes a recorded label.
+_Avoid_: Calibration set, relabel, overlap sample
+
 ### Viewers
 
 **Local explorer**:
