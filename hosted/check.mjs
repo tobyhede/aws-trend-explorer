@@ -7,7 +7,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parquetMetadataAsync, parquetReadObjects } from './site/vendor/hyparquet/index.js';
 import { RELEASE, DATASET } from './site/release.js';
-import { prepare, summarize, select, choices, months, sharePercent, toCsv, FIELDS } from './site/counting.js';
+import { prepare, summarize, select, choices, months, sharePercent, toCsv, untagged, periodOf, FIELDS, PERIODS } from './site/counting.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = dirname(here);
@@ -34,11 +34,11 @@ assert.equal(stored.collection_cutoff, RELEASE.cutoff);
 const rows = await parquetReadObjects({ file, metadata });
 assert.deepEqual(Object.keys(rows[0]), FIELDS);
 const records = prepare(rows);
-assert.equal(records.length, 14167);
+assert.equal(records.length, 22588);
 
 // Ticket 02: annual matched-period counts equal matched.csv.
 const all = summarize(records, {}, RELEASE);
-assert.equal(all.total, 14167);
+assert.equal(all.total, 22588);
 assert.deepEqual(flat(all.annual), released('matched.csv', ['year', 'level', 'announcements']));
 const inScale = Object.fromEntries(all.years.map(y => [y.year, y.inScale]));
 for (const y of all.years) {
@@ -51,8 +51,9 @@ assert.equal(all.years.at(-1).change, inScale[2026] / inScale[2025] - 1);
 // Ticket 03: monthly counts equal monthly.csv, and every month of the release is present.
 assert.deepEqual(flat(all.monthly), released('monthly.csv', ['month', 'level', 'announcements']));
 const allMonths = months(RELEASE);
-assert.equal(allMonths.length, 70);
-assert.deepEqual([allMonths[0], allMonths.at(-1)], ['2021-01', '2026-10']);
+assert.equal(allMonths.length, 202);
+assert.deepEqual([allMonths[0], allMonths.at(-1)], ['2010-01', '2026-10']);
+assert.deepEqual(all.years.map(y => y.year), Array.from({ length: 17 }, (_, i) => 2010 + i));
 assert.deepEqual(Object.keys(all.monthly), allMonths);
 // The share denominator is all filtered announcements in the month, including needs-review and outside-scale.
 for (const month of allMonths) {
@@ -102,6 +103,18 @@ queries.forEach((query, i) => {
   assert.equal(select(records, query, RELEASE).length, ours.total, label);
 });
 assert.deepEqual(options.type, local[0].options.type);
+
+// Ticket 10: the page's three periods are the analysis periods, cover every year once, and records without a service tag count as unknown.
+const analysisPeriods = JSON.parse(execFileSync(python, ['-c', 'import json,sys; sys.path.insert(0, "substantive_trends"); import periods; print(json.dumps(periods.PERIODS))'], { cwd: root }));
+assert.deepEqual(PERIODS.map(p => [p.name, [p.first, p.last]]), Object.entries(analysisPeriods));
+assert.deepEqual(all.years.map(y => periodOf(y.year)?.name), all.years.map(y => PERIODS.find(p => y.year >= p.first && y.year <= p.last).name));
+assert.equal(PERIODS[0].first, +RELEASE.first.slice(0, 4));
+assert.equal(PERIODS.at(-1).last, +RELEASE.cutoff.slice(0, 4));
+PERIODS.slice(1).forEach((p, i) => assert.equal(p.first, PERIODS[i].last + 1));
+assert.ok(records.every(r => r.services.length));
+const missing = untagged(records, RELEASE);
+assert.deepEqual(Object.entries(missing).map(([year, c]) => [+year, c.n, c.missing]), local[0].untagged.map(r => [r.year, r.n, r.missing]));
+assert.ok(missing[2010].missing / missing[2010].n > 0.9, 'most 2010 records have no service tag');
 assert.deepEqual(options.facet, local[0].options.facet);
 assert.deepEqual(options.service, local[0].options.service);
 
@@ -125,4 +138,4 @@ assert.equal(toCsv([{ ...ordered[0], title: 'a "b", c\nd' }]).split('\r\n').slic
 assert.equal(exported.trimEnd().split('\r\n').length, ordered.length + 1);
 assert.ok(ordered.some(r => r.services.length > 1) && exported.includes('; '));
 
-console.log(`Hosted explorer counts match matched.csv, monthly.csv, service_matched.csv and ${queries.length} local explorer summaries for all 14,167 records.`);
+console.log(`Hosted explorer counts match matched.csv, monthly.csv, service_matched.csv and ${queries.length} local explorer summaries for all 22,588 records.`);

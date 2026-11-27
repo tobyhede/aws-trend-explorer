@@ -84,6 +84,11 @@ footer{margin-top:28px;padding-top:14px;border-top:2px solid var(--rule);font-si
 .panel rect.hit{fill:transparent}
 .panel rect.hit[data-level]{cursor:pointer}
 .panel rect.hit:hover+circle,.panel circle.selected{stroke:var(--focus);stroke-width:3}
+.chart line.period{stroke:var(--muted);stroke-dasharray:3 3}
+.panel rect.period{fill:var(--grid);opacity:.6}
+.chart text.period,.panel text.period{font-size:9px;fill:var(--muted)}
+th.period{text-align:center;font-weight:600;border-bottom:1px solid var(--grid)}
+th.period-start,th.period+th.period{border-left:1px dashed var(--grid)}
 .panel text.end{fill:var(--ink);font-weight:600;paint-order:stroke;stroke:var(--card);stroke-width:3px}
 .tip{position:fixed;z-index:10;pointer-events:none;max-width:22rem;padding:8px 10px;background:var(--card);color:var(--muted);border:1px solid var(--control);border-radius:4px;box-shadow:0 2px 8px rgb(0 0 0/.18);font-size:.82rem;line-height:1.35}
 .tip[hidden]{display:none}

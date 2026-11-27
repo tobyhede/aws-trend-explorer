@@ -19,7 +19,7 @@ def site_file(name):
     target=(SITE/name).resolve()
     return target if name and target.is_file() and SITE.resolve() in target.parents else None
 DEFAULT = HERE / 'announcements.duckdb'
-FIRST = date(2021, 1, 1)
+FIRST = date(2010, 1, 1)
 LAST = date(2026, 10, 28)
 FIELDS = 'announcement_date,title,service,release_type,enhancement_facets,primary_scope,scope_basis,title_stage,product_change_level,product_change_reason,product_change_basis,source_url,announcement_text'
 

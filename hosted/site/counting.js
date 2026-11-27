@@ -11,6 +11,14 @@ export const LEVELS = ['1', '2', '3', '4', '5', 'U', 'NA'];
 export const LEVEL_NAMES = { 1: 'Parameter change', 2: 'Capability refinement', 3: 'New capability',
   4: 'Major product expansion', 5: 'New product', U: 'Needs review', NA: 'Outside scale' };
 
+// The three analysis periods (GLOSSARY.md; substantive_trends/periods.py). The COVID period is counted in neither of the others.
+export const PERIODS = [
+  { name: 'pre-COVID', label: 'Pre-COVID', first: 2010, last: 2019 },
+  { name: 'COVID', label: 'COVID', first: 2020, last: 2021 },
+  { name: 'post-COVID', label: 'Post-COVID', first: 2022, last: 2026 },
+];
+export const periodOf = year => PERIODS.find(p => year >= p.first && year <= p.last);
+
 const isoDate = value => value instanceof Date ? value.toISOString().slice(0, 10) : String(value).slice(0, 10);
 
 /** Turn the public dataset's rows into records with split multi-valued fields. */
@@ -155,4 +163,20 @@ export function toCsv(records) {
   const lines = records.map(r => [r.date, r.title, r.services.join('; '), r.type, r.facets.join('|'), r.level, r.reason, r.basis, r.url]
     .map(value => cell(value ?? '')).join(','));
   return [FIELDS.join(','), ...lines].join('\r\n') + '\r\n';
+}
+
+/**
+ * Announcements, and those without a service tag ('unknown'), per year over the matched period, ignoring filters:
+ * {year: {n, missing}}. Most early records have no tag, so one service's counts are not comparable across periods.
+ */
+export function untagged(records, release) {
+  const result = {};
+  for (const year of years(release)) result[year] = { n: 0, missing: 0 };
+  for (const record of records) {
+    if (record.date < release.first || record.date > release.cutoff || !inMatchedPeriod(record, release)) continue;
+    const counts = result[record.date.slice(0, 4)];
+    counts.n++;
+    if (record.services.includes('unknown')) counts.missing++;
+  }
+  return result;
 }

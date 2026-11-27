@@ -21,7 +21,7 @@ def main():
     for q in queries:
         with duckdb.connect(str(serve.DEFAULT), read_only=True) as db:
             data = serve.overview(db, q)
-        results.append({key: data[key] for key in ['total', 'annual', 'product_annual', 'product_monthly', 'breakdown']})
+        results.append({key: data[key] for key in ['total', 'annual', 'product_annual', 'product_monthly', 'breakdown', 'untagged']})
     with duckdb.connect(str(serve.DEFAULT), read_only=True) as db:
         results[0]['options'] = serve.options(db)
         where, args = serve.filters({'service': 'amazon-s3'})

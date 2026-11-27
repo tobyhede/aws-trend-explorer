@@ -1,7 +1,7 @@
 // Page behaviour for the hosted explorer. All filtering and counting is in counting.js; this file only draws.
 import { parquetReadObjects } from './vendor/hyparquet/index.js';
 import { RELEASE, DATASET } from './release.js';
-import { LEVELS, LEVEL_NAMES, prepare, choices, months, summarize, select, sharePercent, tagTotals, toCsv } from './counting.js';
+import { LEVELS, LEVEL_NAMES, PERIODS, periodOf, prepare, choices, months, summarize, select, sharePercent, tagTotals, toCsv, untagged } from './counting.js';
 
 // serve.py marks the page when it runs from the release bundle, where saved announcement text can be read. The published site never has it.
 const LOCAL = document.documentElement.hasAttribute('data-local');
@@ -24,6 +24,7 @@ const finalMonthIsPartial = cutoffDay < new Date(Date.UTC(+lastMonth.slice(0, 4)
 const partialNote = month => finalMonthIsPartial && month === lastMonth ? ` (partial month, to ${dayMonth(RELEASE.cutoff)})` : '';
 
 let records = [];
+let missingTags = {}; // {year: {n, missing}}: announcements without a service tag, ignoring filters
 let summary = null;
 let active = {};     // the filter set the current summary was counted with
 let drill = {};      // {month, level} or {year, level}; empty when nothing is selected
@@ -60,12 +61,29 @@ function showTip(title, rows, x, y) {
   tip.style.top = Math.max(8, Math.min(y + 14, innerHeight - tip.offsetHeight - 8)) + 'px';
 }
 
+const percent = (part, whole) => whole ? Math.round(100 * part / whole) + '%' : '—';
+// Share of announcements without a service tag in a period's matched periods.
+function periodMissing(period) {
+  let n = 0, missing = 0;
+  for (let year = period.first; year <= period.last; year++) if (missingTags[year]) { n += missingTags[year].n; missing += missingTags[year].missing; }
+  return percent(missing, n);
+}
+const missingText = () => {
+  const parts = PERIODS.map(p => `${periodMissing(p)} of ${p.label} announcements (${p.first}–${p.last})`);
+  return `Service tags are missing on ${parts.slice(0, -1).join(', ')} and ${parts.at(-1)}`;
+};
+const NOT_COMPARABLE = "One service's counts are therefore not comparable across periods";
+
 const seriesName = series => series === 'total' ? 'All announcements' : levelLabel(series);
 
 // Small multiples: one panel per selected series, each on its own scale, because level 2 counts are about a hundred times level 5 counts.
 function drawAnnualTrend() {
   const years = summary.years;
   const shown = Array.from(el('annualLegend').querySelectorAll('input:checked'), input => input.value);
+  if (active.service) {
+    el('annualTrends').textContent = `${missingText()}. ${NOT_COMPARABLE}, so the yearly panels are not drawn for a single service.`;
+    return;
+  }
   if (!shown.length) {
     el('annualTrends').textContent = 'Select a series to see its trend.';
     return;
@@ -80,13 +98,21 @@ function drawAnnualTrend() {
       const y = top + plotHeight * (1 - t);
       return `<line class="grid" x1="${left}" y1="${y}" x2="${width - right}" y2="${y}"/><text x="${left - 6}" y="${y + 3.5}" text-anchor="end">${fmt(ceiling * t)}</text>`;
     }).join('');
+    // The middle period (COVID) is shaded; the key above the panels names all three.
+    const periods = PERIODS.map((p, index) => {
+      const first = years.findIndex(y => y.year === p.first), last = years.findLastIndex(y => y.year <= p.last);
+      if (index % 2 === 0 || first < 0 || last < 0) return '';
+      const x0 = first ? (xs[first] + xs[first - 1]) / 2 : left, x1 = last < years.length - 1 ? (xs[last] + xs[last + 1]) / 2 : width - right;
+      return `<rect class="period" x="${x0.toFixed(2)}" y="${top}" width="${(x1 - x0).toFixed(2)}" height="${plotHeight}"/>`;
+    }).join('');
+    const labelled = new Set([years[0].year, PERIODS[1].first, years.at(-1).year]);
     const marks = years.map((y, i) => {
       const drillable = series !== 'total' && counts[i] ? ` data-level="${series}"` : '';
       const selected = drill.year === y.year && drill.level === series ? ' class="selected"' : '';
-      return `<rect class="hit" data-series="${series}" data-year="${y.year}" data-count="${counts[i]}"${drillable} x="${(xs[i] - band / 2).toFixed(2)}" y="0" width="${band.toFixed(2)}" height="${height}"/><circle${selected} cx="${xs[i].toFixed(2)}" cy="${ys[i].toFixed(2)}" r="4"/><text x="${xs[i].toFixed(2)}" y="${height - 6}" text-anchor="middle">${y.year}</text>`;
+      return `<rect class="hit" data-series="${series}" data-year="${y.year}" data-count="${counts[i]}"${drillable} x="${(xs[i] - band / 2).toFixed(2)}" y="0" width="${band.toFixed(2)}" height="${height}"/><circle${selected} cx="${xs[i].toFixed(2)}" cy="${ys[i].toFixed(2)}" r="3"/>${labelled.has(y.year) ? `<text x="${xs[i].toFixed(2)}" y="${height - 6}" text-anchor="middle">${y.year}</text>` : ''}`;
     }).join('');
-    const summaryText = `${seriesName(series)}, 1 January to ${dayMonth(RELEASE.cutoff)}: ` + years.map((y, i) => `${y.year} ${fmt(counts[i])}`).join(', ');
-    return `<div class="panel"><h3>${esc(seriesName(series))}</h3><svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(summaryText)}">${grid}
+    const summaryText = `${seriesName(series)}, 1 January to ${dayMonth(RELEASE.cutoff)}: ` + years.map((y, i) => `${y.year} ${fmt(counts[i])}`).join(', ') + '. ' + PERIODS.map(p => `${p.label} period ${p.first}–${p.last}`).join(', ') + '.';
+    return `<div class="panel"><h3>${esc(seriesName(series))}</h3><svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(summaryText)}">${grid}${periods}
       <polyline points="${xs.map((x, i) => x.toFixed(2) + ',' + ys[i].toFixed(2)).join(' ')}"/>${marks}
       <text class="end" x="${width - right}" y="${Math.max(10, ys.at(-1) - 9).toFixed(2)}" text-anchor="end">${fmt(counts.at(-1))}</text></svg></div>`;
   }).join('');
@@ -149,7 +175,9 @@ function drawAnnual() {
   drawCompare();
   drawAnnualTrend();
   const years = summary.years;
-  const head = years.map(y => `<th scope="col">${y.year}</th>`).join('');
+  const head = years.map(y => `<th scope="col"${PERIODS.some(p => p.first === y.year) && y !== years[0] ? ' class="period-start"' : ''}>${y.year}</th>`).join('');
+  const periodHead = PERIODS.map(p => [p, years.filter(y => periodOf(y.year) === p).length]).filter(([, n]) => n)
+    .map(([p, n]) => `<th scope="colgroup" colspan="${n}" class="period">${esc(p.label)} ${p.first}–${p.last}</th>`).join('');
   const rows = LEVELS.map(level => `<tr><th scope="row">${esc(levelLabel(level))}</th>` + years.map(y => {
     const n = summary.annual[y.year][level] || 0;
     if (!n) return '<td>0</td>';
@@ -157,8 +185,8 @@ function drawAnnual() {
     return `<td><button type="button" data-year="${y.year}" data-level="${level}" aria-pressed="${pressed}" aria-label="${y.year}, ${esc(LEVEL_NAMES[level])}: ${fmt(n)} announcements. List them.">${fmt(n)}</button></td>`;
   }).join('') + '</tr>').join('');
   const change = y => y.change == null ? '—' : (y.change >= 0 ? '+' : '−') + Math.abs(y.change * 100).toFixed(1) + '%';
-  el('annual').innerHTML = `<table><caption class="note">1 January to ${dayMonth(RELEASE.cutoff)} in each year</caption>
-    <thead><tr><th scope="col">Magnitude level</th>${head}</tr></thead><tbody>${rows}
+  el('annual').innerHTML = `<table><caption class="note">1 January to ${dayMonth(RELEASE.cutoff)} in each year.${active.service ? ' ' + esc(missingText()) + '.' : ''}</caption>
+    <thead><tr><td></td>${periodHead}</tr><tr><th scope="col">Magnitude level</th>${head}</tr></thead><tbody>${rows}
     <tr class="sum"><th scope="row">In-scale total (levels 1–5 and needs review)</th>${years.map(y => `<td>${fmt(y.inScale)}</td>`).join('')}</tr>
     <tr><th scope="row">In-scale change on the previous year</th>${years.map(y => `<td>${change(y)}</td>`).join('')}</tr>
     <tr><th scope="row">All announcements in the matched period</th>${years.map(y => `<td>${fmt(y.matched)}</td>`).join('')}</tr>
@@ -197,7 +225,10 @@ function drawMonthly() {
       const label = `${monthName(month)}${partialNote(month)}, ${LEVEL_NAMES[level]}: ${fmt(n)} announcements, ${percent.toFixed(1)}% of the month`;
       svg += `<rect class="seg lv${level}${selected ? ' selected' : ''}" tabindex="-1" role="button" data-month="${month}" data-level="${level}" x="${x.toFixed(2)}" y="${bottom.toFixed(2)}" width="${Math.max(1, step - 2).toFixed(2)}" height="${h.toFixed(2)}" aria-label="${esc(label)}. List them."><title>${esc(label)}</title></rect>`;
     });
-    if (month.endsWith('-01')) svg += `<text x="${x}" y="${top + height + 18}">${month.slice(0, 4)}</text>`;
+    if (month.endsWith('-01') && (step >= 4 || PERIODS.some(p => p.first === +month.slice(0, 4)) || index === 0)) svg += `<text x="${x}" y="${top + height + 18}">${month.slice(0, 4)}</text>`;
+    const starts = PERIODS.find(p => month === `${p.first}-01`);
+    if (starts && index) svg += `<line class="period" x1="${x.toFixed(2)}" y1="${top}" x2="${x.toFixed(2)}" y2="${top + height}"/><text class="period" x="${(x + 4).toFixed(2)}" y="${top + 11}">${esc(starts.label)}</text>`;
+    else if (starts) svg += `<text class="period" x="${(x + 4).toFixed(2)}" y="${top + 11}">${esc(starts.label)}</text>`;
     if (partialNote(month)) svg += `<rect class="partial" x="${(x - 2).toFixed(2)}" y="${top}" width="${(step + 2).toFixed(2)}" height="${height + 2}"/>`;
   });
   if (finalMonthIsPartial) svg += `<text x="${width - right}" y="291" text-anchor="end">Dashed outline: ${monthName(lastMonth)} is partial and ends on ${dayMonth(RELEASE.cutoff)}</text>`;
@@ -291,7 +322,7 @@ function refresh() {
   drill = {};
   active = filters();
   summary = summarize(records, active, RELEASE);
-  el('total').innerHTML = `<strong>${fmt(summary.total)}</strong> of ${fmt(records.length)} announcements match the filters.`;
+  el('total').innerHTML = `<strong>${fmt(summary.total)}</strong> of ${fmt(records.length)} announcements match the filters.` + (active.service ? ` ${esc(missingText())}. ${esc(NOT_COMPARABLE)}.` : '');
   drawAnnual();
   drawMonthly();
   drawBreakdown();
@@ -336,6 +367,7 @@ function wire() {
     `<label><input type="checkbox" value="${series}" ${series === 'total' ? '' : 'checked'}>${esc(seriesName(series))}</label>`
   ).join('');
   el('annualLegend').onchange = drawAnnualTrend;
+  el('periodKey').textContent = `Shaded: the ${PERIODS[1].label} period, ${PERIODS[1].first}–${PERIODS[1].last}. Before it, the ${PERIODS[0].label} period (${PERIODS[0].first}–${PERIODS[0].last}); after it, the ${PERIODS[2].label} period (${PERIODS[2].first}–${PERIODS[2].last}).`;
   // The site stores nothing in the browser, so a theme choice lasts until the page is reloaded.
   el('theme').onchange = () => { document.documentElement.dataset.theme = el('theme').value; };
   el('split').onchange = drawBreakdown;
@@ -412,6 +444,7 @@ async function start() {
   const response = await fetch(DATASET);
   if (!response.ok) throw new Error(`The public dataset could not be loaded (${response.status}).`);
   records = prepare(await parquetReadObjects({ file: await response.arrayBuffer() }));
+  missingTags = untagged(records, RELEASE);
   el('coverage').textContent = `${fmt(records.length)} announcements, ${longDate(RELEASE.first)} to ${longDate(RELEASE.cutoff)}. Release ${longDate(RELEASE.date)}.`;
   wire();
   refresh();
