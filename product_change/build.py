@@ -32,8 +32,9 @@ def build():
     with duckdb.connect(str(dbpath)) as db:
         rows=db.sql("""select source_url,release_type,primary_scope,enhancement_facets,title,announcement_text
             from announcements where primary_scope is not null order by source_url""").fetchall()
-        assert {BASE+k for k in REVIEWED} <= {r[0] for r in rows}
-        source_decisions=load_review(rows, {BASE+k:v for k,v in REVIEWED.items()})
+        recent_urls={r[0] for r in rows}
+        recent_reviewed={BASE+k:v for k,v in REVIEWED.items() if BASE+k in recent_urls}
+        source_decisions=load_review(rows, recent_reviewed)
         decisions=[(r[0],*classify(r,source_decisions)) for r in rows]
         from historical import load_historical, verify_recent_baseline
         verify_recent_baseline(decisions)
@@ -41,7 +42,11 @@ def build():
         decisions.extend((url, *rating) for url, rating in historical.items())
         from early_collect import COLUMNS, COHORT, parse
         from early_label import load_early
+        from early_label import apply_corrections
         early = load_early()  # replays saved readings; never calls a model
+        early_reviewed = {k: v for k, v in REVIEWED.items() if BASE + k in early}
+        assert len(recent_reviewed) + len(early_reviewed) == len(REVIEWED), 'a correction names a record outside the reviewed cohorts'
+        early = apply_corrections(early, early_reviewed)
         decisions.extend((url, *rating) for url, rating in early.items())
         assert len(decisions) == 22588 and len({r[0] for r in decisions}) == 22588
         db.begin()

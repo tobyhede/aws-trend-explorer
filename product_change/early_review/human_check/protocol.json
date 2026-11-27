@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-27",
+  "seed": "728d90bf01246877339b67a2222a19deab91cc9e54c69f48",
+  "size": 40,
+  "population": 459,
+  "method": "SHA-256 of seed plus URL ranks the 2010\u20132020 records whose final level is 4 or 5; the first 40 are read.",
+  "sample_sha256": "8619f3ca9f6d97414dbb2480e53ebb58a8f443b8164241c70b31d50be61e4bb5"
+}

@@ -480,6 +480,49 @@ def the_interpretation_may_use_only_numbers_from_the_tables():
         assert '4.9' in str(error), error
 
 
+def final_labels(levels):
+    return {f'https://aws.amazon.com/about-aws/whats-new/2015/01/r{i:03d}/': {
+        'index': i, 'date': '2015-01-01', 'title': f'T{i}', 'text': f'Text {i}.', 'level': level, 'reason': f'Reason {i}.',
+        'confidence': 'high', 'basis': 'early_review: two claude-fable-5-2 readers agreed'}
+        for i, level in enumerate(levels)}
+
+
+@check
+def the_human_check_draws_forty_level_four_and_five_records_by_seed():
+    from early_human import draw
+    final = final_labels(['4', '5', '3', '2', 'NA'] * 20)
+    sample = draw(final, 'seed-a', size=10)
+    assert len(sample) == 10 and {r['level'] for r in sample} <= {'4', '5'}
+    assert draw(final, 'seed-a', size=10) == sample and draw(final, 'seed-b', size=10) != sample
+    assert set(sample[0]) >= {'url', 'title', 'text', 'level', 'reason'}
+
+
+@check
+def human_readings_are_counted_apart_and_must_be_complete():
+    from early_human import score_readings
+    sample = [{'url': f'u{i}', 'level': '4'} for i in range(3)]
+    result = score_readings(sample, {'u0': ('agree', ''), 'u1': ('disagree', 'reads as a level 3 addition'), 'u2': ('agree', '')})
+    assert (result['agree'], result['disagree'], result['read']) == (2, 1, 3) and result['disagreements'][0]['note']
+    assert 'maintainer' in result['interpretation'] and 'separate' in result['interpretation']
+    for readings in [{'u0': ('agree', '')}, {'u0': ('yes', ''), 'u1': ('agree', ''), 'u2': ('agree', '')}]:
+        try:
+            score_readings(sample, readings)
+            raise AssertionError('incomplete or invalid readings must be refused')
+        except ValueError:
+            pass
+
+
+@check
+def a_correction_replaces_the_label_and_keeps_the_original_in_the_basis():
+    from early_label import apply_corrections
+    early = {'https://aws.amazon.com/about-aws/whats-new/2015/01/a/': ('5', 'A new offering.', 'early_review: two claude-fable-5-2 readers agreed'),
+             'https://aws.amazon.com/about-aws/whats-new/2015/01/b/': ('4', 'A new model.', 'early_review: two claude-fable-5-2 readers agreed')}
+    corrected = apply_corrections(early, {'2015/01/a/': ('3', 'Adds an operation to an existing service.'), '2025/01/other/': ('1', 'x')})
+    a = corrected['https://aws.amazon.com/about-aws/whats-new/2015/01/a/']
+    assert a[:2] == ('3', 'Adds an operation to an existing service.') and 'correction' in a[2] and 'original level 5' in a[2], a
+    assert corrected['https://aws.amazon.com/about-aws/whats-new/2015/01/b/'] == early['https://aws.amazon.com/about-aws/whats-new/2015/01/b/']
+
+
 def main():
     failed = 0
     for function in CHECKS:

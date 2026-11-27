@@ -265,6 +265,21 @@ def load_early():
     return result
 
 
+SITE_BASE = 'https://aws.amazon.com/about-aws/whats-new/'
+
+
+def apply_corrections(early, corrections):
+    """Apply recorded corrections ({path: (level, reason)}, as in audit_corrections.json) to 2010–2020 decisions.
+    The saved readings keep the original prediction; the basis names the original level."""
+    result = dict(early)
+    for path, (level, reason) in corrections.items():
+        url = SITE_BASE + path
+        if url in result:
+            original = result[url]
+            result[url] = (level, reason, f'{original[2]}; maintainer correction (original level {original[0]})')
+    return result
+
+
 def check(target):
     root, run = targets()[target]
     name = 'reference.json' if target == 'reference' else 'final.json'
