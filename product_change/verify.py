@@ -19,11 +19,12 @@ def verify_public_dataset(db):
     schema={name:kind for name,kind,*_ in db.execute('describe select * from read_parquet(?)',[file]).fetchall()}
     assert list(schema)==FIELDS and len(FIELDS)==9 and 'announcement_text' not in schema
     assert schema['announcement_date']=='DATE' and all(kind=='VARCHAR' for name,kind in schema.items() if name!='announcement_date')
-    assert db.execute('select count(*),count(distinct source_url) from read_parquet(?)',[file]).fetchone()==(14167,14167)
+    assert db.execute('select count(*),count(distinct source_url) from read_parquet(?)',[file]).fetchone()==(22588,22588)
+    assert db.execute("select min(announcement_date) from read_parquet(?)",[file]).fetchone()[0].year==2010
+    # A record with no service tag carries 'unknown', never an empty or missing tag.
+    assert db.execute("select count(*) from read_parquet(?) where service is null or service=''",[file]).fetchone()[0]==0
     columns=','.join(FIELDS)
-    # The public dataset still describes the 25 November 2026 release (2021–2026) until stage two rebuilds it.
-    released="(select * from announcements where announcement_date >= '2021-01-01')"
-    for left,right in [(released,'read_parquet(?)'),('read_parquet(?)',released)]:
+    for left,right in [('announcements','read_parquet(?)'),('read_parquet(?)','announcements')]:
         assert db.execute(f'select count(*) from (select {columns} from {left} except select {columns} from {right})',[file]).fetchone()[0]==0
     text_fields=" || ' ' || ".join(f"coalesce(p.{name},'')" for name in FIELDS if name not in ['announcement_date','title'])
     leaked=db.execute(f"""select count(*) from read_parquet(?) p join announcements a using (source_url)

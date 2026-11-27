@@ -12,7 +12,7 @@
 <main class="doc">
 <nav aria-label="Site"><a href="index.html">Hosted explorer</a><a href="method.html">Method</a><a href="historical-audit.html">Historical audit</a><a href="fresh-audit.html">Fresh-sample audit</a><a href="data-guide.html" aria-current="page">Data guide</a><a href="release-notes.html">Release notes</a></nav>
 <h1>Read the public dataset</h1>
-<p>Release: 25 November 2026. The public dataset is one Parquet file, <a href="data/aws-announcements-2026-11-25.parquet" download>aws-announcements-2026-11-25.parquet</a>. It holds 14,167 records, one for each collected AWS announcement from 1 January 2021 to 28 October 2026. The hosted explorer reads this same file.</p>
+<p>Release: 27 November 2026. The public dataset is one Parquet file, <a href="data/aws-announcements-2026-11-27.parquet" download>aws-announcements-2026-11-27.parquet</a>. It holds 22,588 records, one for each collected AWS announcement from 1 January 2010 to 28 October 2026. The hosted explorer reads this same file.</p>
 <p>The file does not contain the text of any announcement. Follow a record's <code>source_url</code> to read the announcement on the AWS website.</p>
 
 <h2>Fields</h2>
@@ -60,19 +60,19 @@
 <h2>Query the file yourself</h2>
 <p>Any tool that reads Parquet keeps the column types. For example, in DuckDB:</p>
 <pre><code>select year(announcement_date) as year, product_change_level as level, count(*) as announcements
-from 'aws-announcements-2026-11-25.parquet'
+from 'aws-announcements-2026-11-27.parquet'
 where strftime(announcement_date, '%m-%d') &lt;= '10-28'
 group by all order by all;</code></pre>
 <p>That query gives the hosted explorer's matched-period table. To count by service, split the tags first: <code>unnest(string_split(service, '; '))</code>.</p>
 
 <h2>Cite a release</h2>
-<p>The file name carries the release date. Each release keeps its own file at its own address, so a citation of <code>aws-announcements-2026-11-25.parquet</code> keeps pointing at the same data after later releases.</p>
+<p>The file name carries the release date. Each release keeps its own file at its own address, so a citation of <code>aws-announcements-2026-11-27.parquet</code> keeps pointing at the same data after later releases.</p>
 
 <h2>Interpret trends with the audits</h2>
 <p>Announcement volume measures publication activity. Preview, general availability and regional rollout can each produce a separate announcement of the same feature. Seasonal publication patterns and partial periods also affect apparent velocity. Unknown service tags and differences in collection coverage can affect service comparisons.</p>
 <p>All levels are AI judgments. The <a href="historical-audit.html">historical audit</a> and the <a href="fresh-audit.html">fresh-sample audit</a> report how often they agree with independent AI references, and the <a href="release-notes.html">release notes</a> list the limits that remain. Trends in levels 4 and 5 are provisional.</p>
 <footer>
-  <p>Release 25 November 2026. Collection cutoff 28 October 2026.</p>
+  <p>Release 27 November 2026. Collection cutoff 28 October 2026.</p>
   <p>The magnitude levels, reasons and bases are classifications by Toby Hede, offered under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noreferrer">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a>. To reuse them, credit “Toby Hede, AWS announcement explorer” and link to this site. Announcement titles and the linked announcement pages remain the property of Amazon Web Services and are outside that licence.</p>
   <p>This site is not affiliated with, sponsored by or endorsed by Amazon Web Services. It sets no cookies and loads nothing from other sites.</p>
 </footer>

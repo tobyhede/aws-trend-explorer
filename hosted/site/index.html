@@ -22,7 +22,7 @@
   <a href="data-guide.html">Data guide</a>
   <a href="release-notes.html">Release notes</a>
   <label class="theme">Theme <select id="theme"><option value="">Auto</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
-  <a id="download" href="data/aws-announcements-2026-11-25.parquet" download>Download the dataset (Parquet)</a>
+  <a id="download" href="data/aws-announcements-2026-11-27.parquet" download>Download the dataset (Parquet)</a>
 </nav>
 
 <section class="limits" aria-labelledby="limitsTitle">
@@ -31,6 +31,8 @@
     <li>Every magnitude level is an AI judgment, audited against AI references and not validated by people.</li>
     <li>The collection has not been proven to hold every AWS announcement.</li>
     <li>Trends in levels 4 and 5 are provisional: the audits found too few of them to measure.</li>
+    <li>Labels for 2010–2020 come from a later reading protocol that rates higher. On 400 earlier records read again under it, 20.8% were level 3, against 14.0% as recorded. Compare level shares across the pre-COVID, COVID and post-COVID periods with that in mind.</li>
+    <li>Most announcements before 2015 have no service tag, so one service's counts cannot be compared across periods.</li>
     <li>The final year stops at the collection cutoff, <span data-cutoff>28 October 2026</span>, so 2026 and its last month are partial.</li>
   </ul>
 </section>
@@ -70,6 +72,7 @@
   <h2 id="annualTitle">Every year by magnitude level, matched period</h2>
   <p>1 January to <span data-cutoff-day>28 October</span> in each year.</p>
   <fieldset class="series-picker"><legend>Show panels</legend><div id="annualLegend"></div></fieldset>
+  <p class="note" id="periodKey"></p>
   <div id="annualTrends"></div>
   <p>Each panel has its own scale, so compare shapes across panels, not heights. Select a point, or a count in the table, to list its announcements.</p>
   <div class="scroll" id="annual"></div>

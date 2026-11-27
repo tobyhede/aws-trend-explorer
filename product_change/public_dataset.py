@@ -7,7 +7,7 @@ from pathlib import Path
 import duckdb
 
 HERE = Path(__file__).resolve().parent
-RELEASE_DATE = '2026-11-25'
+RELEASE_DATE = '2026-11-27'
 COLLECTION_CUTOFF = '2026-10-28'
 FIELDS = ['announcement_date', 'title', 'service', 'release_type', 'enhancement_facets',
           'product_change_level', 'product_change_reason', 'product_change_basis', 'source_url']
@@ -26,7 +26,7 @@ def build():
             TO ? (FORMAT parquet, COMPRESSION snappy,
             KV_METADATA {{release_date: '{RELEASE_DATE}', collection_cutoff: '{COLLECTION_CUTOFF}'}})""", [str(PATH)])
         records = db.execute('select count(*) from read_parquet(?)', [str(PATH)]).fetchone()[0]
-    assert records == 14167
+    assert records == 22588
     if HOSTED_DATA.parent.is_dir():
         HOSTED_DATA.mkdir(exist_ok=True)
         shutil.copyfile(PATH, HOSTED_DATA / NAME)
