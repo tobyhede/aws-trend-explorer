@@ -375,6 +375,52 @@ def the_reference_reading_is_one_blind_opus_reading_per_hidden_record():
     assert len(result) == 30 and {r['level'] for r in result.values()} == {'1'} and result['https://x/0']['model'] == 'claude-opus-5-5'
 
 
+@check
+def weighted_agreement_matches_a_hand_worked_example():
+    from early_score import weighted_agreement
+    # A: N=100, n=10, 5 agree; B: N=900, n=10, 9 agree. Weighted 0.1*0.5 + 0.9*0.9 = 0.86 (unweighted 14/20 = 0.70).
+    # Variance with finite-population correction: 0.1²·0.25/10·0.9 + 0.9²·0.09/10·(890/900) = 0.000225 + 0.0072090 = 0.0074340,
+    # so the standard error is 0.086221 and the 95% interval 0.86 ± 0.16899 = 0.6910 to 1.0290, capped at 1.
+    p, (low, high) = weighted_agreement({'A': (100, 10, 5), 'B': (900, 10, 9)})
+    assert abs(p - 0.86) < 1e-9, p
+    assert abs(low - 0.69101) < 1e-4 and high == 1.0, (low, high)
+
+
+@check
+def audit_scores_agreement_per_year_per_level_and_weighted():
+    from early_score import audit
+    sample = [{'index': i, 'date': f'{y}-03-01', 'url': f'u{y}{i}'} for i, y in enumerate([2010] * 2 + [2011] * 2)]
+    final = {'u20100': {'level': '3'}, 'u20101': {'level': '2'}, 'u20112': {'level': '1'}, 'u20113': {'level': 'NA'}}
+    reference = {'u20100': {'level': '3'}, 'u20101': {'level': '3'}, 'u20112': {'level': '1'}, 'u20113': {'level': 'NA'}}
+    metrics = audit(sample, reference, final, {'2010': 10, '2011': 30})
+    assert metrics['by_year']['2010']['exact'] == 1 and metrics['by_year']['2011']['exact'] == 2
+    assert metrics['exact_agreement'] == 3 and metrics['sample_size'] == 4
+    assert abs(metrics['weighted_agreement'] - (0.25 * 0.5 + 0.75 * 1.0)) < 1e-9
+    level3 = metrics['by_level']['3']
+    assert (level3['correct'], level3['predicted'], level3['reference']) == (1, 1, 2)
+    assert metrics['confusion'] == {'1 -> 1': 1, '2 -> 3': 1, '3 -> 3': 1, 'NA -> NA': 1}
+    assert 'agreement between AI readings' in metrics['interpretation']
+
+
+@check
+def bridge_scores_a_confusion_table_with_intervals_per_pass_and_combined():
+    from early_score import bridge_scores
+    sample = [{'index': i, 'pass': p, 'url': f'u{i}'} for i, p in enumerate(['2025-2026'] * 3 + ['2021-2024'] * 2)]
+    recorded = {'u0': '2', 'u1': '3', 'u2': 'NA', 'u3': '2', 'u4': 'U'}
+    new = {'u0': {'level': '3'}, 'u1': {'level': '3'}, 'u2': {'level': 'NA'}, 'u3': {'level': '2'}, 'u4': {'level': '2'}}
+    scores = bridge_scores(sample, new, recorded)
+    recent, older, combined = scores['2025-2026'], scores['2021-2024'], scores['combined']
+    assert (recent['n'], recent['exact'], older['n'], older['exact'], combined['n'], combined['exact']) == (3, 2, 2, 1, 5, 3)
+    assert recent['confusion'] == {'2 -> 3': 1, '3 -> 3': 1, 'NA -> NA': 1}
+    assert combined['confusion'] == {'2 -> 2': 1, '2 -> 3': 1, '3 -> 3': 1, 'NA -> NA': 1, 'U -> 2': 1}
+    low, high = combined['wilson_95']
+    assert low < 0.6 < high
+    assert combined['levels']['2'] == {'recorded': 2, 'new': 2, 'recorded_wilson_95': combined['levels']['2']['recorded_wilson_95'],
+                                       'new_wilson_95': combined['levels']['2']['new_wilson_95']}
+    assert combined['levels']['U']['recorded'] == 1 and combined['levels']['U']['new'] == 0
+    assert combined['two_to_three'] == 1 and combined['three_to_two'] == 0
+
+
 def main():
     failed = 0
     for function in CHECKS:
