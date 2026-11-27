@@ -1,6 +1,7 @@
 """Deterministic SVG charts from exported, source-reviewed DuckDB counts."""
 import csv
 import html
+from datetime import date
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -62,7 +63,8 @@ def charts():
     chart('matched.csv', 'annual.svg', 'year', 'AWS product-change magnitude · matched annual periods', f'January 1–October 28 each year · {first}–{last} · announcement counts')
     chart('annual.csv', 'annual_full.svg', 'year', 'AWS product-change magnitude · calendar-year totals', f'{first}–{int(last) - 1} complete calendar periods; {last} ends October 28 and is not directly comparable')
     first_month, _ = span('monthly.csv', 'month')
-    chart('monthly.csv', 'monthly.svg', 'month', 'AWS product-change magnitude · monthly publication volume', f'{first_month}–October 28, {last} · last month is partial · announcement counts')
+    opening = date.fromisoformat(first_month + '-01').strftime('%B %Y')
+    chart('monthly.csv', 'monthly.svg', 'month', 'AWS product-change magnitude · monthly publication volume', f'{opening}–October 28, {last} · last month is partial · announcement counts')
 
 
 if __name__ == '__main__':

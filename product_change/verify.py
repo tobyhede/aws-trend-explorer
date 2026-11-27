@@ -52,11 +52,12 @@ def verify():
         assert len(expected)==22588
         verify_recent_baseline(decisions)
         from historical import load_historical
-        from early_label import load_early
+        from early_label import load_early, apply_corrections
         decision_map={r[0]:tuple(r[1:]) for r in decisions}
         assert all(decision_map[url]==row for url,row in load_historical(db).items()), 'a 2021–2024 decision changed'
         early=load_early()
-        assert len(early)==8421 and all(decision_map[url]==row for url,row in early.items()), 'a 2010–2020 decision does not replay its saved evidence'
+        early=apply_corrections(early,{k:v for k,v in REVIEWED.items() if BASE+k in early})
+        assert len(early)==8421 and all(decision_map[url]==row for url,row in early.items()), 'a 2010–2020 decision does not replay its saved evidence and recorded corrections'
         assert db.sql("select count(*) from announcements where announcement_date < '2021-01-01'").fetchone()[0]==8421
         for column in ['primary_scope','title_stage','release_type','enhancement_facets','legacy_category','magnitude','affected_workload','magnitude_reason','magnitude_review']:
             assert db.sql(f"select count(*) from announcements where announcement_date < '2021-01-01' and {column} is not null").fetchone()[0]==0, column
